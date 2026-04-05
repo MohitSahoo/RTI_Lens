@@ -1,0 +1,59 @@
+{
+  "Ministry of Finance": [
+    "Finance Ministry", "Min. of Finance", "MoF", "Department of Revenue",
+    "Department of Economic Affairs", "DEA", "Dept. of Revenue"
+  ],
+  "Ministry of Home Affairs": [
+    "Home Ministry", "MHA", "Home Affairs", "Min. of Home Affairs"
+  ],
+  "Ministry of External Affairs": [
+    "MEA", "External Affairs Ministry", "Foreign Ministry"
+  ],
+  "Ministry of Health and Family Welfare": [
+    "Health Ministry", "MoHFW", "MOHFW", "Dept. of Health", "Department of Health"
+  ],
+  "Ministry of Education": [
+    "Education Ministry", "HRD Ministry", "MHRD", "Min. of Education",
+    "Department of School Education", "Department of Higher Education"
+  ],
+  "Ministry of Railways": [
+    "Indian Railways", "Railway Ministry", "Railway Board", "MoR"
+  ],
+  "Ministry of Defence": [
+    "Defence Ministry", "MoD", "Ministry of Defense", "Dept. of Defence"
+  ],
+  "Ministry of Law and Justice": [
+    "Law Ministry", "MoLJ", "Department of Legal Affairs", "Legislative Department"
+  ],
+  "Ministry of Personnel, Public Grievances and Pensions": [
+    "DOPT", "DoPT", "Dept. of Personnel", "Personnel Ministry",
+    "Department of Personnel and Training"
+  ],
+  "Ministry of Information and Broadcasting": [
+    "I&B Ministry", "MIB", "Information Ministry", "Broadcasting Ministry"
+  ],
+  "Ministry of Environment, Forest and Climate Change": [
+    "MoEFCC", "Environment Ministry", "Forest Ministry", "MOEF"
+  ],
+  "Ministry of Agriculture and Farmers Welfare": [
+    "Agriculture Ministry", "MoA", "Dept. of Agriculture"
+  ],
+  "Ministry of Commerce and Industry": [
+    "Commerce Ministry", "DPIIT", "DIPP", "Dept. of Commerce"
+  ],
+  "Ministry of Corporate Affairs": [
+    "MCA", "Corporate Affairs Ministry", "Registrar of Companies", "ROC"
+  ],
+  "Ministry of Labour and Employment": [
+    "Labour Ministry", "MoLE", "Dept. of Labour"
+  ],
+  "Central Bureau of Investigation": [
+    "CBI", "Bureau of Investigation"
+  ],
+  "Income Tax Department": [
+    "IT Dept", "Income Tax", "CBDT", "Central Board of Direct Taxes"
+  ],
+  "Central Board of Indirect Taxes and Customs": [
+    "CBIC", "Customs", "GST", "Central Excise"
+  ]
+}

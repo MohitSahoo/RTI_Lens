@@ -1,0 +1,14 @@
+# FastAPI Backend Dependencies
+fastapi==0.109.2
+uvicorn[standard]==0.27.1
+slowapi==0.1.9
+google-genai
+
+# Already installed from Phase 1
+sqlalchemy==2.0.30
+psycopg2-binary==2.9.9
+python-dotenv==1.0.1
+pandas==2.2.2
+scikit-learn==1.4.2
+rank-bm25==0.2.2
+nltk==3.8.1
