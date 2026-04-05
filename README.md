@@ -33,14 +33,14 @@ The engine can predict whether an appeal will be allowed or denied, highlight sp
 ### 1. Robust Data Processing & ETL Pipeline
 We replaced the need to manually read CIC files by converting 712 raw unformatted TXT case files into highly structured PostgreSQL representations via Python algorithms targeting Regular Expressions (`re`) and NLP (`spaCy`).
 
-### 2. Hierarchical Retrieval Engine 
+### 2. Hierarchical Retrieval Engine
 Instead of relying strictly on flat keyword search, we deployed a custom implementation of **VectifyAI's PageIndex**. We parse standard CIC text formats into markdown, extract headers recursively, and construct JSON representation trees of every single order. This allows our Q&A pipeline to isolate "Commission Findings" explicitly without confusing it with the initial "Information Sought."
 
 ### 3. Machine Learning Predictor
-Trained a Scikit-Learn `RandomForestClassifier` utilizing TF-IDF embeddings concatenated with Scaled temporal identifiers. 
+Trained a Scikit-Learn `RandomForestClassifier` utilizing TF-IDF embeddings concatenated with Scaled temporal identifiers.
 - Determines historical likelihood of a case being won based purely on text, section cited, and ministry.
 
-### 4. Zero-Trust Generative Q&A 
+### 4. Zero-Trust Generative Q&A
 Employs Google Gemini (`gemini-flash-lite-latest`) combined with a two-step agentic validation pass:
 1. Agent answers user question leveraging context from the BM25/PageIndex pipeline.
 2. The agent verifies its own response to enforce "faithfulness" back to the underlying retrieved CIC source document, virtually eliminating hallucinations.
@@ -110,7 +110,7 @@ If setting up the infrastructure from scratch, scripts must be run in exact orde
 
 ## 🔌 API Catalog
 
-**API Base**: `http://localhost:8000`  
+**API Base**: `http://localhost:8000`
 **Swagger Docs Built-in**: `http://localhost:8000/docs`
 
 | Method | Route | Auth Req | Payload / Purpose |
