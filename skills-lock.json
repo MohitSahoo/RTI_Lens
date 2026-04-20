@@ -16,6 +16,11 @@
       "sourceType": "github",
       "computedHash": "72e9ab72627e4fd8ed26a582e82309a98ecdc4f6e1c99418430ac05682c9e91d"
     },
+    "technical-writer": {
+      "source": "onewave-ai/claude-skills",
+      "sourceType": "github",
+      "computedHash": "91f95ce88d7f311aa1eb1ca00e2dbfe629383c00a7bf076effb0e3af9e051b76"
+    },
     "token-efficiency": {
       "source": "delphine-l/claude_global",
       "sourceType": "github",
