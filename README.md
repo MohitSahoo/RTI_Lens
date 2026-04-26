@@ -57,6 +57,21 @@ cp .env.example .env
 - Frontend: http://localhost:8501
 - Features: Q&A, Appeal Drafting, Outcome Prediction, Analytics, Knowledge Graph
 
+## Deployment
+
+**Streamlit Cloud:**
+1. Fork/push repo to GitHub
+2. Go to [share.streamlit.io](https://share.streamlit.io)
+3. Deploy `streamlit_app.py`
+4. Add secret in dashboard: `API_BASE_URL = "https://your-backend-url.com"`
+5. App auto-deploys on push
+
+**Backend (Render/Railway/Fly.io):**
+- Deploy FastAPI backend first
+- Set environment variables from `.env.example`
+- Ensure PostgreSQL database accessible
+- Note backend URL for Streamlit config
+
 ## Secrets
 
 - Use `.env.example` as the only committed template.
