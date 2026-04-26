@@ -10,3 +10,19 @@ env/
 
 .agents/
 pageindex_lib/
+
+# Generated data files (users build locally)
+data/*.pkl
+data/*.csv
+data/cic_orders_txt/*
+!data/cic_orders_txt/.gitkeep
+!data/cic_orders_txt/EXAMPLE_*.txt
+data/cic_orders_md/*
+!data/cic_orders_md/.gitkeep
+data/pageindex_trees/*
+!data/pageindex_trees/.gitkeep
+data/order_number_mapping.json
+data/dashboard_graph.json
+data/knowledge_graph.json
+data/knowledge_graph.pkl
+

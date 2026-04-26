@@ -29,13 +29,17 @@ psql -U mohitsahoo -d rtilens -f schema.sql
 
 # 5. Configure environment
 cp .env.example .env
-# Edit .env locally with your real values
-# Never commit .env or paste real keys into docs, issues, or PRs.
+# Edit .env with your API keys (GEMINI_API_KEY required)
 
-# 6. Start API
+# 6. Add your CIC order data
+# Place TXT files in data/cic_orders_txt/
+# See data/README.md for format details
+
+# 7. Build data files (BM25 index, PageIndex trees, etc.)
+./setup_data.sh
+
+# 8. Start API
 ./start_api.sh
-# OR manually:
-# PYTHONPATH=$(pwd) python3 backend/main.py
 ```
 
 **Test:**
