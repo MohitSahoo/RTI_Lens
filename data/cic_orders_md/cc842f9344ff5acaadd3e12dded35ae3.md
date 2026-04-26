@@ -1,0 +1,955 @@
+[Cites 
+25
+, Cited by 
+0
+]
+
+
+
+
+# Central Information Commission
+
+
+
+Gita Dewan Verma vs Department Of Personnel & Training on 27 June, 2023
+
+
+## Author:
+
+Saroj Punhani
+
+
+## Bench:
+
+Saroj Punhani
+
+
+                               के ीय सूचना आयोग
+# Central Information Commission
+
+                            बाबागंगनाथमाग, मुिनरका
+                         Baba Gangnath Marg, Munirka
+                          नईिद    ी, New Delhi - 110067
+
+
+File No : CIC/DOP&T/A/2022/642167
+          CIC/DOP&T/A/2022/644307
+
+Gita Dewan Verma                                          ......अपीलकता/Appellant
+
+
+
+                                      VERSUS
+                                       बनाम
+
+
+CPIO,
+Department of Personnel &
+Training, RTI Cell, North
+Block, New Delhi-110001.                              .... ितवादीगण /Respondent
+
+Date of Hearing                   :   26/04/2023
+Date of Decision                  :   26/06/2023
+
+INFORMATION COMMISSIONER :            Saroj Punhani
+
+Note: The above referred matters have been clubbed for hearing and decision
+as these are based on the same RTI Application and replied to by the CPIOs
+falling under the jurisdiction of the same public authority.
+
+## Relevant facts emerging from appeal:
+
+
+RTI application filed on          :   13/05/2022
+CPIO replied on                   :   16/06/2022 & 02/06/2022
+First appeal filed on             :   16/06/2022 & 04/06/2022
+First Appellate Authority order   :   15/07/2022 & 01/07/2022
+2nd Appeal/Complaint dated        :   01/08/2022 & 13/08/2022
+                                        1
+## Information sought
+
+## :
+
+
+The Appellant filed an RTI application dated 13.05.2022 seeking the following
+## information:
+
+
+
+
+"Work allocation of Information Rights Division IR-II section shown in the
+disclosure u/s 4(1)(b)(i) published on DOPT website at:
+
+ https://dopt.gov.in/sites/default/files/InductionMaterial-30-09-2020.pdf includes
+both the Examination of matters related to amendments in the 
+RTI Act
+ and the
+Framing and Notification of Rules under 
+RTI Act
+ and matters related thereto. The
+Important Files of IR Division published under Proactive Disclosures, however,
+include only File relating to 
+Right to Information (Amendment) Act, 2019
+ and do
+not include any Files relating to the Framing and Notification of Rules under 
+RTI
+Act
+## . Therefore:
+
+
+
+
+(1) Please either publish or inform (point-wise, separately for (a) to (c) below)
+## reasons for not publishing the Files relating to:
+
+
+
+
+# (a) Framing and Notification of the Central Information Commission (Appeal
+
+Procedure) Rules, 2005 (G.S.R.650(E) dated 28/10/05).
+
+
+
+(b) Framing and Notification of the Right to Information Rules, 2012 (G.S.R.603(E)
+dated 31/07/12).
+
+
+
+(c) Framing of the Rules about which it was stated on 28/02/17 before the
+Supreme Court in Civil Appeal No. 2230/2012 (
+# Central Information Commission vs
+
+DDA & Anr
+) that the process of framing rules has been initiated and it may take
+about eight weeks.
+
+
+ (https://main.sci.gov.in/jonew/courtnic/rop/2010/27047/rop_897789.pdf)
+
+(2) Meanwhile / in case the Files related to Framing and Notification of Rules are
+not to be uploaded in coming days, please inform (point-wise, separately for (a) to
+
+(d) below, w.r.t specific relevant records) the material basis for the following
+## changes in appeal procedure Rules:
+
+
+
+
+(a) The removal in Rule 12(2) of 2012 of the option to not be present that was
+afforded to the appellant in Rule 7(2) of 2005.
+
+
+
+(b) The removal in Rule 12 of 2012 of the prohibition in Rule 7(4) of 2005 of
+representation by a legal practitioner.
+
+                                         2
+
+
+ (c) The insertion, by way of Rule 13 of 2012, of a provision for Presentation by the
+Public Authority through any representative or any of its officers.
+
+
+
+(d) The removal in Rule 15 of 2012 of the stipulation in Rule 8 of 2005 for the
+## Order of the Commission to be pronounced in open proceedings."
+
+
+
+
+                           CIC/DOP&T/A/2022/642167
+
+The CPIO furnished a reply to the appellant on 16.06.2022 stating as under:
+
+
+
+"Point No. 1: The definition of Information cannot include within its fold answers
+to the question -why- which would be same thing as asking the reason for a
+justification for a particular thing. The public information authorities cannot
+expect to communicate to the citizen the reason why a certain thing was done or
+not done in the sense of a justification because the citizen makes a requisition
+about information. Justifications are matter within the domain of adjudicating
+authorities and cannot properly be classified as information.
+
+
+
+Further, you may also refer Department s O.M No. 1/7/2009 dated 20th May,
+2011 (Decision dated 03.04.2008 of the High Court of Bombay at Goa in Writ
+Petition No. 419 of 2007 in the case of 
+Dr. Celsa Pinto Vs. Goa State Information
+Commission
+ regarding Information under the 
+Right to Information Act, 2005
+)
+regarding information under 
+RTI Act, 2005
+ in questioner form (i.e. why, what &
+where) which is available on website of this Department at link below:
+
+
+dopt.gov.in/Notifications/OMs & Orders/RTI
+
+Point No. 2.: All the information related to framing to RTI Rules, 2012 is available
+in F.No. 1/35/2009-IR of this Department which is a voluminous having around
+550 pages. Compiling information sought which is not specific would
+disproportionately divert the resources of this Section and hence, attracts 
+Section
+7(9)
+ of the RTI Act, 2005. You are hereby, requested to inspect the said file on
+21.06.2022 during working hours in Room No. 215 A/2, North Block, New Delhi-
+
+110001 or a mutually convenient date and time for which the CPIO may be
+contacted on 01123092759. Inspection will be allowed subject to all exemption
+provisions available in the 
+RTI Act, 2005
+ and furnishing of the requisite fee as laid
+down under RTI Rules, 2012."
+
+
+
+                                         3
+
+
+ Being dissatisfied, the appellant filed a First Appeal dated 16.06.2022. FAA's order
+dated 15.07.2022, upheld the reply of CPIO.
+
+
+
+Feeling aggrieved and dissatisfied, appellant approached the Commission with the
+instant Second Appeal stating inter alia as under:
+
+
+
+## "CONTEXT:
+
+
+      DOPT disclosure
+ u/s 4(1)(b)(i)
+ shows the following work allotment for its
+## Information Rights Division:
+
+
+
+
+      DOPT disclosure
+ u/s 4(1)(b)(vi)
+ contains for it the following statement of
+## categories of documents:
+
+
+      27. IR Division
+      Information relates to broad categories of documents like circulars, reports,
+      publications etc. All the OMs related to clarification/modification of 
+RTI
+      Act,2005
+ have already been posted in the Department's website since its
+      existence to till date.
+
+
+
+       No classification of importance of files is disclosed. However, 26 'Important
+Files of IR Division' are published under RTI - Proactive Disclosures - presumably
+
+u/s 4(1)(c)
+ of the RTI Act. Printout of index is in 'Supporting Document-1'. 20
+relate to 
+RTI Act
+ 2005 (Nos. 16-21 are prior), only one of which (No.5, 'File relating
+to 
+Right to Information (Amendment) Act, 2019
+') relates to IR Division's work
+allotment (IR-II item #2). 16 pertain to appointment of C'IC and ICs that is NOT
+work of IR Division. 3 are on 'Guidelines for Proactive Disclosure under 
+Section 4
+ of
+RTI Act', which also is NOT work of IR Division (being work
+ u/s 26(1)(c)
+, whereas
+
+
+
+                                          4
+
+ work of IR-I Section at #2 is limited to 
+section 26(1)(a)
+ & (b) and that of IR-II
+Section at #4 is the power
+ u/s 30
+ that was exercisable only up to 2007).
+
+
+
+       DOPT has not disclosed reasons
+ u/s 4(1)(d)
+ for its decisions to deem 25 files
+unrelated to its allotted work 'Important Files of IR Division' and publish them
+ u/s
+4(1)(c)
+ and to NOT so deem and publish any files except the one on 
+RTI Act
+
+amendment of 2019 related to the work allotted to IR Division.
+
+
+
+      xxx
+
+## GROUNDS:
+
+
+       This 2nd Appeal
+ u/s 19(3)
+ has arisen from failure on part of FAA to duly
+decided requests and grounds of the 1st appeal
+ u/s 19(3)
+## . In particular:
+
+
+       A. Point-1 of my request has become obstructed. Decision to publish or not
+
+u/s 4(1)(c)
+ (and providing reasons there-for
+ u/s 4(1)(d)
+) is province not of CPIO or
+FAA but of public authority. CPIO failed to take the necessary assistance
+ u/s 5(4)
+
+from the officer/s authorised for the same to provide the requested decision /
+reasons. He evaded point-1 with irrelevant reply that FAA said "seems to be in
+## order" without addressing 1st appeal points 1-3.
+
+
+       B. For point-2, instead of providing the specific information requested, CPIO
+offered inspection of a single file by invoking 
+section 7(9)
+ for the reason that it "is
+a voluminous having around 550 pages". I do not believe 
+section 7(9)
+ applies to
+single file. Nevertheless, in 1st appeal I said that the form (physical inspection)
+offered by CPIO does not suit me as home-bound old woman and suggested
+alternative forms to suit both CPIO and me and requested the information in any
+of those. FAA did not address my 1st appeal point-4 and confirmed CPIO's offer. I
+am applying to DOPT afresh for the information in the forms that I had suggested.
+
+
+
+## REQUEST:
+
+
+## I request the Commission to please:
+
+
+       a) consider my 1st appeal requests and grounds and direct the authorised
+officer/s through CPIO to either publish u/s 4(1)(c) or provide u/s 4(1)(d) the
+reasons for not publishing files relating to RTI Rules as 'Important Files of IR
+Division'; and
+
+       b) determine if 
+section 7(9)
+ was rightly invoked for a single file and if it is
+open to CPIO and FAA to insist on a particular form not suited to the requester if
+
+section 7(9)
+ is invoked.
+
+
+
+                                          5
+
+
+       I seek leave to add a request for direction for the information sought in
+point-2 of my application in case I am unable to access it through fresh request/s
+by the time this matter reaches
+ u/s 19(3)
+."
+
+
+
+                           CIC/DOP&T/A/2022/644307
+
+The CPIO, IR-I furnished a reply to the appellant on 02.06.2022 stating as under:
+
+
+
+"As far as the answering CPIO is concerned no point relates to furnish
+information."
+
+
+
+Being dissatisfied, the appellant filed a First Appeal dated 04.06.2022. FAA's order
+## dated 01.07.2022, held as under:
+
+
+
+
+"...........your application had already forwarded by the RTI Cell to the concerned
+CPIO i.e US (IR-II). As per definition given in 
+Section 2(f)
+ of the RTI Act, 2005,
+definitions/hypothetical Questions are not considered part of information to be
+provided under the 
+RTI Act
+."
+
+
+
+Feeling aggrieved and dissatisfied, appellant approached the Commission with the
+instant Second Appeal stating inter alia as under:
+
+
+
+## "GROUNDS:
+
+
+A. 1st appeal grounds and request relate to DOPT's RTI Online MIS. The matter
+mentioned in its Ground-B is pending in F. No. CIC/DOP&T/A/2022/642604.
+Because information has not been given, I have many reservations /
+apprehensions about RTI Online. One is about the generation of additional
+registration numbers that it enables. RTI Online FAQ No.17 is "Why I have received
+multiple RTI registration numbers, even though I have filed single RTI
+application?". The reply is: This is the case where in your RTI application has been
+forwarded to multiple CPIOs since the information sought lies with more than one
+PIO.
+
+But DOPT generates registrations that return NIL responses. Apart from the
+present case I encountered this in the matter in F. CIC/DOP&T/A/2022/614179
+and am currently encountering it in case of one request disposed of six times with
+NIL responses. RTI Online requires for each registration separate process
+ u/s 19(1)
+
+## onward. This is problematic because, e.g.:
+
+
+i) It means that the additional registrations are counted as separate requests. This
+is false, as they were not initiated
+ u/s 6(1)
+ by any requester and no fee was paid,
+
+                                         6
+
+ which has accounting implications. The false counting falsely inflates statistics of
+requests received and likely falsely deflates rejection statistics by counting NIL
+disposals as cases in which information was given (because it was not duly refused
+for a reason under the Act).
+
+ii) It is outright vexatious. I make one request responsibly (e.g., by specifying the
+concerned Section, as in the present case), DOPT multiplies it irresponsibly without
+even telling me
+ u/s 4(1)(d)
+ its reasons, and I have to file multiple matters
+ u/s 19(1)
+
+and thereafter. Especially in case of every NIL disposal of an additional registration
+I have to appeal every time - not in hope of information, but for peace of mind
+that I did protest DOPT's abuse of my resort to RTI process to bolster its disposal
+rate and force my complicity in its falsification of RTI statistics.
+
+B. DOPT IR Division has been issuing since 2007 circulars to all to comply with
+mandates
+ u/s 4(1)
+ and to dispose of appeals
+ u/s 19(1)
+ by speaking orders. In
+online Reply in the present matters, however, DOPT IR Division FAA has held that
+
+section 4(1)(d)
+ is not covered
+ u/s 2(f)
+ (i.e., DOPT owes me no transparency or
+accountability for using my request in ways that serve no RTI purpose for me) and
+also that I need not be given a speaking order on my appeal even if I request it."
+
+
+
+## Relevant Facts emerging during Hearing through intra-video conferencing:
+
+
+The following were present:-
+
+
+
+For File No. CIC/DOP&T/A/2022/642167
+Appellant/Complainant: 'Present but yielded under 
+Section 19(4)
+' (Verbatim
+extract from the attendance sheet)
+Respondent: Pawan Kumar, US & CPIO along with Inder Pal, ASO.
+
+
+
+File No. CIC/DOP&T/A/2022/644307
+Appellant/Complainant: 'Present, NOT Participating' along with 'Dr. Sarabjit Roy,
+READER for Appellant.' (Verbatim extract from the attendance sheet)
+Respondent: D.S.S. Srinivasa Rao, US & CPIO.
+
+
+
+At the outset, the Commission finds it expedient to bring on record that in the
+presence of the Appellant, Dr. Sarabjit Roy, 'READER for Appellant' was heard at
+length in connection with the instant set of cases as well as 4 other appeal(s)
+listed for hearing simultaneously. The larger part of the hearing proceedings were
+centred around the objection of the Appellant and her Reader with regard to the
+alleged deficiencies in the intra-video conferencing system as they repeatedly
+insisted that the bench was not audible to them at all; their demand to know the
+credentials of each of the staff that were assisting the bench during the hearing
+
+                                          7
+
+ proceedings and even objecting to the presence of some of these staff; providing
+unsolicited advice and suggestions as to how the bench should conduct the
+hearing proceedings; how the staff attached with the bench shall conduct
+themselves etc.
+
+The Commission took on record the expansive written objections of the Appellant
+against clubbing of the instant two cases by the bench and demanding it to be
+unlisted among other objections about not listing her cases as per her desired
+chronology; as also her inability to present her case due to being 'sleep deprived'
+from filing written submissions in some 9 cases listed to be heard in the
+Commission around the same time as the instant case and also objected to the
+non-submission of any written arguments by the DoPT.
+
+
+
+Dr. Sarabjit Roy, 'READER for Appellant' also mentioned about being a third party
+in the instant set of cases amongst 15 others, listed in a written document filed by
+him prior to the hearing, relevant contents of which are reproduced hereunder
+## for reference:
+
+
+
+
+        "We are all third parties by virtue of definitions in the 
+RTI Act
+ 2005 as we are all (a) person other
+than the citizen making a request for information, and also (b) have made representations to the CPIO or
+Public Authority, (c) The CPIO has agreed to provide hundreds, if not thousands, of pages of information
+relating to the aforementioned third parties which were mostly submitted in strict confidence to the
+public authority with clear and prominent cautions that these highly confidential filings by all of us not be
+disclosed to anyone outside of the Central Government to whom the business of 
+RTI Act
+ is allocated. I
+say, that the CPIO has erred in not considering our representations
+ u/s 11
+ and also the numerous
+representations concerning confidentiality in framing of the RTI rules since 2006 onwards. It is highly
+pertinent that the undersigned is the contesting Respondent against CIC in the Supreme Court in the
+matter of framing of RTI Rules and it is a highly serious matter how the very important and permanent
+record files relating to framing of Rules under 
+RTI Act
+ have gone missing on several occasions, especially
+when this matter is pending in Supreme Court of India. Because these filings relate to the years 2005
+onwards and concern documents of a permanent nature which are to be carefully preserved for posterity
+in the National Archives, and because we the above mentioned third parties apprehend that the CPIO /
+Public Authority is malafidely attempting to defame and tarnish our public reputations by circulating
+fabricated / tampered documents at the behest of foreign / enemy powers who are out to destroy the
+unity and integrity of India, I am circulating the present NOTICE to all concerned third parties to either
+appear in person on the said date / matters or else to authorise the undersigned to represent your
+respective organisations before the Commission. As time is short and many 3rd parties are out of Delhi,
+eg. Nagpur, Kollam, Ahmednagar, Kolkata etc, kindly send your authority in favour of the undersigned by
+# email to the addressee Shri C.A. Joseph at the Central Information Commission with cc to myself.
+
+
+
+
+        xxx
+
+         In addition there are at least 20 other linked files relating to formation of RTI rules since 2005 tiil
+date which the Appellant has sought and which relate to / have information supplied by us in confidence.
+I therefore request you to kindly issue formal hearing notice to all concerned third parties as required by
+
+
+                                                       8
+
+ s/s 19(4) of the 
+RTI Act
+ 2005. In so far as the undersigned is concerned I shall be appearing in person, for
+myself and all persons who authorise me to act for them in the chamber of Ms. Saroj Punhani."
+
+
+
+As for the specific arguments related to the instant cases, since the Appellant and
+her Reader appeared to be only ventilating their grievances and angst against the
+system of intra-video conferencing and against the presence of registry staff
+alongside the bench in a tone and tenor that amounted to a disregard for the
+decorum of the hearing proceedings, the hearing was concluded by the bench and
+the parties were advised to disperse.
+
+
+
+For the sake of propriety nonetheless, the written arguments in both the cases
+are taken on record.
+
+
+
+Now, in File No. CIC/DOP&T/A/2022/642167, the Commission is not inclined to
+make sense of whatsoever the attendance record implies by stating that the
+Appellant is "Present but yielded under 
+Section 19(4)
+". The written argument
+## states as under:
+
+
+         "The 2nd Appeal is in the matter of my request to DOPT to (1) either publish or inform reasons
+for not publishing files related to work of 'Framing and Notification of Rules under 
+RTI Act
+' in the
+proactively disclosed 'Important Files of IR Division' and (2) meanwhile inform the material basis of 4
+specific changes made in RTI Rules 2012 to the appeal procedure previously prescribed in CIC (Appeal
+Procedure) Rules 2005.
+
+
+
+          For point-2, CPIO invoked 
+section 7(9)
+ to offer inspection of a single file, FAA refused access to
+files in alternative forms and 2nd Appeal prayer is for determination if 
+section 7(9)
+ can be invoked for a
+single file. As stated in 2nd Appeal, I had applied afresh for access to the files in alternative forms. I was
+informed 3 files, paid for their note parts, made further requests for copies from correspondence parts
+and for other files revealed, etc. I have not yet accessed the information for point-2, but the last of my
+further requests are still in process.
+
+
+
+          CPIO had denied point-1 without saying he was competent to decide about publishing 'Important
+Files of IR Division' and FAA had failed to decide 1st appeal with speaking order. 2nd Appeal prayer is for
+direction to either publish
+ u/s 4(1)(c)
+ or provide
+ u/s 4(1)(d)
+ the reasons for not publishing files relating to
+framing of Rules as 'Important Files of IR Division'. I intend to press that prayer. For due care of third-
+party rights, I request Notice to DOPT officer/s authorised for publishing 'Important Files of IR Division'
+because Notice is issued only to CPIO - with direction in para-4 to CPIO to inform third-parties - whereas:
+
+
+
+        a) CPIO was unable to inform even name and designations of DOPT officer/s authorised for,
+           and procedures followed in, selecting and publishing 'Important Files of IR Division' (in the
+           case pending in F. No. CIC/DOP&T/A/2022/660348),
+
+
+
+                                                      9
+
+
+        b) b) CPIO is, therefore, unlikely to be able to identify the third parties needing to be consulted
+          before publishing 'Important Files of IR Division', and
+
+       c) c) CPIO had offered me inspection of a whole file without any third-party notice.
+
+
+
+       I am myself informing Dr Sarbajit Roy, from whom I came to know of third-parties etc."
+
+
+
+Similarly, in File No. CIC/DOP&T/A/2022/644307, the following submissions have
+## been made by the Appellant inter alia:
+
+
+         "1. This case is 2nd Appeal
+ u/s 19(3)
+## . Prayer before the Commission is as under:
+
+
+         I request the Commission to please decide, in light of the expatiation in Ground-A
+herein, my 1st appeal grounds and request the DOPT IR Division FAA has not cared to decide.
+
+         The request from which this case arises is No. DOP&T/R/E/22/02640/1, registered by
+DOPT by using the RTI Online facility to register a receipt
+ u/s 6
+ multiple times. This facility is
+justified as under in answer to RTI Online FAQ No. 17:
+
+         FAQ: Why I have received multiple RTI registration numbers, even though I have filed
+         single RTI application?
+
+         Ans.: This is the case where in your RTI application has been forwarded to multiple CPIOs
+         since the information sought lies with more than one PIO.
+
+
+
+       However, No. DOP&T/R/E/22/02640/1 was forwarded to IR-I Section and disposed of
+## with the following 'nil' Reply:
+
+
+       Reply :- As far as the answering CPIO is concerned no point relates to furnish
+information.
+
+       2. The information that I seek is that which I had sought in my 1st appeal request, i.e.:
+
+       I request to be provided the reasons, in terms of 
+section 4(1)(d)
+ of the RTI Act, for the
+## decision of RTI Cell / Nodal Officer to forward this request to IR-1 Section and the decision of
+
+CPIO US(IR-I) to process it
+ u/s 7(1)
+ (instead of refusing the forwarding by RTI Cell).
+
+
+
+         My 1st appeal grounds were simply that (A) Reply with which No.
+DOP&T/R/E/22/02640/1 has been 'disposed of' bears no apparent relation to 
+section 7(1)
+, and
+(B) I apprehend that No. DOP&T/R/E/22/02640/1 will count as a separate request that was not
+rejected and will contribute to falsifying RTI statistics and obfuscating status of RTI
+implementation. The then FAA denied me information in terms of 
+section 4(1)(d)
+## saying:
+
+
+         2. Your application had already been forwarded by the RTI Cell to the concerned CPIO i.e.
+US (IR-II). As per definition given in 
+Section 2(f)
+ of the RTI Act, 2005, definitions / hypothetical
+Questions are not considered part of information to be provided under the 
+RTI Act
+.
+
+         3. I believe that the FAA did not decide my appeal and very wrongly commented to the
+effect that 
+section 4(1)(d)
+ is hypothetical and that the specific information that the Act
+mandates
+ u/s 4(1)(d)
+ is not covered by its prior general definition
+ u/s 2(f)
+. Reasons for DOPT
+## decisions to register and have disposed of, in my name, No. DOP&T/R/E/22/02640/1 are not
+
+only liable to be provided to me
+ u/s 4(1)(d)
+ but are also within my right
+ u/s 19(5)
+ to have
+justification sought in appeal proceedings for denial by 'nil' disposal. It is pertinent that whereas
+
+RTI Act
+ requires me to address my request
+ u/s 6(1)
+ to CPIO or CAPIO (and empowers no one else
+to receive my request), RTI Online lets me select public authority and transmits my request to
+"Nodal Officer". The extra-legal "Nodal Officer" who receives my RTI Online request is not
+
+                                                   10
+
+ comparable to CAPIO located in sub-divisional locations and is comparable to CPIO. If the RTI
+Online "Nodal Officer" is out of the ambit of both the public authority's mandate
+ u/s 4(1)(d)
+ and
+the provision
+ u/s 19(5)
+ that applies to CPIO, then DOPT's RTI Online has vitiated the scheme of
+the 
+RTI Act
+ by creating a point comparable to CPIO for receiving my request whose decisions on
+my request cannot be called into question."
+
+
+
+## Decision:
+
+
+
+
+At the outset, the arguments tendered for listing/un-listing/chronology jump
+issues of the cases are summarily rejected as these appear to be no substance;
+far stretched and laborious, seemingly to obstruct or prolong the disposal of the
+cases by the Commission. Moreover, the manner and extent of the persistent
+arguments of Dr.Sarabjit Roy with intermittent inputs from the Appellant
+ludicrously going all out against the technicalities of the intra-video
+conferencing system and against the staff attached with the registry appeared
+to sabotage the entire hearing proceedings and is viewed adversely by the
+bench.
+
+
+
+The Commission further observes that the information sought for in the RTI
+Application does not strictly conform to 
+Section 2(f)
+ of the RTI Act as it requires
+the CPIO to either publish information or inform reasons for not publishing the
+categories of information that the Appellant thinks should have been placed in
+the public domain as per 
+Section 4
+ mandate of the 
+RTI Act
+. Yet, the CPIOs have
+attempted to provide factual replies and extended an opportunity of the
+inspection of available records. The Appellant shall note that outstretching the
+interpretation of 
+Section 2(f)
+ of the RTI Act to include deductions and inferences
+to be drawn by the CPIO is unwarranted as it casts immense pressure on the
+CPIOs to ensure that they provide the correct deduction/inference to avoid being
+subject to penal provisions under the 
+RTI Act
+. For the sake of clarity, the provision
+of 
+Section 2(f)
+## of the RTI Act is reproduced hereunder:
+
+
+
+
+       "2. Definitions.--In this Act, unless the context otherwise requires,--
+
+       (f) "information" means any material in any form, including records,
+documents, memos, e-mails, opinions, advices, press releases, circulars, orders,
+logbooks, contracts, reports, papers, samples, models, data material held in any
+electronic form and information relating to any private body which can be
+accessed by a public authority under any other law for the time being in force;.."
+
+
+
+                                               11
+
+
+ In this regard, the Appellant's attention is drawn towards a judgment of the
+Hon'ble Supreme Court on the scope and ambit of 
+Section 2(f)
+ of RTI Act in the
+matter of CBSE vs. Aditya Bandopadhyay & Ors.[CIVIL APPEAL NO.6454 of
+## 2011]wherein it was held as under:
+
+
+
+
+ 
+"35. At this juncture, it is necessary to clear some misconceptions about
+the 
+RTI Act
+. 
+The RTI Act
+ provides access to all information that is available and
+existing.........A public authority is also not required to furnish information which
+require drawing of inferences and/or making of assumptions. It is also not
+required to provide `advice' or `opinion' to an applicant, nor required to obtain
+and furnish any `opinion' or `advice' to an applicant. The reference to `opinion'
+or `advice' in the definition of `information' in 
+section 2(f)
+ of the Act, only refers
+to such material available in the records of the public authority. Many public
+authorities have, as a public relation exercise, provide advice, guidance and
+opinion to the citizens. But that is purely voluntary and should not be confused
+with any obligation under the 
+RTI Act
+." (Emphasis Supplied)
+
+Further for better understating of the scope and ambit of 
+Section 2(f)
+ of the RTI
+Act, reference may be had of 
+Khanapuram Gandaiah vs Administrative Officer
+&Ors. [SLP (CIVIL) NO.34868 OF
+ 2009], wherein the Hon'ble Supreme Court held
+## as under:
+
+
+
+
+
+      "7....Public Information Officer is not supposed to have any material which is
+not before him; or any information he could have obtained under law.
+Under 
+Section 6
+ of the RTI Act, an applicant is entitled to get only such information
+which can be accessed by the "public authority" under any other law for the time
+being in force. The answers sought by the petitioner in the application could not
+have been with the public authority nor could he have had access to this
+information and Respondent No. 4 was not obliged to give any reasons as to
+why he had taken such a decision in the matter which was before him...."
+
+(Emphasis Supplied)
+
+And, in the matter of 
+Dr. Celsa Pinto, Ex-Officio Joint Secretary,(School
+Education) vs. The Goa State Information Commission
+ [2008 (110) Bom L R
+1238], the Hon'ble Bombay High Court held as under:
+
+
+
+
+                                         12
+
+
+       "..... In the first place, the Commission ought to have noticed that the Act
+confers on the citizen the right to information. Information has been defined
+by 
+Section 2(f)
+ as follows.
+
+
+
+ 
+Section 2(f)
+ -Information means any material in any form, including records,
+documents, memos e-mails, opinions, advices, press releases, circulars, orders,
+logbooks, contracts, reports, papers, samples, models, data material held in any
+electronic form and information relating to any private body which can be
+accessed by a public authority under any other law for the time being in force;
+
+      The definition cannot include within its fold answers to the question why
+which would be the same thing as asking the reason for a justification for a
+particular thing. The Public Information Authorities cannot expect to
+communicate to the citizen the reason why a certain thing was done or not done
+in the sense of a justification because the citizen makes a requisition about
+information. Justifications are matter within the domain of adjudicating
+authorities and cannot properly be classified as information." (Emphasis
+Supplied)
+
+In addition to the above observations, it is pertinent to note that even the written
+arguments of the Appellant on record are more in the nature of expressing
+conjecture and adducing the possibilities of finding a record holder or questioning
+the unavailability of the record of this nature, in a manner that knowingly or
+unknowingly seeks to mortify the CPIOs without even asking for what is
+prescribed as "information" in the 
+RTI Act
+.
+
+
+
+Having observed as above, the Commission is not in a position to provide for any
+relief in the matter or to call into question the action/inaction of the CPIO(s)
+based on their wisdom and understanding of the RTI queries.
+
+
+
+Similarly, the Commission finds the entire hullabaloo aired by Dr. Sarabjit Roy,
+"READER" of the Appellant about the stake of third parties in the instant matter
+to be overreaching and inconsequential in light of the above observations.
+
+
+
+                   The appeal(s) are dismissed of accordingly.
+
+
+                                                   Saroj Punhani (सरोज पुनहािन)
+                                      Information Commissioner (सूचना आयु         )
+
+                                        13
+
+ Authenticated true copy
+(अिभ मािणत स!ािपत ित)
+
+
+(C.A. Joseph)
+Dy. Registrar
+011-26179548/ 
+[email protected]
+
+सी. ए. जोसेफ, उप-पं जीयक
+िदनां क /
+
+
+
+
+
+                                 14

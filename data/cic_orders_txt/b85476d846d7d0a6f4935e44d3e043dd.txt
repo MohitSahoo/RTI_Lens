@@ -1,0 +1,3038 @@
+[Cites 
+52
+, Cited by 
+0
+]
+
+
+
+
+Central Information Commission
+
+
+Subhash Chandra Agrawal vs Supreme Court Of India on 14 August, 2020
+
+
+                        CENTRAL INFORMATION COMMISSION
+                            Appeal No. CICWB/A/2009/000529
+                                    dated 29.4.2009
+
+
+                         
+Right to Information Act
+ 2005 - 
+Section 19
+
+
+
+Appellant       -         Shri Subhash Chandra Agrawal
+Respondent          -     Supreme Court of India (SCI)
+                              Decision announced:24.11.2009
+
+
+Facts:
+
+
+         By an application of 23.1.09 received by the CPIO on 27.1.09 Shri
+Subhash Chandra Agrawal of KuchaLatoo Shah, Dariba, Delhi sought the
+following information from the CPIO, Supreme Court of India Shri Raj Pal Arora:
+
+         "Kindly arrange to send me copy of complete file/s (only as
+         available in Supreme Court) inclusive of copies of complete
+         correspondence exchanged between concerned constitutional
+         authorities with file notings relating to said appointment of Mr.
+         Justice HL Dattu, Mr. Justice A. K. Ganguly and Mr. Justice RM
+         Lodha superseding seniority of Mr. Justice AP Shah, Mr. Justice AK
+         Patnaik and Mr. Justice VK Gupta as allegedly objected to Prime
+         Minister's Office (PMO) also. Please do not invoke 
+section 6 (3)
+ on
+         this RTI petition, as I need copy of the file on the issue only as
+         available at Supreme Court. Kindly attached file notings on
+         movement of this RTI petition also. Postal order number 77E
+         255672 for rupees ten is enclosed herewith towards RTIfees."
+
+
+
+         To this Shri Subhash Chandra Agrawal received a response on 25.2.2009
+from CPIO Shri Arora informing him as follows:
+
+         "I write to inform you that this Registry does not deal with the matters
+         pertaining to appointment of Hon'ble Judges in the Supreme Court and
+         High Court of India. Appointments of Hon'ble Judges of the Supreme
+         Court and High Courts are made by the President of India as per the
+         procedure prescribed by law and the matters relating thereto are not dealt
+         with and handled by the Registry of the Supreme Court of India. Such
+         information sought by you is neither maintained nor available in the
+         Registry. Hence your request cannot be acceded to under the 
+Right to
+         Information Act,2005
+."
+
+
+
+         Not satisfied Shri Agrawal moved an appeal before Shri M.P. Bhadran,
+
+                                            1
+
+ Registrar on 28.2.2009 with the following plea:
+
+
+
+ 
+"I quoted paragraph 81 of the esteemed Supreme Court verdict in
+      the matter 
+'SP Gupta vs. Union of India
+ (1981suppSC87)' "If we
+      approach the problem before us in the light of these observations, it
+      will be clear that the class of documents consisting of the
+      correspondence exchanged between the Law Ministry or other high
+      level functionary of the Central Government, the Chief Justice of
+      the High Court, the State Government and the Chief Justice of India
+      in regard to appointment or non-appointment of a High Court judge
+      or Supreme Court judge or the transfer of a High Court Judge and
+      the notes made by these constitutional functionaries in that behalf
+      cannot be regarded as a protected class entitled to immunity
+      against disclosure".
+
+
+
+
+      But instead of providing me copies of sought documents, the
+      learned CPIO vide his reply DY. No. 670/RTI/08-09/SCI dated
+      25.2.2009 tried to explain me the procedure of appointment of
+      judges, which I never tried to enquire."
+
+
+
+      This appeal was dismissed on 25.3.09 by appellate authority Shri
+Bhadran, as follows:
+
+      "CPIO has informed the appellant that Registry is not dealing with
+      the matters pertaining to appointment of Hon'ble Judges in the
+      Supreme Court of India, that appointment of Hon'ble Judges of the
+      Supreme Court is made by the President of India as per the
+      procedure prescribed by law and the matters relating thereto are
+      not dealt with and handled by the Registry of Supreme Court of
+      India and that such information is neither maintained nor available
+      in the Registry. I find no reasons to disagree with the reply
+      forwarded by the CPIO to the appellant. The information sought by
+      the appellant also does not come within the ambit of 
+Sections 2(f)
+
+      and (j) of 
+RTI Act
+. There is no merit in this appeal and it is only to
+      be dismissed."
+
+
+
+      Appellant Shri Subhash Chandra Agrawal's prayer before us in his second
+appeal is as below:
+
+      "Authorities at Supreme Court may kindly be directed to kindly
+      provide me copy of complete file/s (copy as available in Supreme
+      Court) inclusive of copies of complete correspondence exchanged
+      between concerned constitutional authorities with file notings
+      relating to appointment of Mr. Justice HL Dattu, Mr. Justice A. K.
+      Ganguly and Mr. Justice RM Lodha superseding seniority of Mr.
+      Justice AP Shah, Mr. Justice AK Patnaik and Mr. Justice VK Gupta.
+
+
+
+                                        2
+
+
+        Any other relief deemed fit in favour of the petitioner may kindly be
+       allowed."
+
+
+
+       The appeal was heard together with appeal Nos. CIC/WB/A/2009/000001,
+735, 859, 408, 410, 411 & 530 on 20.11.2009. In this case, however, Shri
+DevaduttKamat, Learned Counsel for the Supreme Court sought adjournment,
+which was agreed to. The appeal was then heard on 23.11.2009. The following
+are present:
+
+ 
+Appellant
+             Sh. Subhash Chandra Agrawal
+             Sh. PrashantBhushan, Advocate
+             Sh. Mayank Mishra, Advocate
+       Respondents
+             Sh. Raj Pal Arora, Addl. Registrar / CPIO
+             Sh. DevaduttKamat, Advocate for SCI
+             Ms. PriyankaTelang, Advocate
+
+       Learned Counsel for respondents Shri DevaduttKamat, submitted a
+written statement of his arguments in which his plea is based on the ground that
+the information sought by appellant Shri Subhash Chandra Agrawal in the
+present case falls squarely within the exemption
+ u/s 8(1)(e)
+ of the RTI Act. He
+has, in this context, closely examined the meaning of the term 'fiduciary' and in
+this connection has quoted from the decision of the Supreme Court in 
+Subhash
+Sharma vs. Union of India
+ - (1991) (Supp) 1-SCC 574 specifically with
+reference to information held under 
+Article 124
+ of the Constitution or in discharge
+of a trust, as follows:
+
+
+       "It is a participatory constitutional function. It is, perhaps,
+       inappropriate to refer to any 'power' or 'right' to appoint Judges. It
+       is essentially a discharge of a constitutional trust of which certain
+       constitutional functionaries are collectively repositories.'
+
+       He has gone on to describe the role of the Chief Justice of India in the
+appointment process, as below:
+
+       "It is submitted that the Chief Justice of India whilst performing his
+       functions under 
+Article 124 (2)
+ acts in a fiduciary capacity visa a vis
+       other judges and Chief Justices of High court. The information
+       made available with the Chief Justice in pursuance of his functions
+
+
+
+                                         3
+
+       under 
+article 124 (2)
+ is held in confidence and in trust being the
+      pater families of the Judiciary for the purposes for forming an
+      opinion under 
+article 124 (2).
+
+
+
+
+      In the SC Advocates case, the Hon'ble Supreme Court whilst
+      elaborating on the role of chief Justice in the consultation process
+      held that the provisions for consultation with CJI was introduced in
+      the Constitution as he was best equipped to know and assess the
+      worth of the candidate. It is submitted that the 'information' about
+      the candidate available with the Chief Justice is in fiduciary capacity
+      as the pater families of the Judiciary."
+
+
+
+ 
+Shri Kamat has also quoted from the decision of Justice Verma in
+Supreme Court Advocates on 
+Record Association vs. Union of India
+ -
+(1993) 4 SCC 441, as follows:
+
+
+      "452. This is not surprising if we remember that even in United
+      Kingdom where similar judicial appointments are in the absolute
+      discretion of the executive, these appointments are made by
+      convention on the advice of the Prime Minister after consultation
+      with the Lord Chancellor, who himself consults with senior
+      members of the judiciary before making his choice or consulting
+      with the Prime Minister and the Prime Minister would depart from
+      the recommendations of the Lord Chancellor only in the most
+      exceptional case. (See The Politics of Judiciary- J.A. G. Griffith at
+      pp. 17-18). The Lord Chancellor, Lord Mackay speaking recently
+      on 'The Role of the Judge in a Democracy said:
+
+
+
+      One of the most important responsibilities of a Lord Chancellor in
+      our democracy is for judicial appointments. It is my duty to ensure
+      that neither political bias, nor personal favouritism, nor animosity
+      play any party in the appointment of judges and that they are
+      selected regardless of sex, ethnic origin or religion on the basis of
+      their fitness to carry out the solemn responsibility of judicial office. I
+      look for those with integrity, professional ability, experience, and
+      standing, a sound temperament and good health. To achieve this I
+      consult widely and regularly with the judges, Law Lords and other
+      members of the legal profession. I naturally attach particular
+      importance to the opinion of the Division of the High Court. Judges
+      therefore have an important role in judicial appointments, albeit
+      informally father than prescribed by statute." (Emphasis supplied)."
+
+
+
+      He has further gone on to contest the application of the observations of
+the learned Single Judge in W.P.No.288/2009 paras 54 to 59 in which Justice
+
+
+
+
+                                         4
+
+ Ravinder Bhat has examined the application of the term fiduciary relationship,
+contending that the learned Judge "has not at all held that the Chief Justice of the
+Supreme Court does not act in a fiduciary capacity vis a vis Judges or Chief
+Justices of the High court." He has then argued as below:
+
+      "It is submitted that the information sought for relates to the
+      personal information relating to the suitability of a candidate. It is
+      submitted that the information sought for is pure and simple
+      personal information relating to the judges which is exempt from
+      disclosure.'
+
+      In support of this line of argument, learned counsel for respondents Shri
+DevaduttKamat has then gone on to quote extensively from Supreme Court
+Advocates case referred to above, as below:
+
+      "462. The constitutional purpose to be served by these provisions
+      is to select the best from amongst those available for appointment
+      as judges of the superior judiciary, after consultation with those
+      functionaries who are best suited to make the selection. It is
+      obvious that only those persons should be considered fit for
+      appointment as judges of the superior judiciary who combine the
+      attributes essential for making an able, independent and fearless
+      judge. Several attributes together combine to constitute such a
+      personality. Legal expertise, ability to handle cases, proper
+      personal conduct and ethical attributes of a person suitable for
+      appointment as a superior judge. The initial appointment of judges
+      in the High Courts is made from the Bar and the subordinate
+      judiciary. Appointment to the Supreme Court is mainly from
+      amongst High Court Judges, and on occasions directly from the
+      Bar. The arena of performance of those men are the courts. It is,
+      therefore, obvious that the maximum opportunity for adjudging their
+      ability and traits, is in the Courts and, therefore, the judges are best
+      suited to assess their true worth and fitness for appointment as
+      Judges. This is obviously the reason for introducing                 the
+      requirement of consultation with the Chief Justice of India in the
+      matter of appointment of all Judges, and with the Chief Justice of
+      the High Court in the case of appointment of a Judge in a High
+      Court. Even the personal traits of the members of the Bar and the
+      Judges are quite often fully known to the Chief Justice of India and
+      the Chief Justice of the High Court who get such information from
+      various sources. There may, however, be some personal trait of an
+      individual lawyer or Judge, which may be better known to the
+      executive and may be unknown to the Chief Justice of India and the
+      Chief Justice of the High Court, and which may be relevant for
+
+
+
+
+                                        5
+
+       assessing his potentially to become a good judge. It is for this
+      reason, that the executive is also one of the consultees in the
+      process of appointment. The object of selecting the best men to
+      constitute the superior judiciary is achieved by requiring
+      consultation with not only the judiciary but also the executive to
+      ensure that every relevant particular about the candidate is known
+      and duly weighed as a result of effective consultation between all
+      the consultees before the appointment is made."
+
+
+
+      He has then concluded that there is no public interest involved in the
+present case and that the Hon'ble Supreme Court in the Supreme Court
+Advocates case has specifically held that public interest lies in keeping
+appointments and transfers undisclosed. He has, in this context, gone on to
+again quote from this decision, as below:
+
+      "This is also in accord with the public interest of excluding these
+      appointments and transfers from litigative debate, to avoid any
+      erosion in the credibility of the decisions, and to ensure a free and
+      frank expression of hones to opinion by all the constitutional
+      functionaries, which is essential for effective consultation and for
+      taking the right decision. The growing tendency of needless
+      intrusion by strangers and busybodies in the functioning of the
+      judiciary under the garb of public interest litigation."
+
+
+
+ 
+Learned Counsel has contested the reliance of appellant on the decision
+of the Hon'ble Supreme Court in 
+S. P. Gupta vs. Union of India
+ (1981) (Supp)
+SCC 87. Finally learned Counsel Sh. Kamat has rested his arguments on a
+decision of this Commission of 2006 in Sh. Mukesh Kumar vs. Supreme Court
+of India in F. No. CIC/AT/A/2006/00113 in which we have held as follows:
+
+
+      "Arguably, there is merit in the contention that certain processes
+      are best conducted away from the public gaze, for that is what
+      contributes to sober analysis and mature reflection, unaffected by
+      competing pressures and public scrutiny. If there is one process
+      which needs to be so protected, the process of selecting the judges
+      of the High Court's and the Supreme Court must quality to be one
+      such.'
+
+      
+In light of a subsequent decision of this Commission Shri Kamal has
+invited our attention to the ruling of the Supreme Court in 
+Companies Textiles
+Industries Ltd. vs. Deepak Jain
+ and anr. In Civil Appeal No.1743/2009
+
+
+
+                                       6
+
+ decided on March 20, 2009 in which the Hon'ble Supreme Court has held as
+follows:
+
+
+       "We are also constrained to observe that while dealing with the
+       second revision petition, the High Court failed to take into
+       consideration the order passed by a learned Single Judge on
+       21.8.2002 whereby the executing court was directed to conducted
+       inquiry in regard to the status of the objector to the execution
+       proceedings. Time and again it has been emphasised that judicial
+       prosperity and decorum requires that if a Single Judge, hearing a
+       matter, feels that earlier decision of a Single Judge needs
+       reconsideration, he should not embark upon that enquiry, sitting as
+       a Single Judge, but should refer the matter to a larger bench.
+       Regrettably, in the present case, the learned Single judge departed
+       from the said healthy principle and chose to re-examine the same
+       question himself.'
+
+He has gone on to provide a very detailed argument in this regard, as below:
+
+       "It is well settled that a coordinate bench cannot overrule an earlier
+       decision of the same strength. It is submitted that the decision in
+       Mukesh Kumar's case has not been expressly overruled by any of
+       the decisions of this Commission. No appeal also appears to have
+       been filed against the said decision. In these circumstances, the
+       decision in Mukesh Kumar's case is binding unless overturned by a
+       larger bench. It has already been pointed out that the larger bench
+       decisions of this Commission did not deal with the position of the
+       Chief Justice and the issues, which arose in Mukesh Kumar's case,
+       did not arise for consideration in the other decisions.
+
+
+
+       The Hon'ble Supreme Court in S. I. Rooplal&Anr. Vs. Lt. Governor through
+Chief Secretary, Delhi (2000) 1 SCC 644 has laid down that it is not open for a
+bench of coordinate jurisdiction to overrule a decision rendered by another
+coordinate bench of the same strength. It was held that:
+
+       "At the outset, we must express our serious dissatisfaction to
+       regard to the manner in which a coordinate Bench of the tribunal
+       has overrules, in effect, an earlier judgment of another coordinate
+       Bench of the same tribunal. This is opposed to all principles of
+       judicial discipline. It at all, the subsequent Bench of the tribunal
+       was of the opinion that the earlier view taken by the coordinate
+       Bench of the same tribunal was incorrect, it ought to have referred
+       the matter to a larger Bench so that the difference of opinion
+       between the two coordinate Benches on the same point could have
+       been avoided."
+
+
+
+                                        7
+
+
+       Learned counsel Shri Kamat has therefore conclude that we cannot rely
+on the subsequent decisions of this Commission, which moreover have been
+challenged in Writ before the High Court of Delhi, but instead place reliance on
+our decision in Sh. Mukesh Kumar vs. Supreme Court of India in F. No.
+CIC/AT/A/2006/00113, which moreover stands without challenge.
+
+
+
+ 
+Learned Counsel for appellant Shri Prashant Bhushan on the other hand
+submitted that the decision of this Commission cited by learned Counsel for
+respondents Shri DevaduttKamat is overridden not by the subsequent decisions
+of this Commission in CIC/WB/A/2006/00460 announced on 23.3.2007 and
+CIC/AT/A/2008/00736 announced on 19.1.2009 but by the decision of Justice
+Bhagwati in 
+S.P. Gupta vs. Union of India
+ - AIR (1982) SC 149 upon which the
+decision of this Commission of 23.3.07 is based. Besides, on the principle of per
+incurismthe decision of 23.3.2007 cannot be invalidated on the basis of the
+earlier decision of this Commission cited by learned Counsel for respondents as
+that decision was never brought to the notice of the Commission in its hearing on
+16.3.2007 and, therefore, finds no reference in the decision of 23.3.2007 in File
+No. CIC/WB/A/2006/00460.
+ 
+He has then gone on to quote from the decision of
+the Supreme Court in 
+S.P. Gupta vs. Union of India
+ - AIR (1982) SC 149, upon
+which he has relied, as follows:
+
+
+
+
+      82. These selfsame reasons must apply equally in negativing the
+      claim for immunity in respect of the correspondence between the
+      Law Minister and the Chief Justice of India and the relevant notings
+      made by them in regard to the transfer of a High Court Judge
+      including the Chief Justice of a High Court. These documents are
+      extremely material for deciding whether there was full and effective
+      consultation with the Chief Justice of India before effecting the
+      transfer and the transfer was made in public interest, both of which
+      are, according to the view taken by us, justiciable issues and
+      thenon disclosure of these documents would seriously
+      handicap the petitioner in showing that there was no full and
+      effective consultation with the Chief Justice of India or that the
+      transfer was by way of punishment and not in public interest. It
+      would become almost impossible for the petitioner, without the aid
+      of these documents, to establish his case, even if it be true.
+
+      Moreover, the transfer of a High Court Judge or Chief Justice of a
+      High Court is a very serious matter and if made arbitrarily or capriciously
+      or by way of punishment or without public interest motivation, it would
+
+                                          8
+
+  erode the independence of the judiciary which is a basic feature of the
+ Constitution and therefore, when such a charge is made it is in public
+ interest that it should be fully investigated and all relevant
+ documents should be produced before the court so that the full
+ facts may come before the people, who in a democracy are the
+ ultimate arbiters. It would be plainly contrary to public interest to allow
+ the inquiry into such a charge to be baulked or frustrated by a claim for
+ immunity in respect of documents essential to the inquiry. It is also
+ important to note that when the transfer of a High Court Judge or Chief
+ Justice of a High Court is challenged, the burden of showing that there
+ was full and effective consultation with the Chief Justice of India and the
+ transfer was effected in public interest is on the Union of India and it
+ cannot withhold the relevant documents in its possession on a plea of
+ immunity and expect to discharge this burden by a mere statement in an
+ affidavit. Besides, if the reason for excluding these documents is to
+ safeguard the proper functioning of the higher organs of the State
+ including the judiciary, then that reason is wholly inappropriate where
+ what is charged is the grossly improper functioning of those very organs.
+ It is, Court Judge or Chief Justice of a High Court is challenged, no
+ immunity can be claimed in respect of the correspondence exchanged
+ between the Law Minister and the Chief Justice of India and the notings
+ made by them, since, on the balance, the non-disclosure of these
+ documents would cause greater injury to public interest than what may be
+ caused by their disclosure. (Emphasis added)
+
+
+83. But, quite apart from these considerations, we do not understand
+how the disclosure of the correspondence exchanged between the
+Law Minister, the Chief Justice of the High Court, the State
+Government and the Chief Justice of India and the relevant notes
+made by them in regard to non appointment of an Additional Judge for
+a further term or transfer of a High Court Judge can be detrimental to
+public interest. It was argued by the learned Solicitor-General on behalf
+of the Union of India that if the Chief Justice of the High Court and the
+Chief Justice of India differ in their views in regard to the suitability of
+an Additional Judge for further appointment, the disclosure of their
+views would cause considerable embarrassment because the rival
+views might be publicly debated and there might be captious and
+uninformed criticism which might have the effect of undermining the
+prestige and dignity of one or the other Chief Justice and shaking the
+confidence of the people in the administration of justice. If the
+difference in the views expressed by the Chief Justice of the High
+Court and the Chief Justice of India becomes publicly known,
+
+
+
+
+
+                                     9
+
+ contended the learned Solicitor-General, it might create a difficult
+situation for the Chief Justice of the High Court vis-à-vis the Chief
+Justice of India and if despite the adverse opinion of the Chief Justice
+of the High Court, the Additional Judge is continued for a further term,
+and the Additional Judge knows that he has been so continued
+overruling the view of the Chief Justice of the High Court, it might lead
+to a certain amount of friction which would be detrimental to the proper
+functioning of the High Court. So also if an Additional Judge is
+continued for a further term accepting the view expressed by the Chief
+Justice of the High Court and rejecting the opinion of the Chief Justice
+of India, it would against create a piquant situation because it would
+affect the image of the Chief Justice of India in the public eyes.
+Moreover, a feeling might be created in the mind of the public that a
+person who was regarded as unsuitable for judicial appointment by
+one or the other of the two Chief Justices, has been appointed as a
+Judge and the litigants would be likely to have reservations about him
+and the confidence of the people in the administration of justice would
+be affected. The learned Solicitor-General contended that for these
+reasons it would be injurious to public interest to disclose the
+correspondence exchanged between the Law Minister, the Chief
+Justice or the High Court and the Chief Justice of India.
+
+
+
+84. We have given our most anxious thought to this argument urged by
+the leaned Solicitor General, but we do not think we can accept it. We
+do not see any reason why, if the correspondence between the Law
+Minister, the Chief Justice of the High Court and the Chief Justice of
+India and the relevant notes made by them, in regard to
+discontinuance of an Additional Judge are relevant to the issues
+arising in a judicial proceeding, they should not be disclosed. There
+might be difference of views between the Chief Justice of the High
+Court and the Chief Justice of India but so long as the views are held
+bona fide by the two Chief Justices, we do not see why they should be
+worried about the disclosure of their views? Why should they feel
+embarrassed by public discussion or debate of the views expressed by
+them when they have acted bona fide with the greatest care and
+circumspection and after mature deliberation. Do Judges sitting on a
+Division Bench not differ from each other in assessment of evidence
+and reach directly contrary conclusions on questions of fact? Do they
+not express their judicial opinions boldly and fearlessly leaving it to the
+jurists to decide which of the two differing opinions is correct? If two
+Judges do not feel any embarrassment in coming to different findings
+of fact which may be contrary to each other, why should two Chief
+Justices feel embarrassed if the opinions given by them in regard to
+the suitability of an Additional Judge for further appointment differ and
+such differing opinions are made known to the public. Not only
+tolerance but acceptance of bonafide difference of opinion is a part of
+
+
+
+
+                                    10
+
+ judicial discipline and we find it difficult to believe that the disclosure of
+their differing opinions might create a strain in the relationship between
+the Chief Justice of the High Court and the Chief Justice of India. We
+have no doubt that the Chief Justice of the High Court would come to
+his own independent opinion on the material before him and he would
+not surrender his judgment to the Chief Justice of India, merely
+because the Chief Justice of India happens to be head of the judiciary
+having a large voice in the appointment of Judges on the Supreme
+Court Bench. Equally we are confident that merely because the Chief
+Justice of the High Court has come to a different opinion and is not
+prepared to change that opinion despite the persuasion of the Chief
+Justice of India, no offence would be taken by the Chief Justice of India
+and he would not harbour any feeling of resentment against the Chief
+Justice of the High Court. Both the Chief Justices have trained judicial
+minds and both of them would have the humility to recognize that they
+can be mistaken in their opinions. We do not therefore see any real
+possibility of estrangement or even embarrassment for the two Chief
+Justices, if their differing views in regard to the suitability of an
+Additional Judge for further appointment are disclosed. We also find it
+difficult to agree that if the differing views of the two Chief Justices
+become known to the outside world, the public discussion and debate
+that might ensue might have the effect of lowering the dignity and
+prestige of one or the other of the two Chief Justices. When the
+differing views of the two Chief Justices are made public as a result of
+disclosure, there would certainly be public discussion and debate in
+regard to those views with some criticizing one view and some
+criticising the other, but that cannot be helped in a democracy where
+the right of free speech and expression is a guaranteed right and if the
+views have been expressed by the two Chief Justices with proper care
+and deliberation and a full sense of responsibility in discharge of a
+constitutional duty, there is no reason why the two Chief Justices
+should worry about public criticism. We fail to see how such public
+criticism could have the effect of undermining the prestige and dignity
+of one or the other Chief Justice. So long as the two Chief Justices
+have acted honestly and bona fide with full consciousness of the heavy
+responsibility that rests upon them in matters of this kind, we do not
+think that any amount of public criticism can affect their prestige and
+dignity. But if either of the two Chief Justices has acted carelessly or
+improperly or irresponsibly or out of oblique motive, his view would
+certainly be subjected to public criticism and censure and that might
+show him in poor light and bring him down in the esteem of the people,
+but that will be the price which he will have to pay for his remissness in
+discharge of his constitutional duty. No Chief Justice or Judge should
+be allowed to hide his improper or irresponsible action under the clock
+of secrecy. If any Chief Justice or Judge has behaved improperly or
+irresponsibly or in a manner not befitting the high office he holds, there
+
+
+
+
+                                     11
+
+ is no reason why his action should not be exposed to public gaze. We
+believe in an open government and openness in government does
+not mean openness merely in the functioning of the executive
+arm of the State. The same openness must characterize the
+functioning of the judicial apparatus including judicial
+appointments and transfer. Today the process of judicial
+appointments and transfers is shrouded in mystery. The public does
+not know how Judges are selected and appointed or transferred and
+whether any and if so what, principles and norms govern this process.
+The exercise of the power of appointment and transfer remains a
+sacred ritual whose mystery is confined only to a handful of high
+priests, namely the Chief Justice of the High Court, the Chief Minister
+of the State, the Law Minister of the Central Government and the Chief
+Justice of India. In case of appointment or non appointment of a High
+Court Judge and the Law Minister of the Central Government and the
+Chief Justice of India in case of appointment of a Supreme Court
+Judge or transfer of a High Court Judge. The mystique of this process
+is kept secret and confidential between just a few individuals, not more
+than two or four as the case may be, and the possibility cannot
+therefore be ruled out that howsoever highly placed may be these
+individuals, the process may on occasions result in making of wrong
+appointments and transfers and may also at times, though fortunately
+very rare, lend itself to nepotism, political as well as personal and even
+trade off. We do not see any reason why this process of appointment
+and transfer of Judges should be regarded as so sacrosanct that no
+one should be able to pry into it and it should not be protected against
+disclosure at all events and in all circumstances. Where it becomes
+relevant in a judicial proceeding, why should the Court and the
+opposite party and through them the people not know what are the
+reasons for which a particular appointment is made or a particular
+Additional Judge is discontinued or a particular transfer is affected. We
+fail to see what harm can be caused by the disclosure of true facts
+when they become relevant in a judicial proceeding. In fact, the
+possibility of subsequent disclosure would act as an effective check
+against carelessness, impetuosity, arbitrariness or mala fides on the
+part of the Central Government, the Chief Justice of the High Court
+and the Chief Justice of India and ensure bona fide and correct
+approach objective and dispassionate consideration, mature thought
+and deliberation and proper application of mind on their part in
+discharging their constitutional duty in regard to appointments and
+transfers of Judges. It is true that if the views expressed by the Chief
+Justice of the High Court and the Chief Justice of India in regard to the
+suitability of an Additional Judge for further appointment become
+known to the public, they might reflect adversely on the competence,
+character or integrity of the Additional Judge, but the Additional Judge
+cannot legitimately complain about it, because it would be at his
+
+
+
+
+                                   12
+
+      instance that the disclosure would be ordered and the views of the two
+     Chief Justices made public. If the Additional Judge is appointed for a
+     further term either accepting the opinion expressed by the Chief
+     Justice of the High Court in preference to that of the Chief Justice of
+     India or vice versa, the question of disclosure of differing opinions of
+     the two Chief Justices would not arise, because no one would know
+     that the two Chief Justices were not agreed on continuing the
+     Additional Judge for a further term and therefore, ordinarily, there
+     would be no challenge to the appointment of the Additional Judge. It is
+     only if the Additional Judge is not continued for a further term that he or
+     someone on his behalf may challenge the decision of the Central
+     Government not to continue him and in that event, if he asks for
+     disclosure of the relevant correspondence embodying the views of the
+     two Chief Justices, and if such disclosure is ordered, he has only
+     himself to thank for it and in any event, in such a case there would be
+     no harm done to public interest if the views expressed by the two Chief
+     Justices become known to the public." . (Emphasisadded)"
+
+
+
+      This decision stands and has neither been challenged nor modified by any
+subsequent decision of the Supreme Court.
+
+
+
+      Shri Prashant Bhushan further submitted that respondent has not taken
+the plea of exemption
+ u/s 8(1)(e)
+ earlier nor the plea that the information sought
+is not under the control of Chief Justice of India, as a public authority. However,
+he conceded that in case the information sought contained any information of a
+personal nature warranting exemption
+ u/s 8(1)(j)
+, this can be exempted under the
+severability clause contained in 
+Sec. 10(1)
+ while making the disclosure.
+
+
+
+DISCUSSION & DECISION NOTICE
+      . Because respondents have not raised the issue now raised either in
+refusing the information in the initial stage or in considering the appeal, we
+cannot now hold that in consequence they are debarred from taking this plea at
+this stage. This was indeed the plea taken by the Registry of the Supreme Court
+of India in its Writ Petition No.2008/09 moved before the High Court of Delhi
+against an earlier decision of this Commission but since in the decision of Justice
+RavinderBhat in WP(C) 228/2009, CPIO Supreme Court of 
+India vs. SC
+Agrawal&Anr.itisconcededthattheChiefJusticeofIndiaisindeedapublic
+
+
+                                         13
+
+ authority, it is in that context that the present plea for exemption has been taken.
+Therefore, this contention of appellant is unsustainable.
+
+
+
+
+       On the other hand, the question lies squarely on whether the ruling of
+Justice RavinderBhat in this case on the question of fiduciary relationship will be
+applicable in the present case. His ruling is as follows:
+
+       54. The petitioners argue that assuming that asset declarations, in
+       terms of the 1997 constitute "information" under the Act, yet they
+       cannot be disclosed - or even particulars about whether, and who
+       made such declarations, cannot be disclosed - as it would entail
+       breach of a fiduciary duty by the CJI. The petitioners rely on
+       
+Section 8 (1) (f)
+ to submit that a public authority is under no
+       obligation to furnish "information available to a person in his
+       fiduciary relationship". The petitioners emphasize that the 1997
+       Resolution crucially states that:
+
+               "The declaration made by the Judges or the Chief Justice, as
+               the case may be, shall be confidential."
+
+       The respondent, and interveners, counter the submission and say
+       that CJI does not stand in the position of a fiduciary to the judges of
+       the Supreme Court, who occupy high Constitutional office; they
+       enjoy the same judicial powers, and immunities and that the CJI
+       cannot exercise any kind of control over them. In these
+       circumstances, there is no "fiduciary" relationship, least of all in
+       relation to making the asset declarations available to the CJI, who
+       holds it because of his status as CJI. It is argued that a fiduciary
+       relationship is created, where one person depends, on, or entrusts
+       his affairs to 55. It is necessary to first discern what a fiduciary
+       relationship is, since the term has not been defined in the Act. In
+       Bristol & West Building Society v. Mathew [1998] Ch 1, the term
+       "fiduciary", was described as under:
+
+               "A fiduciary is someone who has undertaken to act for and
+               on behalf of another in a particular matter in circumstances
+               which give rise to a relationship of trust andconfidence."
+
+ 
+Dale & Carrington Invt. (
+P) Ltd. v. P.K. Prathapan
+, (
+2005) 1 SCC
+       212 and Needle Industries (India) Ltd v. Needle Industries (Newey)
+       India Holding Ltd
+: 1981 (3) SCC 333 establish that Directors of a
+       company owe fiduciary duties to its shareholders.
+ In P.V.
+       SankaraKurup v. LeelavathyNambiar, (1994) 6 SCC 68, the
+       Supreme Court held that an agent and power of attorney holder can
+       be said to owe a fiduciary relationship to the principal.
+
+       56. 
+In a recent decision (
+Mr. Krishna GopalKakani v. Bank of
+       Baroda
+ 2008 (13) SCALE 160) the Supreme Court had to decide
+       whetheratrans action resulted in a fiduciary relationship. Money
+
+
+
+
+                                         14
+
+ was sought to be recovered by the plaintiff, from a bank, who had
+moved the court for auction of goods imported, and retained the
+proceeds; the trail court overruled the objection to maintainability,
+stating that the bank held the surplus (of the proceeds) in a
+fiduciary capacity. The High Court upset the trial court's findings,
+ruling that the bank did not act in a fiduciary capacity. The Supreme
+Court affirmed the High Court's findings. The court noticed 
+Section
+88
+ of the Trusts Act, which reads as follows:
+
+
+        "Section 88. Advantage gained by fiduciary. - Where a
+        trustee, executor, partner, agent, director of a company,
+        legal advisor, or other person bound in a fiduciary character
+        to protect the interests of another person, by availing himself
+        of his character, gains for himself any pecuniary advantage,
+        or where any person so are, or may be, adverse to those of
+        such other person and thereby gains for himself a pecuniary
+        advantage, he must hold for the benefit of such other person
+        the advantage sogained."
+
+Affirming the High Court's findings that the bank did not owe a
+fiduciary responsibility to the appellant, it was held by the Supreme
+Court, that:
+
+        "9. An analysis of this Section would show that the Bank, to
+        whom the money had been entrusted, was not in the
+        capacity set out in the provision itself. The question of any
+        fiduciary relationship therefore arising between the two must
+        therefore be ruled out. It bears reiteration that there is no
+        evidence to show that any trust had been created with
+        respect to the suit money."
+
+The following kinds of relationships may broadly be categorized as
+"fiduciary":
+
+ Trustee/beneficiary (
+Section 88
+, Indian Trusts Act,1882)
+ Legal guardians / wards (
+Section 20
+, Guardians and Wards
+    Act,1890)
+ Lawyer/client;
+
+ Executors and administrators / legatees and heirs
+ Board of directors /company
+ Liquidator/company
+ Receivers, trustees in bankruptcy and assignees in insolvency /
+    creditors
+ Doctor/patient
+ Parent/child:
+
+
+
+57. The Advanced Law Lexicon, 3rd Edition, 2005, defines fiduciary
+relationship as
+        "a relationship in which one person is under a duty to act for
+        the benefit of the other on the matters within the scope of the
+        relationship....Fiduciary relationship usually arise in one of
+
+
+
+                                  15
+
+         the four situations (1) when one person places trust in the
+        faithful integrity of another, who is a result gains superiority
+        or influence over the first, (2) when one person assumes
+        control and responsibility over another, (3) when one person
+        has a duty to act or give advice to another on matters falling
+        within the scope of the relationship, or (4) when there is
+        specific relationship that has traditionally be recognized as
+        involving fiduciary duties, as with a lawyer and a client, or a
+        stockbroker and a customer"
+
+58. From the above discussion, it may be seen that a fiduciary
+relationship is one whereby a person places complete confidence in
+another in regard to a particular transaction or his general affairs or
+business. The relationship need not be "formally" or "legally"
+
+ordained, or established, like in the case of a written trust; but can
+be one of moral or personal responsibility, due to the better or
+superior knowledge or training, or superior status of the fiduciary as
+compared to the one whose affairs he handles. If viewed from this
+perspective, it is immediately apparent that the CJI cannot be a
+fiduciary vis-à-vis Judges of the Supreme Court; he cannot be said
+to have superior knowledge, or be better trained, to aid or control
+their affairs or conduct. Judges of the Supreme Court hold
+independent office, and are there is no hierarchy, in their judicial
+functions, which places them at a different plane than the CJI. In
+these circumstances, it cannot be held that asset information
+shared with the CJI, by the judges of the Supreme Court, are held
+by him in the capacity of a fiduciary, which if directed to be
+revealed, would result in breach of such duty. So far as the
+argument that the 1997 Resolution had imposed a confidentiality
+obligation on the CJI to ensure non-disclosure of the asset
+declarations, is concerned, the court is of opinion that with the
+advent of the Act, and the provision in 
+Section 22
+ - which overrides
+all other laws, etc. (even overriding the 
+Official Secrets Act
+) the
+argument about such a confidentiality condition is on a weak
+foundation. The mere marking of a document, as "confidential", in
+this case, does not undermine the over bearing nature of Section
+
+22. Concededly, the confidentiality clause (in the 1997 Resolution)
+operated, and many might have bona fide believed that it would
+ensure immunity from access. Yet the advent of the Act changed all
+that; all classes of information became its subject matter. 
+Section
+8(1) (f)
+ affords protection to one such class, i.e. fiduciaries. The
+content of such provision may include certain kind of relationships
+of public officials, such as doctor-patient relations; teacher-pupil
+relationships, in government schools and colleges; agents of
+governments; even attorneys and lawyers who appear and advise
+public authorities covered by the Act. However, it does not cover
+
+
+
+
+
+                                  16
+
+       asset declarations made by Judges of the Supreme Court, and held
+      by the CJI.
+
+      59. For the above reasons, the court concludes the petitioners'
+      argument about the CJI holding asset declarations in a fiduciary
+      capacity, (which would be breached if it is directed to be disclosed,
+      in the manner sought by the applicant) to be insubstantial. The CJI
+      does not hold such declarations in a fiduciary capacity or
+      relationship.
+
+
+
+ 
+No doubt this ruling has been challenged before a Division Bench of the
+Delhi High Court, which has also heard the same. However, this issue is not, as
+conceded by both parties, an issue that is impugned. The only plea taken here
+by the learned Counsel for respondents in this regard is that this particular ruling
+will not apply in the present case. Learned Counsel contests this conclusion for
+appellant on the basis of the ruling of Justice Bhagwati in the case of 
+S. P. Gupta
+vs. Union of India
+ quoted above.
+
+
+
+
+      The question then arises as to whether in light of the argument of learned
+counsel for respondents that a Coordinate Bench cannot overrule a decision of
+another Coordinate Bench of the same Commission, this Commission is at liberty
+to take a decision contrary to its decision in Mukesh Kumar vs. Supreme Court
+of India without reference to a larger Bench. This would have to be seen in light
+of the arguments of learned counsel for respondents submitted in his written
+arguments, which is as follows:
+
+      "It is respectfully submitted that the consultation process and the
+      primacy of the opinion of the Chief Justice of India is facet of
+      Judicial Independence. It is submitted that it is now well settled that
+      the judicial independence is now one of the corner stone's of our
+      constitutional democracy. Judicial Independence demands that the
+      consultation process should be conducted in an atmosphere sober
+      analysis unaffected by competing pressures. Intrusion by strangers
+      and busy bodies needs to be eschewed."
+
+
+
+ 
+In our view the decision of this Commission in Mukesh Kumar vs.
+Supreme Court of India cannot stand overridden by the decision dated
+23.3.2007 of this Commission in 
+File No. CIC/WB/A/2006/00460 - S. C.
+
+
+
+
+                                        17
+
+ Agrawal vs. President
+'s Secretariat & Department of Justice.
+ 
+Instead it is
+countered by the conclusion of the Supreme Court of India in 
+S. P. Gupta vs.
+Union of India
+ precisely through the paragraphs drawn from this decision,
+quoted in our own decision of 23.3.2007. Besides, 
+Sec. 11(1)
+ has also been
+sought as a reason for refusing disclosure in Mukesh Kumar vs. Supreme
+Court of India is not a clause that allows for exemption from disclosure but only
+a clause prescribing the procedure for allowing a third party to seek exemption
+from disclosure of any information intended to be disclosed.
+
+
+
+
+ 
+Nevertheless, the definition of the applicability of the clause of fiduciary
+relationship i.e. exemption
+ u/s 8(1)(e)
+ dwelt in detail by the Hon'ble Justice
+RavinderBhat in W.P. No. 288/09, quoted above, will now have the effect of
+overriding any earlier decision of this Commission in this regard. The question is
+that will this definition apply in the present case, a fact that has been challenged
+by respondents. It is without doubt that the detailed exemption on the question of
+the fiduciary relationship in 
+the above decision
+ does not pertain to the kind of
+disclosure that has been sought in the present appeal since that was regarding
+disclosure of information regarding property statements whereas in the present
+case the issue is one of personnel administration. Nevertheless, as will be clear
+from the judgment that we have deliberately taken some pains to describe in
+detail above would clearly show its applicability over a much larger canvas than
+only a particular Writ Petition itself in the context of which it has been arrived at.
+The principles on which the fiduciary relationship can be relied on to seek
+exemption have been clearly laid down. In the present case excluding personal
+information, which in any case will be deleted under the severability clause in any
+disclosure order, the recommendation of appointment of justices is decidedly a
+public activity conducted in the overriding public interest. Hence the plea of
+seeking exemption under the definition of fiduciary relationship cannot stand, and
+even if accepted in technical terms, will not withstand the test of public interest.
+
+
+
+
+                                          18
+
+
+          For the above reasons this appeal is allowed. The information sought
+  by appellant Shri Subhash Chandra Agrawal will now be provided to him within
+  15 working days of the date of receipt of this Decision Notice There will be no
+  costs. Since the information was not provided within the time specified for the
+  same, it will now be provided free of cost under sub sec. (6) of 
+Sec. 7
+.
+
+
+
+         Reserved in the hearing, this Decision is announced in the open
+  chamber on this 24th day of November 2009. Notice of this decision be given
+  free of cost to the parties.
+
+
+
+  (Wajahat Habibullah)
+  Chief Information
+  Commissioner 24.11.2009
+
+   Authenticated true copy. Additional copies of orders shall be supplied against
+   application and payment of the charges, prescribed under the Act, to the
+   CPIO of this Commission.
+
+
+
+(Pankaj Shreyaskar)
+Joint Registrar
+24.11.2009
+
+
+                   CENTRAL INFORMATION COMMISSION
+       Appeal No. CIC/WB/A/2009/0001, 735, 859, 408, 410, 411 and 530
+                              dated 24-12-2008
+                 
+Right to Information Act
+ 2005 - 
+Section 19
+
+
+  Appellant:           Shri S.C.Agrawal,
+  Respondent:          Supreme Court of India (SCI)
+                         Decision Announced 20/24.11.09
+
+
+  FACTS
+        These are seven (7) appeals received from Shri S.C. Agrawal of Dariba,
+  Delhi seeking information from CPIO, Supreme Court of India. Since all these
+  cases concern information claimed to be held by the Chief Justice of India and
+  therefore, requires determination of the scope of the access allowed through
+  the Registry of the SCI they have been clubbed together for hearing.
+
+
+
+                                         19
+
+
+ File No. CIC/WB/A/2009/0001
+       In this case the information sought by Shri S.C. Agrawal through an
+application of 12-10-2008 from CPIO, Shri Rajpal Arora, Addl. Registrar, SCI
+is as follows:
+
+       "1. Copy of the mentioned letter dated 14.10.2008 by
+            Honourable the Chief Justice of India to Chief Justices of
+            High Courts asking them to retire lower court judges with
+            indolent, infirm and with doubtful reputation.
+
+       2.   Copy of terms and conditions required by judges in lower
+            courts especially in reference to their pre-matured
+            retirement.
+
+       3.   Criterion to judge lower-court judges about their being
+            indolent, infirm and/ or with doubtful reputation.
+
+       4.   Authority writing Annual Confidential Report (ACRs) of
+            lower court judges.
+
+       5.   Safeguard for lower court judges against any possible
+            pressure from those writing theirACRs.
+
+       6.   Criterion for promoting District Court Judges to High
+            Courts.
+
+       7.   Any other related information.
+
+       8.   File notings."
+
+
+
+       To this Shri S.C. Agrawal received a response dated 7-11-08 from
+CPIO, SCI Shri Rajpal Arora as follows:
+
+       "1.   You are required to send Rs. 4/- either in cash or by way
+              of Money Order or Demand Draft drawn in favourof
+              Registrar, Supreme Court of India for obtaining
+              photocopy of letter dated 14.10.2008 written by Hon'ble
+              the Chief Justice of India to Hon'ble Chief Justices of all
+              High Courts.
+
+       2.     The information is neither maintained nor available in the
+              Registry of Supreme Court of India.
+
+       3.     No file notings are available."
+
+
+
+       Not satisfied appellant Shri Agrawal moved a second appeal on 11-11-
+'08 before Shri M.P. Bhadran, Registrar, SCI with the following plea:
+
+       "For information on point numbers from 2 to 7 his reply was the
+       information is neither maintained or available in the Registry of
+       Supreme Court.
+
+
+
+       I appeal that the learned CPIO may kindly be directed to transfer
+       my RTI petition for rest of the queries under 
+section 6 (3)
+ of the RTI
+       Act to the concerned public authority. Copy of the letter as
+       mentioned in point number I may kindly be sent to me for which I
+       have paid required copying charges with this letter."
+
+
+
+                                       20
+
+
+       In his order of 8-12-08 appellate authority Shri M.P. Bhadran, Registrar
+found as follows:
+
+      "In the appeal memorandum appellant has made a request to
+      direct the CPIO to transfer his application for rest of the queries
+      under 
+section 6 (3)
+ of the RTI Act to the concerned public
+      authority.
+
+
+
+      In fact, information sought on points 2 to 7 are in respect of the
+      Judges of Lower Court. The information sought by the appellant
+      is not confined to any particular High court or State. So, it was
+      not possible for the CPIO to transfer the application of the
+      appellant to any particular State of to any public authority. I find
+      no error in the impugned order. There is no merit in this appeal
+      and it is only to be dismissed."
+
+
+
+                                      21
+
+
+ below:
+
+
+
+         22
+
+
+ Appellant Shri Agrawal's prayer before us in his second appeal is as
+
+
+"But query numbers 2 to 7 are basically based on aspects mentioned in
+letter dated 14.10.2008 of Honourable the Chief Justice of India to Chief
+Justice of States, for which the CPIO has already responded favourably
+under query 1 of my RTI petition by sending a copy of the said letter.
+Therefore, the petitioner is also entitled to get replies to related query
+numbers 2 to 7 through public authorities at Supreme Court. After all a
+letter written by Honourable the Chief Justice of India has to be based
+on some procedures, norms and guidelines to be followed in the
+system, and the petitioner has made queries relating to these
+procedures etc only and not at all relating to any particular state or court.
+Therefore, I pray that CPIO at Supreme Court may kindly be directed to
+respond to my queries 2 to 7. Also file notings as requested in query 8
+may kindly be allowed to be provided. It is prayed accordingly.'
+
+ File No. CIC/WB/A/2009/0735
+        In this case the information sought by Shri S.C. Agrawal through an
+ application of 5-5-2009 from CPIO, Shri Rajpal Arora, Addl. Registrar, SCI is
+ as follows:
+
+        "Action taken on my letter dated 4.4.2009 addressed to
+        Honourable Chief Justice of India bout Additional District Judge
+        Shri A. K. Sripal at Tis Hazari Courts in Delhi. In case my letter
+        is transferred to some other public authority, kindly transfer this
+        RTI petition to the CPIO there so that I may be provided
+        information on ultimate action by any concerned authority on my
+        mentioned letter dated 4.4.2009 addressed to Honourable Chief
+        Justice of India (copy enclosed).
+
+
+
+        Please arrange file notings by all the concerned public authorities
+        on movement of my letter dated 4.4.2009 addressed to Honourable
+        Chief Justice of India, and also on movement of this RTI petition."
+
+
+
+        To this Shri S.C. Agrawal received a response dated 29-5-09 from
+ CPIO, Shri Rajpal Arora as follows:
+
+        "I write to say that your letter dated 4.4.2009 was placed before
+        Hon'ble the Chief Justice of India on 9.4.2009 and as directed
+        by Hon'ble the Chief Justice of India, the same was filed.
+
+
+
+        Further, you are required to send Rs. 4/- for obtaining two pages
+        documents @ Rs. 2/- per page relating to noting on your present
+        application either in cash or by way of Indian Postal Order or by
+        Money Order or Demand Draft drawn in favour of Registrar,
+        Supreme Court of India."
+
+
+
+        Aggrieved by the failure to receive a copy of file noting appellant Shri
+ Agrawal then moved an appeal before Shri M.P. Gupta, Registrar, SCI on 8-6-
+
+                                         23
+
+ 09 with the following plea:
+
+       "He has not mentioned of providing file notings relating to my
+       letter dated 4.4.2009 addressed to Honourable Chief Justice of
+       India about Additional District Judge Shri A. K. Sripal at Tis
+       Hazari Courts in Delhi, as informed by the learned CPIO having
+       been filed. It may be mentioned that file noting on movement of
+       letter dated 4.4.2009 addressed to Honourable Chief Justice of
+       India about Additional District Judge Shri A. K. Sripal at Tis
+       Hazari Courts in Delhi were also specifically requested in my
+       RTI petition dated5.5.2009."
+
+
+
+       In his order of 24-6-09 appellate authority Shri M.P. Gupta Registrar
+found as follows:
+
+       "The information demanded by the appellant has already been
+       supplied by the CPIO, Supreme Court of India vide impugned
+       order. Accordingly I do not find any illegality in the impugned
+       order and the appeal is liable to be dismissed."
+
+
+
+       Appellant's prayer before us in his second appeal is as below:
+
+       "*File notings on movement of RTI petition as even accepted to
+       be provided by the CPIO may kindly be directed to be provided
+       (for which above mentioned postal order was sent).
+
+
+
+       *Complete file notings on movement of my letter dated 4.4.2009
+       addressed to Honourable Chief Justice of India about Additional
+       District Judge Shri A. K. Sripal at Tis Hazari Courts in Delhi (As
+       also requested in my RTI petition) may also kindly be directed to
+       be provided. (Refer CIC verdict CIC/WB/A/2008/00426 in the
+       matter 'Subhash Chandra Agrawal vs. Supreme Court of India."
+
+
+
+File No. CIC/WB/A/2009/0859
+       In this case the information sought by Shri S.C. Agrawal through an
+application of 6-7-2009 from CPIO, Shri Rajpal Arora, Addl. Registrar, SCI is
+as follows:
+
+       "1. Copy of complete correspondence with Honourable Chief
+             Justice of India as mentioned in enclosed TOI report
+             involving issue of a Union minister through his/ her lawyer
+             having approached Mr. Justice R. Reghupati o madras
+             High Court to influence his judicial decisions.
+
+       2.    Name of Union Minister have tried to influence Justice R.
+             Reghupati of Madras HighCourt.
+
+       3.    Name of advocate having approached Mr. Justice R
+             Reghupati on behalf of the Union Minister.
+
+       4.    Steps taken against the referred Union Minister and the
+             Advocate having tried to influence/ approach Mr. Justice
+             R Reghupati for a biased decision by the Honourable
+             Judge.
+
+                                      24
+
+
+         5.    Does correspondence in mentioned TOI report dated
+              6.7.2009 include names of union Minister/ advocate
+              having tried to influence/ approach Mr. Justice R
+              Reghupati?
+
+        6.    If not, steps take by Honourable Chief Justice of India to
+              get names of referred Union Minister and his advocate
+              revealed even if an unconditional apology might have
+              been sought as desired by Mr. Justice R. Reghupati as pre-
+              condition to hide name or referred Union Minister.
+
+        7.    Does declining to make name of influencing Union
+              Minister by a Judge of high Court Public, not encourage
+              malpractices by influential ones like a Union Minister?
+
+        8.    Steps taken by Honourable Chief Justice of India and/ or
+              his office to ensure compulsory revealing of names by
+              judges of person/s having tried to influence them.
+
+        9.    Any other related information.
+
+        10.   File notings on movement of this RTI petition as well."
+
+
+
+        To this Shri S.C. Agrawal received a response dated 4-8-09 from CPIO,
+Shri Rajpal Arora as follows:
+
+        "I write to inform you that the information sought by you is not
+        handled by and dealt with by the Registry of Supreme Court of
+        India and the information relating thereto is neither maintained
+        nor available in the Registry. Hence your request cannot be
+        acceded to under the 
+Right to Information Act, 2005
+.
+
+
+
+        You are required to send Rs. 12/- either in cash or by way of
+        Indian Postal Order or by Money Order or demand Draft drawn
+        in favour of Registrar, Supreme Court of India for obtaining true
+        copy of noting on the movement of your present application.
+        (containing six pages)."
+
+
+
+        Aggrieved with this response appellant Shri Agrawal then moved an
+appeal before Shri M.K. Gupta, Registrar, SCI on 10-8-09 with the following
+plea:
+
+ 
+"Since information sought relates to Honourable Chief Justice of
+        Supreme Court, it should be provided by the CPIO at Supreme
+        Court but now free-of-charge under 
+section 7 (6)
+ of RTI Act. I
+        may mention that some of my RTI petitions like dated
+        17.10.2005, 7.1.2009 and 5.5.2009 concerning information
+        related to office of Honourable Chief Justice of India have been
+        responded by the CPIO At Supreme Court. It is not understood
+        how the CPIO at Supreme Court regularly changes stand on
+        providing information related to Honourable Chief Justice of
+        Supreme Court. Honourable Mr. Justice S. RavindraBhat of
+        Delhi High court in the matter 
+'Bhagat Singh vs. CIC W.P. (C )
+        No.
+ 3114/2007)' has also held that the 
+Right to Information Act
+
+        being aright based enactment is akin to a welfare measure and
+        as such should receive liberal interpretation. Present petition is
+        also in accordance with esteemed verdict by full bench of
+
+                                       25
+
+          Honourable Central Information Commission in appeal number
+         CIC/WB/A/2008/000426."
+
+
+         In his order of 5-9-09 appellate authority Shri M.K. Gupta found as
+follows:
+
+         "In this regard, it is observed that learned CPIO vide impugned
+         order has already informed the appellant to the effect that the
+         requisite information is not handled by and dealt with by the
+         Registry of Supreme Court of India and information relating
+         thereto is neither maintained nor available in the registry.
+
+
+
+         Accordingly, I do not find any merits in the appeal.'
+
+         Appellant Shri Agrawal's prayer before us in his second appeal is as
+below:
+
+         "Central Public Information Officer may kindly be directed to
+         provide sought information in my RTI petition dated 6.7.2009 in
+         accordance with provisions under 
+RTI Act
+ in the form req7uired
+         as per 
+section 7 (9)
+ of the RTI Act, but now free- of- charge
+         under 
+section 7 (6)
+ of RTI Act. Action may kindly be initiated
+         against concerned officer/s at Supreme Court registry under
+         
+section 20
+ of RTI Act for declining 8information even after
+         esteemed verdict dated 2.9.2009 in the matter 'CPIO, Supreme
+         Court vs. Subhash Chandra Agrawal' (WP (C )288/ 2009) by
+         Honourable Mr. Justice S. RavindraBhat at Delhi High Court."
+
+
+
+File No. CIC/WB/A/2009/0408
+         In this case the information sought by Shri S.C. Agrawal through an
+application of 27-1-09 from CPIO, Shri Rajpal Arora, Addl. Registrar, SCI is as
+follows:
+
+         '1. What is the practical status of 'In Hou7se procedure for
+               complaints against Judges' passed by all the Honourable
+               Judges of Supreme court in December 1999 of which an
+               official copy has already been provided to the
+               undersigned by the CPIO at Supreme Court?
+
+         2.    Number of times (mentioning details) when 'In House
+               procedure' has been invoked at Supreme Court.
+
+         3.    Was any action ever taken under 'In House procedure'
+               against any Honourable Judge at Supreme Court or by
+               Honourable the Chief Justice of India against some Chief
+               Justice/ judge of any High Court of Supreme Court?
+
+         4.    If yes, kindly provide details.
+
+         5.    Has Supreme Court ever monitored implementation of
+               resolution on 'In House procedure' passed at Supreme
+               Court at High courts for which there were mentions in the
+               resolution?
+
+         6.    If yes, please provide any such details available a the
+               Supreme Court.
+
+
+
+                                         26
+
+
+       7.     Is 'In house procedure for complaints against Judges'
+             available on public domain of Supreme Court through
+             website or publication for public knowledge?
+
+      8.     If not, steps taken or intended to be taken to make public
+             aware about 'In House procedure for complaints against
+             judges.'
+
+      9.     Any other related information.
+
+      10.    Copy of file notings on removing photos of all Honourable
+             Judges from outside court room of Honourable chief
+             Justice as reported by Indian Express in its edition of
+             20.1.2009 (copy enclosed).
+
+      11.    Complete file notings on movement of this RTI petition."
+
+
+
+      To this Shri Agrawal received a response dated 25-2-09 from CPIO,
+Shri Rajpal Arora as follows:
+
+      "Point Nos. 1 to 6, 8 & 9: Supreme Court, Registry does not deal
+      with the matters pertaining to 'In House Procedure' and,
+      therefore, CPIO of Supreme Court is not in position to provide
+      the desired information.
+
+
+
+      Point No. 7: The In House Procedure is not available on the
+      website of Supreme Court and has not been published by the
+      Supreme Court Registry.
+
+
+
+      Point No. 10 : There is no file notings in the records of the
+      Registry, on removing photographs of the Hon'ble Judges from
+      outside the Court Room of Hon'ble Chief Justice of India.
+
+
+
+      Point No. 11: You are required to send Rs. 8/- either in cash or
+      through Indian Postal Order or Money Order or Demand Draft
+      drawn in favour of Registrar, Supreme Court of India for
+      obtaining copy of the notings on movement of your present
+      application including copy of orders of Hon'ble the Chief Justice
+      of India. (containing 4 pages @ Rs. 2/- per page)."
+
+
+
+      Appellant Shri Agrawal then moved an appeal before Shri M.P.
+Bhadran, Registrar, SCI received on 27-2-09, with the following plea:
+
+      "Since this decision of removing photos is also not on judicial
+      side of the Supreme Court, I appeal that copy of the order in this
+      regard together file notings may also kindly be directed to be
+      provided after collecting information/ copies of documents from
+      concerned ones at Supreme Court. It is prayed accordingly."
+
+
+
+      In his order of 24-3-2009 Shri M.P. Bhadran dismissed this appeal on
+the following ground:
+
+      "Point nos. 1 to 6, 8 and 9 deal with 'In House Procedure' for
+      compliance against the Hon'ble Judges of Supreme Court.
+
+
+
+                                      27
+
+
+          CPIO has given the reply that the Supreme Court Registry is not
+         dealing with the matters pertaining to 'In House Procedure' and
+         therefore, CPIO is not in a position to provide the desired
+         information.
+
+
+
+         So far as the information regarding removal of photographs of
+         Hon'ble Judges of the Supreme Court is concerned CPIO has
+         informed the appellant that there is no file notings in the records
+         of the Registry in respect of removal of photographs of Hon'ble
+         Judges from outside the Court room of Hon'ble the Chief Justice
+         of India. So, there is no further information to be supplied to the
+         appellant by the CPIO. The true copy of file notings on point No.
+         11 has already been supplied to the appellant by the CPIO
+         along with the leader dated 3.3.2009. So, there is no merit in
+         this appeal and it is only to be dismissed."
+
+
+
+         Appellant Shri Agrawal's prayer before us in his second appeal is as
+below:
+
+         "Shri M. P. Bhadran's role as being First Appellate Authority is
+         not proper because file notings reveal that he was an authority
+         linked with CPIO's reply on the RTI petition. It is a well
+         established fact that Decisive Authority cannot be Appellate
+         Authority. File notings also reveal that Honourable Chief Justice
+         of India also endorsed note for CPIO's reply to the RTI petition,
+         thereby leaving no scope for argument that CPO of Supreme
+         Court is not in a position to provide the desired information. It
+         was CPIO at Supreme Court who provided me a copy of
+         important resolution of 'In House Procedure'. Therefore it is but
+         natural for an RTI petitioner to expect information on issues
+         relating to the resolution passed by all the Honourable Judges of
+         the Apex Court.
+
+
+
+         Under the circumstances, I appeal to Honourable Central
+         Information Commission to kindly direct authorities at Supreme
+         Court to provide me required information to point numbers (1) to
+         (6) and (8) to (9) of my RTI petition after gathering information
+         from the concerned one/s at Honourable Supreme Court."
+
+
+
+File No. CIC/WB/A/2009/0410
+         In this case the information sought by Shri S.C. Agrawal through an
+application of 19-1-09 from CPIO, Shri Rajpal Arora, Addl. Registrar, SCI is as
+follows:
+
+         "1. What is the status of 'Restatement of Values of Judicial
+              Life' (copy enclosed) passed by all the Honourable
+              Judges of Supreme Court on 7.5.1197 of which an official
+
+
+
+
+                                         28
+
+              copy has already been provided to the undersigned by
+             the CPIO at Supreme Court?
+
+      2.     Is a copy of the said resolution made available to every
+             one joining as an Honourable Judge in Supreme Court?
+
+      3.     Is sue-motto cognizance taken in respect of violation of
+             any of the case in 'Restatement of Values of Judicial Life'?
+
+      4.     Has any complaint regarding violation of any of the 16
+             codes of 'Restatement of Values of Judicial Life' ever
+             been made?
+
+      5.     Steps taken in case an Honourable Judge violates any of
+             the 16 codes of 'Restatement of Values of Judicial Life'.
+
+      6.     Kindly give details of any action ever take in case of
+             violation of any point of 'Restatement of Values of Judicial
+             Life'.
+
+      7.     Is 'Restatement of Values of Judicial Life' available on
+             public domain of Supreme Court through website or
+             publication for public knowledge?
+
+      8.     If not, steps taken or intended to be taken to make public
+             aware about 'Restatement of Values of JudicialLife'.
+
+      9.     Referring point nine of 'Restatement of Values of Judicial
+             Life', does this code also include interviews given to
+             media by some Honourable Judge/s including
+             Honourable Chief Justice?
+
+      10.    Any other related information.
+
+      11.    Copy of file notings on reach to decision to put photos of
+             all Honourable Judges outside court room of Honourable
+             Chief Justice as report by Indian Express in its edition of
+             18.1.2009 (copy enclosed).
+
+      12.    Complete file notings on movement of this RTI petition."
+
+
+
+      To this Shri Agrawal received a response dated 17-2-09 from CPIO,
+Shri Rajpal Arora Addl. Registrar as follows:
+
+      "Point Nos. 1 to 6 and 8 to 8: Supreme Court Registry does not
+      deal with the matters pertaining to the Resolution of Hon'ble
+      Supreme Court dated 7th May 1997 on 'Restatement of Values
+      of Judicial Life', and, therefore, CPIO of Supreme Court is not in
+      a position to provide the desired information.
+      Point No. 7: 'Restatement of Values of Judicial Life' is not
+      available on Supreme Court website and has not              been
+      published by the Supreme Court Registry.
+
+      Point No. 11: The colour photographs of Hon'ble the Chief
+      Justice of India and Hon'ble Judges were displayed in front of
+      Court Room No. 1 vide Orders dated 10.12.2008 of Hon'ble the
+      Chief Justice of India.
+
+      You are required to send Rs. 12/- either in cash or through
+      Indian Postal Order or Money Order or Demand Draft drawn in
+      favour of Registrar, Supreme Court of India for obtaining copy of
+      the notings on movement of your present application including
+      copy of orders of Hon'ble the Chief Justice of India and copy of
+
+
+
+                                      29
+
+          orders dated 10.12.2008 of Hon'ble the Chief Justice of India
+         (containing 6 pages @ Rs. 2/- per page)."
+
+
+
+         Appellant Shri Agrawal then moved an appeal before Shri M.P.
+Bhadran, Registrar, SCI on 26-2-09 with the following plea:
+
+         "There is no logic in CPIO expressing inability to provide the
+         required information without making any effort to compile the
+         same. I, therefore, appeal that the learned CPIO may kindly be
+         directed to provide me required information to point numbers 1
+         to 6 and 8 to 10 of my RTI petition after gathering information
+         from the concerned one/s at Honourable Supreme Court."
+
+
+
+         In his order of 18-3-2009 appellate authority Shri M.P. Bhadran
+dismissed this appeal on the following ground:
+
+         "I find no reason to disagree with the reply given by the CPIO
+         that since Supreme Court Registry does not deal with the
+         matters pertaining to the Resolution, CPIO is not in a position to
+         provide the desired information. That apart the information
+         sought by the appellant on points 1to 6 and 8 to 10 does not
+         come within the ambit of 
+Sections 2(F)
+ and (j) of the 
+Right to
+         Information Act
+. I find no merit in this appeal and it is only to be
+         dismissed."
+
+
+
+         Appellant Shri Agrawal's prayer before us in his second appeal is as
+below:
+
+         "Shri M. P. Bhadran's role as being First Appellate Authority is
+         not proper because file notings reveal that he was an authority
+         linked with CPIO's reply on the RTI petition. It is a well
+         established fact that Decisive Authority cannot be Appellate
+         Authority. File notings also reveal that Honourable Chief Justice
+         of India also endorsed note for CPIO's reply to the RTI petition,
+         thereby leaving no scope for argument that CPIO of Supreme
+         Court is not in a position to provide the desired information. It
+         was CPIO at Supreme Court who provided me a copy of
+         important resolution of 'Restatement of Values of Judicial Life'.
+         Therefore, it is but natural for an RTI petitioner to expect
+         information on issues relating to the resolution passed by all the
+         22 Honourable judges of the Apex Court."
+
+
+
+File No. CIC/WB/A/2009/0411
+         In this case Shri S.C. Agrawal's request before the CPIO, Shri Rajpal
+Arora, Addl. Registrar, SCI was for "information together with relevant
+documents/ file notings, if any, on action taken on my letter dated 8.9.2008
+addressed to Honourable Chief Justice of India Mr. Justice K. G.
+BalakrishananJi (copy of letter enclosed). In case, my said letter dated
+
+
+
+                                         30
+
+ 8.9.2008 is forwarded/ transferred to some other authority, kindly transfer this
+RTI petition to the CPIO there. Kindly attach file notings including those on
+movement of this RTI petition."
+
+
+
+         To this Shri Agrawal received a response dated 6-2-09 from CPIO, Shri
+Rajpal Arora as follows:
+
+         "I write to say that your letter dated 8.9.2008 was placed before
+         Hon'ble the Chief Justice of India on 10.9.2008 and as directed
+         by Hon'ble the Chief Justice of India the same was filed.
+
+
+
+         Further, you are required to send RS. 4/- for obtaining two
+         pages documents @ Rs. 2/- per page relating to noting on your
+         present application either in cash or Indian Postal Order or
+         Money Order or Demand Draft drawn in favour of Registrar,
+         Supreme Court of India."
+
+
+
+         Appellant Shri Agrawal then moved an appeal before Shri M.P.
+Bhadran, Registrar, SCI on 18.2.2009 with the following plea:
+
+         "But it seems that two page of file-notings on movement of my
+         RTI Petition are not complete with copy of draft reply and
+         approval of draft reply by concerned ones not enclosed. Also,
+         file notings relating to my letter dated 8.9.2008 addressed to
+         Honourable Chief Justice of India Mr. Justice K. G.
+         BalakrishananJi being filed are not enclosed even though all
+         these were specifically requested in my RTI petition dated
+         7.1.2009."
+
+
+
+         In his order of 16-3-09 Shri M.P. Bhadran dismissed this appeal as
+information already provided as follows:
+
+         "It is pertinent to note the request made by the appellant as per
+         his application dated 7.1.2009. As per application dated
+         7.1.2009 the appellant has made a request o provide him
+         information together with relevant documents/ file noting, if any,
+         on action taken on his letter dated 8.9.08 addressed to Hon'ble
+         the CJI including file notings on movement of RTI petition. CPIO
+         has already furnished the true copy of the file noting along with
+         letter dated 14.2.2009. The file noting itself is self explanatory
+         and there is no further information to be supplied by the CPIO. I
+         find no merit in this appeal and it is only to be dismissed.'
+
+         Appellant Shri Agrawal's prayer before us in his second appeal is as
+below:
+
+ 
+"I appeal to Honourable Central Information Commission to
+         kindly direct CPIO at Supreme Court to provide me complete file
+         notings (1) on action taken on my letter dated 8.9.2008
+
+
+
+                                        31
+
+        addressed to Honourable Chief Justice of India Mr. Justice K. G.
+       BalakrishananJi and (2) complete file notings on movement of
+       RTI petition dated 7.1.2009 including also copy of draft reply and
+       approval of draft reply on my RTI petition by concerned ones,
+       buy now without any additional cost because I have already
+       once paid the copy charges as per CPIO's demand. I had to
+       unnecessarily bear fast in filing subsequent appeals because of
+       insufficient and incomplete file notings provided by the CPOIO.
+       Honourable Mr. Justice S. Ravindra Bhatt of Delhi High court in
+       the matter "
+Bhagat Singh vs. CIC (W. P. (C ) No.
+ 3114/ 2007)
+       has also held that the 
+Right to Information Act
+ being aright
+       based enactment is akin to a welfare measure and as such
+       should receive liberal interpretation. It is prayed accordingly.'
+
+File No. CIC/WB/A/2009/0530
+       In this case the information sought by Shri S.C. Agrawal through an
+application of 16-2-09 from CPIO, Shri Rajpal Arora, Addl. Registrar, SCI is as
+follows:
+
+
+       "Complete detail of complaints received against judges of
+       Supreme Court and High courts received at supreme Court or
+       by Honourable the Chief Justice of India from 1.10.2005 till date.
+       Please also mention action taken by Supreme Court or by
+       Honourable the Chief Justice on each of the complaint. Please
+       also include file notings on every complaint, and also on
+       movement of this RTI petition."
+
+
+
+       To this Shri Agrawal received a response dated 7-3-09 from CPIO, Shri
+Rajpal Arora as follows:
+
+       "I write to inform you that the complaints against Hon'ble Judges
+       of the High Court or Supreme Court are not handled by the
+       Registry. The complaints, if any, received in Supreme Court
+       Registry against the Hon'ble Judges of the High Court or
+       Supreme Court are sent to the office of Hon'ble the Chief Justice
+       of India and details of such complaints are not maintained by the
+       Registry. Since, such information is not held by or under the
+       control of the Registry the CPIO, Supreme Court of India cannot
+       accede to your request under the 
+Right to Information Act, 2005
+.
+
+
+
+       You are required to send Rs. 8/- either in cash or through Indian
+       Postal Order or Demand Draft drawn in favour of Registrar,
+       Supreme Court of India for obtaining copy of the noting on
+       movement of your present application including copy of orders
+       of Hon'ble the Chief Justice of India on your application
+       (containing 4 pages @ Rs. 2/- perpage)."
+
+
+
+       Not satisfied, appellant Shri Agrawal then moved an appeal before Shri
+M.P. Bhadran, Registrar, SCI on 16.3.2009 with the following plea:
+
+
+
+                                      32
+
+
+          "The learned CPIO vide Dy. No. 741/RTI/08-09/2008 dated
+         7.3.2009 expressed inability to provide information because
+         according to him all such complaints are handled by Honourable
+         the Chief Justice of India. Interestingly, the reply also indicates
+         that there is some order from Honourable the Chief Justice of
+         India on my this RTI application clearly establishing that office of
+         Honourable the Chief Justice of India is approachable by the
+         learned CPIO together required information as sought in my RTI
+         petition. Otherwise also there is no logic in CPIO's reply of
+         terming Chief Justice of India and Supreme Court of India as
+         authorities not related with each other. I appeal that the learned
+         CPIO may kindly be directed to provide required information as
+         sought in my RTI petition after gathering the same from office of
+         Honourable the Chief Justice of India.'
+
+         In his order of 8-4-2009 Shri M.P. Bhadran dismissed this appeal on
+the following ground:
+
+         "The request of the appellant is to direct the CPIO to furnish the
+         information sought by him after gathering the same from the
+         office of Hon'ble the Chief Justice of India. I find no reason to
+         disagree with the reply given by the CPIO. No information is
+         held by the Registry and CPIO is not in a position to furnish the
+         information sought by the appellant. There is no merit in this
+         appeal and it is only to be dismissed."
+
+
+
+         Appellant Shri Agrawal's prayer before us in his second appeal is as
+below:
+
+         "I appeal that authorities at Supreme Court may kindly be
+         directed to provide complete details of complaints against
+         judges of Supreme Court and High courts received at Supreme
+         court or by Honourable the Chief justice of India from 1.1.2005
+         till date including action taken by Supreme Court or by
+         Honourable the Chief Justice of India on each of the complaint
+         together with file notings on every complaint. Any other relief
+         deemed fit in favour of the petition, may kindly be allowed."
+
+
+
+         Vide our letter of September 8, 2009 we had issued notice for hearing
+of appeal
+ u/s 19
+ of the RTI Act of the following seven appeal petitions:
+
+         "CIC/WB/A/2009/000001
+         CIC/WB/A/2009/000408
+         CIC/WB/A/2009/000410
+         CIC/WB/A/2009/000411
+         CIC/WB/A/2009/000529
+         CIC/WB/A/2009/000530
+         CIC/WB/A/2009/000735"
+
+
+
+                                         33
+
+
+       These were scheduled for hearing on 9th October, 2009. The hearings
+were further scheduled for 6th November, 2009 vide our letter of 6-10-09.
+However, on the very same day we had received a fax from Shri R.P. Arora,
+CPIO, SCI seeking adjournment as follows:
+
+      "I am directed to say that as we have filed appeal in the Delhi
+      High Court against the judgment of the Learned Single Judge
+      dated 2nd September, 2009 in Writ Petition No. 288 of 2009, it is
+      requested to kindly adjourn all the above eight matters till the
+      final disposal of the said appeal."
+
+
+
+      We then received a further request from CPIO Shri R.P. Arora of SCI of
+October 22, 2009 submitting as follows:
+
+      "I am directed to say that as Letters Patent Appeal No. 501 of
+      2009 has been filed against the judgment of the Learned Single
+      Judge dated 2nd September, 2009 in Writ Petition No. 288 of
+      2009 which is listed for final hearing before a larger Bench of
+      three Hon'ble Judges in the Delhi High Court on 13th and 13th
+      November, 2009 and the said matters are being listed upon
+      giving reference of the Judgment in W. P. No. 288 of 2009 in his
+      appeal to the Central Information Commission as mentioned in
+      the earlier letter of even number dated 6.10.2009 of the
+      undersigned, it is requested to kindly further adjourn all the
+      above eight matters till the final disposal of the said appeal."
+
+
+
+      Upon this we have received a e-mail dt. 27-10-09 from appellant
+referring to the adjournment request of CPIO, SCI a copy of which had been
+endorsed to him also raising the following points:
+
+      "Reasoning by CPIO at Supreme Court raises several law-points
+      and aspects:
+
+      1. Can simply filing of an appeal (that too without getting any
+         stay-order) in a case involving CIC verdict put complete 
+RTI
+         Act
+ on hold?
+
+      2. Is filing an appeal at Division Bench against single-bench
+         verdict equivalent to a refused stay-order by the higher
+         bench.?
+
+      3. Can simply a mention of a writ-petition (288/2009) in a
+         petition (CIC/WB/A/2008/000859) put all the eight petitions on
+         hold indefinitely especially also when this mention of the writ-
+
+         petition is only in one petition (CIC/WB/A/2008/000859) for
+         which a separate notice for hearing is issued while combined
+         notice for hearing for other seven petitions is different.
+
+      4. A division Bench of Honourable Supreme Court observed
+          against adjournment-culture by mention that many a times
+          petitioners seek stay-orders on filing a writ/ appeal, and drag
+          the case for years with many a times ultimately losing the
+          case even.
+
+
+
+                                      34
+
+
+       5. Central Information Commission has an admirable practice is
+         not entertaining adjournment requests in otherwise has
+         become a culture in our courts for which concern is being
+         expressed by even those in judicial system.
+
+ 
+6. Central Information Commission usually proceeds with
+         hearing overlooking adjournment requests like was done in
+         petition number CIC/AT/A/2008/736 in the matter (
+Subhash
+         Chandra Agrawal vs. Department of Justice
+)."
+
+
+
+
+      Therefore, through our letter of 28-10-09 addressed to the CPIO, SCI
+they were informed that the request for adjournment has not been acceded to
+in view of an objection raised by the appellant Shri S.C. Agrawal.
+Subsequently, through a letter of 28-10-09 no copy of which was endorsed to
+respondent, Shri S.C. Agrawal has submitted as follows:
+
+      1. Can simply filing of an appeal (that too without getting any
+         stay-order) in a case involving CIC verdict put complete 
+RTI
+         Act
+ on hold?
+
+      2. Is filing an appeal at Division Bench against single-bench
+         verdict equivalent to a refused stay-order by the higher
+         bench.?
+
+      3. Can simply a mention of a writ-petition (288/2009) in a
+         petition (CIC/WB/A/2008/000859) put all the eight petitions
+         on hold indefinitely especially also when this mention of the
+         writ-petition is only in one petition (CIC/WB/A/2008/000859)
+         for which a separate notice for hearing is issued while
+         combined notice for hearing for other seven petitions is
+         different.
+
+      4. A division Bench of Honourable Supreme Court observed
+         against adjournment-culture by mention that many a times
+         petitioners seek stay-orders on filing a writ/ appeal, and drag
+         the case for years with many a times ultimately losing the
+         case even.
+
+      5. Central Information Commission has an admirable practice is
+         not entertaining adjournment requests in otherwise has
+         become a culture in our courts for which concern is being
+         expressed by even those in judicial system.
+
+ 
+6. Central Information Commission usually proceeds with
+         hearing overlooking adjournment requests like was done in
+         petition number CIC/AT/A/2008/736 in the matter (
+Subhash
+         Chandra Agrawal vs. Department of Justice
+).
+
+
+      7. There are several issues of national importance in these
+         petitions fixed for hearing, which may lose relevance if
+         hearing is postponed."
+
+
+
+      The appeal was then heard on 6-11-09. The following are present:
+
+
+
+                                     35
+
+
+       Appellants
+            Shri Subhash Agrawal.
+
+            Shri PrashantBhushan, Advocate
+            Shri Pranav Sachdeva, Advocate
+
+      Respondents
+           Shri Rajpal Arora, CPIO, Supreme Court.
+
+           Shri Amit Anand Tiwari, Advocate, CPIO, Supreme Court.
+           Shri Devdutt Kamal, Advocate.
+
+
+
+      Shri Amit Anand Tiwari, Learned Counsel for respondent submitted
+that the two issues on which the Letter Patent Appeal (LPA) has been filed
+against the judgment of the Ld. Single Judge of 2-9-09 in W.P. No. 288/2009
+focuses on the following two issues:
+
+      (i)        Whether information held by the CJI can be disclosed by the
+                 CPIO and deemed to be held by the CPIO under the
+                 definition of "Right to Information" u/s 2(j).
+
+      (ii)       Whether the information held by the CJI has to be deemed to
+                 be in the public domain.
+
+
+
+      Both issues were strongly disputed by Learned counsel for appellant
+Shri Prashant Bhushan but submitted that the matter of whether the CJI is a
+public authority or not has been settled both at the level of Central Information
+Commission and at the level of Delhi High Court. This is not an issue that is
+being agitated in the LPA. He went on the describe the issue described by Ld.
+Counsel for respondent at (ii) above as absurd and a complete negation of the
+
+RTI Act
+. Ld. Counsel Shri Prashant Bhushan also submitted that should the
+decision in the LPA go against the CJI would this then be agitated in the
+Supreme Court and thereby debar all decisions under the 
+RTI Act
+ from
+disclosure by the CJI till that appeal keeps pending.
+
+
+
+      In our view the issue here is much simpler. Ld. Counsel for respondent
+has specifically pleaded that since the LPA No. 501/2009 had been listed for
+final hearing before a larger Bench of three Judges on 12th and 13th
+November, 2009 a decision at this stage could lead to further litigation
+involving public expenditure and inconvenience to all stakeholders. In this
+context he submitted a copy of the Order of the Division Bench of the High
+Court of Delhi of 7-10-09 in which the request for stay has not been pressed
+
+
+
+                                        36
+
+ and hence the application dismissed. However, to substantiate                his
+contentions of the point above he highlighted the following from the synopsis
+and list of dates of LPA No. 501/09, which are as follows:
+
+      "Because the Learned Single Judge failed to appreciate that the
+      'information' regarding the declaration of assets by the Hon'ble
+      Judges of the Supreme court sought for by the Respondent No.
+      1 was not covered under the Act and the Respondent had no
+      'right' to seek such information under 
+Section 2 (j)
+ of the Act.
+
+
+
+       Because the Learned Single Judge omitted to consider the
+      specific contention of the appellant that information accessible
+      under the Act has to be information in the 'public domain."
+
+
+
+      Having taken into account the above arguments we were of the view
+that the position of this Commission has already been explicitly stated on the
+two issues agitated in the LPA. A decision of the DB of the High Court will
+help further delineate contours of the 
+RTI Act
+ 2005. It would, therefore, be
+wise to allow for a short adjournment to enable the learned justices of the
+High Court of Delhi, which include the Chief Justice to deliberate and
+pronounce on these issues. If the decision of the Delhi High Court upholds
+the stand of the Commission in this regard, all these appeals would
+automatically stand resolved. The hearing was therefore, adjourned to
+Monday the 16th day of November, 2009 at 4.00 p.m. which was further
+postponed to 20th November, 09. The matter was then again heard on 20-11-
+2009. The following are present.
+
+      Appellants
+      Shri Mayank Mishra, Advocate
+      Shri Subhash Agrawal.
+
+      Shri Pranav Sachdeva, Advocate
+
+      Respondents
+      Shri Rajpal Arora, CPIO, Supreme Court.
+
+      Shri DevaduttKamat, Advocate.
+
+      Ms. PriyankaTelang, Advocate.
+
+      Shri NitinLonkar, Advocate.
+
+
+
+      It was reported that the hearing scheduled by the Division Bench of the
+High Court of Delhi has indeed been held but judgment had been reserved.
+Learned counsel for appellant Shri Mayank Mishra submitted that the only
+issue pending before the Full Bench is the question of in-house procedure.
+
+
+
+                                      37
+
+
+ The issue of the jurisdiction of the RTI being comprehensive and hence
+including the office of Chief Justice of India stands conceded. Learned
+counsel for respondents Shri Devadatt Kamat submitted that he is not denying
+that the Chief Justice of India is a public authority. Nevertheless it is his case
+that information of a certain kind is not information open to access in the
+definition of Right to Information provided in 
+Section 2 (j)
+ even though, it may
+come under the broader definition of information
+ u/s 2 (f)
+. The appeals were,
+therefore, looked at from the above points of view.
+
+
+
+       In these cases it is conceded by appellant that the information sought
+in   file     Nos.     CIC/WB/A/2009/00408,           CIC/WB/A/2009/00410    and
+CIC/WB/A/2009/00530 all relate to in-house procedure, which is the
+information the disclosability of which under the RTI is the pointed issue
+pending a decision before the High Court. Therefore, hearing in all these three
+cases requires to be adjourned.
+
+
+
+       In     file   Nos.   CIC/WB/A/2009/001,        CIC/WB/A/2009/00411     and
+CIC/WB/A/2009/00735 the information sought and held by the SCI has been
+provided except the file noting. CPIO Shri Rajpal Arora, Addl. Registrar
+submitted that in these cases there is no file noting and the information sought
+by appellant has, in fact, been provided to the extent that it is held by the
+office of Supreme Court including the office of Chief Justice of India.
+
+
+
+       In file No. CIC/WB/A/2009/00529 Shri DevadattKamat submitted that
+the information sought in this case cannot be disclosed in light of 
+Article 74
+ of
+the Constitution read with 
+section 2 (j)
+ and indeed the exemption provided
+from disclosure under 
+Sections 8 (1) (e)
+ and (j). In this matter, however,
+learned counsel for appellant Shri Mayank Mishra submitted that this issue
+had been repeatedly discussed in the Full Bench which is of the Central
+Information      Commission,   namely,    in   File    Nos.   CIC/WB/A/2008/208,
+CIC/WB/A/2008/00426 and CIC/AT/A/2008/00736 in which the Commission
+has repeatedly taken the decision that such information is disclosable. To
+allow time to learned counsel for respondent Shri Devadatt Kamat to further
+develop his arguments for which he was not fully prepared in the present
+
+
+
+                                         38
+
+ hearing, the hearing in this case is adjourned to 23rd November, 2009 at 5.00
+p.m.
+
+
+        This then leaves only file No. .CIC/WB/A/2009/00859 as being open to
+a decision in this hearing. In this file the plea of learned counsel for
+respondent Shri D.D. Kamat is that the information sought cannot be deemed
+to be not 'held' or 'under the control' of the SCI. He also submitted that the
+information sought is part of in-house procedure of the office of Chief Justice
+of India. To be considered as "held" or "under the control" of the Supreme
+Court of India, these words have to be interpreted in terms of the basic
+structure of the Indian Constitution. In this context he invited our attention to
+the following ruling from the decision of the Supreme Court in N. Kannadasan
+vs. AjoyKhose (2009) 7 SCC as follows:
+
+         "71. Independence and impartiality of judiciary is a basic
+        feature of the Constitution. Constitutionalism envisages that all
+        laws including the constitutional provisions should be interpreted
+        so as to uphold the basic feature of the Constitution."
+
+
+
+ 
+Shri DevadattKamat has gone on to quote from a judgment of the
+Supreme        Court   in   
+Velamuri       Venkata   Sivaprasad        Vs.   Kothuri
+Venkateswarlu
+ (2000) 2 SCC which deals with 
+Hindu Succession Act
+ 1956,
+in particular 
+Section 14
+, as follows:
+
+
+         "The legislation of 1956, therefore, ought to receive an
+        interpretation which would be in consonance with the wishes
+        and desires of the framers of our Constitution. We ourselves
+        have given this Constitution to us and as such it is a bounden
+        duty and an obligation to honour the mandate of the Constitution
+        in very sphere and interpretation which would go in consonance
+        therewith ought to be had without any departure therefrom."
+
+
+
+        In this context he argued that under the Constitution, the Judges are to
+be     given    an     exalted   status.    He    has,   therefore,     quoted    C.
+RavichandranIyerVs.         Justice     A.M.     Bhattacharjee    in     which    K.
+Ramaswamy. J. has ruled on why rule of law and judicial independence
+needs to be preserved:
+
+        "The diverse contentions give rise to the question whether
+        any Bar Council or Bar Association has the right to pass
+        resolution against the conduct of a Judge perceived to have
+        committed misbehaviour and, if so, what is its effect on
+        independence of the judiciary. With a view to appreciate the
+        contentions in their proper perspective, it is necessary to haveat
+
+                                        39
+
+       the back of our mind the importance of the independence of
+      the judiciary. In a democracy governed by rule of law         under
+      written Constitution, judiciary issentinelon      thequi vive      to
+      protect the fundamental rights and to poise even scales of
+      justice between the citizens and the State or the States inter se.
+      Rule of law and judicial review are      basic features of the
+      Constitution.     As its integral     constitutional      structure,
+      independence of the judiciary is an essential attribute of rule of
+      law. 
+In 
+S.P. Gupta vs. Union of India
+ [(1981) Supp. SCC 87] in
+      paragraph27,this      Court held that if there is one principle
+      which runs through the entire fabric of the Constitution it is the
+      principle of the rule of law, and under the Constitution it is the
+      judiciary which is entrusted with the task of keeping every organ
+      of the State within the limits of the law and thereby making the
+      rule of law meaningful and effective. Judicial review is one of
+      the     most potent      weapons in the armoury of       law. The
+      judiciary seeks to protect the citizen against violation of his
+      constitutional or legal rights or misuse or abuse of power by the
+      State or its officers. The judiciary stands between the citizen
+      and the State as a bulwark against executive excesses and
+      misuse or abuse of power by        the executive. It is, therefore,
+      absolutely essential that the judiciary must be free from
+      executive pressure or influence which has been secured by
+      making elaborate provisions in the Constitution with details. The
+      independence of judiciary is not           limited only to the
+      independence from the executive pressure or influence; it is a
+      wider concept, which takes within its sweep independence from
+      any other pressure and prejudices. It has many
+      dimensions, viz. fearlessness       of other power          centres,
+      economic or political, and freedom from prejudices acquired
+      and nourished by the class to which the judges belong."
+
+
+
+
+ 
+He has, therefore, concluded with the words of K. Ramaswamy J. 
+in
+
+the above case
+, which are as follows:
+
+
+      The arch of the Constitution of India pregnant from its Preamble,
+      Chapter III [Fundamental Rights] and Chapter IV [Directive
+      Principles] is to establish an egalitarian social order
+      guaranteeing fundamental freedoms and to secure justice -
+      social, economic and political - to every citizen through rule of
+      law. Existing social inequalities need to be removed and
+      equality in fact is accorded to all people irrespective of caste,
+      creed, sex, religion or region subject to               protective
+      discrimination only through rule of law. The Judge cannot
+      retain his earlier passive judicial rule when he administers the
+      law under the Constitution to give effect to the constitutional
+      ideals. The extraordinary complexity of modern litigation
+      requires him not merely to declare the rights of citizens but also
+      to mould the relief warranted under given facts and
+      circumstances and often command the executive and other
+
+
+
+                                        40
+
+          agencies to enforce and give effect to         the order, writ  or
+         direction or prohibit them to do unconstitutional    acts. In this
+         ongoing complex of adjudicatory process, the role of the Judge
+         is not merely to interpret the law but also to lay new norms of
+         law and to mould the law to suit the changing social and
+         economic scenario to        make the ideals enshrined in the
+         Constitution meaningful and reality. Therefore, the Judge is
+         required to take judicial notice of the social     and economic
+         ramification, consistent with the theory of    law. Thereby, the
+         society demands active judicial roles, which formerly were
+         considered exceptional but now a routine. The Judge must act
+         independently, if he is to perform the functions as expected of
+         him and he must feel secure that such action of him will not
+         lead to his own downfall. The independence is not assured for
+         the Judge but to the judged. Independence to the Judge,
+         therefore, would be both essential and proper. Considered
+         judgment of the court would guarantee the Constitutional
+         liberties which would thrive only in an atmosphere of judicial
+         independence. Every endeavour should be made to preserve
+         independent judiciary as a citadel of public justice      and
+         public security to fulfil the constitutional role assigned to the
+         Judges."
+
+
+
+         Learned counsel Shri Devadatt Kamat has then quoted from
+Shri P. RamanathaAiyar's Advanced Law Lexicon Volume II to define the
+word "held" as follows:
+
+         "The word 'held' connotes the existence of a right or title in the
+         hold. PhekuChamar v. Harish Chandra, AIR 1953 ALL 406, 407,
+         KailashRai v. jai Jai Ram, AIR 1973 SC 893, 897. (UP Zamindari
+         Abolition and Land Reforms Act (1 of 1951),
+S.9
+).
+
+
+
+         "The word 'held' means lawfully held, to possesses by legal title,"
+
+         Budhan Singh v. BabiBux, AIR 1970 SC 1880 at 1884."
+
+
+
+         Shri DevadattKamat has also quoted from Volume 1 of the Advanced
+Law Lexicon on the word "control" as below:
+
+ 
+"The expression 'control' connotes power to issue directions
+         regarding how a thing may be done by a superior authority to an
+         inferior authority. 
+K. S. Ramamurthy Reddiar vs. Chief
+         Commissioner, Pondicherry
+, AIR 1963 SC 1464."
+
+
+
+
+         In support he has invited our attention to KailashRai vs. Jai Jai Ram
+(1973)     1    SCC     announced     on      22nd   January,   1973    in     which
+Hon'bleVaidialingam, J. has held as below:
+
+
+
+                                         41
+
+
+        "In interpreting expression, this Court in Budhan Singh and Another
+       v. NabiBux and Another has held that it means lawfully held. This
+       Court has further observed that:
+
+
+
+       'According to Webster's New Twentieth Century Dictionary the
+       word 'held' is technically understood to mean to possess by legal
+       title. Therefore, by interpreting the word 'held' as 'lawfully held'
+       there was no addition of any word to the section. According to the
+       words of 
+Section 9
+ and in the context of the scheme of the Act, it is
+       proper to construe the word 'held' in the section as 'lawfullyheld'."
+
+
+
+       In brief, therefore, the argument of learned counsel for respondent has
+been that the information sought in all these matters cannot be deemed either
+to be held or under the control of Chief Justice in legal terms. Learned
+counsel for appellant Shri Mayank Mishra has, on the other hand, submitted
+that what appellant Shri S.C. Agrawal has sought is not concerning the
+conduct of Justices of the High Court but that of the Union Minister against
+whose attempt to influence Hon'ble Mr. Justice Reghupati has made
+complaint. He, however, conceded that the questions 7 and 8 are concerned
+with the conduct of Justices.
+
+
+
+                                DECISION NOTICE
+
+       As discussed above there are no file notings as sought in file Nos.
+CIC/WB/A/2009/0001,       CIC/WB/A/2009/0411       and    CIC/WB/A/2009/0735,
+hence the information sought is that already provided by CPIO Shri Rajpal
+Arora being the information held by the SCI. These three appeals are
+therefore, dismissed.
+
+
+
+ 
+On the other hand the issue in Appeal Nos. CIC/WB/A/2009/0408,
+CIC/WB/A/2009/0410 and CIC/WB/A/2009/0530 concerns disclosure of
+information of in-house functioning of the office of the CJI, which is the subject
+of appeal before the Division Bench of the High Court of Delhi. For this
+reason any decision in these three cases at this stage could be singularly
+inappropriate and the hearing is adjourned to 16th December, 2009 at 4.00
+p.m.
+
+
+
+
+
+                                       42
+
+           With regard to the appeal No. CIC/WB/A/2009/00859 ,however, we are
+not convinced that the disclosure of information sought by.appellant Shri
+S.C. Agrawal would in any way infringe on the constitutional stature of Hon'ble
+Justices of the High Court or indeed in any way diminish the exalted status
+that we readily concede is granted to him in a democracy such as ours. The
+implication in this appeal is that, in fact, there has been an attempt to diminish
+that exalted status by unseemly pressure and the information sought is a
+means to expose such an unworthy attempt, if any. Besides, the argument
+constructed so painstakingly by learned counsel for respondent Shri
+DevadattKamat to substantiate his plea that information sought cannot be
+deemed to be held or under the control of the SCI has also failed to convince
+because the different rulings marshalled by learned counsel referred
+repeatedly to matters of property and property records, not questions of
+general correspondence which would constitute general information. Should
+the plea of learned counsel Shri DevadattKamat be accepted such a decision
+would have devastating effect on the very foundation of the principles of
+transparency and accountability of which the 
+Right to Information Act
+ 2005
+rests firm. Learned counsel seems to have made an effort to make a
+distinction between the definitions of information as clearly mandated
+ u/s 2 (f)
+
+and the Right to Information defined in 
+Section 2 (j)
+. On this specific issue,
+however, we have the decision of the Delhi High Court in WP (C) 7265/2007
+
+Poorna Prajna Public School vs. Central Information Commissioner
+&Ors.
+ decided on 25.9.'09 in which Hon'ble Shri Sanjeev Khanna J. has
+examined this very issue and come to the conclusion that there can be no
+such fine dividing line. "It is well established" the learned Justice has held,
+"that an interpretation which renders another provision or part thereof
+redundant or superfluous should be avoided."1 Under the circumstances this
+appeal is allowed. The information sought by appellant Shri S.C. Agrawal in
+respect of all questions except question Nos. 7 and 8 which are indeed
+questions on in-house procedure apart from questioning the conduct of
+Justices of the High Court in which, in our view, a response could impinge
+upon the exalted status granted to such Justices, will now be provided to
+
+
+
+1
+
+
+    Para 8 of WP© No. 7625/2007
+
+
+                                       43
+
+  appellant Shri S.C. Agrawal within 15 working days of the date of receipt of this
+ decision notice. There will be no costs.
+
+
+
+
+        Announced in the hearing in respect of all files save File No.
+ CIC/WB/A/2009/00859. The Decision on the latter is announced in open
+ chamber this 24th day of November 2009. Notice of this decision be given free of
+ cost to the parties.
+
+
+
+ (Wajahat Habibullah)
+ Chief Information Commissioner
+ 24-11-2009
+
+ Authenticated true copy. Additional copies of orders shall be supplied against
+ application and payment of the charges prescribed under the Act to the CPIO of
+ this Commission.
+
+
+
+(Pankaj K.P. Shreyaskar)
+Joint Registrar
+24-11-2009
+
+ADJUNCT ORDER: Appeal No. CICWB/A/2009/000529 and CIC/WB/A/2009/000859
+
+Date of Hearing: 10.08.2020
+
+Note: Aggrieved due to non-compliance of the decisions of the Commission in
+CIC/WB/A/2009/000529 dated 29.04.2009 and CIC/WB/A/2009/000859 dated 06.07.2009
+despite the orders of the Hon'ble Supreme Court of India in Civil Appeal No 10044 and
+10045 of 2009 dated 13.11.2019, the Appellant made an application for non-compliance
+dated 01.06.2020. In the said representation, the Appellant also requested to take the four
+adjourned cases in File No CIC/WB/A/2009/000529, CIC/WB/A/2009/000408,
+CIC/WB/A/2009/000410 and CIC/WB/A/2009/000530 in view of the decision of the
+Hon'ble Supreme Court of India in Civil Appeal No 10045 of 2009 dated 13.11.2019.
+However, subsequently, the Appellant vide email dated 23.07.2020 informed the
+Commission that inadvertently in his submission dated 01.06.2020, dates of CIC decisions
+were wrongly given as appeal date and RTI application date respectively. He therefore
+requested correction of the dates as CIC decision dated 24.11.2009 in File No
+CIC/WB/A/2009/000529 and 20/24.11.2009 in File No CIC/WB/A/2009/000859. The
+Commission was also in receipt of a written submission from the Appellant dated
+16.07.2020 wherein he inter alia made a request to issue notices for hearing of each case
+separately.
+
+ HEARING:
+
+Facts emerging during the hearing:
+
+The following were present:
+
+Appellant: Shri S.C.Agrawal through TC;
+
+Respondent: Mr.AjayAgrawal, Addl. Reg. & CPIO, Mr. Bharat Singh, Advocate and
+Mr. Saurabh Mishra, Advocate;
+
+
+
+Being a very old matter, the documents pertaining to the instant cases were not readily
+available on the record of the Commission. The In-charge record room, CIC vide letter
+dated    10.06.2020      also   conveyed     that    file   nos     CIC/WB/A/2009/00530,
+CIC/WB/A/2009/0408, CIC/WB/A/2009/00410 and CIC/WB/A/2009/00529 were not
+available in the record room. However, file no CIC/WB/A/2009/00859 was available in the
+E-book of Appscom software. Thus, in the interest of natural justice, the facts were culled
+out from the available records, earlier orders of the Commission and written submissions
+made by both the parties and in the interest of natural justice, opportunity of hearing was
+granted to both the parties.
+
+
+
+The Appellant re-iterated the contents of his non-compliance application and written
+submissions furnished before the Commission and stated that the direction of the Apex
+Court in both the matters to re-examine the matter after following the procedure
+ u/s 11 (1)
+
+of the RTI Act, 2005 was not complied within the time frame stipulated under 
+Section 11
+ of
+the RTI Act, 2005. While submitting that notices to third parties
+ u/s 11
+ of the Act ought to
+have been issued within five days and opportunity of representation be given to them within
+10 date from the date of receipt of such notice, the Appellant submitted that the CPIO
+should have decided disclosure of information within 45 days of the Supreme Court Order
+i.e. by 28.12.2019. The Appellant acknowledged the receipt of the replies dated 22.06.2020
+(Appeal       No      CICWB/A/2009/000529)           and     20.06.2020        (Appeal     No.
+CIC/WB/A/2009/000859) sent by the CPIO in compliance to the directions of the Apex
+Court dated 13.11.2019 as also the receipt of the written submissions sent by the
+Respondent prior to the instant hearing before the Commission. While expressing his partial
+satisfaction with the point wise response provided vide letter 20.06.2020 (Appeal No.
+CIC/WB/A/2009/000859), the Appellant submitted that queries 04 and 08 were not
+answered to his satisfaction and that with regard to the information sought in Appeal No
+CICWB/A/2009/000529, the information was incorrectly denied on the ground that the
+consent of the third parties was not received. Explaining that the issues raised by him were
+in the larger public interest, the Appellant also prayed before the Commission to advise and
+sensitize the Respondent (CPIO) to comply with the directions issued by the Apex Court as
+also the provisions of the 
+RTI Act, 2005
+ in letter and spirit. In its reply, the Respondent re-
+
+iterated the response of the CPIO dated 22.06.2020 (Appeal No CICWB/A/2009/000529)
+and 22.06.2020 (Appeal No. CIC/WB/A/2009/000859) issued in compliance with the
+parameters 
+laid down by
+ the Hon'ble Supreme Court in its decision dated 13.11.2019 and
+submitted that point wise information was already provided to the Appellant vide letter
+dated 20.06.2020 in Appeal No CIC/WB/A/2009/000859 which answered all the queries
+raised by the Appellant. However, in Appeal No CICWB/A/2009/000529, since the consent
+was not received from the Third Parties as per 
+Section 11
+ of the RTI Act, 2005 a detailed
+and reasoned response was provided to the Appellant while referring to the principles 
+laid
+down by
+ the Hon'ble Supreme Court in para 36, 43, 59, 34, 76 and 88 of its judgement in
+Civil Appeal No 10044/2010 dated 13.11.2019. However, the extract of the decision of the
+Collegium meeting held on 15.10.2008 and 17.11.2008 and copies of the movement of file
+ notings on movement of RTI application dated 23.01.2009 as admissible after severing
+information
+ u/s 10
+ of the RTI Act, 2005 was provided to the Appellant. As regards the delay
+in complying with the directions of the Hon'ble Supreme Court, it was stated that the same
+was unintentional and not malafide and had occurred due to the procedural knitty gritties/
+correspondences involved in seeking the consent of the third parties. During the hearing the
+Respondent also made a reference to the order dated 23.03.2020 issued by the Hon'ble
+Supreme Court in Suo Motu Writ Petition (Civil) No (s) 3/2020 wherein it was decided
+that "To obviate such difficulties and to ensure that lawyers/litigants do not have to come
+physically to file such proceedings in respective Courts/Tribunals across the country
+including this Court, it is hereby ordered that a period of limitation in all such proceedings,
+irrespective of the limitation prescribed under the general law or Special Laws whether
+condonable or not shall stand extended w.e.f. 15th March 2020 till further order/s to be
+passed by this Court in present proceedings."
+
+
+
+On being queried whether prior to approaching the Commission, he had filed a First Appeal
+
+u/s 19 (1)
+ of the RTI Act, 2005 against the decision of the CPIO issued in compliance with
+the decision of the Apex Court dated 13.11.2019, the Appellant admitted that he had filed
+the first appeals on 11.07.2020 i.e., subsequent to approaching the Commission vide
+representation dated 01.06.2020. The Appellant however submitted that his First Appeals
+were not decided by the FAA till date although he had received the notice for scheduling
+hearing on 26.08.2020 in Appeal No CIC/WB/A/2009/000859. Explaining that the First
+Appeal could have been heard through the video conference mode, the Appellant submitted
+that a decision in the instant matters could be pronounced by the Commission since
+remanding the matter to the FAA could result in further delay in the matter and that justice
+delayed was justice denied.
+
+
+
+The Commission was in receipt of a written submission from the Appellant dated
+24.07.2020 (Appeal No. CIC/WB/A/2009/000529)wherein while referring to the RTI
+application dated 23.01.2009, the Appellant stated that the CPIO vide letter dated
+22.06.2020 subsequent to his two separate submissions dated 01.06.2020 addressed to the
+Hon'ble Chief Justice of India and the Commission declined information as according to
+him there will be no public interest in divulging / sharing such information. However
+Hon'ble Mr. Justice Ranjan Gogoi (since retired) who headed the Constitution Bench as the
+Chief Justice giving the verdict dated 13.11.2019 in a series of TV interviews in March
+2020 repeatedly advised filing RTI applications about the suitability of Mr. Justice AP Shah
+(Retired) as the Supreme Court Judge. Therefore this evidently becomes a case of public
+interest as deemed fit by none other than the then Chief Justice of India giving the verdict
+subsequent to which the CPIO responded. While referring to the resolution dated
+03.10.2017 by the five senior most Hon'ble Judges of Supreme Court at that time, the
+Appellant submitted that the resolution clearly indicated that lately Hon'ble Judges of the
+Supreme Court have considered putting collegiums proceedings about appointment and
+elevation of judges in higher courts in public domain evidently because of "public interest"
+
+involved and the practice has thereafter been started with all such collegiums proceedings
+on appointment and promotion of judges in higher courts now available on Supreme Court
+website. Thus, the Appellant submitted that if putting later collegiums proceedings was
+considered proper by the Hon'ble judges of the Supreme Court then the same must hold
+ good for earlier collegiums proceedings before passing of the said resolution including the
+one relating to the RTI application presently under consideration. Thus, the Appellant
+prayed to direct the CPIO to provide the information as directed by the Commission vide
+verdict dated 24.11.2009 as it is a case of public interest well fitting under the parameters
+mentioned in the verdict dated 13.11.2019 in Civil Appeal No 10044 and 10045 of 2010 by
+the Constitution Bench. While referring to 
+Section 11
+ of the RTI Act, 2005, the Appellant
+submitted that not providing any notice to the concerned "Third Parties" within five days
+after the Supreme Court verdict implied that the CPIO considered providing the information
+without any need of even issuing 'Third Party Notices' While submitting that the Supreme
+Court order was read in the open court where both the Petitioner and the Respondent were
+present, the Appellant submitted that the CPIO should have decided disclosure of
+information within 45 days of the Supreme Court Order i.e., 28.12.2019.The CPIO also did
+not follow the guidelines mentioned in 
+Section 11
+ that only 10 days time was given to
+'Third Parties' for sending comments and no reminder needs to be issued. The Appellant
+also prayed for adequate and exemplary compensation for the mental agony, time and
+money spent in pursuing the matter for so long.
+
+
+
+The Commission was in receipt of a written submission from the Appellant dated
+24.07.2020 (Appeal No. CIC/WB/A/2009/000859) wherein while referring to the RTI
+application dated 06.07.2009, the Appellant stated that the CPIO subsequent to his two
+separate submissions dated 01.06.2020 before the Hon'ble Chief Justice of India and the
+Commission responded vide letter dated 20.06.2019 (received by him on 06.07.2020) with a
+delay and by adopting an approach in contradiction with the 
+RTI Act, 2005
+. While referring
+to the reply of the CPIO on point no 04 of the RTI application, the Appellant stated that the
+CPIO advised him to approach the Government and the Bar Council of India for
+information sought for and that he had appealed to the CPIO to transfer his application
+ u/s 6
+(3)
+ of the RTI Act, 2005. He further referred to the reply of the CPIO on point no 08 of the
+RTI application which was denied on the ground that "the query is presumptive in nature;
+
+hence, no information" and stated that the matter was highlighted especially after the
+Constitution Bench of the Hon'ble Supreme Court ordered on the same after more than a
+decade of filing the RTI application. While stating that the query was not presumptive in
+nature, the Appellant submitted that a reply could be provided by the Respondent that "no
+information exists on record." The Appellant while referring to the judgment of the
+Constitution Bench of the Supreme Court of India in Civil Appeal No. 2683/2009 dated
+13.11.2019 prayed to direct the CPIO at Supreme Court to revisit query no 08 for seeking
+assistance from the O/o the Hon'ble Chief Justice of India
+ u/s 5 (4)
+ or else Hon'ble Chief
+Justice of India could be directed to provide the information on the said point. While
+referring to 
+Section 11
+ of the RTI Act, 2005, the Appellant submitted that not providing any
+notice to the concerned "Third Parties" within five days after the Supreme Court verdict
+implied that the CPIO considered providing the information without any need of even
+issuing 'Third Party Notices' While submitting that the Supreme Court order was read in
+the open court where both the Petitioner and the Respondent were present, the Appellant
+submitted that the CPIO should have decided disclosure of information within 45 days of
+the Supreme Court Order i.e., 28.12.2019. The CPIO also did not follow the guidelines
+mentioned in 
+Section 11
+ that only 10 days time was given to 'Third Parties' for sending
+comments and no reminder needs to be issued. The Third Party concerned also did not send
+any comments within 10 days of receipt of notices hence the CPIO has to provide
+ information in accordance with initial sentence of 
+Section 11
+ without considering the
+comments sent by the Third Parties. The Appellant thereafter referred to the newsreport
+titled "Who tweaked report on Raja's attempt to influence judge" (Times of India
+09.12.2010) and submitted that the information sought was in public domain long back
+hence it was unjustified on the part of the CPIO to further delay in providing the
+information even after the Supreme Court verdict dated 13.11.2019 and that all the
+parameters of "Public Interest" as detailed by the Supreme Court verdict dated 13.11.2019
+were met in providing timely information because exposure of those trying to influence
+judiciary was a key factor for ensuring judicial independence. Thus the Appellant prayed for
+adequate and exemplary compensation for the mental agony, time and money spent in
+pursuing the matter for so long that too when the information was in the public domain long
+back as per Times of India report dated 09.12.2010.
+
+
+
+The Commission was also in receipt of a written submission from the Respondent (Appeal
+No. CIC/WB/A/2009/000529) dated 31.07.2020 wherein it was stated that the earlier
+direction of the Commission dated 24.11.2009 was challenged before the Hon'ble Supreme
+Court of India vide SLP (C) 32855/2009 (Converted to Civil Appeal No 10044/2010). The
+Hon'ble Supreme Court of India vide order dated 04.12.2009 had granted interim stay as
+prayed for which was conveyed to the Commission vide letter dated 11.12.2009 and as such
+the claim of the Appellant regarding non-compliance of the direction in
+CIC/WB/A/2009/000529 doesn't arise. Furthermore, the Supreme Court vide judgement
+dated 13.11.2019 partly allowed the Civil Appeal No 10044-10045/ 2010 and remitted the
+matter to the CPIO, Supreme Court of India for re-examination in terms of the said
+judgement. In compliance with the said direction of the Hon'ble Supreme Court of India,
+the Appellant had already been provided with an appropriate reply by the CPIO, Supreme
+Court of India vide letter dated 22.06.2020 with respect to the RTI application dated
+23.01.2009. The copy of the CPIOs reply dated 22.06.2020 and 07.02.2020 were enclosed
+with the written submission.
+
+
+
+The Commission was also in receipt of a written submission from the Respondent dated
+30.07.2020      for    Appeal     No     CIC/WB/A/2009/000859        connected      with
+CIC/WB/A/2009/000408, 410 and 530 wherein it was stated that the earlier direction of the
+Commission dated 20/24.11.2009 was challenged before the Hon'ble Supreme Court of
+India vide SLP (C) 32856/2009 (Converted to Civil Appeal No 10045/2010). The Hon'ble
+Supreme Court of India vide order dated 04.12.2009 had granted interim stay as prayed for
+which was conveyed to the Commission vide letter dated 11.12.2009 and as such the claim
+of the Appellant regarding non-compliance of the direction in CIC/WB/A/2009/000859
+doesn't arise. Furthermore, the Supreme Court vide judgement dated 13.11.2019 partly
+allowed the Civil Appeal No 10044-10045/ 2010 and remitted the matter to the CPIO,
+Supreme Court of India for re-examination in terms of the said judgement. In compliance
+with the said direction of the Hon'ble Supreme Court of India, the Appellant had already
+been provided with an appropriate reply by the CPIO, Supreme Court of India vide letter
+dated 20.06.2020 with respect to the RTI application dated 23.01.2009. The copy of the
+CPIOs reply dated 20.06.2020 alongwith its enclosures was annexed with the written
+submission.
+
+ The Commission observed that in the present instance the Appellant had not exercised the
+alternative remedy of exhausting the First Appeal mechanism for seeking information under
+the provisions of the 
+RTI Act, 2005
+ and had directly approached the Commission against
+the decision of the CPIO inter alia praying for disclosure of information. However, as
+mentioned above, the Appellant had subsequently filed the First Appeal after approaching
+the Commission in both these matters. 
+In this context, the Commission drew the attention
+of the Appellant to the decision and the spirit enunciated by the Hon'ble Supreme Court of
+India in 
+Agnivesh Gupta vs Joint Secretary (L&E, A) & CVO and Ors
+ Writ Petition (Civil)
+No. 864/2019) dated 19.05.2020 wherein a full bench comprising of Hon'ble Dr. Justice D.
+Y. Chandrachud, Hon'ble Mr. Justice Hemant Gupta and Hon'ble Mr. Justice Ajay Rastogi,
+the Apex Court while deciding the petition challenging the order of the Chief Information
+Commissioner dated 17.05.2018 held as under:
+
+
+
+
+       "The petitioner has an efficacious and alternate remedy of challenging the order of
+       Chief Information Commissioner in proceedings under 
+Article 226
+ of the
+       Constitution before the appropriate High Court. The petitioner is at liberty to do so.
+       We clarify that in the above view of the matter, we have not expressed any opinion
+       on the merits of the grievance, which the petitioner is at liberty to pursue before the
+       appropriate High Court."
+
+
+
+In the context of utilisation of efficacious alternative remedy, the Commission also referred
+to the decision of the Division Bench of the Apex Court in 
+Roshina T. vs.
+Abdul Azeez K.T. & Ors. CIVIL APPEAL NO.11759 OF
+ 2018 Arising out of SLP (C) No.
+30465 of 2017) dated 03.12.2018 wherein it was held as under:
+
+
+
+
+ 
+"15. It has been consistently held by this Court that a         regular     suit       is    the
+       appropriate        remedy     for    settlement of the disputes relating to property rights
+       between           the        private           persons.         The         remedy           under
+       
+Article 226
+ of the Constitution shall not be available
+       except where violation of some statutory duty on thepart of statutory authority is alle
+       ged. In such cases, the      Court       has     jurisdiction    to    issue       appropriate
+       directions to the authority concerned. It is held that the       High     Court         cannot
+       allow its constitutional jurisdiction to be used for deciding disputes, for which
+           remedies            under           the     general         law,           civil            or
+       criminal are available. This Court has held that it is
+       not intended to replace the ordinary remedies byway of a civil suit or application
+       available to an                     aggrieved person. The jurisdiction under 
+Article 226
+
+       of the Constitution       being special and extraordinary it           should          not     be
+       exercised               casually                          or            lightly                on
+       mere asking by the litigant. (See 
+Mohan Pande vs.                                            Usha
+        Rani
+, 1992 (4) SCC 61 and                            Dwarka                                Prasad
+        Agrawal vs BD Agrawal, (2003) 6 SCC 230)."
+
+
+
+
+Moreover, in the matter of 
+GM, Sri Siddeshwara Co-operative Bank Ltd. & Anr. vs. Sri
+Ikbal & Ors.
+ in CIVIL APPEAL NOS. 6989-6990 OF 2013 (Arising out of SLP(C)
+Nos.17704-17705 of 2012)dated 22.08.2013, it was held as under:
+
+
+
+
+        "27. There is one more aspect in the matter which has troubled us. Against the
+       action of the Bank under 
+Section 13(4)
+ of the SARFAESI Act, the borrower had a
+       remedy of appeal to the Debts Recovery Tribunal (DRT) under 
+Section 17
+. The
+       remedy provided under 
+Section 17
+ is an efficacious remedy. The borrower did not
+       avail of that remedy and further remedies from that order and instead directly
+       approached the High Court in extraordinary jurisdiction under 
+Article 226
+ of the
+       Constitution of India.
+
+
+
+       31. No doubt an alternative remedy is not an absolute bar to the exercise of
+       extraordinary jurisdiction under 
+Article 226
+ but by now it is well settled that where
+       a statute provides efficacious and adequate remedy, the High Court will do well in
+       not entertaining a petition under 
+Article 226.
+ On misplaced considerations, statutory
+       procedures cannot be allowed to be circumvented."
+
+
+
+A reference can also be made to the decision of the Apex Court in 
+Kanaiyalal Lalchand
+Sachdev and others vs. State of Maharashtra and others
+, 2011 (2) SCC 782, the relevant
+extracts of which are as under:
+
+
+
+
+       "23. In our opinion, therefore, the High Court rightly dismissed the petition on the
+       ground that an efficacious remedy was available to the appellants under 
+Section 17
+
+       of the Act. It is well settled that ordinarily relief under Articles 226/227 of the
+       Constitution of India is not available if an efficacious alternative remedy is
+       available to any aggrieved person."
+
+
+
+In the light of the aforementioned judgment of the Apex Court as cited above, it is evident
+that in the judicial / quasi judicial process the procedures for remedial action should
+invariably be exhausted unless there are compelling reasons for not doing so.
+ DECISION:
+
+
+
+Keeping in view the facts of the case and the submissions made by both the parties and in
+the light of the decisions cited abovemaintaining the spirit of judicial/ quasi judicial
+mechanism as also the judgement of the Apex Court dated 13.11.2019 instructing the CPIO
+to re-examine the application keeping in view 
+Section 11 (1)
+ of the RTI Act, 2005, the
+Commission instructs the Appellant to exercise the alternative remedy of First Appellate
+Authority (FAA) mechanism prior to approaching the Commission in the matter.
+
+
+
+The CPIO is also advised to ensure that timelines prescribed under the 
+RTI Act, 2005
+ is
+complied with in letter and spirit to facilitate expeditious flow of information to the
+information seekers.
+
+
+
+The Commission also instructs the Respondent Public Authority to convene periodic
+conferences/seminars to sensitize, familiarize and educate the concerned officials about the
+relevant provisions of the 
+RTI Act, 2005
+ for effective discharge of its duties and
+responsibilities.
+
+
+
+                                                              Bimal Julka(िबमल जु का)
+                                        Chief Information Commissioner (मु य सूचना आयु )
+
+Authenticated true copy
+(अिभ मा णतस या पत ित)
+
+
+
+
+K.L. Das (के .एल.दास)
+Dy. Registrar (उप-पंजीयक)
+011-26186535/ 
+[email protected]
+
+ दनांक / Date: 14.08.2020
+
+
+
+Copy to:
+
+
+
+   1. The Secretary General, Supreme Court of India, Tilak Marg, Mandi House,
+      New Delhi-110001
+
+
+   2. The Registrar and First Appellate Authority, RTI, Tilak Marg, Mandi House,
+      New Delhi-110001

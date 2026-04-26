@@ -1,0 +1,2454 @@
+[Cites 
+19
+, Cited by 
+0
+]
+
+
+
+
+Central Information Commission
+
+
+Viplove Tyagi vs Indian Institute Of Science Education & ... on 11 February, 2025
+
+
+                                   के ीय सूचना आयोग
+                            Central Information Commission
+                                 बाबा गं गनाथ माग,मुिनरका
+                             Baba Gangnath Marg, Munirka
+                              नई िद    ी, New Delhi - 110067
+ि तीय अपील सं     ा / Second Appeal No. (As Per Annexure)
+
+Viplove Tyagi                                                  ... अपीलकता/Appellant
+
+                                      VERSUS
+                                       बनाम
+CPIO: Indian Institute of
+Science Education &                                       ... ितवादीगण/Respondent
+Research (IISER), Pune,
+Maharashtra
+
+Relevant dates emerging from the appeal(s):
+
+Sl. No.    Second      Date of         Date of       Date of       Date of      Date of
+           Appeal      RTI             CPIO's        First         FAA's        Second
+           No.         Application     Reply         Appeal        Order        Appeal
+    1.     604728      30.10.2023      28.11.2023    04.12.2023    04.01.2024   04.02.2024
+    2.     604729      31.10.2023      29.11.2023    04.12.2023    04.01.2024   04.02.2024
+    3.     604730      03.11.2023      01.12.2023    04.12.2023    05.01.2024   04.02.2024
+    4.     604732      25.11.2023      22.12.2023    24.12.2023    29.01.2024   04.02.2024
+    5.     610451      04.12.2023      03.01.2023    03.01.2024    08.02.2024   09.03.2024
+    6.     613295      04.12.2023      03.01.2023    03.01.2024    08.02.2024   27.03.2024
+    7.     613296      22.12.2023      19.01.2024    19.01.2024    16.02.2024   27.03.2024
+    8.     613298      21.12.2023      19.01.2024    19.01.2024    16.02.2024   27.03.2024
+    9.     613447      22.12.2023      19.01.2024    19.01.2024    16.02.2024   27.03.2024
+    10.    613448      22.12.2023      19.01.2024    19.01.2024    16.02.2024   27.03.2024
+    11.    618762      24.12.2023      22.01.2024    22.01.2024    22.02.2024   04.05.2024
+    12.    618851      24.12.2023      22.01.2024    22.01.2024    22.02.2024   05.05.2024
+    13.    618852      24.12.2023      22.01.2024    22.01.2024    22.02.2024   05.05.2024
+    14.    618853      25.12.2023      23.01.2024    23.01.2024    23.02.2024   05.05.2024
+    15.    624328      04.01.2024      02.02.2024    02.02.2024    01.03.2024   09.06.2024
+    16.    624330      25.12.2023      23.01.2024    02.02.2024    01.03.2024   09.06.2024
+    17.    624331      25.12.2023      23.01.2024    02.02.2024    01.03.2024   09.06.2024
+    18.    624332      26.12.2023      23.01.2024    02.02.2024    01.03.2024   09.06.2024
+    19.    624333      10.02.2024      11.03.2024    11.03.2024    08.04.2024   09.06.2024
+                                                                                  Page 1 of 52
+    20.    624335      10.02.2024 11.03.2024 11.03.2024 08.04.2024 09.06.2024
+   21.    624337      11.02.2024 11.03.2024 11.03.2024 08.04.2024 09.06.2024
+   22.    624339      11.02.2024 11.03.2024 11.03.2024 08.04.2024 09.06.2024
+   23.    624341      11.02.2024 11.03.2024 11.03.2024 08.04.2024 09.06.2024
+   24.    624343      11.02.2024 11.03.2024 11.03.2024 08.04.2024 09.06.2024
+   25.    624345      15.02.2024 13.03.2024 13.03.2024 08.04.2024 09.06.2024
+   26.    624346      18.02.2024 18.03.2024 18.03.2024 17.04.2024 09.06.2024
+   27.    624348      20.02.2024 19.03.2024 19.03.2024 18.04.2024 09.06.2024
+   28.    624349      20.02.2024 19.03.2024 19.03.2024 18.04.2024 09.06.2024
+   29.    624350      23.02.2024 22.03.2024 22.03.2024 22.04.2024 09.06.2024
+   30.    624351      24.02.2024 22.03.2024 22.03.2024 22.04.2024 09.06.2024
+   31.    624352      23.02.2024 22.03.2024 22.03.2024 22.04.2024 09.06.2024
+   32.    624353      26.02.2024 27.03.2024 27.03.2024 25.04.2024 09.06.2024
+   33.    624354      06.03.2024 04.04.2024 17.04.2024 16.05.2024 09.06.2024
+   34.    624355      06.03.2024 04.04.2024 17.04.2024 16.05.2024 09.06.2024
+   35.    624357      10.03.2024 08.04.2024 17.04.2024 16.05.2024 09.06.2024
+The instant set of appeals have been clubbed for decision as these relate to similar
+RTI Applications on the same subject matter.
+
+Date of Hearing: 11.02.2025
+Date of Decision: 11.02.2025
+
+                                         CORAM:
+                                   Hon'ble Commissioner
+                                 _ANANDI RAMALINGAM
+                                        ORDER
+
+
+
+Second Appeal No. CIC/ISERP/A/2024/604728
+
+
+1.        The Appellant filed an RTI application dated 30.10.2023 seeking information on
+the following points:
+
+     1.      the appeal made by Viplove Tyagi against the committee decision in relation to
+             IISER-P/PhD/20163495/1. The appeal is made via email dated 09 Oct 2023
+             and copied to the CVO, IISER Pune.
+
+     2.      a copy each of IISER-P/PhD/20163495/4, IISER-P/PhD/20163495/5, IISER-
+
+             P/PhD/20163495/2022 and IISER-P/VT/RO dated 17/03/2022.
+
+                                                                                 Page 2 of 52
+
+
+        3.      entire documentation and records of the relevant committee proceedings
+               following    IISER-P/PhD/20163495/4,       IISER-P/PhD/20163495/5,       IISER-
+               P/PhD/20163495/2022 and IISER-P/VT/RO dated 17/03/2022. For each and
+               every document not provided in this reply, appropriate grounds for denial of
+               information must be provided.
+
+1.1.        The CPIO replied vide letter dated 28.11.2023. and the same is reproduced as
+under :-
+
+     1.      The copy of the appeal may be referred to the email dated 09 Oct 2023 addressed
+             by the applicant.
+
+     2.      Kindly refer to the emails dated January 05, 2022, March 01, 2022, March 14,
+             2022, and March 17, 2022, from the academic office addressed to the applicant.
+
+     3.      Kindly refer to the committees proceedings sent in response to your RTI
+             application number ISERP/R/E/23/00031.
+
+1.2.        Dissatisfied with the response received from the CPIO, the Appellant filed a First
+Appeal dated 04.12.2023 alleging that the information provided was incomplete, false
+and misleading. The FAA vide order dated 04.01.2024 upheld the reply given by the
+CPIO.
+
+1.3.        Aggrieved with the FAA's order, the Appellant approached the Commission with
+the instant Second Appeal dated 04.02.2024
+
+Second Appeal No. CIC/ISERP/A/2024/604729
+
+
+2.          The Appellant filed an RTI application dated 31.10.2023 seeking information on
+the following points:-
+
+     (i)       Please furnish a copy of the entire documentation available at the Institute
+               pertaining to IISER-P/VT/RO date March 17, 2022, including committee
+               reports, record of proceedings videographic or otherwise, and the
+               substantiation to the assertions made therein. For each redaction and omitted
+               document, please mention appropriate grounds for denial of information.
+
+                                                                                     Page 3 of 52
+
+
+               Large files, including videos, may be sent in the form of physical imprints to the
+              address mentioned with this application.
+
+2.1.       The CPIO replied vide letter dated 29.11.2023 and the same is reproduced as
+under :-
+
+           "Official orders and copies of the committee proceedings have already been
+           issued to you via multiple emails/response to the previous RTI/PG applications
+           you raised."
+
+
+
+2.2.        Dissatisfied with the response received from the CPIO, the Appellant filed a First
+Appeal dated 04.12.2023 alleging that the information provided was incomplete, false
+and misleading. The FAA vide order dated 04.01.2024 upheld the reply given by the
+CPIO.
+
+2.3.       Aggrieved with the FAA's order, the Appellant approached the Commission with
+the instant Second Appeal dated 04.02.2024.
+
+Second Appeal No. CIC/ISERP/A/2024/604730
+
+
+3.         The Appellant filed an RTI application dated 03.11.2023 seeking information on
+the following points:
+
+     (i)      Please furnish a copy of the entire documentation available with the Institute,
+              including letters, memos, and all communications, pertaining to
+
+              (a) FIR No. 494 dated 13/11/2021 at Chaturshringi Police Station, Pune, and
+
+              (b) FIR No. 241 dated 20/4/2022 at SIDCUL Police Station, Haridwar.
+
+3.1.       The CPIO replied vide letter dated 01.12.2023 and the same is reproduced as
+under :-
+
+           "Kindly refer to the order number IISER-P/VT/RO dated 17/03/2022 already send
+           to you and the committees proceedings sent in response to your RTI application
+           number ISERP/R/E/23/00031."
+
+
+
+                                                                                     Page 4 of 52
+
+
+ 3.2.     Dissatisfied with the response received from the CPIO, the Appellant filed a First
+Appeal dated 04.12.2023 alleging that the information provided was incomplete, false
+and misleading. The FAA vide order dated 05.01.2024 stated as under: -
+
+        "The institute has not registered any FIR against the applicant."
+
+3.3.    Aggrieved with the FAA's order, the Appellant approached the Commission with
+the instant Second Appeal dated 04.02.2024
+Second Appeal No. CIC/ISERP/A/2024/604732
+
+
+4.      The Appellant filed an RTI application dated 25.11.2023 seeking information on
+the following points:-
+
+     1. Kindly   furnish   a copy     of   CPGRAMS       Grievance    registration      number
+        DSEHE/E/2023/0008153 received by the Institute, and a report of the actions
+        taken thereon (see supporting document).
+
+     2. Please furnish a copy of the report of actions taken on the appeal made to the
+        Institute administration on 09/11/2023 (see supporting document page 2
+        onwards).
+
+4.1.    The CPIO replied vide letter dated 22.12.2023 and the same is reproduced as
+under :-
+
+     1. The application number DSEHE/E/2023/0008153 under the CPGRAMS portal
+        was disposed off on 29/11/2023. Copy of the Action Taken report from the portal
+        is enclosed for reference.
+
+     2. Please refer to the email dated 18/12/2023 from the Institute in this regard.
+4.2.    Dissatisfied with the response received from the CPIO, the Appellant filed a First
+Appeal dated 24.12.2023 alleging that the information provided was incomplete, false
+and misleading. The FAA vide order dated 29.01.2024 upheld the reply given by the
+CPIO.
+
+4.3.    Aggrieved with the FAA's order, the Appellant approached the Commission with
+the instant Second Appeal dated 04.02.2024.
+
+                                                                                     Page 5 of 52
+
+
+ Second Appeal No. CIC/ISERP/A/2024/610451
+
+
+5.      The Appellant filed an RTI application dated 04.12.2023 seeking information on
+the following points:-
+
+     1. Please furnish a copy of the following documents (1) the report dated 25 February
+        2022 of the committee as mentioned in IISER-P/VT/RO dated 17 March 2022.
+
+     2. subsequent reports of the aforementioned committee after 25 February 2022.
+
+     3. records of the proceedings and actions taken on the appeal received by the
+        Institute on 09 Oct 2023 as mentioned in its reply to ISERP/R/E/23/00044.
+
+     4. the documents furnished in reply to ISERP/R/E/00033 with date of issue and
+        issuing office mentioned without redaction
+
+     5. the entire documentation, including letters, memos, and communication of the
+        Institute, including but not limited to, communication with law enforcement and
+        any other entity, pertaining to
+
+        (a) FIR No. 494 dated 13/11/2021 at Chaturshringi Police Station, Pune, and
+
+        (b) FIR No. 241 dated 20/04/2022 at SIDCUL Police Station, Haridwar.
+
+5.1.    The CPIO replied vide letter dated 03.01.2023 and the same is reproduced as
+under :-
+
+     1. Kindly refer to the report sent to you in response to your RTI Application number
+        ISERP/R/E/23/00033.
+
+     2. Refer reply to 01 above.
+
+     3. Please refer to the email dated 18/12/2023 from the Institute in this regard.
+
+     4. A copy of the Committees reports has already been sent to you. The names of the
+        members cannot be disclosed as they fall under personal information and are
+        denied as per 
+section 8(1)(j)
+ of the RTI Act 2005.
+
+
+
+                                                                                  Page 6 of 52
+
+
+      5. Kindly refer to the order number IISER-P/VT/RO dated 17/03/2022 already send
+        to you and the committees proceedings sent in response to your RTI application
+        number ISERP/R/E/23/00033.
+
+5.2.    Dissatisfied with the response received from the CPIO, the Appellant filed a First
+Appeal dated 03.01.2024 alleging that the information provided was incomplete, false
+and misleading. The FAA vide order dated 08.02.2024 upheld the reply given by the
+CPIO.
+
+5.3.    Aggrieved with the FAA's order, the Appellant approached the Commission with
+the instant Second Appeal dated 09.03.2024
+Second Appeal No. CIC/ISERP/A/2024/613295
+
+
+6.      The Appellant filed an RTI application dated 04.12.2023 seeking information on
+the following points:-
+
+      Please send a copy of
+
+     1. the videographic recording of the committee hearing on 28 January 2022 as
+        mentioned in IISER-P/VT/RO dated 17 March 2022. The information may be sent
+        either to the applicant's email id or as a physical copy to the applicant's address
+        mentioned with this application.
+
+     2. the report of the aforementioned committee as submitted on 25 Feb 2022. See
+        supporting document for reference.
+
+6.1.    The CPIO replied vide letter dated 03.01.2023 and the same is reproduced as
+under :-
+
+     1. The same can be accessed through the following google drive link
+        https://drive.google.com/drive/folders/1nmMWnT7u0rYrBp5Wtz7FYWbMbbTolnL
+        m?usp=drive_link . Permissions have been given to the above mentioned email id.
+
+     2. Copy of the Committee's reports (both) has already been sent to you vide reply to
+        your RTI application number ISERP/R/E/23/00033.
+
+
+
+                                                                                 Page 7 of 52
+
+
+ 6.2.    Dissatisfied with the response received from the CPIO, the Appellant filed a First
+Appeal dated 03.01.2024 alleging that the information provided was incomplete, false
+and misleading. The FAA vide order dated 08.02.2024 upheld the reply given by the
+CPIO.
+
+6.3.    Aggrieved with the FAA's order, the Appellant approached the Commission with
+the instant Second Appeal dated 27.03.2024
+Second Appeal No. CIC/ISERP/A/2024/613296
+
+
+7.      The Appellant filed an RTI application dated 22.12.2023 seeking information on
+the following points:-
+
+       Please furnish a copy of the following documentation of IISER Pune.
+
+     1. The entire documentation pertaining to and substantiative of the letter from IISER
+        Pune administration dated 18/12/2023 addressed to the applicant, see supporting
+        document page 1.
+
+     2. the   entire   documentation   pertaining   to   and   substantiative   of   IISER-
+        P/Ph.D./20163495/1, see supporting document page 2.
+
+     3. the entire documentation pertaining to, substantiative of, pursuant to and
+        subsequent to the letter from IISER Pune administration dated 28/09/2021
+        addressed to the applicant, see supporting document page 5.
+
+     4. the entire documentation pertaining to, substantiative of, and pursuant to IISER-
+        P/Ph.D./20163495/5, see supporting document page 6.
+
+     5. the entire documentation pertaining to, substantiative of, and pursuant to IISER-
+
+        P/Ph.D./20163495/2022 dt 14/03/2022, see supporting document page 7.
+        ..., etc./ other related information
+7.1.    The CPIO replied vide letter dated 19.01.2024 and the same is reproduced as
+under :-
+
+
+
+                                                                                 Page 8 of 52
+
+
+      1. Kindly refer to the email dated 18 December 2023, addressed to you by the
+        Institute Administration. No other information is available in this regard.
+
+     2. Official orders and the committee's reports are already/are being shared with you.
+        No other information is available in this regard.
+
+     3. Refer to Committee Report Annexure 02. No other information is available in this
+        regard. The names of the members are hidden as they fall under personal
+        information and cannot be disclosed as per 
+section 8(1)(j)
+ of the RTI Act 2005.
+
+     4. Official orders, along with the committee's reports, are already/are being shared
+        with you. No other information is available in this regard.
+
+     5. Official orders, along with the committee's reports, are already/are being shared
+        with you. No other information is available in this regard.
+        Etc.
+7.2.    Dissatisfied with the response received from the CPIO, the Appellant filed a First
+Appeal dated 19.01.2024 alleging that the information provided was incomplete, false
+and misleading. The FAA vide order dated 16.02.2024 upheld the reply given by the
+CPIO.
+
+7.3.    Aggrieved with the FAA's order, the Appellant approached the Commission with
+the instant Second Appeal dated 27.03.2024
+Second Appeal No. CIC/ISERP/A/2024/613298
+
+
+8.      The Appellant filed an RTI application dated 21.12.2023 seeking information on
+the following points:-
+
+      Referring      to     the     letter    from      IISER        Pune   administration
+        (
+[email protected]
+) dated 18/12/2023 addressed to the applicant
+        (see supporting document), please furnish the following information,
+
+     1. the identity of the investigating authority or agency that found the appeal to be
+        incorrect or baseless, along with their communication address
+
+
+
+
+
+                                                                                  Page 9 of 52
+
+
+      2. a   copy    of   the    report   of   any   such   authority   wherein    the   said
+        incorrectness/baselessness has been mentioned, so that appropriate corrections or
+        substantiations may be duly made in the interest of justice,
+
+     3. a   copy    of   the    report   of   any   such   authority   wherein    the   said
+        incorrectness/baselessness has been substantiated.
+
+        Please note that the appeal in question is made in the pursuit of justice and safety,
+        and pertains to matters of utmost seriousness and urgency. The appeal raises
+        significant concerns regarding the integrity and ethical conduct of the Institute
+        administration, and must not be dismissed on inconsequential grounds or trivial
+        pretexts by the Institute.
+
+8.1.    The CPIO replied vide letter dated 19.01.2024 and the same is reproduced as
+under :-
+
+        "Kindly refer to the email dated 18 December 2023, addressed to you by the
+        Institute Administration. No other information is available in this regard."
+
+
+
+8.2.    Dissatisfied with the response received from the CPIO, the Appellant filed a First
+Appeal dated 19.01.2024 alleging that the information provided was incomplete, false
+and misleading. The FAA vide order dated 16.02.2024 upheld the reply given by the
+CPIO.
+
+8.3.    Aggrieved with the FAA's order, the Appellant approached the Commission with
+the instant Second Appeal dated 27.03.2024.
+
+Second Appeal No. CIC/ISERP/A/2024/613447
+
+
+9.      The Appellant filed an RTI application dated 22.12.2023 seeking information on
+the following points:-
+
+       Ref. the letter from IISER Pune Administration dated 18/12/2023 attached as
+        supporting document. In the context of this letter please furnish the following
+        information
+
+
+                                                                                 Page 10 of 52
+
+
+        1.     a copy of the entire documentation legally substantiating the assertions made
+              therein,
+
+       2.     a copy of the entire documentation considered by the authoring authority to
+              arrive at the assertions made therein,
+
+       3.     information regarding all the documentation/substantiation required by the
+              Institute to consider further action on the appeal under question,
+
+       4.     copy of the report of investigation that found the appeal under question to be
+              incorrect, along with the entire relevant documentation/substantiation of this
+              assertion,
+
+       5.     copy of the report of investigation that found the appeal under question to be
+              baseless, along with the entire relevant documentation/substantiation of this
+              assertion,
+               ..., etc./ other related information
+9.1.        The CPIO replied vide letter dated 19.01.2024 and the same is reproduced as
+under :-
+
+            "Kindly refer to the email dated 18 December 2023, addressed to you by the
+            Institute Administration. No other information is available in this regard."
+
+
+
+9.2.        Dissatisfied with the response received from the CPIO, the Appellant filed a First
+Appeal dated 19.01.2024 alleging that the information provided was incomplete, false
+and misleading. The FAA vide order dated 16.02.2024 upheld the reply given by the
+CPIO.
+
+9.3.        Aggrieved with the FAA's order, the Appellant approached the Commission with
+the instant Second Appeal dated 27.03.2024
+Second Appeal No. CIC/ISERP/A/2024/613448
+
+
+10.         The Appellant filed an RTI application dated 22.12.2023 seeking information on
+the following points:
+
+
+
+                                                                                     Page 11 of 52
+
+
+    Please provide a copy of
+
+   1. all the complaints and grievances raised by the applicant to the Institute from
+         June 2021 to Dec 2023,
+
+   2. the entire documentation pertaining to these complaints and grievances available
+         at the institute,
+
+   3. the reports of actions taken on these complaints and grievances,
+
+   4. the entire documentation substantiating these reports,
+
+   5. the entire correspondence of the Institute with law and justice officials regarding
+         FIR 494/2021 (Chaturshringi PS Pune) and FIR 241/2022 (SIDCUL PS
+         Haridwar) and any other such correspondence pertaining to the applicant.
+10.1. The CPIO replied vide letter dated 19.01.2024 and the same is reproduced as
+under :-
+
+   1. The Institute has received around 44 RTI applications and 31 applications under
+        the PG portal as per the website until Dec 2023 from the applicant, which
+        accounts for an approximate total of 280 pages, action report/action history
+        copies of which can be provided on a deposit of additional fees for printing and
+        postage. The same can also be referred to from the portal directly.
+
+   2. Refer to the applications under query 01.
+
+   3. Refer to the applications under query 01.
+
+   4. Refer to the applications under query 01.
+
+   5. The Institute has not raised any FIR against the applicant.
+10.2. Dissatisfied with the response received from the CPIO, the Appellant filed a First
+Appeal dated 19.01.2024 alleging that the information provided was incomplete, false
+and misleading. The FAA vide order dated 16.02.2024 upheld the reply given by the
+CPIO.
+
+10.3. Aggrieved with the FAA's order, the Appellant approached the Commission with
+the instant Second Appeal dated 27.03.2024.
+
+
+
+                                                                              Page 12 of 52
+
+
+ Second Appeal No. CIC/ISERP/A/2024/618762
+
+
+11.      The Appellant filed an RTI application dated 24.12.2023 seeking information on
+the following points:
+
+       Please furnish the following information regarding the hearing of the applicant by
+         the committee chaired by Prof. Chaitra Redkar on 28/01/2022:
+
+      1. the minutes of the said hearing,
+
+      2. the videographic recording of the said hearing,
+
+      3. all the reports of the committee pursuant to this hearing.
+11.1. The CPIO replied vide letter dated 22.01.2024 and the same is reproduced as
+under :-
+
+      1. Kindly refer to the report shared in response to your RTI application number
+         ISERP/R/E/23/00065 dated 22.12.2023.
+
+      2. Recording has already been sent to you in response to your RTI application via
+         the Google Drive link on 03.01.2024.
+
+      3. Refer to reply 01 above.
+
+11.2. Dissatisfied with the response received from the CPIO, the Appellant filed a First
+Appeal dated 22.01.2024 alleging that the information provided was incomplete, false
+and misleading. The FAA vide order dated 22.02.2024 upheld the reply given by the
+CPIO.
+
+11.3. Aggrieved with the FAA's order, the Appellant approached the Commission with
+the instant Second Appeal dated 04.05.2024.
+
+Second Appeal No. CIC/ISERP/A/2024/618851
+
+
+12.      The Appellant filed an RTI application dated 24.12.2023 seeking information on
+the following points:-
+
+      1. Please provide all the substantiating documents pertaining to IISER-
+
+         P/Ph.D./20163495/5 dated 28/02/2022 available at the institute.
+
+
+
+                                                                               Page 13 of 52
+
+
+       2. Please provide all the substantiating documents pertaining to IISER-
+        P/Ph.D./20163495/2022 dated 14/03/2022 available at the institute.
+12.1. The CPIO replied vide letter dated 22.01.2024 and the same is reproduced as
+under :-
+
+      1. Kindly refer to the report shared in response to your RTI application number
+        ISERP/R/E/23/00065 dated 22.12.2023 and letter No. IISER-P/Ph.D/20163495/4
+        dated 4 January 2022 issued to you (copy enclosed).
+
+      2. Kindly refer to order number IISER-P/Ph.D./20163495/5 dated 28th February
+        2022, which is referred to in your query 01 above.
+
+12.2. Dissatisfied with the response received from the CPIO, the Appellant filed a First
+Appeal dated 22.01.2024 alleging that the information provided was incomplete, false
+and misleading. The FAA vide order dated 22.02.2024 upheld the reply given by the
+CPIO.
+
+12.3. Aggrieved with the FAA's order, the Appellant approached the Commission with
+the instant Second Appeal dated 05.05.2024.
+
+Second Appeal No. CIC/ISERP/A/2024/618852
+
+
+13.     The Appellant filed an RTI application dated 24.12.2023 seeking information on
+the following points:-
+
+       With reference to IISER-P/Ph.D./20163495/1, please provide the following
+        information:
+
+      1. the documentation available at the institute substantiating that the applicant was
+          provided an opportunity of appeal,
+
+      2. all the documentation available at the institute substantiating that the applicant
+          was provided with all the material submitted as evidence against him in the
+          related complaint,
+
+
+
+
+
+                                                                                Page 14 of 52
+
+
+       3. all the documentation available at the institute substantiating that the applicant
+         was informed of all the arguments submitted against him in the related
+         complaint.
+
+13.1. The CPIO replied vide letter dated 22.01.2024 and the same is reproduced as
+under :-
+
+        "Kindly refer to the official orders issued to you IISER-P/Ph.D./20163495/1,
+        IISERP/Ph.D./20163495/2 and IISER-P/015/RO (Aug 23, 2021)"
+
+
+
+13.2. Dissatisfied with the response received from the CPIO, the Appellant filed a First
+Appeal dated 22.01.2024 alleging that the information provided was incomplete, false
+and misleading. The FAA vide order dated 22.02.2024 upheld the reply given by the
+CPIO.
+
+13.3. Aggrieved with the FAA's order, the Appellant approached the Commission with
+the instant Second Appeal dated 05.05.2024.
+
+Second Appeal No. CIC/ISERP/A/2024/618853
+
+
+14.     The Appellant filed an RTI application dated 25.12.2023 seeking information on
+the following points:-
+
+  With reference to IISER-P/Ph.D./20163495/2, please provide the following
+       information:
+
+      1. All the documentation available at the institute substantiating that the applicant
+         was provided an opportunity of appeal,
+
+      2. all the documentation available at the institute substantiating that the applicant
+         was provided with all the material submitted as evidence against him in the
+         related complaint,
+
+      3. all the documentation available at the institute substantiating that the applicant
+         was informed of all the arguments submitted against him in the related
+         complaint.
+
+
+
+                                                                                Page 15 of 52
+
+
+ 14.1. The CPIO replied vide letter dated 23.01.2024 and the same is reproduced as der :-
+
+         "Kindly refer to the official orders issued to you IISER-P/Ph.D./20163495/1,
+         IISERP/Ph.D./20163495/2 and IISER-P/015/RO (Aug 23, 2021)."
+
+
+
+14.2. Dissatisfied with the response received from the CPIO, the Appellant filed a First
+Appeal dated 23.01.2024 alleging that the information provided was incomplete, false
+and misleading. The FAA vide order dated 23.02.2024 upheld the reply given by the
+CPIO.
+
+14.3. Aggrieved with the FAA's order, the Appellant approached the Commission with
+the instant Second Appeal dated 05.05.2024.
+
+Second Appeal No. CIC/ISERP/A/2024/624328
+
+
+15.      The Appellant filed an RTI application dated 04.01.2024 seeking information on
+the following points:-
+
+      1. With reference to the email from the institute administration to the applicant dated
+         18/12/2023 as mentioned in the reply to request no. ISERP/R/E/23/00056 under
+         
+RTI Act
+ 2005, please furnish the following information: a copy of the original
+         documents available with the institute, if any, substantiating each and every clause
+         of the said email, including the approval of the Chairperson, Board of Governors,
+         IISER Pune, as mentioned in the said email.
+
+      2. With reference to the reply given by the institute to point 2 of request no.
+
+         ISERP/R/E/23/00033 under 
+RTI Act
+ 2005, please provide the following
+         information: the dates of the furnished documents, namely, the reports of both the
+         committees.
+
+15.1. The CPIO replied vide letter dated 02.02.2024 and the same is reproduced as
+under :-
+
+      1. Kindly refer to the email dated 18 December 2023, addressed to you by the
+         Institute Administration.
+
+
+
+                                                                                  Page 16 of 52
+
+
+       2. Committee Report 01 dated 23 June 2021
+         Committee Report 02 dated 29 Dec 2021
+15.2. Dissatisfied with the response received from the CPIO, the Appellant filed a First
+Appeal dated 02.02.2024 alleging that the information provided was incomplete, false
+and misleading. The FAA vide order dated 01.03.2024 upheld the reply given by the
+CPIO.
+
+15.3. Aggrieved with the FAA's order, the Appellant approached the Commission with
+the instant Second Appeal dated 09.06.2024.
+
+Second Appeal No. CIC/ISERP/A/2024/624330
+
+
+16.      The Appellant filed an RTI application dated 25.12.2023 seeking information on
+the following points:-
+
+      1. With reference to FIR No. 494/2021 dt. 13/11/2021 filed at Chaturshringi Police
+         Station, Pune, in which the then security officer of the institute, Avinash Abhale, is
+         a witness, please furnish the following information: (a) a copy of the entire
+         documentation available with the institute and Avinash Abhale, justifying his being
+         a witness in the case, (b) a copy of the order of the institute, if any, mandating or
+         allowing this action, (c) a copy of the entire communication of the institute with
+         the police pertaining to this FIR. Please note that the police investigation in this
+         matter is completed and the above information is sought urgently in the interests
+         of justice.
+
+      2. Please provide a copy of the entire substantiating documentation available at the
+         institute substantiating and legally justifying the following: (a) IISER-
+
+         P/Ph.D./20163495/1,        (b)      IISER-P/Ph.D./20163495/2,         (c)       IISER-
+         P/Ph.D./20163495/3,        (d)      IISER-P/Ph.D./20163495/4,         (e)       IISER-
+         P/Ph.D./20163495/5, (f) IISER-P/015/RO dt. 23/08/2021, (g) IISER-P/015/RO dt.
+         12/11/2021, (h) Letter to Shri J K Tyagi dt. 10/11/2021, (i) IISER-P/015/RO dt.
+
+
+
+                                                                                     Page 17 of 52
+
+
+       23/11/2021. () IISER-P/Ph.D./20163495/2022 dt. 14/03/2022, (k) IISER-P/VT/RO
+      dt. 17/03/2022, and (I) IISER-P/015/VT/RO dt. 25/05/2022.
+
+   3. Please provide a copy of the entire documentation pertaining to and reports of the
+      actions taken pursuant to the following letters from the applicant to the institute
+      administration: (a) reply to show cause notice, dt. 07/09/2021, (b) reply to show
+      cause notice, dt. 09/09/2021, (c) letter to dean.sa dt. 30/10/2021, see supporting
+      document page 1, (d) communication with IISER-P admin dt. 07-09/11/2021, see
+      supporting doc. pp. 2-3, (e) communication with IISER-P admin dt. 13/11/2021,
+      see supporting doc. pp. 4-5, (f) letter to RO dt. 24/11/2021, see supporting doc. pp.
+      6-8, (g) complaint to dean.sa and adean.cosca dt. 11/03/2022, see supporting doc.
+      pp. 9-15, (h) reminder to RO dt. 01/06/2022, see supporting doc. p. 16, (i) reply to
+      defamation notice, dt. 26/05/2022, see supporting doc. pp. 16-17, (j) letter dt.
+      02/06/2022 submitting evidence to the committee, see supporting doc. p. 18, (k)
+      letter to the committee and RO, dt. 02/06/2022, see supporting doc. p. 19, (1) letter
+      to RO dt. 03/06/2022, see supporting doc. p. 20, (m) reminder to RO dt.
+      13/06/2022, see supporting doc. p. 21, (n) reminder to admin. dt. 27/06/2022, see
+      supporting doc. pp. 22-24, and (o) complaint to RO dt. 27/06/2022, see supporting
+      doc. pp. 25-26.
+
+16.1. The CPIO replied vide letter dated 23.01.2024 and the same is reproduced as
+under :-
+
+   1. Mr. Avinash Abhale has not been a witness against the applicant.
+
+   2. Reports of the Committee, along with official orders, have already been issued to
+      you. There is no further information available in this regard.
+
+   3. Reports of the Committee, along with official orders, have already been issued to
+      you. There is no further information available in this regard.
+
+
+
+                                                                               Page 18 of 52
+
+
+ 16.2. Dissatisfied with the response received from the CPIO, the Appellant filed a First
+Appeal dated 02.02.2024 alleging that the information provided was incomplete, false
+and misleading. The FAA vide order dated 01.03.2024 upheld the reply given by the
+CPIO.
+
+16.3. Aggrieved with the FAA's order, the Appellant approached the Commission with
+the instant Second Appeal dated 09.06.2024
+Second Appeal No. CIC/ISERP/A/2024/624331
+
+
+17.      The Appellant filed an RTI application dated 25.12.2023 seeking information on
+the following points:-
+
+      1. With reference to FIR No. 494/2021 dt. 13/11/2021 filed at Chaturshringi Police
+         Station, Pune, in which the then security officer of the institute, Avinash Abhale, is
+         a witness, please furnish the following information: (a) a copy of the entire
+         documentation available with the institute and Avinash Abhale, justifying his being
+         a witness in the case, (b) a copy of the order of the institute, if any, mandating or
+         allowing this action, (c) a copy of the entire communication of the institute with
+         the police pertaining to this FIR. Please note that the police investigation in this
+         matter is completed and the above information is sought urgently in the interests
+         of justice.
+
+      2. Please provide a copy of the entire substantiating documentation available at the
+         institute substantiating and legally justifying the following: (a) IISER-
+
+         P/Ph.D./20163495/1,        (b)      IISER-P/Ph.D./20163495/2,         (c)       IISER-
+         P/Ph.D./20163495/3,        (d)      IISER-P/Ph.D./20163495/4,         (e)       IISER-
+         P/Ph.D/20163495/5, (1) IISER-P/015/RO dt. 23/08/2021, (g) IISER-P/015/RO dt.
+         12/11/2021, (h) Letter to Shri J K Tyagi dt. 10/11/2021, (i) IISER-P/015/RO dt.
+         23/11/2021, (1) IISER-P/Ph.D./20163495/2022 dt. 14/03/2022, (k) IISER-
+         P/VT/RO dt. 17/03/2022, and (1) IISER-P/015/VT/RO dt. 25/05/2022.
+
+
+
+                                                                                     Page 19 of 52
+
+
+    3. Please provide a copy of the entire documentation pertaining to and reports of the
+        actions taken pursuant to the following letters from the applicant to the institute
+        administration: (a) reply to show cause notice, dt. 07/09/2021, (b) reply to show
+        cause notice, dt. 09/09/2021, (c) letter to dean.sa dt. 30/10/2021, see supporting
+        document page 1, (d) communication with IISER-P admin dt. 07-09/11/2021, see
+        supporting doc. pp. 2-3, (e) communication with IISER-P admin dt. 13/11/2021,
+        see supporting doc. pp. 4-5, (f) letter to RO dt. 24/11/2021, see supporting doc. pp.
+        6-8, (g) complaint to dean.sa and adean.cosca dt. 11/03/2022, see supporting doc.
+        pp. 9-15, (h) reminder to RO dt. 01/06/2022, see supporting doc. p. 16, (i) reply to
+        defamation notice, dt. 26/05/2022, see supporting doc. pp. 16-17, (j) letter dt.
+        02/06/2022 submitting evidence to the committee, see supporting doc. p. 18, (k)
+        letter to the committee and RO, dt. 02/06/2022, see supporting doc. p. 19, (1) letter
+        to RO dt. 03/06/2022, see supporting doc. p. 20, (m) reminder to RO dt.
+        13/06/2022, see supporting doc. p. 21, (n) reminder to admin, dt. 27/06/2022, see
+        supporting doc. pp. 22-24, and (o) complaint to RO dt. 27/06/2022, see supporting
+        doc. pp. 25-26.
+
+17.1. The CPIO replied vide letter dated 23.01.2024 and the same is reproduced as
+under :-
+
+   1. Mr. Avinash Abhale has not been a witness against the applicant.
+
+   2. Reports of the Committee, along with official orders, have already been issued to
+        you. There is no further information available in this regard.
+
+   3. Reports of the Committee, along with official orders, have already been issued to
+        you. There is no further information available in this regard.
+17.2. Dissatisfied with the response received from the CPIO, the Appellant filed a First
+Appeal dated 02.02.2024 alleging that the information provided was incomplete, false
+and misleading. The FAA vide order dated 01.03.2024 upheld the reply given by the
+CPIO.
+
+
+
+                                                                                 Page 20 of 52
+
+
+ 17.3. Aggrieved with the FAA's order, the Appellant approached the Commission with
+the instant Second Appeal dated 09.06.2024.
+
+Second Appeal No. CIC/ISERP/A/2024/624332
+
+
+18.      The Appellant filed an RTI application dated 26.12.2023 seeking information on
+the following points:
+
+  With reference to the letters furnished in reply to request reg. no.
+
+       ISERP/R/E/23/00033 under the 
+RTI Act
+ 2005, please furnish the following
+       information:
+
+      1. the dates on these letters, and
+
+      2. any documentation available at the Institute which substantiates these letters.
+18.1. The CPIO replied vide letter dated 23.01.2024 and the same is reproduced as
+under :-
+
+         "Committee Report 01 dated 23 June 2021
+
+         Committee Report 02 dated 29 Dec 2021"
+
+
+
+18.2. Dissatisfied with the response received from the CPIO, the Appellant filed a First
+Appeal dated 02.02.2024 alleging that the information provided was incomplete, false
+and misleading. The FAA vide order dated 01.03.2024 stated as under: -
+
+      1. Report 01 is of the Committee meeting dated 25th June 2021 as mentioned on the
+         report.
+
+         Report 02 is dated as 29 December 2021
+
+      2. Report 01 - Kindly refer to the Office Order IISER-P/Ph.D./20163495/1 dated
+         June 30, 2021 issued to you in this regard.
+
+         Report 02 - Committee meeting to Examine the response received from you on the
+         Show Cause Noce IISER-P/015/RO dated November 12th 2021.
+18.3. Aggrieved with the FAA's order, the Appellant approached the Commission with
+the instant Second Appeal dated 09.06.2024.
+
+                                                                                 Page 21 of 52
+
+
+ Second Appeal No. CIC/ISERP/A/2024/624333
+
+
+19.      The Appellant filed an RTI application dated 10.02.2024 seeking information on
+the following points:
+
+      1. With reference to the report dt. 25 Mar 2022 furnished by the Institute in reply to
+         RTI appeal no. ISERP/A/E/24/00002, please provide the following information:
+
+         (a) the identity of the individuals accusing the applicant for outraging the modesty
+         of women, so that appropriate legal proceedings
+ u/s 211
+ of IPC can be initiated
+         against them. (b) The record of any action or litigation pursued by the Institute
+         against the individuals making these accusations.
+
+      2. With reference to the report dt. 23 June 2022 furnished by the Institute in reply to
+         RTI request no. ISERP/R/E/23/00033, please provide the following information:
+
+         (a) the identity of the individuals responsible for fabricating and falsifying this
+         record. (b) The record of any action or litigation pursued by the Institute against
+         the criminal(s).
+
+19.1. The CPIO replied vide letter dated 11.03.2024 and the same is reproduced as
+under :-
+
+      1. The report shared is of the Committee Meeting held on 28 Jan 2022 as mentioned
+         on the report. Kindly refer to the order number IISER-P/VT/RO dt. 17/03/2022
+         issued to you post the above committee reports. The names of the members cannot
+         be disclosed as it falls under personal information and is denied under 
+section
+         8(1)(j)
+ of the RTI Act 2005. No other information is available in this regard.
+
+      2. The report shared is of the Committee Meeting held on 25 Jan 2022 as mentioned
+         on the report. Kindly refer to the order number IISER-P/VT/RO dt. 17/03/2022
+         issued to you post the above committee reports. The names of the members cannot
+         be disclosed as it falls under personal information and is denied under 
+section
+         8(1)(j)
+ of the RTI Act 2005. No other information is available in this regard.
+
+
+
+                                                                                  Page 22 of 52
+
+
+ 19.2. Dissatisfied with the response received from the CPIO, the Appellant filed a First
+Appeal dated 11.03.2024 alleging that the information provided was incomplete, false
+and misleading. The FAA vide order dated 08.04.2024 observed as under: -
+
+         "Discussions in both the above committee meetings were in presence of all the
+         three applicants and the decisions were conveyed accordingly. No more
+         information is available in this regard."
+
+19.3. Aggrieved with the FAA's order, the Appellant approached the Commission with
+the instant Second Appeal dated 09.06.2024.
+
+Second Appeal No. CIC/ISERP/A/2024/624335
+
+
+20.      The Appellant filed an RTI application dated 10.02.2024 seeking information on
+the following points:-
+
+      1. With reference to the report dt. 25 Feb 2022 furnished by the Institute in reply to
+         RTI appeal no. ISERP/A/E/24/00002, please provide the following information:
+
+         (a) the identity of the individuals accusing the applicant for outraging the modesty
+         of women, so that appropriate legal proceedings
+ u/s 211
+ of IPC can be initiated
+         against them. (b) The record of any action or litigation pursued by the Institute
+         against the individuals making these accusations.
+
+      2. With reference to the report dt. 23 June 2021 furnished by the Institute in reply to
+         RTI request no. ISERP/R/E/23/00033, please provide the following information:
+
+         (a) the identity of the individuals responsible for fabricating and falsifying this
+         record. (b) The record of any action or litigation pursued by the Institute against
+         the criminal(s).
+
+20.1. The CPIO replied vide letter dated 11.03.2024 and the same is reproduced as
+under :-
+
+      1. The report shared is of the Committee Meeting held on 28 Jan 2022 as mentioned
+         on the report. Kindly refer to the order number IISER-P/VT/RO dt. 17/03/2022
+
+
+                                                                                  Page 23 of 52
+
+          issued to you post the above committee reports. The names of the members cannot
+         be disclosed as it falls under personal information and is denied under 
+section
+         8(1)(j)
+ of the RTI Act 2005. No other information is available in this regard.
+
+      2. The report shared is of the Committee Meeting held on 25 June 2021 as mentioned
+         on the report. Kindly refer to the order number IISER-P/VT/RO dt. 17/03/2022
+         issued to you post the above committee reports. The names of the members cannot
+         be disclosed as it falls under personal information and is denied under 
+section
+         8(1)(j)
+ of the RTI Act 2005. No other information is available in this regard.
+20.2. Dissatisfied with the response received from the CPIO, the Appellant filed a First
+Appeal dated 11.03.2024 alleging that the information provided was incomplete, false
+and misleading. The FAA vide order dated 08.04.2024 observed as under: -
+
+         "Discussions in both the above committee meetings were in presence of all the
+         three applicants and the decisions were conveyed accordingly. No more
+         information is available in this regard."
+
+20.3. Aggrieved with the FAA's order, the Appellant approached the Commission with
+the instant Second Appeal dated 09.06.2024
+Second Appeal No. CIC/ISERP/A/2024/624337
+
+
+21.      The Appellant filed an RTI application dated 11.02.2024 seeking information on
+the following points:-
+
+      (i) The supporting document (pp. 1-2) contains a list of documents submitted in the
+          final report of FIR 494/21 at Chaturshringi police station, and includes the
+          documents received by the police from IISER Pune regarding the matter.
+
+          However, these documents do not include the letters sent by the applicant to the
+          IISER administration in his defence and to outline the corrupt and criminal
+          activities of several members of the institute, including the complainant in the
+          above-mentioned FIR. The applicant wants to know whether this omission was
+          made by the police or by IISER administration itself, and has therefore asked the
+
+
+                                                                                  Page 24 of 52
+
+           institute to furnish a copy of these documents through multiple RTI requests in
+          the past, e.g., ISERP/R/E/23/00050 and ISERP/R/E/23/00058. However, on each
+          of these occasions, the institute has replied with irrelevant statements, whether
+          out of stupidity or criminal intent the applicant cannot say. However, the
+          applicant can make another request, which he does so here. Please furnish a
+          copy of these documents.
+
+21.1. The CPIO replied vide letter dated 11.03.2024 and the same is reproduced as
+under :-
+
+         "The Institute has not registered any FIR against the applicant.
+
+
+
+21.2. Dissatisfied with the response received from the CPIO, the Appellant filed a First
+Appeal dated 11.03.2024 alleging that the information provided was incomplete, false
+and misleading. The FAA vide order dated 08.04.2024 upheld the reply given by the
+CPIO.
+
+21.3. Aggrieved with the FAA's order, the Appellant approached the Commission with
+the instant Second Appeal dated 09.06.2024.
+
+Second Appeal No. CIC/ISERP/A/2024/624339
+
+
+22.      The Appellant filed an RTI application dated 11.02.2024 seeking information on
+the following points:-
+
+      (i) With reference to the report of the first committee as furnished by the institute in
+          reply to ISERP/R/E/23/00033, it is to be noted that this report mentions the
+          events pertaining and subsequent to a hearing on 25 June 2021, but the report
+          itself was fabricated on 23 June 2021, before any such hearing took place, as
+          mentioned in multiple RTI replies from the Institute, and is therefore a forged
+          document as defined in 
+section 470
+ of the IPC. The institute is also aware that the
+          committee and any person responsible for making this report has committed a
+          cognizable offence under 
+sections 469
+ and 
+199
+ of the IPC. The institute has not
+
+                                                                                  Page 25 of 52
+
+          informed the applicant of the identity of the offender(s). The applicant is
+         therefore assuming that the institute has already filed an FIR against the said
+         offender(s), otherwise this withholding of information is a criminal offence under
+         
+section 212
+, 
+201-204
+ and 
+471
+ of the IPC on part of the institute administration
+         and the information and vigilance officers. It is in this context that the applicant
+         again requests the record of any action or litigation or FIR filed against the said
+         offender(s) by the Institute administration being fully aware of the commission of
+         a criminal offence. Please provide it.
+
+22.1. The CPIO replied vide letter dated 11.03.2024 and the same is reproduced as
+under :-
+
+        "The report is of the Committee meeting held on 25 June 2021, as mentioned on
+        the report."
+
+
+
+22.2. Dissatisfied with the response received from the CPIO, the Appellant filed a First
+Appeal dated 11.03.2024 alleging that the information provided was incomplete, false
+and misleading. The FAA vide order dated 08.04.2024 upheld the reply given by the
+CPIO.
+
+22.3. Aggrieved with the FAA's order, the Appellant approached the Commission with
+the instant Second Appeal dated 09.06.2024.
+
+Second Appeal No. CIC/ISERP/A/2024/624341
+
+
+23.     The Appellant filed an RTI application dated 11.02.2024 seeking information on
+the following points:-
+
+  With reference to IISER-P/Ph.D./20163495/1 dt. 30 June 2021, please furnish all
+      the documents available at the institute indicating
+
+      (a) that Mr. Viplove Tyagi (applicant herein) was informed of the complaint made
+      against him prior to this order,
+
+
+
+
+                                                                                 Page 26 of 52
+
+
+       (b) that the applicant was informed of the charges levelled against him prior to this
+      order,
+
+      (c) that the applicant was made aware of any material on which the complaint was
+      based prior to this order,
+
+      (d) that the committee verified this material prior to this order,
+
+      (e) that the applicant saw Mr. Bhowmik, the complainant, as a romantic rival, and
+      the committee's verification thereof,
+           ..., etc./ other related information
+23.1. The CPIO replied vide letter dated 11.03.2024 and the same is reproduced as
+under :-
+
+        "The office order number IISER-P/Ph.D./20163495/1 dt. 30 June 2021 has been
+        issued to you as approved by the then Competent Authority of the Institute based
+        on the recommendations in the Committee meeting dated 25 June 2021. The report
+        of the same has already been shared with you through multiple RTI applications.
+        Further you may refer to the office order number IISER-P/Ph.D/20163495/2 dt. 28
+        July 2021 and the Show Cause Notice number IISER-P/015/RO dated November
+        12, 2021, issued to you."
+
+
+
+23.2. Dissatisfied with the response received from the CPIO, the Appellant filed a First
+Appeal dated 11.03.2024 alleging that the information provided was incomplete, false
+and misleading. The FAA vide order dated 08.04.2024 upheld the reply given by the
+CPIO.
+
+23.3. Aggrieved with the FAA's order, the Appellant approached the Commission with
+the instant Second Appeal dated 09.06.2024
+Second Appeal No. CIC/ISERP/A/2024/624343
+
+
+24.     The Appellant filed an RTI application dated 11.02.2024 seeking information on
+the following points:-
+
+
+
+                                                                                Page 27 of 52
+
+
+   With reference to IISER-P/Ph.D./20163495/2 dt. 28 July 2021, please furnish all the
+     documents available at the institute indicating
+
+     (a) that the applicant was informed of the complaint made against him prior to this
+     order,
+
+     (b) that the applicant was informed of the charges levelled against him prior to this
+     order,
+
+     (c) that the applicant was made aware of any material on which the complaint was
+     based prior to this order,
+
+     (d) that this material substantiated the complaint, and the committee's verification
+     thereof,
+
+     (e) that the committee provided the applicant any opportunity of appeal, and
+
+     (f) that any action was taken by the institute against Ms. Sharma for making
+     UNSUBSTANTIATED allegations which threatened the dignity, modesty, and
+     reputation of the applicant, or that she was ordered to apologise, as the applicant
+     was ordered in IISER-P/Ph.D./20163495/5.
+
+24.1. The CPIO replied vide letter dated 11.03.2024 and the same is reproduced as
+under :-
+
+        "The office order number IISER-P/Ph.D./20163495/2 dt. 28 July 2021 has been
+        issued to you subsequent to office order number IISER-P/Ph.D./20163495/1 dated
+        30 June 2021 as approved by the then Competent Authority of the Institute based
+        on the recommendations in the Committee meeting dated 25 June 2021. Further,
+        you may refer to the Show Cause Notice number IISER-P/015/RO dated November
+        12, 2021, issued to you."
+
+
+
+24.2. Dissatisfied with the response received from the CPIO, the Appellant filed a First
+Appeal dated 11.03.2024 alleging that the information provided was incomplete, false
+and misleading. The FAA vide order dated 08.04.2024 upheld the reply given by the
+CPIO.
+
+                                                                               Page 28 of 52
+
+
+ 24.3. Aggrieved with the FAA's order, the Appellant approached the Commission with
+the instant Second Appeal dated 09.06.2024.
+
+Second Appeal No. CIC/ISERP/A/2024/624345
+
+25.        The Appellant filed an RTI application dated 15.02.2024 seeking information on
+the following points:
+
+  Please provide any information or documentation available at the institute indicating
+
+      1.      That any complaint has been made against the applicant by any woman for
+              outraging her modesty anywhere or at any point of me,
+
+      2.      That the complainant(s) provided any substantiation of the said allegation if
+              such a complaint has been made solely to the institute,
+
+      3.      That the applicant was informed of the above complaint made against him at
+              any point of me by the institute,
+
+      4.      That the complaint is made by the female members of the second committee
+              mentioned in IISER-P/VT/RO dt. 17 Mar 2022, and by no other person.
+
+
+
+25.1.       The CPIO replied vide letter dated 13.03.2024 and the same is reproduced as
+under:-
+
+
+
+              Kindly refer to the report shared of the Committee Meeting held on 28 Jan
+              2022 and the order number IISER-P/Ph.D./20163495/5 dt. Feb 28, 2022.
+
+
+
+25.2.         Dissatisfied with the response received from the CPIO, the Appellant filed a
+First Appeal dated 13.03.2024 alleging that the information provided was incomplete,
+false and misleading. The FAA vide order dated 08.04.2024 upheld the reply given by
+the CPIO.
+
+
+
+25.3.       Aggrieved with the FAA's order, the Appellant approached the Commission with
+the instant Second Appeal dated 09.06.2024.
+
+
+
+                                                                                Page 29 of 52
+
+
+ Second Appeal No. CIC/ISERP/A/2024/624346
+
+
+26.        The Appellant filed an RTI application dated 18.02.2024 seeking information on
+the following points:-
+
+        With reference to the letter dated 18 Dec 2023 from the institute administration
+        (
+[email protected]
+) to the applicant, please provide the following
+        information:
+
+      1)      The individuals responsible for making, transmitting, and approving the said
+              letter, and
+
+      2)      All the documents that legally justify the formation of this letter. Please also
+              note that
+
+              (a) previous RTI replies from the institute have established that the said letter
+              is a false document as defined in sec. 464, a false declaration as defined in sec.
+              199, and an abetment of a criminal offence as defined in 
+sec. 107
+ of the IPC,
+
+              (b) suppressing the identity of the individuals responsible for this letter is a
+              criminal offence as defined in 
+sec. 212
+ of the IPC, and
+
+              (c) producing this document as true in an RTI reply is a criminal offence as
+              defined in secs. 200 and 464 of the 
+IPC
+.
+
+
+
+26.1.       The CPIO replied vide letter dated 18.03.2024 and the same is reproduced as
+under:-
+
+
+
+              Kindly refer to the email from the Institute administration dated 18 December
+              2023 addressed to you in response to your appeal dated 9th Oct 2023. The
+              response is in consultation with the authorities of the Institute and has the
+              approval of the Chairperson, Board of Governors of the Institute, as stated in
+              the email. There is no more information available in this regard.
+
+
+
+26.2.         Dissatisfied with the response received from the CPIO, the Appellant filed a
+First Appeal dated 18.03.2024 alleging that the information provided was incomplete,
+
+
+                                                                                    Page 30 of 52
+
+ false and misleading. The FAA vide order dated 17.04.2024 upheld the reply given by
+the CPIO.
+
+
+
+26.3.       Aggrieved with the FAA's order, the Appellant approached the Commission with
+the instant Second Appeal dated 09.06.2024.
+
+
+
+Second Appeal No. CIC/ISERP/A/2024/624348
+
+
+27.        The Appellant filed an RTI application dated 20.02.2024 seeking information on
+the following points:-
+
+      1)      With reference to the first committee report dt. 23 June 2021 furnished by the
+              institute in reply to ISERP/R/E/23/00033, please provide
+
+              (a) a list of all the documents and material evidence substantiating this report,
+
+              (b) a copy, wherever possible, of all the documents and material evidence
+              substantiating this report, and
+
+              (c) for each redaction or omission in this reply, appropriate grounds for the
+              denial of information, ref. 
+sec. 7(8)(i)
+ of the RTI Act 2005.
+
+      2)      With reference to the committee report dt. 25 Feb 2022 furnished by the
+              institute in reply to ISERP/A/E/24/00003, please provide
+
+              (a) a list of all the documents and material evidence substantiating this report,
+
+              (b) a copy, wherever possible, of all the documents and material evidence
+              substantiating this report, and
+
+              (c) for each redaction or omission in this reply, appropriate grounds for the
+              denial of information, ref. 
+sec. 7(8)(i)
+ of the RTI Act 2005.
+
+
+
+27.1.       The CPIO replied vide letter dated 19.03.2024 and the same is reproduced as
+under:-
+
+
+
+              1. The report shared is of the Committee Meeting held on 25 June 2021 as
+              mentioned on the report. You may refer to Office Order number IISER-
+
+              P/Ph.D/20163495/1 dated June 30, 2021, No. IISER-P/Ph.D./20163495/2
+
+                                                                                     Page 31 of 52
+
+               dated July 28, 2021 and the Show Cause Noce IISERP/015/RO dated August
+              23 2021 issued to you post the committee meeting.
+
+
+
+              2. The report shared is of the Committee Meeting held on 28 Jan 2022 as
+              mentioned on the report. You may refer to the Office Order number IISER-
+              P/Ph.D./20163495/5          dated   February         28,    2022,   No.       IISER-
+              P/Ph.D./20163495/2022 dated March 14, 2022 and Order no. IISER-P/VT/RO
+              dt. 17/03/2022 issued to you post the above committee report. Also, the
+              recording of the entire meeting has been shared with you in response to your
+              RTI application number ISERP/R/E/23/00059 dated 04.12.2023. No other
+              information is available in this regard.
+
+
+
+27.2.         Dissatisfied with the response received from the CPIO, the Appellant filed a
+First Appeal dated 19.03.2024 alleging that the information provided was incomplete,
+false and misleading. The FAA vide order dated 18.04.2024 upheld the reply given by
+the CPIO.
+
+
+
+27.3.       Aggrieved with the FAA's order, the Appellant approached the Commission with
+the instant Second Appeal dated 09.06.2024.
+
+
+
+Second Appeal No. CIC/ISERP/A/2024/624349
+
+
+28.        The Appellant filed an RTI application dated 20.02.2024 seeking information on
+the following points:-
+
+      1)      With     reference     to     the    letter    dt.     18    Dec    2023         from
+              
+[email protected]
+ to the applicant, please provide
+
+              (a) A list of all the documents and material evidence substantiating this letter,
+
+              (b) A copy, wherever possible, of all the documents and material evidence
+              substantiating this letter, and
+
+              (c) For each redaction or omission in this reply, appropriate grounds for the
+              denial of information, ref. 
+sec. 7(8)(i)
+ of the RTI Act 2005.
+
+
+
+                                                                                        Page 32 of 52
+
+
+    2)      Please provide a copy of all the reports of actions taken by the board of
+           governors/administration of the institute on the complaints and appeals of the
+           applicant from June 2021 till date, by sending it to the email provided with this
+           application. For each redaction or omission in this reply, appropriate grounds
+           for the denial of information must be provided.
+
+   3)      Please provide a copy of all the committee reports involving the applicant, by
+           sending it to the email provided with this application. For each redaction or
+           omission in this reply, appropriate grounds for the denial of information must
+           be provided. Further note that 
+section 8(1)(j)
+ of the RTI Act 2005 does not
+           exempt the names of any public authority, or any individual involved in any
+           public activity or interest, to be produced under this act. This includes member
+           of any committee and official signatory of any document. 
+Sec. 8(1)
+ of this act
+           also dictates that //the information which cannot be denied to the Parliament or
+           a State Legislature shall not be denied to any person//, which takes precedence
+           over 8(1) (a)-(j).
+
+
+
+28.1.     The CPIO replied vide letter dated 19.03.2024 and the same is reproduced as
+under:-
+
+
+
+            1. Kindly refer to the email from the Institute administration dated 18
+            December 2023 addressed to you in response to your appeal dated 9th Oct
+            2023, the response is in consultation with the authorities of the Institute and
+            has an approval of the Chairperson, Board of Governors of the Institute as
+            stated on the email. There is no more information available in this regard.
+
+
+
+            2. Official orders/notices/committee reports have already been sent to you via
+            multiple RTI requests.
+
+
+
+                                                                                 Page 33 of 52
+
+
+               3. All reports of the committee meetings held in this regard, along with official
+              orders, have already been issued to you. There is no further information
+              available in this regard.
+
+
+
+28.2.         Dissatisfied with the response received from the CPIO, the Appellant filed a
+First Appeal dated 19.03.2024 alleging that the information provided was incomplete,
+false and misleading. The FAA vide order dated 18.04.2024 upheld the reply given by
+the CPIO.
+
+
+
+28.3.       Aggrieved with the FAA's order, the Appellant approached the Commission with
+the instant Second Appeal dated 09.06.2024.
+
+
+
+Second Appeal No. CIC/ISERP/A/2024/624350
+
+
+29.        The Appellant filed an RTI application dated 23.02.2024 seeking information on
+the following points:-
+
+      Please provide all the documents available with the institute indicating the following:
+
+      1)      That Sh. Viplove Tyagi, applicant in this query, had been duly informed of
+              annexure 2 (produced in reply to RTI query ISERP/R/E/23/00065),
+
+      2)      That the applicant was provided with sufficient material for him to take a legal
+              recourse in the possibility of false complaints and fabrication against him, and
+              to prevent further injury,
+
+      3)      That the applicant was given an equal opportunity to refuse to participate in
+              the   proceedings     leading   to   IISER-P/PhD/20163495/1        and    IISER-
+
+              P/PhD/20163495/2, just like other students were given, as in annexure 2
+              mentioned above, when the applicant raised his complaints through letters dt.
+              07/03/2021 and 03/09/2021. Please further provide the following information:
+
+      4)      A copy of any statuette or policy or code of the institute that dictates the
+              aforementioned preferential treatment of different students,
+
+      5)      The date of issue of the aforementioned annexure 2, and
+
+
+                                                                                   Page 34 of 52
+
+
+    6)      The committee and signatories mentioned in annexure 2.
+
+           Please note that the identity of the concerned individuals is NOT exempted
+           from disclosure in 8(j) of the 
+RTI Act
+ 2005. Further provide the following
+           information:
+
+
+
+   9)       The reports of both the committees mentioned in IISER-P/VT/RO dt. 17 Mar
+            2022 without any redaction or omission, and
+
+
+  10)       In case of any redaction or omission in any of the above documents, the
+            grounds for denial of information.
+
+
+
+29.1.     The CPIO replied vide letter dated 22.03.2024 and the same is reproduced as
+under:-
+
+
+
+            Reply 01: The document shared as Annexure 02 in response to the RTI query
+            no. ISERP/R/E/23/00065 is a copy of the committee recommendations which
+            was appointed to look into the response to the Show Cause Noce no. IISER-
+            P/015/RO dated August 23, 2021. The committee met virtually on 15
+            September and 20 September 2021 and in person on 21 September 2021. The
+            names of the members cannot be disclosed since it is a personal information as
+            per 
+section 8(1)(j)
+ of the RTI Act 2005. Since there was a disagreement from
+            either of the pares, the arbitration was not completed.
+
+
+
+            Reply 02: The office order number IISER-P/Ph.D./20163495/1 dt. 30 June
+            2021 has been issued to you as approved by the then Competent Authority of
+            the Institute based on the recommendations in the Committee meeting dated 25
+            June 2021. Office order number IISERP/Ph.D./20163495/2 was issued to you
+            based on the recommendations shared in the above office order and further
+            course of action.
+
+
+
+            Reply 03: No Information available.
+
+
+
+            Reply 04: Refer reply 01 above.
+
+                                                                               Page 35 of 52
+
+
+               Reply 05: Report 01 of the Committee meeting held on 25th June 2021 may be
+              referred to in the Annexure sent in response to your RTI REQUEST No.
+              ISERP/R/E/23/00033. Report 02 of the Committee meeting held on 28th Jan
+              2022 may be referred to in the Annexure sent in response to your RTI
+              REQUEST No. ISERP/R/E/23/00065.
+
+
+
+              The names of the members cannot be disclosed since it is a personal
+              information as per 
+section 8(1)(j)
+ of the RTI Act 2005.
+
+
+
+29.2.         Dissatisfied with the response received from the CPIO, the Appellant filed a
+First Appeal dated 22.03.2024 alleging that the information provided was incomplete,
+false and misleading. The FAA vide order dated 22.04.2024 upheld the reply given by
+the CPIO.
+
+
+
+29.3.       Aggrieved with the FAA's order, the Appellant approached the Commission with
+the instant Second Appeal dated 09.06.2024.
+
+
+
+Second Appeal No. CIC/ISERP/A/2024/624351
+
+
+30.        The Appellant filed an RTI application dated 24.02.2024 seeking information on
+the following points:-
+
+      1)     With reference to Office Order IISER-P/PhD/20163495/1, dated 30 June 2021,
+             please furnish the following information:
+
+             (a) any documentation/transcription indicating that prior to this order, the
+             applicant Viplove Tyagi was informed of the complaints made by Rajdeep
+             Bhowmik,
+
+             (b) any documentation indicating that prior to this order, the applicant was
+             provided with the material evidence put against him,
+
+             (c) any documentation indicating that the applicant was informed, prior to this
+             order, that he is an accused in any matter and that he needs to defend himself
+             against any allegation,
+
+
+                                                                                 Page 36 of 52
+
+
+            (d) any documentation indicating that prior to this order, the applicant was
+           informed of any complaint made by Vandana Sharma herself.
+
+   2)      With reference to Office Order IISER-P/PhD/20163495/2, please furnish the
+           following information:
+
+           (a) any documentation/transcription indicating that prior to this order, the
+           applicant was informed of the complaints made against him,
+
+           (b) any documentation indicating that prior to this order, the applicant was
+           provided with the material evidence put against him,
+
+           (c) any documentation indicating that the applicant was informed, prior to this
+           order, that he is an accused in any matter and that he needs to defend himself
+           against any allegation pertaining to this order.
+
+
+
+30.1.     The CPIO replied vide letter dated 22.03.2024 and the same is reproduced as
+under:-
+
+
+
+           1. The Office Order IISER-P/PhD/20163495/1 dated 30 June 2021 was issued
+           based on the Committee meeting held on 25th June 2021 wherein you were also
+           present. The minutes may be referred to in the Annexure sent in response to
+           your RTI request no. ISERP/R/E/23/00033.
+
+
+
+           2. The Office order number IISER-P/Ph.D./20163495/2 was issued to you based
+           on the recommendations shared in the office order number IISER-
+
+           P/Ph.D./20163495/1 and further course of action.
+
+
+
+30.2.       Dissatisfied with the response received from the CPIO, the Appellant filed a
+First Appeal date 22.03.2024 alleging that the information provided was incomplete,
+false and misleading. The FAA vide order dated 22.04.2024 upheld the reply given by
+the CPIO.
+
+
+
+30.3.     Aggrieved with the FAA's order, the Appellant approached the Commission with
+the instant Second Appeal dated 09.06.2024.
+
+
+
+                                                                               Page 37 of 52
+
+
+ Second Appeal No. CIC/ISERP/A/2024/624352
+
+
+31.        The Appellant filed an RTI application dated 23.02.2024 seeking information on
+the following points:-
+
+       Please provide all the documents available with the institute indicating the
+       following:
+
+      1)     That Sh. Viplove Tyagi (applicant of this query) was informed of annexure 2
+             (produced in reply to RTI query ISERP/R/E/23/00065) in due me for him to take
+             appropriate legal recourse.
+
+      2)     That the applicant was provided with sufficient material for him to take a legal
+             recourse in the possibility of false complaints and fabrication against him,
+
+      3)     That the applicant was given an equal opportunity to refuse to participate in the
+             proceedings      leading      to   IISER-P/PhD/20163495/1          and       IISER-
+
+             P/PhD/20163495/2, just like other students were given when the applicant
+             raised his complaints through letters dt. 07/09/2021 and 09/09/2021. Please
+             also furnish the following information:
+
+      4)     A copy of any statute or policy or code of the institute that dictates the
+             aforementioned preferential treatment of different students,
+
+      5)     A copy of the research paper or academic article establishing the mathematical
+             rule probably discovered by some great scientist at the institute that the
+             administration of the institute, however full of idiotic individuals, can never
+             commit a mistake,
+
+      6)     In case no such mathematical rule exists, the due process to inform this
+             administration of any such mistake, namely, a lapse in judgement by a
+             committee or authority leading to injury, and
+
+
+
+
+
+                                                                                      Page 38 of 52
+
+
+    7)      The due process to make this administration correct such mistakes. Please note
+           that the due processes above refer to any statute/rule/policy/code/law of
+           precedence or part thereof mandating these processes.
+
+
+
+31.1.     The CPIO replied vide letter dated 22.03.2024 and the same is reproduced as
+under:-
+
+
+
+            Reply 01: The document shared as Annexure 02 in response to the RTI query
+            no. ISERP/R/E/23/00065 is a copy of the committee recommendations which
+            was appointed to look into the response to the Show Cause Noce no. IISER-
+            P/015/RO dated August 23, 2021. The committee met virtually on 15
+            September and 20 September 2021 and in person on 21 September 2021. The
+            names of the members cannot be disclosed since it is a personal information as
+            per 
+section 8(1)(j)
+ of the RTI Act 2005. Since there was a disagreement from
+            either of the parties, the arbitration was not completed.
+
+
+
+            Reply 02: The office order number IISER-P/Ph.D./20163495/1 dt. 30 June
+            2021 has been issued to you as approved by the then Competent Authority of
+            the Institute based on the recommendations in the Committee meeting dated 25
+            June 2021. Office order number IISERP/Ph.D./20163495/2 was issued to you
+            based on the recommendations shared in the above office order and further
+            course of action.
+
+
+
+            Reply 03: No Information available.
+
+
+
+31.2.       Dissatisfied with the response received from the CPIO, the Appellant filed a
+First Appeal dated 22.03.2024 alleging that the information provided was incomplete,
+false and misleading. The FAA vide order dated 22.04.2024 upheld the reply given by
+the CPIO.
+
+
+
+31.3.     Aggrieved with the FAA's order, the Appellant approached the Commission with
+the instant Second Appeal dated 09.06.2024.
+
+
+
+                                                                               Page 39 of 52
+
+
+ Second Appeal No. CIC/ISERP/A/2024/624353
+
+
+32.        The Appellant filed an RTI application dated 26.02.2024 seeking information on
+the following points:-
+
+      With reference to the letter from the institute administration dated 18 Dec 2023
+      addressed to the applicant, please furnish a copy of the following documents:
+
+      1)      The signed approval of the chair, board of governors, mentioned in the letter,
+              if any,
+
+      2)      The date of this approval, if there was any approval,
+
+      3)      The identity of the individuals responsible for this false approval so that
+              appropriate proceedings can be initiated against them,
+
+      4)      The identity of the individuals responsible for this false letter so that
+              appropriate proceedings can be initiated against them.
+
+
+
+32.1.       The CPIO replied vide letter dated 27.03.2024 and the same is reproduced as
+under:-
+
+
+
+              Kindly refer to the email from the Institute administration dated 18 December
+              2023 addressed to you in response to your appeal dated 9th Oct 2023. The
+              response is in consultation with the authorities of the Institute and has the
+              approval of the Chairperson Board of Governors of the Institute, as stated in
+              the email.
+
+
+
+32.2.         Dissatisfied with the response received from the CPIO, the Appellant filed a
+First Appeal dated 27.03.2024 alleging that the information provided was incomplete,
+false and misleading. The FAA vide order dated 25.04.2024 upheld the reply given by
+the CPIO.
+
+
+
+32.3.       Aggrieved with the FAA's order, the Appellant approached the Commission with
+the instant Second Appeal dated 09.06.2024.
+
+
+
+                                                                                 Page 40 of 52
+
+
+ Second Appeal No. CIC/ISERP/A/2024/624354
+
+
+33.        The Appellant filed an RTI application dated 06.03.2024 seeking information on
+the following points:-
+
+        Please provide the following information as per your records:
+
+      1)     (a) The identity of the individuals legally accountable for the reports furnished
+             by the institute in response to RTI query ISERP/R/E/23/00033,
+
+             (b) Complete reports and all supporting document(s) pertaining to these
+             reports,
+
+      2)     (a) The identity of the individuals legally accountable for the reports in
+             annexure 01 and 02 of the reply to RTI query ISERP/R/E/23/00065,
+
+             (b) complete reports and any document(s) pertaining to these reports,
+
+      3)     (a) the identity of the individuals legally accountable for the communication
+             dated 18 Dec 2023 to the applicant from 
+[email protected]
+ with
+             subject: Appeal, and for its contents,
+
+             (b) complete reports and all supporting document(s) pertaining to this
+             communication,
+
+      4)     Reasons for any omissions or redactions made in the replies given to any of the
+             above queries, as mandated by 
+sec. 7(8)(i)
+ of the RTI Act 2005. Please further
+             note that none of the information sought above is exempted from disclosure
+             under 
+sec. 8
+ (a - j) of the 
+RTI Act
+ 2005. The information concerns public
+             documents related to public activity and public interest and is not personal
+             information.
+
+
+
+33.1.       The CPIO replied vide letter dated 04.04.2024 and the same is reproduced as
+under:-
+
+
+
+             Reply no.1: Report 01 is of the committee meeting held on 25 June 2021
+             wherein you were also present through Zoom. Report 02 is of the meeting held
+
+                                                                                   Page 41 of 52
+
+          on 13 December 2021, do refer to order no. IISER-P/Ph.D./20163495/4 dated
+         January 04th, 2022 in this regard. Names of the members cannot be disclosed
+         as it falls under Personal Information and is exempted under 
+section 8(1)(j)
+ of
+         the RTI Act 2005. There is no more information available in this regard.
+
+
+
+         Reply no.2: Report 01 is of the committee meeting held on 28 January 2022
+         wherein you were also present in person. Report 02 is a copy of the committee
+         recommendations which was appointed to look into the response to the Show
+         Cause Notice no. IISER-P/015/RO dated August 23, 2021. The committee met
+         virtually on 15 September and 20 September 2021 and in person on 21
+         September 2021. The names of the members cannot be disclosed since it is a
+         personal information as per 
+section 8(1)(j)
+ of the RTI Act 2005. Since there was
+         a disagreement from either of the pares, the arbitration was not completed.
+         There is no more information available in this regard.
+
+
+
+         Reply no.3: Kindly refer to the email from the Institute administration dated 18
+         December 2023 addressed to you in response to your appeal dated 9th Oct
+         2023, the response is in consultation with the authorities of the Institute and has
+         an approval of the Chairperson, Board of Governors of the Institute as stated on
+         the email. There is no more information available in this regard.
+
+
+
+         Reply no.4: Kindly refer to the replies 01, 02 & 03 above.
+
+
+
+33.2.       Dissatisfied with the response received from the CPIO, the Appellant filed a
+First Appeal dated 17.04.2024 alleging that the information provided was incomplete,
+false and misleading. The FAA vide order dated 16.05.2024 upheld the reply given by
+the CPIO.
+
+
+
+33.3.   Aggrieved with the FAA's order, the Appellant approached the Commission with
+the instant Second Appeal dated 09.06.2024.
+
+
+
+                                                                                Page 42 of 52
+
+
+ Second Appeal No. CIC/ISERP/A/2024/624355
+
+
+34.        The Appellant filed an RTI application dated 06.03.2024 seeking information on
+the following points:-
+
+        With reference to the committee report produced by the institute in annexure 02 of
+        the reply to RTI query ISERP/R/E/23/00065, please provide the following
+        information as per your records:
+
+      1)      Documents indicating that Mr. Viplove Tyagi (applicant) was duly informed of
+              this report and the decisions therein,
+
+      2)      A copy of IISER-P/Security/40/2021 dated 10/11/2023 along with all
+              attachments thereof,
+
+      3)      Identity of the individuals responsible for framing IISER-P/Security/40/2021
+              dated 10/11/2023 against the decision of this committee,
+
+      4)      Documents and reports of any action(s) taken by the institute against these
+              individuals for acting contrary to the decision of the committee, for omission
+              and suppression of evidence and various documents related to the matter
+              (including statements and complaints made by the applicant in this regard),
+              and for biased and false representation of facts regarding concerned events
+              (which are criminal offences under secs. 196, 202 and 204 of the 
+IPC
+, and
+              defamation as defined in sec. 499 of this code)
+
+34.1.       The CPIO replied vide letter dated 04.04.2024 and the same is reproduced as
+under:-
+
+
+
+              1. The document shared as Annexure 02 in response to the RTI query no.
+
+              ISERP/R/E/23/00065 is a copy of the committee recommendations which was
+              appointed to look into the response to the Show Cause Notice no. IISER-
+              P/015/RO dated August 23, 2021. The committee met virtually on 15
+              September and 20 September 2021 and in person on 21 September 2021. The
+
+
+                                                                                 Page 43 of 52
+
+               names of the members cannot be disclosed since it is a personal information as
+              per 
+section 8(1)(j)
+ of the RTI Act 2005. Since there was a disagreement from
+              either of the parties, the arbitration was not completed.
+
+
+
+              2. Letter IISER-P/Security/40/2021 dated 10/11/2021 was sent to the Cyber
+              Police Station in response to their email notice dated 09 November 2021
+              seeking documents towards an FIR led. The copy of the email notice is
+              enclosed. Further documents may be sourced from the Cyber Police Station,
+              Pune City.
+
+
+
+              3. No document has been framed against the decision of the Committee.
+
+
+
+              4. No Information Available
+
+34.2.         Dissatisfied with the response received from the CPIO, the Appellant filed a
+First Appeal dated 17.04.2024 alleging that the information provided was incomplete,
+false and misleading. The FAA vide order dated 16.05.2024 upheld the reply given by
+the CPIO.
+
+
+
+34.3.       Aggrieved with the FAA's order, the Appellant approached the Commission with
+the instant Second Appeal dated 09.06.2024.
+
+
+
+Second Appeal No. CIC/ISERP/A/2024/624357
+
+
+35.        The Appellant filed an RTI application dated 10.03.2024 seeking information on
+the following points:-
+
+      1)     With reference to the report of the first committee as furnished by the institute in
+             reply to RTI query ISERP/R/E/23/00033, please provide the following
+             information as per your records:
+
+             (a) the concerned department of the institute which drafted this report as true,
+
+             (b) the concerned department of the institute which kept/maintained this record
+             as true,
+
+
+
+                                                                                     Page 44 of 52
+
+
+      (c) the concerned department of the institute which informs this record as true
+     in RTI queries,
+
+     (d) the concerned authority/authorities of the institute which drafted this report
+     as true,
+
+     (e) the concerned authority/authorities of the institute which kept/maintained
+     this record as true,
+
+     (f) the concerned authority/authorities of the institute which informs this record
+     as true in RTI queries.
+
+2)   Please provide the names and official communication details of the concerned
+     authorities as per your records, or provide the reason for not doing so.
+
+3)   With reference to annexure 02 furnished by the institute in reply to RTI query
+     ISERP/R/E/23/00065, please provide the following information as per your
+     records:
+
+     (a) the concerned department of the institute responsible for drafting this
+     record, (b) the concerned department of the institute responsible for
+     maintaining this record as true,
+
+     (b) the identity of the committee members as mentioned in this annexure, which
+     information is NOT exempted under 8(1)(j) of the 
+RTI Act
+,
+
+     (c) the report of the previous committee dated 26/06/2021 as mentioned in this
+     annexure.
+
+4)   With reference to the report of the second committee as furnished by the
+     institute in reply to RTI query ISERP/R/E/23/00033, please provide the full
+     reports and documents of this committee without any redactions
+
+5)   For any omission or redaction of information given in reply to the above
+     queries, please list these omissions and provide appropriate reasons thereof
+     under 7(8)(i) of the 
+RTI Act
+.
+
+
+
+                                                                           Page 45 of 52
+
+
+ 35.1.     The CPIO replied vide letter dated 08.04.2024 and the same is reproduced as
+under:-
+
+
+
+           1. The report shared is of the Committee Meeting held on 25 June 2021 as
+           mentioned on the report wherein you were also present over zoom. Recording of
+           the above meeting has been shared with you vide your RTI application no.
+
+           ISERP/R/E/24/00028.      Kindly   refer   to   the   office   order   no.   IISER-
+           P/Ph.D./20163495/1 dt. June 30, 2021 issued to you post the above committee
+           meeting. No other information is available in this regard.
+
+
+
+           2. All the official orders/notices has been issued to you by the Registrar of the
+           Institute with approval of the then Competent Authority as per the
+           recommendations of the committee members. The names cannot be disclosed
+           since it is a personal information as per 
+section 8(1)(j)
+ of the RTI Act 2005.
+
+
+
+           3. The document shared as Annexure 02 in response to the RTI query no.
+           ISERP/R/E/23/00065 is a copy of the committee recommendations which was
+           appointed to look into the response to the Show Cause Noce no. IISER-
+           P/015/RO dated August 23, 2021. The committee met virtually on 15 September
+           and 20 September 2021 and in person on 21 September 2021. The names of the
+           members cannot be disclosed since it is a personal information as per 
+section
+           8(1)(j)
+ of the RTI Act 2005. Since there was a disagreement from either of the
+           pares, the arbitration was not completed. The report of the previous committee
+           may be referred to in the Annexure sent in response to your RTI REQUEST No.
+           ISERP/R/E/23/00033 which is of the meeting held on 25 June 2021.
+
+
+
+           4. The entire report including the point of reference of the committee
+           recommendations shared previously with you is enclosed herewith. The names
+           of the members cannot be disclosed since it is a personal information as per
+           
+section 8(1)(j)
+ of the RTI Act 2005.
+
+
+
+           5. No Information Available.
+
+
+
+                                                                                   Page 46 of 52
+
+
+ 35.2.       Dissatisfied with the response received from the CPIO, the Appellant filed a
+First Appeal dated 17.04.2024 alleging that the information provided was incomplete,
+false and misleading. The FAA vide order dated 16.05.2024 upheld the reply given by
+the CPIO.
+
+
+
+35.3.     Aggrieved with the FAA's order, the Appellant approached the Commission with
+the instant Second Appeal dated 09.06.2024.
+
+
+
+36.     The appellant remained absent during the hearing despite notice and on behalf of
+the respondent Mr. Sreejit Marar, Section Officer, attended the hearing through video
+conference.
+
+37.     The respondent while defending their case inter alia submitted that the appellant
+filed multiple RTI applications seeking copies of documents pertaining to a report of the
+committee, including personal details of the member of the committee on Institute's
+correspondence with Police w.r.t the FIR lodged against him etc. and all were responded
+as per the provision of the 
+RTI Act
+ and within time. He stated that in the instant set of
+appeals the appellant is again seeking similar information to which the CPIO's concerned
+has furnished suitable replies, as per their available records, to the appellant along with
+the relevant enclosures. Further, the Appellant has not been judicious in the use of the
+
+RTI Act
+ and has been using it as a tool to harass the Public Authority. As on date he has
+filed 108 RTIs, 80 First Appeals and 60 Second Appeals as also 50 complaints in the
+CPGRAMS portal. All the written submissions of the respondent have been taken on
+record.
+
+
+
+38.     The Commission after adverting to the facts and circumstances of the case, hearing
+the respondent and perusal of records, observes that in all the cases the CPIO's
+concerned have provided appropriate replies to the RTI Applications as per the
+provisions of the 
+RTI Act
+ vide letters dated 28.11.2023, 29.11.2023, 01.12.2023,
+22.12.2023, 03.01.2024, 19.01.2024, 22.01.2024, 23.02.2024, 02.02.2024, 23.01.2024,
+11.03.2024, 13.03.2024, 18.03.2024, 19.03.2024, 22.03.2024, 27.03.2024, 04.04.2024
+
+                                                                               Page 47 of 52
+
+ and 08.04.2024.    The Commission also observes that in most of the instant cases the
+RTIs are repetitive. Moreover, in most of the RTI applications, the appellant has also
+sought clarification and opinion, as also requesting for non-specific information like 'All
+documents', if any, etc. which do not fall within the definition of "information" as
+defined under 
+section 2 (f)
+ of the RTI Act. 
+In this regard, the attention of the appellant is
+drawn towards a judgment of the Hon'ble Supreme Court in 
+Central Board of
+Secondary Education &Anr. vs. Aditya Bandopadhyay & Ors
+ [Civil Appeal No.6454 of
+2011] date of judgment 09.08.2011. The following was thus held:
+
+
+      "....A public authority is also not required to furnish information which require
+      drawing of inferences and/or making of assumptions. It is also not required to
+      provide 'advice' or 'opinion' to an applicant, nor required to obtain and furnish
+      any 'opinion' or 'advice' to an applicant. The reference to 'opinion' or 'advice' in
+      the definition of 'information' in 
+section 2(f)
+ of the Act, only refers to such
+      material available in the records of the public authority......."
+
+39.   Further, the Commission observes that the appellant on grounds of his Second
+Appeals has challenged the correctness of the information provided by the CPIO's
+concerned. 
+In this regard, the attention of the appellant is also drawn towards a judgment
+of the Hon'ble Delhi High Court in its decision dated 06.12.2023 in 
+Narendra Tyagi vs
+Assistant Director (CPIO) [LPA
+ 764/2023]. The following was thus held:
+
+
+
+
+      "13. Consequently, it is clear that dispute as regards the correctness of
+      information provided under the 
+RTI Act
+, or any other dispute or controversy,
+      cannot be adjudicated in proceedings under the 
+RTI Act
+. The CPIO is only
+      required to supply all the information/documents within his access. Whether or not
+      such information as provided by the CPIO under the 
+RTI Act
+ is incorrect in any
+      manner, is not the domain of consideration or determination under the RTI
+      proceedings."
+
+
+
+40.   Further, the Commission observes that the appellant is frequently filing RTI
+Applications on same or similar subject just to harass respondent public authority, which
+is purely against the spirit of the 
+RTI Act
+. 2005. 
+In this regard, attention is drawn to the
+
+                                                                                 Page 48 of 52
+
+ Hon'ble Supreme Court's observation in the matter of 
+Central Board of Secondary
+Education (CBSE) & Anr. v. Aditya Bandhopadhyay and others
+ [(2011) 8 SCC 497]
+stating that:
+
+
+
+
+       '37. The right to information is a cherished right. Information and right to
+       information are intended to be formidable tools in the hands of responsible
+       citizens to fight corruption and to bring in transparency and accountability. The
+       provisions of 
+RTI Act
+ should be enforced strictly and all efforts should be made to
+       bring to light the necessary information under clause (b) of 
+section 4(1)
+ of the Act
+       which relates to securing transparency and accountability in the working of public
+       authorities   and   in discouraging     corruption.   But   in   regard    to   other
+       information,(that is information other than those enumerated in 
+section 4(1)(b)
+
+       and (c) of the Act), equal importance and emphasis are given to other public
+       interests (like confidentiality of sensitive information, fidelity and fiduciary
+       relationships, efficient operation of governments, etc.). Indiscriminate and
+       impractical demands or directions under 
+RTI Act
+ for disclosure of all and sundry
+       information (unrelated to transparency and accountability in the functioning of
+       public authorities and eradication of corruption) would be counter-productive as
+       it will adversely affect the efficiency of the administration and result in the
+       executive getting bogged down with the non- productive work of collecting and
+       furnishing information. 
+The Act
+ should not be allowed to be misused or abused, to
+       become a tool to obstruct the national development and integration, or to destroy
+       the peace, tranquility, and harmony among its citizens. Nor should it be converted
+       into a tool of oppression or intimidation of honest officials striving to do their
+       duty. The nation does not want a scenario where 75% of the staff of public
+       authorities spends 75% of their time in collecting and furnishing information to
+       applicants instead of discharging their regular duties. The threat of penalties
+       under the 
+RTI Act
+ and the pressure of the authorities under the 
+RTI Act
+ should not
+       lead to employees of a public authorities prioritizing 'information furnishing', at
+       the cost of their normal and regular duties.'
+
+
+                                                                                 Page 49 of 52
+
+       Further, the findings of the Commission in the instant set of matter largely point
+towards a misuse of the 
+RTI Act
+ being perpetuated by the appellant. Here, the appellant's
+attention is again invited towards certain precedents set by the superior Courts
+recognizing the misuse of the 
+RTI Act
+: In ICAI v. Shaunak H. Satya, (2011) 8 SCC781,
+the Hon'ble Supreme Court has held that:-
+
+
+
+       '39. We however agree that it is necessary to make a distinction in regard to
+      information intended to bring transparency, to improve accountability and to
+      reduce corruption, falling under 
+Sections 4(1)(b)
+ and (c) and other information
+      which may not have a bearing on accountability or reducing corruption. The
+      competent authorities under the 
+RTI Act
+ will have to maintain a proper balance so
+      that while achieving transparency, the demand for information does not reach
+      unmanageable proportions affecting other public interests, which include efficient
+      operation of     public   authorities   and    the Government, preservation of
+      confidentiality of sensitive information and optimum use of limited fiscal
+      resources.'
+
+      In the matter of Rajni Maindiratta- Vs Directorate of Education (North West - B)
+[W.P.(C) No. 7911/2015] the Hon'ble High Court of Delhi has held that:
+
+
+
+      8. Though undoubtedly, the reason for seeking the information is not required to
+      be disclosed but when it is found that the process of the law is being abused, the
+      same become relevant. Neither the authorities created under the 
+RTI Act
+ nor the
+      Courts are helpless if witness the provisions of law being abused and owe a duty
+      to immediately put a stop thereto.'
+
+      And, in the matter of Shail Sahni vs Sanjeev Kumar [W.P.(C) 845/2014] the
+Hon'ble High Court of Delhi has held that: '...xxx
+
+      'This Court is also of the view that misuse of the 
+RTI Act
+ has to be appropriately
+      dealt with, otherwise the public would lose faith and confidence in this "sunshine
+      Act". A beneficent Statute, when made a tool for mischief and abuse must be
+      checked in accordance with law.'
+
+                                                                              Page 50 of 52
+
+
+ 41.   The Commission strongly advises the appellant to desist from filing multiple RTI
+Applications as his future appeals/complaints on the same or similar matter are liable to
+be summarily dismissed. The Respondents are also advised to take reference of the
+instant decision while dealing with any future RTI Applications of the Appellant on the
+same subject matter. The Commission finds no scope for further intervention in the
+matters. Accordingly, the appeals are dismissed.
+
+
+
+      Copy of the decision be provided free of cost to the parties.
+
+
+
+                                                                 Sd/-
+
+
+
+                                              (Anandi Ramalingam) (आनंदी रामिलंगम)
+                                            Information Commissioner (सूचना आयु )
+                                                              िदनांक/Date: 11.02.2025
+
+Authenticated true copy
+
+Bijendra Kumar (िबज कुमार)
+Dy. Registrar (उप पंजीयक)
+011-26180514
+
+
+Addresses of the parties:
+
+1. The CPIO,
+M/o. Education, Indian Institute
+Of Science Education And Research
+(IISER), Pune, CPIO, RTI Cell,
+Dr. Homi Bhabha Road, Pune,
+MH-411008
+
+2 Viplove Tyagi
+
+
+
+
+
+                                                                              Page 51 of 52
+
+ Annexure of Second Appeals
+
+Sl. No.      Second Appeal No.
+   1      CIC/ISERP/A/2024/604728
+   2      CIC/ISERP/A/2024/604729
+   3      CIC/ISERP/A/2024/604730
+   4      CIC/ISERP/A/2024/604732
+   5      CIC/ISERP/A/2024/610451
+   6      CIC/ISERP/A/2024/613295
+   7      CIC/ISERP/A/2024/613296
+   8      CIC/ISERP/A/2024/613298
+   9      CIC/ISERP/A/2024/613447
+  10      CIC/ISERP/A/2024/613448
+  11      CIC/ISERP/A/2024/618762
+  12      CIC/ISERP/A/2024/618851
+  13      CIC/ISERP/A/2024/618852
+  14      CIC/ISERP/A/2024/618853
+  15      CIC/ISERP/A/2024/624328
+  16      CIC/ISERP/A/2024/624330
+  17      CIC/ISERP/A/2024/624331
+  18      CIC/ISERP/A/2024/624332
+  19      CIC/ISERP/A/2024/624333
+  20      CIC/ISERP/A/2024/624335
+  21      CIC/ISERP/A/2024/624337
+  22      CIC/ISERP/A/2024/624339
+  23      CIC/ISERP/A/2024/624341
+  24      CIC/ISERP/A/2024/624343
+  25      CIC/ISERP/A/2024/624345
+  26      CIC/ISERP/A/2024/624346
+  27      CIC/ISERP/A/2024/624348
+  28      CIC/ISERP/A/2024/624349
+  29      CIC/ISERP/A/2024/624350
+  30      CIC/ISERP/A/2024/624351
+  31      CIC/ISERP/A/2024/624352
+  32      CIC/ISERP/A/2024/624353
+  33      CIC/ISERP/A/2024/624354
+  34      CIC/ISERP/A/2024/624355
+  35      CIC/ISERP/A/2024/624357
+
+
+
+
+
+                                    Page 52 of 52
+
+                                    Recomendation(s) to PA under 
+section 25(5)
+ of the RTI Act, 2005:-
+
+
+
+                                   Nil
+
+
+
+
+Powered by TCPDF (www.tcpdf.org)

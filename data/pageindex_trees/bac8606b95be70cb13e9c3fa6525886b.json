@@ -1,0 +1,68 @@
+{
+  "doc_name": "bac8606b95be70cb13e9c3fa6525886b",
+  "line_count": 757,
+  "structure": [
+    {
+      "title": "Central Information Commission",
+      "node_id": "0001",
+      "line_num": 10
+    },
+    {
+      "title": "Central Information Commission",
+      "node_id": "0002",
+      "line_num": 18,
+      "nodes": [
+        {
+          "title": "ORDER",
+          "node_id": "0003",
+          "line_num": 47
+        },
+        {
+          "title": "HEARING:",
+          "node_id": "0004",
+          "line_num": 65
+        },
+        {
+          "title": "Facts emerging during the hearing:",
+          "node_id": "0005",
+          "line_num": 68
+        },
+        {
+          "title": "The following were present:",
+          "node_id": "0006",
+          "line_num": 71
+        },
+        {
+          "title": "information sought by the Appellant did not serve the larger public interest and therefore, the",
+          "node_id": "0007",
+          "line_num": 105
+        },
+        {
+          "title": "decisions of the CIC (in the cases CIC/RM/A/2014/902663-YA and CIC/SS/A/2014/000005-",
+          "node_id": "0008",
+          "line_num": 131
+        },
+        {
+          "title": "was held as under:",
+          "node_id": "0009",
+          "line_num": 458
+        },
+        {
+          "title": ") had held as under:",
+          "node_id": "0010",
+          "line_num": 549
+        },
+        {
+          "title": "\" wherein it was stated as under:",
+          "node_id": "0011",
+          "line_num": 664
+        },
+        {
+          "title": "DECISION:",
+          "node_id": "0012",
+          "line_num": 692
+        }
+      ]
+    }
+  ]
+}

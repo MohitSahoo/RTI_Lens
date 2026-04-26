@@ -1,153 +1,119 @@
 """
-RTI-Lens FastAPI Backend
+FastAPI Application - ORM Version with GraphQL
+Uses SQLAlchemy ORM models and GraphQL API
 """
-from fastapi import FastAPI, Request
+import logging
+from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from slowapi import Limiter, _rate_limit_exceeded_handler
-from slowapi.util import get_remote_address
-from slowapi.errors import RateLimitExceeded
-from contextlib import asynccontextmanager
-import time
-from collections import defaultdict
+from strawberry.fastapi import GraphQLRouter
+from backend.config import API_HOST, API_PORT
+from backend.routers import qa, draft, analytics, predict, dashboard
+from backend.routers.graph import router as graph_router
+from backend.gql.queries import schema
 
-from backend.routers import analytics, qa, draft, predict, graph
-from backend.config import RATE_LIMIT
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
 
-# Session call counter (in-memory, 1hr TTL)
-session_calls = defaultdict(lambda: {"count": 0, "timestamp": time.time()})
-
-def cleanup_sessions():
-    """Remove expired sessions (older than 1 hour)"""
-    current_time = time.time()
-    expired = [
-        session_id for session_id, data in session_calls.items()
-        if current_time - data["timestamp"] > 3600
-    ]
-    for session_id in expired:
-        del session_calls[session_id]
-
-@asynccontextmanager
-async def lifespan(app: FastAPI):
-    """Startup and shutdown events"""
-    # Startup
-    print("🚀 RTI-Lens API starting up...")
-    print("📊 Loading BM25 index...")
-    from backend.utils.bm25_loader import BM25Loader
-    BM25Loader()  # Initialize singleton
-    print("✅ BM25 index loaded")
-
-    print("🤖 Loading ML model...")
-    from backend.routers.predict import load_model
-    load_model()
-    print("✅ ML model loaded")
-
-    yield
-
-    # Shutdown
-    print("👋 RTI-Lens API shutting down...")
-
-# Initialize FastAPI app
 app = FastAPI(
     title="RTI-Lens API",
-    description="AI-powered RTI case analytics and appeal assistance",
-    version="1.0.0",
-    lifespan=lifespan
+    description="AI-powered analytics for RTI Act rulings with GraphQL",
+    version="2.0.0"
 )
 
-# Rate limiting
-limiter = Limiter(key_func=get_remote_address)
-app.state.limiter = limiter
-app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
-
-# CORS middleware
+# CORS middleware - restrict to known origins
+# For production, update with actual frontend domain
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Configure appropriately for production
+    allow_origins=[
+        "http://localhost:8501",  # Streamlit dev server
+        "http://127.0.0.1:8501",  # Streamlit alternative
+        # Add production frontend URL here when deployed
+    ],
     allow_credentials=True,
-    allow_methods=["*"],
+    allow_methods=["GET", "POST", "OPTIONS"],
     allow_headers=["*"],
 )
 
-# Session tracking middleware
-@app.middleware("http")
-async def track_sessions(request: Request, call_next):
-    """Track API calls per session and add rate limit headers"""
-    session_id = request.headers.get("X-Session-ID", get_remote_address(request))
-
-    # Cleanup old sessions periodically
-    if len(session_calls) > 1000:
-        cleanup_sessions()
-
-    # Update session counter
-    session_calls[session_id]["count"] += 1
-    session_calls[session_id]["timestamp"] = time.time()
-
-    response = await call_next(request)
-
-    # Add session tracking header
-    response.headers["X-Session-Calls"] = str(session_calls[session_id]["count"])
-
-    # Add rate limit headers (60 requests per minute)
-    rate_limit_max = 60
-    rate_limit_window = 60  # seconds
-
-    # Calculate remaining based on session calls in last minute
-    current_time = time.time()
-    session_age = current_time - session_calls[session_id]["timestamp"]
-
-    if session_age < rate_limit_window:
-        remaining = max(0, rate_limit_max - session_calls[session_id]["count"])
-        reset_time = int(session_calls[session_id]["timestamp"] + rate_limit_window)
-    else:
-        # Session expired, reset counter
-        remaining = rate_limit_max
-        reset_time = int(current_time + rate_limit_window)
-
-    response.headers["X-RateLimit-Limit"] = str(rate_limit_max)
-    response.headers["X-RateLimit-Remaining"] = str(remaining)
-    response.headers["X-RateLimit-Reset"] = str(reset_time)
-
-    return response
-
-# Include routers
+# Include REST routers
 app.include_router(analytics.router)
+app.include_router(predict.router)
+app.include_router(graph_router)
+app.include_router(dashboard.router)
 app.include_router(qa.router)
 app.include_router(draft.router)
-app.include_router(predict.router)
-app.include_router(graph.router)
 
-# Health check endpoint
-@app.get("/health")
-@limiter.limit("100/minute")
-async def health_check(request: Request):
-    """Health check endpoint"""
-    return {
-        "status": "healthy",
-        "version": "1.0.0",
-        "services": {
-            "database": "connected",
-            "bm25": "loaded",
-            "ml_model": "loaded"
-        }
-    }
+# Include GraphQL router
+graphql_app = GraphQLRouter(schema)
+app.include_router(graphql_app, prefix="/graphql")
 
-# Root endpoint
 @app.get("/")
 async def root():
-    """API root endpoint"""
     return {
         "message": "RTI-Lens API",
-        "version": "1.0.0",
+        "version": "2.0.0",
         "docs": "/docs",
+        "graphql": "/graphql",
         "endpoints": {
-            "analytics": "/api/analytics/*",
-            "qa": "/api/qa",
-            "draft": "/api/draft",
-            "predict": "/api/predict",
-            "graph": "/api/graph"
+            "rest": {
+                "analytics": "/api/analytics/*",
+                "prediction": "/api/predict",
+                "qa": "/api/qa",
+                "draft": "/api/draft",
+                "graph": "/api/graph",
+                "dashboard": "/api/dashboard/*"
+            },
+            "graphql": {
+                "endpoint": "/graphql",
+                "playground": "/graphql (interactive)"
+            }
         }
     }
+
+@app.get("/health")
+async def health_check():
+    """System health check"""
+    from backend.utils.bm25_loader import BM25Loader
+    from backend.utils.pageindex_loader import PageIndexLoader
+
+    try:
+        # Check BM25 index
+        bm25_loader = BM25Loader()
+        bm25_status = "loaded" if bm25_loader.get_bm25() else "not loaded"
+
+        # Check PageIndex
+        pageindex_loader = PageIndexLoader()
+        pageindex_status = f"loaded ({len(pageindex_loader.order_number_to_hash)} mappings)"
+
+        # Check database connection
+        from backend.database import SessionLocal
+        db = SessionLocal()
+        try:
+            from backend.models import Case
+            case_count = db.query(Case).count()
+            db_status = f"connected ({case_count} cases)"
+        finally:
+            db.close()
+
+        return {
+            "status": "healthy",
+            "database": db_status,
+            "bm25_index": bm25_status,
+            "pageindex": pageindex_status,
+            "orm_mode": True
+        }
+    except Exception as e:
+        logger.error(f"Health check failed: {e}")
+        return {
+            "status": "unhealthy",
+            "error": str(e),
+            "orm_mode": True
+        }
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8001)
+    logger.info(f"Starting RTI-Lens API (ORM mode) on {API_HOST}:{API_PORT}")
+    uvicorn.run(app, host=API_HOST, port=API_PORT)

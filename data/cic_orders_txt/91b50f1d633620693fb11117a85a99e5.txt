@@ -1,0 +1,438 @@
+[Cites 
+15
+, Cited by 
+0
+]
+
+
+
+
+Central Information Commission
+
+
+Bhagyesh Joshi vs Reserve Bank Of India on 7 July, 2023
+
+
+Author: 
+Saroj Punhani
+
+
+Bench: 
+Saroj Punhani
+
+
+                               के   ीय सूचना आयोग
+                        Central Information Commission
+                            बाबा गंगनाथ माग , मुिनरका
+                         Baba Gangnath Marg, Munirka
+                          नई  द ली, New Delhi - 110067
+
+
+File No : CIC/RBIND/A/2021/137690
+
+Mr Bhagyesh Joshi
+(HDFC Bank Ltd.)                                           ......अपीलकता /Appellant
+
+                                         VERSUS
+                                          बनाम
+CPIO                                                  .... ितवादीगण /Respondent
+Reserve Bank of India
+Department of Supervision
+Central Office, World Trade Centre-1
+Cuffe Parade, Colaba, Mumbai-400005
+
+Shri Rajiv Chandok
+6/59, W.E.A. 1st Floor, Karol Bagh
+New Delhi
+
+
+Date of Hearing                      :   23/06/2023
+Date of Decision                     :   23/06/2023
+
+INFORMATION COMMISSIONER :               Saroj Punhani
+
+(Note: The instant appeal has been filed by the third party i.e. HDFC Bank Ltd.
+aggrieved by an order passed by the FAA, RBI). Proceedings in the matter are
+being pursued in pursuance of the following interim decision dated 13.01.2023.
+
+Relevant facts emerging from appeal:
+
+RTI application filed on             :   06/10/2017
+CPIO replied on                      :   26/02/2021
+First appeal filed on                :   12/04/2021
+First Appellate Authority order      :   24/05/2021
+Second Appeal dated                  :   10/09/2021
+                                           1
+ Information sought
+:
+
+The RTI applicant Shri Rajiv Chandok filed an RTI application dated 06.10.2017
+seeking the following information:
+
+
+
+With regard to the recent amendments in the 
+Banking Regulation Act
+ 1949 where
+after 
+Section 35AA
+ and 
+35AB
+ have been added after the 
+Section 35A
+, I have the
+following queries under 
+Section 35A(1)(a)
+:-
+
+
+
+1.   Kindly inform the names of all the defaulter companies/Business Entities
+     having NPA accounts with Rs.5000 crores or above (PAN INDIA BASIS).
+
+     Kindly inform the value of their NPAs (as of date) of each Party. Please
+     provide this information in tabular form bank wise.
+
+
+
+2.   In pursuance to the aforesaid amendment, kindly provide the total number
+     and names of companies/ Business Entities or Groups having NPA accounts
+     that have defaulted in the loan payments to their lender banks and action
+     would be PROPOSED by your Office's Internal Advisory Committee (IAC)
+     against such defaulters at the National Company Law Tribunal under the
+     Insolvency and Bankruptcy Code 2016.
+
+
+
+3.   Kindly inform the name of the defaulter companies which have been
+     referred uptil now by your Office to the lender Banks to proceed under the
+     provisions of the Insolvency and Bankruptcy Code 2016 (IBC) at the National
+     Company Law Tribunal.
+
+
+
+4.   What is the total value of the NPA's (as of date) of the defaulter companies
+     of Shri Vijay Mallaya i.e. the Kingfisher, LIB Group of Companies and their
+     allied companies?
+
+
+
+5.   Have these companies been added in the aforesaid list of defaulters
+     referred uptil now for IBC proceedings at the NCLT? If the answer to the
+     aforesaid question is in the negative, then kindly inform the reasons why the
+     said defaulter companies have not been directed to be proceeded against
+     with?
+
+
+
+6.   In case companies of Shri Vijay Mallaya have not been referred by the IAC of
+     RBI in the identified 12 defaulter list, kindly explain the reasons why the said
+     Committee has not referred the name of Shri Vijay Mallaya's companies.
+
+
+
+7.   Kindly provide all the names of the members of the IAC of RBI.
+
+
+
+                                         2
+
+
+ 8.    It is learnt from reliable sources that apart from the 12 large accounts that
+      IAC RBI has directed banks for proceeding under the IBC 2016, they have
+      also referred a list of 26 other big defaulters to be proceeded against with
+      at the NCLT benches at 10 locations. Kindly provide the name of the said
+      defaulters as well.
+
+
+
+In response, the CPIO vide its letter dated 26.02.2021 issued a notice
+ u/s. 11(3)
+ of
+the RTI Act to the Appellant i.e. HDFC Bank Ltd. stating as under:
+
+
+
+"Please refer to our letter No.DOS.CO.RIA.No.SK(97/01 .12.OO112O2O-21 (Vot.10)
+dated October 23, 2020 wherein we had issued a notice under 
+section 11(1)
+ read
+with 
+section 11(2)
+ of the Right to Information Act, 2005 with respect to captioned
+RTI request to enable you to make a written submission as to whether the
+information may be disclosed or not along with reasons for exemption from
+disclosure under any clause of 
+RTI Act, 2005
+.
+
+2. After considering your response (dated A211.2020) to the above notice, we
+intend to disclose the information on entities having NPA accounts with Rs. 5000
+Crores or above (PAN INDIA BASIS) and the value of NPA of each entity and the
+bank wise information.
+
+3 Hence a Notice under 
+Section 1
+ 
+1(3)
+ of the RTI Act,2005 is hereby given apprising
+you of the decision taken in the matter."
+
+
+
+Being dissatisfied, the Appellant bank through its authorized representative filed a
+First Appeal dated 12.04.2021. The FAA vide order dated 24.05.2021 upheld the
+reply of CPIO and appeal dismissed accordingly.
+
+
+
+Feeling aggrieved and dissatisfied, the Appellant bank approached the
+Commission with the instant Second Appeal.
+
+
+
+Relevant Facts emerging during Hearing:
+
+The following were present:-
+
+
+
+Appellant: Adv Ayesh Gandhi representative of the Appellant bank present
+through Video-Conference.
+
+Respondent: Shri Vinod Kumar, DGM and Shri Shubham Gupta, Legal Officer
+present through Video-Conference.
+
+Original RTI applicant: Present through Video-Conference.
+
+
+
+The written submissions of the Respondent are taken on record.
+
+
+
+                                         3
+
+
+ The Appellant bank submitted that the CPIO, RBI and FAA had violated the
+principles of natural justice, as they had not given any personal hearing to the
+Appellant Bank before passing their decisions in the matter. No reasons were
+given for not offering personal hearing in the first appeal. That a careful
+appreciation of the grounds of appeal would reveal that the FAA failed to
+appreciate the legal position and other attendant factors while deciding on the
+application made by the RTI Applicant. As elucidated in the grounds of appeal,
+this is a matter of serious concern for the Bank and any disclosure of the
+information would cause serious loss, injury and prejudice to the Bank.
+
+
+
+Thus, it is therefore just, fair and necessary that the Order is set aside by this
+Hon'ble Commission for the reasons stated in the grounds of appeal. This Hon'ble
+Commission may be pleased to set aside the Order and to remand the case to FAA
+for re-consideration purely on merits after hearing the Bank. That disclosure of
+requested information is exempted under 
+section 8 (1) (d)
+ of the RTI Act, 2005.
+The disclosure of such information may affect the business vis-à-vis commercial
+confidence of the Bank and will shake the image of the Bank.
+
+
+
+He further submitted that several recovery proceedings are also pending before
+the DRT and disclosure of information would affect their recovery proceedings in
+the Court.
+
+
+
+The Respondent, during the hearing, submitted that the information sought by
+the RTI applicant in his RTI application should be disclosed as per Jayantilal Mistry
+case.
+
+
+
+The RTI applicant submitted that "That it is pertinent to mention that the bank in
+the lead case i.e. SBI through Mr. S. Dinesh , though has supplied to the
+undersigned a copy of their Second Appeal, but the same is not in order as some
+Annexures are missing in the paper book supplied by them to the undersigned. The
+paper book has also not been numbered properly and will cause a lot of hardship
+to the parties to address this Hon'ble Commission at the hearings . That all the
+other Appellants, except for Axis bank Ltd through Mr. Sunit Malhotra though
+have also supplied the copies of their second Appeal to the undersigned, but the
+same are not in order as certain Annexures are also missing in those copies
+supplied by the rest of the Appellants."
+
+
+
+Decision:
+
+
+
+In the facts of the instant case, it is pertinent to note that a decision of a
+coordinate bench of the Commission in the matter of various third-party banks vs.
+
+
+                                         4
+
+ RBI vide File No. CIC/RBIND/A/2021/152460 + Ors. dated 05.05.2022 covers a
+detailed discussion inter alia on the same nature of information sought for from
+the RBI and the reliance placed by RBI on the Jayantilal Mistry case. Suffice to say
+that the issues raised in the instant case are encapsulated in that same discussion
+of the coordinate bench in the following manner:
+
+
+
+        "39. A comprehensive view has to be taken on the objection filed by the
+institutions. These objectives has to be deliberated and adjudicated in the light of
+Jayantilal Mistry's case and other judicial pronouncements relevant in such
+matter, some of which have been referred by the Commission in the above parts
+as well. The Commission while examining various objections realize that the Writ
+Petitions filed before the Hon'ble Supreme Court of India is seeking directions of
+the Supreme Court for non-disclosure of certain aspects of these audit/inspection
+report and any such guidance in these Writ Petitions will have direct bearing and
+provide further clarity to the CPIO/FAA in adjudicating various aspects of
+disclosure/non-disclosure of reports or the information/data which are part of
+these reports under the provisions of the 
+RTI Act
+. The Commission takes note that
+all the cases/second appeals filed herein are based on interpretations of RBI Vs.
+Jayantilal Mistry case and other relevant judicial pronouncements requesting for
+full disclosure vis-à-vis with exemptions under 
+Section 8(1)
+ of the RTI Act for non-
+disclosure of full or parts of these reports.
+
+        40. In view of the above observations, the Commission is of the view that
+the reports generated in the hands of regulatory public authority in discharge of
+its statutory obligations are information under 
+Section 2 (f)
+ of the RTI Act, as the
+regulator and the regulated entities are not governed by fiduciary relationship.
+
+The orders of the Commission to their effect has been upheld by the Hon'ble
+Supreme Court in Jayantilal Mistry's case and the position is unchanged even
+today. Various objections filed by banks/financial institutions, to be examined,
+analyzed and adjudicated upon, are related to various data and information
+submitted to the Reserve Bank of India by these financial institutions explaining
+their operations, commercial decisions, clients data etc. under statutory
+obligations can be disclosed as such. There are apparently two set of such
+information which have been shared by the institutions with the regulator under
+statutory obligation. First is the information/data of clients relating to their
+business/commercial operations, financial transactions, business and commercial
+strategy which is shared by clients with financial institutions in full trust and
+confidence and is held by them in fiduciary capacity, protected from disclosure
+under the 
+RTI Act
+ in their hands. Second set is the information relating to business
+strategy, decisions, transactions, other operational data etc. of financial
+institutions have been bearing on their competitive position which also enjoys the
+exemption from disclosure in their hands, if it is a public authority or otherwise,
+
+
+                                         5
+
+ under the 
+RTI Act
+. Some of such data, on case to case basis be sensitive enough for
+protection of national interest. The Commission is of the view that the protection
+of disclosure of information under 
+Section 8(1)
+ of the RTI Act, 2005 in the hands of
+financial institutions does not evaporate once such data/information is shared, in
+good faith and trust, with the regulator under statutory obligation. Various
+observations of Hon'ble Supreme Court in Jayantilal Mistry's case also does not
+indicate so and decision of the regulator to consider redacting such
+data/information while disclosing the reports is aligned with this and other judicial
+pronouncements of Supreme Court and High Courts.
+
+       41. The Commission has already outlined the deficiency in the conduct of
+the CPIO/FAA while hearing such matters and hence is of the opinion that due care
+has to be taken by according opportunity of personal hearing and making
+reasoned order with reference to the objections in the hands of the CPIO and later
+in the hands of FAA, if any appeal is preferred. Hence, the CPIO will be required to
+adjudicate such RTI applications in the light of the observations of the Commission
+afresh. The Commission also expects that the CPIO will take view on various
+objections filed by the Banks and Financial Institutions and submissions made by
+applicant to reach the decision in favour or against redaction of various parts of
+the report on case to case basis. He has to factor the observation of Hon'ble
+Supreme Court in Jayantilal Mistry case and other relevant judgments, some of
+which have been referred in this order as well. Hence, with these observations the
+orders passed by the CPIO and FAA in these matters are set aside and the cases
+are being remanded to the CPIO for adjudication afresh. (Emphasis Supplied)
+
+       42. It is amply clear that Writ Petition Nos. 1159/2019 and 768/2021 and
+others tagged are admitted in Hon'ble Supreme Court wherein guidance and
+direction has been sought on non-disclosure of certain type of information which
+are essentially the part of the Annual Inspection Report/RAR, etc. These petitions
+also seek protection of interim communication between regulator and the
+regulated entity in the process of finalization of these reports or otherwise. It is
+obvious that decision in these Writ Petitions will provide clarity and guidance to
+the Public Authority on redaction/non-disclosure of a set of information inspite of
+being part of these reports which are open to disclosure. At this stage, any
+decision by the Public Authority will amount to pre-judging the issues pending
+admitted Writ Petitions before the Hon'ble Supreme Court. Various banks,
+financial institutions, respondent public authority and the RTI applicant have
+already impleaded party and are presenting their arguments before the Apex
+Court.
+
+       43. Hence, any decision of redaction or disclosure of information, without
+waiting for decision in the Writ Petition Nos. 1159/2019 and 768/2021 and others
+tagged may cause irrevocable damage against right of privacy and protection of
+commercial interest. Hence, the respondent public authority if expedient may
+
+
+                                         6
+
+ wait for the outcome in Writ Petition Nos. 1159/2019 and 768/2021 and others
+tagged or seek clarification from the Hon'ble Court and accordingly decide these
+RTI applications by following process as enumerated in the earlier paras by the
+Commission in the interest of principles of natural justice. While disclosing the
+information they should be cautious in taking a considerate view balancing right
+to privacy, protection of national and commercial interest on one hand vis-à-vis
+larger public interest. (Emphasis Supplied)
+
+ 
+44. It is further observed that similar view has also been taken by the
+Division Bench of the Commission in file bearing nos. CIC/VS/A/2013/001488 and
+CIC/VS/A/2013/001805 dated 11.05.2017 wherein the Commission observed that
+'Having considered the submissions of both the parties, the Commission observes
+that since a similar issue is pending adjudication before the Hon'ble Supreme
+Court in the matter of Central for 
+Public Interest Litigation Vs. Housing & Urban
+Development Corporation Ltd. &Ors.
+, it would be judicious to await the final
+outcome from the Hon'ble Supreme Court. However, on receipt of the final
+outcome from the Hon'ble Supreme Court in the matter, the appellant shall be at
+liberty to file second appeal afresh, if he so desires. The instant appeals are
+disposed of'."
+
+
+
+
+The above decision is therefore applicable to the instant case and no separate line
+of adjudication is warranted in the matter. The stipulations contained in File No.
+CIC/RBIND/A/2021/152460 + Ors. dated 05.05.2022 stands endorsed to the
+Respondent CPIO with emphasis on para 41 & 43 supplied as above .
+
+
+
+                      The appeal is disposed of accordingly.
+
+
+
+                                                   Saroj Punhani (सरोज पुनहािन)
+                                                                          हािन)
+                                         Information Commissioner (सूचना आयु )
+Authenticated true copy
+(अिभ मािणत स यािपत  ित)
+
+(C.A. Joseph)
+Dy. Registrar
+011-26179548/ 
+[email protected]
+
+सी. ए. जोसेफ, उप-पंजीयक
+ दनांक /
+
+
+
+                                        7

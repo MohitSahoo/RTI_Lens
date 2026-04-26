@@ -1,0 +1,65 @@
+{
+  "doc_name": "b0de47974e3ab0e89d0ec0b305972d38",
+  "line_count": 227,
+  "structure": [
+    {
+      "title": "Central Information Commission",
+      "node_id": "0001",
+      "line_num": 10,
+      "nodes": [
+        {
+          "title": "Author:",
+          "node_id": "0002",
+          "line_num": 17
+        },
+        {
+          "title": "Bench:",
+          "node_id": "0003",
+          "line_num": 22
+        }
+      ]
+    },
+    {
+      "title": "CENTRAL INFORMATION COMMISSION",
+      "node_id": "0004",
+      "line_num": 28,
+      "nodes": [
+        {
+          "title": "In the matter of:",
+          "node_id": "0005",
+          "line_num": 36
+        },
+        {
+          "title": "The following were present:",
+          "node_id": "0006",
+          "line_num": 57
+        },
+        {
+          "title": "Information Sought:",
+          "node_id": "0007",
+          "line_num": 64
+        },
+        {
+          "title": "states as follows:",
+          "node_id": "0008",
+          "line_num": 111
+        },
+        {
+          "title": "order dated 11.02.2019 disposed of the first appeal and held as follows:",
+          "node_id": "0009",
+          "line_num": 120
+        },
+        {
+          "title": "Observations:",
+          "node_id": "0010",
+          "line_num": 157
+        },
+        {
+          "title": "Decision:",
+          "node_id": "0011",
+          "line_num": 189
+        }
+      ]
+    }
+  ]
+}

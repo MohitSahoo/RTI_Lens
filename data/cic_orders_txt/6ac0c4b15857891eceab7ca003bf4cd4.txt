@@ -1,0 +1,1601 @@
+[Cites 
+50
+, Cited by 
+0
+]
+
+
+
+
+Central Information Commission
+
+
+Subhash Chandra Agrawal vs Reserve Bank Of India on 10 June, 2024
+
+
+                                  के न्द्रीय सूचना आयोग
+                         Central Information Commission
+                              बाबा गंगनाथ मागग,मुननरका
+                          Baba Gangnath Marg, Munirka
+                            नई दिल्ली, New Delhi - 110067
+निकायत संख्या / Complaint No. CIC/RBIND/C/2022/116755
+
+ Subhash Chandra Agrawal                                     ...निकायतकताग/Complainant
+
+
+
+                                                 VERSUS
+                                                  बनाम
+
+
+ City Union Bank Limited,                                     ...प्रनतवािीगण /Respondent
+ Kumbakonam
+
+
+
+Relevant dates emerging from the complaint:
+
+ RTI : 11.03.2022           FA     : Not on record          Complaint: 07.04.2022
+
+ CPIO : 31.03.2022          FAO : Not on record             Hearing : 28.05.2024
+
+
+Date of Decision: 10.06.2024
+
+                                       CORAM:
+                                 Hon'ble Commissioner
+                               _ANANDI RAMALINGAM
+                                      ORDER
+
+
+
+1.    The Complainant filed an RTI application dated 11.03.2022 seeking information on
+the following points:
+
+(i)   "Complete list of "The Authorised Officer/s" for Credit-Recovery and Management
+      Department of City Union Bank authorised to sign documents relating to recovery-
+
+      proceedings including also under "
+The Securitisation and Reconstruction of
+      Financial Assets and Enforcement of Security Interest Act, 2002
+" 
+(SARFAESI Act
+)
+
+                                                                               Page 1 of 28
+
+          for Delhi/New Delhi area from 01.01.2021 till date mentioning date/s for which
+         various such "The Authorised Officer/s" as referred in the query held the post.
+
+(ii)     In case different "The Authorised Officer/s" as referred in query (1) above are
+         different for different branches of City Union Bank in Delhi/New Delhi area, such
+         a list of "The Authorised Officer/s" for Chandni Chowk (Delhi) branch of City
+         Union Bank as referred in query (1) above.
+
+(iii)    Web-link providing information as sought in queries above.
+
+(iv)     Any related information
+ (v)     File-notings on movement of RTI application."
+
+
+
+2.       The Respondent replied vide letter dated 31.03.2022 and the same is reproduced as
+under:-
+
+
+
+         " Please note that 
+The Right to Information Act
+ 2005 will not be applicable to us,
+as endorsed under the preamble of the Act as well as section - 2(h) of the Act 2005 as
+defined. As per the proviso, the meaning mentioned for public authority will not include
+Private Bank. "
+
+
+
+3.      Aggrieved with the Respondent's reply, the Complainant approached the Commission
+with the instant Complaint dated 07.04.2022 stating inter alia as under:
+
+
+
+         "City Union Bank is a 118-years old scheduled commercial bank of repute offering
+all types of banking-services including also savings accounts, current accounts, deposit
+accounts, loan accounts, debit and credit cards internet and mobile banking, ATM cards
+for general public. City Union Bank is substantially funded through deposits from general
+public, and also governed by banking rules framed by Government of India and Reserve
+Bank of lndia and thus controlled by appropriate government and thus becoming a public-
+authority under provisions of 
+section 2(h)(d)(i)
+ of RTI Act. 2005. Reference is also invited
+to full-bench CIC-verdict dated 01.06.2013 in file-number CIC/SM/C/2011/001386 and
+CIC /SM/C/201 l/000838 in the matter "Anil Bairwal and Subhash Chandra Agrawal
+versus lndian National Congress and five other political parties" wherein it was also
+
+                                                                                  Page 2 of 28
+
+ observed that since political parties perform public functioning, these should be under
+purview of 
+RTI Act
+. Likewise scheduled commercial bank also perform public functioning.
+these should be covered under purview of 
+RTI Act
+.
+
+
+
+        Assistant General Manager (lnspection Department) of City Union Bank vide letter
+CO/INSPECTION/2021-22 dated 31.03.2022 declined information holding that as per
+
+section 2(h)
+ of RTI Act. meaning mentioned for public authority will not include Private
+Bank.
+
+
+
+        I appeal that penalty may be imposed on concerned ones at City Union Bank and
+compensation be allowed to me as provided in 
+RTI Act
+ for declining information.."
+
+
+
+4.      The Complainant was present and assisted by Adv. Pranav Sachdeva in person
+during the hearing and on behalf of the Respondent, Mr. G Ramakrishna, AGM, attended
+the hearing through video conference
+
+
+5.      The Complainant and the Respondent were heard in the context of the
+Complainant's prayer to deem the Respondent office as a public authority as per 
+Section
+2(h)
+ of the RTI Act. The Commission took on record the written arguments filed by the
+Complainant on 22.05.2024 & 26.05.2024; and by the Respondent on 21.05.2024 prior to
+the hearing. However, for the lack of clarity contained in the averred submissions
+regarding as to why the Complainant in praying for the Respondent to be declared as a
+public authority as envisaged under 
+Section 2(h)
+ of the RTI Act, the Commission directed
+the parties to file their respective written arguments specific to the amenability of the
+Respondent to 
+Section 2(h)
+ of the RTI Act in the matter within 2 days.
+
+
+
+6.      Subsequently, the written submissions were received from the parties, contents of
+which is reproduced hereunder for clarity:
+
+
+
+Complainant's written submissions:
+
+
+
+        "4.   It is pertinent to note that at the very outset that, as of now, Public Sector
+Banks already come within the definition of "Public Authorities" as defined 
+Section 2(h)
+
+
+                                                                                  Page 3 of 28
+
+ of the 
+RTI Act
+. However, Private Sector Banks have not yet been included within the said
+definition.
+
+
+
+      5.      It is submitted that the distinction between Public Sector Banks and Private
+Sector Banks is artificial, arbitrary and without any justifiable reason.
+
+
+
+      6.      Public Sector Banks are constituted under the 
+State Bank of India Act, 1955
+
+and 
+Banking Companies (Acquisition and Transfer of Undertakings) Act, 1970
+ / 
+Banking
+Companies (Acquisition and Transfer of Undertakings) Act, 1980
+. Presently, there are 12
+public sector banks.
+
+
+
+      7.      Private Sector Banks are banking companies licensed to operate under
+
+Banking Regulation Act, 1949
+.
+
+
+
+      8.      Both Public Sector Banks and Private Sector Banks come within the
+definition of Scheduled Commercial Bank (SCB), which is a commercial bank which has
+been included in the 
+Second Schedule of the Reserve Bank of India Act, 1934
+ 
+(RBI Act
+).
+As such, both Public Sector Banks and Private Sector Banks are regulated by the RBI. The
+RBI conducts periodic inspection of both Public Sector Banks as well as Private Sector
+Banks under 
+Section 35
+ of the Banking Regulation Act, 1949.
+
+
+
+      9.      It is submitted that Private Sector Banks are the only companies whose key
+decision makers are treated to be 'Public Servants' by the Hon'ble Supreme Court.
+
+
+
+      10.     
+In 
+CBI v. Ramesh Gelli
+, (2016) 3 SCC 788, the lower courts had held that
+cognizance cannot be taken against the accused in the said case, namely, Ramesh Gelli,
+Chairman and Managing Director, and Sridhar Subasri, Executive Director of Global
+Trust Bank, on the ground that they are not public servants. The Hon'ble Supreme Court,
+in 
+the said judgment
+, framed and decided the following question of law:
+
+
+
+
+              "9. The common question of law involved in these criminal appeals and
+              connected writ petition, filed before us, is: Whether the Chairman, Directors
+              and officers of Global Trust Bank Ltd. (a private bank before its
+              amalgamation with Oriental Bank of Commerce), can be said to be public
+
+
+                                                                                 Page 4 of 28
+
+             servants for the purposes of their prosecution in respect of offences
+            punishable under the 
+Prevention of Corruption Act, 1988
+ or not?"
+
+
+
+      11.   After noting the definition of "public servants" as defined under 
+Section 2(c)
+
+of the Prevention of Corruption Act, 1988 and other provisions of the 
+Banking Regulation
+Act, 1949
+, the Hon'ble Supreme Court held them to be "public servants" as follows: -
+
+
+
+            "17. The above definition shows that under sub-clause (viii) contained in
+            
+Section 2(c)
+ of the PC Act, 1988, a person who holds an office by virtue of
+            which he is authorised or required to perform any public duty, is a public
+            servant. Now, for the purposes of the present case this Court is required to
+            examine as to whether the Chairman/Managing Director or Executive
+            Director of a private bank operating under licence issued by RBI under the
+            
+Banking Regulation Act, 1949
+, held/holds an office and performed/performs
+            public duty so as to attract the definition of "public servant" quoted above.
+
+
+
+            18. 
+Section 2(b)
+ of the PC Act, 1988 defines "public duty" as under: "2. (b)
+            'public duty' means a duty in the discharge of which the State, the public or
+            the community at large has an interest."
+
+
+
+            19. But, what is most relevant for the purpose of this case is 
+Section 46- A 
+of
+            the Banking Regulation Act, 1949, which reads as under:
+
+
+
+                  "46-A. Chairman, Director etc., to be public servants for the purposes
+                  of Chapter IX of the Penal Code, 1860.--Every Chairman who is
+                  appointed on a whole-time basis, Managing Director, Director,
+                  auditor, liquidator, manager and any other employee of a banking
+                  company shall be deemed to be a public servant for the purposes of
+                  Chapter IX of the Penal Code, 1860."
+
+
+
+            20. Section 46-A was inserted in the 
+Banking Regulation Act, 1949
+ by Act 95
+            of 1956 with effect from 14-1-1957. The expression "every Chairman who is
+            appointed on a whole-time basis, Managing Director, Director, auditor" was
+            substituted by Act 20 of 1994 with effect from 31-1-1994 in place of "every
+
+                                                                                Page 5 of 28
+
+ Chairman, Director, auditor". As such Managing Director of a banking
+company is also deemed to be a public servant. In the present case,
+transactions in question relate to the period subsequent to 31-1-1994.
+
+
+
+22. 
+In a recent case of 
+State of Maharashtra v. Brijlal Sadasukh Modani
+[State of Maharashtra
+ v. Brijlal Sadasukh Modani, (2016) 4 SCC 417] , this
+Court has observed as under : (SCC para 24)
+
+            "24.
+ 
+As we notice, the High Court 
+Brijlal v. State of
+      Maharashtra
+, 2008 SCC Online Bom 1515] has really been swayed by
+      the concept of 
+Article 12
+ of the Constitution, the provisions contained
+      in the 1949 Act and in a mercurial manner taking note of the fact that
+      the multi-State society is not controlled or aided by the Government
+      has arrived at the conclusion. In our considered opinion, even any
+      grant or any aid at the time of establishment of the society or in any
+      construction or in any structural concept or any aspect would be an
+      aid. We are inclined to think so as the term "aid" has not been defined.
+      A sprinkle of aid to the society will also bring an employee within the
+      definition of "public servant". The concept in entirety has to be
+      observed in the backdrop of corruption.
+
+
+
+
+      27. 
+In the light of law 
+laid down by
+ this Court as above, it is clear that
+      object of enactment of the 
+PC Act, 1988
+, was to make the anti-
+      corruption law more effective and widen its coverage. In view of the
+      definition of "public servant" in 
+Section 46-A
+ of the Banking
+      Regulation Act, 1949 as amended the Managing Director and
+      Executive Director of a banking company operating under the licence
+      issued by Reserve Bank of India, were already public servants, as such
+      they cannot be excluded from the definition of "public servant". We
+      are of the view that over the general definition of "public servant"
+
+
+      given in 
+Section 21
+ IPC, it is the definition of "public servant" given
+      in the 
+PC Act, 1988
+, read with Section 46-A of the Banking Regulation
+
+                                                                     Page 6 of 28
+
+ Act, which holds the field for the purposes of offences under the said
+Act. For banking business what cannot be forgotten is 
+Section 46-A
+ of
+the Banking Regulation Act, 1949 and merely for the reason that
+
+Sections 161
+ to 
+165-A
+ IPC have been repealed by the 
+PC Act, 1988
+,
+relevance of 
+Section 46-A
+ of the Banking Regulation Act, 1949, is not
+lost.
+
+
+
+28 Be it noted that when the 
+Prevention of Corruption Act, 1988
+ came
+into force, 
+Section 46-A
+ of the Banking Regulation Act, 1949 was
+already in place, and since the scope of the 
+PC Act, 1988
+ was to widen
+the definition of "public servant". As such, merely for the reason that
+in 1994, while clarifying the word "Chairman", the legislature did not
+substitute words "for the purposes of the 
+Prevention of Corruption Act,
+1988
+" for the expression "for the purposes of Chapter IX of the Penal
+Code, 1860" in 
+Section 46-A
+ of the Banking Regulation Act, 1949, it
+cannot be said, that the legislature had intention to make 
+Section 46-A
+
+inapplicable for the purposes of the 
+PC Act, 1988
+, by which 
+Sections
+161
+ to 
+165-A
+ IPC were omitted, and the offences stood replaced by
+
+Sections 7
+ to 
+12
+ of the PC Act, 1988.
+
+
+
+29. A law which is not shown ultra vires must be given proper meaning.
+
+Section 46-A
+ of the Banking Regulation Act, 1949, cannot be left
+meaningless and requires harmonious construction. As such in our
+opinion, the Special Judge (CBI) has erred in not taking cognizance of
+offence punishable under 
+Section 13(2)
+ read with 
+Section 13(1)(d)
+ of
+the PC Act, 1988. However, we may make it clear that in the present
+case the accused cannot be said to be public servant within the
+meaning of 
+Section 21
+ IPC, as such offence under 
+Section 409
+ IPC may
+not get attracted, we leave it open for the trial court to take cognizance
+of other offences punishable under the Penal Code, if the same gets
+attracted.
+
+
+
+                                                               Page 7 of 28
+
+
+                    30. Therefore, having considered the submissions made before us, and
+                   after going through the papers on record, and further keeping in mind
+                   the Statement of Objects and Reasons of the Bill relating to the
+                   
+Prevention of Corruption Act, 1988
+ read with 
+Section 46-A
+ of the
+                   Banking Regulation Act, 1949, we are of the opinion that the courts
+                   below have erred in law in holding that accused Ramesh Gelli and
+                   Sridhar Subasri, who were Chairman/Managing Director and
+                   Executive Director of GTB respectively, were not public servants for
+                   the purposes of the 
+Prevention of Corruption Act, 1988
+. As such, the
+                   orders impugned are liable to be set aside. Accordingly, without
+                   expressing any opinion on final merits of the cases before the trial
+                   courts in Mumbai and Delhi, Criminal Appeals Nos. 1077-81 of 2013
+                   filed by CBI, are allowed and Writ Petition (Crl.) No. 167 of 2015
+                   stands dismissed."
+
+
+
+      12.    It is pertinent to mention that Ms. Chanda Kochhar (former managing
+director and chief executive officer of ICICI) is being tried on charges of corruption under
+the 
+Prevention of Corruption Act, 1988
+. As per the Central Bureau of Investigation, Mr.
+Venugopal Dhoot, Ms. Chanda Kochhar and her husband Mr. Deepak Kochhar had
+chalked out a plan to give loans from ICICI Bank to Mr. Dhoot's Videocon group after the
+private sector lender announced the appointment of Ms. Kochhar as its CEO and MD.
+
+
+
+      13.    It is submitted that banks (both public and private) are financed by public
+money and public funds, and hence, private sector banks stand on same footing as public
+sector banks. 
+In 
+Ganesh Santa Ram Sirur v. State Bank of India
+, (2005) 1 SCC 13, the
+Hon'ble Supreme Court was pleased to observe as follows: -
+
+
+
+
+             "34. The bank manager/officer and employees of any bank, nationalised/or
+             non-nationalised, are expected to act and discharge their functions in
+             accordance with the rules and regulations of the bank. Acting beyond one's
+             authority is by itself a breach of discipline and trust and a misconduct. In the
+             instant case Charge 5 framed against the appellant is very serious and grave
+
+                                                                                  Page 8 of 28
+
+             in nature. We have already extracted the relevant Rule which prohibits the
+            bank manager to sanction a loan to his wife or his relative or to any partner.
+            While sanctioning the loan the appellant did not appear to have kept this
+            aspect in mind and acted illegally and sanctioned the loan. He realised the
+            mistake later and tried to salvage the same by not encashing the draft issued
+            in the maiden name of his wife though the draft was issued but not encashed.
+            
+The decision to sanction a loan is not an honest decision. Rule 34(3)(1) is a
+            rule of integrity and, therefore, as rightly pointed out by Mr Salve, the
+            respondent Bank cannot afford to have the appellant as bank manager. The
+            punishment of removal awarded by the appellate authority is just and proper
+            in the facts and circumstances of the case. Before concluding, we may usefully
+            rely on the judgment 
+Regional Manager, U.P. SRTC v. Hoti Lal
+ [(2003) 3
+            SCC 605 : 2003 SCC (L&S) 363] wherein this Court has held as under: (SCC
+            p. 614, para 10)
+
+            "If the charged employee holds a position of trust where honesty and integrity
+            are inbuilt requirements of functioning, it would not be proper to deal with
+            the matter leniently. Misconduct in such cases has to be dealt with iron hands.
+            Where the person deals with public money or is engaged in financial
+            transactions or acts in a fiduciary capacity, the highest degree of integrity
+            and trustworthiness is a must and unexceptionable. Judged in that
+            background, conclusions of the Division Bench of the High Court do not
+            appear to be proper. We set aside the same and restore order of the learned
+            Single Judge upholding the order of dismissal." [emphasis suppllied]
+
+
+      14.   That the phrase "public authorities", as defined under 
+Section 2(h)
+ of the RTI
+Act, includes any:
+
+
+
+            "(i) body owned, controlled or substantially financed"
+
+
+
+            (ii) non-Government organisation substantially financed". directly or
+            indirectly by funds provided by the appropriate Government" It is submitted
+
+
+                                                                                Page 9 of 28
+
+             that government money is also public money, and hence, there is no
+            distinction between financed by government or by the public.
+
+
+
+ 
+15.    The Hon'ble Supreme Court has held in 
+D.A.V. College Trust &
+Management Society v. Director of Public Instructions
+, (2019) 9 SCC 185 that 
+Section
+2(h)
+ is to be interpreted in accordance with objective of transparency / 
+RTI Act
+. The
+relevant paragraphs of 
+the said judgment
+ are quoted herein-below for instant reference: -
+
+
+
+
+            "15. If we analyse 
+Section 2(h)
+ carefully it is obvious that the first part of
+            
+Section 2(h)
+ relates to authorities, bodies or institutions of self government
+            established or constituted (a) under the Constitution; (b) by any law of
+            Parliament; (c) by any law of State Legislature or (d) by notification made by
+            the appropriate Government. There is no dispute with regard to clauses (a)
+            to (c). As far as clause (d) is concerned it was contended on behalf of the
+            appellants that unless a notification is issued notifying that an authority, body
+            or institution of self-government is brought within the ambit of the Act, the
+            said Act would not apply. We are not impressed with this argument. The
+            notification contemplated in clause (d) is a notification relating to the
+            establishment or constitution of the body and has nothing to do with the Act.
+            Any authority or body or institution of self government, if established or
+            constituted by a notification of the Central Government or a State
+            Government, would be a public authority within the meaning of clause (d) of
+            
+Section 2(h)
+ of the Act.
+
+
+
+            16. We must note that after the end of sub-clause (d) there is a comma and a
+            big gap and then the definition goes on to say "and includes any" and
+            thereafter the definition reads as: "(i) body owned, controlled or
+            substantially financed; (ii) non-government organisation substantially
+            financed, directly or indirectly by funds provided by the appropriate
+            Government;" The words "and includes any", in our considered view,
+            expand the definition as compared to the first part. The second part of the
+            definition is an inclusive clause which indicates the intention of the
+
+                                                                                 Page 10 of 28
+
+ legislature to cover bodies other than those mentioned in clauses (a) to (d) of
+
+Section 2(h)
+.
+
+
+
+17. We have no doubt in our mind that the bodies and NGOs mentioned in
+sub-clauses (i) and (ii) in the second part of the definition are in addition to
+the four categories mentioned in clauses (a) to (d). Clauses (a) to (d) cover
+only those bodies, etc., which have been established or constituted in the four
+manners prescribed therein. By adding an inclusive clause in the definition,
+Parliament intended to add two more categories, the first being in sub-clause
+
+(i), which relates to bodies which are owned, controlled or substantially
+financed by the appropriate Government. These can be bodies which may not
+have been constituted by or under the Constitution, by an Act of Parliament
+or State Legislature or by a notification. Any body which is owned, controlled
+or substantially financed by the Government, would be a public authority.
+
+
+
+18. As far as sub-clause (ii) is concerned it deals with NGOs substantially
+financed by the appropriate Government. Obviously, such an NGO cannot be
+owned or controlled by the Government. Therefore, it is only the question of
+financing which is relevant.
+
+
+
+19. Even in Thalappalam case [
+Thalappalam Service Coop. Bank Ltd. v. State
+of Kerala
+, (2013) 16 SCC 82] in para 32 of the judgment, this Court held that
+in addition to the four categories there would be two more categories, (5) and
+(6).
+
+
+
+
+20. The principle of purposive construction of a statute is a well recognised
+principle which has been incorporated in our jurisprudence. While giving a
+purposive interpretation, a court is required to place itself in the chair of the
+legislature or author of the statute. The provision should be construed in such
+a manner as to ensure that the object of the Act is fulfilled. Obviously, if the
+language of the Act is clear then the language has to be followed, and the
+court cannot give its own interpretation. However, if the language admits of
+
+
+                                                                     Page 11 of 28
+
+ two meanings then the court can refer to the Objects and Reasons, and find
+out the true meaning of the provisions as intended by the authors of the
+enactment. S.B. Sinha, J. in 
+New India Assurance Co. Ltd. v. Nusli Neville
+Wadia [New India Assurance Co. Ltd.
+ v. Nusli Neville Wadia, (2008) 3 SCC
+279 : (2008) 1 SCC (Civ) 850] held as follows: (SCC pp. 296-97, para 51)
+
+      "51. ... to interpret a statute in a reasonable manner, the Court must
+      place itself in the chair of a reasonable legislator/author. So done, the
+      rules of purposive construction have to be resorted to which would
+      require the construction of the Act in such a manner so as to see that
+      the object of the Act is fulfilled; which in turn would lead the
+      beneficiary under the statutory scheme to fulfil its constitutional
+      obligations as held by the Court inter alia in Ashoka Mktg. Ltd.
+
+
+ 
+[Ashoka Mktg. 
+Ltd. v. Punjab National Bank
+, (1990) 4 SCC 406] "
+
+
+ 
+Sinha, J. quoted with approval the following passage from Barak's
+      treatise on Purposive Interpretation in 
+Law [New India Assurance Co.
+      Ltd. v. Nusli Neville Wadia
+, (2008) 3 SCC 279 : (2008) 1 SCC (Civ)
+      850, Aharon Barak, Purposive Interpretation in Law, (2007) at p. 87.]
+
+
+, which reads as follows: (
+New India Assurance Co. Ltd.
+ case [
+New
+      India Assurance Co. Ltd. v. Nusli Neville Wadia
+, (2008) 3 SCC 279 :
+
+
+      (2008) 1 SCC (Civ) 850] , SCC p. 297, para 52)
+
+      "52. ... 'Hart and Sachs also appear to treat "purpose" as a
+      subjective concept. I say "appear" because, although Hart and Sachs
+      claim that the interpreter should imagine himself or herself in the
+      legislator's shoes, they introduce two elements of objectivity: First, the
+      interpreter should assume that the legislature is composed of
+      reasonable people seeking to achieve reasonable goals in a reasonable
+      manner; and second, the interpreter should accept the non-rebuttable
+      presumption that members of the legislative body sought to fulfil their
+      constitutional duties in good faith. This formulation allows the
+
+
+                                                                    Page 12 of 28
+
+ interpreter to inquire not into the subjective intent of the author, but
+rather the intent the author would have had, had he or she acted
+reasonably.' "
+
+
+
+22. Therefore, in our view, 
+Section 2(h)
+ deals with six different
+categories and the two additional categories are mentioned in sub-
+clauses (i) and (ii). Any other interpretation would make sub-clauses
+
+(i) and (ii) totally redundant because then an NGO could never be
+covered. By specifically bringing NGOs it is obvious that the intention
+of Parliament was to include these two categories mentioned in sub-
+clauses (i) and (ii) in addition to the four categories mentioned in
+clauses (a) to (d). Therefore, we have no hesitation in holding that an
+NGO substantially financed, directly or indirectly, by funds provided
+by the appropriate Government would be a public authority amenable
+to the provisions of the Act.
+
+
+
+23. NGO is not defined under the Act or any other statute as far as we
+are concerned. In fact, the term NGO appears to have been used for
+the first time describing an international body which is legally
+constituted but non-governmental in nature. It is created by natural or
+legal entities with no participation or representation by the
+Government. Even NGOs which are funded totally or partially by the
+Governments essentially maintain the NGO status by excluding
+Government representations in all their organisations. In some
+jurisprudence, they are also referred to as civil society organisations.
+
+
+
+24. A society which may not be owned or controlled by the
+Government, may be an NGO but if it is substantially financed directly
+or indirectly by the Government it would fall within the ambit of sub-
+clause (ii).
+
+
+
+                                                             Page 13 of 28
+
+
+                     28. Another aspect for determining substantial finance is whether the
+                   body, authority or NGO can carry on its activities effectively without
+                   getting finance from the Government. If its functioning is dependent on
+                   the finances of the Government then there can be no manner of doubt
+                   that it has to be termed as substantially financed.
+
+
+
+                    29. While interpreting the provisions of the Act and while deciding
+                   what is substantial finance one has to keep in mind the provisions of
+                   the Act. 
+This Act
+ was enacted with the purpose of bringing
+                   transparency in public dealings and probity in public life. If NGOs or
+                   other bodies get substantial finance from the Government, we find no
+                   reason why any citizen cannot ask for information to find out whether
+                   his/her money which has been given to an NGO or any other body is
+                   being used for the requisite purpose or not."
+
+
+
+      16.    That the essence of "substantial financing by appropriate government" under
+
+Section 2(h)
+ of the RTI Act is that the government should substantially finance a body for
+it to be called a "public authority". It is needless to emphasize that government financing
+is done by public money i.e., government putting public money in a body. Thus, a body
+which runs substantially on public money comes within the definition of "public authority"
+
+of 
+RTI Act
+ in view of the fact that the money of public is involved and any body which uses
+public money should run transparently.
+
+
+
+      17.    Thus, it is submitted that when the public itself is putting substantial sum of
+its hard-earned money in private sector banks, the object of 
+RTI Act
+ commands that public
+has a right to know how its money is being used and public has a legitimate expectation
+that such banks function transparently. This can only be achieved when private sector
+banks also come within the ambit of 
+RTI Act
+, and for it to be done private sector banks
+ought to be declared as "public authorities" under 
+Section 2(h)
+ of the RTI Act.
+
+
+
+      18.    It is submitted that vide a detailed judgment, dated 03.06.2013, passed by a
+3-member bench of the Hon'ble CIC, New Delhi in File No. CIC/SM/C/2011/001386 and
+
+
+                                                                                Page 14 of 28
+
+ File No. CIC/SM/C/2011/000838, it has been held that political parties are substantially
+financed by the Central Government under 
+Section 2(h)(ii)
+ of the RTI Act, and therefore,
+come within the ambit of "Public authorities". The said judgment noted that: "Political
+Parties affect the lives of citizens, directly or indirectly, in every conceivable way and are
+continuously engaged in performing public duty. It is, therefore, important that they
+became accountable to the public." The said judgment still holds the field as it was not
+challenged by any political party, although it has not been implemented by any of the
+political parties.
+
+
+
+        19.   That under Deposit Insurance and Credit Guarantee Corporation] Act, 1961,
+banks in general have direct government-funding through "Safety Net for Bank Deposits,
+where Deposit Insurance and Credit Guarantee Corporation insures public deposits up to
+rupees five lakhs each with each bank, including private banks, are to be given to
+depositors in case of failure of a bank. Thus, it is submitted that if a bank, including private
+sector banks, goes bankrupt, ultimately it is the central government which protects the
+bank.
+
+
+
+        20.    That after the fall of Global Trust Bank (Private Sector Bank), in order to
+save the depositors' money, the Government of India sanctioned a scheme for
+amalgamation of the Global Trust Bank Ltd. with the Oriental Bank of Commerce (a
+successfully running Public Sector Bank) in the year 2004 as per which the customers,
+including depositors of the Global Trust Bank Ltd., were to be able to operate their
+accounts as customers of Oriental Bank of Commerce with effect from 14.08.2004
+
+
+        21. Therefore, the applicant respectfully submits that City Union Bank (and all
+private sector banks) be declared as a public authority under the 
+RTI Act
+ 2005."
+
+
+
+Respondent's written submissions:
+
+
+
+        "As alleged in our earlier submission dt.21.05.2024, We submit a brief history of
+the backdrop of this complaint as stated below:
+
+
+
+                                                                                    Page 15 of 28
+
+
+       One M/s Abhinav & Adhitya a Proprietorship concern @ 1775, Gali Lattu Shah,
+Dariba Kalan, Delhi - 110 006 owned by one Mr. Sanjeev Kumar Agrawal, S/o Om
+Prakash Agrawal availed various credit facilities to the tune of Rs.675.15 lakhs on various
+dates. ·The said Mr. Sanjeev Kumar Agrawal who is none other than the brother of this
+complainant/ appellant Mr. Subash Chandra Agrawal.
+
+
+
+      They were defaulted in repayment of the loan in time and the repayment was
+irregular and their accounts were classified as NPA on 25.12.2020. Though it was
+classified as NPA in the year of 2020, the bank initiated SARFAESI Proceedings well after
+the vacation of interim relief granted earlier by Supreme Court on 23/03/2021 we sent
+Demand Notice
+ u/s 13 (2)
+ of SARFEASI ACT on dt.15.04.2021 only.
+
+
+
+       On receipt of the notice by the borrowers, this appellant who is neither a customer
+nor a borrower/mortgagor in the said loan, instead of making representation to the bank
+under the provisions of the said act, made false complaints against the Bank on various
+government agencies through online platform on 03.05.2021. (CPGRAMS COMPLAINT
+DEABD/E/2021/29415/29417/29437 -SUBASH CHANDRA AGRAWAL) On receipt of the
+copy of those complaints the bank vide its letter dt. 10.05.2021 sent our reply to the
+COMPLAINANT AND THE SAID PEITIONS WERE CLOSED BY THE AGENCIES.
+
+
+
+      AGGREIVED ON the above, instead of resolving the real issue, he has come out
+with this petition to harass and deviate the bank from proceeding further , this appellant
+claimed to be a RTI CONSULTANT FILED a petition
+ u/s 18
+ of RTI ACT on 11.3.22 which
+was duly replied on 31.3.2022. Now aggreived on the above reply with an ulterior motive,
+he has filed this appeal before CIC ON 07.04.2022. Finally by making use of this
+application as a tool to negotiate the terms of settlement, after several reactions, at last he
+purchased the property mortgaged in the above account by way of Private Sale. Since he
+has not come out with clean hands and with an ulterior motive and concealed the above
+facts. Hence, his appeal should not be entertained further.
+
+
+
+      Further, in his rejoinder submission made on 25.5.2024, he has quoted the other
+case viz Subash Chandra Agarwal Vs Indian National Congress and Five others,
+
+
+                                                                                   Page 16 of 28
+
+ (CIC/SM/C/2011/001386) AND another case. The allegation stated in the said petition is
+under wrong presumption made by him for which there is no evidentiary proof submitted
+by him, None of the ingredients quoted by him against Political Parties as public authority
+in the above case is applicable to private sector Banks.
+
+
+
+      The petitioner has raised such baseless allegation for the reasons best known to
+him. The details called for are not of public interest in nature and the same are dealt under
+the provision of SARFAESI ACT 2002 for which provide for a systematic methodology of
+redressal of any grievances associated with it. The petitioner has approached the CIC
+presumably without any locus standi on the matter.
+
+
+
+      Apart from our written submission submitted above during the last hearing held on
+28.05.2024 through video conference , as directed by the Hon'ble commission, we submit
+the following few lines for your valuable consideration against the question whether a
+Private sector Bank will fall within the definition of "public authority" under 
+Section 2(h)
+
+of the Right to Information Act, 2005 (for short "the 
+RTI Act
+") and be bound by the
+obligations to provide information sought for by a citizen under the 
+RTI Act
+.
+
+
+
+ 
+In this regard we highly relied on the verdict given by the Division Bench of the
+Apex Court in the case of 
+Thalappalam Service Cooperative Bank Limited & others Vs
+State of Kerala and others
+. {(2013) 16 sec 82} The facts of 
+the above case
+ is squarely
+applicable to this case also.
+
+
+
+
+      As the name reflects Private Sector Banks are those owned and managed by Private
+Companies or individuals and though they are privately owned, they have to follow the
+rules set by the Central Bank.
+
+
+
+      However, just like the cooperative societies these banks are not owned, controlled
+or substantially financed, directly or indirectly, by the State Government and they are not
+statutory bodies and are not performing any public functions and will not come within the
+expression "state" within the meaning under 
+Article 12
+ of the Constitution of India.
+
+
+
+      Further, there is a clear distinction between a body which is created by a Statute
+and a body which, after having· come into existence, is governed in accordance with the
+
+                                                                                 Page 17 of 28
+
+ provisions of a Statute. Private Sector Banks which we are concerned, fall under the later
+category.
+
+
+
+        Further, merely because Reserve Bank of India lays the banking policy in the
+interest of the banking system or in the interest of monetary stability or sound economic
+growth having due regard to the interests of the depositors etc. as provided under Section
+S(c)(a) of the 
+Banking Regulation Act
+ does not mean that the private companies carrying
+on the business or commercial activity of banking, discharge any public function or public
+duty.
+
+
+
+ 
+The RTI Act
+ is an Act enacted to provide for citizens to secure, access to information
+under the control of public authorities and to promote transparency and accountability in
+the working of every public authority.
+
+
+
+        The expression "public authority" is defined under 
+Section 2(h)
+ of the RTI Act, which
+reads as follows:"
+
+
+
+        (2) Definitions._ In this Act, unless the context otherwise requires : (h) "public
+        authority" means any authority or body or institution of self-government established
+        or constituted-
+
+
+
+        a) by or under the Constitution;
+
+
+
+        (b) by any other law made by Parliament;
+
+
+
+        (c) by any other law made by State Legislature;
+
+
+
+        (d) by notification issued or order made by the appropriate Government, and
+        includes any-
+
+
+
+        (i) body owned, controlled or substantially financed;
+
+
+
+        (ii) non-Government organisation substantially financed, directly or indirectly by
+        funds provided by the appropriate Government" .
+
+
+
+                                                                                  Page 18 of 28
+
+
+        Legislature, in its wisdom, while defining the expression "public authority" under
+      
+Section 2(h)
+, intended to embrace only those categories, which are specifically
+      included, unless the context of the Act otherwise requires.
+
+
+
+ 
+Section 2(h)
+ has used the expressions 'means' and includes'. When a word is defined
+      to 'mean' something, the definition is prima facie restrictive and where the word is
+      defined to 'include' some other thing, the definition is prima facie extensive. But
+      when both the expressions "means" and "includes" are used, the categories
+      mentioned there would exhaust themselves.
+
+
+
+      The former part of 2(h) deals with:
+
+
+
+      (1) an authority or body or institution of self-government established by or under
+      the Constitution, (2) an authority or body or institution of self-government
+      established or constituted by any other law made by the Parliament,
+
+      (3) an authority or body or institution of self-government established or constituted
+      by any other law made by the State legislature, and
+
+      (4) an authority or body or institution of self-government established or constituted
+      by notification issued or order made by the appropriate government.
+
+
+
+      The Private Sector Banks, with which we are concerned, admittedly, do not fall in
+the above mentioned categories, because none of them is either a body or institution of
+self-government, established or constituted under the Constitution, by law made by the
+Parliament, by law made by the State Legislature or by way of a notification issued or
+made by the appropriate government.
+
+
+
+      On the other hand, whether they fall in the later part of 
+Section 2(h)
+ of the Act,
+which embraces within its fold: (5) a body owned, controlled or substantially financed,
+directly or indirectly by funds provided by the appropriate government, (6) non-
+governmental organizations substantially financed directly or indirectly by funds provided
+by the appropriate government.
+
+
+
+                                                                               Page 19 of 28
+
+
+       The expression 'Appropriate Government' has also been defined under 
+Section 2(a)
+
+of the RTI Act, which reads as follows :
+
+
+
+      "2(a). "appropriate Government" means in relation to a public authority which is
+      established, constituted, owned, controlled or substantially financed by funds
+      provided directly or indirectly- (i) by the Central Government or the Union territory
+      administration, the Central Government; (ii) by the State Government, the State
+      Government."
+
+
+
+ 
+The RTI Act
+, therefore, deals with bodies which are owned, controlled or
+substantially financed, directly or indirectly, by funds provided by the appropriate
+government and also non-government organizations substantially financed, directly or
+indirectly, by funds provided by the appropriate government, in the event of which they
+may fall within the definition of 
+Section 2(h)(d)(i)
+ or (ii) respectively.
+
+
+
+      As already pointed out, a body, institution or an organization, which is neither a
+State within the meaning of 
+Article 12
+ of the Constitution or instrumentalities, may still
+answer the definition of public authority under 
+Section 2(h)
+d (i) or (ii).
+
+
+
+       (a) Body owned by the appropriate government -A body owned by the appropriate
+      government clearly falls under 
+Section 2(h)(d)(i)
+ of the Act. A body owned, means
+      to have a good legal title to it having the ultimate control over the affairs of that
+      body, ownership takes in its fold control, finance etc. Admittedly, the private sector
+      banks in question are not owned by the appropriate government.
+
+
+
+      (b) Body Controlled by the Appropriate Government :
+
+
+
+      A body which is controlled by the appropriate government can fall under the
+definition of public authority under Section 2h(d)(i).
+
+
+
+      Further, the Apex Court is of the opinion that when we test the meaning of
+expression "controlled" which figures in between the words "body owned" and
+"substantially financed", the control by the appropriate government must be a control of
+a substantial nature. The mere 'supervision' or 'regulation' as such by a statute or
+
+
+                                                                                Page 20 of 28
+
+ otherwise of a body would not make that body a "public authority" within the meaning of
+
+Section 2(h)(d)(i)
+ of the RTI Act.
+
+
+
+      In other words just like a body owned or body substantially financed by the
+appropriate government, the control of the body by the appropriate government would
+also be substantial and not merely supervisory or regulatory.
+
+
+
+      We are, therefore, of the view that the word "controlled" used in 
+Section 2(h)(d)(i)
+
+of the Act has to be understood in the context in which it has been used vis-a-vis a body
+owned or substantially financed by the appropriate government, that is the control of the
+body is of such a degree which amounts to substantial control over the management and
+affairs of the body.
+
+
+
+      SUBSTANTIALLY FINANCED The words "substantially financed" have been used
+in 
+Sections 2(h)(d)(i)
+ & (ii), while defining the expression public authority as well as in
+
+Section 2(a)
+ of the Act, while defining the expression "appropriate Government".
+
+
+
+      A body can be substantially financed, directly or indirectly by funds provided by the
+appropriate Government. The expression "substantially financed", as such, has not been
+defined under the Act. "Substantial" means "in a substantial manner so as to be
+substantial".
+
+
+
+      The burden to show that a body is owned, controlled or substantially financed or
+that a non-government organization is substantially financed directly or indirectly by the
+funds provided by the appropriate Government is on the applicant who seeks information
+or the appropriate Government and can be examined by the State Information Commission
+or the Central Information Commission as the case may be, when the question comes up
+for consideration.
+
+
+
+      No materials have been made available to show that the Private Sector Banks with
+which we are concerned, in the context of the Act, would fall within the definition of 
+Section
+2(h)
+ of the Act.
+
+
+
+                                                                                  Page 21 of 28
+
+
+       First of all, the scope and ambit of the expression "public authority" has been
+restricted by a statutory definition under 
+Section 2(h)
+ limiting it to the categories
+mentioned therein which exhaust itself, unless the context otherwise requires. Citizens, as
+already indicated by us, have a right to get information, but can have access only to the
+information "held" and under the "control of public authorities",
+
+      Further, 
+Section 8
+ begins with a non obstante clause, which gives that Section an
+overriding effect, in case of conflict, over the other provisions of the Act. Even if, there is
+any indication to the contrary, still there is no obligation on the public authority to give
+information to any citizen of what has been mentioned in clauses (a) to (j). Public
+authority, as already indicated, cannot access all the information from a private
+individual, but only those information which he is legally obliged to pass on to a public
+authority by law, and also only those information to which the public authority can have
+access in accordance with law. Even those information, if personal in nature, can be made
+available only subject to the limitations provided in 
+Section 8(j)
+ of the RTI Act.
+
+
+
+ 
+Reference made to a recent judgment of the Apex Court in 
+Girish Ramchandra
+Deshpande v. Central Information Commissioner and others
+ (2013) 1 SCC 212, wherein
+the Hon'ble Court held that since there is no bona fide public interest in seeking
+information, the disclosure of said information would cause unwarranted invasion of
+privacy of the individual under 
+Section 8(1)(j)
+ of the Act. Further, if the authority finds
+that information sought for can be made available in the larger public interest, then the
+officer should record his reasons in writing before providing the information, because the
+person from whom information is sought for, has also a right to privacy guaranteed under
+
+Article 21
+ of the Constitution.
+
+
+
+
+      We the Private Sector Banks, are not public authorities and, hence, not legally
+obliged to furnish any information sought for by a citizen under the 
+RTI Act
+ will not fall
+within the definition of "public authority" as defined under 
+Section 2(h)
+ of the RTI Act.
+
+
+
+      Further, the details called for about the Authorised Officers are exempted under
+various provisions of 8 (1) (d), (e), (j) of RTI act.
+
+
+
+                                                                                   Page 22 of 28
+
+
+          a) The information sought are highly sensitive and likely to be exploited by the
+         complainant , if revealed.
+
+
+
+         b) Physical Security of the persons will be jeopardized, apart from the risk of other
+         abuses, if the details are furnished.
+
+
+
+         c) The appointment of authorized officer is decided based on the sec 2(a) 
+SARFAESI
+         Act
+ which is not static and only based on the various other factors. Further, the
+         disclosure of the personal details of AOs amounts to violation of personal liberty
+         and infringement of right to privacy assured under constitution. The same were also
+         protected under exemptions stated supra. A Nine Judge Constitution Bench of the
+         Supreme Court in the case of K.S.Puttaswamy and Another has explicitly and
+         categorically recognised the right to privacy as a fundamental right.
+
+
+
+ 
+Though in the case of 
+Reserve Bank of India Vs Jayantilal N Mistry
+{(2016)3 sec 525
+         which held that the RBI was duty bound to furnish all information relating to
+         inspection reports and other materials.
+ 
+The action of RBI based on the judgment in
+         
+Jayantilal N. Mistry
+ (supra) is under challenge before the Hon'ble Apex Court by
+         various banks including private banks.
+
+
+
+
+ 
+It is further evident from the order passed by the Supreme Court in the case viz 
+Writ
+Petition (Civil) No.1159 of 2019 - HDFC BANK LTD. & ors Vs Union of India
+ & ors. The
+court emphatically observed that 
+Jayantilal N. Mistry
+ (supra) did not take into
+consideration the aspect of balancing the right to information and right to privacy etc. and
+rightly rejected the preliminary objection by way of IA filed by the applicant - Girish Mittal
+with a prayer seeking dismissal of the WP FILED under 
+Article 32
+ of the Constitution of
+India.
+
+
+
+
+ 
+Further, it is pertinent to note that "Writ Petitions" against the Private Banks are
+not entertained by the Higher Courts. It is evident from the case of "
+FEDERAL BANK Vs
+SAGAR THOMAS & ORS
+ {(2003)10 sec 733}, it is stated that private companies including
+private Bank, not amenable to Writ Jurisdiction under 
+Article 12
+ of the Constitution."
+
+
+
+
+                                                                                  Page 23 of 28
+
+
+ 
+7.    The Commission after adverting to the facts and circumstances of the case, and
+perusal of records, observes that the arguments tendered by the Complainant do not
+establish or fulfill the requirements 
+laid down by
+ the Hon'ble Supreme Court in the matter
+of Thalappalam Ser. Coop. Bank Ltd. And other Vs State of Kerala and Ors, [CIVIL
+APPEAL NO. 9017 OF 2013] dated 07.10.2013 to determine whether an entity is a "public
+authority" as per 
+Section 2(h)
+ of the RTI Act. The Complainant has primarily relied on the
+argument that since the Bank is performing public functions much like political parties and
+that funding of the bank is through the deposits made by the public at large, the aspect of
+substantial funding by the Govt. be read into the matter. Here, it is relevant to refer to the
+following observations of the Apex Court in the Thalappalam matter:
+
+
+
+
+      "6. The words "substantially financed" have been used in 
+Sections 2(h)(d)(i)
+ & (ii),
+while defining the expression public authority as well as in 
+Section 2(a)
+ of the Act, while
+defining the expression "appropriate Government". A body can be substantially financed,
+directly or indirectly by funds provided by the appropriate Government. The expression
+"substantially financed", as such, has not been defined under the Act. "Substantial"
+
+means "in a substantial manner so as to be substantial". In Palser v. Grimling (1948) 1
+All ER 1, 11 (HL), while interpreting the provisions of Section 10(1) of the Rent and
+Mortgage Interest Restrictions Act, 1923, the House of Lords held that "substantial" is
+not the same as "not unsubstantial" i.e. just enough to avoid the de minimis principle. The
+word "substantial" literally means solid, massive etc. Legislature has used the expression
+"substantially financed" in 
+Sections 2(h)(d)(i)
+ and
+
+
+      (ii) indicating that the degree of financing must be actual, existing, positive and real
+to a substantial extent, not moderate, ordinary, tolerable etc.
+
+
+      37. We often use the expressions "questions of law" and "substantial questions of
+law" and explain that any question of law affecting the right of parties would not by itself
+be a substantial question of law. In Black's Law Dictionary (6th Edn.), the word
+'substantial' is defined as 'of real worth and importance; of considerable value; valuable.
+Belonging to substance; actually existing; real: not seeming or imaginary; not illusive;
+solid; true; veritable. Something worthwhile as distinguished from something without
+
+                                                                                  Page 24 of 28
+
+ value or merely nominal. Synonymous with material.' The word 'substantially' has been
+defined to mean 'essentially; without material qualification; in the main; in substance;
+materially.' In the Shorter Oxford English Dictionary (5th Edn.), the word 'substantial'
+means 'of ample or considerable amount of size; sizeable, fairly large; having solid worth
+or value, of real significance; sold; weighty; important, worthwhile; of an act, measure
+etc. having force or effect, effective, thorough.' The word 'substantially' has been defined
+to mean 'in substance; as a substantial thing or being; essentially, intrinsically.' Therefore
+the word 'substantial' is not synonymous with 'dominant' or 'majority'. It is closer to
+'material' or 'important' or 'of considerable value.' 'Substantially' is closer to 'essentially'.
+Both words can signify varying degrees depending on the context.
+
+
+
+      38. Merely providing subsidiaries, grants, exemptions, privileges etc., as such,
+cannot be said to be providing funding to a substantial extent, unless the record shows that
+the funding was so substantial to the body which practically runs by such funding and but
+for such funding, it would struggle to exist. The State may also float many schemes
+generally for the betterment and welfare of the cooperative sector like deposit guarantee
+scheme, scheme of assistance from NABARD etc., but those facilities or assistance cannot
+be termed as "substantially financed" by the State Government to bring the body within
+the fold of "public authority" under 
+Section 2(h)(d)(i)
+ of the Act. But, there are instances,
+where private educational institutions getting ninety five per cent grant-in-aid from the
+appropriate government, may answer the definition of public authority under 
+Section
+2(h)(d)(i)
+."
+
+
+
+      Further, considering the rhetoric interpretation which is being urged to be
+accorded by the Complainant to the elements of 
+Section 2(h)
+ of the RTI Act with reference
+to the Respondent bank, the following observations of the Court in the averred judgment
+finds square applicability in the instant matter:
+
+
+
+      "42. Legislative intention is clear and is discernible from 
+Section 2(h)
+ that intends
+to include various categories, discussed earlier. It is trite law that the primarily language
+employed is the determinative factor of the legislative intention and the intention of the
+legislature must be found in the words used by the legislature itself. In Magor and St.
+
+                                                                                     Page 25 of 28
+
+ Mellons Rural District Council v. New Port Corporation (1951) 2 All ER 839(HL) stated
+that the courts are warned that they are not entitled to usurp the legislative function under
+the guise of interpretation. 
+This Court in 
+D.A. Venkatachalam and others v. Dy. Transport
+Commissioner and others
+ (
+1977) 2 SCC 273, Union of India v. Elphinstone Spinning and
+Weaving Co. Ltd. and others
+ (
+2001) 4 SCC 139, District Mining Officer and others v. Tata
+Iron & Steel Co. and another
+ (2001) 7 SCC 358, Padma Sundara Rao (Dead) and others
+v. State of Tamil Nadu and others (
+2002) 3 SCC 533, Maulvi Hussain Haji Abraham
+Umarji v. State of Gujarat and another
+ (2004) 6 SCC 672 held that the court must avoid
+the danger of an apriori determination of the meaning of a provision based on their own
+preconceived notions of ideological structure or scheme into which the provisions to be
+interpreted is somehow fitted. It is trite law that words of a statute are clear, plain and
+unambiguous i.e. they are reasonably susceptible to only one meaning, the courts are
+bound to give effect to that meaning irrespective of the consequences, meaning thereby
+when the language is clear and unambiguous and admits of only one meaning, no question
+of construction of a statute arises, for the statute speaks for itself.
+ 
+This Court in 
+Kanai Lal
+Sur v. Paramnidhi Sadhukhan
+ AIR 1957 SC 907 held that "if the words used are capable
+of one construction only then it would not be open to courts to adopt any other hypothetical
+construction on the ground that such construction is more consistent with the alleged
+object and policy of the Act."
+
+
+
+
+      43. We are of the view that the High Court has given a complete go-bye to the above-
+mentioned statutory principles and gone at a tangent by mis- interpreting the meaning and
+content of 
+Section 2(h)
+ of the RTI Act. Court has given a liberal construction to expression
+"public authority" under 
+Section 2(h)
+ of the Act, bearing in mind the "transformation of
+law" and its "ultimate object" i.e. to achieve "transparency and accountability", which
+according to the court could alone advance the objective of the Act. Further, the High
+Court has also opined that 
+RTI Act
+ will certainly help as a protection against the
+mismanagement of the society by the managing committee and the society's liabilities and
+that vigilant members of the public body by obtaining information through the 
+RTI Act
+,
+will be able to detect and prevent mismanagement in time. In our view, the categories
+mentioned in 
+Section 2(h)
+ of the Act exhaust themselves, hence, there is no question of
+
+                                                                                   Page 26 of 28
+
+ adopting a liberal construction to the expression "public authority" to bring in other
+categories into its fold, which do not satisfy the tests we have laid down. Court cannot,
+when language is clear and unambiguous, adopt such a construction which, according to
+the Court, would only advance the objective of the Act. We are also aware of the opening
+part of the definition clause which states "unless the context otherwise requires". No
+materials have been made available to show that the cooperative societies, with which we
+are concerned, in the context of the Act, would fall within the definition of 
+Section 2(h)
+ of
+the Act."
+
+
+
+8.   In view of the foregoing discussion, the Commission observes that in the instant case,
+the City Union Bank Limited, Kumbakonam cannot be a deemed as a public authority as
+per 
+Section 2(h)
+ of the RTI Act.
+
+
+
+9.   The Complaint is disposed of accordingly.
+
+
+
+             Copy of the decision be provided free of cost to the parties.
+
+
+
+                                                (Anandi Ramalingam) (आनंिी रामललंगम)
+                                               Information Commissioner (सूचना आयुक्त)
+                                                               दिनांक/Date: 10.06.2024
+Authenticated true copy
+
+
+Col S S Chhikara (Retd) कनगल एस एस निकारा, (ररटायर्ग)
+Dy. Registrar (उप पंजीयक)
+011-26180514
+
+Addresses of the parties:
+
+1. The CPIO
+City Union Bank Limited,
+AGM & CPIO,
+Administrative Office, 24-B, Gandhi Nagar,
+Kumbakonam - 612001
+
+
+
+
+                                                                                 Page 27 of 28
+
+
+ 2. Subhash Chandra Agrawal
+
+
+
+
+
+                             Page 28 of 28
+
+                                    Recomendation(s) to PA under 
+section 25(5)
+ of the RTI Act, 2005:-
+
+
+
+                                   Nil
+
+
+
+
+Powered by TCPDF (www.tcpdf.org)

@@ -1,0 +1,58 @@
+{
+  "doc_name": "5c6121dddeccb0a53f47533f66e42a53",
+  "line_count": 339,
+  "structure": [
+    {
+      "title": "Central Information Commission",
+      "node_id": "0001",
+      "line_num": 10
+    },
+    {
+      "title": "Central Information Commission",
+      "node_id": "0002",
+      "line_num": 18,
+      "nodes": [
+        {
+          "title": "through 11 points:",
+          "node_id": "0003",
+          "line_num": 72
+        },
+        {
+          "title": "Facts emerging in Course of Hearing:",
+          "node_id": "0004",
+          "line_num": 99
+        },
+        {
+          "title": "Decision:",
+          "node_id": "0005",
+          "line_num": 114
+        },
+        {
+          "title": "through 11 points:",
+          "node_id": "0006",
+          "line_num": 141
+        },
+        {
+          "title": "Facts emerging in Course of Hearing:",
+          "node_id": "0007",
+          "line_num": 226
+        },
+        {
+          "title": "Decision:",
+          "node_id": "0008",
+          "line_num": 236
+        },
+        {
+          "title": "Facts emerging in Course of Hearing:",
+          "node_id": "0009",
+          "line_num": 298
+        },
+        {
+          "title": "Decision:",
+          "node_id": "0010",
+          "line_num": 311
+        }
+      ]
+    }
+  ]
+}

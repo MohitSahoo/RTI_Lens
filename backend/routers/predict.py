@@ -1,19 +1,27 @@
 """
-ML Prediction Endpoint
+ML Prediction Endpoint - ORM Version
+Migrated from raw SQL to SQLAlchemy ORM
 """
-from fastapi import APIRouter, HTTPException
-import pickle
+from fastapi import APIRouter, HTTPException, Depends
+from sqlalchemy.orm import Session
 import json
 import pandas as pd
+import logging
 from pathlib import Path
 from backend.config import MODEL_PATH, MODEL_CARD_PATH
 from backend.schemas import PredictRequest, PredictResponse
+from backend.database import get_db
+from backend.models import Case, Ministry
+from backend.utils.sanitization import sanitize_raw_text, validate_ministry_name, validate_section_cited
+from backend.utils.pickle_security import load_pickle_with_verification, PickleIntegrityError
 
 router = APIRouter(prefix="/api", tags=["predict"])
+logger = logging.getLogger(__name__)
 
 # Load model and model card at startup
 model = None
 model_card = None
+
 
 def load_model():
     global model, model_card
@@ -26,28 +34,53 @@ def load_model():
         if not card_path.exists():
             raise FileNotFoundError(f"Model card not found at {MODEL_CARD_PATH}")
 
-        with open(model_path, "rb") as f:
-            model = pickle.load(f)
+        # Load pickle with integrity verification
+        hash_file = Path(str(model_path) + '.sha256')
+        try:
+            model = load_pickle_with_verification(
+                model_path,
+                hash_file=hash_file if hash_file.exists() else None
+            )
+            logger.info("ML model loaded successfully with integrity verification")
+        except PickleIntegrityError as e:
+            logger.error(f"Model integrity check failed: {e}")
+            raise FileNotFoundError(
+                "Model file integrity check failed. Please regenerate the model."
+            )
 
         with open(card_path, "r") as f:
             model_card = json.load(f)
 
+
 @router.post("/predict", response_model=PredictResponse)
-async def predict_outcome(request: PredictRequest):
+async def predict_outcome(request: PredictRequest, db: Session = Depends(get_db)):
     """
     Predict appeal outcome using trained ML model
     """
     load_model()
 
+    # Validate and sanitize inputs
+    ministry = validate_ministry_name(request.ministry)
+    if not ministry:
+        raise HTTPException(status_code=400, detail="Invalid ministry name")
+
+    section = validate_section_cited(request.section_cited)
+    if not section:
+        raise HTTPException(status_code=400, detail="Invalid section citation format")
+
+    raw_text = sanitize_raw_text(request.raw_text)
+    if not raw_text or len(raw_text) < 100:
+        raise HTTPException(status_code=400, detail="Raw text must be at least 100 characters after sanitization")
+
     # Prepare input data
     year = request.order_date.year if request.order_date else 2024
 
     input_data = pd.DataFrame([{
-        'ministry': request.ministry,
-        'section_cited': request.section_cited,
-        'appeal_level': request.appeal_level,
+        'ministry': ministry,
+        'section_cited': section,
+        'appeal_level': request.appeal_level.value,
         'year': year,
-        'raw_text': request.raw_text
+        'raw_text': raw_text
     }])
 
     try:
@@ -67,16 +100,12 @@ async def predict_outcome(request: PredictRequest):
         else:
             confidence = "low"
 
-        # Check if ministry has low training data
-        from sqlalchemy import create_engine, text
-        from backend.config import DATABASE_URL
-
-        engine = create_engine(DATABASE_URL)
-        with engine.connect() as conn:
-            ministry_count = conn.execute(
-                text("SELECT COUNT(*) FROM cases WHERE ministry_id = (SELECT id FROM ministries WHERE name = :ministry)"),
-                {"ministry": request.ministry}
-            ).scalar() or 0
+        # Check if ministry has low training data using ORM
+        ministry_count = db.query(Case).join(
+            Ministry, Case.ministry_id == Ministry.id
+        ).filter(
+            Ministry.name == request.ministry
+        ).count()
 
         low_data_threshold = model_card.get("low_data_threshold", 10)
         low_data_warning = ministry_count < low_data_threshold
@@ -90,5 +119,12 @@ async def predict_outcome(request: PredictRequest):
             model_card=model_card
         )
 
+    except ValueError as e:
+        logger.error(f"Validation error in prediction: {e}")
+        raise HTTPException(status_code=400, detail=str(e))
+    except FileNotFoundError as e:
+        logger.error(f"Model file not found: {e}")
+        raise HTTPException(status_code=503, detail="Prediction model not available. Please contact administrator.")
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Prediction error: {str(e)}")
+        logger.error(f"Unexpected error in prediction: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail="An error occurred while making the prediction. Please try again.")

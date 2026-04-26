@@ -1,0 +1,410 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "name": "Ministry of External Affairs",
+      "type": "ministry"
+    },
+    {
+      "id": 1,
+      "name": "8(1)(j)",
+      "type": "section"
+    },
+    {
+      "id": 2,
+      "name": "Ministry of Corporate Affairs",
+      "type": "ministry"
+    },
+    {
+      "id": 3,
+      "name": "8(1)(d)",
+      "type": "section"
+    },
+    {
+      "id": 4,
+      "name": "Ministry of Finance",
+      "type": "ministry"
+    },
+    {
+      "id": 5,
+      "name": "8(1)(h)",
+      "type": "section"
+    },
+    {
+      "id": 6,
+      "name": "8(1)(i)",
+      "type": "section"
+    },
+    {
+      "id": 7,
+      "name": "8(1)(g)",
+      "type": "section"
+    },
+    {
+      "id": 8,
+      "name": "8(1)(a)",
+      "type": "section"
+    },
+    {
+      "id": 9,
+      "name": "Ministry of Railways",
+      "type": "ministry"
+    },
+    {
+      "id": 10,
+      "name": "8(1)(e)",
+      "type": "section"
+    },
+    {
+      "id": 11,
+      "name": "8(1)(b)",
+      "type": "section"
+    },
+    {
+      "id": 12,
+      "name": "8(1)(f)",
+      "type": "section"
+    },
+    {
+      "id": 13,
+      "name": "Income Tax Department",
+      "type": "ministry"
+    },
+    {
+      "id": 14,
+      "name": "allowed",
+      "type": "outcome"
+    },
+    {
+      "id": 15,
+      "name": "denied",
+      "type": "outcome"
+    },
+    {
+      "id": 16,
+      "name": "partially_allowed",
+      "type": "outcome"
+    }
+  ],
+  "edges": [
+    {
+      "source": 0,
+      "target": 1,
+      "type": "cites",
+      "weight": 15,
+      "count": 15
+    },
+    {
+      "source": 0,
+      "target": 5,
+      "type": "cites",
+      "weight": 5,
+      "count": 5
+    },
+    {
+      "source": 0,
+      "target": 3,
+      "type": "cites",
+      "weight": 5,
+      "count": 5
+    },
+    {
+      "source": 0,
+      "target": 8,
+      "type": "cites",
+      "weight": 2,
+      "count": 2
+    },
+    {
+      "source": 0,
+      "target": 6,
+      "type": "cites",
+      "weight": 2,
+      "count": 2
+    },
+    {
+      "source": 0,
+      "target": 10,
+      "type": "cites",
+      "weight": 2,
+      "count": 2
+    },
+    {
+      "source": 1,
+      "target": 16,
+      "type": "leads_to",
+      "weight": 0.114,
+      "count": 13
+    },
+    {
+      "source": 1,
+      "target": 14,
+      "type": "leads_to",
+      "weight": 0.5526,
+      "count": 63
+    },
+    {
+      "source": 1,
+      "target": 15,
+      "type": "leads_to",
+      "weight": 0.3333,
+      "count": 38
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "type": "cites",
+      "weight": 3,
+      "count": 3
+    },
+    {
+      "source": 2,
+      "target": 7,
+      "type": "cites",
+      "weight": 2,
+      "count": 2
+    },
+    {
+      "source": 2,
+      "target": 8,
+      "type": "cites",
+      "weight": 4,
+      "count": 4
+    },
+    {
+      "source": 2,
+      "target": 1,
+      "type": "cites",
+      "weight": 4,
+      "count": 4
+    },
+    {
+      "source": 3,
+      "target": 14,
+      "type": "leads_to",
+      "weight": 0.5122,
+      "count": 21
+    },
+    {
+      "source": 3,
+      "target": 16,
+      "type": "leads_to",
+      "weight": 0.1463,
+      "count": 6
+    },
+    {
+      "source": 3,
+      "target": 15,
+      "type": "leads_to",
+      "weight": 0.3415,
+      "count": 14
+    },
+    {
+      "source": 4,
+      "target": 5,
+      "type": "cites",
+      "weight": 19,
+      "count": 19
+    },
+    {
+      "source": 4,
+      "target": 6,
+      "type": "cites",
+      "weight": 4,
+      "count": 4
+    },
+    {
+      "source": 4,
+      "target": 7,
+      "type": "cites",
+      "weight": 20,
+      "count": 20
+    },
+    {
+      "source": 4,
+      "target": 8,
+      "type": "cites",
+      "weight": 11,
+      "count": 11
+    },
+    {
+      "source": 4,
+      "target": 3,
+      "type": "cites",
+      "weight": 37,
+      "count": 37
+    },
+    {
+      "source": 4,
+      "target": 11,
+      "type": "cites",
+      "weight": 6,
+      "count": 6
+    },
+    {
+      "source": 4,
+      "target": 1,
+      "type": "cites",
+      "weight": 91,
+      "count": 91
+    },
+    {
+      "source": 4,
+      "target": 12,
+      "type": "cites",
+      "weight": 3,
+      "count": 3
+    },
+    {
+      "source": 4,
+      "target": 10,
+      "type": "cites",
+      "weight": 21,
+      "count": 21
+    },
+    {
+      "source": 5,
+      "target": 15,
+      "type": "leads_to",
+      "weight": 0.4815,
+      "count": 13
+    },
+    {
+      "source": 5,
+      "target": 14,
+      "type": "leads_to",
+      "weight": 0.5185,
+      "count": 14
+    },
+    {
+      "source": 6,
+      "target": 14,
+      "type": "leads_to",
+      "weight": 1.0,
+      "count": 4
+    },
+    {
+      "source": 7,
+      "target": 16,
+      "type": "leads_to",
+      "weight": 0.4138,
+      "count": 12
+    },
+    {
+      "source": 7,
+      "target": 14,
+      "type": "leads_to",
+      "weight": 0.1724,
+      "count": 5
+    },
+    {
+      "source": 7,
+      "target": 15,
+      "type": "leads_to",
+      "weight": 0.4138,
+      "count": 12
+    },
+    {
+      "source": 8,
+      "target": 14,
+      "type": "leads_to",
+      "weight": 0.2857,
+      "count": 6
+    },
+    {
+      "source": 8,
+      "target": 15,
+      "type": "leads_to",
+      "weight": 0.7143,
+      "count": 15
+    },
+    {
+      "source": 9,
+      "target": 5,
+      "type": "cites",
+      "weight": 3,
+      "count": 3
+    },
+    {
+      "source": 9,
+      "target": 1,
+      "type": "cites",
+      "weight": 14,
+      "count": 14
+    },
+    {
+      "source": 9,
+      "target": 7,
+      "type": "cites",
+      "weight": 5,
+      "count": 5
+    },
+    {
+      "source": 9,
+      "target": 3,
+      "type": "cites",
+      "weight": 3,
+      "count": 3
+    },
+    {
+      "source": 9,
+      "target": 10,
+      "type": "cites",
+      "weight": 2,
+      "count": 2
+    },
+    {
+      "source": 9,
+      "target": 8,
+      "type": "cites",
+      "weight": 6,
+      "count": 6
+    },
+    {
+      "source": 10,
+      "target": 14,
+      "type": "leads_to",
+      "weight": 0.56,
+      "count": 14
+    },
+    {
+      "source": 10,
+      "target": 15,
+      "type": "leads_to",
+      "weight": 0.44,
+      "count": 11
+    },
+    {
+      "source": 11,
+      "target": 15,
+      "type": "leads_to",
+      "weight": 0.2857,
+      "count": 2
+    },
+    {
+      "source": 11,
+      "target": 14,
+      "type": "leads_to",
+      "weight": 0.7143,
+      "count": 5
+    },
+    {
+      "source": 12,
+      "target": 14,
+      "type": "leads_to",
+      "weight": 1.0,
+      "count": 2
+    },
+    {
+      "source": 13,
+      "target": 1,
+      "type": "cites",
+      "weight": 2,
+      "count": 2
+    }
+  ],
+  "metadata": {
+    "node_count": 17,
+    "edge_count": 45
+  }
+}

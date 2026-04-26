@@ -1,0 +1,82 @@
+{
+  "doc_name": "fa2c5b5df5e40c8a3ba328468d4e1e8f",
+  "line_count": 525,
+  "structure": [
+    {
+      "title": "Central Information Commission",
+      "node_id": "0001",
+      "line_num": 10
+    },
+    {
+      "title": "Central Information Commission",
+      "node_id": "0002",
+      "line_num": 18,
+      "nodes": [
+        {
+          "title": "Information sought",
+          "node_id": "0003",
+          "line_num": 47
+        },
+        {
+          "title": ":",
+          "node_id": "0004",
+          "line_num": 49
+        },
+        {
+          "title": "Grounds for the Second Appeal:",
+          "node_id": "0005",
+          "line_num": 63
+        },
+        {
+          "title": "Relevant Facts emerging during Hearing on 07.01.2020:",
+          "node_id": "0006",
+          "line_num": 70
+        },
+        {
+          "title": "Appeal/present matter within 15 days from the date of receipt of this order. A",
+          "node_id": "0007",
+          "line_num": 95
+        }
+      ]
+    },
+    {
+      "title": "FINAL DECISION PROCEEDINGS",
+      "node_id": "0008",
+      "line_num": 105,
+      "nodes": [
+        {
+          "title": "Banks, wherein the following was held:",
+          "node_id": "0009",
+          "line_num": 122
+        }
+      ]
+    },
+    {
+      "title": "\"Neither the Central Information Commission nor any High Courts",
+      "node_id": "0010",
+      "line_num": 206,
+      "nodes": [
+        {
+          "title": "enforcement:",
+          "node_id": "0011",
+          "line_num": 278
+        },
+        {
+          "title": "dated 20.05.2019:",
+          "node_id": "0012",
+          "line_num": 347
+        },
+        {
+          "title": "order dated 29.05.2018. FAA has held therein that in addition to identifying the",
+          "node_id": "0013",
+          "line_num": 398
+        }
+      ]
+    },
+    {
+      "title": "FINAL DECISION",
+      "node_id": "0014",
+      "line_num": 450
+    }
+  ]
+}

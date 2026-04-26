@@ -1,13 +1,16 @@
 """
-Analytics API Endpoints
+Analytics API Endpoints - ORM Version
+Migrated from raw SQL to SQLAlchemy ORM
 """
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
-from sqlalchemy import text
-from typing import List, Optional, Optional
-import pickle
+from sqlalchemy import func, extract, case as sql_case, Numeric
+from typing import List, Optional
+from datetime import datetime
+import logging
 from pathlib import Path
 from backend.database import get_db
+from backend.models import Ministry, MinistryStats, SectionStats, Case
 from backend.schemas import (
     DenialRateResponse,
     SectionHeatmapResponse,
@@ -17,8 +20,11 @@ from backend.schemas import (
     GraphNode,
     GraphEdge
 )
+from backend.utils.pickle_security import load_pickle_with_verification, PickleIntegrityError
 
 router = APIRouter(prefix="/api/analytics", tags=["analytics"])
+logger = logging.getLogger(__name__)
+
 
 @router.get("/denial-rates", response_model=List[DenialRateResponse])
 async def get_denial_rates(
@@ -29,44 +35,47 @@ async def get_denial_rates(
 ):
     """Get denial rates by ministry with optional filters"""
 
-    # Build WHERE clause based on filters
-    where_clauses = []
-    params = {}
+    # Base query
+    query = db.query(
+        Ministry.id.label('ministry_id'),
+        Ministry.name.label('ministry'),
+        MinistryStats.total_orders,
+        MinistryStats.denied_count,
+        MinistryStats.allowed_count,
+        MinistryStats.denial_rate,
+        MinistryStats.override_rate
+    ).join(
+        MinistryStats, Ministry.id == MinistryStats.ministry_id
+    )
 
-    if year_from:
-        where_clauses.append("EXTRACT(YEAR FROM c.order_date) >= :year_from")
-        params["year_from"] = year_from
+    # Apply filters if provided
+    if year_from or year_to or ministry_id:
+        query = query.join(Case, Case.ministry_id == Ministry.id)
 
-    if year_to:
-        where_clauses.append("EXTRACT(YEAR FROM c.order_date) <= :year_to")
-        params["year_to"] = year_to
+        if year_from:
+            query = query.filter(extract('year', Case.order_date) >= year_from)
 
-    if ministry_id:
-        where_clauses.append("ms.ministry_id = :ministry_id")
-        params["ministry_id"] = ministry_id
+        if year_to:
+            query = query.filter(extract('year', Case.order_date) <= year_to)
 
-    where_sql = ""
-    if where_clauses:
-        where_sql = "WHERE " + " AND ".join(where_clauses)
+        if ministry_id:
+            query = query.filter(Ministry.id == ministry_id)
 
-    query = text(f"""
-        SELECT
-            m.id AS ministry_id,
-            m.name AS ministry,
-            ms.total_orders,
-            ms.denied_count,
-            ms.allowed_count,
-            ms.denial_rate,
-            ms.override_rate
-        FROM ministry_stats ms
-        JOIN ministries m ON m.id = ms.ministry_id
-        LEFT JOIN cases c ON c.ministry_id = ms.ministry_id
-        {where_sql}
-        GROUP BY m.id, m.name, ms.total_orders, ms.denied_count, ms.allowed_count, ms.denial_rate, ms.override_rate
-        ORDER BY ms.denial_rate DESC
-    """)
+        # Group by to avoid duplicates when joining with cases
+        query = query.group_by(
+            Ministry.id,
+            Ministry.name,
+            MinistryStats.total_orders,
+            MinistryStats.denied_count,
+            MinistryStats.allowed_count,
+            MinistryStats.denial_rate,
+            MinistryStats.override_rate
+        )
 
-    result = db.execute(query, params).fetchall()
+    # Order by denial rate
+    query = query.order_by(MinistryStats.denial_rate.desc())
+
+    results = query.all()
 
     return [
         DenialRateResponse(
@@ -78,26 +87,25 @@ async def get_denial_rates(
             denial_rate=row.denial_rate,
             override_rate=row.override_rate
         )
-        for row in result
+        for row in results
     ]
+
 
 @router.get("/section-heatmap", response_model=List[SectionHeatmapResponse])
 async def get_section_heatmap(db: Session = Depends(get_db)):
     """Get section misuse rates by ministry"""
-    query = text("""
-        SELECT
-            ss.section_cited,
-            m.name AS ministry,
-            ss.total_citations,
-            ss.overturned_count,
-            ss.misuse_rate
-        FROM section_stats ss
-        JOIN ministries m ON m.id = ss.ministry_id
-        ORDER BY ss.misuse_rate DESC
-        LIMIT 50
-    """)
 
-    result = db.execute(query).fetchall()
+    results = db.query(
+        SectionStats.section_cited,
+        Ministry.name.label('ministry'),
+        SectionStats.total_citations,
+        SectionStats.overturned_count,
+        SectionStats.misuse_rate
+    ).join(
+        Ministry, Ministry.id == SectionStats.ministry_id
+    ).order_by(
+        SectionStats.misuse_rate.desc()
+    ).limit(50).all()
 
     return [
         SectionHeatmapResponse(
@@ -107,31 +115,43 @@ async def get_section_heatmap(db: Session = Depends(get_db)):
             overturned_count=row.overturned_count,
             misuse_rate=row.misuse_rate
         )
-        for row in result
+        for row in results
     ]
 
-@router.get("/override-trend", response_model=List[OverrideTrendResponse])
+
+@router.get("/override-trends", response_model=List[OverrideTrendResponse])
 async def get_override_trend(db: Session = Depends(get_db)):
     """Get appeal override trend over time"""
-    query = text("""
-        SELECT
-            DATE_TRUNC('month', order_date) AS month,
-            SUM(CASE WHEN appeal_outcome = 'allowed' THEN 1 ELSE 0 END) AS allowed_count,
-            SUM(CASE WHEN appeal_outcome = 'denied' THEN 1 ELSE 0 END) AS denied_count,
-            ROUND(
-                SUM(CASE WHEN appeal_outcome = 'allowed' THEN 1 ELSE 0 END)::NUMERIC /
-                NULLIF(SUM(CASE WHEN appeal_outcome IN ('allowed', 'denied') THEN 1 ELSE 0 END), 0),
-                4
-            ) AS override_rate
-        FROM cases
-        WHERE order_date IS NOT NULL
-          AND appeal_outcome IN ('allowed', 'denied')
-        GROUP BY DATE_TRUNC('month', order_date)
-        ORDER BY month DESC
-        LIMIT 24
-    """)
 
-    result = db.execute(query).fetchall()
+    # Aggregate by month
+    results = db.query(
+        func.date_trunc('month', Case.order_date).label('month'),
+        func.sum(
+            sql_case((Case.appeal_outcome == 'allowed', 1), else_=0)
+        ).label('allowed_count'),
+        func.sum(
+            sql_case((Case.appeal_outcome == 'denied', 1), else_=0)
+        ).label('denied_count'),
+        func.round(
+            func.sum(sql_case((Case.appeal_outcome == 'allowed', 1), else_=0)).cast(Numeric) /
+            func.nullif(
+                func.sum(
+                    sql_case(
+                        (Case.appeal_outcome.in_(['allowed', 'denied']), 1),
+                        else_=0
+                    )
+                ), 0
+            ),
+            4
+        ).label('override_rate')
+    ).filter(
+        Case.order_date.isnot(None),
+        Case.appeal_outcome.in_(['allowed', 'denied'])
+    ).group_by(
+        func.date_trunc('month', Case.order_date)
+    ).order_by(
+        func.date_trunc('month', Case.order_date).desc()
+    ).limit(24).all()
 
     return [
         OverrideTrendResponse(
@@ -140,8 +160,9 @@ async def get_override_trend(db: Session = Depends(get_db)):
             denied_count=row.denied_count or 0,
             override_rate=float(row.override_rate) if row.override_rate else 0.0
         )
-        for row in result
+        for row in results
     ]
+
 
 @router.get("/ministry/{ministry_id}/orders", response_model=List[MinistryOrderResponse])
 async def get_ministry_orders(
@@ -152,30 +173,27 @@ async def get_ministry_orders(
 ):
     """Get all orders for a specific ministry with pagination"""
 
-    # Validate limit
+    # Validate parameters
     if limit > 500:
         raise HTTPException(status_code=400, detail="Limit cannot exceed 500")
     if offset < 0:
         raise HTTPException(status_code=400, detail="Offset cannot be negative")
 
-    # Use f-string for LIMIT/OFFSET since SQLAlchemy text() doesn't support them as parameters
-    query = text(f"""
-        SELECT
-            order_number,
-            order_url,
-            section_cited,
-            appeal_outcome,
-            appeal_level,
-            order_date
-        FROM cases
-        WHERE ministry_id = :ministry_id
-        ORDER BY order_date DESC NULLS LAST
-        LIMIT {limit} OFFSET {offset}
-    """)
+    # Query cases
+    results = db.query(
+        Case.order_number,
+        Case.order_url,
+        Case.section_cited,
+        Case.appeal_outcome,
+        Case.appeal_level,
+        Case.order_date
+    ).filter(
+        Case.ministry_id == ministry_id
+    ).order_by(
+        Case.order_date.desc().nullslast()
+    ).offset(offset).limit(limit).all()
 
-    result = db.execute(query, {"ministry_id": ministry_id}).fetchall()
-
-    if not result and offset == 0:
+    if not results and offset == 0:
         raise HTTPException(status_code=404, detail="Ministry not found or no orders available")
 
     return [
@@ -187,8 +205,9 @@ async def get_ministry_orders(
             appeal_level=row.appeal_level,
             order_date=row.order_date
         )
-        for row in result
+        for row in results
     ]
+
 
 @router.get("/graph", response_model=GraphResponse)
 async def get_knowledge_graph():
@@ -202,8 +221,20 @@ async def get_knowledge_graph():
         )
 
     try:
-        with open(graph_path, 'rb') as f:
-            G = pickle.load(f)
+        # Load pickle with integrity verification
+        hash_file = Path(str(graph_path) + '.sha256')
+        try:
+            G = load_pickle_with_verification(
+                graph_path,
+                hash_file=hash_file if hash_file.exists() else None
+            )
+            logger.info("Knowledge graph loaded successfully with integrity verification")
+        except PickleIntegrityError as e:
+            logger.error(f"Knowledge graph integrity check failed: {e}")
+            raise HTTPException(
+                status_code=500,
+                detail="Knowledge graph file integrity check failed. Please regenerate the graph."
+            )
 
         # Convert NetworkX graph to API response format
         nodes = [
@@ -224,5 +255,8 @@ async def get_knowledge_graph():
 
         return GraphResponse(nodes=nodes, edges=edges)
 
+    except HTTPException:
+        raise
     except Exception as e:
+        logger.error(f"Error loading knowledge graph: {e}", exc_info=True)
         raise HTTPException(status_code=500, detail=f"Error loading knowledge graph: {str(e)}")

@@ -1,0 +1,78 @@
+{
+  "doc_name": "4e50991771b774f7f934138a73a4a4f1",
+  "line_count": 490,
+  "structure": [
+    {
+      "title": "Central Information Commission",
+      "node_id": "0001",
+      "line_num": 10
+    },
+    {
+      "title": "Central Information Commission",
+      "node_id": "0002",
+      "line_num": 18,
+      "nodes": [
+        {
+          "title": "SA/Complaint :",
+          "node_id": "0003",
+          "line_num": 39
+        },
+        {
+          "title": "CORAM:",
+          "node_id": "0004",
+          "line_num": 48
+        },
+        {
+          "title": "ORDER",
+          "node_id": "0005",
+          "line_num": 52
+        },
+        {
+          "title": ". The details of my request are as follows:",
+          "node_id": "0006",
+          "line_num": 64
+        },
+        {
+          "title": "under:",
+          "node_id": "0007",
+          "line_num": 137
+        },
+        {
+          "title": "information sought by appellant at Sr. No. 7 to 9 in his application has been",
+          "node_id": "0008",
+          "line_num": 148
+        },
+        {
+          "title": "information sought by him is protected under Section (8) (1) (e) of the Act and",
+          "node_id": "0009",
+          "line_num": 183
+        },
+        {
+          "title": "Appeal No.6454 of 2011, whereby their Lordship has held as below:",
+          "node_id": "0010",
+          "line_num": 219
+        },
+        {
+          "title": "Facts emerging in Course of Hearing:",
+          "node_id": "0011",
+          "line_num": 276
+        },
+        {
+          "title": "Decision:",
+          "node_id": "0012",
+          "line_num": 330
+        },
+        {
+          "title": "Appeal/Complaint is non-furnishing of information by the Respondent.",
+          "node_id": "0013",
+          "line_num": 337
+        },
+        {
+          "title": "Addresses of the parties:",
+          "node_id": "0014",
+          "line_num": 447
+        }
+      ]
+    }
+  ]
+}

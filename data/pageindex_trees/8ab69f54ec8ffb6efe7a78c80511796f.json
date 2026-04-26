@@ -1,0 +1,48 @@
+{
+  "doc_name": "8ab69f54ec8ffb6efe7a78c80511796f",
+  "line_count": 218,
+  "structure": [
+    {
+      "title": "Central Information Commission",
+      "node_id": "0001",
+      "line_num": 10
+    },
+    {
+      "title": "Central Information Commission",
+      "node_id": "0002",
+      "line_num": 18,
+      "nodes": [
+        {
+          "title": "Relevant facts emerging from appeal:",
+          "node_id": "0003",
+          "line_num": 37
+        },
+        {
+          "title": "Information sought",
+          "node_id": "0004",
+          "line_num": 46
+        },
+        {
+          "title": "and background of the case:",
+          "node_id": "0005",
+          "line_num": 48
+        },
+        {
+          "title": "Appeal dated 27.06.2019. The FAA/Registrar General vide order dated",
+          "node_id": "0006",
+          "line_num": 69
+        },
+        {
+          "title": "Facts emerging in Course of Hearing:",
+          "node_id": "0007",
+          "line_num": 80
+        },
+        {
+          "title": "Decision:",
+          "node_id": "0008",
+          "line_num": 125
+        }
+      ]
+    }
+  ]
+}

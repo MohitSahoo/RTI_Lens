@@ -1,0 +1,293 @@
+"""
+Streamlit Frontend for RTI-Lens API Testing
+"""
+import streamlit as st
+import requests
+from datetime import date
+import json
+import pandas as pd
+import os
+
+API_BASE = os.getenv("API_BASE_URL", "http://localhost:8001")
+
+st.set_page_config(page_title="RTI-Lens Test UI", layout="wide")
+st.title("🔍 RTI-Lens API Test Interface")
+
+# Sidebar for API health
+with st.sidebar:
+    st.header("System Status")
+    if st.button("Check Health"):
+        try:
+            response = requests.get(f"{API_BASE}/health", timeout=5)
+            if response.status_code == 200:
+                health = response.json()
+                st.success("✅ API Healthy")
+                st.json(health)
+            else:
+                st.error(f"❌ API Error: {response.status_code}")
+        except Exception as e:
+            st.error(f"❌ Connection Failed: {str(e)}")
+
+# Main tabs
+tab1, tab2, tab3, tab4, tab5 = st.tabs([
+    "💬 Q&A",
+    "📝 Draft Appeal",
+    "🎯 Predict Outcome",
+    "📊 Analytics",
+    "🕸️ Knowledge Graph"
+])
+
+# Tab 1: Q&A
+with tab1:
+    st.header("Ask Questions About RTI Rulings")
+
+    question = st.text_area(
+        "Question",
+        placeholder="e.g., What are common reasons for RTI denial under Section 8(1)(a)?",
+        height=100
+    )
+    top_k = st.slider("Number of sources", 1, 20, 5)
+
+    if st.button("Ask Question", key="qa_btn"):
+        if len(question) < 10:
+            st.error("Question must be at least 10 characters")
+        else:
+            with st.spinner("Searching rulings..."):
+                try:
+                    response = requests.post(
+                        f"{API_BASE}/api/qa",
+                        json={"question": question, "top_k": top_k},
+                        timeout=30
+                    )
+                    if response.status_code == 200:
+                        data = response.json()
+                        st.success("✅ Answer Generated")
+
+                        st.subheader("Answer")
+                        st.write(data["answer"])
+
+                        if data.get("confidence"):
+                            st.info(f"Confidence: {data['confidence']}")
+
+                        st.subheader("Sources")
+                        for i, source in enumerate(data["sources"], 1):
+                            with st.expander(f"Source {i}: {source.get('order_number', 'N/A')}"):
+                                st.json(source)
+                    else:
+                        st.error(f"Error {response.status_code}: {response.text}")
+                except Exception as e:
+                    st.error(f"Request failed: {str(e)}")
+
+# Tab 2: Draft Appeal
+with tab2:
+    st.header("Improve Appeal Draft")
+
+    ministry = st.text_input("Ministry", placeholder="e.g., Ministry of Home Affairs")
+    section = st.text_input("Section Cited", placeholder="e.g., 8(1)(a)")
+    context = st.text_area(
+        "Appeal Context",
+        placeholder="Describe your RTI request and why it was denied...",
+        height=200
+    )
+
+    if st.button("Generate Improvements", key="draft_btn"):
+        if len(context) < 50:
+            st.error("Context must be at least 50 characters")
+        else:
+            with st.spinner("Analyzing appeal..."):
+                try:
+                    response = requests.post(
+                        f"{API_BASE}/api/draft",
+                        json={
+                            "ministry": ministry,
+                            "section_cited": section,
+                            "context": context
+                        },
+                        timeout=30
+                    )
+                    if response.status_code == 200:
+                        data = response.json()
+                        st.success("✅ Improvements Generated")
+
+                        st.subheader("Improved Query")
+                        st.write(data["improved_query"])
+
+                        st.subheader("Change Notes")
+                        for note in data["change_notes"]:
+                            st.info(f"**{note.get('original', 'Original')}** → **{note.get('revised', 'Revised')}**\n\n*Reason: {note.get('reason', '')}*")
+
+                        st.subheader("Phrases to Avoid")
+                        for phrase in data["avoid_phrases"]:
+                            st.warning(f"❌ {phrase}")
+
+                        st.subheader("Supporting Precedents")
+                        for i, source in enumerate(data["sources"], 1):
+                            with st.expander(f"Precedent {i}"):
+                                st.json(source)
+                    else:
+                        st.error(f"Error {response.status_code}: {response.text}")
+                except Exception as e:
+                    st.error(f"Request failed: {str(e)}")
+
+# Tab 3: Predict Outcome
+with tab3:
+    st.header("Predict Appeal Outcome")
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+        pred_ministry = st.text_input("Ministry", key="pred_ministry")
+        pred_section = st.text_input("Section Cited", key="pred_section")
+        appeal_level = st.selectbox("Appeal Level", ["first_appeal", "second_appeal"])
+
+    with col2:
+        order_date = st.date_input("Order Date (optional)", value=None)
+
+    raw_text = st.text_area(
+        "Order Text",
+        placeholder="Paste the full order text here (minimum 100 characters)...",
+        height=200
+    )
+
+    if st.button("Predict Outcome", key="predict_btn"):
+        if len(raw_text) < 100:
+            st.error("Order text must be at least 100 characters")
+        else:
+            with st.spinner("Running prediction model..."):
+                try:
+                    payload = {
+                        "ministry": pred_ministry,
+                        "section_cited": pred_section,
+                        "appeal_level": appeal_level,
+                        "raw_text": raw_text
+                    }
+                    if order_date:
+                        payload["order_date"] = order_date.isoformat()
+
+                    response = requests.post(
+                        f"{API_BASE}/api/predict",
+                        json=payload,
+                        timeout=30
+                    )
+                    if response.status_code == 200:
+                        data = response.json()
+
+                        # Display prediction with color
+                        if data["prediction"] == "allowed":
+                            st.success(f"✅ Predicted: **{data['prediction'].upper()}**")
+                        else:
+                            st.error(f"❌ Predicted: **{data['prediction'].upper()}**")
+
+                        st.metric("Probability", f"{data['probability']:.2%}")
+                        st.info(f"Confidence: {data['confidence']}")
+                        st.warning(data["disclaimer"])
+
+                        if data.get("low_data_warning"):
+                            st.warning("⚠️ Low data warning: Limited training data for this combination")
+
+                        if data.get("model_card"):
+                            with st.expander("Model Details"):
+                                st.json(data["model_card"])
+                    else:
+                        st.error(f"Error {response.status_code}: {response.text}")
+                except Exception as e:
+                    st.error(f"Request failed: {str(e)}")
+
+# Tab 4: Analytics
+with tab4:
+    st.header("Analytics Dashboard")
+
+    analytics_type = st.selectbox(
+        "Select Analytics",
+        ["Denial Rates by Ministry", "Section Misuse Heatmap", "Override Trends"]
+    )
+
+    if analytics_type == "Denial Rates by Ministry":
+        if st.button("Load Denial Rates"):
+            with st.spinner("Loading data..."):
+                try:
+                    response = requests.get(f"{API_BASE}/api/analytics/denial-rates", timeout=10)
+                    if response.status_code == 200:
+                        data = response.json()
+                        st.success(f"✅ Loaded {len(data)} ministries")
+
+                        # Display as table
+                        df = pd.DataFrame(data)
+                        st.dataframe(df, use_container_width=True)
+
+                        # Bar chart
+                        st.bar_chart(df.set_index('ministry')['denial_rate'])
+                    else:
+                        st.error(f"Error {response.status_code}: {response.text}")
+                except Exception as e:
+                    st.error(f"Request failed: {str(e)}")
+
+    elif analytics_type == "Section Misuse Heatmap":
+        if st.button("Load Section Heatmap"):
+            with st.spinner("Loading data..."):
+                try:
+                    response = requests.get(f"{API_BASE}/api/analytics/section-heatmap", timeout=10)
+                    if response.status_code == 200:
+                        data = response.json()
+                        st.success(f"✅ Loaded {len(data)} section-ministry pairs")
+
+                        df = pd.DataFrame(data)
+                        st.dataframe(df, use_container_width=True)
+                    else:
+                        st.error(f"Error {response.status_code}: {response.text}")
+                except Exception as e:
+                    st.error(f"Request failed: {str(e)}")
+
+    elif analytics_type == "Override Trends":
+        if st.button("Load Override Trends"):
+            with st.spinner("Loading data..."):
+                try:
+                    response = requests.get(f"{API_BASE}/api/analytics/override-trends", timeout=10)
+                    if response.status_code == 200:
+                        data = response.json()
+                        st.success(f"✅ Loaded {len(data)} data points")
+
+                        df = pd.DataFrame(data)
+                        st.dataframe(df, use_container_width=True)
+
+                        # Line chart
+                        st.line_chart(df.set_index('date')['override_rate'])
+                    else:
+                        st.error(f"Error {response.status_code}: {response.text}")
+                except Exception as e:
+                    st.error(f"Request failed: {str(e)}")
+
+# Tab 5: Knowledge Graph
+with tab5:
+    st.header("Knowledge Graph Visualization")
+
+    if st.button("Load Graph Data"):
+        with st.spinner("Building knowledge graph..."):
+            try:
+                response = requests.get(f"{API_BASE}/api/graph", timeout=15)
+                if response.status_code == 200:
+                    data = response.json()
+                    st.success(f"✅ Graph loaded: {len(data['nodes'])} nodes, {len(data['edges'])} edges")
+
+                    col1, col2 = st.columns(2)
+
+                    with col1:
+                        st.subheader("Nodes")
+                        st.json(data["nodes"][:10])  # Show first 10
+                        st.caption(f"Showing 10 of {len(data['nodes'])} nodes")
+
+                    with col2:
+                        st.subheader("Edges")
+                        st.json(data["edges"][:10])  # Show first 10
+                        st.caption(f"Showing 10 of {len(data['edges'])} edges")
+
+                    with st.expander("Full Graph Data"):
+                        st.json(data)
+                else:
+                    st.error(f"Error {response.status_code}: {response.text}")
+            except Exception as e:
+                st.error(f"Request failed: {str(e)}")
+
+# Footer
+st.markdown("---")
+st.caption("RTI-Lens API Test Interface | Make sure API is running on http://localhost:8001")

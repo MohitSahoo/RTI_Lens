@@ -1,26 +1,49 @@
 """
 RTI Appeal Draft Generation Endpoint
 """
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, Request
 from sqlalchemy.orm import Session
 from sqlalchemy import text
 from google import genai
 from google.genai import types
+from slowapi import Limiter
+from slowapi.util import get_remote_address
 import json
-from backend.config import GEMINI_API_KEY, GEMINI_MODEL
+import logging
+from backend.config import GEMINI_API_KEY, GEMINI_MODEL, RATE_LIMIT
 from backend.database import get_db
 from backend.schemas import DraftRequest, DraftResponse
 from backend.utils.bm25_loader import BM25Loader
+from backend.utils.sanitization import sanitize_context, validate_ministry_name, validate_section_cited
 
 router = APIRouter(prefix="/api", tags=["draft"])
+limiter = Limiter(key_func=get_remote_address)
+logger = logging.getLogger(__name__)
 
 @router.post("/draft", response_model=DraftResponse)
-async def generate_draft(request: DraftRequest, db: Session = Depends(get_db)):
+@limiter.limit(RATE_LIMIT)
+async def generate_draft(request: Request, body: DraftRequest, db: Session = Depends(get_db)):
     """
     Generate RTI appeal draft using BM25 retrieval + section stats + Gemini
     """
     if not GEMINI_API_KEY:
-        raise HTTPException(status_code=500, detail="GEMINI_API_KEY not configured")
+        raise HTTPException(
+            status_code=503,
+            detail="Draft endpoint unavailable: GEMINI_API_KEY not configured. Get a key from https://aistudio.google.com/apikey and add to .env file."
+        )
+
+    # Sanitize and validate inputs
+    ministry = validate_ministry_name(body.ministry)
+    if not ministry:
+        raise HTTPException(status_code=400, detail="Invalid ministry name")
+
+    section = validate_section_cited(body.section_cited)
+    if not section:
+        raise HTTPException(status_code=400, detail="Invalid section citation format")
+
+    context = sanitize_context(body.context)
+    if not context:
+        raise HTTPException(status_code=400, detail="Invalid context input")
 
     # Get section statistics
     query = text("""
@@ -37,13 +60,13 @@ async def generate_draft(request: DraftRequest, db: Session = Depends(get_db)):
     """)
 
     section_stats = db.execute(query, {
-        "section": request.section_cited,
-        "ministry": request.ministry
+        "section": section,
+        "ministry": ministry
     }).fetchone()
 
     # Retrieve similar cases using BM25
     bm25_loader = BM25Loader()
-    search_query = f"{request.ministry} {request.section_cited} appeal"
+    search_query = f"{ministry} {section} appeal"
     results = bm25_loader.search(search_query, top_k=3)
 
     # Build context
@@ -66,9 +89,9 @@ Section {section_stats.section_cited} Statistics for {section_stats.ministry}:
 
 Analyze and improve the following RTI query:
 
-Ministry: {request.ministry}
-Section Cited: {request.section_cited}
-Original Query: {request.context}
+Ministry: {ministry}
+Section Cited: {section}
+Original Query: {context}
 
 {stats_context}
 
@@ -118,13 +141,13 @@ Response:"""
                 response_text = response_text[json_start:json_end].strip()
 
             parsed = json.loads(response_text)
-            improved_query = parsed.get("improved_query", request.context)
+            improved_query = parsed.get("improved_query", context)
             change_notes = parsed.get("change_notes", [])
             avoid_phrases = parsed.get("avoid_phrases", [])
             sources = parsed.get("sources", [])
         except json.JSONDecodeError:
             # Fallback: use original context and generate basic response
-            improved_query = request.context
+            improved_query = context
             change_notes = [{
                 "original": "original query",
                 "revised": "improved query",
@@ -136,7 +159,7 @@ Response:"""
         # Add context-specific avoid phrases from section stats
         if section_stats and section_stats.misuse_rate > 0.3:
             avoid_phrases.append(
-                f"Avoid citing {request.section_cited} without specific justification "
+                f"Avoid citing {section} without specific justification "
                 f"(has {section_stats.misuse_rate * 100:.1f}% overturn rate)"
             )
 
@@ -155,5 +178,12 @@ Response:"""
             sources=sources[:3]  # Limit to 3
         )
 
+    except ValueError as e:
+        logger.error(f"Validation error in draft generation: {e}")
+        raise HTTPException(status_code=400, detail=str(e))
+    except json.JSONDecodeError as e:
+        logger.error(f"JSON parsing error in draft generation: {e}")
+        raise HTTPException(status_code=500, detail="Failed to parse AI response. Please try again.")
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Error generating draft: {str(e)}")
+        logger.error(f"Unexpected error in draft generation: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail="An error occurred while generating the draft. Please try again.")

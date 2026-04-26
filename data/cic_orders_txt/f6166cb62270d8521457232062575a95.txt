@@ -1,0 +1,602 @@
+[Cites 
+18
+, Cited by 
+0
+]
+
+
+
+
+Central Information Commission
+
+
+Manoj Kumar Singh vs Chief Commissioner Of Income Tax (Cca), ... on 15 May, 2023
+
+
+Author: 
+Saroj Punhani
+
+
+Bench: 
+Saroj Punhani
+
+
+                                के ीय सूचना आयोग
+                         Central Information Commission
+                             बाबागंगनाथमाग, मुिनरका
+                          Baba Gangnath Marg, Munirka
+                          नई द ली, New Delhi - 110067
+
+
+File No : CIC/CCITD/A/2022/158058
+
+Manoj Kumar Singh                                         ......अपीलकता/Appellant
+
+
+                                         VERSUS
+                                          बनाम
+CPIO,
+O/o ACIT, Central Circle 29,
+Delhi. RTI Cell. Room No. 318,
+Income Tax Building. ARA
+Centre, Jhandewalan Extn,
+New Delhi 110055.                                        .... ितवादीगण /Respondent
+
+Date of Hearing                     :    18/04/2023
+Date of Decision                    :    08/05/2023
+
+INFORMATION COMMISSIONER :               Saroj Punhani
+
+Relevant facts emerging from appeal:
+
+RTI application filed on                : 11/07/2022
+CPIO replied on                         : 15/07/2022
+First appeal filed on                   : 10/08/2022
+First Appellate Authority's order       : 12/09/2022
+2nd Appeal/Complaint dated              : 13/12/2022
+
+Information sought
+:
+
+The Appellant filed an RTI application dated 11.07.2022 seeking the following
+information:
+
+
+
+                                            1
+
+
+ "Subject Matter: In the Assessment Orders issued in the case of Applicant (PAN:
+AAXPS2824H) for Assessment Year 2011-12 to 2020-21 by DCIT, Central Circle-29
+in search and seizure proceedings under 
+Section 153A
+ of the Income Tax Act ('Act),
+the reference to the requisition proceedings under 
+Section 132A
+ of the Act, of Mr.
+Devesh Singh conducted on 17.10.2019 by Investigation Officer, Income Tax
+Department, Aayakar Bhawan, HSIIDC Building, Udyog Vihar Phase V, Gurugram,
+Haryana, has been referred and also the data found in such requisition
+proceedings have been relied upon in the case of the Applicant.
+
+
+
+1. Request to provide the outcome, Order(s), direction(s) passed in 
+Section 132A
+ of
+the Income Tax Act, 1961 proceedings in the case of Mr. Devesh Singh which has
+been relied upon in the case of Applicant.
+
+
+
+2. Request to provide the statement(s) recorded, documents (including those
+recovered from the electronic devices, Forensic image Form 658/Hash Value COC
+form, etc) as taken into account (impounded during the said 
+Section 132A
+
+proceedings of Mr. Devesh Singh and relied upon in the case of the Applicant."
+
+
+
+The CPIO furnished a reply to the appellant on 15.07.2022 stating as under :-
+
+
+
+      "As per the provisions of 
+section 8
+ of the RTI Act, 2005, the information
+cannot be disclosed to the applicant, as the applicant, ln his application had
+nowhere submitted as to how the larger public interest warrants the disclosure of
+such information. Moreover, the information as sought for ls confidential and
+highly sensitive pertaining to third party i.e. sh. Devesh Singh, which will not be
+provided to the applicant.
+
+
+
+       The information sought for had already been provided to the assesses
+during the process of post-search investigation on 28/12/2020 by the o/o DDIT
+(lNV.) (HQ.), Chandigarh and again by the office of the undersigned during the
+course of search assessment proceedings on 11/02/2022, 12/02/2022 and
+14/02/2022."
+
+
+
+Being dissatisfied, the appellant filed a First Appeal dated 10.08.2022 stating as
+under:
+
+
+
+      "...It is to be noted that the Applicant has been assessed basis the
+requisition proceedings under Section l32A of the lncome 
+Tax Act, 1961
+ of Mr.
+Devesh Singh for Assessment Years 2011-12 to 2020-21 and in the Show Cause
+
+                                         2
+
+ Notice issued for the Assessment Year 2021-22 which is currently been assessed by
+Ld. DCIT, Central Circle-29. The Ld, DCIT has placed reliance on the
+information/documents received from the said 
+Section 132A
+ requisition
+proceedings as referred to in the said assessment order(s) as well as in the said
+show cause notice. It is incorrect on the part of the Ld. DCIT passing the order
+ u/s
+7
+ of the RTI Act, that 'the information cannot be disclosed to the applicant, as the
+applicant, in his application had nowhere submitted as to how the larger public
+interest warrants the disclosure of such information. Moreover, the it as sought
+for is confidential and highly sensitive pertaining to third party i.e., Devesh Singh,
+which will not be provided to the applicant.'
+
+
+       (iii) It is humbly submitted that Ld. JCIT had failed to appreciate that any
+information which is used in the case of the Applicant, the Applicant can request
+for such information and in such case the Applicant is not required to submit as to
+how the larger public interest warrants the disclosure of such information and/or
+such information cannot be provided as its a confidential and sensitive
+information. Such requirements while seeking information under RTI are unknown
+to law.
+
+
+
+      (iv) The Applicant is also aggrieved from the response given in Para 3.2 of
+the Order
+ u/s 7
+ of the RTI Act, 2005 passed by the Ld JCIT wherein the Ld. JCIT had
+mentioned that "the information sought for had already been provided to the
+assessee during the process of post-search investigation on 28.12.2020 by the 0/o
+DDIT (Inv.) (HQ), Chandigarh and again by the office of the undersigned during the
+course ofsearch assessment proceedings on 11.02.2022, 12.02.2022 and
+14.02.2022. ". The Appellant Authority may respectfully appreciate that in Para
+3.1 the Ld JCIT itself have referred that the information sought cannot be disclosed
+to the applicant for reasons mentioned in the said para including that it's a third
+party confidential and highly sensitive information and in Para 3.2 the Ld JCIT is
+answering the information sought has already been provided. Such contradictory
+and mutually destructive plea are required to be set aside and the information as
+sought by the Applicant may kindly be provided.
+
+
+
+      (v) That it is submitted that the Applicant's AR was provided with the
+unsigned and uncertified information in a pen drive (unverified) on 28.12.2020
+pertaining to the Applicant as alleged to be found from the premises of the
+Applicant. The Applicant has separately filed the grievance for such incomplete
+information with Investigation wing. Be that as may be, it is to be noted that no
+information as requested in RTI dated 11.07.2022 i.e. "the statement(s) recorded,
+
+                                          3
+
+ documents (including those recovered from the electronic devices, Forensic Image,
+Form 65B/Hash Value, COC form, etc) as taken into account/impounded during
+the said 
+Section 132A
+ proceedings of Mr. Devesh Singh" was provided to the
+Applicant during the said post search proceedings. The Appellant Authority can
+verify this fact from the note sheet dated 28.12.2020. The copy of the order as
+provided to the Applicant during assessment proceeding is annexed and marked
+as Annexure-A
+
+
+       (vi) That it is further humbly submitted that during the course of search
+assessment proceedings on 11.02.2022, 12.02.2022 and 14.02.2022 i.e. during the
+Mazharnama proceedings, certain incomplete information was provided w.r.t
+premises of the Applicant and no information as requested in RTI dated
+11.07.2022 i.e. "the statement(s) recorded, documents (including those recovered
+from the electronic devices, Forensic Image, Form 65B/Hash Value, COC form, etc)
+as taken into account/impounded during the said 
+Section 132A
+ proceedings of Mr.
+Devesh Singh" was provided to the Applicant. The Appellant Authority can verify
+this fact from the Mazaharnama proceedings and order sheets recorded by Ld JCIT
+during the said proceedings."
+
+
+
+FAA's order dated 12.09.2022 held as under:
+
+
+
+ 
+"For point No. 1 Please refer to my letter dated 17.08.2022 where Assessing
+Officer was found to be right while rejecting your application because the
+information was related to third party where no larger public interest is involved.
+Further, In the light of the view of judgment of Hon'ble jurisdictional High Court in
+the case of (
+Dr RS Gupta vs GNCTD
+) held that "in absence of any larger public
+interest, disclosure of personal information is exempted under the 
+Right to
+Information (RTI) Act
+, as the same would cause unwarranted invasion of privacy
+under 
+Section 8(1)(j)
+ of the Act". In your submission dated 26.08.2022, the
+explanation of larger public interest is misplaced by you. Even on seeing the tax
+payer's charter (manual procedure), it has no where mention that the outcome of
+any assessment proceeding related to third party may be shared. Therefore, the
+outcome of assessment order of Shri. Devesh Singh (alias Sunny) cannot be shared
+with you as per 
+Section 8(1)
+0) 
+RTI Act, 2005
+ as it has no larger public interest and
+is highly confidential in nature.
+
+
+
+
+      4. In regard to your second request, it has been observed that the additions
+in your case have been relied upon the data which were not only found from Shri.
+Devesh Singh during search dated 14.10.2020 but also on other documents which
+
+                                          4
+
+ were seized from your residential and office premise. It is the fact that the similar
+nature of data were also found from your residential and office premise which
+have been already provided along with hash value and 65B certificate. On perusal
+of assessment order, it is found that the additions have been relied upon the
+following data not only restricted to 132A proceedings in Devesh Singh-
+
+
+
+      1. Pen drive found and seized from possession of Sh. Chander Prakash,
+employee of M/s Singh and Associates, at the office of M/s Singh and Associates
+at E-337, east of Kailash, New Delhi on 14.10.2020.
+
+
+
+      2. Server disk forensically imaged and seized from the office of M/s Singh
+and Associates at E-337, east of Kailash, New Delhi on 14.10.2020, Annexure A-11.
+
+
+
+      3. Dairies Impounded from Office of M/s Singh and Associates from E-337
+East of Kailash, New Delhi.
+
+
+
+      3. The Mahzarnama proceedings were made on 11.02.2022, 12.02.2022
+and 14.02.2022 the following seized data had already been provided along with
+hash value, form 65B as detailed below:-
+
+
+
+      The data seized from Shri. Devesh Singh during 132A proceedings dated
+18.10.2019 was also found and seized during search and seizure proceedings
+dated 14.10.2020 on the premises of Shri. Manoj Kumar Singh which has already
+been provided to you as tabulated above. As the similar nature of data found and
+seized during search dated 14.10.2020 therefore the reliance was made on this
+data. The data seized from Sh. Devesh Singh during 132A proceedings was not
+complete hence, it has been used for only reference purpose during questionnaire
+
+                                          5
+
+ issued
+ u/s 142(1)
+ of Income Tax Act. Even the similar data was found and seized
+from the pen-drive of one of your employee Sh. Chander Prakash which was
+provided to you during Mahzarnama proceedings dated 12.02.2022. Therefore, all
+the materials on the basis of which the additions have been made in your case
+have already been provided to you. Hence, your request made through point no. 2
+in your application is not sustainable and hence is being rejected."
+
+
+
+Feeling aggrieved and dissatisfied, the appellant approached the Commission with
+the instant Second Appeal stating as under:
+
+
+
+       "e. That Appellant/Applicant is further aggrieved from the order under
+
+Section 19(1)
+ of the RTI Act, dated 12.09.2022 of First Appellate Authority i.e. Ld.
+JCIT, Central Circle-29, Central Range-8, Delhi due to following reasons:
+
+
+
+      i. The Appellant/Applicant on not receiving any satisfactory response to the
+RTI Application filed by him to Ld. CPIO, had filed the Appeal before Ld. First
+Appellate Authority i.e., Ld. JCIT, Central Circle-29, Central Range-8, Delhi on
+10.08.2022. The copy of the said First appeal dated 10.08.2022 of First Appeal and
+Order dated 12.09.2022 is enclosed and marked as Annexure- V and Annexure- VI
+respectively.
+
+
+
+       ii. That in the said Order dated 12.09.2022 of First Appellate Authority, has
+reiterated the same observations as given by Ld. DCIT (CPIO) and that the Ld. First
+Appellate Authority has also not appreciated that what the Applicant/Appellant
+has sought is different from the one which has been relied upon by IA. DCIT (CPIO)
+and IA. JCIT (First Appellate Authority) as provided to the Appellant/Applicant
+allegedly by the Investigation Wing (who has conducted search) and/or provided
+during the Mazaharnama Proceedings dated 11.02.2022, 12.02.2022 and
+14.02.2022.
+
+
+
+      iii. That the First Appellate Authority have during the pendency of appeal
+have sought clarification from the Appellate/Applicant vide letter dated
+17.08.2022.
+
+
+
+       iv. That the Appellate/Applicant has submitted the details response to the
+letter dated 17.08.2022 wherein the Appellate/Applicant has clarified and again
+submitted that the information sought by the Appellant/Applicant in his RTI
+Application is not an issue which need to be examined on the point of "public
+interest", "third party information "and/or "confidential nature" as the
+
+                                         6
+
+ information sought has been relied upon in the Assessment proceedings of the
+Appellant/Applicant.
+
+
+
+      v. Furthermore, the information (even though incomplete, unauthenticated)
+provided to the Appellant/Applicant is different from the information sought by
+the Appellant/Applicant.
+
+
+
+       vi. That the First Appellate Authority failed to take note of the clarification
+and reasons for seeking the information as submitted by the Appellant. That the
+First Appellate Authority though have confirmed that the reliance was placed on
+the data/information seized from Shri Devesh Singh during Section 132A
+proceedings however still failed to provide the same to the Appellant on frivolous
+grounds."
+
+
+
+Relevant Facts emerging during Hearing:
+
+The following were present:-
+
+
+
+Appellant: Represented by Vijay Kumar Singh through intra-video conference.
+Respondent: Not present.
+
+
+
+The Rep. of the Appellant was heard at length extrapolating on the grounds of
+First and Second Appeal as detailed above and the underlining argument for
+seeking relief in the matter was that since the requisition proceedings under
+
+Section 132A
+ of the Act of Mr. Devesh Singh was relied upon in the assessment
+proceedings conducted against the Appellant, the information sought for cannot
+be denied as being related to a third party.
+
+
+
+Decision:
+
+The Commission based on a close scrutiny of the facts on record observes that
+admittedly, the Appellant is simply asking for the information related to a third
+party's assessment proceedings and disclosure of the same is squarely exempt
+under 
+Section 8(1)(j)
+ of the RTI Act as being the personal information of the
+averred third party. For the sake of clarity, 
+Section 8(1)(j)
+ of the RTI Act provides
+as under:
+
+
+
+      "(j) information which relates to personal information the disclosure of
+which has no relationship to any public activity or interest, or which would cause
+unwarranted invasion of the privacy of the individual unless the Central Public
+
+                                          7
+
+ Information Officer or the State Public Information Officer or the appellate
+authority, as the case may be, is satisfied that the larger public interest justifies
+the disclosure of such information:.."
+
+
+
+In this regard, the attention of the Appellant is further drawn towards a judgment
+of the Hon'ble Supreme Court in the matter of Central Public Information Officer,
+Supreme Court of 
+India Vs. Subhash Chandra Agarwal
+ in Civil Appeal No. 10044
+of 2010 with Civil Appeal No. 10045 of 2010 and Civil Appeal No. 2683 of 2010
+wherein the import of "personal information" envisaged under 
+Section 8(1)(j)
+ of
+RTI Act has been exemplified in the context of earlier ratios 
+laid down by
+ the
+same Court in the matter(
+s) of Canara Bank Vs. C.S. Shyam
+ in Civil Appeal No.22
+of 2009; 
+Girish Ramchandra Deshpande vs. Central Information Commissioner &
+Ors.
+, (2013) 1 SCC 212 and R.K. Jain vs. Union of India & Anr., (2013) 14 SCC 794.
+The following was thus held:
+
+
+
+
+      "59. Reading of the aforesaid judicial precedents, in our opinion, would
+indicate that personal records, including name, address, physical, mental and
+psychological status, marks obtained, grades and answer sheets, are all treated as
+personal information. Similarly, professional records, including qualification,
+performance, evaluation reports, ACRs, disciplinary proceedings, etc. are all
+personal information. Medical records, treatment, choice of medicine, list of
+hospitals and doctors visited, findings recorded, including that of the family
+members, information relating to assets, liabilities, income tax returns, details of
+investments, lending and borrowing, etc. are personal information. Such
+personal information is entitled to protection from unwarranted invasion of
+privacy and conditional access is available when stipulation of larger public
+interest is satisfied. This list is indicative and not exhaustive..." Emphasis Supplied
+
+Further, on the aspect of larger public interest, the Commission places reliance on
+a catena of judgments of the superior Courts on the import of "public interest" as
+under:
+
+
+
+The Hon'ble Supreme Court in the matter of 
+Bihar Public Service Commission vs.
+Saiyed Hussain Abbas Rizwi & Anr. [CIVIL APPEAL NO.9052 OF
+ 2012] observed as
+under:
+
+
+
+
+                                          8
+
+
+        "23. The expression 'public interest' has to be understood in its true
+connotation so as to give complete meaning to the relevant provisions of the Act.
+
+The expression 'public interest' must be viewed in its strict sense with all its
+exceptions so as to justify denial of a statutory exemption in terms of the Act. In its
+common parlance, the expression 'public interest', like 'public purpose', is not
+capable of any precise definition. It does not have a rigid meaning, is elastic and
+takes its colour from the statute in which it occurs, the concept varying with time
+and state of society and its needs. [
+State of Bihar v. Kameshwar Singh
+ (AIR 1952
+SC 252)]. It also means the general welfare of the public that warrants
+recommendation and protection; something in which the public as a whole has a
+stake [Black's Law Dictionary (Eighth Edition)]. Emphasis Supplied
+       "24. The satisfaction has to be arrived at by the authorities objectively and
+the consequences of such disclosure have to be weighed with regard to
+circumstances of a given case. The decision has to be based on objective
+satisfaction recorded for ensuring that larger public interest outweighs
+unwarranted invasion of privacy or other factors stated in the provision. Certain
+matters, particularly in relation to appointment, are required to be dealt with
+great confidentiality."
+
+
+ 
+".... Similarly, there may be cases where the disclosure has no relationship
+to any public activity or interest or it may even cause unwarranted invasion of
+privacy of the individual. All these protections have to be given their due
+implementation as they spring from statutory exemptions. It is not a decision
+simpliciter between private interest and public interest. It is a matter where a
+constitutional protection is available to a person with regard to the right to
+privacy. Thus, the public interest has to be construed while keeping in mind the
+balance factor between right to privacy and right to information with the
+purpose sought to be achieved and the purpose that would be served in the
+larger public interest, particularly when both these rights emerge from the
+constitutional values under the Constitution of India." Emphasis Supplied
+Similarly, in another judgment of the Hon'ble Supreme Court in the matter of 
+S. P.
+Gupta v President of India
+, [AIR 1982 SC 149], with reference to 'public interest' it
+has been maintained that:
+
+
+
+
+ 
+"Redressing public injury, enforcing public duty, protecting social, collective,
+'diffused' rights and interests vindicate public interest... [in the enforcement of
+which] the public or a class of the community have pecuniary interest or some
+interest by which their legal rights or liabilities are affected." Emphasis Supplied
+
+                                           9
+
+ And, in the matter of 
+State of Gujarat vs. Mirzapur Moti Kureshi Kasab Jamat &
+others
+ [Appeal (Civil) 4937-4940 of 1998], the Hon'ble Supreme Court has held
+that:
+
+
+
+
+      "the interest of general public (public interest) is of a wide importance
+covering public order, public health, public security, morals, economic welfare of
+the community, and the objects mentioned in Part IV of the Constitution [i.e.
+Directive Principles of State Policy]". Emphasis Supplied
+
+Since there is no material on record to ascribe larger public interest in the
+disclosure of the information related to the averred third party in any of the
+above referred contexts, the denial of the information by the CPIO is appropriate.
+
+
+
+Moreover, the FAA has issued a detailed order explaining to the Appellant the
+context of mentioning the references of the third party's requisition proceedings
+in the assessment proceedings of the Appellant, although considering or
+questioning the merits of the same is not within the scope of adjudication of the
+Commission under the 
+RTI Act
+.
+
+
+
+Nonetheless, since the CPIO remained absent during the hearing proceedings to
+present their case and has not even placed on record any written submissions,
+considering the insistence of the Rep. of the Appellant during the hearing that the
+information desired in the RTI Application was used in the assessment
+proceedings against the Appellant, the CPIO is directed to revisit the matter to
+ascertain if any information as sought for in the instant RTI Application figures in
+the relevant Appellant's assessment proceeding records. A revised reply to this
+effect shall be accordingly provided to the Appellant, incorporating such
+information, if available, free of cost, within 15 days from the date of receipt of
+this order under due intimation to the Commission.
+
+
+
+Further, the CPIO is directed to send a proper written explanation for
+disregarding the Commission's notice of hearing by not appearing before the
+bench. The said written explanation of the CPIO shall be sent to the Commission
+within 7 days of the receipt of this order.
+
+                      The appeal is disposed of accordingly.
+
+
+
+                                                   Saroj Punhani (सरोज पुनहािन)
+                                         Information Commissioner (सूचना आयु )
+
+
+                                         10
+
+ Authenticated true copy
+(अिभ मािणत स यािपत ित)
+
+(C.A. Joseph)
+Dy. Registrar
+011-26179548/ 
+[email protected]
+
+सी. ए. जोसेफ, उप-पंजीयक
+ दनांक /
+
+
+
+
+
+                                 11

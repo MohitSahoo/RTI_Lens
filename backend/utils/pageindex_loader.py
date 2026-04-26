@@ -3,8 +3,11 @@ PageIndex Tree Loader for hierarchical document retrieval
 """
 import json
 import re
+import logging
 from pathlib import Path
 from typing import List, Dict, Optional
+
+logger = logging.getLogger(__name__)
 
 PAGEINDEX_DIR = Path("data/pageindex_trees")
 MAPPING_FILE = Path("data/order_number_mapping.json")
@@ -24,7 +27,7 @@ class PageIndexLoader:
                 self.order_number_to_hash = json.load(f)
         else:
             # Fallback: build mapping on the fly (slow)
-            print("Warning: order_number_mapping.json not found. Building mapping...")
+            logger.warning("order_number_mapping.json not found. Building mapping on the fly (this may be slow)...")
             self._build_mapping()
 
     def _build_mapping(self):
@@ -156,17 +159,37 @@ class PageIndexLoader:
                 section["order_hash"] = order_hash
                 all_sections.append(section)
 
-        # Simple relevance scoring based on keyword overlap
-        question_words = set(question.lower().split())
+        # Robust tokenization for keyword matching
+        def get_keywords(text: str):
+            text = text.lower()
+            # Preserve section patterns
+            section_pattern = re.compile(r'\b\d+\(?[\w\d]*\)?(?:\(?[\w\d]*\)?)*\b')
+            sections = set(section_pattern.findall(text))
+            # Other words
+            words = set(re.sub(r'[^a-z0-9]', ' ', text).split())
+            return sections | words
+
+        question_keywords = get_keywords(question)
 
         for section in all_sections:
-            text_words = set(section["text"].lower().split())
-            title_words = set(section["title"].lower().split())
+            text_keywords = get_keywords(section["text"])
+            title_keywords = get_keywords(section["title"])
 
-            # Score: keyword overlap in text + bonus for title match
-            text_overlap = len(question_words & text_words)
-            title_overlap = len(question_words & title_words)
-            section["relevance_score"] = text_overlap + (title_overlap * 3)
+            # Score: overlap
+            text_overlap = len(question_keywords & text_keywords)
+            title_overlap = len(question_keywords & title_keywords)
+            
+            # High bonus for matching section numbers in title or text
+            section_match_bonus = 0
+            section_pattern = re.compile(r'\b\d+\(?[\w\d]*\)?(?:\(?[\w\d]*\)?)*\b')
+            q_sections = section_pattern.findall(question.lower())
+            for q_sec in q_sections:
+                if q_sec in title_keywords:
+                    section_match_bonus += 10
+                if q_sec in text_keywords:
+                    section_match_bonus += 5
+
+            section["relevance_score"] = text_overlap + (title_overlap * 3) + section_match_bonus
 
         # Sort by relevance and return top sections
         all_sections.sort(key=lambda x: x["relevance_score"], reverse=True)

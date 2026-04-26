@@ -1,0 +1,669 @@
+[Cites 
+20
+, Cited by 
+0
+]
+
+
+
+
+Central Information Commission
+
+
+Ram Gopal vs Chief Commissioner Of Service Tax, New ... on 5 October, 2023
+
+
+Author: 
+Saroj Punhani
+
+
+Bench: 
+Saroj Punhani
+
+
+                               के   ीय सूचना आयोग
+                        Central Information Commission
+                            बाबागंगनाथमाग , मुिनरका
+                         Baba Gangnath Marg, Munirka
+                          नई द ली, New Delhi - 110067
+
+
+File No : CIC/CCSTD/A/2023/117714
+
+RAM GOPAL                                      ......अपीलकता /Appellant
+
+                                      VERSUS
+                                       बनाम
+
+CPIO,
+O/O Asst. Commissioner, Central Goods &
+Service Tax,
+Plot No.36-37, Sector - 32,
+Gurugram-122001.                  .... ितवादीगण /Respondent
+
+Date of Hearing                   :   27/09/2023
+Date of Decision                  :   27/09/2023
+
+INFORMATION COMMISSIONER :            Saroj Punhani
+
+Relevant facts emerging from appeal:
+
+RTI application filed on          :   06/12/2022
+CPIO replied on                   :   21/12/2023
+First appeal filed on             :   06/01/2023
+First Appellate Authority order   :   02/02/2023
+2nd Appeal/Complaint dated        :   11/04/2023
+
+
+Information sought
+:
+
+The Appellant filed an RTI application dated 06.12.2022 seeking the following
+information:
+
+
+
+                                        1
+
+
+ "A Summon under 
+Section 70
+ of the CGST Act, 2017 has been issued under CBIC-
+DIN-20221252200000777F89 in name of our company M/s Beri Udyog Private
+Limited by the Superintendent (AE), CGST, Panchkula. In the summons, in addition
+to supply of various records, we are further required to reverse the ITC availed on
+the invoices issued by M/s Mechbulls Management Services Private Limited having
+GSTIN 06AAFCM1980K1Z9 as the said firm has not paid GST liability by filling
+GSTR-3B returns. The copy of Summon is enclosed.
+
+
+
+On the GST portal, the Administrative Office of above supplier is showing as
+Jurisdiction-Centre. Range-4, Division North-1, Commissionerate - Gurugram. As
+per Search Taxpayer details of above supplier downloaded from GST portal, M/s
+Mechbulls Management Services Private Limited had filed GSTR-38 returns up to
+the month of July, 2019 and had filed GSTR-1 rectums up to month of January,
+2021 The effective date of GST registration of the supplier is showing as
+22/09/2018 and this registration stand cancelled Suo-moto (effective from
+29/01/2021) as per this search details. The print-out of search details of M/s
+Mechbulls Management Services Private Limited is enclosed.
+
+
+
+Our company had received various taxable supplies of services during the period
+01/11/2018 to 31/07/2019 involving total CGST of Rs 16,36,768.00 & total SGST of
+Rs 46,13,161.00 & total SGST of Rs. 46,13,161.00 from the above supplier namely
+M/s Mechbulls Management Services Private Limited. Our company had duly paid
+the service charges along with CGST & SGST amount to the above supplier though
+banking channels in respect of invoices of services issued by the above service
+provider.
+
+
+
+Since M/s Mechbulls Management Services Private Limited had made taxable
+supplies of services to our company and had charged CGST & SGST on their
+invoices from our company, they were required to deposit the same with GST
+department. There is a proper mechanism under GST Act for recovery of such tax
+amount from the defaulter like 
+Section 79
+ of CGST Act, 2017 / 
+Haryana Goods and
+Service Tax Act, 2017
+.
+
+
+
+In the above explained facts, the undersigned request herewith to supply following
+information and documents as per the provisions of 
+Section 6
+ ibid.
+
+
+
+      a) Whether M/s Mechbulls Management Services Private Limited had paid/
+      deposited GST liability of CGST of Rs.16,36,768.00 & SGST of Rs.
+
+      Rs.16,36,768.00 in respect of taxable supplies of services made during the
+
+                                        2
+
+ period 01/11/2018 to 31/07/2019 to our company namely M/s Beri Udyog
+Private Limited having GSTIN: 06AAACB5379C1ZX in view of submission of
+GSTR 3B for the said period?
+
+
+
+b) Whether M/s Mechbulls Management Services Private Limited had paid/
+deposited GST liability of CGST of Rs. 46,13,161.00 & SGST of Rs.
+46,13,161.00 in respect of taxable supplies of services made during the
+period 01/08/2019 to 31/03/2021 to our company namely M/s Beri Udyog
+Private Limited having GSTIN: 06AAACB5379C1ZX?
+
+
+
+c) Whether any GST recovery proceeding has been initiated against M/s
+Mechbulls Management Services Private Limited, NM-22, Old DLF, Sector-
+14, Gurugram, Haryana - 122001 having GSTIN: 06AAFCM1980K1Z9, in
+respect of various taxable supplies made by this party during the period
+01/11/2018 to 31/03/2021, in case of non-payment of any GST liability for
+this period (including the GST liabilities in respect of supplies of services
+made during the period 01/11/2018 to 31/03/2021 involving total CGST
+amount of Rs. 62,49,929.00 & total SGST amount of Rs. 62,49,929.00 to M/s
+Beri Udyog Private Limited having GSTIN: 06AAACB5379C1ZX)?
+
+
+
+d) Whether the whole of GST liability in respect of supplies made by M/s
+Mechbulls Management Services Private Limited during the months of
+November-2018 to March-2021 has been recovered from M/s Mechbulls
+Management Services Private Limited, NM-22, Old DLF, Sector-14,
+Gurugram, Haryana - 122001 having GSTIN: 06AAFCM1980K1Z9? However,
+if only part amount of GST liability has been recovered from this party by
+the GST department for these months, it is requested to inform the month-
+wise details of GST liabilities of November-2018 to March-2021 of this
+supplier and the figure of part GST liability amount recovered out of these
+month-wise details of GST liability figures for the period November-2018 to
+March-2021.
+
+
+
+e) However, if either part or no recovery of GST liability has been made
+from M/s Mechbulls Management Services Private Limited having GSTIN:
+
+06AAFCM1980K1Z9 in respect of supplies made during the period
+November-2018 to March-2021, it is requested to inform the action
+initiated/taken so far for making GST recovery from this supplier. It is
+further requested to supply copies of such action taken reports."
+
+
+
+                                  3
+
+
+ The CPIO furnished a reply to the appellant on 21.12.2022 stating as under:
+
+
+
+      "The information sought by the applicant is a third-party information. Henc,
+      the information cannot be disclosed under 
+Section 8(1)(j)
+ of the RTI Act,
+      2005."
+
+Being dissatisfied, the appellant filed a First Appeal dated 06.01.2023. FAA's
+order, dated 02.02.2023, upheld the reply of the CPIO.
+
+
+
+Feeling aggrieved and dissatisfied with the denial of information by the CPIO, the
+appellant approached the Commission with the instant Second Appeal on the
+following grounds -
+
+
+
+       ".... in the impugned order, the above information/documents required under RTI
+application was denied on the illogical grounds that the information sought under RTI by
+the appellant is private and held in fiduciary capacity by GST department and hence
+exempted under 
+Section 8(1)(e)
+ & (j) of the 
+RTI Act
+. ln support of above, reliance has
+been placed on para 59 of judgment of Hon'ble Supreme Court passed in the case of
+Subhash Chandra Agarwal, which has defined personal information. The Hon'ble first
+appellate authority has further held that the appellant in the instant case has not made
+a bona fide public interest in seeking information, the disclosure of such information
+would cause unwarranted invasion of privacy of the individual under 
+Section 8(1)(j)
+ of
+the RTI Act, 2005.
+
+
+
+2.2. ln this regard, it is submitted that 
+Section 8(1)(j)
+ of the Right to lnformation Act,
+2005 grant exemption from disclosure of information relating to third party in case
+where such lnformation relates to personal information the disclosure of which has no
+relationship to any public activity or interest, or which would cause unwarranted
+invasion of the privacy of the individual. The relied upon 
+Section 8(1)(g)
+ of RTI Act 2005
+provides that - Notwithstanding anything contained in this Act, there shall be no
+obligation to give any citizen,-
+
+
+
+      "information which relates to personal information the disclosure of which has
+      not relationship to any public activity or interest, or which would cause
+      unwarranted invasion of the privacy of the individual unless the Central Public to
+      lnformation Officer or the State Public lnformation Officer or the appellate
+      authority, as the case may be, is satisfied that the larger public interest justifies
+      the disclosure of such information:
+
+
+
+Provided that the information, which cannot be denied to the Parliament or a State
+Legislature shall not be denied to any person."
+
+                                            4
+
+
+ ln common language we would ascribe the adjective 'personal' to an attribute which
+applies to an individual and not to an institution or a corporate company. The expression
+"personal information" as used in clause (j) of 
+Section 8(1)
+ of the Act has to be read in
+the context of information relating to an individual. A plain reading of the aforesaid
+clause would indicate that the expression "personal information" is linked with "invasion
+of privacy of the individual". The use of the word "the" before the word "individual"
+immediately links the same with the expression "personal information". Black's law
+dictionary, sixth edition, inter alia, defines the word "personal" as under:-
+
+
+
+       "The word "personal" means appertaining to the person; belonging to an
+       individual; limited to the person; having the nature or partaking of the qualities of
+       human beings, or of movable property."
+
+
+
+A perusal of the above definition also indicates that the ordinary usage of the word
+"personal" is in the context of an individual human being and not a corporate
+entity/company. From this it flows that 'personal' cannot be related to institutions,
+organizations, companies or corporates. The expression "individual" cannot be used as a
+synonym for the expression "person". 
+Under the General Clauses Act, 1897
+ a person is
+defined to "include any company or association or body of individuals, whether
+incorporated or not'. Thus, whereas a 'person' would include an individual as well as
+incorporated entities and artificial persons, the expression 'individual' cannot be
+interpreted to include such entities. The context in which, the expression "personal
+information" is used would also exclude it application to large widely held Lt
+corporations. Hence, we could state that 
+Section 8(1)(j)
+ of RTI Act cannot be applied
+when the information concerns institutions, organizations, companies or corporates. ln
+the impugned order, reliance has been made on para 59 of judgment of Hon'ble
+Supreme Court passed in the case of Subhash Chandra Agarwal, which has defined
+personal information. As per this para, personal information means personal records,
+including name, address, physical, mental and psychological status, marks obtained,
+grades and answer sheets. Similarly, professional records, including qualification,
+performance, evaluation reports, ACRs, disciplinary proceedings, etc. are all personal
+information. Medical records, treatment, choice of medicine, list of hospitals and doctors
+visited, findings recorded, including that of the family members, information relating to
+assets, liabilities, income tax returns, details of investments, lending and borrowing, etc.
+are personal information. Such personal information is entitled to protection from
+unwarranted invasion of privacy and conditional access is available when stipulation of
+larger public interest is satisfied. Thus, the above relied upon para 59 of judgment of
+Hon'ble Supreme Court also defines personal information relating to an individual.
+
+
+
+2.3. ln the present case, the appellant is not seeking any personal information relating to
+an individual or director of the supplies company. He is asking for providing
+
+
+                                             5
+
+ information/documents relating to GST payment made by M/s Mechbulls Management
+Services Private Limited and relating to recovery proceedings initiated by GST authorities
+against this supplier's company in respect of GST payable on supplies made to M/s Beri
+Udyog Private Limited. The information sought has direct relation and making direct
+impact on the appellant's company M/s Beri Udyog private Limited. By supplying the
+required information/documents, it is not going to make any invasion of privacy of any
+of director of M/s Mechbulls Management services private or of an individual. Thus, the
+above ground raised in the impugned order for denial of information /documents to the
+appellant is misconceived and based on wrong interpretation of provisions providing
+exemption from disclosure of information under 
+RTI Act
+.
+
+
+
+2.4. With respect to ground that information sought under RTI by the appellant is held in
+fiduciary capacity by GST department and hence exempted under 
+Section 8(1)(e)
+ of the
+RTI Act, it is submitted that the term 'fiduciary' refers to a person having a duty to act for
+the benefit of another, showing good faith and condour, where such other person
+reposes trust and special confidence in the person owing or discharging the duty. The
+term 'fiduciary relationship' is used to describe a situation or transaction where one
+person (beneficiary) places complete confidence in another person (fiduciary) in regard
+to his affairs, business or transaction/s. The term also refers to a person who holds a
+thing in trust for another (beneficiary). The fiduciary is expected to act in confidence and
+for the benefit and advantage of the beneficiary, and use good faith and fairness in
+dealing with the beneficiary or the things belonging to the beneficiary. lf the beneficiary
+has entrusted anything to the fiduciary, to hold the thing in trust or to execute certain
+acts in regard to or with reference to the entrusted thing, the fiduciary has to act in
+confidence and expected not to disclose the thing or information to any third party.
+There are also certain relationships where both the parties have to act in a fiduciary
+capacity treating the other as the beneficiary. Examples of these are : a partner vis-à-vis
+another partner and an employer vis-A-vis employee. An employee who comes into
+possession of business or trade secrets or confidential information relating to the
+employer in the course of his employment, is expected to act as a fiduciary and cannot
+disclose it to others. similarly, if on the request of the employer or official superior or the
+head of a department, an employee furnishes his personal details and information, to be
+retained in confidence, the employer, the official superior or departmental head is
+expected to hold such personal information in confidence as a fiduciary, to be made use
+of or disclosed only if the employee's conducl or acts are found to be prejudicial to the
+employer.
+
+
+
+       ln the present case, the information relating to payment of GST liabilities by M/s
+Mechbulls Management Services Private is not information held in fiduciary capacity by
+GST department. Infact, anyone can check the GST payment & returns compliances on
+part of a GST registered assessee on government GST portal (gst.gov.in) under "Search
+Taxpayer" category. The purpose behind insertion of column 'Search Taxpayer" on GST
+
+
+                                              6
+
+ portal is to provide access to taxpayers to check and ensure GST compliances made by a
+supplier before starting business dealings or during business dealings with such supplier
+of goods or services.
+
+
+
+       It is pertinent to mention here that the fact of part payment of GST liability by the
+above supplier company M/s Mechbulls Management Services Private is already on
+record of GST authorities and also specifically informed/disclosed to the appellant by
+way of issuing summon to appellant's company M/s Beri Udyog Private Limited requiring
+them to reverse the ITC availed on the invoices issued by M/s Mechbulls Management
+Services Private Limited on the alleged ground that the said supplier company has not
+paid GST liability. Here a question arises, if information relating to status of GST
+payment made by M/s Mechbulls Management Services Private Limited is held in
+fiduciary capacity by GST department, then why in the Summons dated 02.12.2022 it
+has Deen disclosed to the appellant by informing that M/s Mechbulls Management
+Services Private Limited has not paid GST liability. So, there is no fiduciary relationship
+between a registered assessee and the GST department under provisions of GST Act.
+
+
+
+       Moreover, the information required by the appellant is directly related to them
+and the GST department is bound to disclose the same to the appellant before initiating
+the any recovery proceedings against his company for reversal of ITC claimed on the
+basis of tax invoices issued by M/s Mechbulls Management Services Private Limited.
+Unless M/s Beri Udyog Private Limited is informed about how much GST liability has
+been short paid by M/s Mechbulls Management Services Private Limited, it is not
+understood how recovery proceedings for denial of ITC can be initiated against
+appellant's company. There cannot be any justification for denying this information to
+the appellant as the CGST department is requiring the appellant's company M/s Beri
+Udyog Private Limited to reverse the ITC availed on the invoices issued by M/s Mechbulls
+Management Services Private Limited.
+
+
+
+       ln his RTI application, the appellant has only requested for supplying details of
+GST payments already made by this supplier company in respect of taxable supplies
+made to his company during the period 01/11/2018 to 31/03/2021 and for supplying
+copies of recovery notices issued/action taken, if any against the above supplier for
+recovery of pending GST liability against the supplies made to various parties including
+to M/s Beri Udyog Private Limited, since any recovery of pending GST liability will have
+direct impact on eligibility of ITC to the appellant's company M/s Beri Udyog Private
+Limited in respect of taxable supplies received from M/s Mechbulls Management
+Services Private Limited. Thus, the above ground raised in the impugned order for denial
+of information /documents to the appellant is also misconceived and based on wrong
+interpretation of provisions providing exemption from disclosure of information under
+
+RTI Act
+.
+
+
+
+                                             7
+
+
+        ln view of above, the impugned order merits to be set aside and a suitable
+direction may be issued to the concerned CPIO to supply the required information and
+documents to the appellant.
+
+
+
+3. lt is pertinent to mention here that the appellant is not asking questions to any of the
+authority. He is only asking for supplying information/documents relating to GST
+payment made by M/s Mechbulls Management Services Private Limited in respect of
+supplies made to his company and relating to recovery proceedings initiated by GST
+authorities against this supplier's company in respect of such supplies. The appellant is
+neither asking for any information or document, which is not in the record or control of
+the concerned public authority nor asking any authority to take an action, which is not
+earlier taken or not in their records. The appellant is only asking for supplying copies of
+recovery notices issued/actions taken, if either part or no GST liability has been paid by
+M/s Mechbulls Management Services Private Limited having GSTIN: 06MFCM1980K1Z9
+in respect of taxable supplies made during the period November-2018 to March-2021.
+The appellant is not asking questions to the authority if no GST recovery proceeding has
+been initiated so far against this supplier. ln view of above, the impugned order wrongly
+denying the required information/documents is clearly bad in law as the grounds taken
+for denial of information are totally misconceived and are legally not sustainable.
+
+
+
+4. lt is not out of place to mention here that the disclosure of information under 
+Section 3
+
+of RTI Act is the rule and exemption from disclosure of information is only an exception,
+which should be used judicially with proper reasoning by the Public lnformation
+Officer..."
+
+
+
+Relevant Facts emerging during Hearing:
+
+The following were present:-
+
+
+
+Appellant: Present through video-conference.
+
+Respondent: Represented by Dharam Singh Meena, Inspector present in person.
+
+
+
+The Appellant reiterated the contents of instant Appeal as mentioned in the
+preceding paragraphs. He further prayed the Commission to grant him relief of
+information in order to defend his case against the SCN issued to him for alleged
+non-payment of GST in lieu of charges which has already been paid to the M/s
+Mechbulls Management Services Private Limited for the manpower services
+availed by them which in turn defaulted in paying the CGST liability.
+
+
+
+The CPIO facilitated a discussion regarding the dispute of GST transactions
+committed vis-à-vis between the Appellant's Company and M/s Mechbulls
+Management Services Private Limited. Since, the information sought by the
+
+                                             8
+
+ Appellant regarding the averred Company contains the elements of personal
+information of the said third party Company which are hit by 
+Section 8(1)(j)
+ of RTI
+Act and also such records are kept by the Respondent organization under
+fiduciary capacity and therefore, cannot be divulged in view of 
+Section 8(1)(e)
+ of
+RTI Act.
+
+
+
+Decision:
+
+
+
+The Commission observes from a perusal of records and after scrutinizing the
+contents of RTI Application that the information sought by the Appellant majorly
+does not conform to 
+Section 2(f)
+ of RTI Act and also contains the elements of
+personal information including personal details of M/s Mechbulls Management
+Services Private Limited which is hit by 
+Section 8 (1)(j)
+ of RTI Act.
+
+
+
+For better understanding the mandate of 
+RTI Act
+, the Appellant shall note that
+outstretching the interpretation of 
+Section 2(f)
+ of the RTI Act to include
+deductions and inferences to be drawn by the CPIO is unwarranted as it casts
+immense pressure on the CPIOs to ensure that they provide the correct
+deduction/inference to avoid being subject to penal provisions under the 
+RTI Act
+.
+
+
+
+His attention is also drawn towards a judgment of the Hon'ble Supreme Court on
+the scope and ambit of 
+Section 2(f)
+ of RTI Act in the matter of 
+CBSE vs. Aditya
+Bandopadhyay & Ors
+ [CIVIL APPEAL NO.6454 of 2011] wherein it was held as
+under:
+
+
+  "35. At this juncture, it is necessary to clear some misconceptions about the 
+RTI
+  Act
+. 
+The RTI Act
+ provides access to all information that is available and
+  existing.........A public authority is also not required to furnish information
+  which require drawing of inferences and/or making of assumptions. It is also
+  not required to provide `advice' or `opinion' to an applicant, nor required to
+  obtain and furnish any `opinion' or `advice' to an applicant. The reference to
+  `opinion' or `advice' in the definition of `information' in 
+section 2(f)
+ of the Act,
+  only refers to such material available in the records of the public authority.
+
+ 
+Many public authorities have, as a public relation exercise, provide advice,
+  guidance and opinion to the citizens. But that is purely voluntary and should not
+  be confused with any obligation under the 
+RTI Act
+." (Emphasis Supplied)
+Furthermore, as regards the applicability of exemption clause of 
+Section 8(1)(j)
+ of
+RTI Act, attention of the parties is invited towards a judgement of Hon'ble
+Supreme Court of India in the matter of Central Public Information Officer,
+
+                                          9
+
+ Supreme Court of 
+India Vs. Subhash Chandra Agarwal
+ in Civil Appeal No. 10044
+of 2010 with Civil Appeal No. 10045 of 2010 and Civil Appeal No. 2683 of 2010
+wherein while explaining the import of "personal information" envisaged under
+
+Section 8(1)(j)
+ of RTI Act has been exemplified in the context of earlier ratios 
+laid
+down by
+ the same Court in the matter(
+s) of Canara Bank Vs. C.S. Shyam
+ in Civil
+Appeal No.22 of 2009; 
+Girish Ramchandra Deshpande vs. Central Information
+Commissioner & Ors.
+, (2013) 1 SCC 212 and R.K. Jain vs. Union of India & Anr.,
+(2013) 14 SCC 794.The following was thus held:
+
+
+
+
+       "59. Reading of the aforesaid judicial precedents, in our opinion, would
+   indicate that personal records, including name, address, physical, mental and
+   psychological status, marks obtained, grades and answer sheets, are all
+   treated as personal information. Similarly, professional records, including
+   qualification, performance, evaluation reports, ACRs, disciplinary proceedings,
+   etc. are all personal information. Medical records, treatment, choice of
+   medicine, list of hospitals and doctors visited, findings recorded, including that
+   of the family members, information relating to assets, liabilities, income tax
+   returns, details of investments, lending and borrowing, etc. are personal
+   information. Such personal information is entitled to protection from
+   unwarranted invasion of privacy and conditional access is available when
+   stipulation of larger public interest is satisfied. This list is indicative and not
+   exhaustive..." (Emphasis Supplied)
+
+Nonetheless, the reply provided by the CPIO was in consonance with the
+provisions of 
+RTI Act
+, merits of which cannot be called into question.
+
+
+
+Notwithstanding the aforesaid, the issue raised by the Appellant regarding alleged
+inadequacies committed by M/s Mechbulls Management Services Private Limited
+in payment of GST amount, is purely a matter of grievance which is outside the
+mandate of 
+RTI Act
+. 
+In this regard, a reference may be had of a judgment of the
+Hon'ble Delhi High Court in the matter of 
+Govt. of NCT of Delhi vs. Rajender
+Prasad (W.P.[C
+] 10676/2016) dated 30.11.2017 wherein it was held as under:
+
+
+        "6. The CIC has been constituted under 
+Section 12
+ of the Act and the powers
+of CIC are delineated under the Act. The CIC being a statutory body has to act
+strictly within the confines of the Act and is neither required to nor has the
+jurisdiction to examine any other controversy or disputes."
+
+While, the Apex Court in the matter of 
+Union of India vs Namit Sharma (Review
+Petition [C] No.2309
+ of 2012) dated 03.09.2013 observed as under:
+
+
+                                         10
+
+
+       "20. ...While deciding whether a citizen should or should not get a particular
+information "which is held by or under the control of any public authority", the
+Information Commission does not decide a dispute between two or more parties
+concerning their legal rights other than their right to get information in
+possession of a public authority...." (Emphasis Supplied)
+
+Having observed as above, no further relief can be granted in the matter.
+
+
+
+However, the Commission empathizes with the concern of the Appellant and
+advises him to pursue the matter through appropriate administrative
+mechanisms.
+
+
+
+                     The appeal is disposed of accordingly.
+
+
+
+                                                  Saroj Punhani (सरोज पुनहािन)
+                                                                         हािन)
+                                        Information Commissioner (सूचना आयु )
+Authenticated true copy
+(अिभ मािणत स%यािपत ित)
+
+(C.A. Joseph)
+Dy. Registrar
+011-26179548/ 
+[email protected]
+
+सी. ए. जोसेफ, उप-पंजीयक
+ दनांक /
+
+
+
+
+
+                                        11

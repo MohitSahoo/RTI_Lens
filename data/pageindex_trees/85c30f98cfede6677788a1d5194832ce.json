@@ -1,0 +1,62 @@
+{
+  "doc_name": "85c30f98cfede6677788a1d5194832ce",
+  "line_count": 249,
+  "structure": [
+    {
+      "title": "Central Information Commission",
+      "node_id": "0001",
+      "line_num": 10,
+      "nodes": [
+        {
+          "title": "Author:",
+          "node_id": "0002",
+          "line_num": 17
+        },
+        {
+          "title": "Bench:",
+          "node_id": "0003",
+          "line_num": 22
+        }
+      ]
+    },
+    {
+      "title": "Central Information Commission",
+      "node_id": "0004",
+      "line_num": 28,
+      "nodes": [
+        {
+          "title": "Relevant dates emerging from the appeal:",
+          "node_id": "0005",
+          "line_num": 45
+        },
+        {
+          "title": "ORDER",
+          "node_id": "0006",
+          "line_num": 52
+        },
+        {
+          "title": "Hearing:",
+          "node_id": "0007",
+          "line_num": 86
+        },
+        {
+          "title": "Decision:",
+          "node_id": "0008",
+          "line_num": 125
+        }
+      ]
+    },
+    {
+      "title": "Ramchandra Deshpande v. Central Information Commission",
+      "node_id": "0009",
+      "line_num": 149,
+      "nodes": [
+        {
+          "title": "Addresses of the parties:",
+          "node_id": "0010",
+          "line_num": 235
+        }
+      ]
+    }
+  ]
+}

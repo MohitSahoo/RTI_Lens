@@ -1,0 +1,48 @@
+{
+  "doc_name": "68d23faad323cd2881e4529964da5679",
+  "line_count": 217,
+  "structure": [
+    {
+      "title": "Central Information Commission",
+      "node_id": "0001",
+      "line_num": 10
+    },
+    {
+      "title": "Central Information Commission",
+      "node_id": "0002",
+      "line_num": 18,
+      "nodes": [
+        {
+          "title": "Relevant facts emerging from appeal:",
+          "node_id": "0003",
+          "line_num": 45
+        },
+        {
+          "title": "Relevant facts emerging from appeal:",
+          "node_id": "0004",
+          "line_num": 55
+        },
+        {
+          "title": "appeal on 07.05.2021. The FAA vide order dated 07.05.2021 disposed of the",
+          "node_id": "0005",
+          "line_num": 77
+        },
+        {
+          "title": "appeal on line with the following remarks:",
+          "node_id": "0006",
+          "line_num": 79
+        },
+        {
+          "title": "Facts emerging during the hearing:",
+          "node_id": "0007",
+          "line_num": 92
+        },
+        {
+          "title": "Decision",
+          "node_id": "0008",
+          "line_num": 159
+        }
+      ]
+    }
+  ]
+}

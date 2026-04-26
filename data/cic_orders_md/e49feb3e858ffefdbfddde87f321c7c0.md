@@ -1,0 +1,244 @@
+[Cites 
+5
+, Cited by 
+1
+]
+
+
+
+
+# Central Information Commission
+
+
+
+Neeraj Kedia vs Hindustan Petroleum Corporation ... on 30 June, 2021
+
+
+## Author:
+
+Neeraj Kumar Gupta
+
+
+## Bench:
+
+Neeraj Kumar Gupta
+
+
+                           के    य सूचना आयोग
+# Central Information Commission
+
+                         बाबा गंगनाथ माग,मु नरका
+                       Baba Gangnath Marg, Munirka
+                      नई द ल , New Delhi - 110067
+
+  वतीय अपील सं#या/Second Appeal No. CIC/HPCLD/A/2019/150691
+
+Mr. Neeraj Kedia                                        ... अपीलकता/Appellant
+                                   VERSUS
+                                    बनाम
+CPIO                                                    ...$ तवाद /Respondent
+Hindustan Petroleum Corporation
+Limited, 495/1, 2nd Floor, RPG
+Tower, University Road, Mangal
+Pandey Nagar, Meerut, Uttar
+Pradesh-250004
+
+## Relevant dates emerging from the appeal:
+
+
+RTI : 10-05-2019            FA    : 10-06-2019           SA      : 22-10-2019
+
+CPIO : 08.06.2019           FAO : 31-07-2019             Hearing : 21-06-2021
+
+## ORDER
+
+
+
+
+1.    The appellant filed an application under the 
+Right to Information Act,
+2005
+ 
+(RTI Act
+) before the Central Public Information Officer (CPIO),
+Hindustan Petroleum Corporation Limited, Uttar Pradesh, seeking information
+on two points, including, inter-alia:-
+
+      (i)    Copy of letter assigning to evaluate the circle rate of the land of
+             said outlet M/s. United Automobiles, Meerut Road, Muzaffarnagar
+             to the empanelled valuer;
+
+      (ii) Copy of valuation submitted by empanelled valuer, etc.
+
+2.    The CPIO responded on 08.06.2019. The appellant filed the first appeal
+dated 10.06.2019 which was disposed of by the first appellate authority on
+31.07.2019. Thereafter, he filed a second appeal u/
+Section 19(3)
+ of the RTI Act
+before the Commission requesting to take appropriate legal action against the
+CPIO u/
+Section 20
+ of the RTI Act, 2005 and also to direct him to provide the
+sought for information.
+
+
+
+                                                                       Page 1 of 4
+
+
+## Hearing:
+
+
+3.      The appellant attended the hearing through audio-call. The respondent,
+Shri Nitin Srivastava, CPIO attended the hearing through audio-call.
+
+4.      The respondent submitted their written submissions dated 18.06.2021 and
+the same has been taken on record.
+
+5.      The appellant submitted that till date no information has been provided to
+him by the respondent on his RTI application dated 10.05.2019. The appellant
+submitted that he is the co-owner of the said property and he is entitled to get
+the information sought under the 
+RTI Act
+.
+
+6.      The respondent submitted that the appellant had sought information about
+the matter related evaluation details for fixation of rental for a land where one
+Petrol Pump is situated, which was set up by the grandfather of the Kedia
+family and lease renewal is held up due to rental negotiations have not
+concluded. The respondent further submitted that it is a case of dispute of rental
+negotiation between the dealer and company which is primarily a grievance, but
+still they have responded though the subject matter is sub-judice. The CPIO had
+replied and informed the applicant that in view of threatened litigation from his
+side and Corporation's right to keep all such information confidential which
+may be used by corporation to defend its legal position in the anticipated court
+case. The respondent further submitted that the appellant is not the co-owner of
+the petrol pump but the lessor of the property. The respondent submitted that the
+## information sought by the appellant is the internal commercial information
+
+which is exempted from disclosure under 
+Section 8(1)(d)
+ of the RTI Act.
+
+
+
+## Decision:
+
+
+7.     The Commission, after hearing the submissions of both the parties and
+after perusal of records, observes that the information as sought by the appellant
+in his RTI application is exempted from disclosure under 
+Section 8(1)(d)
+ of the
+RTI Act the disclosure of which would harm the competitive position of third
+party. 
+Section 8(1)(d)
+ of the RTI Act clearly reads as : 'information including
+commercial confidence, trade secrets or intellectual property, the disclosure of
+which would harm the competitive position of third party, unless the competent
+authority is satisfied that larger public interest warrants the disclosure of such
+information'.
+
+8.     The Commission agrees with the stand taken by the respondent during the
+hearing that the information sought by the appellant involves the information of
+commercial confidence and the same cannot be disclosed under the 
+RTI Act
+, as
+it includes the internal consultation with the experts which is viable to run the
+petrol pump and such information is exempted from disclosure under Section
+
+                                                                        Page 2 of 4
+
+ 8(1)(d) and 8(1)(e) of the 
+RTI Act
+. The information sought is of commercial
+confidence and is also held by the public authority in fiduciary capacity.
+
+However, the respondent has not invoked any specific exemption clause in
+denying the information in its reply dated 08.06.2019. 
+In the context of non
+disclosure of information under 
+Section 8(1)(d)
+ of the RTI Act, 2005, the
+## decision in
+
+Naresh Trehan vs Rakesh Kumar Gupta (W.P(C
+) 85/2010)
+decided on 24.11.2014, was referred to, wherein it was held as under:
+
+
+      14. "....Such information would clearly disclose the pricing policy of the
+      assessee and public disclosure of this information may clearly jeopardise
+      the bargaining power available to the assessee since the data as to costs
+      would be available to all agencies dealing with the assessee. It is, thus,
+      essential that information relating to business affairs, which is
+      considered to be confidential by an assessee must remain so, unless it is
+      necessary in larger public interest to disclose the same. If the nature of
+      information is such that disclosure of which may have the propensity of
+      harming one's competitive interests, it would not be necessary to
+      specifically show as to how disclosure of such information would, in fact,
+      harm the competitive interest of a third party. In order to test the
+      applicability of 
+Section 8(1)(d)
+ of the Act it is necessary to first and
+      foremost determine the nature of information and if the nature of
+      information is confidential information relating to the affairs of a private
+      entity that is not obliged to be placed in public domain, then it is
+      necessary to consider whether its disclosure can possibly have an adverse
+      effect on third parties."
+
+
+
+9.     Hence, no further intervention of the Commission is required in the
+matter.
+
+10. The appellant is advised to approach appropriate forum in order to redress
+his grievance.
+
+11. With the above observations, the appeal is disposed of.
+
+
+
+                                                                        Page 3 of 4
+
+
+ 12.   Copy of the decision be provided free of cost to the parties.
+
+
+
+                                                         नीरज कुमार गु&ता
+                                     Neeraj Kumar Gupta (नीरज           ता)
+                                                             सच
+                                   Information Commissioner (सू ना आय'ु त)
+                                                                        त
+
+                                                  दनांक / Date        :21-06-2021
+
+Authenticated true copy
+(अ(भ$मा*णत स,या पत $ त)
+
+
+S. C. Sharma (एस. सी. शमा),
+Dy. Registrar (उप-पंजीयक),
+(011-26105682)
+
+
+
+
+## Addresses of the parties:
+
+
+1.    CPIO
+      Hindustan Petroleum Corporation Limited,
+      495/1, 2nd Floor, RPG Tower,
+      University Road, Mangal Pandey Nagar,
+      Meerut, Uttar Pradesh-250004
+
+
+2.    Mr. Neeraj Kedia
+
+
+
+
+
+                                                                         Page 4 of 4

@@ -1,0 +1,65 @@
+{
+  "doc_name": "dfb1ce1b23a7f98e964cb2890e17c97d",
+  "line_count": 283,
+  "structure": [
+    {
+      "title": "Central Information Commission",
+      "node_id": "0001",
+      "line_num": 10,
+      "nodes": [
+        {
+          "title": "Author:",
+          "node_id": "0002",
+          "line_num": 17
+        },
+        {
+          "title": "Bench:",
+          "node_id": "0003",
+          "line_num": 22
+        }
+      ]
+    },
+    {
+      "title": "Central Information Commission",
+      "node_id": "0004",
+      "line_num": 28,
+      "nodes": [
+        {
+          "title": "Relevant dates emerging from the appeal:",
+          "node_id": "0005",
+          "line_num": 47
+        },
+        {
+          "title": "ORDER",
+          "node_id": "0006",
+          "line_num": 55
+        },
+        {
+          "title": "Hearing on 17.07.2019:",
+          "node_id": "0007",
+          "line_num": 131
+        },
+        {
+          "title": "Hearing on 13.05.2020:",
+          "node_id": "0008",
+          "line_num": 170
+        },
+        {
+          "title": "ADDRESSES OF THE PARTIES:",
+          "node_id": "0009",
+          "line_num": 254
+        },
+        {
+          "title": "CPIO :",
+          "node_id": "0010",
+          "line_num": 259
+        }
+      ]
+    },
+    {
+      "title": "HARISH CHAND SHARMA",
+      "node_id": "0011",
+      "line_num": 276
+    }
+  ]
+}

@@ -1,69 +1,121 @@
-# 👁️ RTI-Lens: Intelligent CIC Order Analytics
+# RTI-Lens: AI-Powered CIC Order Analytics
 
-**An AI-Powered Platform for the Central Information Commission (CIC)**
+AI platform for analyzing India's RTI Act rulings from the Central Information Commission. Predicts appeal success, analyzes denial patterns, queries 700+ rulings, and drafts appeals with precedent citations.
 
-[![Status: v2.0 In Progress](https://img.shields.io/badge/Status-v2.0%20In%20Progress-yellow.svg)](#)
-[![Backend: Production Ready](https://img.shields.io/badge/Backend-Production%20Ready-success.svg)](#)
-[![AI Engine: Gemini RAG](https://img.shields.io/badge/AI-Google%20Gemini-orange.svg)](#)
-[![CI/CD: GitHub Actions](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-blue.svg)](#)
+**Stack**: FastAPI + PostgreSQL + Gemini Flash RAG
+**Docs**: [RTI_Lens_PRD.md](RTI_Lens_PRD.md)
 
----
+## Quick Start
 
-## 📋 Quick Links
+**Prerequisites:**
+- PostgreSQL 14+ running
+- Python 3.12+
+- NLTK stopwords data
 
-- 📘 **Primary Blueprint**: [RTI_Lens_PRD.md](RTI_Lens_PRD.md) (All Requirements, Tech Stack, Roadmap & Tasks)
-- 🚀 **Main Entrypoint**: `backend/main.py`
-- 📊 **Dataset**: `rtilens` PostgreSQL DB (469 cases)
-
----
-
-## 🎯 What is RTI-Lens?
-
-RTI-Lens is a comprehensive platform engineered for parsing, analyzing, and interrogating India's Right to Information (RTI) Act rulings adjudicated by the Central Information Commission (CIC). By uniting **traditional Machine Learning** with **Generative AI (Gemini Flash)**, it empowers citizens to:
-
-- **Predict success probability** of an appeal.
-- **Analyze ministry-specific denial patterns.**
-- **Query 700+ rulings** with grounded AI answers.
-- **Draft superior appeals** citing CIC precedents automatically.
-
----
-
-## 🏁 Quick Start Guide
-
-**1. Clone and Configure**
+**Setup:**
 ```bash
-echo "GEMINI_API_KEY=YOUR_KEY" >> .env
-echo "DATABASE_URL=postgresql://user@localhost:5432/rtilens" >> .env
-```
-
-**2. Provision Environment**
-```bash
+# 1. Install dependencies
 pip install -r requirements.txt
+
+# 2. Download NLTK data
+python3 -c "import nltk; nltk.download('stopwords')"
+
+# 3. Start PostgreSQL (macOS)
+brew services start postgresql@14
+
+# 4. Create database and load schema
+psql -U mohitsahoo -d postgres -c "CREATE DATABASE rtilens"
+psql -U mohitsahoo -d rtilens -f schema.sql
+
+# 5. Configure environment
+cp .env.example .env
+# Edit .env locally with your real values
+# Never commit .env or paste real keys into docs, issues, or PRs.
+
+# 6. Start API
+./start_api.sh
+# OR manually:
+# PYTHONPATH=$(pwd) python3 backend/main.py
 ```
 
-**3. Start Server Operations**
+**Test:**
 ```bash
-python3 backend/main.py
-# API available at http://localhost:8001
-# Swagger docs at http://localhost:8001/docs
+./check_system.sh        # System health check
+./test_all_endpoints.sh  # Full API test suite
 ```
 
-**4. Run Diagnostic Check**
+**Access:**
+- API: http://localhost:8001
+- Docs: http://localhost:8001/docs
+- GraphQL: http://localhost:8001/graphql
+
+**Frontend (Streamlit):**
 ```bash
-python3 test_api.py
+# Start frontend (API must be running first)
+./start_frontend.sh
 ```
+- Frontend: http://localhost:8501
+- Features: Q&A, Appeal Drafting, Outcome Prediction, Analytics, Knowledge Graph
+
+## Secrets
+
+- Use `.env.example` as the only committed template.
+- Keep real credentials only in `.env`, which is gitignored.
+- `GEMINI_API_KEY` is required for the Q&A and draft flows.
+- `OPENAI_API_KEY` is optional unless you are working on code paths that explicitly require it.
+- If a key is exposed, revoke and rotate it immediately.
+
+Detailed guidance: [SECURITY.md](SECURITY.md)
 
 ---
 
-## 🏗️ v2.0 Roadmap
+## 📋 Work Distribution
 
-The current focus is on infrastructure modernization (Phase A-C) followed by a React-based frontend (Phase D).
+### Backend Team (Mohit & Saksham)
 
-| Phase | Milestone | Focus |
-|---|---|---|
-| **A** | **Prisma Migration** | Replace raw SQL with typed ORM |
-| **B** | **GraphQL Layer** | Flexible API for React |
-| **C** | **Docker & CI/CD** | Automated pipeline & containerization |
-| **D** | **Frontend (React)** | Dashboard, Q&A, and Draft UIs |
+**Phase A: Database & ORM** ✅ COMPLETE
+- [x] Migrate raw SQL to SQLAlchemy ORM
+- [x] Define ORM schema for CIC orders
+- [x] Implement typed database queries
+- [x] Test data integrity after migration
 
-> For the granular task list and architecture diagrams, see **[RTI_Lens_PRD.md](RTI_Lens_PRD.md)**.
+**Phase B: API Layer** ✅ COMPLETE
+- [x] Design GraphQL schema
+- [x] Implement GraphQL resolvers (6 queries, 1 mutation)
+- [x] Build enhanced knowledge graph with NetworkX
+- [x] Integrate GraphQL with FastAPI at /graphql
+
+**Phase C: DevOps**
+- [ ] Create Dockerfile for backend
+- [ ] Setup GitHub Actions CI/CD
+- [ ] Configure automated testing pipeline
+- [ ] Deploy to production environment
+
+**Phase D: Frontend Integration**
+- [ ] Build React dashboard UI
+- [ ] Implement Q&A interface
+- [ ] Create appeal drafting interface
+- [ ] Connect frontend to GraphQL API
+
+---
+
+### Simulation & Blockchain Team (Aditya)
+
+**Government Simulation**
+- [ ] Design government entity models
+- [ ] Implement ministry behavior simulation
+- [ ] Create decision-making algorithms
+- [ ] Build simulation dashboard
+
+**Blockchain Integration**
+- [ ] Design blockchain architecture for RTI tracking
+- [ ] Implement smart contracts for transparency
+- [ ] Build blockchain explorer interface
+- [ ] Integrate with main platform
+
+**Testing & Validation**
+- [ ] Test simulation accuracy
+- [ ] Validate blockchain transactions
+- [ ] Performance benchmarking
+- [ ] Documentation
+

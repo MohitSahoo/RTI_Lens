@@ -1,0 +1,65 @@
+{
+  "doc_name": "90e129dd1d6bec0adb979e72b031a760",
+  "line_count": 312,
+  "structure": [
+    {
+      "title": "Central Information Commission",
+      "node_id": "0001",
+      "line_num": 10,
+      "nodes": [
+        {
+          "title": "Author:",
+          "node_id": "0002",
+          "line_num": 17
+        },
+        {
+          "title": "Bench:",
+          "node_id": "0003",
+          "line_num": 22
+        }
+      ]
+    },
+    {
+      "title": "Central Information Commission",
+      "node_id": "0004",
+      "line_num": 29,
+      "nodes": [
+        {
+          "title": "ORDER",
+          "node_id": "0005",
+          "line_num": 95
+        },
+        {
+          "title": "order dated 19.02.2022, furnished a reply to the Appellant, as under:-",
+          "node_id": "0006",
+          "line_num": 108
+        },
+        {
+          "title": "HEARING:",
+          "node_id": "0007",
+          "line_num": 120
+        },
+        {
+          "title": "Facts emerging during the hearing:",
+          "node_id": "0008",
+          "line_num": 123
+        },
+        {
+          "title": "The following were present:",
+          "node_id": "0009",
+          "line_num": 126
+        },
+        {
+          "title": "information sought is not maintained in their office. Moreover, the information sought",
+          "node_id": "0010",
+          "line_num": 189
+        },
+        {
+          "title": "DECISION:",
+          "node_id": "0011",
+          "line_num": 217
+        }
+      ]
+    }
+  ]
+}

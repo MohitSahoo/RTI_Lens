@@ -1,0 +1,1359 @@
+[Cites 
+32
+, Cited by 
+0
+]
+
+
+
+
+Central Information Commission
+
+
+Samir Sardana vs Indian Overseas Bank on 2 November, 2021
+
+
+Author: 
+Suresh Chandra
+
+
+Bench: 
+Suresh Chandra
+
+
+                                        के   ीय सूचना आयोग
+                                 Central Information Commission
+                                    बाबा गंगनाथ माग,मुिनरका
+                                  Baba Gangnath Marg, Munirka
+                                  नई द ली, New Delhi - 110067
+
+िशकायत सं या / Complaint No. CIC/IOVBK/C/2019/652402
+Samir Sardana                                      ...िशकायतकता/Complainant
+
+                                           VERSUS
+                                            बनाम
+CPIO: Indian Overseas Bank,
+Chennai.                                                        ... ितवादीगण /Respondents
+
+Relevant dates emerging from the complaint:
+
+RTI         : 30.07.2019           FA    : 16.09.2019            Complaint : 28.09.2019
+
+CPIO : 05.09.2019                  FAO : No Order                Hearing    : 17.08.2021
+
+
+                                             CORAM:
+                                       Hon'ble Commissioner
+                                     SHRI SURESH CHANDRA
+                                            ORDER
+
+                                           (01.11.2021)
+
+
+1.          The issues under consideration i.e. the reliefs sought by the complainant in his
+complaint dated 28.09.2019 due to alleged non-supply of information vide his RTI
+application dated 30.07.2019 are as under:-
+
+     (i)       Penalty on the PIO (under 
+Section 19(8)(c)
+, of the RTI Act,2005;
+
+     (ii)      Dismissal of the PIO on account of illegal, deliberate, mala fide and baseless
+
+     (iii)     Administrative action and/strictures, against the PIO (under 
+Section 20(2)
+ , of the
+               RTI Act,2005;
+
+     (iv)      Recommendation to the Indian Overseas Bank and the GOI - Ministry of Finance,
+               for administrative action and/strictures, against the PIO;
+
+     (v)       Impose Maximum Penalty, on the PIO under 
+Section 20(1)
+ ,of the RTI Act,2005;
+
+
+
+                                                                                        Page 1 of 25
+
+
+      (vi)    Direct the Respondents to refund the Application fee paid by Complainant while
+             submitting RTI Application, as per section (7)(6) of the 
+RTI Act
+;
+
+     (vii)   Invoke its powers under the 
+RTI Act
+ to issue any other direction or
+             recommendation as it may deem appropriate;
+
+     (viii) Direct the public authority to make entry in Service Book/Annual Performance
+             Appraisal Report of the Respondents for defying the provisions of the Act;
+
+     (ix)    Compensation for the Appellant for pecuniary and other loss.
+
+
+
+2.       Succinctly facts of the case are that the complainant filed an application dated
+30.07.2019 under the 
+Right to Information Act, 2005
+ 
+(RTI Act
+) before the Central Public
+Information Officer (CPIO), Indian Overseas Bank, Chennai, seeking following
+information:
+
+
+
+     (i) NPAs
+             • NPA in the 3 categories (Shishu, Kishor and Tarun) of Mudra loans o/s as at
+                March 31, 2019, in terms of number and amount
+                   o PIO to confirm that the list of NPA Accounts by name and value and
+                       geography is available in electronic format
+             • W.r.t. the above NPA loans in each of the 3 categories, the ageing in terms of
+                the number of years for which the accounts are NPA (as at March 31, 2019) -
+
+                by number and value
+                   o Less than 1 year
+                   o 1 - 2 years
+                   o 2-3 years
+                   o 3-4 years
+             • W.r.t. the above NPA loans in each of the 3 categories, the nature for the
+                accounts which are NPA (as at March 31, 2019) by number and value
+                   o Male and Female
+                   o Minorities and Non-Minorities
+                   o SC-ST and General
+                   o OBC and General
+
+
+                                                                                     Page 2 of 25
+
+      • W.r.t. the above NPA loans (as at March 31, 2019) in each of the above said 3
+         categories, the ageing in terms of the number of years, from when the loan was
+         "sanctioned" (as opposed to when the loan became an NPA in point 2 above)
+            o FY 2015
+            o FY 2016
+            o FY 2017
+            o FY 2018
+            o FY 2019
+     • W.r.t. the above NPA loans (as at March 31, 2019) in each of the 3 categories,
+         the state wise distribution of the NPA is sought for the Top 15 states by value
+         and number of NPA accounts separately for the Bank
+     • W.r.t. the above NPA loans (as at March 31, 2019) in each of the 3 categories,
+         the district wise distribution of the NPA is sought for the Top 15 districts by
+         value and number of NPA accounts separately for the Bank
+     • PIO to confirm that the eligibility condition for the Mudra loans excludes
+         previous defaulters, from the bank within a particular time period or for a time
+         period
+            o In addition, if Yes, the PIO to provide the name of the technology system
+                  and platform used to verify and authenticate the same
+• PIO to confirm that the eligibility condition for the Mudra loans excludes previous
+   borrowers of mudra loans from the bank within a particular time period or for a time
+   period
+            o In addition, If Yes, the PIO to provide the name of the technology system
+                  and platform used to verify and authenticate the same
+• PIO to confirm that the eligibility condition for the Mudra loans excludes previous
+   borrowers of mudra loans from other banks within a particular time period or for a
+   time period
+            o In, addition, If Yes, the PIO to provide the name of the technology
+                  system and platform used to verify and authenticate the same
+
+
+
+
+
+                                                                                 Page 3 of 25
+
+ • PIO to confirm that the eligibility condition for the Mudra loans excludes previous
+       other borrowers of mudra loans from the bank with the same address as the proposed
+       borrower, within a particular time period or for a time period
+                o In addition, if yes, the PIO to provide the name of the technology system
+                   and platform used to verify and authenticate the same
+
+(ii)     Disbursals
+• PIO to provide the aggregate of the loan disbursals (on all India basis) in the 3
+       categories (Shishu, Kishor and Tarun) of mudra loans for the last 4 financial years,
+       in terms of number and amount
+• PIO to provide the aggregate of the loan disbursals (for the top 10 states by value
+       and number of borrowers) in the 3 categories (Shishu, Kishor and Tarun) of mudra
+       loans for the last 4 financial years, in terms of number and amount
+• PIO to provide the aggregate of the loan disbursals (for the top 20 districts by value
+       and number of borrowers) in the 3 categories (Shishu, Kishor and Tarun) of Mudra
+       loans for the last 3 financial years, in terms of number and amount
+• PIO to confirm that the disbursal of Shishu loans are made on outright basis or on
+       re-imbursement node or direct payments to suppliers/vendors
+                o If on outright basis, PIO to confirm that the borrower has to provide
+                   proof of expenditure on self attestation basis or on declaration and/or
+                   certification
+                o PIO to provide the number of loan accounts for which the Bank has no
+                   proof of expenditure
+                o PIO to provide the number of loan accounts for which the Bank has no
+                   self attested/certified proof of expenditure
+                o PIO to provide the number of loan accounts for which the Bank has no
+                   3rd party attested/certified proof of expenditure
+ • PIO to confirm that the disbursal of Kishor loans are made on outright basis or on
+       re-imbursement node or direct payments to suppliers/vendors
+          o If on outright basis, PIO to confirm that the borrower has to provide proof of
+              expenditure on self attestation basis or on declaration and/or certification
+
+
+
+                                                                                    Page 4 of 25
+
+            o PIO to provide the number of loan accounts for which the bank has no proof
+              of expenditure
+           o PIO to provide the number of loan accounts for which the bank has no self
+              attested/certified proof of expenditure
+           o PIO to provide the number of loan accounts for which the bank has no 3rd
+              party attested/certified proof of expenditure
+ • PIO to confirm that the disbursal of Tarun loans are made on outright basis or on
+        re-imbursement node or direct payments to suppliers/vendors
+           o If on outright basis, PIO to confirm that the borrower has to provide proof of
+              expenditure on self attestation basis or on declaration and/or certification
+           o PIO to provide the number of loan accounts for which the bank has no proof
+              of expenditure
+           o PIO to provide the number of loan accounts for which the bank has no self
+              attested/certified proof of expenditure
+           o PIO to provide the number of loan accounts for which the bank has no 3rd
+              party attested/certified proof of expenditure
+
+(iii)        Tarun and Kishor Loans
+ • W.r.t the Tarun and Kishor loans, separately, the PIO to provide the details of the
+        number and value of loans o/s as at March 31, 2019, provided to 1st time
+        entrepreneurs for each sector (as the sector of application of loan would be stated in
+        the application form and the Project Report)
+ • W.r.t the Tarun and Kishor loans, separately, the PIO to provide the details of the
+        number and value of loans o/s as at March 31, 2019, provided to Existing Businesses
+        of entrepreneurs for each sector (as the sector of application of loan would be stated
+        in the application form and the Project Report)
+ • W.r.t the NPA accounts related to Tarun and Kishor loans, separately, the PIO to
+        provide the details of the number and value of loans o/s as at March 31, 2019,
+        provided to 1st time entrepreneurs
+ • W.r.t the NPA accounts related to Tarun and Kishor loans, separately, the PIO to
+        provide the details of the number and value of loans o/s as at March 31, 2019,
+        provided to the existing business of entrepreneurs
+
+                                                                                    Page 5 of 25
+
+ • W.r.t the Loan accounts related to Tarun and Kishor loans for 1st time
+       entrepreneurs, separately, the PIO to provide the details of the number and value of
+       loans o/s ,as at March 31, 2019, provided for the following purposes, as sanctioned
+       and/or disbursed
+          o Working Capital
+          o Asset Creation
+          o Operating Expense
+          o Refinancing Interest
+          o Marketing Expense
+          o Maintenance costs
+          o Offset Losses and Write Offs
+• W.r.t the Loan accounts related to Tarun and Kishor loans for existing businesses of
+       entrepreneurs, separately, the PIO to provide the details of the number and value of
+       loans o/s as at March 31, 2019, provided for the following purposes, as sanctioned
+       and/or disbursed
+          o Working Capital
+          o Asset Creation
+          o Operating Expense
+          o Refinancing Interest
+          o Marketing Expense
+          o Maintenance costs
+          o Offset Losses and Write Offs
+
+(iv)         Proof of expenditure
+• PIO to confirm w.r.t the aggregate NPA loans o/s (by value) in each of the 3 loan
+       categories (Shishu, Kishor and Tarun), as at March 31,2019, the following
+       information
+          o Value of disbursals for which there is no proof of expenditure at all
+          o Value of disbursals for which there is proof of expenditure in terms of self
+             certification only
+          o Value of disbursals for which there is proof of expenditure in terms of 3rd party
+             certification only
+
+                                                                                    Page 6 of 25
+
+           o Value of disbursals for which there is proof of expenditure in terms of bills
+             and invoices only
+
+(v) Willful defaulters and suits filed or recovery initiated cases
+• PIO to provide w.r.t the aggregate MUDRA loans o/s (by value and number) in the 3
+       loan categories (Shishu, Kishor and Tarun),as at March 31, 2019, declated by the
+       bank as willful defaulters
+• PIO to provide w.r.t the aggregate MUDRA loans o/s (by value and number) in the 3
+       loan categories (Shishu, Kishor and Tarun), as at March 31, 2019, w.r.t which the
+       bank has initiated recovery proceedings of any sort
+
+(vi)         Technology/ERP Platforms
+         • W.r.t the MUDRA loan disbursals made by the Bank, the PIO is to confirm the
+             following :
+
+                o That Each loan account is entered into the Bank's Databases and ERP
+                    with the name of borrower, address, type of loan and loan account
+                    number
+                o PIO to provide a sample copy of the Data entry format used to make the
+                    loan disbursal entry into the Bank ERP and Bank IT Databases for each
+                    of the 3 mudra loan types
+         • W.r.t. the 3 types of Mudra Loans disbursed by the bank, the PIO is to provide
+             the following data
+                    o A screen shot of 3 sample loan accounts of the 3 types of loan
+                       accounts as displayed in the loans or borrower module /section of
+                       the Banks ERP/IT databases/systems
+                    o If the bank so desires - it can blank out the names of the borrower
+                       and the address of the borrower as also the photos of the borrowers
+
+(vii)        Banks and 3rd party services
+         • PIO to confirm that it provides assistance to MUDRA borrowers to fill in the
+             application and prepare a Tentative or Detailed Project Report
+                o If Yes, the PIO to provide 3 sample application forms and 3 Tentative
+                    Project Reports which the bank assisted the MUDRA borrowers to
+                    prepare in the 3 types of MUDRA loans
+
+                                                                                 Page 7 of 25
+
+          • PIO to confirm the number and value of MUDRA loans disbursed (in the last 4
+            years in the aggregate) for cases wherein the MUDRA borrowers used NGOs
+            and other agencies to prepare the application form and the Tentative or
+            Detailed Project Report, as also, to complete other formalities with the bank,
+            for the sanction and disbursal of the MUDRA loan
+                 o PIO to provide 3 sample application forms and 3 Tentative Project
+                    Reports which the said NGOs and other agencies, assisted the MUDRA
+                    borrowers to prepare, in the 3 types of MUDRA loans
+
+(viii)      Repeat borrowers
+         • PIO to confirm w.r.t the aggregate loans o/s (by value) in the 3 loan
+            categories(Shishu, Kishor and Tarun),as at March 31, 2019, the following
+            information
+                 o Number and value of loans to repeat borrowers who made no loan
+                    defaults
+                 o Number and value of loans to repeat borrowers who made some loan
+                    defaults
+
+(ix)        Procedures
+         • PIO to provide the loan application form and Project Report format and
+            disbursal guidelines w.r.t the Shishu, Tarun and Kishor loans - and direct the
+            applicant if the said information is available on an authentic mode, on a GOI
+            portal on the web
+
+(x) Statistics
+         • PIO to confirm that it has information w.r.t the aggregate number of MUDRA
+            enterprise units in operation in various districts of India, as at March 31,
+            2019, even on a deductive basis (id.est., assuming that the Non-NPAs are
+            operational enterprise units)
+
+(xi)        Audits and inspections
+         • PIO to confirm that the Bank has carried out or funded the audit of the
+            sanctions and disbursals of MUDRA loans by the Bank , at any time in the last
+            5 years
+                 o If Yes, the nature, year, scope of audit and name of audit agency
+
+                                                                                  Page 8 of 25
+
+                     o If Yes, the PIO to confirm that it has a copy of the said audit reports and
+                        that they are in e-format
+                    o If Not, the bank to provide the name of the Public Authority which has
+                        the information w.r.t the said audit, if any, carried out
+              • PIO to confirm that the CAG has carried out the audit of the sanctions and
+                 disbursals of MUDRA loans by the Bank, at any time in the last 5 years
+                    o If Yes, the nature, year, scope of audit and name of audit agency
+                    o If Yes, the PIO to confirm that the Bank has a copy of the said audit
+                        reports and that they are in e-format
+              • PIO to confirm that the Bank or the disbursing bankers have used any agency
+                 or statistician to ascertain the end use of the Mudra loans in any geography in
+                 the last 5 years
+                    o If Yes, the nature, year, scope of assignment and name of agency
+                    o If Yes, the PIO to confirm that it has a copy of the said analytical or
+                        statistical reports and that they are in e-format
+                    o If Not, the Bank to provide the name of the Public Authority which has
+                        the information w.r.t the said analysis, if any, carried out
+
+     (xii)       Credit insurance
+              • PIO to confirm the aggregate credit insurance cover taken by the Bank w.r.t
+                 the o/s MUDRA loans as at March 31, 2019
+
+     (xiii)      Case studies and sample credit cases
+              • PIO to confirm that the Bank has made case studies on varied enterprise
+                 business models for each district or other geography of India, along with tie
+                 ups with suppliers, vendors, training companies and video and audio kits for
+                 the same
+                    o If Yes, PIO to confirm that all the said data is in e-format
+
+If Yes, PIO to confirm that all the said data is available on the web on an authenticated
+source of the GOI.
+
+
+
+2.      The CPIO vide letter dated 05.09.2019 replied to the complainant. Dissatisfied with
+that, the complainant filed first appeal dated 16.09.2019 The First Appellate Authority did
+
+
+                                                                                       Page 9 of 25
+
+ not pass any order. Aggrieved by the First Appellate Authority order, the complainant filed a
+complaint dated 28.09.2019 before this Commission which is under consideration.
+
+
+
+3.      The complainant has filed the instant complaint dated 28.09.2019 inter alia on the
+grounds that that the CPIO had relied upon redundant, irrelevant and obsolete CIC citations;
+that the NPA as well as MUDRA loans/disbursals data should be placed in public domain;
+that the respondent Bank was taking full advantage of the fact that CIC took 12 to 18
+months to conclude the process and that there was no provision for imposition of penalty
+upon the FAA under the 
+RTI Act
+; that the reasons for rejection of information was not
+specific; that the disclosure of the information was in larger public interest and in the
+interest of transparency and accountability. The complainant requested the Commission to
+direct the CPIO to provide the complete information and take necessary action as per
+
+Section 20 (1)
+ of the RTI Act.. The complainant requested the Commission to direct the
+CPIO to provide the complete information and take necessary action as per 
+Section 20 (1)
+ of
+the RTI Act.
+
+
+
+4.    The CPIO replied vide letter dated 05.09.2019 and the same is reproduced as under:
+
+
+
+      "Information sought for is not readily available and not available in the form as
+      sought by you and culling out of information would disproportionately divert the
+      resources of public authority and denied under 
+section 7(9)
+ of the RTI Act, 2005.
+      
+Under RTI Act, 2005
+ CPIO can provide only that information which is available and
+      existing with Public authority.
+
+
+
+      Moreover, the applicant cannot use provision of 
+RTI Act, 2005
+ to raise multiple
+      queries when the law authorizes him only to ask for a few similar queries.
+
+
+
+      Information sought for is not information as defined under 
+section 2(f)
+ of the RTI Act,
+      2005. You are seeking opinion and clarification, questioning CPIO, and requesting
+      CPIO to elicit his view or opinion and identify the rule or provision, which would fit
+      to the description. It is not coming under the purview of 
+RTI Act, 2005
+.
+
+
+
+ 
+The CIC in appeal no CIC/CC/A/2009/000420 and CIC/AT/C/2009 dated 04.05.2010
+      in the matter between 
+Mr. Dhani Ram vs National Highways Authority of India
+ firmly
+
+
+                                                                                   Page 10 of 25
+
+ told that the appellant cannot use the provisions of the 
+RTI Act, 2005
+ to raise multiple
+queries when the law authorizes him only to ask one or a few similar queries.
+
+
+
+
+The CIC in appeal no. CIC/AT/A/2009/000802 dated 15.01.2010 in the matter
+between 
+Sri T K Roy vs Dept of Legal Affairs and Complaint No.
+CIC/WB/C/2007/00967
+ dated 19.06.2009 between 
+Rajendra Singh vs CBI
+ held that
+the provision of sec 7(1) obligated an applicant of register in his RTI application only
+one request or one type of request, which may have multiple facets. 
+The Act
+ does not
+entitle an applicant to include in his application queries on myriad subjects and then
+expect the CPIO to dispatch each part of the multiple queries to the point where the
+information was known to be or likely to held.
+
+
+
+
+The Honorable Supreme Court in 
+Central Board of Sec. Education & ... vs Aditya
+Bandopadhyay & Ors
+ on 9 August, 2011 held the nation does not want a scenario
+where 75% of the staff of public authorities spends 75% of their time in collecting
+and furnishing information to applicants instead of discharging their regular duties.
+The threat of penalties under the 
+RTI Act
+ and the pressure of the authorities under the
+
+RTI Act
+ should not lead to employees of a public authorities prioritizing 'information
+furnishing', at the cost of their normal and regular duties.
+
+
+
+
+The CIC in Appeal No. CIC/UIICL/A/2017/311450-BJ in matter between Shri
+Waseeq Khan and CPIO, United insurance Co. Ltd dated 15.09.2017 observed and
+held that under the provision of the 
+RTI Act, 2005
+ only such information as is
+available and existing and held by the public authority or is under control of the
+public authority can be provided.
+
+
+
+The CIC in file no. CIC/SM/A/2011/002214 in matter between Shri Amar Pal vs
+CPIO, department of Personnel & Training dated 30.07.2012 held that subsection (j)
+of 
+section 2
+ of the RTI Act, 2005 defines "right to information" and clearly states that
+a citizen can access that information which is held. This means that CPIO is not
+expected to create information if it does not exist already. The CPIO is not obliged to
+provide any clarification because it does not exist in any available documents or file.
+
+
+
+                                                                            Page 11 of 25
+
+
+        The CIC in Decision No. CIC/SG/A/2012/000658/18629 Mr. Dalip Matri vs. Public
+       Information    Officer     &    SE    (B-HQ)      dated    27.04.2012     held     that
+       interpretation/clarification/ opinion to query is not covered under 
+RTI Act, 2005
+."
+
+
+
+5.     The complainant and on behalf of the respondent Ms R Mahalaxmi, CPIO, Indian
+Overseas Bank, Chennai, attended the hearing through video conference.
+
+
+
+5.1.   The complainant inter alia submitted that the respondent had rejected the information
+on the ground that the same was not specific and definite. The respondent had not provided
+specific reasons or rationale while refusing the information. The information had been
+sought through e-format or can be accessed in a few minutes on a CD and it would not
+divert resources. The data relating to NPA accounts by name and by value was available in
+electronic format, therefore, it was not cumbersome as claimed by the respondent. The
+complainant further contended that the information was sought in the interest of
+transparency, accountability and larger public interest. Therefore, he requested that his
+complaint may be allowed in terms of prayer. Moreover, his complaint may be converted
+and considered as second appeal and the relief for providing the information may be
+granted. He complainant further stated that he had also filed a first appeal before filing a
+complaint before the Commission and as per the guidelines available in the web portal of the
+CIC, the Commission may pass direction to the CPIO to provide the information while
+hearing a complaint in case first appeal was also filed by the complainant.
+
+
+
+5.2.   The respondent while defending their case and while endorsing their reply dated
+05.09.2019 inter alia submitted that the information was not readily available and not
+available in the form as sought by you and culling out of information would
+disproportionately divert the resources of public authority and denied under 
+section 7(9)
+ of
+the RTI Act, 2005. The respondent while relying upon the judgment passed by the Supreme
+Court in 
+Central Board of Sec. Education & Anr. vs Aditya Bandopadhyay & Ors.
+ further
+contended that the compilation of information would create immense burden on the public
+resources and public exchequer.
+
+
+
+
+6.     The Commission after adverting to the facts and circumstances of the case, hearing
+both the parties and perusal of records, observes that the respondent replied to the RTI
+
+
+                                                                                  Page 12 of 25
+
+ application dated 30.07.2019 on 05.09.2019. Before dwelling upon the complaint some of
+the relevant cases may be discussed.
+
+6.1.   
+In 
+Mr. K.S. Vasudevan vs Ministry of Law and Justice [CIC/SS/A/2011/000828
+], the
+appellant filed RTI application dated 04.09.2010 seeking the following information:
+
+
+       "1(a) Whether it is mandatory and compulsory to continue the proceedings initiated
+       by the Department when the criminal case is pending before any court of law against
+       those officers;
+
+       1(b) Whether the judgments cited are binding on the Department or not;
+       2(i) If yes, then whether instructions have been issued by the Law Ministry to other
+       Departments for keeping such cases in abeyance or not; and
+       2(ii) If not please cite the rules under which the Departmental proceedings can be
+       conducted over-riding the above judgments."
+
+The Commission while disposing of the second appeal vide its decision dated 09.09.2011
+made the following observations:
+
+ 
+"4. After hearing the respondent and on perusal of relevant documents, the
+       Commission observes that the appellant sought legal opinion from respondent; the
+       same is not covered within the ambit of the definition of 'information' as 
+laid down
+       in
+ 
+Section 2(f)
+ of the RTI Act. The Commission finds no reason to disagree with the
+       replies of respondent."
+
+
+6.2.   
+In    
+Sarojini    Devi      vs   Life     Insurance     Corporation      of    India
+[CIC/LICOI/A/2017/1769933-BJ
+], the appellant filed an RTI application dated 21.08.2017
+seeking information on 05 points regarding the modified policy and practice of LIC in view
+of the Supreme Court Judgment which had held in 2014 that no Government Department/
+Government Corporation will apply 
+Public Premises Act (PP Act
+) to protected tenants who
+were in possession of the premises before 1958, list of cases under trial by LIC Estate
+Officer under 
+PP Act
+ which had been discharged/cancelled by LIC and premises returned to
+rightful protected tenant in light of the above mentioned Supreme Court Judgment, etc.
+ The
+Commission vide its decision dated 05.04.2019 while disposing of the second appeal and
+while relying upon the judgment of the Supreme Court in Khanapuram Gandaiah Vs.
+Administrative Officer and Ors. Special Leave Petition (Civil) No.34868 OF 2009 (decided
+on January 4, 2010) made the following observations.
+
+
+
+                                                                                Page 13 of 25
+
+
+        6. "....
+Under the RTI Act
+ "information" is defined under 
+Section 2(f)
+ which provides:
+
+       "information" means any material in any form, including records, documents, memos,
+       e- mails, opinions, advices, press releases, circulars, orders, logbooks, contracts,
+       report, papers, samples, models, data material held in any electronic form and
+       information relating to any private body which can be accessed by a public authority
+       under any other law for the time being in force."
+
+
+
+       This definition shows that an applicant under 
+Section 6
+ of the RTI Act can get any
+       information which is already in existence and accessible to the public authority under
+       law. Of course, under the 
+RTI Act
+ an applicant is entitled to get copy of the opinions,
+       advices, circulars, orders, etc., but he cannot ask for any information as to why such
+       opinions, advices, circulars, orders, etc. have been passed."
+
+       7. "....the Public Information Officer is not supposed to have any material which is
+       not before him; or any information he could have obtained under law. Under 
+Section
+       6
+ of the RTI Act, an applicant is entitled to get only such information which can be
+       accessed by the "public authority" under any other law for the time being in force.
+       The answers sought by the petitioner in the application could not have been with the
+       public authority nor could he have had access to this information and Respondent No.
+       4 was not obliged to give any reasons as to why he had taken such a decision in the
+       matter which was before him."
+
+
+
+       The Appellant was not present to contest the submissions of the Respondent or to
+       establish the larger public interest in disclosure which outweighs the harm to the
+       protected interests.
+
+
+
+       DECISION:
+
+
+
+       Keeping in view the facts of the case and the submissions made by the Respondent, no
+       further intervention of the Commission is required in the matter."
+
+
+
+6.3.   
+In 
+Mr. B. Venkateswara Rao vs. CPIO, Andhra Bank [CIC/SG/A/2012/001449
+], the
+RTI appellant filed an application dated 04.11.2011 seeking the following information:
+
+
+
+
+       "1.Does it not expedient for the bank authorities concerned to verify and ensure that
+       everything is in the points after the customer leaves the locker room?
+
+
+
+       2. In the period 1-10-11 to 28-10-2011 no efforts to have been evinced to notice the
+       fact of tempering of the locker. Can the reasons for this lapse on the part of the
+       concerned authorities be permissible as per bank's statutory rules?
+
+
+
+       3. Does it not require causing an immaculate intensive check of all the locking
+       devices and ensuring safety in a foolproof manner by the Banking officials concerned
+       just before they leave precincts of the Bank each day?
+
+                                                                                  Page 14 of 25
+
+
+        4. Are there any specific rules allowing the bank authorities to engage an
+       unauthorized mechanic for the purpose?
+
+
+
+       5. Had there been strict surveillance of the bank officials concern throughout the
+       operation or this repaired word?
+
+
+
+       6. Are there any rules under Bank's Statute to allow a private person in the locker
+       room without the surveillance of the bank officials?"
+
+
+
+The Commission while disposing of the appeal passed the following directions vide its
+decision dated 27.06.2012:
+
+
+
+       "The Appeal is partially allowed. The PIO is directed to provide an attested copy of
+       the Manual/Rules as directed above to the Appellant before 15 July 2012."
+
+
+
+6.4.   In Shri Fasih Akhtar vs. CPIO, Prime Minister's Office [CIC/CC/A/2015/002259],
+the appellant filed an RTI application dated 07.10.2014 seeking information on four points:
+
+
+
+       "(i) date of receipt of letter which was sent to the Prime Minister's Office;
+
+
+
+       (ii) what action has been taken by the PMO on his representation dt. 8-9-2014
+       relating to prohibition of cow slaughtering;
+
+
+
+       (iii) what is the reason why the Prime Minister did not convey congratulations on the
+       occasion of Eid Day to the Muslim community; and
+
+
+       (iv) it is against the Constitutional Rights that on the occasion of Hindu festivals
+       Prime Minister conveys congratulations but on the festive occasion of Muslim he does
+       not."
+
+
+
+The Commission while disposing of the appeal while disposing of the appeal vide its
+decision dated 30.08.2016 held:
+
+
+
+       "The Commission's intervention is not required in the matter. The appeal is disposed
+       of"
+
+6.5.   
+In 
+Govind Mittal vs. CPIO, National Highway Authority of India, Faridabad
+[CIC/SS/A/2012/003439
+] the appellant filed an RTI application dated 16.07.2010 seeking
+information on 3 points:
+
+
+                                                                                       Page 15 of 25
+
+
+          "(1) provide information that on how much distance should heconstruct the boundary
+          of his HouseKothi No: 69 which is situated at Gandhi
+         Nagar, Agra, U.P near to Highway no: 2 because at present he permission to
+         construct boundary of his house at 82 feet away from the main Road of the
+         Highway no. 2 from NHAI.
+
+
+
+         (2) At what rate compensation will be given for the acquired land by the NHAI?
+
+
+
+         (3) Provide information on what distance should he
+         construct the main building of his House?"
+
+
+
+The Commission while disposing of the appeal passed the following decision dated
+29.08.2013:
+
+
+
+         "The Commission observes that the queries raised by the appellant in his
+         RTI application are more in the nature of seeking advice and clarification whereas
+         under the provisions of the 
+RTI Act, 2005
+ only information as is held by the
+         Respondent in material form can be provided. The Respondent are not expected to
+         create information or to give advise. The information sought by the Appellant
+         therefore does not qualify as information as defined under 
+section 2(f)
+ of the RTI Act,
+         2005."
+
+
+
+6.6.     In     Kothandaraman        Venkataraman        vs.    CPIO,      Bank       of    India
+[CIC/BKOIN/A/2017/166537], the appellant filed RTI application dated 17.07.2017 seeking
+the following information:
+
+
+
+        (i)     "Confirmation from telephone service provider for messages delivered from
+               this ATM-TCE9038/ triggered by this ATM for my attempted withdrawal
+               transaction no. 348748 on 8.9.16 and any other sms sent to my phone by your
+               service provider for this transaction the same day.
+
+       (ii)    name of telephone service provider for cross verification print out.
+
+       (iii)   Appellant want the calibrated maximum delivery in Rupees machine-TCE9038
+               can deliver per withdrawal transaction, this when was last calibrated before
+               8.9.16 date and value. It can be 15000 or 10000 only.
+
+       (iv)    inspecting this record wherever it is recorded / registered must be in Chennai."
+
+                                                                                      Page 16 of 25
+
+
+ The Commission while disposing of the appeal passed the following decision dated
+09.04.2019:
+
+
+
+          "6.      The Commission after adverting to the facts and circumstances of the case,
+          hearing both the parties and perusal of records, feels that there is no danger to life of
+          any individual as claimed by the respondent under 
+section 8 (1) (g)
+ of RTI Act         in
+          providing information. The information may be supplied within 15 days from the date
+          of issue of this order."
+
+
+
+6.7.      
+In      
+Chayan     Ghosh     Chowdhury     vs.   CPIO,     Punjab      &   Sind     Bank
+[CIC/PASBK/A/2019/123506
+], the appellant filed RTI application seeking the following
+information:
+
+
+                  "Kindly provide the following information with respect to administrative
+                control of Zonal Office, Bareilly:
+
+   (i)          Number of employees, cadre wise& year-wise, who have been placed under
+                Suspension, since 01.01.2013 to date of providing information.
+
+   (ii)         Total remuneration, cadre-wise & year-wise, paid to suspended employees since
+                01.01.2013 to date of providing information.
+
+   (iii)        Certified copies of the rules relied by the bank for review of suspension between
+                01.01.2013 to date of providing information.
+
+   (iv)         Name & designation of officials who were members of the Review Committee for
+                Suspension during the period 01.01.2013 to date of providing information."
+The Commission while disposing of the appeal passed the following directions vide order
+dated 20.09.2021:
+
+
+
+          "The Commission after adverting to the facts and circumstances of the case, hearing
+          both the parties and perusal of records, observes that the reply given by the
+          respondent was incomplete and requisite information in response to point nos. (iii)
+          and (iv) of the RTI application had not been provided so far. The stipulated time for
+          transferring the RTI application to the concerned Branch having elapsed, it was the
+          responsibility of the respondent to obtain the same and provide it to the appellant.
+          Accordingly, the respondent is directed that information in respect to point nos. (iii)
+          and (iv) of the RTI application be made available to the appellant along with
+
+                                                                                       Page 17 of 25
+
+         uploading the same under 
+section 4 (1) (b)
+ of the RTI Act on their web portal within
+        three weeks from the date of receipt of this order. With these observations and
+        directions, the appeal is disposed of."
+
+
+
+6.8.    Definition of Information under 
+RTI Act, 2005
+
+
+"
+Section 2(f)
+ of the RTI Act defines 'Information' as any material in any form, including
+records, documents, memos, email, opinion, contract report logbooks, samples, models held
+in any electronic form and information relating to any private body which can be accessed
+by a public authority under any other law for the time being in force".
+
+
+
+Further, 
+Section 2 (i)
+ defines the term "record" which includes:
+
+
+
+   a) document, manuscript and file
+
+   b) microfilm, microfiche and facsimile copy of a document
+
+   c) reproduction of image or images embodied in such microfilm (whether enlarged or
+        not); and
+
+   d) other material produced by a computer or any other device
+
+
+RTI Act
+ provides that only such information is required to be supplied under the Act, which
+already exists in material form and is held by the public authority or held under the control
+of the public authority. According to the Act, the public information officer is not to
+generate or interpret information, nor is he or she to solve problems raised by applicants or
+to respond to hypothetical questions.
+
+
+
+Further, the term "held by or under the control of public authority" in 
+section 2(j)
+ of RTI Act
+has to be reads in a manner that it effectuates and is harmony with the term "information"
+as defined in 
+section 2(f)
+.
+
+
+
+6.8.1         The definition of "right to information" as given under 
+section 2(j)
+ in the 
+RTI
+Act
+ is reproduced as under:
+
+
+
+        "2. Definitions.--In this Act, unless the context otherwise requires,--
+
+              (a)....
+
+
+
+                                                                                   Page 18 of 25
+
+
+               .
+
+              .
+
+              (j) "right to information" means the right to information accessible under this
+              Act which is held by or under the control of any public authority and includes
+              the right to--
+
+                     (i) inspection of work, documents, records;
+
+                     (ii) taking notes, extracts, or certified copies of documents or records;
+
+                     (iii) taking certified samples of material;
+
+                     (iv) obtaining information in the form of diskettes, floppies, tapes, video
+                     cassettes or in any other electronic mode or through printouts where
+                     such information is stored in a computer or in any other device;"
+
+6.8.2         In Institute of chartered accountant of 
+India V. Shahunak H. Satya
+ and ors.,
+[CIVIL APPEAL NO. 7571 of 2011] the Supreme Court laid down the following
+observations:
+
+
+
+
+        "26. We however agree that it is necessary to make distinction regarding
+        information intended to bring transparency to improve accountability and to reduce
+        corruption, falling under 
+section 4(1)(b)
+ and (c) and other information which may not
+        have a bearing on accountability or reducing corruption. The competent authorities
+        under the 
+RTI Act
+ will have to maintain a proper balance so that while achieving
+        transparency, the demand for information does not reach unmanageable proportions
+        affecting other public interests, which include efficient operation of public authorities
+        and government, preservation of confidentiality of sensitive information and optimum
+        use of limited fiscal resources."
+
+
+
+6.8.3         In 
+Central Board of Secondary Education & Anr. v. Aditya Bandopadhyay &
+Ors.
+ [2011 (8) SCALE 645] the Supreme Court laid down the following observations:
+
+
+
+
+        "
+The RTI Act
+ provides access to all information that is available and existing. This is
+        clear from a combined reading of 
+section 3
+ and the definitions of 'information' and
+        'right to information' under clauses (f) and (j) of 
+section 2
+ of the Act. If a public
+        authority has any information in the form of data or analysed data, or abstracts, or
+        statistics, an applicant may access such information, subject to the exemptions in
+        
+section 8
+ of the Act. But where the information sought is not a part of the record of a
+
+                                                                                     Page 19 of 25
+
+         public authority, and where such information is not required to be maintained under
+        any law or the rules or regulations of the public authority, the Act does not cast an
+        obligation upon the public authority, to       collect or collate such non-available
+        information and then furnish it to an applicant.
+
+
+
+        .
+
+        .
+
+        "....A public authority is also not required to furnish information which require
+        drawing of inferences and/or making of assumptions. It is also not required to
+        provide 'advice' or 'opinion' to an applicant, nor required to obtain and furnish any
+        'opinion' or 'advice' to an applicant. The reference to 'opinion' or 'advice' in the
+        definition of 'information' in 
+section 2(f)
+ of the Act, only refers to such material
+        available in the records of the public authority......."
+
+
+
+6.8.4 In Khanapuram Gandaiah V Administrative Officer & Ors. [S.L.P. (Civil) 34868 of
+2009], the Supreme Court vide judgment dated 04.01.2010 laid down the following
+observations:
+
+
+
+        "This definition shows that an applicant under 
+Section 6
+ of the RTI Act can get any
+        information which is already in existence and accessible to the public authority under
+        law. Of course, under the 
+RTI Act
+ an applicant is entitled to get copy of the opinions,
+        advices, circulars, orders, etc., but he cannot ask for any information as to why such
+        opinions, advices, circulars, orders, etc. have been passed, especially in matters
+        pertaining to judicial decisions. A judge speaks through his judgments or orders
+        passed by him. If any party feels aggrieved by the order/judgment passed by a judge,
+        the remedy available to such a party is either to challenge the same by way of appeal
+        or by revision or any other legally permissible mode. No litigant can be allowed to
+        seek information as to why and for what reasons the judge had come to a particular
+        decision or conclusion. A judge is not bound to explain later on for what reasons he
+        had come to such a conclusion."
+
+
+
+6.8.5       In case of 
+A.K. Vasudev V. CPIO
+, M/o Consumer Affairs, Food & Public
+Distribution, New Delhi, it was held that respondent is seeking answers to his questions,
+
+
+                                                                                   Page 20 of 25
+
+ which does not fall within the definition of 'information' as per 
+Section 2(f)
+ of the RTI Act.
+The Commission refers to the decision of Hon'ble Bombay High Court at Goa in the matter
+of Dr. Celsa Pinto V. Goa State Information Commission (W.P. No. 419 of 2007, decision
+dated 03.04.2008) wherein it was held as follows: "The definition of information cannot
+include within its fold answers to the question "why" which would be same thing as asking
+the reason for a justification for a particular thing. The public information authorities cannot
+expect to communicate to the citizen the reason why a certain thing was done or not done in
+the sense of a justification because the citizen makes a requisition about information.
+Justification are matter within the domain of adjudicating authorities and cannot properly be
+classified as information."
+
+
+
+
+6.8.6         Right to information only to citizen of 
+India
+
+The Right to Information Act
+ gives right to information only to citizen of India. It does not
+make provision for giving information to companies, associations, corporations etc.
+However, if an application is made by an employee of any corporation, association,
+company, NGO indicating his name and such employee/officer bearer is a citizen of India
+then 
+in that case
+ it would presume that a citizen has sought information and the information
+may be supplied to him/her.
+
+
+
+
+6.8.7 Information relating to any private body
+
+The objective is to make public authority liable to make the information under their custody
+accessible to the citizens and such obligation is not on the private bodies. However, in case
+the information which as a mandatory filing or otherwise is available with the public
+authorities being public record subject to exemptions is accessible under RTI. Information
+relating to any private body although cannot be obtained directly but can be obtained
+through a public authority if law allows public authority to access it through mandatory
+filing or inspection etc. and thus become custodian.
+
+
+
+6.8.8        In case of 
+Poorna Prajna High School V. Central Information Commission
+ it
+was held that it is mandatory for public authorities to disseminate information that is
+accessible to them. As a result, information that a public body has access to is deemed
+
+
+
+                                                                                    Page 21 of 25
+
+ information under 
+Section 2(f)
+ of the Right to Information Act, 2005. Here public authority
+is referred to as the framework or the body under which the institution is governed.
+
+
+
+
+6.8.9        In case of 
+Reserve Bank of India V. Jayantilal Mistry
+ the Court briefly
+analysed 
+section 2(f)
+ of the RTI Act, which defines information to include "... information
+relating to any private body which can accessed by a public authority under any other law
+for the time being in force." Using this inclusive definition, the Court held that, even if a
+fiduciary relationship existed between the RBI and other banks, 
+section 2(f)
+ would render
+them accessible to the public."
+
+
+
+
+6.8.10       As per the RTI rules 2012, an application under sub-section (1) of 
+Section 6
+ of
+the Act shall be accompanied by a fee of rupees ten and shall ordinarily not contain more
+than five hundred words, excluding containing address of the Central Public Information
+Officer and that of the applicant. However, the RTI application filed by the complainant was
+having around 1800 words.
+
+
+
+6.8.11       Perusal of the RTI application against which the complainant has filed
+complaint reveals that he has sought details of Willful Defaulters, NPA Analytics, Loss,
+doubtful or written off loans, Financial supply chain of banks, CRD/OTS, NPA Turnaround,
+Adhoc limits, FX, Gifts, donations/DEA Fund and Commissions, Demo/GST, Limitation
+and NPA Sales, Unclaimed Deposits and Lockers and EB. Perusal further reveals that in
+most of the cases he has not sought any material or copy of the order instead he has sought
+confirmation, analytics, details of processes etc.     Thus he has not sought records or
+documents which were in the custody of the public authority.
+
+
+
+6.9          The position when a complaint is filed by the complainant and the same is
+registered under 
+Section 18
+ of the RTI Act may be discussed in the first instance.
+
+
+
+6.9.1        During hearing the complainant raised the issue of converting complaint into
+appeal and prayed for the information in terms of the guidelines available on the CIC portal.
+Succinctly, the facts of the case on the subject are that earlier the field was occupied by an
+order dated 21st September, 2017, the relevant para 1 of the order is re-produced as under:
+
+
+
+             "In a case of complaint(s) where the applicant seeks information and
+             also requests for imposition of penalty on the CPIO, the complaint
+
+                                                                                     Page 22 of 25
+
+                should be registered as Second Appeal, in case First Appeal was also
+               filed by the applicant, as both reliefs sought by the applicant can be
+               made available under 
+Section 19
+".
+
+6.9.2          Subsequently, the order was amended vide order dated 14th June,2018. The
+relevant portion of the order under the head Registration of Complaint is re-produced as
+under:
+
+
+
+               "During scrutiny of Complaint, if it is found that the Complainant has
+               requested for the information along with the imposition of the penalty,
+               the Complaint should be registered as Second Appeal, provided first
+               appeal had been filed by the Complainant. However, if the first
+               appeal has not been filed, the person concerned may be asked to file
+               first appeal before filing second appeal."
+
+6.9.3          The matter was discussed during the meeting held on 22nd May,2019
+including the order of the CIC dated 14th June,2019. It was unanimously decided that the
+same would be withdrawn. The order dated 27th May,2019 withdrawing the order dated
+14th June,2018 holds the field for the present.
+
+
+
+6.9.4          It may be noted that while considering the issue as to whether the relief under
+
+section 19
+ of the Act maybe granted under 
+section 18
+ of the RTI Act or not, the Commission
+in       Sanjay     Ramesh       Shirodkar        vs.   Mumbai       International       Airport
+Ltd.[CIC/MA/C/2008/000195] passed the following observations vide its order dated
+18.05.2020:
+
+
+
+         "6.   The Commission after adverting to the facts and circumstances of the case,
+         hearing both the parties and perusal of records, observes that the complainant had
+         not filed second appeal aggrieved by non receipt of information/reply in response to
+         his RTI application and first appeal before approaching this commission by way of
+         complaint. Prima facie, it may not be unreasonable for MIAL to consider itself not
+         covered within the meaning of public authority under the 
+RTI Act
+. Keeping in view of
+         the above facts, it might not be proper for this Commission, on a complaint, where the
+         relief sought had been punishment for not maintaining a list of CPIOs to punish
+         without holding MIAL a 'public authority' or to treat complaint as second appeal.
+         The ideal situation should have been that the complainant had exhausted available
+         remedies i.e. First Appeal and/or Second Appeal. Having been not declared as
+
+                                                                                     Page 23 of 25
+
+         'public authority', MIAL might not be under an obligation to disclose the information
+        requested for by the complainant nor maintain a list of CPIOs as mandated by the
+        
+RTI Act
+.
+
+
+
+6.9.5         The Supreme Court in the case of 
+Chief Information Commissioner and
+Another Vs State of Manipur and Another
+ [(2011) 15 Supreme Court Cases 1] has held :-
+
+
+
+
+              "The only order which can be passed by the Information Commissioner
+              under 
+Section 18
+ is an order of penalty provided under 
+Section 20
+.
+              However, before such order is passed the Commissioner must be satisfied
+              that the conduct of the Information Officer was not bona fide.           The
+              Commissioner while entertaining a complaint under 
+Section 18
+ has no
+              jurisdiction to pass an order providing for access to the information.
+
+
+
+              The appellant after having applied for information under 
+Section 6
+ and
+              then not having received any reply thereto, it must be deemed that he has
+              been refused the information. The remedy for such a person who has
+              been refused the information is provided under 
+Section 19
+ of the Act."
+
+
+
+6.10          The Commission after adverting to the facts and circumstances of the case
+hearing both the parties and perusal of records, observes that the complainant has filed
+complaint under 
+Section 18
+ of the RTI Act. He filed the complaint without exhausting
+the remedy of filing second appeal. In view of the factual as well as legal discussions
+made above, the Commission does not find any substance in the complaint. Hence the
+complaint is rejected.
+
+
+
+        Copy of the decision be provided free of cost to the parties.
+
+
+
+                                                                                       Sd/-
+
+                                                                                 सुरेश चं ा)
+                                                              (Suresh Chandra) (सु        ा
+                                                                              सूचना आयु )
+                                                   Information Commissioner (सू
+                                                                    दनांक/Date: 01.11.2021
+Authenticated true copy
+
+                     आर सीताराम मूत )
+R. Sitarama Murthy ( .
+              उप पंजीयक
+Dy. Registrar (      )
+011-26181927(०११-२६१८१९२७)
+
+
+                                                                                   Page 24 of 25
+
+ Addresses of the parties:
+CPIO :
+1. INDIAN OVERSEAS BANK
+CENTRAL OFFICE, P.B. No.
+3765, 763, ANNA SALAI,
+CHENNAI, TAMIL NADU - 600 002
+
+THE FIRST APPELLATE AUTHORITY,
+INDIAN OVERSEAS BANK,
+CENTRAL OFFICE, P.B. No. 3765,
+763, ANNA SALAI,
+CHENNAI, TAMIL NADU - 600 002
+
+SAMIR SARDANA
+
+
+
+
+
+                                 Page 25 of 25

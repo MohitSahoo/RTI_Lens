@@ -1,0 +1,87 @@
+{
+  "doc_name": "82d1ad17dbd01a764b48ef4693768e75",
+  "line_count": 306,
+  "structure": [
+    {
+      "title": "Central Information Commission",
+      "node_id": "0001",
+      "line_num": 10,
+      "nodes": [
+        {
+          "title": "Author:",
+          "node_id": "0002",
+          "line_num": 17
+        },
+        {
+          "title": "Bench:",
+          "node_id": "0003",
+          "line_num": 22
+        }
+      ]
+    },
+    {
+      "title": "Central Information Commission",
+      "node_id": "0004",
+      "line_num": 28,
+      "nodes": [
+        {
+          "title": "Relevant dates emerging from the complaint:",
+          "node_id": "0005",
+          "line_num": 46
+        },
+        {
+          "title": "CORAM:",
+          "node_id": "0006",
+          "line_num": 54
+        }
+      ]
+    },
+    {
+      "title": "SHRI SURESH CHANDRA",
+      "node_id": "0007",
+      "line_num": 57,
+      "nodes": [
+        {
+          "title": "ORDER",
+          "node_id": "0008",
+          "line_num": 59
+        },
+        {
+          "title": "complaint dated 07.09.2018 due to alleged non-supply of information vide her RTI",
+          "node_id": "0009",
+          "line_num": 66
+        },
+        {
+          "title": "complaint dated 07.09.2018, before this Commission.",
+          "node_id": "0010",
+          "line_num": 148
+        },
+        {
+          "title": "information sought did not fall within the definition of information as defined under",
+          "node_id": "0011",
+          "line_num": 163
+        },
+        {
+          "title": "Addresses of the parties:",
+          "node_id": "0012",
+          "line_num": 279
+        },
+        {
+          "title": "CPIO :",
+          "node_id": "0013",
+          "line_num": 282
+        }
+      ]
+    },
+    {
+      "title": "BANK OF BARODA",
+      "node_id": "0014",
+      "line_num": 284
+    },
+    {
+      "title": "USHA SINGHAL",
+      "node_id": "0015",
+      "line_num": 299
+    }
+  ]
+}

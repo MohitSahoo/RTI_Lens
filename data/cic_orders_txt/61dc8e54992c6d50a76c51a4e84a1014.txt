@@ -1,0 +1,1067 @@
+[Cites 
+17
+, Cited by 
+0
+]
+
+
+
+
+Central Information Commission
+
+
+Saurav Das vs Deptt Of Information Technology on 26 November, 2020
+
+
+Author: 
+Vanaja N Sarna
+
+
+Bench: 
+Vanaja N Sarna
+
+
+                            क य सच  ु ना आयोग
+                    CENTRAL INFORMATION COMMISSION
+                             बाबा गंगनाथ माग
+                            Baba Gangnath Marg
+                        मु नरका, नई द ल - 110067
+                        Munirka, New Delhi-110067
+
+                                           File no.: CIC/DEOIT/C/2020/685084
+
+In the matter of:
+Saurav Das
+                                                               ... Complainant
+                                            VS
+1.Central Public Information Officer,
+National E-Governance Division (NEGD),
+Ministry of Electronics and Information Technology,
+Department of Electronics and Information Technology,
+Electronics Niketan, 6, CGO Complex, Lodhi Road,
+New Delhi- 110003
+      &
+2. Central Public Information Officer,
+Ministry of Electronics and Information Technology,
+Electronics Niketan, 6, CGO Complex, Lodhi Road,
+New Delhi- 110 003
+                                                               ...Respondents
+
+
+RTI application filed on          :   01/08/2020
+CPIO replied on                   :   07/08/2020
+First appeal filed on             :   Not on record
+First Appellate Authority order   :   Not on record
+Complaint dated                   :   10/09/2020
+Date of Hearing                   :   22/10/2020, 24/11/2020
+Date of Decision                  :   26/10/2020, 26/11/2020
+
+The following were present:
+Complainant: Present over VC
+
+Respondent: Shri S.K Tyagi, Deputy Director and CPIO, Shri D K Sagar, Deputy
+Director Electronics and Shri R A Dhawan, Senior General Manager (HR &
+Admn) and CPIO NeGD
+
+
+
+                                       1
+
+ Information Sought:
+
+The complainant has sought the following information:
+
+   1. Provide the certified true copy of the entire file related to the creation of
+      the Aarogya Setu app including a) origin of proposal, b) approval details,
+
+      c) companies, d) people, govt. departments involved, e) file notings
+      related to the app, f) comments on files by various officers, g) copies of
+      communications between private people involved in making/developing
+      the app and government departments concerned, etc. h) copies of
+      request for collaboration with people from industry who have helped in
+      making this app i) all communications received from all
+      contributors/advisers of this app who have helped make this app. The
+      responses be also provided. j) Internal notes, memos, file notings,
+      correspondences while making this app and finalising it. k) Minutes of
+      the meetings held while creating this app. l) Notings/documents related
+      to any meetings between the Government and private contributors to
+      this app. m) Details of meetings/inputs received from any other
+      government agency on this app.
+
+   2. Provide the details of the law/legislation under which the app was
+      created and is being handled.
+
+   3. Whether the Government of India has any proposal to bring in a law
+      separately for this App and its handling.
+
+   4. And other related information.
+
+
+
+Grounds for Complaint
+The CPIO, NEGD and Ministry of Electronics & Information Technology did not
+provide any information.
+
+
+
+Submissions made by Complainant and Respondent during Hearing:
+
+The complainant requested to hold a hearing on an urgent basis due to the
+immense public interest in the matter and need for immediate public scrutiny.
+He also had pointed out that any failure by the public authorities to perform
+their duties as outlined in the Protocol, 2020 and its failure to inform the usage
+of people's personal and user data will have a severe and irreversible
+detrimental effect on people's right to privacy and therefore their fundamental
+right to life and liberty. He also submitted that the Aarogya Setu App will be
+rendered useless once the pandemic is over. In such a situation, if the normal
+time period of waiting is followed, it would take almost 2 years for the first
+hearing to come up before this Commission. He further submitted that this
+would lead to the matter becoming infructuous and of no use. Therefore, there
+is an urgent need to act and hear this matter urgently and on priority basis.
+
+                                        2
+
+
+ The Commission accepting the matter as related to right to privacy which is an
+essence of right to life and liberty deemed it fit to provide an opportunity of
+early hearing to the complainant and accordingly the hearing was fixed on
+priority basis.
+
+
+
+The complainant in his complaint to the Commission mentioned that there was
+no reply given by the CPIO, National E-Governance Division, MeitY and CPIO,
+MeitY.
+
+
+
+He further submitted that he filed this RTI application seeking to get
+information about the process of creation of Aarogya Setu App and other
+information relating to its creation. He further clarified that the present RTI
+also contains a few points which were also asked to the NIC vide RTI with reg.
+no. NICHQ/R/E/20/00283 dt. 01/08/2020. It was noted by the Commission that
+the referred RTI was adjudicated by the Commission in case no.
+CIC/NICHQ/C/2020/685079 on 22.10.2020.
+
+
+
+The complainant further submitted that the information was anyway not
+provided by the NIC in that case since it stated that it "does not hold the
+information" relating to the App's creation, which is very surprising since it is
+the App's developer. Now MeitY also has not provided any information relating
+to the App's creation and other matters.
+
+
+
+He strongly pleaded that in effect, no one has any information on how this App
+was created, the files relating to its creation, who has given inputs for this
+App's creation, what audit measures exists to check for misuse of the personal
+data of millions of Indians, whether any anonymisation protocols for user data
+have been developed and about who this data is being shared with. This is
+despite the fact that any omissions and commissions by these public
+authorities and any failure to perform their duties as outlined and mandated
+under the Protocol, 2020, could essentially lead to security compromise of
+millions of Indians' personal and user data. This would be a grave breach of
+fundamental right to privacy on a massive scale and threaten people's
+constitutionally guaranteed right to life and liberty.
+
+
+
+He further argued that there seems to be a pattern among these public
+authorities to wilfully withhold information from any applicant asking for this
+information as no public authority has any details about any of the questions
+as asked which to him seems out-rightly false, malafide and done with an
+effort to frustrate and harass the applicant to give up.
+
+
+
+                                       3
+
+
+ He further requested that a senior level officer of the Ministry of Electronics
+and Information Technology be recognised as the deemed CPIO by this
+Commission in this matter and he/she be directed to furnish all the
+information in detail to the Complainant after collecting them from all relevant
+CPIOs.
+
+
+
+He further submitted that due to the many credible media reports questioning
+the Aarogya Setu App and its making and handling, it is of utmost importance
+to bring transparency in the making and current handling of this App, which
+collects vast amounts of user and personal data of individuals. If the right to
+privacy is breached due to inept handling of people's personal and user data, it
+will be a breach to one's right to life and liberty. The information as asked for
+would fall under the category of threat to life and liberty of millions of Indians
+and if the urgent hearing is not provided, the matter will become infructuous
+and it is the mandate of the Commission to prioritise matters pertaining to
+one's, but in this case, millions of Indians' liberty on priority. This will be in
+larger public interest involved in the matter.
+
+
+
+He also pressed for action against the CPIO, National E-Governance Division,
+MeitY under 
+section 20(1)
+ and 
+20(2)
+ of the RTI Act for wilfully and repeatedly
+refusing to act in conformity with the 
+RTI Act
+ despite sending repeated
+reminders requesting them to furnish the information.
+
+
+
+He further requested to convert this Complaint to a Second Appeal as the
+matter could not have waited if the first appeal route was followed and the
+Complainant had no faith in approaching the FAA of the public authorities.
+
+
+
+Shri D K Sagar Deputy Director and CPIO, Department of Electronics submitted
+that a timely reply was given to the applicant on 07.08.2020 informing him that
+the RTI application has been transferred to the PIO, NeGD
+ u/s 6(3)
+ of the RTI
+Act. Shri R A Dhawan, Senior General Manager (HR & Admn) and CPIO NeGD
+submitted a copy of the reply dated 02.10.2020 in which he stated that the
+information sought in the RTI does not relate to NeGD. Accordingly, NeGD do
+not have any information on the above. He could not explain why it took him
+almost two months to provide a reply and that too informing that the
+information sought is not related to NeGD. Shri S.K Tyagi, Deputy Director and
+CPIO, MeitY was also present during the hearing and hence he was asked as to
+from where the information relating to the creation of Arogya Setu app can be
+
+                                        4
+
+ accessed. He also could not gave a plausible explanation except that the
+creation of the same involves inputs from NITI Ayog. He further could not
+explain as to how it is possible that the App was created and the Ministry of
+Electronics and Information Technology has no clue about its origin. The
+Commission took note of the fact that on the same day two more complaints
+were also decided and the CPIO, from NIC was present in those cases but the
+CPIO NIC had also transferred those RTIs to different public authorities to
+obtain information of similar nature. Apparently, the CPIO, MeitY and all
+concerned CPIOs present during the hearing have provided a very evasive kind
+of reply as well as submissions and not even attempted to trace the holder of
+the information in this case. Moreover, the applicant has rightly pointed out
+that the App is being used by masses at large and can have wide reaching
+effects and breach of privacy cannot be ruled out completely. This Commission
+would not get into the right to privacy aspects as the technical details of the
+App and the regulatory mechanism has not yet been examined by any
+competent Court of Law.
+
+
+
+Observations:
+
+After hearing the averments of all the concerned parties and also the CPIO NIC
+who was present in this case on the basis of oral direction by the Commission,
+the denial of information by all the concerned authorities cannot be accepted
+at all.
+
+It is relevant to mention here that Sec 6(3) of the 
+RTI Act
+ cannot be used by
+public authorities to push off the matter.
+
+Taking note of the decision in case no. 685079 of the same complainant
+decided on 22.10.2020, the present complaint cannot be converted into an
+appeal. However, the complainant's plea that the CPIO, National E-Governance
+Division, MEITY should be penalised under 
+section 20(1)
+ and 
+20(2)
+ of the RTI
+Act for wilfully and repeatedly refusing to act in conformity with the 
+RTI Act
+
+despite sending repeated reminders requesting them to furnish the
+information seems correct in the absence of a reasoned and justifiable reply
+from the CPIOs concerned.
+
+The reply dated 07.08.2020 given by the Department of Electronics &
+Information Technology was perused and the same read as follows:
+
+        "The online RTI request has been transferred to PIO, NeGD under 
+section
+        6(3)
+ of the RTI Act. Hence, the said online RTI request is disposed off from
+        the portal."
+
+                                         5
+
+
+ Shri R A Dhwan's submission that information sought is not related to NeGD
+and Shri Tyagi's and Shri Sagar's submissions that the RTI application was
+transferred to NeGD shows that ultimately the steps taken till today failed to
+locate the source from where information can be accessed. The Commission
+observes that it is a current issue and it is not possible that there was no file
+movement while creating this App, a citizen cannot go round in circles to find
+out the custodian.
+
+The CPIO, NIC's submissions that the entire file related to creation of the App is
+not with NIC is understandable, but the same submissions if accepted from
+MeITY, NeGD and NIC in toto, then it becomes more relevant to now find out
+how an App was created and there is no information with any of the relevant
+public authorities.
+
+
+
+The Commission observed that none of the CPIOs provided any information.
+Therefore, the Commission directs the CPIO, NIC to explain this matter in
+writing as to how the website https://aarogyasetu.gov.in/ was created with
+the domain name gov.in, if they do not have any information about it.
+Moreover, the registry is directed to send an e-mail to the e-mail id-
+support.aarogyasetu.gov.in as mentioned in the website directing them to
+send the concerned authority to be present before the Commission on the
+next date of hearing.
+
+
+
+Furthermore, as per the website https://aarogyasetu.gov.in/ it is mentioned
+that the content is owned, updated and maintained by the MyGov, MeitY.
+Therefore, Shri Tyagi is directed to explain in writing who is the concerned
+CPIO to explain regarding MyGov, MeiTY maintaining the app. The CPIO NIC
+also should explain that when in the website it is mentioned that Aarogya Setu
+Platform is designed, developed and hosted by National Informatics Centre,
+Ministry of Electronics & Information Technology, Government of India, then
+how is it that they do not have any information about creation of the App.
+
+
+
+None of the CPIOs were able to explain anything regarding who created the
+App, where are the files, and the same is extremely preposterous.
+
+
+
+It is relevant to quote the Hon'ble Supreme Court decision in 
+Namit Sharma v.
+Union of India
+ 2012 (8) SCALE 593 in which it was held that the purpose and
+object for the enactment of the 
+RTI Act
+ was to make the government more
+transparent and accountable to the public and to ensure access to information
+to every citizen from the public authorities.
+
+
+
+
+                                        6
+
+
+ Further, the Hon'ble Supreme Court in ICAI v. Shaunak H Satya & Ors SLP (C)
+No.2040/2011 further held that the right to information regarding the
+functioning of public authorities is a fundamental right as envisaged under
+
+Article 19
+ of the Constitution of India. Further, it was pointed out that the very
+preamble of the 
+RTI Act, 2005
+, substantiates the fact that the Act, does not
+create any new right but only provides machinery to effectuate the
+fundamental right to information. Furthermore, the Information Commissions
+are the implementing agencies/machinery. The right to access to information
+has only exemptions provided in 
+Section 8
+ of the RTI Act. The Government of
+the people means the information should be open to public for informed
+citizenry.
+
+
+
+Keeping in view the above ratio, the Commission took cognizance of the
+present complaint
+ u/s 18(f)
+ of the RTI Act and as per the mandate under that
+provision is of the view that it is necessary to identify the source/ custodian of
+information in respect of the complainant's request for obtaining access to
+records under this Act. The addressees cannot simply wash their hands off by
+stating that the information is not available with them. Some effort should
+have been put in to find out the custodian(s) of the information sought, by the
+concerned public authorities when apparently they are the relevant parties.
+
+
+
+Interim Decision:
+
+In view of the above observations, the Commission is constrained to issue a
+show cause notice to the concerned CPIOs
+
+    1. Shri S.K Tyagi, Deputy Director and CPIO,
+
+    2. Shri D K Sagar, Deputy Director Electronics
+
+    3. Shri R A Dhawan, Senior General Manager (HR & Admn) and CPIO NeGD
+
+    4. Shri Swarup Dutta, Scientist F and CPIO NIC
+ to explain why penalty
+ u/s 20
+ of the RTI Act should not be imposed on them
+for prima facie obstruction of information and providing an evasive reply.
+
+The CPIO, NIC shall also submit written submissions detailing their role in
+creation of the website https://aarogyasetu.gov.in/ with the domain name
+gov.in. The CPIO, NeGD shall also explain the delay of about 2 months in
+replying to the RTI application.
+
+The Commission directs the above-mentioned CPIOs to appear before the
+bench on 24.11.2020 at 01.15 pm to show cause as to why action should not
+be initiated against them under 
+Section 20
+ of the RTI Act. The CPIOs are also
+directed to send a copy of all supporting documents upon which they choose
+to rely upon during the hearing. The said documents be sent to the
+
+
+                                        7
+
+ Commission atleast 5 days prior to the hearing via linkpaper. If any other
+persons are responsible for the said omission, the CPIO shall serve a copy of
+this order on such persons to direct their presence before the bench as well.
+
+
+
+The Registry shall endorse a copy of this interim order to the Secretary MeitY,
+CEO MyGOV and Director General NIC for information and necessary action.
+
+
+
+                   The case is adjourned accordingly
+
+Date of Hearing: 24/11/2020
+Date of Decision: 24/11/2020
+
+The following were present:
+
+Respondent: Shri D.K Sagar, Deputy Director and CPIO (eGov), Shri R.A
+Dhawan, Senior General Manager, NeGD and Shri Swarup Dutta, Scientist-F
+and CPIO, NIC, Mr Shiloma Rao, GM and CPIO, NeGD, present CPIO, (present
+over Intra VC)
+
+Submissions made by Respondent during the hearing:
+
+All the CPIOs present during the hearing submitted that the written
+submissions dated 18.11.2020 may be considered as a common response of all
+concerned to adjudicate the matter.
+
+Shri S.K Tyagi vide e-mail dated 19.11.2020 informed the Commission that as
+he is on bed rest (due to Corona) as advised by the doctor, he is not able to
+attend the showcause proceedings in person. He further relied on the written
+submissions dated 18.11.2020.
+
+Shri Swarup Dutta submitted that he was not an original party to the case and
+NIC had replied properly and the FAA NIC had given the applicant a personal
+hearing in the spirit of the 
+RTI Act
+ in two other similar cases pertaining to the
+same subject matter.
+
+Shri R.A Dhawan submitted that at that time they tried to collect the
+information from different sections/departments as the information was
+scattered but he could not do the same before the hearing on 22.10.2020 and
+therefore was unable to explain the matter.
+
+Shri D.K Sagar submitted that previously the matter was scattered in different
+sections but after the CIC's order the concerned information was brought
+
+
+                                       8
+
+ together exclusively on one platform and he is now the DD in charge of
+handling all queries through RTIs on the Aarogya Setu app.
+The present CPIO, Mr Rao tendered an unconditional apology on behalf of the
+concerned CPIOs as public confidence was shaken due to their irresponsible
+submissions before the Commission regarding the availability of information
+relating to the Aarogya Setu App. He admitted that the subject matter is of
+prime importance and unnecessarily the RTI application was poorly handled by
+the officers by providing what appeared to be evasive replies whereas actually
+there is nothing to hide and the creation of this app was a positive step and
+had actually helped immensely in controlling the pandemic.
+
+
+
+The CPIO submitted that the requisite documents including privacy policies,
+details of usage etc. were made available in the portal itself on 02.04.2020 and
+on 08.04.2020 the Empowered Committee team details were also made
+available. Moreover, responsible senior officers were also included in these
+teams. He further added that more than 10 public conferences were held and
+very significantly the app was made open source. They even launched a bug
+bounting programme in which if anybody found fault with the app there was a
+provision for them to be rewarded also. He further submitted that recently the
+back end code was also made available. Everything regarding the app from its
+start is in public domain. He affirmed that from 2nd April 2020 onwards there
+was enough information in public domain.
+
+If that was the case, the Commission during the hearing asked as to why the
+concerned officers could not provide any answers whatsoever during the
+previous hearing. The present CPIO then submitted that possibly the same
+happened due to lack of coordination among the different CPIOs and the fact
+that the information was scattered among various sections /departments. He
+stated that after the issuance of the showcause notice, it was brought to the
+notice of the competent authorities and the Ministry took the matter very
+seriously and accordingly the CPIOs were instructed to be pro active in
+supplying information. He referred to a circular of the MEITY dated 19.11.2020
+in which a single CPIO has been given the responsibility to handle the subject
+matter under RTI. He informed that henceforth the entire matter of Aarogya
+Setu shall be dealt with by a single CPIO, Deputy Director, E-GOV Division,
+MEITY, Mr D K Sagar. He also submitted that this was done to ensure timely
+disposal of RTI applications and dissemination of maximum information in the
+spirit of the 
+RTI Act
+.
+
+                                       9
+
+
+ The Commission asked Shri D K Sagar as to why he had not diligently gathered
+information before attending the previous hearing which could have prevented
+this showcause notice, to which he clarified that it was not that information
+was not available, but it was scattered in different divisions, and it took some
+time to bring it together and thus they were not able to satisfy the queries
+during the previous hearing. He assured the Commission that henceforth, RTI
+matters shall be dealt with with utmost care and caution.
+The CPIOs viz. Shri S.K Tyagi, Deputy Director and CPIO, Shri D.K Sagar, Deputy
+Director and CPIO (eGov), Shri R.A Dhawan, Senior General Manager, NeGD
+and Shri Swarup Dutta, Sci-F and CPIO, NIC vide written explanations dated
+18.11.2020 expressed their apologies and regret for not being able to respond
+clearly and coherently to the RTI application filed by the applicant as also
+during the hearing of the complaint dated 10.09.2020 filed by the applicant
+before the Commission.
+
+They submitted that the above was primarily on account of the query of the
+applicant being related to multiple agencies and Government Departments for
+which though the entire information was available in public domain but the
+same was not specifically available to the individual CPIOs and hence a proper
+and clear reply could not be submitted in time to the applicant or during the
+hearing before the Commission .
+
+They further submitted that the applicant had also filed two additional RTI
+applications with regard to the Aarogya Setu App to CPIO NIC which have
+already been responded to by NIC vide replies dated 10.08.2020 (disposed of
+online). Additional information was also provided to both the queries by e-mail
+dated 04.09.2020 and as part of the FAA's order in appeal disposed of on
+15.10.2020 wherein all the queries under the purview of NIC were answered
+and the others are being transferred to the concerned organisations.
+They submitted that vide orders No. 40-3/2020-DM-1(A) dated 29.03.2020 and
+01.05.2020, the Central Government had constituted empowered groups
+under the 
+Disaster Management Act, 2005
+ to ensure public safety, identify the
+problem areas and provide practical solutions in a time bound-manner and out
+of the same empowered groups, the Empowered Group no. 9 on technology
+and data management under the purview of Ministry of Electronics and
+Information Technology was entrusted with the responsibility of coordinating
+all technological solutions for fighting COVID-19.
+
+They also submitted that the development of the Aarogya Setu App was done
+at a time when the entire nation was impacted by the COVID-19 pandemic and
+
+                                      10
+
+ the nation had gone into a complete lockdown in the last week of March 2020
+following the call for Janata Curfew on 22.03.2020. The nature of COVID 19
+virus is such that most people who get infected by the virus remain
+asymptomatic for around 2 weeks before showing any symptoms which results
+in a delay in the test diagnosing them as COVID-19 positive. During the period
+before they have been detected COVID positive such people may continue to
+infect other people with whom they come in contact and contribute to the
+spread of the virus. In order to address this, in many countries around the
+world a contact tracing app has proved to be an effective tool to alert people if
+they have come in contact with anyone who is tested positive for COVID-19 .
+In view of the above, stakeholders from across Industry-Academia and
+Government authorities, including officials from NITI Aayog and MeitY had
+come together to build a Contact Tracing App for India. In the month of March,
+2020 several such apps were being built, and after due consideration of all the
+competing Apps, it was decided that a National App for contact tracing namely
+Aarogya Setu will be built to strengthen the fight against COVID-19.
+This app was built in a record time of less than 3 weeks without any cost to
+Government and was launched on 2nd April, 2020. Within 13 days of the
+launch of the App it had more than 50 million users which was a world record
+of the fastest time to reach 50 million users for any mobile app.
+He further submitted that the App has more than 164 million users which is
+more than the combined users of all other Contact Tracing Apps in the world.
+The app has proved to be effective in informing and alerting people if they
+have come in contact with any COVID-19 positive person and has also helped
+in educating people about the behavioural changes that may be needed
+regarding usage of masks, social distancing and hand washing. The app has also
+helped in identification of potential hotspots and strengthened the ability of
+health authorities and District Administrations in the fight against COVID-19.
+The app has been designed with a privacy first policy and the entire data of the
+users is completely safe. Most of the data remains on the mobile phone of the
+users and gets auto deleted after 30 days if the person concerned is not
+COVID-19 positive. Data of only those who are tested positive is pushed to
+the server, with the objective of alerting people who might have come in
+Bluetooth contact with those who tested positive. Such data is also deleted
+after a maximum of 60 days from the date a person recovers. These protocols
+are clearly defined and available in public domain. The Android and IOS code
+
+
+                                       11
+
+ of Aarogya Setu is available in the open domain alongwith the names of the
+persons who have been involved in the development of the app.
+To establish a working mechanism of the Aarogya Setu Platform Ecosystem,
+MeitY has established an organisational set up consisting of members as given
+in the O.M dated 08th April 2020 and later on modified with the addition of P&
+CEO, NeGD and CEO, MyGOV as one of the members of the organisational set
+up (O.M dated 08.04.2020 and 28.04.2020).
+
+In order to ensure secure data collection by the Aarogya Setu mobile
+application, protection of personal data of individuals, the MeitY has issued the
+Aarogya Setu Data Access and Knowledge Sharing Protocol 2020. The Aarogya
+Setu application fully complies with this protocol.
+
+The user of the Aarogya Setu application is safeguarded with the provisions of
+the 
+Information Technology Act, 2000
+ and 
+Disaster Management Act, 2005
+.
+Moreover, all the necessary protection to the personal data of users is ensured
+as per the provisions of the proposed Personal Data Protection Bill 2018. The
+following privacy safeguards have already been provided to all the users of
+Aarogya Setu application and notified in the privacy policy and terms of the
+usage of the App.
+
+i. No personal data collected without user consent.
+
+ii.User is clearly informed regarding the following:
+
+        1. What data is collected and how it is collected
+
+        2. How the data will be used
+
+        3. Retention of the data
+
+        4. Rights of the users
+
+        5. Security measures in place
+
+        6. Grievance Redressal
+iii. Collected data is encrypted and stored on the user's phone.
+
+iv. Data is sent to servers only if the user tests positive for COVID or the user
+voluntarily submits his/her data with consent.
+
+v. Copy of Privacy policy and terms of usage was also enclosed.
+
+
+
+All the necessary information about the Aarogya Setu application is already
+available in public domain, and details of application developers and
+contributors are also made available in the Github https://github.com/nic-
+delhi/AarogyaSetu_Android/graphs/contributors
+
+
+
+
+                                       12
+
+ The Ministry also issued necessary orders and directives to all CPIOs concerned
+to comply with the timelines and provisions of the 
+RTI Act
+ 2005 in letter and
+spirit to promote transparency.
+
+
+
+The entire information and relevant documents regarding the development of
+the app are also available in the public domain on "aarogyasetu.gov.in". The
+site was created with the domain name gov.in for NIC and approved by NIC's
+Nodal Officer and competent authority.
+
+
+
+Regular press releases have also been issued regarding the Aarogya Setu App
+including dissemination of information via social media and hence, there is no
+reason to believe that at any point of time the Government has not shared
+information with regard to the functioning or development of the app. Copies
+of all press releases were annexed.
+
+
+
+The CPIOs of NeGD, MeitY and NIC further extended their apology for not
+being able to share the above information at the time of the hearing on
+22.10.2020 and requested to drop the showcause notice in view of all that has
+been explained during the hearing now.
+
+
+
+Observations:
+
+
+
+At the outset it was informed by the Registry of this bench that a written
+request has been received from the complainant to allow him to attend the
+showcause proceedings as per principles of natural justice. 
+In response to this ,
+reference is drawn to the judgement of the Hon'ble High Court of Delhi in the
+case of 
+Ankur Mutreja v. Delhi University
+ in LPA 764/2011 dated 09.01.2012
+wherein it was held as under:
+
+
+
+
+      a) the Act does not provide for the CIC to, in the penalty proceedings,
+      hear the information seeker, though there is no bar also there against if
+      the CIC so desires;
+
+      b) that the information seeker cannot as a matter of right claim audience
+      in the penalty proceedings which are between the CIC and the erring
+      information officer;
+
+
+
+                                       13
+
+
+       c) there is no provision in the Act for payment of penalty or any part
+      thereof imposed/recovered from the erring information officer to the
+      information seeker;
+
+      d) the penalty proceedings are akin to contempt proceedings, the
+      settled position wherein is that after bringing the facts to the notice of
+      the Court, it becomes a matter between the Court and the contemnor
+      and the informant or the relator does not become a complainant or
+      petitioner in contempt proceedings."
+
+
+
+The aforementioned decision was also relied upon and affirmed by the Hon'ble
+High Court of Delhi in its decision in 
+Anand Bhushan v. R.A. Haritash
+: ILR (2012)
+4 Delhi 657 wherein it was held as under:
+
+
+
+
+      "8...........................The information seeker has no locus in the penalty
+      proceedings, beyond the decision of the complaint/appeal and while
+      taking which decision opinion of default having been committed is to be
+      formed, and at which stage the complainant/information seeker is
+      heard.
+
+      9. ............................ In the context of the 
+RTI Act
+ also, merely because
+      the CIC, while deciding the complaints/appeals is required to hear the
+      complainant/information seeker, would not require the CIC to hear
+      them while punishing the erring Information Officer, in exercise of its
+      supervisory powers."
+
+
+
+Following the above ratio, the Commission finds it pertinent to mention here
+that it was not inclined to allow the applicant to participate in the showcause
+proceedings as the matter is between the Commission and the respondents.
+
+
+
+It is relevant to mention here that due to the CPIOs' poor preparation of the
+facts of the case the impression given to the Commission on 22.10.2020 during
+the first hearing was that there is no information available in public domain.
+
+
+
+The Commission observed that the present case is a complaint and not a
+second appeal, therefore, it cannot direct the CPIO to provide information.
+However, in all fairness, the present CPIO volunteered to satisfy the
+complainant and provide information (in hard copies) as well hyperlink
+wherever applicable within 3 days from the date of issue of this order.
+
+                                          14
+
+
+ The Commission finds it relevant to mention here that subsequent to the
+present show cause notice hearing, it has come to light that there was plenty
+of material available in public domain on the app, however, the CPIOs gave the
+wrong impression. Therefore, the complainant's grievance appeared well
+founded that he was not given any information and therefore it appeared that
+there was none and the whole matter appeared to be non-transparent.
+The present CPIO had also requested to take on record that the intent behind
+creating this app was to control the pandemic and not to breach the privacy of
+individuals. He was involved in the development stage and even World Health
+Organisation (WHO) had appreciated the app. He requested to drop the
+showcause notice considering the subject matter as unique and considering all
+the facts that have now been placed before the Commission.
+He had again reiterated that henceforth the 
+RTI Act
+ shall be upheld in the true
+spirit of transparency.
+
+Mr Rao also informed that date-wise events shall be informed to the applicant
+starting from April 2020, so that whole information as available from time to
+time in public domain is known to him.
+
+
+
+Based on a perusal of the written explanation and the relevant enclosures, the
+Commission observed that the fact remains that the CPIOs concerned were
+not prepared for the hearing on 22.10.2020 and it is after the showcause
+notice was issued, that they located the documents and provided a detailed
+explanation. As far as the showcause notice issued was concerned, the
+questions raised by the Commission now stand answered in detail by the
+present CPIO. However, the fact remains that the complainant was not given a
+proper reply guiding him to the hyperlink where the information sought was
+available nor was he given the copies of the relevant guidelines. The key
+information is that vide orders No. 40-3/2020-DM-1(A) dated 29.03.2020 and
+01.05.2020, the Central Government had constituted empowered groups
+under the 
+Disaster Management Act, 2005
+ to ensure public safety, identify the
+problem areas and provide practical solutions in a time bound-manner and
+with regard to the overall aspect of controlling the pandemic 11 empowered
+groups were formed. The Empowered Group no. 9 on technology and data
+management under the purview of Ministry of Electronics and Information
+Technology was entrusted with the responsibility of coordinating all
+technological solutions for fighting COVID-19. Further, stakeholders from
+across Industry-Academia and Government authorities, including officials from
+
+                                      15
+
+ NITI Aayog and MeitY had come together to build a Contact Tracing App for
+India. This app was built in a record time of less than 3 weeks without any cost
+to Government and was launched on 2nd April, 2020. Within 13 days of the
+launch of the App it had more than 50 million users which was a world record
+of the fastest time taken to reach 50 million users for any mobile app.
+Furthermore, it was also observed that the privacy concern raised by the
+applicant was also properly explained by the CPIOs in their written
+submissions.
+
+The Commission observes that after the showcause notice was issued the
+CPIOs made all possible efforts and coordinated with the concerned record
+holders to provide a proper explanation. However, due to the callousness and
+lackadaisical approach of the CPIOs during the hearing on 22.10.2020 the
+Commission was constrained to issue a showcause notice for want of a proper
+response to the RTI applicant and to the queries raised during the hearing.
+Nevertheless, from the above explanation it is also clear that there was no
+malafide intent on the part of the CPIOs, rather, they failed to provide a point-
+wise reply to the applicant due to the data being available in a scattered
+manner and due to the fact that proper co-ordination among all the concerned
+agencies was not undertaken before appearing for the hearing .
+
+
+
+The Commission finds that there is enough and more information regarding
+the said App in public domain which can be accessed by citizens at large.
+Further, a lot of work has been done in a very short time to bring out this app
+to help in containing the spread of Covid-19.
+
+
+
+Finally, with regard to the imposition of penalty on the CPIO/PIO under 
+Section
+20
+ of the RTI Act, 2005, the Commission took note of the ruling of the Hon'ble
+Delhi High Court in W.P.(C) 11271/2009 
+Registrar of Companies & Ors v.
+Dharmendra Kumar Garg & Anr.
+ (delivered on: 01.06.2012) wherein it was
+held:
+
+
+
+
+      " 61. Even if it were to be assumed for the sake of argument, that the
+      view taken by the learned Central Information Commissioner in the
+      impugned order was correct, and that the PIOs were obliged to provide
+      the information, which was otherwise retrievable by the querist by resort
+      to 
+Section 610
+ of the Companies Act, it could not be said that the
+      information had been withheld malafide or deliberately without any
+
+                                       16
+
+       reasonable cause. It can happen that the PIO may genuinely and
+      bonafidely entertain the belief and hold the view that the information
+      sought by the querist cannot be provided for one or the other reasons.
+      Merely because the CIC eventually finds that the view taken by the PIO
+      was not correct, it cannot automatically lead to issuance of a showcause
+      notice under 
+Section 20
+ of the RTI Act and the imposition of penalty. The
+      legislature has cautiously provided that only in cases of malafides or
+      unreasonable conduct, i.e., where the PIO, without reasonable cause
+      refuses to receive the application, or provide the information, or
+      knowingly gives incorrect, incomplete or misleading information or
+      destroys the information, that the personal penalty on the PIO can be
+      imposed. This was certainly not one such case. If the CIC starts imposing
+      penalty on the PIOs in every other case, without any justification, it
+      would instill a sense of constant apprehension in those functioning as
+      PIOs in the public authorities, and would put undue pressure on them.
+      They would not be able to ful fill their statutory duties under the 
+RTI Act
+
+      with an independent mind and with objectivity. Such consequences
+      would not auger well for the future development and growth of the
+      regime that the 
+RTI Act
+ seeks to bring in, and may lead to skewed and
+      imbalanced decisions by the PIOs Appellate Authorities and the CIC. It
+      may even lead to unreasonable and absurd orders and bring the
+      institutions created by the 
+RTI Act
+ in disrepute."
+
+
+
+Similarly, the following observation of the Hon'ble Delhi High Court in 
+Bhagat
+Singh v. CIC & Ors. WP(C
+) 3114/2007 is pertinent in this matter:
+
+
+
+
+      "17. This Court takes a serious note of the two year delay in releasing
+      information, the lack of adequate reasoning in the orders of the Public
+      Information Officer and the Appellate Authority and the lack of
+      application of mind in relation to the nature of information sought. The
+      materials on record clearly show the lackadaisical approach of the
+      second and third respondent in releasing the information sought.
+      However, the Petitioner has not been able to demonstrate that they
+      malafidely denied the information sought. Therefore, a direction to the
+      Central Information Commission to initiate action under 
+Section 20
+ of the
+      Act, cannot be issued."
+
+
+
+                                       17
+
+
+ The Commission also observed that the Hon'ble High Court of Delhi in the
+matter of R.K. Jain v. V.P. Pandey, CPIO, CESTAT, New Delhi in W.P. (C) No.
+4785/ 2017 dated 10.10.2017 adjudicated an order of the Commission dated
+17.04.2017 whereby the Respondent was cautioned to exercise due care in
+future and to ensure that correct and complete information is furnished to the
+RTI applicants. It was decided that:
+
+       "2. The grievance of the petitioner is that although the CIC had accepted
+       that there was a delay in providing the necessary information to the
+       petitioner, the CIC had not imposed the penalty as required under 
+Section
+       20(1)
+ of the Right to Information Act, 2005. It is well settled that
+       imposing of the penalty is a discretionary measure. 
+In 
+Anand Bhushan v.
+       R.A. Haritash
+: ILR (2012) 4 Delhi 657 a division bench of this Court had
+       considered the question whether the levy of penalty was discretionary
+       and held as under..........
+
+
+       3. In this case it is apparent that the CIC had in its discretion considered
+       that a order cautioning the CPIO would be sufficient. This Court is not
+       inclined to interfere with such exercise of discretion."
+
+Decision:
+
+Keeping in view the detailed reply to the show cause notice furnished by the
+CPIOs and the lengthy explanation given by the present CPIO during the
+hearing, the Commission accepts the apology of all concerned officers and
+cautions them to be careful in future while replying to RTI applications as well
+as the need to come well prepared for the Commission's hearings. This is all
+the more important when there was sufficient information regarding the app
+in public domain which unfortunately was not conveyed to the complainant in
+reply to his RTI application nor to the Commission during the first hearing.
+Since no malafide or intention to conceal information has been found in the
+CPIOs' oral and written replies, the Commission is not inclined to impose any
+penalty on them. As the present case is a complaint
+ u/s 18
+ no direction for
+disclosure can be given, however the CPIO volunteered to provide the hard
+copies of the documents/relevant enclosures submitted to the Commission as
+well the hyperlink wherever applicable, to the appellant within 7 days from the
+date of issue of order in the spirit of the 
+RTI Act
+.
+
+The Commission issues an advisory
+ u/s 25(5)
+ of the RTI Act, 2005 to the
+Secretary, Ministry of Electronics and Information Technology to ensure that
+the Aarogya Setu website is robust and maintained uptodate at all times
+
+
+                                        18
+
+ so as to be able to satisfy the citizens queries on the subject without having to
+resort to filing of RTI applications and in this manner promote suo moto
+disclosure of information.
+
+
+
+The show cause notice proceedings are dropped and the complaint too is
+disposed of accordingly .
+
+
+
+
+                                            Vanaja N. Sarna (वनजा एन. सरना)
+                                     Information Commissioner (सच
+                                                                ू ना आयु त)
+
+Authenticated true copy
+(अ भ मा णत स या पत          त)
+
+
+A.K. Assija (ऐ.के. असीजा)
+Dy. Registrar (उप-पंजीयक)
+011- 26182594 /
+ दनांक / Date
+
+
+
+
+Copy to:
+
+
+2.Office of CEO, MyGov
+3rd Floor, Room no-3015
+
+Ministry of Electronics and Information Technology
+(Government of India)
+Electronics Niketan, 6, CGO Complex,
+Lodhi Road,
+New Delhi - 110003,
+
+
+
+
+                                       19
+
+
+ 3.The Secretary
+Ministry of Electronics and Information Technology,
+Electronics Niketan, 6, CGO Complex, Lodhi Road,
+New Delhi- 110003
+
+
+
+4.Director General,
+National Informatics Centre (NIC)
+6th Floor, A-Block, CGO Complex
+Lodhi Road, New Delhi -110003
+
+
+
+5.CPIO
+National Informatics Centre (NIC)
+6th Floor, A-Block, CGO Complex
+Lodhi Road, New Delhi -110003
+
+
+
+
+
+                                      20

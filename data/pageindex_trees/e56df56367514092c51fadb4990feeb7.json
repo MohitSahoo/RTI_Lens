@@ -1,0 +1,67 @@
+{
+  "doc_name": "e56df56367514092c51fadb4990feeb7",
+  "line_count": 221,
+  "structure": [
+    {
+      "title": "Central Information Commission",
+      "node_id": "0001",
+      "line_num": 10,
+      "nodes": [
+        {
+          "title": "Author:",
+          "node_id": "0002",
+          "line_num": 17
+        },
+        {
+          "title": "Bench:",
+          "node_id": "0003",
+          "line_num": 22
+        }
+      ]
+    },
+    {
+      "title": "Central Information Commission",
+      "node_id": "0004",
+      "line_num": 28,
+      "nodes": [
+        {
+          "title": "Relevant dates emerging from the appeal:",
+          "node_id": "0005",
+          "line_num": 43
+        },
+        {
+          "title": "CORAM:",
+          "node_id": "0006",
+          "line_num": 51
+        }
+      ]
+    },
+    {
+      "title": "SHRI SURESH CHANDRA",
+      "node_id": "0007",
+      "line_num": 54,
+      "nodes": [
+        {
+          "title": "ORDER",
+          "node_id": "0008",
+          "line_num": 56
+        },
+        {
+          "title": "]may be relied upon:",
+          "node_id": "0009",
+          "line_num": 151
+        },
+        {
+          "title": "Addresses of the parties:",
+          "node_id": "0010",
+          "line_num": 196
+        }
+      ]
+    },
+    {
+      "title": "SHRI GAGAN JAISWAL",
+      "node_id": "0011",
+      "line_num": 214
+    }
+  ]
+}

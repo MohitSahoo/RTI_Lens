@@ -1,0 +1,48 @@
+{
+  "doc_name": "1deae0d367a2ed410d9a2090c9302ea2",
+  "line_count": 206,
+  "structure": [
+    {
+      "title": "Central Information Commission",
+      "node_id": "0001",
+      "line_num": 10
+    },
+    {
+      "title": "Central Information Commission",
+      "node_id": "0002",
+      "line_num": 18,
+      "nodes": [
+        {
+          "title": "Relevant facts emerging from appeal:",
+          "node_id": "0003",
+          "line_num": 37
+        },
+        {
+          "title": "Information sought",
+          "node_id": "0004",
+          "line_num": 46
+        },
+        {
+          "title": "and background of the case:",
+          "node_id": "0005",
+          "line_num": 48
+        },
+        {
+          "title": "Facts emerging in Course of Hearing:",
+          "node_id": "0006",
+          "line_num": 122
+        },
+        {
+          "title": "information sought pertained to the joint operations carried out by the public",
+          "node_id": "0007",
+          "line_num": 147
+        },
+        {
+          "title": "Decision",
+          "node_id": "0008",
+          "line_num": 165
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "doc_name": "460dbc6738f69832b2753fb0c083845d",
+  "line_count": 275,
+  "structure": [
+    {
+      "title": "Central Information Commission",
+      "node_id": "0001",
+      "line_num": 10,
+      "nodes": [
+        {
+          "title": "Author:",
+          "node_id": "0002",
+          "line_num": 17
+        },
+        {
+          "title": "Bench:",
+          "node_id": "0003",
+          "line_num": 22
+        }
+      ]
+    },
+    {
+      "title": "Central Information Commission",
+      "node_id": "0004",
+      "line_num": 28,
+      "nodes": [
+        {
+          "title": "ORDER",
+          "node_id": "0005",
+          "line_num": 51
+        },
+        {
+          "title": "Hearing:",
+          "node_id": "0006",
+          "line_num": 93
+        },
+        {
+          "title": "Decision:",
+          "node_id": "0007",
+          "line_num": 106
+        }
+      ]
+    },
+    {
+      "title": "Girish Ramchandra Deshpande vs. Central Information Commission",
+      "node_id": "0008",
+      "line_num": 117,
+      "nodes": [
+        {
+          "title": "husband from the employer held as under:",
+          "node_id": "0009",
+          "line_num": 146
+        },
+        {
+          "title": "order.",
+          "node_id": "0010",
+          "line_num": 235
+        },
+        {
+          "title": "Addresses of the parties:",
+          "node_id": "0011",
+          "line_num": 261
+        }
+      ]
+    }
+  ]
+}

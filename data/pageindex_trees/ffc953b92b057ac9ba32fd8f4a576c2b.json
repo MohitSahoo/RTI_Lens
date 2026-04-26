@@ -1,0 +1,77 @@
+{
+  "doc_name": "ffc953b92b057ac9ba32fd8f4a576c2b",
+  "line_count": 422,
+  "structure": [
+    {
+      "title": "Central Information Commission",
+      "node_id": "0001",
+      "line_num": 10,
+      "nodes": [
+        {
+          "title": "Author:",
+          "node_id": "0002",
+          "line_num": 17
+        },
+        {
+          "title": "Bench:",
+          "node_id": "0003",
+          "line_num": 22
+        }
+      ]
+    },
+    {
+      "title": "Central Information Commission",
+      "node_id": "0004",
+      "line_num": 28,
+      "nodes": [
+        {
+          "title": "Relevant facts emerging from appeal:",
+          "node_id": "0005",
+          "line_num": 55
+        },
+        {
+          "title": "Information sought",
+          "node_id": "0006",
+          "line_num": 68
+        },
+        {
+          "title": ":",
+          "node_id": "0007",
+          "line_num": 70
+        },
+        {
+          "title": "Relevant Facts emerging during Hearing:",
+          "node_id": "0008",
+          "line_num": 166
+        },
+        {
+          "title": "Decision:",
+          "node_id": "0009",
+          "line_num": 242
+        }
+      ]
+    },
+    {
+      "title": "Deshpande vs. Central Information Commissioner &Ors.",
+      "node_id": "0010",
+      "line_num": 286,
+      "nodes": [
+        {
+          "title": "held:",
+          "node_id": "0011",
+          "line_num": 290
+        },
+        {
+          "title": "was held as under:",
+          "node_id": "0012",
+          "line_num": 338
+        },
+        {
+          "title": "information sought for by the Appellant as per the provisions of",
+          "node_id": "0013",
+          "line_num": 381
+        }
+      ]
+    }
+  ]
+}

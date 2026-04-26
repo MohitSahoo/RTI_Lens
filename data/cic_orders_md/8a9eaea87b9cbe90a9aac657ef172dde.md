@@ -1,0 +1,902 @@
+[Cites 
+17
+, Cited by 
+0
+]
+
+
+
+
+# Central Information Commission
+
+
+
+Pankaj Kumar vs Ministry Of Railways on 19 January, 2026
+
+
+                             के ीय सूचना आयोग
+# Central Information Commission
+
+                          बाबा गंगनाथ माग, मुिनरका
+                        Baba Gangnath Marg, Munirka
+                        नई िद ी, New Delhi - 110067
+
+
+File No: CIC/MORLY/A/2024/122350
+
+Pankaj Kumar                                            .....अपीलकता/Appellant
+
+                                        VERSUS
+                                         बनाम
+
+CPIO,
+Railway Board,
+Rail Bhavan, Raisina Marg,
+New Delhi - 110 001                                   .... ितवादीगण /Respondent
+
+Date of Hearing                     :    19.01.2026
+Date of Decision                    :    19.01.2026
+
+INFORMATION COMMISSIONER :               Swagat Das
+
+## Relevant facts emerging from appeal:
+
+
+RTI application filed on            :    13.05.2024
+CPIO replied on                     :    30.05.2024
+First appeal filed on               :    04.06.2024
+First Appellate Authority's order   :    09.07.2024
+2nd Appeal/Complaint dated          :    11.07.2024
+
+## Information sought
+
+## :
+
+
+
+
+1.     The Appellant filed an RTI application dated 13.05.2024 (online) seeking
+## the following information:
+
+
+
+
+      "Applicant is accused in criminal case no. 2/2017 which is under progress
+      at Special CBI Court, Ghaziabad. Sanction to prosecute the applicant in
+      court of Iaw was granted by an official in Ministry of Railway in response
+      to CBI/ACB Ghaziabad registered case no: RC1202016A0010 against
+      applicant. It may please be noted that investigation in the said case is
+
+                                                                      Page 1 of 14
+
+       completed as final charge sheet under section 173(2) CRPC has been filed
+      by CBI in court of law on21/10/2016.
+
+    In connection with above under 
+RTI Act
+. Kindly provide following
+    documents (duly attested by gazzeted officer)
+
+
+    i) Complete copy of file (including noting & correspondence) in which
+       sanction to prosecute applicant under 
+Section 19
+ of PC Act was
+       processed and granted to CBI.
+
+    ii) Copy of correspondence/letter as per which prior sanction was sought by
+       CBI under 
+section 17A
+ of PC Act to investigate role of applicant in FIR no.
+       RC1202O16A0010 dated 23/8/2016.
+
+    iii) Copy of Sanction granted by Ministry of Railways to CBI under
+       
+Section 17A
+ of PC Act in response to correspondence/letter mentioned
+       in para (ii) above.
+
+
+
+    While disposing RTI request PIO is requested to kindly go through the
+    following CIC order
+
+
+ 
+a) The contents of CIC order no. CIC/SG/A/2012/371/17851 in the case
+    titled 
+Shri R. Govindarajan vs. UCO Bank
+ in which CIC directed
+    respondents to provide copy of noting of file in which sanction to
+    prosecute the appellant was processed even when investigation was
+    continuing. The case of applicant stands on better footing as
+    investigation stands completed on 21/10/2016."
+
+
+
+
+2.    The CPIO furnished a reply to the Appellant on 30.05.2024 stating as
+## under:
+
+
+
+
+      "As per 
+Sec. 24
+ of RTI Act, CBI is exempted from the purview of the 
+RTI
+      Act
+. Further, the case is also under prosecution before CBI Court. The
+      requested information therefore can't be given under 
+section 8(1)(g)
+ and
+      
+8(1)(h)
+ of RTI Act."
+
+
+
+3.     The Appellant filed a First Appeal dated 04.06.2024. The FAA disposed of
+first appeal vide order dated 09.07.2024, wherein following observations were
+## given:
+
+
+
+
+      "1. & 2. The CBI/ACB/GZB, had classified their report as 'Confidential
+      Document' and has advised that no reference of It may be made in any
+      correspondence with the accused officers. Therefore, since the
+      documents sought by the applicant includes documents received from
+      CBI/ACB/Ghaziabad, the said information cannot be given to the
+
+                                                                       Page 2 of 14
+
+       appellant under 
+Section 8(1)(h)
+ of RTI Act 2005. The requisite
+      information/documents are exempted under 
+Section 24
+ of RTI Act 2005,
+      as some of these information/documents pertain to the CBI, which are
+      sensitive in nature.
+
+
+
+      Further, it may also reveal the identity of those entrusted in charge of
+      processing the matter and thus, the life or physical safety of the person
+      concerned would be endangered. Apart from the above, source of
+      information or assistance given in confidence for law enforcement or
+      security purposes would be identified. Therefore, the sought information
+      cannot be given to the appellant under 
+Section 8(1)(g)
+ of RTI Act 2005.
+
+
+
+      3. Copy of Sanction order for prosecution (against Dr. Pankaj Kumar)
+      cannot be given to the appellant under 
+Section 8(1)(h)
+ of RTI Act 2005 as
+      the information mentioned in the said sanction order would impede the
+      process of prosecution of offender.
+
+
+
+4.  Feeling aggrieved and dissatisfied,         Appellant    approached     the
+Commission with the instant Second Appeal.
+
+
+
+## Relevant Facts emerged during Hearing:
+
+
+The following were present:-
+
+
+
+Appellant: Present in person.
+
+
+
+Respondent: Shri R D Ram, JDV (A & P) and Shri Hemant Dabral, SO, Vigilance
+is present in person.
+
+
+
+5.    Proof of having served a copy of Second Appeal on Respondent while
+      filing the same in CIC on 11.07.2024 is not available on record.
+
+      Respondent confirms non-service.
+
+
+
+6.    Written submissions of the Appellant are taken on record.
+
+
+
+7.    The Appellant, during the hearing, reiterated the contents of his RTI
+      application and instant appeal and submitted that the Respondent has
+      wrongly denied the information as sought in his RTI application. The
+      Appellant further referred to a decision of the Commission in file No.
+      CIC/UBIND/A/2024/112476 dated 31.07.2025 in support of his
+      arguments. The Appellant further reiterated the contents of his written
+## submissions, which are reproduced hereinbelow:
+
+
+
+
+                                                                     Page 3 of 14
+
+
+ "1. Appellate Authority held that documents/details that have been
+received from CBI is the basis of granting sanction to prosecute appellant
+for offenses under 
+Prevention of Corruption Act
+. These documents are
+alleged to be confidential as CBI falls under purview of 
+Section 24
+ of RTI
+Act, 2005.
+
+
+
+It is not in dispute that public authority cannot claim exemption under
+
+Section 24
+ of RTI Act. Further, CPIO and FAA never felt any need to issue
+notice under 
+Section 11
+ of RTI Act to CBI which is third party in this case
+to raise any claim for confidentiality for the supplied documents by CBI.
+Thus, respondent public authority are estopped from taking any action in
+this regard at the stage of second appeal.
+
+
+
+It was obligatory on part of CPIO to discharge his statutory obligation
+under 
+Section 19(5)
+ of RTI Act,2005 by making a factual foundation for
+claiming exemption from disclosure under proviso of 
+Section 8
+ of RTI Act,
+2005.But, there is not even a whisper of any documentary evidence
+between CBI and public authority which could remotely establish the
+confidentiality claim of documents received from CBI. Further, CPIO failed
+to establish as to how 
+Section 8(1)(h)
+ is impede the process of
+prosecution.
+
+
+
+Further, as per 
+Section 173(2)
+ of CrPC, 1973 CBI investigation report is
+opinion of CBI against appellant that is framed on the basis of evidences
+collected by CBI during investigation on allegation of corruption made
+against appellant by complainant on 22/8/2016.
+
+
+
+Delhi High Court in case titled 
+Union of India v Manjit Singh Bali
+, 2018
+Supreme (Del) 3039 (copy attached) held in para 20 that "Even if it is
+assumed that certain information, which has been denied to the
+respondent, was received from CBI, the question of withholding the same
+would not arise if such information related to human right violation or
+corruption". In this case, Delhi High Court ordered appellant Union of
+India to provide prosecution sanction file to respondent and upheld
+## orders of Chief Information Commission vide order no.
+
+CIC/POSTS/A/2017/131334 dated 30.6.2017(copy attached).
+
+
+
+
+In the subject RTI case appellant is also seeking prosecution sanction file
+only which is required to effectively cross-examine witness of prosecution
+
+                                                                 Page 4 of 14
+
+ (Investigating Officer) who will eventually appear in Special CBI Court,
+Ghaziabad. The proposal to prosecute appellant was based on allegation
+of corruption thus, facts of the case cited above supports the case of
+appellant.
+
+
+
+Further, it was incumbent on respondent to lay a factual foundation (if
+any) to claim exclusion under 
+Section 24(1)
+ of RTI Act as per law laid
+down in 
+Union of India v Manjit Singh Bali
+(supra) but respondent has
+also miserably failed in this regard.
+
+
+
+
+2. Sought information is required to avail the opportunity of cross-
+
+examination effectively by putting contents of information received
+through RTI to prosecution witness to challenge the validity of sanction
+## order which is necessary for maintainability of prosecution. It is settled
+
+law that providing opportunity to accused in criminal case for effective
+cross-examination is part of fundamental right of fair trial. Certainly, it is
+in public interest to provide opportunity to citizens (i.e. accused-
+appellant) for exercising their Right to Information for the purpose of
+enforcement of fundamental rights. It is needles to mention that 
+RTI Act
+
+promotes transparency and accountability by disclosure of information
+to citizens.
+
+
+
+3. ⁠CPIO and FAA claimed exemption from disclosure under 
+Section 8(1)(g)
+
+of RTI Act as this is their apprehension that disclosure of sought
+information will give opportunity to appellant to threaten the officials
+that have opined against appellant in that prosecution sanction file.
+
+
+
+Appellant is on regular bail granted by Honourable High Court Allahabad
+since 2017 on condition that appellant will not misuse liberty granted
+through regular bail by threatening the witness of the prosecution. Thus,
+even an attempt by appellant to flout the conditions imposed in bail
+## order will expose appellant to danger of cancellation of bail. Therefore,
+
+apprehended situation to claim exemption under 
+Section 8(1)(g)
+ of RTI
+Act,2005 by respondent is not possible.
+
+
+
+Further, there is not a single incidence since 2017 that supports the
+contention of CPIO and FAA to justify denial of sought information under
+
+Section 8(1)(g)
+ of RTI Act,2005."
+
+
+
+                                                                   Page 5 of 14
+
+
+ 8.   Written submissions dated 09.01.2026 of the Respondent are taken on
+## record and the same is reproduced hereinbelow:
+
+
+
+
+     "The reply of the said RTI application was sent to the applicant vide this
+     office letter No. MORLY/R/E/24/02658 (2024/V4/NR/AC/RTI/03) dated
+     30.05.2024 wherein the sought information was denied under 
+Section
+     24
+, 
+8(1)(g)
+ & 
+8(1)(h)
+ of RTI Act 2005.
+
+
+
+     Thereafter, Sh. Pankaj Kumar preferred 1st appeal dated 04.06.2024
+     under 
+RTI Act
+ 2005, with a request seeking information sought vide his
+     RTI application dated 13.05.2024. The said appeal dated 04.06.2024 was
+     disposed off vide this office letter No. MORLY/A/E/24/00536
+     (2024/V4/NR/AC/RTI/03) dated 09.07.2024 wherein it was informed to
+     the appellant that the information sent to him vide CPIO letter dated
+     30:05.2024 was in order and no infirmity was found in the said reply.
+
+
+
+     Sh. Pankaj Kumar has now preferred 2nd appeal to Hon'ble CIC under 
+RTI
+     Act, 2005
+. Notice of hearing for appeal/complaint No.
+     CIC/MORLY/A/2024/122350 dated 29.12.2025 has been received in this
+     office on 06.01.2026.
+
+     In this connection, it is mentioned that the information sought by the
+     applicant (Sh. Pankaj Kumar) relates to documents received from
+     CBI/ACB/Ghaziabad. The CBI/ACB/GZB had classified their report as
+     'Confidential Document' and has advised that no reference of it may be
+     made in any correspondence with the accused officers. Providing the
+     sought information/documents to the applicant may also reveal the
+     identity of those entrusted in charge of processing the matter and thus,
+     the life or physical safety of the person concerned would be endangered.
+     Apart from the above, source of information or assistance given in
+     confidence for law enforcement or security purposes may be identified.
+     Further, since proceedings against Sh Pankaj Kumar in the said case are
+     yet to be concluded, revealing the sought information may impede the
+     process of inquiry/proceedings.
+
+     In view of the above, the information was denied by the CPIO as well as
+     the FAA."
+
+
+
+                                                                     Page 6 of 14
+
+
+ 9.    From the perusal of the reply of the CPIO, it is noted that the
+      information is denied under 
+Sections 8(1)(g)
+, 
+8(1)(h)
+ and 
+Section 24
+ of
+      the RTI Act and further noted that they have categorically informed the
+      Appellant that "The CBI/ACB/GZB had classified their report as
+      'Confidential Document' and has advised that no reference of it may be
+      made in any correspondence with the accused officers. Providing the
+      sought information/documents to the applicant may also reveal the
+      identity of those entrusted in charge of processing the matter and thus,
+      the life or physical safety of the person concerned would be endangered.
+      Apart from the above, source of information or assistance given in
+      confidence for law enforcement or security purposes may be identified.
+      Further, since proceedings against Sh Pankaj Kumar in the said case are
+      yet to be concluded, revealing the sought information may impede the
+      process of inquiry/proceedings."
+
+
+
+10.   Upon being queried by the Commission, the Respondent stated that
+      copy of written submissions has already been provided to the Appellant.
+
+
+
+## Decision:
+
+
+
+
+11.   The Commission upon a perusal of records and after submissions of both
+      the parties, notes that the core contention of the Appellant revolves
+      around the issue of denial of information by the CPIO under 
+Section
+      8(1)(g)
+, 
+8(1)(h)
+ and 
+Section 24
+ of RTI Act. In response to which the CPIO
+      informed the factual position that the information sought cannot be
+      provided under the 
+RTI Act
+.
+
+
+
+12.   The Commission is of the view that since the criminal case involving
+      inter-alia the Appellant is still pending with the CBI, directing the
+      Respondent to provide any information (which is held and originated by
+      them) would affect the proceedings of the case.
+
+
+
+13.   Before deciding on the issue of disclosure of information, the
+      complexities involved in such corruption trials and how disclosure of
+      information may dilute the proceedings has to be understood. The
+      Hon'ble High Court of Madras in a recent judgement in 
+Gulab Singh
+      Rana vs. CPIO, Indian Overseas Bank, WP No
+ 37231/ 2016 decided on
+
+                                                                     Page 7 of 14
+
+ 08.12.2021 has elaborately dealt with the issue. The following
+observations are particularly relevant to the instant matter:
+
+
+
+
+"38. The petitioner requested for a copy of request letter received from
+CBI for seeking sanction, copy of internal office memorandum containing
+the opinion/views of Disciplinary Authority for giving sanction for
+prosecution, copy of first advice given by CVC, New Delhi, the outcome of
+the reconciliatory meeting between Disciplinary Authority and CBI office
+of the New Delhi, the copy of any further clarification sought for by the
+CVC, the copy of internal office memorandum containing the
+opinion/views of Disciplinary Authority for giving sanction for
+prosecution, the copy of latest correspondence from CVC
+requesting/advising the Bank, the copy of internal office memorandum
+containing the opinion/views of the present Disciplinary Authority and
+finally copy of draft sanction supplied by CBI.
+
+39. Considering the nature of questions sought for, interestingly, the first
+information is the request letter received from the CBI for seeking
+sanctioning. The said letter may have certain information pertaining to
+the investigation/interrogation. The second document is copy of internal
+office memorandum containing the opinion/views of the Disciplinary
+Authority.
+
+40 .This Court is of the considered opinion that note file, opinions, views
+of the Disciplinary Authority may vary from time to time based on the
+informations and based on the collection of facts and evidences. Even at
+later point of time, initial opinion may not be final opinion in many cases.
+Subsequent facts may provide a different views and opinion and
+therefore, if the copy of the opinion and views are supplied, it will create
+unnecessary hindrance for the peaceful investigation, interrogation and
+to proceed with the departmental disciplinary proceedings as well as the
+criminal proceedings. For example, on receipt of the preliminary report,
+the Disciplinary Authority would have formed certain opinions or
+expressed some views. However, those opinions and views cannot be
+construed as final, as far as the decisions to be taken. During subsequent
+period, if further documents are made available or certain other facts are
+placed, then the Disciplinary Authority may change his opinion or views.
+This is exactly the reason why, in disciplinary case, the rule contemplates
+opportunities to the delinquent officials. Therefore, the internal office
+memorandum containing opinion/views if supplied, undoubtedly,
+would create unnecessary issues as the petitioner will certainly rely on
+the document for the purpose of destroying the case. However, any
+
+
+
+                                                                 Page 8 of 14
+
+ accused/delinquent officials is entitled to defend his case in the manner
+known to law.
+
+41. Thus, furnishing of such opinions and views of the Disciplinary
+Authority at various stages, if provided under the 
+RTI Act
+, then it will
+hamper the continuation of the disciplinary proceedings and further,
+disrupt the investigation to be conducted by the investigating agency.
+
+42. Perusal of other documents and information sought for by the
+petitioner are all relatable to the reconciliatory meeting between the
+officials. Clarifications sought for by the CVC, latest correspondence etc.,
+of such information and documents sought for reveals that it is between
+the authorities and more so, relating to views/opinions, internal
+correspondences etc.,
+
+43. No doubt, all such correspondences are protected under 
+Section 8
+ of
+the RTI Act. However, it is the "subjective satisfaction" of the authorities.
+The "subjective satisfaction" must be considered by the Public
+Information Officer, while complying with the request of the information
+seekers. This exactly is the purpose and object of 8(h) of the Act. "
+Section
+8(h)
+ contemplates of information which would impede the process of
+investigation or apprehension or prosecution of offenders."
+
+44. Where the circumstances narrated under 
+Section 8(h)
+ on that
+informations, which would impede the process of investigation or
+apprehension or prosecution of offenders. Thus, if the information
+provided, would cause any hindrance to the investigation or
+apprehension or prosecution of offenders. The language employed is
+"Apprehension". Thus, "Apprehension" of the competent authority is also
+considered in the legislation. The word "Apprehension", no doubt, can be
+interpreted widely and further, it provides discretion to the authorities
+for forming an opinion, whether there is an "Apprehension" or not. In this
+regard, the subjective satisfaction of the competent authority is of
+paramount importance. The Public Information Officer is expected to
+consider in the event of furnishing such informations, which all are
+connected with the investigation or prosecution of offenders and
+providing of such informations, would impede the process, then, he is
+empowered to exercise power of discretion and reject the application of
+the information seeker. Thus, the scope of 
+section 8(h)
+ is to be
+understood, with reference to the context and to the subjective
+satisfaction of the authorities competent. If the competent authority
+satisfied that there is a likelihood of impede the process of investigation
+or prosecution of offenders, then such informations or documents shall
+be denied.
+
+
+
+                                                                  Page 9 of 14
+
+
+ 45. The purpose and object of the exemption clause is to ensure that the
+administrative confidentiality are protected and because of providing of
+information, the further continuation of investigation or prosecution
+cannot be impeded. This being the scope of exemption under 
+Section
+8(h)
+, the questions sought for by the petitioner in the present case with
+reference to 8(h) is to be considered.
+
+46. As discussed in the aforementioned paragraphs, the questions and
+documents sought for by the petitioner in the present case is relatable
+to internal office memorandum containing opinions/views of
+reconciliatory meeting between the Disciplinary Authority and CBI
+clarification sought for by CVC internal office memorandum containing
+opinions/views latest correspondences from CVC etc.,
+
+47. This Court is of the considered opinion that such informations, if
+provided, it will create unnecessary hampering of the Disciplinary
+Proceedings or the prosecution. Even an apprehension in this regard is
+sufficient is to deny information to the applicants. The word
+"Apprehension" is employed in the Act, so as to protect the prosecution
+and process of investigation, which should not be paralyzed at any
+circumstances in the public interest. When the investigation is
+undertaken, then the authorities must be provided with an amount of
+discretion for the purpose of culling out the truth in respect of the
+allegations. Thus, any hindrance in between, would undoubtedly
+paralyze the investigation process, which would dilute the prosecution
+and would extend unlawful benefit to the accused persons.
+
+48. The opinions and views formed by the competent authorities on
+every stage may vary or change depending on the progress made in the
+investigation and based on the further facts culled out from and out of
+the evidence. During the course of such investigation or prosecution, if
+information are provided regarding the opinions already formed, then
+undoubtedly the same will hamper further investigation and disrupt
+the prosecution to be conducted by the agency. If such nature of
+information or documents are provided, then it may not be possible to
+proceed with the prosecution for the purpose of establishing the
+offence.
+
+49. In this context, the rights of both the parties should be considered by
+the Courts. It is not only the right of the information seekers, but the
+right of the information provider must also be considered by this Court.
+Whenever a statutory right is conferred to the citizen, equally such right
+is conferred to the other citizen, whose interest is also to be protected
+before allowing a person to exercise such a statutory right. To elaborate,
+right and duties are corresponding terms, so also, rights can be exercised
+
+                                                                Page 10 of 14
+
+ by any citizen, honouring the corresponding rights of the other citizen. It
+is exactly the constitutional perspective and the philosophy. Take a case,
+where information or documents are mechanically provided to the
+information seekers in all circumstances, then the right and duties of the
+investigating agency and the prosecutors are denied, establishing their
+cases before the competent Court of law or before the Disciplinary
+Authority. Thus, a balancing approach is required, while implementing
+the provisions of the 
+RTI Act
+. It is not as if, an information seeker is
+entitled to get all information and documents including certain internal
+correspondences and views or opinions recorded by the competent
+authorities then and there and time to time. Therefore, practical and
+pragmatic approach coupled with rules of constructive interpretation is
+of paramount importance to take a decision in such circumstances. In the
+event of committing any lapses, the same would provide unlawful gain to
+the accused/delinquent persons, which would result in destruction of the
+prosecution or the case of the Disciplinary Authority and larger the public
+interest involved in the matter of criminal prosecution is also to be
+considered by the Court. State being the prosecutors, right of
+investigation, collected evidence, record the opinions and views in those
+files must be protected in all circumstances and by obtaining all such
+information and documents from the competent authorities, the accused
+may not be allowed to destroy the basis of prosecution as such
+views/opinions or internal correspondence can never be construed as
+final opinion/views or the final decision.
+
+# 50. Considering the fact that the Central Information Commission
+
+elaborately considered the grounds raised by the petitioner in the order
+passed in the Second Appeal, arrived a conclusion that the exemption
+granted to CBI from applicability of the 
+RTI Act
+, in terms of 
+Section
+24(1)
+ would became meaningless. If RTI applicants would get
+information from another Public Authority, the very information that
+they cannot get from the CBI or information, inexplicably linked to the
+information and materials provided by the CBI to the Public Authority.
+
+# 51. The above findings of the Central Information Commission explicitly
+
+clarifies that what an information seeker could not able to get from the
+CBI, cannot attempt to get from his employer or from other agencies.
+Such calculated applications filed under the 
+RTI Act
+, at no
+circumstances, are entertainable. In the present case, the information
+and documents sought for are no doubt relating to the files being
+maintained by the CBI and about the investigation of the Criminal case,
+so also pertaining to the sanction, which all are relatable to
+investigation/interrogation or prosecution. Thus, the first proviso to
+
+
+                                                                Page 11 of 14
+
+
+Section 24(1)
+ cannot be extended merely under the ground that the
+      word 'Corruption' is employed in the Statute.
+
+      52. Distinctions are to be drawn in this regard and 
+Section 24(1)
+ proviso
+      must be read and understood along with the spirit of 
+Section 8(h)
+ of
+      the Right to Information Act. Rule of constructive interpretation in such
+      circumstances are imminent to ensure that the purpose and object of
+      the 
+RTI Act
+ is not defeated. So also at the time of providing information
+      or documents, the rights of other parties and the criminal laws system
+      of prosecution by the State is not affected or destroyed on account of
+      providing such confidential information to the information seekers.
+
+      53. In view of the principles considered by this Court in the
+      aforementioned paragraphs, this Court is able to form a concrete
+      opinion that the information and documents sought for by the
+      petitioner are rightly rejected by the Public Information Officer, Indian
+      Overseas Bank, First Appellate Authority and finally by the Central
+      Information Commission/Second Appellate Authority."
+
+
+
+14.   Furthermore, the Hon'ble High Court of Delhi in 
+Union of India vs. Shiv
+      Narain, WP(C
+) 7204/2016 dated 27.03.2019 which pertains to similar
+      facts and circumstances advised the information seeker to obtain the
+      information from the concerned trial court where the matter was
+## pending. The relevant observations are hereunder:
+
+
+
+
+
+ 
+"2. The respondent herein sought information from the petitioner on the
+      following two issues:- "1. Whether the report vide letter no. RSVY/CE/CE &
+      PM/55(1) 892 dated 12.02.2013 addressed to Inspector of police, CBI, ACB,
+      Patna by Shri D.S. Kapur CE cum PM RSVY project Zone, CPWD, Patna in
+      connection with the subject 
+referred above
+ was submitted by the CBI before
+      the sanctioning Authority before grant of prosecution sanction. 2. The certified
+      copy of the note sheet of the above mentioned case from the beginning to the
+      issue of prosecution sanction may also be given for which I am ready to pay
+      the requisite fee."
+
+
+      4. Learned counsel for the respondent has fairly drawn my attention to an
+## order dated February 12, 2019 passed by the Supreme Court in Civil Appeal No.
+
+      1632/2019, which is an appeal arising from the orders passed by the
+      Coordinate Bench of this Court in W.P.(C) 2272/2013 dated September 16,
+      2014 and the Division Bench in LPA 471/2015 dated August 17, 2015, wherein
+      information also includes copy of the note sheet for processing the decision to
+      refer the said case to Anti Corruption Branch of CBI for investigation. In the
+      said case, the said information was denied to the petitioner Ashok Kumar
+      Sharma.
+
+
+
+                                                                          Page 12 of 14
+
+
+       5. The Supreme Court in its order dated February 12, 2019 has held as under:-
+
+      4. The dispute remains about document Nos.1, 3 and 4 as they were not
+      supplied considering the provisions of 
+Section 8(1)(h)
+ of the Right to
+      Information Act which prohibits disclosure of information connected with
+      ongoing investigations and prosecutions and it was opined that it was
+      source information that has triggered the anti-corruption proceedings and
+      nothing should be done which affects the proceedings or which compromises
+      the position of the sources of information.
+
+      5. In view of the aforesaid reasons employed by the Information
+      Commissioner, we are of the opinion that there was justification in refusing
+      to supply the aforesaid documents. However, as rightly pointed out by
+      learned counsel for the appellant that during the course of trial, if the trial
+      Court feels it appropriate and if a prayer is made, the documents may be
+      called by Court in accordance with law.
+
+      6. The learned counsel for the respondent submits that the respondent herein
+      shall have the liberty to seek the document, which he has sought under the 
+RTI
+      Act
+ from the learned Trial Court, in terms of the order of the Supreme Court.
+
+      Suffice it would be to state that it is for the respondent herein to seek
+      appropriate orders from the learned Trial Court. In view of the order of the
+      Supreme Court, the order of the CIC dated February 29, 2016, is set aside, the
+      writ petition is allowed."
+
+
+
+15.   The Commission further observes that the FAA vide letter dated
+      09.07.2024 had given comprehensive observations/decisions on the RTI
+      application and first appeal of the Appellant.
+
+
+
+16.   The Appellant neither in his RTI application nor in his Second Appeal has
+      established any larger public interest and his locus in seeking such
+      information.
+
+
+
+17.   Further, the decisions as referred by the Appellant is not at all related
+      with the facts of the present case.
+
+
+
+18.   In the light of the above observations and latest judgements of the
+      superior courts, the Commission finds no reason to interfere in the
+## decision of CPIO and FAA.
+
+
+
+
+19.   The Commission finds no infirmity in the reply and as a sequel to it
+      further clarifications tendered by the CPIO during hearing as the same
+      was found to be in consonance with the provisions of 
+RTI Act
+.
+
+                                                                         Page 13 of 14
+
+
+ 20.   No intervention of the Commission is warranted in the matter.
+
+
+
+            The appeal is disposed of accordingly.
+
+
+
+                                                           Sd/-
+
+                                                 Swagat Das ( ागत दास)
+                                  Information Commissioner (सू चना आयु )
+Authenticated true copy
+(अिभ मािणत स ािपत ित)
+
+(Archana Srivastva)
+Dy. Registrar
+011-26107040
+Date : 19.01.2026
+
+## Copy To:
+
+
+
+
+The FAA,
+Railway Board,
+Rail Bhavan, Raisina Marg,
+New Delhi - 110 001
+
+Shri Pankaj Kumar,
+
+
+
+
+
+                                                                  Page 14 of 14
+
+                                    Recomendation(s) to PA under 
+section 25(5)
+ of the RTI Act, 2005:-
+
+
+
+                                   Nil
+
+
+
+
+Powered by TCPDF (www.tcpdf.org)

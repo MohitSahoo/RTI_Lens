@@ -1,0 +1,73 @@
+{
+  "doc_name": "c4e3009d414c6793da48f26170aab628",
+  "line_count": 220,
+  "structure": [
+    {
+      "title": "Central Information Commission",
+      "node_id": "0001",
+      "line_num": 10
+    },
+    {
+      "title": "Central Information Commission",
+      "node_id": "0002",
+      "line_num": 18,
+      "nodes": [
+        {
+          "title": "ORDER",
+          "node_id": "0003",
+          "line_num": 46
+        },
+        {
+          "title": "FACTS:",
+          "node_id": "0004",
+          "line_num": 49
+        },
+        {
+          "title": "HEARING:",
+          "node_id": "0005",
+          "line_num": 70
+        },
+        {
+          "title": "Facts emerging during the hearing:",
+          "node_id": "0006",
+          "line_num": 73
+        },
+        {
+          "title": "The following were present:",
+          "node_id": "0007",
+          "line_num": 76
+        },
+        {
+          "title": "reproduced below:",
+          "node_id": "0008",
+          "line_num": 106
+        },
+        {
+          "title": "2005 which reads as under:",
+          "node_id": "0009",
+          "line_num": 118
+        },
+        {
+          "title": "), wherein it was held as under:",
+          "node_id": "0010",
+          "line_num": 127
+        },
+        {
+          "title": "had held as under:",
+          "node_id": "0011",
+          "line_num": 145
+        },
+        {
+          "title": "which provides:",
+          "node_id": "0012",
+          "line_num": 152
+        },
+        {
+          "title": "DECISION:",
+          "node_id": "0013",
+          "line_num": 187
+        }
+      ]
+    }
+  ]
+}

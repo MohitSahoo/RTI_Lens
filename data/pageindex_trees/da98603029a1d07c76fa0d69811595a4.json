@@ -1,0 +1,75 @@
+{
+  "doc_name": "da98603029a1d07c76fa0d69811595a4",
+  "line_count": 300,
+  "structure": [
+    {
+      "title": "Central Information Commission",
+      "node_id": "0001",
+      "line_num": 10,
+      "nodes": [
+        {
+          "title": "Author:",
+          "node_id": "0002",
+          "line_num": 17
+        },
+        {
+          "title": "Bench:",
+          "node_id": "0003",
+          "line_num": 22
+        }
+      ]
+    },
+    {
+      "title": "Central Information Commission",
+      "node_id": "0004",
+      "line_num": 28,
+      "nodes": [
+        {
+          "title": "ORDER",
+          "node_id": "0005",
+          "line_num": 63
+        },
+        {
+          "title": "CIC/RBIND/A/2020/665832:",
+          "node_id": "0006",
+          "line_num": 68
+        },
+        {
+          "title": "File No. CIC/RBIND/A/2020/667428:",
+          "node_id": "0007",
+          "line_num": 102
+        },
+        {
+          "title": "order dated 16-03-2020 direct the CPIO to re-examine the same afresh in",
+          "node_id": "0008",
+          "line_num": 121
+        },
+        {
+          "title": "File No. CIC/RBIND/A/2020/672796:",
+          "node_id": "0009",
+          "line_num": 136
+        },
+        {
+          "title": "Hearing:",
+          "node_id": "0010",
+          "line_num": 164
+        },
+        {
+          "title": "Decision:",
+          "node_id": "0011",
+          "line_num": 201
+        },
+        {
+          "title": "decision in Jayantilal Mistry case no information was provided to him in file no.",
+          "node_id": "0012",
+          "line_num": 208
+        },
+        {
+          "title": "Addresses of the parties:",
+          "node_id": "0013",
+          "line_num": 278
+        }
+      ]
+    }
+  ]
+}

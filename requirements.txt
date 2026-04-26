@@ -3,6 +3,11 @@ sqlalchemy==2.0.30
 psycopg2-binary==2.9.9
 alembic==1.13.1
 
+# API
+fastapi==0.110.0
+uvicorn==0.27.1
+strawberry-graphql[fastapi]==0.315.1
+
 # NLP & extraction
 spacy==3.7.4
 pdfplumber==0.10.3
@@ -29,3 +34,6 @@ python-dotenv==1.0.1
 
 # Utils
 tqdm==4.66.4
+
+# Frontend
+streamlit==1.32.0

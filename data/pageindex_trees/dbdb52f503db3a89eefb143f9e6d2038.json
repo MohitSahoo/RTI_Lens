@@ -1,0 +1,63 @@
+{
+  "doc_name": "dbdb52f503db3a89eefb143f9e6d2038",
+  "line_count": 228,
+  "structure": [
+    {
+      "title": "Central Information Commission",
+      "node_id": "0001",
+      "line_num": 10
+    },
+    {
+      "title": "Central Information Commission",
+      "node_id": "0002",
+      "line_num": 18,
+      "nodes": [
+        {
+          "title": "Relevant facts emerging from appeal:",
+          "node_id": "0003",
+          "line_num": 43
+        },
+        {
+          "title": "Information sought",
+          "node_id": "0004",
+          "line_num": 52
+        },
+        {
+          "title": "and background of the case:",
+          "node_id": "0005",
+          "line_num": 54
+        },
+        {
+          "title": "the following 4 points:",
+          "node_id": "0006",
+          "line_num": 58
+        },
+        {
+          "title": "Appeal dated 15.10.2018, which was not adjudicated by the FAA. Therefore, the",
+          "node_id": "0007",
+          "line_num": 105
+        },
+        {
+          "title": "Facts emerging in Course of Hearing:",
+          "node_id": "0008",
+          "line_num": 111
+        },
+        {
+          "title": "13.08.2020, wherein he has stated as under:",
+          "node_id": "0009",
+          "line_num": 123
+        },
+        {
+          "title": "order under the rules.",
+          "node_id": "0010",
+          "line_num": 138
+        },
+        {
+          "title": "Decision:",
+          "node_id": "0011",
+          "line_num": 192
+        }
+      ]
+    }
+  ]
+}

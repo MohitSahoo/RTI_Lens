@@ -1,0 +1,60 @@
+{
+  "doc_name": "7c97108b5ba90ed7ae11a15936f3aea8",
+  "line_count": 217,
+  "structure": [
+    {
+      "title": "Central Information Commission",
+      "node_id": "0001",
+      "line_num": 10,
+      "nodes": [
+        {
+          "title": "Author:",
+          "node_id": "0002",
+          "line_num": 17
+        },
+        {
+          "title": "Bench:",
+          "node_id": "0003",
+          "line_num": 22
+        }
+      ]
+    },
+    {
+      "title": "Central Information Commission",
+      "node_id": "0004",
+      "line_num": 28,
+      "nodes": [
+        {
+          "title": "ORDER",
+          "node_id": "0005",
+          "line_num": 61
+        },
+        {
+          "title": "order dated 20/29.06.2018, enclosed a copy of draft minutes and further provided some",
+          "node_id": "0006",
+          "line_num": 139
+        },
+        {
+          "title": "HEARING:",
+          "node_id": "0007",
+          "line_num": 149
+        },
+        {
+          "title": "Facts emerging during the hearing:",
+          "node_id": "0008",
+          "line_num": 152
+        },
+        {
+          "title": "The following were present:",
+          "node_id": "0009",
+          "line_num": 155
+        },
+        {
+          "title": "DECISION:",
+          "node_id": "0010",
+          "line_num": 183
+        }
+      ]
+    }
+  ]
+}

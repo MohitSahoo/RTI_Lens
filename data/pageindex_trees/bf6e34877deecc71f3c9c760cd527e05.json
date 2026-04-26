@@ -1,0 +1,65 @@
+{
+  "doc_name": "bf6e34877deecc71f3c9c760cd527e05",
+  "line_count": 235,
+  "structure": [
+    {
+      "title": "Central Information Commission",
+      "node_id": "0001",
+      "line_num": 10,
+      "nodes": [
+        {
+          "title": "Author:",
+          "node_id": "0002",
+          "line_num": 17
+        },
+        {
+          "title": "Bench:",
+          "node_id": "0003",
+          "line_num": 22
+        }
+      ]
+    },
+    {
+      "title": "Central Information Commission",
+      "node_id": "0004",
+      "line_num": 28,
+      "nodes": [
+        {
+          "title": "Relevant dates emerging from the complaint:",
+          "node_id": "0005",
+          "line_num": 52
+        },
+        {
+          "title": "ORDER",
+          "node_id": "0006",
+          "line_num": 60
+        },
+        {
+          "title": "Hearing:",
+          "node_id": "0007",
+          "line_num": 91
+        },
+        {
+          "title": "Decision:",
+          "node_id": "0008",
+          "line_num": 113
+        },
+        {
+          "title": "order which can be passed by the Central Information",
+          "node_id": "0009",
+          "line_num": 159
+        },
+        {
+          "title": "order providing for access to the information.\"",
+          "node_id": "0010",
+          "line_num": 179
+        },
+        {
+          "title": "Addresses of the parties:",
+          "node_id": "0011",
+          "line_num": 206
+        }
+      ]
+    }
+  ]
+}

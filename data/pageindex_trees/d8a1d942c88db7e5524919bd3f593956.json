@@ -1,0 +1,53 @@
+{
+  "doc_name": "d8a1d942c88db7e5524919bd3f593956",
+  "line_count": 227,
+  "structure": [
+    {
+      "title": "Central Information Commission",
+      "node_id": "0001",
+      "line_num": 10
+    },
+    {
+      "title": "Central Information Commission",
+      "node_id": "0002",
+      "line_num": 18,
+      "nodes": [
+        {
+          "title": "Relevant facts emerging from appeal:",
+          "node_id": "0003",
+          "line_num": 42
+        },
+        {
+          "title": "Information sought",
+          "node_id": "0004",
+          "line_num": 50
+        },
+        {
+          "title": "and background of the case:",
+          "node_id": "0005",
+          "line_num": 52
+        },
+        {
+          "title": "Delhi - 110092.He specifically sought as under:",
+          "node_id": "0006",
+          "line_num": 57
+        },
+        {
+          "title": "Facts emerging in Course of Hearing:",
+          "node_id": "0007",
+          "line_num": 140
+        },
+        {
+          "title": "information sought in the instant RTI application is outside the purview of",
+          "node_id": "0008",
+          "line_num": 151
+        },
+        {
+          "title": "Decision:",
+          "node_id": "0009",
+          "line_num": 169
+        }
+      ]
+    }
+  ]
+}

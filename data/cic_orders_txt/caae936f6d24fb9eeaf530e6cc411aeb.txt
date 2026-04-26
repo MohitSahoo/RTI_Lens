@@ -1,0 +1,690 @@
+[Cites 
+22
+, Cited by 
+0
+]
+
+
+
+
+Central Information Commission
+
+
+Ashish Mahajan vs Reserve Bank Of India on 30 May, 2022
+
+
+Author: 
+Neeraj Kumar Gupta
+
+
+Bench: 
+Neeraj Kumar Gupta
+
+
+                              के   ीय सूचना आयोग
+                       Central Information Commission
+                           बाबा गंगनाथ माग ,मुिनरका
+                        Baba Gangnath Marg, Munirka
+                        नई  द ली, New Delhi - 110067
+
+ि तीय अपील सं या/Second Appeal No. CIC/RBIND/A/2020/126558
+
+Mr. Ashish Mahajan                                          ... अपीलकता /Appellant
+(IndusInd Bank Ltd.)
+                                     VERSUS
+                                      बनाम
+CPIO                                                            ...!ितवादी/Respondent
+Reserve Bank of India
+Department of Supervision, Centre-1
+World Trade Centre, Cuffe Parade,
+Colaba, Mumbai-400005
+
+Relevant dates emerging from the appeal:-
+
+RTI : 25-11-2019             FA     : 13-03-2020           SA         : 10-09-2020
+                                                           Hearing : 07.06.2021
+CPIO : 11-02-2020            FAO : 28-08-2020
+                                                           & 19-05-2022
+
+                                   ORDER
+
+1. The instant matter was earlier listed before the Commission on
+07.06.2021 vide which the Commission had observed that
+
+
+
+
+
+2.    The instant matter is listed today for further hearing.
+
+
+
+                                                                         Page 1 of 12
+
+
+ Hearing:
+
+3.     The appellant bank was not present in the hearing. However, Shri V.K.
+Gupta, Advocate representing appellant bank reported in the office of the
+Commission after the hearing was over. The respondent, Shri Abhay Kumar,
+General Manager & CPIO along with Shri Dayanand, Assistant Legal Advisor
+attended the hearing through video-conferencing. The original RTI applicant
+Shri Kabir Agarwal was not present despite notice.
+
+4.     The written submissions of the appellant and respondent are taken on
+record.
+
+5.     The representative of the Reserve Bank of India while presenting their
+case inter alia submitted that the applicant, Shri Kabir Agarwal, vide RTI
+application dated 25.11.2019 inter alia, sought, details of top 100 accounts of
+loan defaulters with highest amounts of outstanding debt as on 31.10.2019 etc.
+They further submitted that the then CPIO issued the notice under Section 11(1)
+read with 
+Section 11(2)
+ of the Right to Information Act, 2005 
+(RTI Act
+) to the
+third party i.e. appellant bank informing that RBI was required to disclose the
+information sought by Shri Kabir Agarwal, enabling appellant to make written
+submission within 30 days from the date of receipt of the notice as to whether
+the information sought by the applicant might be disclosed or not along with
+reasons for the same. After considering the response from Appellant Bank, the
+CPIO decided to disclose the list of top 100 accounts of loan defaulters with
+highest amounts of outstanding debt as on 31.10.2019 etc. to the applicant. He
+further submitted that the Hon'ble Supreme Court in RBI vs. Jayantilal N.
+Mistry & Ors (2016) 3 SCC 525 observed that :-
+
+       "RBI is clearly not in any fiduciary relationship with any bank. RBI
+       ought to act with transparency and not hide information that might
+       embarrass individual banks. It is duty bound to comply with the
+       provisions of the 
+RTI Act
+ and disclose the information sought by the
+       applicant."
+
+The FAA also observed that the list of borrowers as reported under CRILC by
+banks forms part of the record maintained by the Reserve Bank and the same is
+in the possession of the Reserve Bank. Hence the same may be disclosed by
+RBI. The FAA concluded that there was no merit in the appeal of the appellant
+and accordingly dismissed the bank's appeal. The respondent further contended
+that in order to withhold any information sought by the applicant under the 
+RTI
+Act
+, such information should fall within any of the exempted items under
+
+Section 8
+ and 
+9
+ of the RTI Act. The respondent also contended that the list of
+such defaulters is reported every quarter along with their names and amount
+
+
+
+                                                                     Page 2 of 12
+
+ outstanding. It is an automatic compilation and such information is readily
+available with the Reserve Bank of India.
+
+
+
+Decision:
+
+6.     The Commission, after hearing the submissions of the respondent and
+after perusal of records, observes that the original RTI applicant has sought
+information regarding names and details of top 100 accounts of loan defaulters
+with highest amounts of outstanding debt as on 31.10.2019. Further, he has
+asked for top 100 non-performing asset accounts with highest amounts of
+outstanding debt as on 31.10.2019 with details of total amounts that are owed
+by non-performing asset accounts in the country. The CPIO, Reserve Bank of
+India had issued notices under 
+Section 11(1)
+ and 
+11(3)
+ to the appellant bank
+intending to disclose the information. Aggrieved by the decision of the CPIO,
+the appellant bank had filed first appeal with the First Appellate Authority. The
+FAA had also dismissed the first appeal of the appellant bank summarily. The
+Commission observes that the RTI applicant had insisted for disclosure of
+information as per Jayantilal N. Mistry's case. The Appellant Bank in their
+second appeal contested that the information sought as a whole is exempted
+from disclosure under 
+Section 8(1) (d)
+ and 
+8(1) (j)
+ of the RTI Act and that the
+CPIO/FAA has not passed any reasoned order settling their objections nor gave
+any opportunity of hearing to them.
+
+7.     The Commission takes note of the submissions made by the Bank that the
+information, proposed to be disclosed is in the nature of credit information and
+the same was supplied to the Reserve Bank of India in fiduciary capacity as the
+Regulator under the provisions of the 
+Banking Regulation Act
+ as well as the
+
+Credit Information Companies Regulation Act, 2005
+ (CICRA). Under the
+provisions of CICRA there is a specific bar on the disclosure of such credit
+information. Further 
+Section 174 (a)
+ of the Act, clearly mentions that "no credit
+information shall be disclosed to any person other than its specified users." The
+large amount of data relating to its clients including their identity, personal
+details etc. is shared with the regulator, without any redaction or withholding
+the information, in good faith that these will be objectively analysed in
+discharge of their statutory obligations to make fair judgment on their
+functioning without affecting their competitive position. To this extent, there is
+an element of trust and confidence in sharing the data, both financial and
+operational, between the RBI and the bank. The information and data of the
+clients in the hands of Bank also has the element of trust and confidence that
+such data will not be disclosed or shared against their right to
+privacy/commercial interest.
+
+                                                                       Page 3 of 12
+
+
+ 8.    The Commission further noted the Hon'ble Supreme Court of India in
+Reserve Bank of India V/s Jayantilal N. Mistry case made observations
+which read as under:-
+
+
+
+ 
+"79. In another case, where the respondent P.P. Kapoor sought
+      information inter alia about the details of default in loans taken from
+      public sector banks by industrialists, out of the list of defaulters, top 100
+      defaulters, names of the businessmen, firm name, principal amount,
+      interest amount, date of default and date of availing the loan etc. The said
+      information was denied by the CPIO mainly on the basis that it was held
+      in fiduciary capacity and was exempt from disclosure of such
+      information. Allowing the appeal, the CIC directed for the disclosure of
+      such information. The CIC in the impugned order has rightly observed as
+      under:-I wish government and its instrumentalities would remember that
+      all information held by them is owned by citizens, who are sovereign.
+      Further, it is often seen that banks and financial institutions continue to
+      provide loans to industrialists despite their default in repayment of an
+      earlier loan." This Court in 
+UP Financial Corporation vs. Gem Cap
+      India Pvt.Ltd.
+, AIR 1993 SC 1435 has noted that:
+
+
+
+
+             "Promoting industrialization at the cost of public funds does not
+             serve the public interest, it merely amounts to transferring public
+             money to private account'. Such practices have led citizens to
+             believe that defaulters can get away and play fraud on public
+             funds. There is no doubt that information regarding top
+             industrialists who have defaulted in repayment of loans must be
+             brought to citizens' knowledge; there is certainly a larger public
+             interest that could be served on ....disclosure of the same. In fact,
+             information about industrialists who are loan defaulters of the
+             country may put pressure on such persons to pay their dues. This
+             would have the impact of alerting Citizens about those who are
+             defaulting in payments and could also have some impact in
+             shaming them."
+
+
+
+It clarifies that the functional relationship between a regulator and a regulated
+entity is not fiduciary. On the other hand the relationship is based on a statutory
+obligation to ensure operational discipline and support remedial framework.
+Hence its observations, guidance, directions or remedial actions are an outcome
+of own functioning.
+
+
+
+9.    Keeping in view the broader nature of business carried out between a
+customer and the bank, the Commission takes note of the observations passed
+by the Supreme Court in 
+Central Board Of Sec. Education &Anr. vs Aditya
+Bandopadhyay&Ors
+ [2011 (8) SCC 497] vide order dated 09.08.2011
+
+                                                                        Page 4 of 12
+
+ examined and explained the expression 'fiduciary relationship', and have
+illustrated a few relationships where parties were involved in an act of fiduciary
+capacity including 'customers' in the following words:
+
+
+        "20. The term `fiduciary' and `fiduciary relationship' refer to different
+        capacities and relationship, involving a common duty or obligation. 20.1)
+        Black's Law Dictionary (7th Edition, Page 640) defines `fiduciary
+        relationship' thus:
+
+
+
+      A relationship in which one person is under a duty to act for the benefit of
+      the other on matters within the scope of the relationship. Fiduciary
+      relationships - such as trustee-beneficiary, guardian-ward, agent-
+      principal, and attorney-client - require the highest duty of care. Fiduciary
+      relationships usually arise in one of four situations : (1) when one person
+      places trust in the faithful integrity of another, who as a result gains
+      superiority or influence over the first, (2) when one person assumes
+      control and responsibility over another, (3) when one person has a duty
+      to act for or give advice to another on matters falling within the scope of
+      the relationship, or (4) when there is a specific relationship that has
+      traditionally been recognized as involving fiduciary duties, as with a
+      lawyer and a client or a stockbroker and a customer."
+
+
+
+      "39. The term "fiduciary" refers to a person having a duty to act for the
+      benefit of another, showing good faith and candour, where such other
+      person reposes trust and special confidence in the person owing or
+      discharging the duty. The term "fiduciary relationship" is used to
+      describe a situation or transaction where one person (beneficiary) places
+      complete confidence in another person (fiduciary) in regard to his affairs,
+      business or transaction(s). The term also refers to a person who holds a
+      thing in trust for another (beneficiary). The fiduciary is expected to act in
+      confidence and for the benefit and advantage of the beneficiary, and use
+      good faith and fairness in dealing with the beneficiary or the things
+      belonging to the beneficiary. If the beneficiary has entrusted anything to
+      the fiduciary, to hold the thing in trust or to execute certain acts in regard
+      to or with reference to the entrusted thing, the fiduciary has to act in
+      confidence and is expected not to disclose the thing or information to any
+      third party."
+
+
+
+While taking into consideration the fact that the customers give their financial
+information to the banks in confidence and with complete faith that may not be
+divulged as a result of disclosure by others, the following observations passed
+
+                                                                         Page 5 of 12
+
+ by the Supreme Court in 
+Bihar Public Service Commission v. SaiyedHussain
+Abbas Rizwi and Anr.
+[ (2012) 13 SCC 61] may be relied upon:
+
+
+
+
+      "The satisfaction has to be arrived at by the authorities objectively and
+      the "consequences of such disclosure have to be weighed with regard to
+      the circumstances of a given case. The decision has to be based on
+      objective satisfaction recorded for ensuring that larger public interest
+      outweighs unwarranted invasion of privacy or other factors stated in the
+      provision. Certain matters, particularly in relation to appointment, are
+      required to be dealt with great confidentiality. The information may come
+      to knowledge of the authority as a result of disclosure by others who give
+      that information in confidence and with complete faith, integrity and
+      fidelity. Secrecy of such information shall be maintained, thus, bringing it
+      within the ambit of fiduciary capacity. Similarly, there may be cases
+      where the disclosure has no relationship to any public activity or interest
+      or it may even cause unwarranted invasion of privacy of the individual.
+      All these protections have to be given their due implementation as they
+      spring from statutory exemptions. It is not a decision simpliciter between
+      private interest and public interest. It is a matter where a constitutional
+      protection is available to a person with regard to the right to privacy.
+      Thus, the public interest has to be construed while keeping in mind the
+      balance factor between right to privacy and right to information with the
+      purpose sought to be achieved and the purpose that would be served in
+      the larger public interest, particularly when both these rights emerge
+      from the constitutional values under the Constitution of India."
+
+
+
+As emphasized by the Supreme Court in the judgment of Central Public
+Information Officer, Supreme Court of 
+India vs. Subhash Chandra Agarwal
+
+in its judgment dated 13.11.2019, right to privacy and right to information have
+to be treated as co-equals and none can take precedence over the other, rather a
+balance needs to be struck. The following observations may also be relied upon
+in that regard:
+
+
+
+
+      "42. Privacy, it is uniformly observed in K.S. Puttaswamy (supra), is
+      essential for liberty and dignity. Therefore, individuals have the need to
+      preserve an intrusion-free zone for their personality and family. This
+      facilitates individual freedom. On the question of invasion of personal
+      liberty, the main judgment has referred to a three-fold requirement in the
+      form of - (i) legality, which postulates the existence of law (RTI Act in the
+      present case); (ii) need, defined in terms of a legitimate State aim; and
+
+                                                                        Page 6 of 12
+
+
+       (iii) proportionality, which ensures a rational nexus between the objects
+      and the means to be adopted to achieve them. The third requirement, we
+      would observe, is achieved in the present case by 
+Sections 8(1)(j)
+ and 
+11
+
+      of the RTI Act and the RTI Act cannot be faulted on this ground. 
+The RTI
+      Act
+ also defines the legitimate aim, that is a public interest in the
+      dissemination of information which can be confidential or private (or
+      held in a fiduciary relationship) when larger public interest or public
+      interest in disclosure outweighs the protection or any possible harm or
+      injury to the interest of the third party."
+
+
+
+Further in 
+K.S. Puttaswamy and Anr. v. Union of India and Ors.
+ [(2017) 10
+SCC 1], the Supreme Court observed as under:
+
+
+
+
+      "623. An individual has a right to protect his reputation from being
+      unfairly harmed and such protection of reputation needs to exist not only
+      against falsehood but also certain truths. It cannot be said that a more
+      accurate judgment about people can be facilitated by knowing private
+      details about their lives - people judge us badly, they judge us in haste,
+      they judge out of context, they judge without hearing the whole story and
+      they judge with hypocrisy. Privacy lets people protect themselves from
+      these troublesome judgments."
+
+
+
+10.   In view of the above, the Commission is of the view that these judicial
+pronouncements have to be factored while deliberating all the claims of the
+applicant for complete disclosure which may include inadvertent disclosure of
+financial, transactional and operational data of the clients of the Bank etc.
+Further, in 
+Naresh Trehan vs Rakesh Kumar Gupta [W.P.(C
+) 85/2010 & CM
+Nos.156/2010 & 5560/2011], the Delhi High Court made the following
+observations:
+
+
+
+
+      "...It is, thus, essential that information relating to business affairs,
+      which is considered to be confidential by an assessee must remain so,
+      unless it is necessary in larger public interest to disclose the same. If the
+      nature of information is such that disclosure of which may have the
+      propensity of harming one's competitive interests, it would not be
+      necessary to specifically show as to how disclosure of such information
+      would, in fact, harm the competitive interest of a third party. In order to
+      test the applicability of 
+Section 8(1)(d)
+ of the Act it is necessary to first
+      and foremost determine the nature of information and if the nature of
+      information is confidential information relating to the affairs of a private
+
+
+                                                                        Page 7 of 12
+
+      entity that is not obliged to be placed in public domain, then it is
+     necessary to consider whether its disclosure can possibly have an adverse
+     effect on third parties."
+
+
+
+ 
+The Supreme Court while deciding upon issues relating to personal
+information of an individual in terms of his income tax returns passed the
+following observations in 
+Girish Ramchandra Deshpande v. Central
+Information Commr.
+ [(2013) 1 SCC 212] :
+
+
+
+
+     "12. The petitioner herein sought for copies of all memos, show-cause
+     notices and censure/punishment awarded to the third respondent from his
+     employer and also details viz. movable and immovable properties and
+     also the details of his investments, lending and borrowing from banks and
+     other financial institutions. Further, he has also sought for the details of
+     gifts stated to have been accepted by the third respondent, his family
+     members and friends and relatives at the marriage of his son. The
+     information mostly sought for finds a place in the income tax returns of
+     the third respondent. The question that has come up for consideration is:
+
+     whether the abovementioned information sought for qualifies to be
+     "personal information" as defined in clause (j) of 
+Section 8(1)
+ of the RTI
+     Act.
+
+
+
+     13. We are in agreement with the CIC and the courts below that the
+     details called for by the petitioner i.e. copies of all memos issued to
+     the third respondent, show cause notices and orders of
+     censure/punishment etc. are qualified to be personal information as
+     defined in clause (j) of 
+Section 8(1)
+ of the RTI Act. The performance
+     of an employee/officer in an organization is primarily a matter
+     between the employee and the employer and normally those aspects
+     are governed by the service rules which fall under the expression
+     "personal information", the disclosure of which has no relationship
+     to any public activity or public interest. On the other hand, the
+     disclosure of which would cause unwarranted invasion of privacy of
+     that individual. Of course, in a given case, if the Central Public
+     Information Officer or the State Public Information Officer of the
+     Appellate Authority is satisfied that the larger public interest
+     justifies the disclosure of such information, appropriate orders
+     could be passed but the petitioner cannot claim those details as a
+     matter of right.
+
+     14. The details disclosed by a person in his income tax returns are
+     "personal information" which stand exempted from disclosure under
+     clause (j) of 
+Section 8(1)
+ of the RTI Act, unless involves a larger
+     public interest and the Central Public Information Officer or the
+
+                                                                       Page 8 of 12
+
+        State Public Information Officer or the Appellate Authority is
+       satisfied that the larger public interest justifies the disclosure of
+       such information."
+
+The aforementioned observations make it clear that the data has been shared by
+the individuals with the Income Tax Department which is seeking such
+information as a statutory authority but while analyzing and assessing their
+income keeps this data secured in the fiduciary capacity and hence it is
+protected from disclosure. It is applicable not only for individuals but for other
+legal entities recognizable under 
+Income Tax Act
+. Further, it has been observed
+that the information in the hands of public authority even in the discharge of
+statutory obligations is protected under fiduciary relationship.
+
+11. There are apparently two set of such information which have been shared
+by the bank with the regulator under statutory obligation. First is the
+information/data of clients relating to their business/commercial operations,
+financial transactions, business and commercial strategy which is shared by
+clients with financial institutions in full trust and confidence and is held by them
+in fiduciary capacity, protected from disclosure under the 
+RTI Act
+ in their
+hands. Second set is the information relating to business strategy, decisions,
+transactions, other operational data etc. of financial institution which may have
+bearing on their competitive position and also enjoys the exemption from
+disclosure in their hands, if it is a public authority or otherwise, under the 
+RTI
+Act
+. The Commission is of the view that the exemption of disclosure of certain
+information under 
+Section 8(1)
+ of the RTI Act, 2005 in the hands of financial
+institutions does not evaporate once such data/information is shared, in good
+faith and trust, with the regulator under statutory obligations. This aspect is not
+the ratio of Hon'ble Supreme Court in Jayantilal Mistry's judgment and
+decision of the regulator to consider redacting such data/information while
+disclosing the reports is to be aligned with this and other judicial
+pronouncements of Supreme Court and High Courts covering such aspects.
+
+12. The Commission further observes that orders simpliciter irrespective of
+the different objections raised by the appellant bank apparently lacked
+application of mind or reasons on the part of the CPIO. Rejection or acceptance
+of the specific objections raised by them was not spelt out in the order which
+have been passed without giving an opportunity of hearing to them. The
+Commission further observes that the CPIO is at best free to take decisions on
+disclosure of information as per provision of 
+RTI Act, 2005
+ giving a reasoned
+orders on the objections filed. The CPIO while issuing notice under 
+Section 11
+
+of the RTI Act has given the opportunity to the Appellant Bank to file their
+objections, if any, against disclosure of information sought but has not found it
+
+
+                                                                         Page 9 of 12
+
+ necessary to give them an opportunity of hearing. While not doing so, the CPIO
+has not passed any reasoned order covering his deliberations on their objections,
+his understanding of law or jurisprudence in deciding specific objections, in
+favor of disclosure etc. Order passed by the CPIO is cryptic, without any
+reference to objections raised by the Appellant Bank. Similarly, the FAA
+instead of passing a speaking order have also given a cryptic order to the
+Appellant Bank. The CPIO and the FAA are expected to apply their mind
+before issuing the order of intent of disclosing the information. Further, no
+opportunity of personal hearing was given to the appellant nor speaking order
+have been passed by FAA for not giving opportunity of hearing or elaborating
+reasons for accepting /not accepting their objections in his decision in the
+appeal. The Commission is of the view that every objection should be dealt and
+rejected/accepted with a reason and reasons for not giving opportunity of
+personal hearing should be well reasoned too in view of wider implications.
+
+13. The Commission observes that rightful claims of the RTI applicant has to
+be adjudicated in the light of specific objections filed by the Institution, various
+judicial pronouncements of Hon'ble Supreme Court and High Courts providing
+guidance on such matters. Opportunity of hearing should necessarily be
+provided and orders passed by the CPIO and the FAA otherwise should be
+reasoned, speaking and clear. In the present case, such order should enumerate
+the principles for disclosure or non-disclosure of details of top 100 accounts of
+loan defaulters or various types of data, personal information, commercially
+sensitive information of clients or institution, specifically excluded disclosures
+under various Acts, etc.
+
+14. The Commission in this context refer to the judgment of the Hon'ble
+Delhi High Court in decision in 
+J P Aggarwal v. Union of India (WP (C
+) no.
+7232/2009 it has held that:
+
+
+          "The PIO is expected to apply his / her mind, duly analyse the
+          material before him / her and then either disclose the information
+          sought or give grounds for non-disclosure."
+
+          Furthermore, in OM No. 20/10/23/2007-IR dated 09.07.2009, while
+          elaborating on the duties and responsibilities of the FAA, it was stated
+          that:
+
+
+
+          "3. Deciding appeals under the 
+RTI Act
+ is a quasi judicial function. It
+          is, therefore, necessary that the appellate authority should see that the
+          justice is not only done but it should also appear to have been done. In
+          order to do so, the order passed by the appellate authority should be a
+          speaking order giving justification for the decision arrived at.
+
+
+
+                                                                        Page 10 of 12
+
+
+            5..............................
+The Act
+ provides that the first appellate authority
+           would be an officer senior in rank to the CPIO. Thus, the appellate
+           authority, as per provisions of the Act, would be an officer in a
+           commanding position vis a vis' the CPIO. Nevertheless, if, in any
+           case, the CPIO does not implement the order passed by the appellate
+           authority and the appellate authority feels that intervention of higher
+           authority is required to get his order implemented, he should bring the
+           matter to the notice of the officer in the public authority competent to
+           take against the CPIO. Such competent officer shall take necessary
+           action so as to ensure implementation of the 
+RTI Act
+. "
+
+15. The Commission has also taken a detailed view in file nos.
+CIC/RBIND/A/2021/152460 & Ors. dated 05.05.2022 wherein issues of
+redaction, ratio of Jayantilal Mistry case and other related issues are discussed
+in detail. Perusal of the relevant paragraphs in Jayantilal Mistry judgment make
+it clear that the fundamental rights enshrined upon the citizens in form of right
+to information are not absolute and that the right to information may not draw
+precedence over right to privacy. Therefore, the Courts need to strike a balance
+between the rights as well as protections guaranteed to a citizen under 
+Article 19
+
+of the Constitution. Hon'ble Supreme Court of India hasheld that the disclosure
+of information relating to banks and financial institutions may be allowed taking
+into account the circumstances and nature of information sought for and not in a
+blanket manner. The Commission advised the CPIO to consider taking the
+relevant references from the said order while deciding the cases.
+
+16. The Commission has already outlined the deficiency in the conduct of the
+CPIO/FAA while hearing such matters and hence is of the opinion that due care
+has to be taken by according opportunity of personal hearing and making
+reasoned order with reference to the objections in the hands of the CPIO and
+later in the hands of FAA, if any appeal is preferred. Hence, the CPIO will be
+required to adjudicate such RTI application in the light of the observations of
+the Commission afresh. The Commission also expects that the CPIO will take
+view on various objections filed by the Bank and submissions made by
+applicant to reach the decision in favor or against on case to case basis. He has
+to factor the observation of Hon'ble Supreme Court in Jayantilal Mistry case,
+Commission's judgment dated 05.05.2022 and other relevant judgments, some
+of which have been referred in this order as well. Hence, with these
+observations the order passed by the CPIO and FAA in this matter is set aside
+and the case is being remanded to the CPIO for adjudication afresh. The above
+directions of the Commission should be complied within a period of 30 days
+from the date of receipt of this order. In case, the appellant/applicant is
+
+                                                                                Page 11 of 12
+
+ aggrieved with the order of the CPIO, they are at the liberty to file first appeal
+before the First Appellate Authority and afterwards second appeal before the
+Commission.
+
+17. With the above observations, the appeal is disposed of.
+
+18. Copy of the decision be provided free of cost to the parties.
+
+
+
+                                                           नीरज कु मार गु ा)
+                                       Neeraj Kumar Gupta (नीरज           ा
+                                                               सूचना आयु )
+                                     Information Commissioner (सू
+
+                                                        दनांक / Date : 19-05-2022
+Authenticated true copy
+(अिभ मािणत स यािपत ित)
+
+
+S. C. Sharma (एस. सी. शमा ),
+Dy. Registrar (उप-पंजीयक),
+(011-26105682)
+
+
+
+
+Addresses of the parties:
+1.   CPIO
+     Reserve Bank of India
+     Department of Supervision, Centre-1
+     World Trade Centre, Cuffe Parade,
+     Colaba, Mumbai-400005
+
+2.    Mr. Ashish Mahajan
+
+3.    Mr. Kabir Agarwal (Original Appellant)
+
+
+
+
+
+                                                                      Page 12 of 12

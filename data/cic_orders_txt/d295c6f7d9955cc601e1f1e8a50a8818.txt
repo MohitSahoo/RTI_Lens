@@ -1,0 +1,1204 @@
+[Cites 
+34
+, Cited by 
+0
+]
+
+
+
+
+Central Information Commission
+
+
+Vinod Vashisht vs Chief Commissioner Of Income Tax (Cca), ... on 3 April, 2025
+
+
+                             के ीय सूचना आयोग
+                       Central Information Commission
+                          बाबा गंगनाथ माग, मुिनरका
+                        Baba Gangnath Marg, Munirka
+                         नई िद      ी, New Delhi - 110067
+
+
+File No: CIC/CCITB/A/2023/148598
+
+Vinod Vashisht                                         .....अपीलकता/Appellant
+
+                                         VERSUS
+                                          बनाम
+
+
+CPIO,
+Office of the Director of Income Tax,
+Centralized Processing Center, 48/1 & 48/2,
+Prestige Alpha, Beratena Agrahara,
+Electronic City (Post), Hosur Road,
+Bengaluru - 560500                                     .... ितवादीगण /Respondent
+
+Date of Hearing                      :    25.03.2025
+Date of Decision                     :    02.04.2025
+
+INFORMATION COMMISSIONER :                Vinod Kumar Tiwari
+
+Relevant facts emerging from appeal:
+
+RTI application filed on             :    17.08.2023
+CPIO replied on                      :    27.10.2023
+First appeal filed on                :    04.10.2023
+First Appellate Authority's order    :    27.10.2023
+2nd Appeal/Complaint dated           :    15.11.2023
+
+Information sought
+:
+
+The Appellant filed an (offline) RTI application dated 17.08.2023 seeking the
+following information:
+
+      "The applicant is president of Mandi Shvala Karmiwala Trust, Old Hind
+      Putri Pathshala Khanna District Ludhiana having PAN NO. AAETM0356K.
+      The income tax return (ITR-5) for the assessment year 2021-22 was filed
+
+                                                                      Page 1 of 19
+
+       with total assessable income as Rs. 59370.00. No any member of Society
+      (Registered under 
+Society Registration Act
+) was getting any share from
+      the income. This information (0 share) was duly shown in ITR (AUDIT
+      INFORMATION Col SL(E). Against total income of Rs. 59370.00 the
+      system wrongly assessed income tax Rs. 18573.00. Vide demand
+      reference No. 2022202137075564530T Assessent was made as under:-
+
+
+
+      1. Total income   59370
+
+
+      2. Tax            17811
+      Surcharge         6590
+      Cess               976 25377
+
+
+      3. TDS             23572
+
+
+      4. Net Demand      1805 (r/off 1810)
+
+      Vide Transaction ID No. FOS002871052650 dated 26.7.2023 the assessee
+      objected to calculation of tax which is still pending for processing.
+      Please inform the following information:-
+
+
+
+      1. Please inform the section of 
+Income Tax Act
+ under which tax of Rs.
+      17811 was levied against total assessable income of only Rs. 59370.00
+
+
+      2. Name and designation of the officer who had assessed the tax Rs.
+      17811.00
+
+
+      3. Please inform the status of Transaction ID No. FOS002871052650"
+
+
+
+The CPIO furnished a reply to the Appellant on 27.10.2023 stating as under:
+
+
+
+      "3.1. It is observed that the applicant is seeking information related to
+      the income tax details of the Trust-Mandir Shivala Karmiwala Trust
+      (AAETM0356K) for A.Y.2021-22. The information sought for pertains to
+      Third Party.
+
+
+
+      3.2. It may be mentioned here that the information provided in the
+      return of income filed is held by the Centralized Processing Centre,
+      Bengaluru, in its fiduciary capacity and treated as confidential. Kind
+      attention is invited to 
+Section 8(1)(e)
+ of the RTI Act which reads as
+      follows:
+
+
+
+                                                                     Page 2 of 19
+
+
+ Notwithstanding anything contained in this Act, there shall be no
+obligation to give any citizen information available to a person in his
+fiduciary relationship, unless the competent authority is satisfied that the
+larger public interest warrants the disclosure of such information.
+
+
+
+3.3. The Honble Supreme Court of India, in the matter of Girish
+Ramachandra Deshpande (SLP No.27734 of 2012) has held that the
+information relating to Income tax matters of an assessee is personal
+information which stands exempt from disclosure under the 
+RTI Act
+. In
+the application, nothing is found to establish the larger public interest by
+seeking this information. In view of the above, the request of the
+applicant for information in respect of M/s. Mandir Shivala Karmiwala
+Trust for the A.Y. 2021-22 is liable to be rejected, invoking the provisions
+of 
+Section 8(1)(j)
+ of the RTI Act, 2005.
+
+
+
+4. Eligibility to Seek Information under the 
+RTI Act
+: It is mentioned that
+the applicant has filed an application under RTI as President of the Trust,
+seeking income tax return details of the Trust, i.e. on behalf of the Trust.
+
+This makes it evident that it is the Trust, which is actually seeking
+information, through the applicant. In this context, it is relevant to note
+that 
+Section 3
+ of the RTI Act confers the Right to Information to all
+Citizens of India, subject to the provisions of the Act. Further 
+Section 6(1)
+
+of the RTI Act provides that a person who desires to obtain information
+under the Act, shall make a request in writing. The Legislature in its
+wisdom has used the word person to denote an applicant, appellant or
+complainant in various Sections viz., 5(1), 6(1), 6(2), 7(1), 7(3), 7(4), 7(5),
+7(6), 7(8), 8(3), 18(1), 19(1) and 26(2) of the 
+RTI Act
+. A conjunctive
+reading of all these Sections, especially 
+Section 3
+ with 6(1), would make
+it clear that a person, who is a citizen can seek information under the 
+RTI
+Act
+. Therefore, the Trust is not a Citizen as a natural person and hence,
+not eligible to seek information under the 
+RTI Act
+.
+
+
+
+5. RTI Application if considered as made by an Individual Citizen and not
+on behalf of the Trust: Without prejudice to the submission made at Para
+4 above, if it is considered that the applicant is seeking information on
+his personal behalf, the information sought, relating to the income tax
+matters of the Trust is Third Party information, which cannot be
+disclosed, in view of the provisions of 
+Sections 8(1)(e)
+ & 
+8(1)(j)
+ of the RTI
+Act, as discussed above. Reliance is placed here on the judgment of the
+Honble Supreme Court in the case of Shri Girish Ramachandra
+Deshpande (SLP No.27734 of 2012), as mentioned in Para 3.3 above.
+
+
+
+                                                                    Page 3 of 19
+
+
+ 6. Without prejudice to the above contention, attention of the applicant
+is invited to the decision of the Honble Gujarat High Court in the case of
+Shri VinubhaiHaribhai Patel Vs Asst. Commissioner of Income Tax dated
+27.01.2021 in C/LPA/1169/2016. Relevant portion of the order of the
+Honble Gujarat
+High Court is reproduced for ease of reference:
+
+
+
+...11. The Learned Single Judge also has relied upon the decision of the
+Honble Supreme Court of India in the case of 
+Girish Ramachandra
+Deshpande Vs Central Information Commissioner and Others
+ (2013) 1
+SCC 212, wherein in Paras 11 and 12 of the judgment, the Honble
+Supreme Court categorically laid down that the information about
+Income Tax Returns amounts to personal information within the
+meaning of 
+Section 8(1)(j)
+ of the RTI Act.
+
+
+
+
+12. The overriding factor which enables such information to be disclosed
+notwithstanding the exemption under 
+Section 8
+ of the RTI Act appears to
+be larger public interest in such disclosure of information. While the term
+public interest has a wider connotation and scope, it nonetheless is a
+well-defined meaning and objective and it cannot be used as an umbrella
+or cover all situations. The private interest of the applicant may also have
+a share of public interest in it but such applications which are primarily to
+sub-serve the private interest of the applicants cannot be pressed to yield
+information from the Public Authorities or Revenue Departments, like
+Income Tax Department even the personal information with regard to
+third parties or Assessees under the 
+Income Tax Act
+. 
+The Income Tax Act
+
+itself provides for a complete mechanism to investigate into the affairs of
+an Assessee on the basis of information, evidence and material on record
+of the Income Tax Department and such information cannot be loosely
+parted with in favour of the Applicant or third parties under the garb of
+wider scope under the provisions of the 
+RTI Act
+.
+
+
+
+13. The tenor of the RTI Application filed by the Applicant in the present
+case, Mr. Vinubhai Haribhai Patel (Malavia) which was read to us by
+learned counsel, primarily shows that it is in the nature of a complaint
+against the Private Respondents to the Income Tax Department, rather
+than any bona fide public interest sought to be served by the disclosure
+of such information about the status of the private Respondents as
+agriculturists or not, whether their right to get such status by way of Will
+executed by a Testator is sustainable or not, etc. Such personal or private
+information about the Assessees under the 
+Income Tax Act
+ are only
+meant to be dealt with, investigated, inquired or contested by the
+
+                                                                  Page 4 of 19
+
+ Assessees concerned before the Income Tax Authorities and they are not
+the information in public domain to be made available to any third party.
+
+
+
+14. As we have said above only the larger public interest duly established
+with relevant material which can override this confidentiality of the
+information and documents available with the Income Tax Department,
+but we fail to see even an iota of public interest in this case. The tall
+claims made in the application about the alleged effort of the private
+Respondents to evade income tax under the garb of the claim of the
+status of their being agriculturists, particularly by a person who is
+admittedly in litigation over the same land in question with these
+Respondents, which is said to have been sold by them to the Petitioner as
+well as private Respondents. Therefore, the only interest of the Petitioner
+who has been fighting against these private Respondents at all possible
+forums including the 
+RTI Act
+ and criminal complaints appears to be the
+only private interest and the name of public interest is just a ruse or
+excuse given to the public authorities calling upon them to disclose such
+information to the Petitioner-Applicant. The provisions of the 
+RTI Act
+ are
+not meant to allow the parties to collect evidence from such
+Departments or Public Authorities to sub-serve their private interest.
+
+
+
+15. As far as the concern shown by the Applicant about the alleged tax
+evasion in the matter by the private Respondents is concerned, the
+Authorities of the Income Tax Department are clothed with sufficient
+powers under that enactment to take care of that situation and whether
+these allegations at all amount to tax avoidance or tax evasion or not
+could be a debatable issue and we do not have to go into that aspect at
+all.
+
+
+
+16. The other provisions which were referred to by the Authorities below,
+were also 
+Sections 8(1)(e)
+ and 
+8(1)(h)
+ besides 
+Section 8(1)(j)
+ of the RTI
+Act. Clause (e) of 
+Section 8(1)
+ prohibits giving of information available to
+a person in his fiduciary relationship, unless the competent authority is
+satisfied that larger public interest warrants the disclosure of such
+information. Clause (h) prohibits information which would impede the
+process of such investigation or apprehension or prosecution of
+offenders, while clause (j) talks about prohibition regarding information
+which relates to personal information, the disclosure of which has no
+relationship to any public authority or interest, or which would cause
+unwarranted invasion into the privacy of the individual unless the
+concerned authority is satisfied that the larger public interest justifies the
+disclosure of such information. The Proviso to clause (j) talks of
+
+                                                                   Page 5 of 19
+
+ information which cannot be denied to the Parliament or a State
+Legislature, the disclosure of which will not be denied to any person. As
+far as Proviso is concerned, no such case has been set up that the
+information in question was of such information which was claimed or
+denied or could be denied on the call of Parliament, or a State
+Legislature. The pedestal given to a citizen at par with these legislative
+bodies, is very high and unless such a case is set up, any such application
+cannot be taken on that higher pedestal just for the askance.
+
+17. As far as information in present case being personal information is
+concerned, the issue stands concluded by the decision of the Honble
+Supreme Court in the case of 
+Girish Ramachandra Deshpande
+ (supra).
+
+
+The only common exception as discussed above is the larger public
+interest in disclosure of such personal information too. We are not
+satisfied at all looking to the facts of the present case that any larger
+public interest can be sub-served in the present case by disclosure of the
+information in question to the Applicant-Petitioner which is more likely to
+be used by him in his own favour in the pending litigation with the
+private Respondents. The legal fight between the two in other for as
+have to be contested by them on the basis of their own material and
+evidence and not on the basis of information gathered through the
+process of the 
+RTI Act
+.
+
+
+
+18. In order to check the abuse and misuse of the purpose and procedure
+enacted in the 
+RTI Act
+, it is very essential to keep out the Applicants and
+persons who approach the Authorities concerned except for bona fide
+reasons. The existence of bona fide reasons is a question of fact, which
+has to be established by the Applicant with relevant material and not just
+empty and hollow words to be used. In the background of the case which
+we have in hand, we see only the private interest of the Applicant-
+petitioner and not even a semblance of public interest in the same.
+
+
+
+19. 
+Section 138
+ of the Income Tax Act also prohibits disclosure of such
+information available with the Income Tax Department to any third party
+unless again the larger public interest to be established by the Applicant
+requires it to be done. The sanctity of the Income Tax Assessment, filing
+of Returns, investigation and inquiry under the Act would be thrown
+open to third parties, if such information was to be disclosed to third
+parties casually or carelessly. On the other hand, the Act provides for
+keeping such information guarded in confidence with the Authorities.
+Therefore, the bar under 
+Section 138
+ of the RTI Act as well as the
+exemption against such disclosure contained in 
+Section 8
+ of the RTI Act,
+
+
+
+                                                                 Page 6 of 19
+
+ more particularly under 
+Section 8(1)(j)
+ of the RTI Act, completely seals
+the fate of the Applicant-petitioner in the present case.
+
+
+
+20. The learned Single Judge, in our opinion, was absolutely correct and
+justified in dismissing the writ petition at the threshold. We respectfully
+agree and afTrust the said view of the learned Single Judge. The present
+Letters Patent Appeal is, therefore, found to be devoid of merit and the
+same deserves to be dismissed and the same is accordingly dismissed.
+
+
+
+6.1. As can be seen from Para 14 of the above order of the Honble High
+Court of Gujarat, in the case of Vinubhai Haribhai Patel, that only the
+larger public interest, duly established with relevant material, can
+override this confidentiality of the information and documents available
+with the Income Tax Department. The Honble High Court of Gujarat has
+further held that the provisions of the 
+RTI Act
+ are not meant to allow the
+parties to collect evidence from such Departments or Public Authorities
+to sub-serve their private interest. In the case of the applicant, no such
+public interest has been established in the RTI Application.
+
+
+
+6.2. Further, the Honble High Court of Gujarat has also held at Para 17 of
+their aforesaid order that as far as information about Income Tax
+Returns amounting to personal information is concerned, the issue
+stands concluded by the decision of the Honble Supreme Court of India in
+the case of 
+Girish Ramachandra Deshpande
+ (supra). The only common
+exception is the larger public interest in disclosure of such personal
+information.
+
+
+
+
+7. Without prejudice to the above discussion, it may be mentioned that
+information in respect of income tax return filing has been sought by the
+applicant, on behalf of the Trust. In similar cases, consequent to the
+direction of the Honble CIC, the Centralized Processing Center,
+Benglauru, has filed Writ Petitions before the Honble High Court of
+Karnataka, contesting the orders of the Honble Central Information
+Commission. In such Writ Petitions filed so far, the Honble High Court of
+Karnataka has granted interim stay on the operation of the Honble CIC
+and final orders are pending in these cases.
+
+
+
+8. In view of the discussions made in the foregoing paragraphs, the
+application is hereby rejected.
+
+
+
+9. The applicant may explore the other platforms of grievance redressal
+like filing of Grievance Petition on the new Integrated E-filing 
+CPC
+ Portal
+
+                                                                 Page 7 of 19
+
+       2.0 at www.incometax.gov.in, E-nivaran, CPGRAMS, etc. to obtain
+      information in the case.
+
+
+
+      10. Without prejudice to the above, it is informed that the return of
+      income filed by the above mentioned Trust on 29.12.2021 for the AY
+      2021-22 has been processed on 19.06.2022 determining a total income
+      of Rs.59,370/- and a net tax liability of Rs.17,811/-. An intimation u/s.
+      143(1) of the Income tax Act had been sent to the registered email id of
+      the Trust, 
+[email protected]
+, on 19.06.2022.
+
+
+
+      10.1 Download 143(1) Intimation: The applicant may log into the IEC 2.0
+      portal at
+      www.incometax.gov.in using login credentials, with PAN being the
+      Userid and password set therein. Under the Tab e-File, go to Income Tax
+      Returns >> View Filed Returns. A page with all filings made till date will
+      be displayed. Go to the required Assessment Year and click on hyperlink
+      "Download Intimation Order dated xxxx" to download a copy of the
+      intimation under Section 143(1) in pdf format.
+
+
+
+      11. It is pertinent to mention here that processing of returns and other
+      activities at the Centralized Processing Center, Bengaluru are automated
+      processes, with no human intervention. Every return filed is unique and
+      processed in an automated environment subject to filters / checks built
+      into the System and depends on the data / information contained in the
+      return of income, the database of the Department and the claims made
+      in the return of income. Hence, the request for name, designation of the
+      official / officer handling a particular return is inapplicable."
+
+
+
+Being dissatisfied, the appellant filed a First Appeal dated 04.10.2023. The FAA
+vide its order dated 27.10.2023, held as under:
+
+
+
+      "Vide this office letter No.Addl.CIT(E)/R-1/CHD/86/2023-24/555-556
+      dated 12.10.2023, the appellant was given an opportunity to appear in
+      person or through authorized representative or to submit any supportive
+      documents /submission in support of his First Appeal dated 04.10.2023.
+      In response, the appellant vide e-mail dated 19.10.2023 has submitted
+      that information was not supplied to him by CPIO within the prescribed
+      time. Further, the assessee has submitted that there is no other
+      document/submission is to be made and the appeal may be decided
+      without calling for physical hearing.
+
+
+
+                                                                      Page 8 of 19
+
+
+       In this regard, response was sought from the CPIO i.e. vide this office
+      letter No. Addl.CIT(E)/R-1/CHD/86/2023-24/555-556 dated 12.10.2023.
+      The CPIO vide his letters dated 16.10.2023 and 17.10.2023, replied as
+      under:
+
+
+
+      Since the ITR for the A.Y. 2021-22 was processed by 
+the CPC
+, the
+      information sought by the applicant was likely to be available with 
+the
+      CPC
+, Bengaluru where the ITR was processed/demand created and the
+      transaction id mentioned by the assessee also related to 
+CPC
+. Hence, the
+      application was transferred
+ u/s 6(3)
+ of the RTI Act 2005 to the CPIO, 
+CPC
+,
+      Bengaluru vide letter No. 231-32 dated 27.09.2023.
+
+
+
+      The AO has submitted that he has the information on Point (i) and (ii) of
+      the RTI application.
+
+
+
+      Regarding the status of Transaction ID No.FOS002871052650, AO has
+      submitted that efforts were made to find the status of the same on ITBA
+      System & 
+CPC
+ 2.0. Despite making efforts, no information regarding the
+      status of said transaction ID could be found on the departmental
+      systems. Since, the complete information sought by the applicant was
+      not available with the office of ITO(E), Ward Jalandhar- Cum- CPIO and
+      was likely to be available with 
+the CPC
+, Bengaluru where the IT was
+      processed and demand was created. The transaction id mentioned by the
+      assessee also related to 
+CPC
+, the application was transferred
+ u/s 6(3)
+ of
+      the RTI Act 2005 to the CPIO, 
+CPC
+, Bengaluru vide letter No. 231-32
+      dated 27.09.2023 with copy marked to the appellant.
+
+
+
+      I have carefully gone through the RTI application, reply and order of the
+      CPIO and the First Appeal. I am of the considered view that given the fact
+      that the CPIO had certain information in his possession with respect to
+      the RTI request he could have provided it to the appellant especially in
+      view of the fact that no exemption clause has been evoked by him. The
+      CPIO should have transferred the RTI application only with respect to
+      request on which information was likely to be available with the CPIO,
+      
+CPC
+, Bengaluru. Accordingly, the CPIO is directed to supply the
+      information available with him in respect of RTI application immediately
+      to the applicant, as per law."
+
+
+
+Feeling aggrieved and dissatisfied, appellant approached the Commission with
+the instant Second Appeal.
+
+
+
+                                                                      Page 9 of 19
+
+
+ A written submission dated 19.03.2025 (copy marked to the appellant) filed by
+the respondent is taken on record. Contents of the same are reproduced
+below:
+
+
+
+"....3. The appellant filed second appeal before the Hon'ble Central Information
+Commission against the order of First Appellate Authority and that of two CPIOs
+namely (i) The Addl. Commissioner of Income Tax cum FAA, Exemptions Range-1,
+Chandigarh, (ii) The ITO(Exemptions) cum CPIO, Jalandhar and (iii) The ITO & CPIO,
+
+CPC
+, Bengaluru. From the enclosures to the notice of hearing for appeal/complaint
+under reference, it is noticed that the appellant filed second appeal with the
+following grounds of appeal:
+
+
+
+      1. An application under 
+RTI Act
+ was filed online on 17.08.2023. The
+      respondents CPIO were required to supply the information within 30 days
+      by 15.09.2023. When the first appeal was filed before the 1 respondent on
+      4.10.2023 he ordered to supply the information vide letter dated
+      27.10.2023 to the 2nd respondent. There was no intention of the legislation
+      that every PIO/CPIO should wait the order of first appellate authority and
+      then to supply the information. The 1st respondent should have
+      recommended to the Chief Information Commission to levy penalty on the
+      CPIO which was not done. So the 1 respondent has erred on passing the
+      appellate order. In view of this the 2nd and 3rd respondent should be
+      penalised on supply of information 45 days late.
+
+
+
+      2. Against the query No.1 the appellant had requested to supply the
+      "section of 
+Income Tax Act
+ under which tax of Rs. 17811 was levied against
+      total assessable income of only Rs.59370.00" Against this query the 2nd
+      respondent CPIO-Jalandhar has mentioned section 143(1) under which tax
+      of Rs.17811 was charged against the income of Rs.59370 only. This reply is
+      patently wrong and supplied to conceal the mistake of the department.
+
+      Section 143(1) is assessment of return not a charging section. So the
+      respondent CPIO has failed to supply correct information. The department is
+      hiding/concealing the fact and reality why a religious mandir body is
+      harassed by charming income tax of Rs 17811 against meagre income of
+      Rs.59370. So act of 1st respondent falls under 
+section 18(1)(e)
+ of the RTI Act
+      and he is liable to be punished under 
+section 20(1)
+ of the RTI Act.
+
+
+
+                                                                        Page 10 of 19
+
+
+ 3. Vide RTI application dated 17.08.2023 the appellate, in the very first line,
+introduced himself as President of the Mandir Shivala Karmiwala. Taking it
+the information not relating to 3rd party, the appellate authority has
+ordered to supply the information. By Complying the order of 1 appellate
+authority, the 2nd respondent had supplied the partial information. But to
+utter surprise, the 3rd respondent ITO Cum CPIO-
+CPC
+ had crossed all limits
+by defying the order of 1 appellate authority and the material facts that the
+appellant is President of Mandir Shivala Karmiwala. The 1st and 2nd
+appellate authority was informed that the appellant is president of the
+Mandir Shivala Karmiwala and they were kind enough not to verify this fact
+to consider it 3rd party information, but it was in the records 
+of CPC
+
+available at their portal that the appellant is a President of the Mandir
+Shivala Karmiwala and he is the only person who is filing income tax returns
+of Mandir Shivala Karmiwala and verifying the returns with by getting OTP
+at his phone attached to his aadhar card. The phone and aadhar card of the
+appellant is very much available at the dash board of Mandir Shivala
+Karmiwala at the portal 
+of CPC
+. Even then 3rd respondent considered it a
+3rd party information.
+
+
+
+4. The 3rd respondent has denied to supply the information stating reason
+that the appellant is present of Mandir Shivala Karmiwala and he cannot
+get the information about this body and a body cannot request to supply
+the information. This decision is not sustainable. It is beyond understanding
+what was harm to supply the status of online request of a body to its
+president. President can file request online but he cannot know the status it
+has been made mockery of law.
+
+
+
+5. Without going to the provisions of 3rd party information, the 3rd
+respondent/ITO-
+CPC
+ was bound to obey the order of her senior, Addl.
+Commissioner/Appellate authority who had ordered to supply the
+information. This decision to deny the information amounts the disobey the
+order of senior officer. This is a serious lapse on part of the 3rd respondent.
+
+
+
+6. The appellant has adopted course of filing 1st appeal. The 3rd respondent
+has advised in the letter to file first appeal. So as for as decision of 2nd
+appellate authority this may please be treated as complain under 
+Section
+18
+ taking her decision as Deemed Denial.
+
+
+
+                                                                   Page 11 of 19
+
+
+ 4. In the light of the above discussion and the grounds of appeal of the appellant
+before the Hon'ble Central Information Commission, the following submission on
+the grounds of appeal pertaining to the CPIO-
+CPC
+ is respectfully made before the
+Hon'ble CIC.
+
+
+
+       With reference to the 1st ground of appeal, it is informed that as per the
+records 
+of CPC
+ the RTI application filed by the appellant had been received in this
+office i.e. the CPIO-
+CPC
+ on transfer under 
+section 6(3)
+ of the RTI Act, 2005,on
+04.10.2023 and the CPIO furnished reply on 27.10.2023 within the stipulated time
+limit prescribed in and as per the provisions of the 
+RTI Act, 2005
+.
+
+
+
+        With reference to the 2nd ground of appeal, it is informed that this ground
+of appeal is not applicable to the CPIO-
+CPC
+.
+
+        With reference to the 3rd & 4th ground of appeal, it is informed that 
+section
+2(n)
+ of the RTI Act, 2005 defines the term "Third Party" as 'a person other than the
+citizen making a request for information and includes a public authority. Further,
+from the contents of the application, the CPIO did not find any larger interest that
+warranted the disclosure of such information despite the information sought is
+pertaining to a third party. The CPIO while rejecting the request of the applicant
+provided the legal justification. It is also informed that providing online response
+or request is as per the 
+Income Tax Act, 1961
+ whereas providing the information
+on seeking the status of the same is governed by 
+RTI Act, 2005
+ as such the
+provisions under two different laws cannot be linked.
+
+        With reference to the 5th ground of appeal, it is informed that the 1"
+
+respondent i.e. the First Appellate Authority passed order under 
+section 19(1)
+ of
+the RTI Act 2005 on 27.10.2023 directing the 2nd respondent to supply the
+information available with him in respect of RTI application immediately to the
+applicant, as per law. The direction of the 1 respondent is binding on the 2nd
+respondent only. Further, the order of the first appellate authority (1 respondent)
+is not received in this office.
+
+        It is also pertinent to be mentioned here that the CPIO-
+CPC
+ furnished the
+response on 27.10.2023 and the appellant is found to have not filed any appeal
+before the First Appellate Authority in 
+CPC
+. As such the question of disobedience
+on part of the CPIO-
+CPC
+ with reference to the order of the 1" respondent does not
+arise.
+
+        With reference to the 6th ground of appeal, it is informed that as per sub-
+
+section 8
+ of 
+section 7
+ of the RTI Act, 2005, where a request is rejected under sub-
+
+
+
+                                                                         Page 12 of 19
+
+
+ 
+section 1
+ of 
+section 7
+, the CPIO shall communicate to the person making the
+request,-
+
+       (i)    The reason for such rejection;
+
+       (ii)   The period within which an appeal against such rejection may be
+              preferred; and
+
+       (iii) The particulars of the appellate authority.
+
+Accordingly, the CPIO while disposing the RTI application of the appellant has
+informed that first appeal, if any, may be filed with the details of first appellate
+authority and time limit for filing appeal. As such intimating the details of first
+appellate authority does not tantamount to advising the appellant to file first
+appeal as well as deemed denial as perceived by the appellant.
+4.1 In this connection, it is also pertinent to be informed here that as per records
+
+of the CPC
+, the Income Tax Return for the "Mandir Shivala Karmiwala Trust" for
+the Assessment Year 2021-22 has been filed in the form ITR-5 and the tax worked
+out in the Income Tax Return itself was Rs.18,523/- (Tax of Rs.17,811/- plus cess of
+Rs.712/-). A copy of the ITR-V (INCOME TAX RETURN ACKNOWLEDGEMENT) is
+reproduced herewith for ready reference and information.
+
+
+
+                                                                        Page 13 of 19
+
+
+ 5. Processing of returns and other activities at the Centralized Processing Center,
+Bengaluru are automated processes, with no human intervention. Every return
+filed is unique and processed in an automated environment subject to filters /
+checks built into the System and depends on the data / information contained in
+the return of income, the database of the Department and the claims made in the
+return of income. Accordingly, the ITR filed in the case of "Mandir Shivala
+Karmiwala Trust 
+CPC
+" was processed by computing income tax, surcharge, which
+remained to be calculated at the time of filing the Income tax return by the
+taxpayer, and cess as per provisions contained in the relevant finance act and that
+of the 
+Income Tax Act, 1961
+.
+
+
+
+6. In view of the above facts and circumstances, it is informed that the CPIO-
+CPC
+
+had rejected the application as per provisions of the 
+RTI Act, 2005
+."
+
+
+
+Relevant Facts emerged during Hearing:
+
+The following were present:-
+
+
+
+Appellant: Not present.
+
+Respondent: Shri B. Vaidyanath, ITO-cum-CPIO present through video-
+conference.
+
+
+
+The Commission is in receipt of a letter filed by the Ld. counsel of the
+appellant, which is taken on record, whereby the appellant has sought
+adjournment in the matter on the ground of medical issues. However, since a
+substantial time has passed in listing of this appeal for hearing, the
+Commission is not inclined to accept the prayer of the appellant and deems it
+fit to decide the case on merit.
+
+
+
+The Respondent by inviting attention of the Commission towards the contents
+of his written submission averred that reply as per 
+RTI Act
+ has already been
+provided to the appellant at the initial stage. Further, upon receipt of hearing
+notice from the Commission a revised updated reply with factual position was
+supplied to the appellant vide letter dated 19.03.2025. He apprised the bench
+that if the appellant wants to carry out any correction in his ITR, he may have
+filed rectification application as per the Income Tax, however, no such
+rectification application was received from the appellant as an assessee as per
+available records.
+
+
+
+                                                                       Page 14 of 19
+
+
+ Decision:
+
+
+
+The Commission after adverting to the facts and circumstances of the case and
+perusal of the records observes that appropriate response has been provided
+by the Respondent vide their letters dated 27.10.2023 and now vide written
+submission dated 19.03.2025 which is in consonance with the provisions of the
+
+RTI Act
+ and is thus, upheld by the Commission.
+
+
+
+Further, the Commission would also like to draw attention of the parties
+towards a judgement of the Hon'ble Delhi High Court in a case titled 
+Central
+Public Information Officer vs. Kailash Chandra Moondra, W.P.(C
+) 340/2023 &
+CM APPL. 1348/2023, wherein it was categorically held that the 
+Right to
+Information Act, 2005
+ and 
+Section 138
+ of the Income Tax Act, 1961 deal with
+disclosure of information. 
+While the Right to Information Act
+ is a general law
+concerning the disclosure of information by the public authorities, 
+Section 138
+
+of the Income Tax Act is a special legislation dealing with disclosure of
+information concerning the assesses. The relevant extract of the aforesaid
+order is reproduced hereinbelow:
+
+
+
+
+       "...15. Applying the said ratio to the facts of the present case, Section
+138 (1)(b) and 
+Section 138 (2)
+ of the IT Act which lays down a specific
+procedure relating to disclosure of information relating to a third party under
+the 
+IT Act
+ would override 
+Section 22
+ of the RTI Act. The information sought
+for by the Respondent herein is clearly covered by 
+Section 138(1)(b)
+ of the IT
+Act. The satisfaction of Principal Chief Commissioner or Chief Commissioner
+or Principal Commissioner or Commissioner is, therefore, necessary before
+such information can be divulged. That satisfaction cannot be abrogated to
+any other authority under a general Act for divulging the information sought
+for.
+
+
+
+16. The said judgment has been followed by the Apex Court in 
+Rakesh Kumar
+Gupta v. Income Tax Appellate Tribunal (ITAT
+), 2007 SCC OnLine CIC 315.
+
+
+
+
+17. 
+In 
+Chief Information Commr. v. High
+ Court of Gujarat, (2020) 4 SCC 702,
+when an issue was raised over furnishing of information of certified copies
+obtained from the High Court of Gujarat by invoking the provisions of the RTI
+
+                                                                      Page 15 of 19
+
+ Act, the Apex Court, while resorting to the Gujarat High Court Rules, has
+observed as under:
+
+
+
+
+"35. The non obstante clause of the 
+RTI Act
+ does not mean an implied repeal
+of the High Court Rules and orders framed under 
+Article 225
+ of the
+Constitution of India; but only has an overriding effect in case of
+inconsistency. A special enactment or rule cannot be held to be overridden by
+a later general enactment simply because the latter opens up with a non
+obstante clause, unless there is clear inconsistency between the two
+legislations. 
+In this regard, we may usefully refer to the judgment of the
+Supreme Court in 
+R.S. Raghunath v. State of Karnataka [R.S. Raghunath
+ v.
+
+
+State of Karnataka, (1992) 1 SCC 335: 1992 SCC (L&S) 286] wherein, the
+Supreme Court held as under: (SCC pp. 356-57, para 38).
+
+
+
+"38. 
+In 
+Ajoy Kumar Banerjee v. Union of India [Ajoy Kumar Banerjee
+ v. Union
+of India, (1984) 3 SCC 127: 1984 SCC (L&S) 355], Sabyasachi Mukharji, J. (as
+his Lordship then was) observed thus: (SCC p. 153, para 38).
+
+
+
+
+"38. ... As mentioned hereinbefore if the Scheme was held to be valid, then
+the question what the general law is and what is the special law and which
+law in case of conflict would prevail would have arisen and that would have
+necessitated the application of the principle "generalia specialibus non
+derogant". The general rule to be followed in case of conflict between the
+two statutes is that the later abrogates the earlier one. In other words, a
+prior special law would yield to a later general law, if either of the two
+following conditions is satisfied:
+
+"(i) The two are inconsistent with each other.
+
+(ii) There is some express reference in the later to the earlier enactment."
+
+If either of these two conditions is fulfilled, the later law, even though
+general, would prevail.'"
+
+(emphasis supplied)
+
+
+
+18. Applying the said analogy to the facts of the present case, 
+Section
+138(1)(b)
+ of the IT Act which specifically states that information relating to
+an assessee can only be supplied subject to the satisfaction of Principal Chief
+Commissioner or Chief Commissioner or Principal Commissioner or
+
+
+                                                                      Page 16 of 19
+
+ Commissioner, as the case may be, would prevail over 
+Section 22
+ of the RTI
+Act.
+
+
+
+19. The issue raised herein has been settled by a Bench of three Member
+Bench of the CIC which, in the opinion of this Court, is binding on the Bench
+which has passed the impugned order. A Bench of three Commissioners of
+the CIC in 
+G.R. Rawal v. Director General of Income Tax (Investigation
+), 2008
+SCC OnLine CIC 1008, while considering the very same issue has observed as
+under:
+
+
+
+
+"15. Thus, both the 
+Right to Information Act, 2005
+ and 
+Section 138
+ of the
+Income Tax Act, 1961 deal with disclosure of information. 
+While Right to
+Information Act
+ is a general law concerning the disclosure of information by
+the public authorities, 
+Section 138
+ of the Income Tax Act is a special
+legislation dealing with disclosure of information concerning the assesses.
+This Commission in "
+Rakesh Kumar Gupta v. ITAT
+, decided on 18th
+September 2007 decided by a Full Bench, has dealt with the issue of
+applicability of special law to the exclusion of the general law.
+ 
+The
+Commission has relied upon the Hon'ble Apex Court's decision in "
+Chandra
+Prakash Tiwari v. Shakuntala Shukla
+ -- AIR 2002 SC 2322". The following two
+paragraphs from 
+the said decision
+ of the Commission are pertinent and
+quoted below:
+
+
+
+
+37. A special enactment or Rule, therefore, cannot be held to be overridden
+by a later general enactment or simply because the latter opens up with a
+nonobstante clause unless there is clear inconsistency between the two
+legislations -- one which is later in order of time and the other which is a
+special enactment. This issue came again for consideration before the
+Hon'ble Apex Court in 
+Chandra Prakash Tiwari v. Shakuntala Shukla
+ -- AIR
+2002 SC 2322 and the Hon'ble Supreme Court quoted with approval the
+Broom's Legal Maxim in reference to two Latin Maxims in the following
+words:
+
+
+
+
+"It is then, an elementary Rule that an earlier Act must give place to a later,
+if the two cannot be reconciled - lex posterior derogate priori - non est
+novum ut priores leges ad posteriors trahantur (Emphasis supplied) - and one
+Act may repeal another by express words or by implication; for it is enough if
+there be words which by necessary implication repeal it. But repeal by
+implication is never to be favoured, and must not be imputed to the
+legislature without necessity, or strong reason, to be shown by the party
+imputing it. It is only effected where the provisions of the later enactment
+
+                                                                      Page 17 of 19
+
+ are so inconsistent with, or repugnant to, those of the earlier that the two
+cannot stand together2; unless the two Acts are so plainly repugnant to each
+other that effect cannot be given to both at the same time a repeal cannot
+be implied; and special Acts are not repealed by general Acts unless there be
+some express reference to the previous legislation, or a necessary
+inconsistency in the two Acts standing together, which prevents the maxim
+generalia specialibus non derogant (Emphasis supplied) from being applied.
+For where there are general words in a later Act capable of reasonable
+application without being extended to subjects specially dealt with by earlier
+legislation, then, in the absence of an indication of a particular intention to
+that effect, the presumption is that the general words were not intended to
+repeal the earlier and special legislation, or to take away a particular
+privilege of a particular class of persons."
+
+
+
+38. 
+In the aforesaid case, the Hon'ble Apex Court also cited with approval an
+earlier decision in 
+Maharaja Pratap Singh Bahadur v. Thakur Manmohan
+
+Dey-MANU/SC/0202/1966, in which it was indicated that an earlier special
+law cannot be held to have been abrogated by mere implication. That being
+so, the argument regarding implied repeal has to be rejected for both the
+reasons set out above."
+
+
+Propriety demanded that the CIC ought to have followed the opinion of the
+larger Bench, which is binding on it."
+
+
+
+Hence, intervention of the Commission is not warranted in this matter.
+
+
+
+                    The appeal is disposed of accordingly.
+
+
+
+                                     Vinod Kumar Tiwari (िवनोद कुमार ितवारी)
+                                    Information Commissioner (सूचना आयु )
+Authenticated true copy
+(अिभ मािणत स!ािपत ित)
+
+(S. Anantharaman)
+Dy. Registrar
+011- 26181927
+Date
+
+
+
+
+
+                                                                      Page 18 of 19
+
+ Copy To:
+
+The FAA,
+Office of the Addl. Commissioner
+Of Income Tax (Exemption),
+Chandigarh, Range - 1, Fifth Floor,
+C. R. Building, Sector 17 E,
+Chandigarh - 160017
+
+
+
+
+
+                                      Page 19 of 19
+
+                                    Recomendation(s) to PA under 
+section 25(5)
+ of the RTI Act, 2005:-
+
+
+
+                                   Nil
+
+
+
+
+Powered by TCPDF (www.tcpdf.org)

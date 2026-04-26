@@ -1,0 +1,33 @@
+{
+  "doc_name": "9347bbcf478d30870ab1584e3f232c26",
+  "line_count": 260,
+  "structure": [
+    {
+      "title": "Central Information Commission",
+      "node_id": "0001",
+      "line_num": 10
+    },
+    {
+      "title": "Central Information Commission",
+      "node_id": "0002",
+      "line_num": 18,
+      "nodes": [
+        {
+          "title": "rF;   :",
+          "node_id": "0003",
+          "line_num": 81
+        },
+        {
+          "title": "lquokbZ:",
+          "node_id": "0004",
+          "line_num": 122
+        },
+        {
+          "title": "lquokbZ ds nkSjku izkdV~; lqlaxr rF;:",
+          "node_id": "0005",
+          "line_num": 127
+        }
+      ]
+    }
+  ]
+}

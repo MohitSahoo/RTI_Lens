@@ -1,0 +1,90 @@
+{
+  "doc_name": "3fc4562abdb5b1a6028e333148245af1",
+  "line_count": 376,
+  "structure": [
+    {
+      "title": "Central Information Commission",
+      "node_id": "0001",
+      "line_num": 10
+    },
+    {
+      "title": "Central Information Commission",
+      "node_id": "0002",
+      "line_num": 18,
+      "nodes": [
+        {
+          "title": "ORDER",
+          "node_id": "0003",
+          "line_num": 50
+        },
+        {
+          "title": "FACTS:",
+          "node_id": "0004",
+          "line_num": 53
+        },
+        {
+          "title": "order dated 19.09.2018 informed that RTI application had already been replied by CPIO vide",
+          "node_id": "0005",
+          "line_num": 66
+        },
+        {
+          "title": "HEARING:",
+          "node_id": "0006",
+          "line_num": 75
+        },
+        {
+          "title": "Facts emerging during the hearing:",
+          "node_id": "0007",
+          "line_num": 78
+        },
+        {
+          "title": "The following were present:",
+          "node_id": "0008",
+          "line_num": 81
+        },
+        {
+          "title": "Appellant: Mr. Aditya Nashier through TC:",
+          "node_id": "0009",
+          "line_num": 84
+        },
+        {
+          "title": "2011 (8) SCC 497 held as under:",
+          "node_id": "0010",
+          "line_num": 140
+        }
+      ]
+    },
+    {
+      "title": "Delhi Development Authority v. Central Information Commission and Another (delivered on:",
+      "node_id": "0011",
+      "line_num": 162,
+      "nodes": [
+        {
+          "title": "21.05.2010), wherein it was held as under:",
+          "node_id": "0012",
+          "line_num": 165
+        },
+        {
+          "title": "A. Publish inter alia:",
+          "node_id": "0013",
+          "line_num": 209
+        },
+        {
+          "title": "held as under :",
+          "node_id": "0014",
+          "line_num": 294
+        },
+        {
+          "title": "DECISION:",
+          "node_id": "0015",
+          "line_num": 310
+        },
+        {
+          "title": "Copy to:",
+          "node_id": "0016",
+          "line_num": 357
+        }
+      ]
+    }
+  ]
+}

@@ -4,13 +4,20 @@ Q&A API Endpoint with BM25 + PageIndex hierarchical retrieval and Gemini
 from fastapi import APIRouter, Request, HTTPException
 from google import genai
 from google.genai import types
-from backend.config import GEMINI_API_KEY, GEMINI_MODEL, MAX_QA_CALLS_PER_SESSION
+from slowapi import Limiter
+from slowapi.util import get_remote_address
+from backend.config import GEMINI_API_KEY, GEMINI_MODEL, MAX_QA_CALLS_PER_SESSION, RATE_LIMIT
 from backend.schemas import QARequest, QAResponse
 from backend.utils.bm25_loader import BM25Loader
 from backend.utils.pageindex_loader import PageIndexLoader
+from backend.utils.sanitization import sanitize_question
 import time
+import logging
+
+logger = logging.getLogger(__name__)
 
 router = APIRouter(prefix="/api", tags=["qa"])
+limiter = Limiter(key_func=get_remote_address)
 
 # Session call tracking (in-memory)
 qa_session_calls = {}
@@ -26,19 +33,23 @@ def cleanup_qa_sessions():
         del qa_session_calls[session_id]
 
 def get_session_id(request: Request) -> str:
-    """Get session ID from header or IP"""
-    return request.headers.get("X-Session-ID", request.client.host)
+    """Get session ID from IP only (not user-supplied headers)"""
+    return get_remote_address(request)
 
 @router.post("/qa", response_model=QAResponse)
-async def answer_question(request: QARequest, http_request: Request):
+@limiter.limit(RATE_LIMIT)
+async def answer_question(request: Request, body: QARequest):
     """
     Answer questions about RTI cases using BM25 + PageIndex hierarchical retrieval + Gemini
     """
     if not GEMINI_API_KEY:
-        raise HTTPException(status_code=500, detail="GEMINI_API_KEY not configured")
+        raise HTTPException(
+            status_code=503,
+            detail="Q&A endpoint unavailable: GEMINI_API_KEY not configured. Get a key from https://aistudio.google.com/apikey and add to .env file."
+        )
 
     # Session call limiting
-    session_id = get_session_id(http_request)
+    session_id = get_session_id(request)
     cleanup_qa_sessions()
 
     if session_id not in qa_session_calls:
@@ -53,9 +64,14 @@ async def answer_question(request: QARequest, http_request: Request):
     qa_session_calls[session_id]["count"] += 1
     qa_session_calls[session_id]["timestamp"] = time.time()
 
+    # Sanitize user input
+    question = sanitize_question(body.question)
+    if not question:
+        raise HTTPException(status_code=400, detail="Invalid question input")
+
     # Step 1: Use BM25 to find relevant documents
     bm25_loader = BM25Loader()
-    bm25_results = bm25_loader.search(request.question, top_k=request.top_k)
+    bm25_results = bm25_loader.search(question, top_k=body.top_k)
 
     if not bm25_results:
         return QAResponse(
@@ -71,7 +87,7 @@ async def answer_question(request: QARequest, http_request: Request):
     pageindex_loader = PageIndexLoader()
     hierarchical_sections = pageindex_loader.get_relevant_sections_by_order_numbers(
         order_numbers,
-        request.question,
+        question,
         max_sections=5
     )
 
@@ -132,16 +148,17 @@ Based on the following relevant excerpts from CIC orders (organized hierarchical
 Context:
 {context}
 
-Question: {request.question}
+Question: {question}
 
 Instructions:
-- Synthesize information from the provided context to answer the question
-- Cite specific order numbers and sections when making claims
-- If multiple sources provide relevant information, combine them into a coherent answer
-- Be concise but thorough
-- Use legal terminology appropriately
-- Consider the hierarchical structure of the documents when reasoning
-- Only state that information is unavailable if the context is truly empty or completely irrelevant
+- Synthesize information from the provided context to answer the question.
+- Cite specific order numbers and sections when making claims.
+- If multiple sources provide relevant information, combine them into a coherent answer.
+- Be concise but thorough.
+- Use legal terminology appropriately.
+- Consider the hierarchical structure of the documents when reasoning.
+- **INFERENCE ALLOWED**: If the specific definition or text (e.g., a specific RTI section like 8(1)(a)) is not verbatim in the context but is common knowledge in the RTI Act 2005, you may provide an explanation based on your internal knowledge, while clearly distinguishing it from the provided sources.
+- Only state that information is unavailable if both the context AND your general legal knowledge are unable to address the query.
 
 Answer:"""
 
@@ -150,7 +167,12 @@ Answer:"""
 
         response = client.models.generate_content(
             model=GEMINI_MODEL,
-            contents=prompt
+            contents=prompt,
+            config=types.GenerateContentConfig(
+                temperature=0.7,
+                top_p=0.95,
+                top_k=40
+            )
         )
         answer = response.text
 
@@ -158,7 +180,7 @@ Answer:"""
         has_citations = any(src["order_number"] in answer for src in sources)
 
         # Second check: verify answer doesn't contradict context
-        faithfulness_prompt = f"""Given this answer and context, is the answer faithful to the context? Answer only 'yes' or 'no'.
+        faithfulness_prompt = f"""Given this answer and context, is the answer faithful to the context or a reasonable inference based on the RTI Act 2005? Answer only 'yes' or 'no'.
 
 Context: {context[:500]}...
 
@@ -191,5 +213,9 @@ Faithful (yes/no):"""
             faithful=is_faithful
         )
 
+    except ValueError as e:
+        logger.error(f"Validation error in Q&A: {e}")
+        raise HTTPException(status_code=400, detail=str(e))
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Error generating answer: {str(e)}")
+        logger.error(f"Unexpected error in Q&A: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail="An error occurred while processing your question. Please try again.")

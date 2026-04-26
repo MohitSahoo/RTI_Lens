@@ -1,0 +1,4473 @@
+[Cites 
+33
+, Cited by 
+0
+]
+
+
+
+
+Central Information Commission
+
+
+D Pitchaimuthu vs Chief Commissioner Of Income Tax (Cca), ... on 11 July, 2025
+
+
+                              केन्द्रीय सूचना आयोग
+                        Central Information Commission
+                           बाबा गंगनाथ मागग, मुननरका
+                         Baba Gangnath Marg, Munirka
+                         नई निल्ली, New Delhi - 110067
+
+File No: CIC/CCACH/C/2024/602699, CIC/CCACH/C/2024/628242
+         CIC/CCACH/C/2024/630303, CIC/CCACH/C/2024/654645,
+         CIC/CCACH/C/2024/605382, CIC/CCACH/C/2024/609447,
+         CIC/CCACH/C/2024/622872, CIC/CCACH/C/2024/624589,
+         CIC/CCACH/C/2024/633583, CIC/CCACH/C/2024/622296
+         CIC/CCACH/C/2024/621186, CIC/CCACH/C/2024/631047
+         CIC/CCACH/C/2024/632465, CIC/CCACH/C/2024/654959,
+         CIC/CCITB/C/2024/623528, CIC/CUSCZ/C/2024/629573/CCACH,
+         CIC/CCITB/C/2024/639038, CIC/CCITB/C/2024/639662,
+         CIC/CCITB/C/2024/640056 & CIC/CCACH/C/2024/639883
+
+
+ D Pitchaimuthu                               ....निकायतकताग /Complainant
+
+                                     VERSUS
+                                      बनाम
+
+ The CPIO,
+ Office of the Income Tax Officer,
+ TDS Ward, Nellai City Centre,
+ Tiruchendhur Road, Rahmath
+ Nagar, Tirunelveli - 627011
+
+ The CPIO
+ Office of the Joint Commissioner
+ of Income Tax (TDS), No. 2, V P
+ Rathinasamy Nadar Road, CR
+ Building, Bibikulam, Madurai - 625002
+
+ The CPIO
+ Office of the Joint Commissioner
+ of Income Tax Officer, Tirunelveli
+ Range, Nellai City Centre,
+ Tiruchendhur Road, Rahmath Nagar,
+ Tirunelveli - 627011
+                                                                   Page 1 of 67
+ The CPIO
+The Deputy Director of Income
+Tax (Inv.), Income Tax Investigation
+Wing, New No. 46 (Old No. 108),
+M.G. Road, Chennai - 600034
+
+PIO,
+O/o the Chief Commissioner of
+Income Tax - I, Wanaparthy Block,
+Aayakar Bhawan, 121, M.G. Road,
+Chennai - 600034
+
+PIO,
+Income Tax Officer (HQ.) (PRO),
+Aayakar Bhawan, 121, M.G. Road,
+Nungambakkam, Chennai - 600034
+
+PIO,
+Addl. Director of Income Tax (Vig)(S),
+Unit-1, 7th Floor, Annexe Building,
+Aayakar Bhawan, No. 121, Mahatma
+Gandhi Road, Nangambakkam,
+Chennai - 600034
+
+PIO,
+Office of the Principal Director of
+Income Tax, Centralized Processing
+Center, 48/1 & 48/2, Prestige Alpha,
+Beratena Agrahara, Electronic City
+(Post), Hosur Road, Bengaluru-560500
+
+PIO,
+Centralized Processing Cell (TDS),
+Aayakar Bhawan, Sector-3,
+Vaishali, Ghaziabad - 201010                          ....प्रनतवािीगण /Respondents
+
+Date of Hearing                      :   09.07.2025
+Date of Decision                     :   10.07.2025
+
+INFORMATION COMMISSIONER :               Vinod Kumar Tiwari
+
+
+
+                                                                       Page 2 of 67
+ The above-mentioned Complaints are clubbed together as the parties are
+common, and subject-matter is similar in nature and hence are being
+disposed of through a common order.
+
+                          1. CIC/CCACH/C/2024/602699
+
+Relevant facts emerging from complaint:
+
+RTI application filed on            :   31.12.2023
+CPIO replied on                     :   04.01.2024
+First appeal filed on               :   06.01.2024
+First Appellate Authority's order   :   14.01.2024
+2nd Appeal/Complaint dated          :   18.01.2024
+
+Information sought
+:
+
+1.    The Complainant filed an (online) RTI application dated 31.12.2023
+seeking the following information:
+
+
+
+     "RESPECTED SIR, ENCLOSING HEREWITH A COPY OF THE NOTICE I
+     REQUEST YOU TO FURNISH THE FOLLOWING INFORMATION -
+     1, COPY OF THE LETTER SUBMITTED BY THE CHO TIRUNELVELI IN
+     RESPONSE TO YOUR NOTICE
+     2, YOUR OFFICE FINDING REPORT RECORDED FOR FURTHER ACTION"
+
+
+
+2.    The CPIO furnished a reply to the complainant on 04.01.2024 stating as
+under:
+
+
+
+      "Ms. P. Jaya Gaushika (PAN : BCIPJ9349G) D/o. Shri D. Pitchaimuthu, M3,
+      Housing Board, Behind SBI, Perumalpuram, Tirunelveli filed an e-Nivaran
+      petition before 
+CPC
+-TDS vide acknowledgement No.14942316 on 24-10-
+      2023 requesting to take stern action against her employer i.e. City Health
+      Officer, Tirunelveli Corporation, for failing to file TDS quarterly
+      statements. As a result, she was unable to receive TDS credit, which led
+      to a tax demand in her favour. The said petition was pushed to this office
+      on 06-12-2023 and in this regard, necessary directions were given to the
+      City Health and the grievance was resolved vide this office
+      communication to Ms.Pitchaimuth Jaya Gaushika on 06-12-2023.
+
+
+
+      2. Now, the applicant, Shri D. Pitchaimuthu vide his application under
+      reference cited, requested for the copy of the letter submitted by the City
+
+                                                                       Page 3 of 67
+
+       Health Officer, Tirunelveli in the case of Ms. P. Jaya Gaushika and this
+      office finding report in respect of the said case. The submission of the
+      applicant is considered carefully. The applicant has no official
+      relationship with the City Health Officer, Tirunelveli Corporation. It is also
+      observed that in the instant RTI Application pertains to personal
+      information of a third party, the disclosure of which has no relationship
+      to any larger public interest and would cause an unwarranted invasion of
+      the privacy of the third party. Therefore, in view of the above, the
+      information sought has been denied on the grounds of 
+Section 8(1)(j)
+ of
+      the RTI Act, 2005."
+
+
+
+3.    Being dissatisfied, the complainant filed a First Appeal dated 06.01.2024.
+The FAA vide its order dated 14.01.2024, held as under.
+
+
+
+      "After duly perusal of the order passed by CPIO and based on the
+      grounds of appeal, it is contended that the information cannot be
+      disclosed under 
+section 8(1)(e)
+ of the RTI Act 2005, which exempts the
+      release of information available to a person in a fiduciary relationship
+      unless the competent authority determines that the larger public interest
+      justifies the disclosure.
+
+      Accordingly, the 1st Appeal Petition under the 
+RTI Act
+ filed by the
+      appellant stands disposed."
+
+
+
+4.  Feeling aggrieved and dissatisfied, complainant approached the
+Commission with the instant Complaint.
+
+
+
+5.    A written submission has been received from Mr. A. Shenbagam, ITO-
+cum-CPIO/ TDS Ward, vide letter dated 30.06.2025, a copy of which has been
+sent to the Complainant and the same has been taken on record.
+
+
+
+                           2. CIC/CCACH/C/2024/628242
+
+Relevant facts emerging from appeal:
+
+
+
+RTI application filed on            :   14.05.2024
+CPIO replied on                     :   30.05.2024
+First appeal filed on               :   Not on record
+
+First Appellate Authority's order   :   Not on record
+2nd Appeal/Complaint dated          :   01.07.2024
+
+                                                                         Page 4 of 67
+
+ Information sought:
+
+
+
+6.    The Complainant filed an (online) RTI application dated 14.05.2024
+seeking the following information:
+
+
+
+      "The complaint preferred against the ITO TDS TIRUNELVELI dt 160224 at
+      present in the desk of ITO WARD1 TIRUNELVELI without any action and
+      for seeking ATR the JCIT TIRUNELVELI has confirmed the complaint is not
+      coming under his jurisdiction. The complaint crossed through different
+      officers without sufficient cause transferred by the PCIT MADURAI to the
+      office of JCIT and by the JCIT TO THE DESK OF ITO WARD1 TIRUNELVELI
+      on 29032024, I SUBMIT THE COMPLAINT NOT DEALT WITH AS PER
+      DISCIPLINARY PROCEEDINGS OF GOVT GUIDELINES as evident from its
+      sleeping in the desk of ITO WARD 1 TIRUNELVELI is the cause for this RTI
+      answerable by the CPIO OF PCIT MADURAI where from the PMOPG
+      COMPLAINT was tfd to the JCIT Tirunelveli, INFORMATION SOUGHT
+      1 ACTION TAKEN AGAINST THE ITO TDS TUNELVELI ON THE BASIS OF MY
+      COMPLAINT
+      2 REASON FOR NON SETTLEMENT OF REFUND RS5200 TO THE TAXPAYER
+      TILL DATE"
+
+
+
+7.    The CPIO furnished a reply to the Complainant on 30.05.2024 stating as
+under:
+
+
+
+      "1 : ACTION TAKEN AGAINST THE ITO TDS TUNELVELI ON THE BASIS OF
+      MY COMPLAINT
+
+      The applicant filed a CPGRAMS in PMOPG/E/2024/0036647 dated 16-02-
+      2024 and the gist of complaint is below :
+
+
+
+      Mismatch in Form 26AS in respect of Ms. Jayagaushika during the
+      F.Y.2022-23 for Rs.15,600/- for 3 months December, 2022, January, 2023
+      and February, 2023. My employer, City Health Officer is lethargic in
+      handling the issue despite several letters, reminders willfully dragged the
+      issue for an year by not remitting TDS to Government. My complaint
+      handled by the ITO, TDS in a casual manner issued notice to the employer
+      not u/s.276B rather diluted the issue u/s.192. Further without concerned
+      about my grievances of holding the Stigma defaulter u/s.143 biasedly
+
+                                                                       Page 5 of 67
+
+ acted in favour of my employer by giving time as per their choice leaving
+me in lurch for more than 6 months. ITO TDS omissions are not in line
+with the service rules of the department, hence his actions needs review
+from the department.
+
+Reply:
+
+The e-Nivaran petition filed before 
+CPC
+-TDS vide acknowledgement
+No.14942316 on 24-10- 2023 was pushed to the O/o the ITO, TDS ward,
+Tirunelveli on 06-12-2023. Upon receipt of the petition, necessary
+proceedings u/s.201(1) / 201(1A) has been initiated by the officer as per
+the 
+Income Tax Act
+-1961. As per the provisions of 
+Income-tax Act, 1961
+
+as well as per the Principal of Natural Justice sufficient opportunity has
+been given to the deductor. The fact was also duly communicated to you
+on various dates. During the course of the said proceedings, the deductor
+i.e. the City Health Officer, Tirunelveli filed TDS quarterly statement for
+the F.Y.2022-23 and has given total TDS credit of Rs.15,600/- for the
+F.Y.2022-23 which is reflected in Form 26AS as well. In view of the above,
+your grievance was fully resolved with respect to TDS matter.
+
+
+
+During the course of the said proceedings, it is learnt that the deductor is
+functioning under Health Department of Government of Tamil Nadu and
+all payments are made by the District Treasury. The fact is that the
+deductor deducted TDS from the monthly salary of Ms. P. Jayagaushika
+which was remitted to Government Account through book adjustments.
+Hence, there is no default of TDS non remittances and the provisions of
+Section 276B is not warranted in the impugned case. However, the
+deductor failed to file TDS quarterly statements which caused the
+mismatch in Form 26AS. Considering the facts of the case, to state that
+the CHO, Tirunelveli is a defaulter of TDS non remittance and an offender
+
+u/s.276B
+ of the Income-tax Act, 1961 is not factually correct.
+
+
+
+On receipt of e-Nivaran petition, the ITO, TDS Ward, Tirunelveli has
+initiated appropriate proceedings and has given sufficient opportunity to
+the deductor as per the provisions of the Income tax Act, 1961 as well as
+per the Principal of Natural Justice. In response, the deductor has filed
+TDS quarterly statement for the F.Y.2022-23 and has given TDS credit for
+the full amount to Ms. Jayagaushika. The ITO, TDS has initiated
+appropriate proceedings against the City Health Officer as per the
+
+                                                                 Page 6 of 67
+
+       provisions of the 
+Income-tax Act, 1961
+ and hence your complain that the
+      ITO, TDS handled the matter in a casual manner is baseless. Similarly,
+      your complaint that ITO, TDS biasedly acted in favour of City Health
+      Officer by giving time as per their choice is also factually wrong. As per
+      the provisions of the 
+Income-tax Act, 1961
+ as well as per the Principal of
+      Natural Justice, the deductor should be given sufficient opportunity of
+      being heard during the course of any proceedings under the Act. As such,
+      the City Health Office has been given sufficient opportunity of being
+      heard to explain his side. There is no omission on the part of the ITO, TDS
+      during the course of said proceedings and he has acted as per the
+      procedure as laid down in the provisions of the 
+Income-tax Act, 1961
+. In
+      view of the same, no review action is deemed warranted against him.
+      DAR&PG formulates public grievance redress mechanisms for effective
+      and timely redress and settlement of citizens's grievances. It has been
+      making endeavors to bring excellence in public service delivery and to
+      redress the grievances of citizens in a meaningful manner by effectively
+      coordinating with different ministries and departments of the
+      government and trying to eliminate the causes of grievances. In line with
+      the said mechanism, your grievance of a TDS mismatch in Form 26AS has
+      been fully resolved. Nevertheless, your requirement to initiate
+      prosecution proceedings against the City Health Officer who is a non-
+      defaulter
+ u/s.276B
+ does not qualify under the category of grievance.
+      Hence, your complaint regarding the initiation of prosecution
+      proceedings
+ u/s.276B
+ against the City Health Officer could not be
+      considered as per the provisions of the 
+Income-tax Act, 1961
+."
+
+
+
+8.    Being dissatisfied, the complainant filed a First Appeal dated 31.05.2024.
+The FAA order is Not on record.
+
+
+
+9.  Feeling aggrieved and dissatisfied, complainant approached the
+Commission with the instant Second Appeal.
+
+
+
+                         3. CIC/CCACH/C/2024/630303
+
+Relevant facts emerging from complaint:
+
+RTI application filed on        : 30.05.2024
+CPIO replied on                 : 14.06.2024
+First appeal filed on           : Not on record
+
+                                                                       Page 7 of 67
+
+
+ First Appellate Authority's order :   Not on record
+2nd Appeal/Complaint dated        :   16.07.2024
+Information sought:
+
+
+
+10. The Complainant filed an (online) RTI application dated 30.05.2024
+seeking the following information:
+
+
+
+     "This has ref to the letter from additional commissioner of income tax TDS
+     range Madurai Shri V.R HARI dt 30.05.2024 bearing number
+     ITBA/COM/F/17/2024-25/1065244972(1) wherein it is confirmed as
+     follows - second page 3rd para reads, THE FACT IS THAT THE DEDUCTOR
+     DEDUCTED TDS FROM THE MONTHLY SALALRY OF MS JAYAGAUSHIKA
+     WHICH WAS REMITTED TO GOVERNMENT ACCOUNT THROUGH BOOK
+     ADJUSTMENTS. THIS STATEMENT WARRANT RTI AS FOLLOWS-
+     INFORMATION SOUGHT
+     1 NAME OF THE OFFICER WHO HAS CONFIRMED THIS STATEMENT
+     2 GOVERNMENT ACCOUNT MEANS INCOME TAX DEPARTMENT ACCOUNT
+     OR STATE GOVERNMENT ACCOUNT
+     3 TITLE OF THE STATE GOVT ACCOUNT-IF TAN NUMBER OF CHO
+     ACCOUNT PROVIDE THE TAN NUMBER."
+
+
+
+11. The CPIO furnished a reply to the complainant on 14.06.2024 stating as
+under:
+
+
+
+      "1: The fact is that the deductor deducted TDS from the monthly salary of
+      Ms. P. Jayagaushika which was remitted to Government Account
+      through book adjustments. This statement warrant RTI as follows:
+
+
+
+      1. Name of the officer cannot be disclosed as per 
+section 8(1)(j)
+ of the
+         RTI Act 2005
+
+      2. TDS amount is credited to central govt. account by the District
+         Treasury Office
+
+      3. TDS amount is not credited to state government account. For more
+         information in this regard, you are suggested to contact District
+         Treasury Office, Tirunelveli."
+
+
+
+12. Feeling aggrieved and dissatisfied, complainant approached the
+Commission with the instant Complaint.
+
+
+
+                                                                       Page 8 of 67
+
+
+                            4. CIC/CCACH/C/2024/654645
+
+Relevant facts emerging from complaint:
+
+
+
+RTI application filed on            :   27.10.2024
+CPIO replied on                     :   Not on record
+First appeal filed on               :   Not on record
+
+First Appellate Authority's order   :   Not on record
+2nd Appeal/Complaint dated          :   09.12.2024
+
+Information sought:
+
+13. The Complainant filed an (online) RTI application dated 27.10.2024
+seeking the following information:
+
+
+
+     "THIS RTI PERTAINING TO THE CPIO COMMISSIONER OF INCOME TAX TDS
+     COIMBATORE, THE ENCLOSURE READS NO DISCIPLINARY PROCEEDINGS
+     WERE INITIATED,
+     INFORMATION SOUGHT
+     1 KINDLY PROVIDE THE COPY OF THE PRELIMINARY OR FACT FINDING
+     REPORT ON THE COMPLAINT AGAINST SHRI MAHARAJAN
+     GOMATHINAYAGAM ITO TDS TIRUNELVELI LEADING TO THE DECISION NO
+     DISIPLINARY PROCEEDINGS WARRANTED AGAINST HIM."
+
+
+
+14. Feeling aggrieved and dissatisfied, complainant approached the
+Commission with the instant Complaint.
+
+
+
+                           5. CIC/CCACH/C/2024/605382
+
+Relevant facts emerging from complaint:
+
+
+
+RTI application filed on            :   15.11.2023
+CPIO replied on                     :   Not on record
+First appeal filed on               :   25.12.2023
+First Appellate Authority's order   :   12.01.2024
+2nd Appeal/Complaint dated          :   08.02.2024
+
+Information sought:
+
+15. The Complainant filed an (online) RTI application dated 15.11.2023
+seeking the following information:
+
+
+
+                                                             Page 9 of 67
+
+
+      "Issue in brief my employer TAN number is MRIT02XXXG CITY HEALTH
+     OFFICER TIRUNELVELI CORPORATION TIRUNELVELI 627001. TDS deducted
+     for the month of Dec 2022 Jan 2023 and Feb 2023( salary belatedly paid)
+     not remitted to IT Dept despite first representation dt 03.08.2023 and
+     subsequent several follow up. Unfortunately TDS of mine must be the only
+     amount parking in the TAN number due to my transfer from other station
+     Non remittance of TDS is willful and due to lethargic attitude only. Hence
+     it is my responsibility to doubly ensure the TDS of mine is lying in the TAN
+     number of my employer. Hence the invoking 
+RTI Act
+ inevitable in my own
+     interest and the information sought as below-
+
+     1 please provide the statement of TAN number MRIT02526G FOR THE
+     PERIOD 01.02.2023 ΤΟ 30.09.2023."
+
+
+
+16. Having not received any response from CPIO, the complainant filed a
+First Appeal dated 25.12.2023. The FAA vide its order dated 12.01.2024, held
+as under:
+
+
+
+      "Giving effect to the order
+ u/s.19(1)
+ of the Additional Commissioner of
+      Income tax, TDS Range, Madurai and the First Appellate Authority under
+      
+RTI Act, 2005
+ vide reference (ii) cited above, the following information is
+      furnished to the applicant as requested :
+
+
+
+      The deductor did not file any TDS quarterly statement for the period from
+      01-02-2023 to 30-09-2023."
+
+
+
+17. Feeling aggrieved and dissatisfied, complainant approached the
+Commission with the instant Complaint.
+
+
+
+18. A written submission has been received from Mr. A. Shenbagam, ITO-
+cum-CPIO/ TDS Ward, vide letter dated 30.06.2025, a copy of which has been
+sent to the Complainant and the same has been taken on record.
+
+
+
+                           6. CIC/CCACH/C/2024/609447
+
+Relevant facts emerging from complaint:
+
+
+
+RTI application filed on            :   21.01.2024
+CPIO replied on                     :   29.01.2024
+First appeal filed on               :   01.02.2024
+First Appellate Authority's order   :   01.03.2024
+2nd Appeal/Complaint dated          :   02.03.2024
+
+
+                                                                      Page 10 of 67
+
+ Information sought:
+
+19. The Complainant filed an (online) RTI application dated 21.01.2024
+seeking the following information:
+
+
+
+     "Brief of the issue TDS deduction is mandatory obligation on the part of
+     employer and non remittance of amount to Govt account attract sec 276b
+     if the delay is wilful and lethargic. If non compliance of notice established
+     it is the responsibility of the IT Dept to recover the money after due notice
+     by stamping the defaulter as a deemed assessee in default. The
+     responsibility is ABSOLUTE and no discretion to extend time for
+     compliance allowed, as it would cause injustice to the employee for
+     branding him as a defaulter due to mismatch in form 26as. In the above
+     context if there is lack of good faith, basic ethics and fairness in dealings,
+     mutual trust and confidence or not in conformity with principles of
+     natural justice sections of 
+RTI Act
+ can not be invoked in favour of Public
+     Authority Viz Employer and IT Dept. In respect of subject enclosure the
+     ITO TDS has already completed the enquiry on 18.12.2023 and still non
+     compliance of his notice by the employer is established on record. IN THIS
+     BACKDROP the following information requested.
+
+
+
+     1 Reason recorded for not raising demand against the offender us 276b
+     enabling the processing of ITR where refund is involved.
+     2 Reason recorded for non compliance of DARPG office memorandum
+     7085 dt 27.07.2022 for the redressal of grievances pending since
+     03.08.2023 with the DEPT.
+
+     3. Please provide the copy of the show cause notice served to the
+     employer, CHO, a communication originated on account of complaint
+     from the BCIPJ9349G which could not be treated as otherwise as a
+     communication between the employer OFFENDER and the Dept during
+     normal course of business with mutual trust and confidence."
+
+
+
+20. The CPIO furnished a reply to the complainant on 29.01.2024 stating as
+under:
+
+
+
+     "1. The request of the applicant is considered carefully in the lights of the
+     facts of the case. The e-Nivaran petition filed by Ms. P. Jaya Gaushika
+     before 
+CPC
+-TDS vide acknowledgement No.14942316 on 24-10-2023 was
+     resolved and the fact was communicated to Ms. Pitchaimuth Jaya
+     Gaushika on 06-12-2023. The applicant, Shri D. Pitchaimuthu has no
+     official relationship with the City Health Officer, Tirunelveli Corporation
+     and is not one of the parties to the subject. It is also observed that in the
+
+                                                                       Page 11 of 67
+
+ instant RTI Application pertains to personal information of a third party,
+the disclosure of which has no relationship to any larger public interest
+and would cause an unwarranted invasion of the privacy of the third
+party. In the case of Girish Ramchandra Deshpande... Petitioner Versus
+Cen. Information Commr. & Ors... Respondents [Special Leave Petition
+(Civil) No. 27734 of 2012 ( CC 14781/2012), it was held by the Hon'ble
+Supreme Court of India that copies of all memos issued to the third
+respondent, show cause notices and orders of censure/punishment etc.
+are qualified to be personal information as defined in clause (j) of 
+Section
+8(1)
+ of the RTI Act. The petitioner in the instant case has not made a
+bona fide public interest in seeking information, the disclosure of such
+information would cause unwarranted invasion of privacy of the
+individual under 
+Section 8(1)(j)
+ of the RTI Act.
+
+
+
+2. 
+In the case of CPIO/Deputy 
+Commissioner of Income-tax (H.Q)
+Exemption, New Delhi Vs. Girish Mittal
+ in W.P.(C) 10193/2022 & CM
+APPLS. 29509/2022, 52778/2023 dated 22-01-2024, Hon'ble Delhi High
+Court sets aside the order of Central Information Commission (CIC) which
+directed the 'CPIO/DCIT HQ Exemption, New Delhi (Petitioner) to provide
+the information as sought by the Respondent through the Right to
+Information (RTI) application i.e. copies of all the documents submitted
+in the exemption application and copies of the file notings etc. It is
+observed by the Hon'ble Delhi High Court that 
+Income Tax Act
+, which is a
+special Act governing all the provisions and laws relating to income tax
+and super-tax in the country will prevail over the 
+RTI Act
+ which is in the
+nature of a General Act, denies PM CARES Fund's tax-exemption
+related documents IME TAX DEPART
+
+
+3. In the case of Rajesh Bhatia, Hyderabad vs AddI. CIT Hyderabad
+2007/00282 Dt 28/05/07, it is held by the Central Information
+Commission that the matter was still undergoing enquiry and therefore
+the information in the present shape cannot be disclosed. Whether it can
+be disclosed after the assessment has been finalized and the tax liability
+determined, is a matter which can be taken up at an appropriate time,
+should a petition for disclosure of information be made to the CPIO at
+that time.
+
+
+
+                                                                Page 12 of 67
+
+
+       4. Information sought for vide Sl.No.1 and 2 are in question format. 
+The
+      Act
+ does not expect the PIO to find answer for raised question. A PIO is
+      not expected to provide intangible such as interpretations, opinions,
+      advices, explanations, reasons as they are not included in the definition
+      of information in 
+Section 2(f)
+ of RTI Act. 2005.
+
+
+
+      5. Moreover, the information cannot be disclosed under 
+section 8(1)(e)
+ of
+      the RTI Act 2005, which exempts the release of information available to a
+      person in a fiduciary relationship unless the competent authority
+      determines that the larger public interest justifies the disclosure.
+
+
+
+      6. Therefore, in view of the above, the information sought has been
+      denied on the grounds of 
+Section 8(1)(j)
+ & 
+8(1)(e)
+ of the RTI Act, 2005"
+
+
+
+21. Being dissatisfied, the complainant filed a First Appeal dated 01.02.2024.
+The FAA vide its order dated 01.03.2024, held as under.
+
+
+
+      "After due perusal of the order passed by CPIO and based on the grounds
+      of appeal, the information sought by appellant cannot be disclosed under
+      
+section 8(1)(j)
+ and 
+8(1)(e)
+ of the RTI Act 2005, which exempts the release
+      of information available to a person in a fiduciary relationship or which
+      would cause unwarranted invasion of the privacy of the individual.
+
+
+
+      Further the Appellant has failed to establish any 'Larger Public Interest"
+
+      involved in seeking the information. In other words, he has not
+      established a bona fide public interest in seeking the information. For the
+      aforesaid reasons and after considering the appellant's submissions and
+      material on record, the action of the CPIO in refusing the information
+      sought is upheld.
+
+
+
+      Accordingly, the First Appeal Petition under the 
+RTI Act
+ filed by the
+      appellant stands disposed."
+
+
+
+22. Feeling aggrieved and dissatisfied, complainant approached the
+Commission with the instant Complaint.
+
+
+
+23. A written submission has been received from Mr. A. Shenbagam, ITO-
+cum-CPIO/ TDS Ward, vide letter dated 30.06.2025, a copy of which has been
+sent to the Complainant and the same has been taken on record.
+
+                                                                      Page 13 of 67
+
+
+                            7. CIC/CCACH/C/2024/622872
+
+Relevant facts emerging from complaint:
+
+
+
+RTI application filed on            :   31.03.2024
+CPIO replied on                     :   06.05.2024
+First appeal filed on               :   Not on record
+
+First Appellate Authority's order   :   Not on record
+2nd Appeal/Complaint dated          :   30.05.2024
+
+Information sought:
+
+24. The Complainant filed an (online) RTI application dated 31.03.2024
+seeking the following information:
+
+
+
+     "The enclosed grievance complaint submitted to the DGIT VIG on
+     16022024 still not landing in any officers desk shifted like a throw ball for
+     more than 44 days and the present being by MANOJ PRAKASH S JCIT
+     TIRUNELVELI RANGE to the desk of S SOORIYAKUMARI ITO WARD 1
+     TIRUNELVELI.
+
+     The basic principle a delegate JCIT can not further delegate the
+     responsibility not followed by the JCIT and the disciplinary process a
+     special task which cant be simply assigned to any officer without
+     following the guidelines for the same. THE CAUSE OF ACTION FOR THE
+     PRESENT RTI IS REST WITH THE INDIFFERENT ATTITUDE OF JMONOJ
+     PRAKASH JCIT ACT OF TRANSFERING THE COMPLAINT ADDRESSED TO
+     THE DGIT TO THE DESK OF ITO TIRUNELVELI warrants this RTI.
+     INFORMATION SOUGHT 1 REASON RECORDED BY JCIT FOR TRANSFERING
+     THE COMPLAINT TO S. SOORIYAKUMARI ITO Yours faithfully D
+     PITCHAIMUTHU
+
+     PS THE REASON FOR ROUTING THE RTI THROUGH CBODT IS THE
+     OFFICIALS AT TOP LEVEL CAN UNDERSTAND HOW THE TAX PAYERS
+     COMPLAINT BEING HANDLED BY FIELD LEVEL OFFICERS FOR THE PAST 44
+     DAYS"
+
+
+
+25. The CPIO furnished a reply to the complainant on 06.05.2024 stating as
+under:
+
+
+
+      "The Applicant Shri D. Pichaimuthu has filed an Online RTI request vide
+      Registration No: CCACH/R/T/24/00098 dated 09/04/2024 under 
+section 6(1)
+ of
+      the Right to Information Act,2005 to obtain below information.
+
+
+
+                                                                      Page 14 of 67
+
+
+ As the Applicant is Citizen of India and has paid the Application fee, the
+information sought by him is provided.
+
+
+
+2 Information sought by Applicant
+"Respected sir The enclosed grievance complaint submitted to the DGIT VIG on
+16022024 still no landing in any officers desk shifted like a throw ball for more
+than 44 days and the present being by MANOJ PRAKASH S JCIT TIRUNELVELI
+RANGE to the desk of S SOORIYAKUMARI ITO WARD 1 TIRUNELVELI. The basic
+principle a delegate JCIT can not further delegate the responsibility not
+followed by the JCIT and the disciplinary process a special task which cant be
+simply assigned to any officer without following the guidelines for same. THE
+CAUSE OF ACTION FOR THE PRESENT TRI IS REST WITH THE INDIFFERENT
+ATTITUDE OF JMONOJ PRAKASH JCIT ACT OF TRANSFERRING THE COMPLAINT
+ADDRESSED TO THE DGIT TO THE DESK OF ITO TIRUNELVELI warrents this RTI
+INFORMATION SOUGHT 1 REASON RECORDED BY JCIT FOR TRANSFERING THE
+COMPLAINT TO S.SOORIYAKUMARI ITO Yours faithfully D PITCHAIMUTHU.
+
+
+
+PS THE REASON FOR ROUTING THE RTI THROUGH CBODT IS THE OFFICIALS AT
+TOP LEVEL CAN UNDERSTAND HOW THE TAX PAYERS COMPLAINT BEING
+HANDLED BY FILED LEVEL OFFICERS FOR THE PAST 44 DAYS."
+
+
+
+2.1 Facts of the request
+The below antecedents are required to be discussed before providing the
+information sought.
+
+
+
+ It is seen from the records that the applicant has filed a CPGRAMS vide
+PMOPG/E/2024/0036647 to PM Office on 16/02/2024 which was auto
+forwarded to the Central Board of Direct Taxes (herein after CBDT) followed by
+DGIT(Vigilance) on the same date. On 19/02/2024 the CBDT has transferred
+the request to Chief Commissioner of Income Tax, Chennai as the issue relates
+to TDS matter it was later taken up with subordinate organization and
+forwarded to the TDS. In the mean time applicant has filed reminder on
+various dates. Further the issue was reported as settled on 26/02/2024 as "the
+entire TDS credit for the financial years 2022-23 & 2023-24 is reflected in
+26AS" and action taken report was forwarded to the higher authority to settle
+the grievance.
+
+
+
+Subsequently, on 23/03/2024 the Applicant Shri D. Pichaimuthu has raised a
+reminder in the CPGRAMS portal which was transferred from CBDT to Pr. CCIT,
+Chennai. Afterwards it was transferred to CCIT(TDS), Chennai, then re-
+
+                                                                     Page 15 of 67
+
+
+       forwarded from CCIT, Chennai to CCIT, Madurai on 26/03/2024 with the
+      following comments from the DGIT(SYSTEMS)/
+CPC
+ ITR to be forwarded to ITO,
+      WARD-1, TIRUNELVELI for expeditious resolution of the grievance. The JAO
+      may be directed to follow the detailed instruction 
+of the CPC
+IT/DGIT(Systems)
+      at S.No.21 & 22 of the action history and to fully resolved the grievance and
+      upload the final report along with documentary evidence on redressal of
+      grievance."
+
+      Later the grievance was reforwarded to Principal Commissioner of Income Tax,
+      Madurai on 27/03/2024 with aforesaid comments. On 29/03/2024 the
+      applicant's grievance was forwarded to the Tirunelveli Range which is
+      functioning under the Chief Commissioner of Income-tax of Madurai Charge.
+
+
+
+      a. Information Provided:
+
+
+
+      The information is herewith provided that the Jurisdiction of the assessee Ms.
+      Pichaimuthu Jaya Gaushika D/o. Pichaimuthu, vested with Smt. S.
+      Sooriyakumar, Income Tax Officer, Ward-1, Tirunelveli(JAO) who is having the
+      right to exercise rectification proceeding in the case of the assessee in
+      accordance with law.
+
+
+
+      As per the organizational set up of the Central Board of Direct Taxes, the
+      grievance was transferred for taking the necessary action that vests with the
+      JAO and therefore, the grievance is forwarded from the CBDT to JAO. This is
+      the reason for transferring the complaint to S. Sooriyakumari, ITO JAO from
+      this office JCIT, Tirunelveli Range.
+
+
+
+      3. As the requisite information sought by the applicant has been provided the
+      RTI request filed under the 
+RTI Act,2005
+ before the undersigned stands
+      disposed."
+
+
+
+26. Feeling aggrieved and dissatisfied, complainant approached the
+Commission with the instant Complaint.
+
+
+
+                            8. CIC/CCACH/C/2024/624589
+
+Relevant facts emerging from complaint:
+
+
+
+RTI application filed on            :   12.04.2024
+CPIO replied on                     :   13.05.2024
+First appeal filed on               :   Not on record
+
+First Appellate Authority's order   :   Not on record
+2nd Appeal/Complaint dated          :   11.06.2024
+
+                                                                        Page 16 of 67
+
+ Information sought:
+
+27. The Complainant filed an (online) RTI application dated 12.04.2024
+seeking the following information:
+
+
+
+     "Respected Sir The cause of action for this RTI originate from the enclosed
+     letter issued by the JCIT Tirunelveli Range for hearing in connection with
+     the RTI request bearing ref CBODT/R/E/24/00850 dt 310324 due to
+     improper handling of grievance PMOPG/E/2024/0036647 dt 160224 by
+     the JCIT by assigning to the desk of ITO TIRUNELVELI. I am confident that
+     the JCIT must have gone through the PMOG grievance in detail before
+     assigning it to the ITO Tirunelveli on 290324. The information sought
+     under RTI in qn is not so complicate as the reason recorded for assigning
+     it to the ITO Tirunelveli only sought for as the JCIT Tirunelveli is fully
+     aware of the details which is still lying with the ITO. It is fair enough to
+     expect for redressal of PMOG grievance by his office as JCIT is competent
+     to take decisions on the redressal. As complaint against officers governed
+     by guidelines of disciplinary proceedings the RTI in qn arised vide the
+     above CBODT ref which is in order in all respect.
+      In view of above brief the INFORMATION SOUGHT herewith
+     1 RTI Section UNDER WHICH JCIT TIRUNELVELI ORDERED FOR MY
+     PRESENCE ON 23042024.
+
+     2 PROVIDE ME AN ACTION TAKEN REPORT BY THE JCIT TIRUNELVELI WHO
+     IS COMPETENT TO HANDLE THE COMPLAINT DT 16022024 AS THE
+     GRIEVANCE APPLICATION IS STILL IN THE DESK OF ITO TIRUNELVELI
+     LOCATED IN HIS OFFICE PREMISES"
+
+
+
+28. The CPIO furnished a reply to the complainant on 13.05.2024 stating as
+under:
+
+
+
+     "The Applicant Shri D. Pichaimuthu has filed an Online RTI request vide
+     Registration No: CCACH/R/T/24/00104 dated 15/04/2024 under 
+section 6(1)
+ of
+     the Right to Information Act, 2005 to obtain below information.
+
+
+
+           As the Applicant is Citizen of India and has paid the Application fee, the
+     information sought by him is provided.
+
+
+
+     2 Information sought by Applicant
+     "Respected sir The cause of action for this RTI originate from the enclosed
+     letter issued by the JCIT Tirunelveli Range for hearing in connection with the
+     RTI request bearing ref CBODT/R/E/24/00850 dt 310324 due to improper
+
+
+                                                                         Page 17 of 67
+
+       handling of grievance PMOPG/E/2024/0036647 dt 160224 by the JCIT by
+      assigning to the desk of ITO TIRUNELVELI. I am confident that the JCIT must
+      have gone through the PMOG grievance in detail before assigning it to the ITO
+      Tirunelveli on 290324. The information sought under RTI in qn is not so
+      complicate as the reason recorded for assigning it to the ITO Tirunelveli only
+      sought for as the JCIT Tirunelveli is fully aware of the details which is still lying
+      with the ITO. It is fair enough to expect for redressal of PMOG grievance by his
+      office as JCIT is competent to take decisions on the redressal. As complaint
+      against officers governed by guidelines of disciplinary proceedings the RTI in
+      qn arised vide the above CBODT ref which is in order in all respect. In view of
+      the above brief the INFORMATION SOUGHT herewith 1 RTI Section UNDER
+      WHICH JCIT TIRUNELVELI ORDERED FOR MY PRESENCE ON 23042024. 2
+      PROVIDE ME AN ACTION TAKEN REPORT BY THE JCIT TIRUNELVELI WHO IS
+      COMPETENT TO HANDLE THE COMPLAINT DT 16022024 AS THE GRIEVANCE
+      APPLICATION IS STILL IN THE DESK OF ITO TIRUNELVELI LOCATED IN HIS
+      OFFICE PREMISES ONLY YOURS FAITHFULLY D PITCHAIMUTHU.
+      2.2 Information Provided:
+
+      The information is herewith provided that
+
+      1. The Appearance of the Applicant has been requested in the interest of
+      Natural Justice an opportunity being afforded for hearing under sub section (3)
+      of section-5 of 
+Chapter II of the Right to Information Act, 2005
+ to render
+      reasonable assistance to the persons seeking such information.
+
+      2. The Complaint raised on 16/02/2024 pertains to TDS jurisdiction which is
+      not corning under the JCIT, Tirunelveli Range, Tirunelveli. Therefore no details
+      available in this office.
+
+
+
+      3. As the requisite information sought by the applicant has been provided the
+      RTI request filed under the 
+RTI Act, 2005
+ before the undersigned stands
+      disposed."
+
+
+
+29. Feeling aggrieved and dissatisfied, complainant approached the
+Commission with the instant Complaint.
+
+
+
+                              9. CIC/CCACH/C/2024/633583
+
+Relevant facts emerging from complaint:
+
+RTI application filed on          : 11.06.2024
+CPIO replied on                   : 04.07.2024
+First appeal filed on             : Not on record
+
+First Appellate Authority's order : Not on record
+2nd Appeal/Complaint dated        : 05.08.2024
+
+                                                                              Page 18 of 67
+
+ Information sought:
+
+30. The Complainant filed an (online) RTI application dated 11.06.2024
+seeking the following information:
+
+
+
+     "THIS HAS REF TO THE ENCLOSURE A DEMAND NOTICE AGAINST TAN
+     NUMBER MRIT02526G WHERE AMOUNT RECOVERABLE WITHIN 30 DAYS
+     NOT COMPLIED WITH, DEFAULT OF WHICH NEARING 90 DAYS
+     WARRANTS THIS RTI INFORMATION SOUGHT
+     1 NAME AND DESIGNATION OF OFFICER RESPONSIBLE FOR THE
+     RECOVERY OF THE AMOUNT DUE IN DEMAND NOTICE WITH APPLICABLE
+     INTEREST AND PENALTY FOR NON COMPLIANCE
+     2 PROCEEDINGS LINDERTAKEN AFTER 30 DAYS DATE WISE, AGAINST THE
+     OFFENDER -DEFAULTER UNDER IT ACT OR APPLICABLE GUIDELINES
+     3 IF NO PROCEEDINGS TAKEN AFTER 30 DAYS FOR THE DEFAULT
+     NEARING 90 DAYS REASONS RECORDED FOR NO ACTION OR DELAYED
+     ACTION AGAINST THE DEFAULTER OFFENDER"
+
+
+
+31. The CPIO furnished a reply to the complainant on 04.07.2024 stating as
+under:
+
+
+
+     "Shri D. Pitchaimuthu vide his application under reference cited,
+     requested for certain information regarding tax recovery proceedings
+     against the City Health Officer, Tirunelveli Corporation. His request has
+     been considered carefully and the replies are given as under:
+
+
+
+     1. Shri K.V. Deepak
+     Tax Recovery Officer,
+     O/o the Commissioner of Income-tax (TDS). Coimbatore
+
+
+
+     2. The applicant has no official relationship with the City Health Officer,
+     Tirunelveli Corporation. It is also observed that in the instant RTI
+     Application pertains to personal information of a third party, the
+     disclosure of which has no relationship to any larger public interest and
+     would cause an unwarranted invasion of the privacy of the third party.
+
+     Moreover, the information cannot be disclosed under 
+section 8
+[1][e] of
+     the 
+RTI Act
+ 2005, which exempts the release of information available to a
+     person in a fiduciary relationship unless the competent authority
+     determines that the larger public interest justifies the disclosure.
+     Therefore, in view of the above, the information sought has been denied
+     on the grounds of 
+Section 8(1)(1)
+ & 
+8(1)(e)
+ of the RTI Act, 2005.
+
+                                                                     Page 19 of 67
+
+
+       3. The applicant has no official relationship with the City Health Officer.
+      Tirunelveli Corporation. It is also observed that in the instant RTI
+      Application pertains to personal information of a third party, the
+
+      disclosure of which has no relationship to any larger public interest and
+      would cause an unwarranted invasion of the privacy of the third party.
+      Moreover, the information cannot be disclosed under section S(1)(c) ) of
+      the 
+RTI Act
+ 2005, which exempts the release of information available to a
+      person in a fiduciary relationship unless the competent authority
+      determines that the larger public interest justifies the disclosure.
+      Therefore, in view of the above, the information sought has been denied
+      on the grounds of 
+Section 8(1)(j)
+ & 
+8(1)(e)
+ of the RTI Act, 2005."
+
+
+
+32. Feeling aggrieved and dissatisfied, complainant approached the
+Commission with the instant Complaint.
+
+
+
+33. A written submission has been received from Mr. A. Shenbagam, ITO-
+cum-CPIO/ TDS Ward, vide letter dated 30.06.2025, a copy of which has been
+sent to the Complainant and the same has been taken on record.
+
+
+
+                           10. CIC/CCACH/C/2024/622296
+
+Relevant facts emerging from complaint:
+
+
+
+RTI application filed on            :   23.03.2024
+CPIO replied on                     :   01.04.2024
+First appeal filed on               :   Not on record
+
+First Appellate Authority's order   :   Not on record
+2nd Appeal/Complaint dated          :   26.05.2024
+
+Information sought:
+
+34. The Complainant filed an (online) RTI application dated 23.03.2024
+seeking the following information:
+
+
+
+     "THIS HAS REF TO THE ENCLOSURE PMOPG/E/2024/0062754 DT
+     20.03.2024 WHEREIN SH RAMESH CHAND JDIT TPS II HAS CONTENDED
+     THAT THE SUBJECT GRIEVANCE IS NOT A GRIEVANCE AND CLOSED THE
+     APPLICATION BY QUOTING CIT INVESTIGATION COMMENTS.
+     INFORMATION SOUGHT
+
+                                                                      Page 20 of 67
+
+      1 COPY OF THE COMMENTS OF CIT INVESTIGATION JUSTIFYING THE
+     GRIEVANCE AS NOT A GRIEVANCE."
+
+
+
+35. The CPIO/ Depurty Director of Income tax (Inv.) Chennai transferred the
+RTI application to Income tax Officer (TDS) Tirunelveli on 01.04.2024 stating as
+under:
+
+
+
+      "Shri. D PITCHAIMUTHU has filed an RTI in DGICN/R/T/24/00008
+      received on 27.03.2024 from the O/o DGIT(Inv.), Chennai. The instant RTI
+      application is seeking information on the subject matter of the CPGRAMS
+      filed earlier.
+
+
+
+      2. Therefore, the present RTI petition is also forwarded to you
+ u/s 6(3)
+ of
+      the RTI Act, 2005 as the information sought may be available in your
+      office."
+
+
+
+36. Feeling aggrieved and dissatisfied, complainant approached the
+Commission with the instant Complaint.
+
+
+
+                           11.CIC/CCACH/C/2024/621186
+
+Relevant facts emerging from complaint:
+
+
+
+RTI application filed on            :   19.03.2024
+CPIO replied on                     :   Not on record
+First appeal filed on               :   18.04.2024
+
+First Appellate Authority's order   :   Not on record
+2nd Appeal/Complaint dated          :   18.05.2024
+
+Information sought:
+
+37. The Complainant filed an (online) RTI application dated 19.03.2024
+seeking the following information:
+
+
+
+     "The cause of action originate from the transfer of grievances application
+     PMOPG E 2024 0034314 dt 13022024 by the ITO WARD 1 TIRUNELVELI
+     also AO of jurisdiction in contravention of their office letter dt 30082023
+     in responding the grievances id 13314926. ITO TDS vide his letter dt
+     18012024 advised me to approach 
+the CPC
+ and AO for processing of ITR
+     where refund of RS 5200 involved. ITO WARD 1 fully aware of the issue
+     vide documents on record hence transferring the subject grievances after
+     holding for 10 days not in line with the vision statement of Dept and also
+     not in line with DARPG OM. The subject grievances transferred more than
+
+                                                                      Page 21 of 67
+
+      5 times since 13022024 again tfd by ITO WARD 1 to the DIRECTOR system
+     warrants this RTI information sought
+     1 ROLE AND RESPONSIBILITIES OF AO ITO WARD 1 IN PROCESSING THE
+     ITR WHERE REFUND INVOLVED RS5200 2 REASON RECORDED FOR
+     TRANSFERING THE GRIEVANCES AFTER HOLDING FOR 10 DAYS"
+
+
+
+38. Having not received any response from CPIO, the complainant filed a
+First Appeal dated 18.04.2024. The FAA order is Not on record.
+
+
+
+39. Feeling aggrieved and dissatisfied, complainant approached the
+Commission with the instant Complaint.
+
+
+
+                           12.CIC/CCACH/C/2024/631047
+
+Relevant facts emerging from complaint:
+
+
+
+RTI application filed on            :   02.06.2024
+CPIO replied on                     :   13.06.2024
+First appeal filed on               :   Not on record
+
+First Appellate Authority's order   :   Not on record
+2nd Appeal/Complaint dated          :   20.07.2024
+
+Information sought:
+
+40. The Complainant filed an (online) RTI application dated 03-02-2024
+seeking the following information:
+
+
+
+     "This has reference to the enclosure reads about my PMOPG COMPLAINT
+     DATED 16.02.2024 bearing No PMOPG/E/2024/0036647 where the
+     information sought are as below-
+
+     1.PROVIDE ME THE COPY OF THE PAGE OF COMPLAINT REGISTER FOR
+     HAVING REGISTERED MY COMPLAINT
+     2 NAME AND DESIGNATION OF DISCIPLINARY AUTHORITY FOR ITO TDS
+     TIRUNELVELI SHRI MAHARAJAN GOMATHINAYAGAM AGAINST WHOM
+     THE COMPLAINT WAS PREFERRED
+     3 THE ACTION TAKEN REPORT SIGNED BY V R HARI JCIT TDS MADURAI
+     WHETHER IN HIS CAPACITY AS FACT FINDING OFFICER OR DISCIPLINARY
+     AUTHORITY OR IN HIS STATUS AS CPIO ONLY.
+
+     4 REASON FOR DGIT VIG OR OF ANY OTHER OFFICER OF APPROPRIATE
+     RANK NOT TAKING THE COMPLAINT UNDER THEIR CONTROL FOR
+     ENQUIRY OR INVESTIGATION WHICH BEING THE REASON FOR THE
+     COMPLAINT HAS BEEN PASSED THROUGH DIFFERENT DESK OF OFFICERS
+     FOR THE PAST 100 DAYS.
+
+                                                                Page 22 of 67
+
+
+      5 NAME AND DESIGNATION OF COMPETENT AUTHORITY TO DEAL WITH
+     SEC 276B CASES FALLING UNDER TIRUNELVELI JURISDICTION."
+
+
+
+41. The CPIO furnished a reply to the complainant on 13.06.2024 stating as
+under:
+
+
+
+     "The online applications vide Regn. No. CCACH/R/T/24/00152, dated
+     05.06.2024 filed by Shri. D. Pitchaimuthu, M3, Housing Board, Behind
+     SBI, Perumalpuram, Tirunelveli 627 007 under the 
+Right to Information
+     Act, 2005
+, which has been forwarded by the Income Tax Officer (Hars)
+     (Coord), O/o Pr. Chief Commissioner of Income Tax, TN & P, Chennai vide
+     email in CHE/COORD/101(20(27)/RTI(145)/2024-25, dated 07.06.2024.
+
+
+
+     2. The applicant has raised 5 queries out of which query no. 1 & 4 are
+     related to this office:
+
+
+
+           1. PROVIDE ME THE COPY OF THE PAGE OF COMPLAINT REGISTER
+           FOR HAVING REGISTERED MY COMPLAINT.
+
+           4. REASON FOR DGIT VIG OR ANY OTHER OFFICER OF CONTROL
+           FOR ENQUIRY OR INVESTIGATION WHICH BEING THE REASON FOR
+           THE COMPLIANT HAS BEEN PASSED THROUGH DIFFERENT DESK OF
+           OFFICERS FOR THE PAST 100 DAYS.
+
+
+
+     3. With respect to query no.1, the extract of the complaint No.
+     PMOPG/E/2024/0036647, dated 16.02.2024 registered with the
+     CPGRAMS portal is enclosed herewith.
+
+
+
+     3.1 With respect to query no.4, the RTI application vide Online Regn. No
+     .CCACH/R/T/24/00071, dated 12.03.2024 regarding Grievance
+     Registration No. PMOPG/E/2024/0036647 received by the Central Public
+     Information Officer (CPIO), Addl. Director of Income Tax (Vig.) (south),
+     Unit-1, Chennai has been forwarded to the Income Tax Officer (Hqrs)
+     (Coord)/Nodal Officer under 
+RTI Act
+, O/o Pr. CCIT (TN&P), Chennai vide
+     letter in F.No.ADDL.DG(V)(S)/RTI/2023-24, dated 15.03.2024, since the
+     information sought by the applicant pertains to CPGRAMS. Further the
+     RTI application forwarded by the Income Tax Officer(Hars) (Coord), O/o
+     Pr.     CCIT     (TN&P),     Chennai      vide     letter     in    CHE-
+
+
+
+                                                                  Page 23 of 67
+
+
+       Coord/101(27)/RTI(745)/2022-23, dated 20.03.2024 to the Income Tax
+      Officer(HQ)(PR), O/o Pr. CCIT (TN&P), Chennai and the same was
+      disposed on 04.04.2024.
+
+
+
+      3.2 Further, the complaints received through CPGRAMS by the Pr. Chief
+      Commissioner of Income Tax, Tamil Nadu & Puducherry, who is the
+      Nodal Officer for CPGRAMS, will be transferred to the officers based
+      upon the issue and territorial jurisdiction of the complainant, through the
+      officers as per hierarchy for resolving the grievance.
+
+
+
+      4. This order is passed with reference to the specific query raised by the
+      applicant in the RTI petition. The RTI application is disposed off
+      accordingly."
+
+
+
+42. Feeling aggrieved and dissatisfied, complainant approached the
+Commission with the instant Complaint.
+
+
+
+                           13.CIC/CCACH/C/2024/632465
+
+Relevant facts emerging from complaint:
+
+
+
+RTI application filed on            :   10.06.2024
+CPIO replied on                     :   18.06.2024
+First appeal filed on               :   Not on record
+
+First Appellate Authority's order   :   Not on record
+2nd Appeal/Complaint dated          :   29.07.2024
+
+Information sought:
+
+43. The Complainant filed an (online) RTI application dated 10.06.2024
+seeking the following information:
+
+
+
+     "THIS HAS REF TO THE ENCLOSURE WHEREIN THE REPLY TO THE APPEAL
+     NOT ACTUALLY UPLOADED AND I AM UNABLE TO KNOW THE
+     REASONS BASED ON WHICH APPEAL DISPOSED OFF. INFORMATION
+     SOUGHT
+     PLEASE PROVIDE THE COPY OF THE REPLY REPORTED AS UPLOADED TO
+     MY APPEAL"
+
+
+
+44. The CPIO furnished a reply to the complainant on 18.06.2024 stating as
+under:
+
+                                                                      Page 24 of 67
+
+
+       "The online applications vide Regn. No.CCACH/R/T/24/00156, dated
+      10.06.2024 filed by Shri. D. Pitchaimuthu, M3, Housing Board, Behind
+      SBI, Perumalpuram, Tirunelveli 627 007 under the 
+Right to Information
+      Act, 2005
+, which has been forwarded by the Income Tax Officer (Hars)
+      (Coord), Olo Pr. Chief Commissioner of Income Tax, TN & P, Chennai vide
+      email in CHE/COORD/101(20(27)/RTI(150)/2024-25, dated 10.06.2024.
+
+
+
+      2. The applicant has requested the following information:
+
+
+
+            THIS HAS REF TO THE ENCLOSURE WHEREIN THE REPLY TO THE
+            APPEAL NOT ACTUALLY UPLOADED AND I AM UNABLE TO KNOW
+            THE REASONS BASED ON WHICH APPEAL DISPOSED OFF.
+
+            INFORMATION SOUGHT
+
+            PLEASE PROVIDE THE COPY OF THE REPLY REPORTED AS
+            UPLOADED TO MY APPEAL
+
+
+      3. With respect to the above query, the copy of the report as uploaded to
+      the CPGRAMS appeal vide Appeal Number CBODT/E/A/24/000959, dated
+      06.03.2024 is enclosed herewith for your ready reference.
+
+
+
+      4. This order is passed with reference to the specific query raised by the
+      applicant in the RTI petition. The RTI application is disposed off
+      accordingly."
+
+
+
+45. Feeling aggrieved and dissatisfied, complainant approached the
+Commission with the instant Complaint.
+
+
+
+                           14.CIC/CCACH/C/2024/654959
+
+Relevant facts emerging from complaint:
+
+
+
+RTI application filed on            :   14.10.2024
+CPIO replied on                     :   04.11.2024
+First appeal filed on               :   Not on record
+
+First Appellate Authority's order   :   Not on record
+2nd Appeal/Complaint dated          :   11.12.2024
+
+Information sought:
+
+46. The Complainant filed an (online) RTI application dated 14.10.2024
+seeking the following information:
+
+                                                                     Page 25 of 67
+
+
+      "THIS RTI PERTAINING TO ADNL DIRECTOR OF INCOME TAX VIGILANCE
+     SOUTH UNIT 1
+     INFORMATION SOUGHT 1 COPY OF THE FINDING REPORT ON THE
+     ALLEGATIONS RAISED AGAINST SHRI MAHARAJAN GOMATHINAYAGAM
+     ITO TDS TIRUNELVELI LEADING TO THE CLOSURE OF THE COMPLAINT
+     AGAINST HIM"
+
+
+
+47. The CPIO furnished a reply to the complainant on 04.11.2024 stating as
+under:
+
+
+
+     "The online RTI application filed vide Registration No.
+     CCACH/R/E/24/00138 dated 14/10/2024 by Shri D. Pitchaimuthu of
+     Perumalpuram Tirunelveli Tamilnadu, Pin:627007, was transferred to
+     this Directorate by the ITO(Hqrs) (Coord) O/o the Pr. CCIT, Tamilnadu &
+     Puducherry
+ u/s 6(3)
+ of the RTI Act, 2005 and the same was received in
+     this Directorate on 14/10/2024.
+
+
+
+     2. In this regard, the information sought for by the applicant vide RTI
+     application dated 14/10/2024 and the reply are furnished as under:
+
+
+
+     Information sought by the applicant:
+
+     Copy of the finding report on the allegations raised against Shri
+     Maharajan Gomathinayagam ITO TDS Tirunelveli leading to the closure
+     of the complaint against him.
+
+
+
+     Reply:
+
+     The undersigned places reliance on the decision of Hon'ble Central
+     Information      Commission,      New       Delhi    (CIC)     in    F.No.
+     CIC/AB/A/2016/001005 dated 08.09.2017 (N. Balachandran Vs PIO &
+     Vigilance & Dy. Chief Vigilance officer Southern Railway, Chennai) where
+     CIC has adjudicated on similar facts wherein the applicant therein has
+     requested for copy of the enquiry report on closure of a complaint made
+     by him. The CIC directed therein that copy of such enquiry report may be
+     provided to the applicant under 
+section 10
+ of RTI Act after removing
+     10(1) of the 
+RTI Act, 2005
+ redacting such information which falls within
+     the exemption clauses under 
+section 8(1)(e)
+ and 
+8(1)(g)
+ of the RTI Act.
+
+
+
+                                                                    Page 26 of 67
+
+
+                                  REPORT
+"Ms. P. Jaya Gaushika (PAN: BCIPJ9349G) D/o. Shri. D. Pitchaimuthu
+having her residential address at M3, Housing Board, Behind SBI,
+Perumalpuram Tirunelveli is working in the office of City Health Officer
+(CHO), Tirunelvell Corporation, Tirunelveli. The deductor, CHO deducted
+TDS from the monthly salary of Ms. P. Jaya Gaushika to the tune of
+Rs.15,600/- for the F.Y.2022-23 and 31,200/- for the financial year 2023-
+
+24. However, the deducted TDS did not reflect in 26AS of Ms. P. Jaya
+Gaushika.
+
+
+
+2. In this regard, an e-nivaran petition was received by the ITO, TDS
+Ward, Tirunelveli on 06-12-2023. This e-Nivaran petition was filed by Ms.
+P. Jaya Gaushika before 
+the CPC
+-TDS vide acknowledgement No.
+14942316 on 24-10-2023. The same was pushed to the O/o the ITO, TDS
+Ward, Tirunelveli on 06-12-2023. Upon receipt of the petition, a letter
+dated 06-12-2023 was issued to City Health Office, Tirunelveli Municipal
+Corporation, Tirunelveli (Health Section) to show cause as to why
+proceedings u/s 201(1)/201(1A) shall not be initiated for the non-
+compliance of TDS provisions. In view of the recent unprecedented rain
+that pounded Tirunelveli and flash flood which made the normal life out
+of order during the last two weeks of December 2023 and first week of
+January 2024, the office staffs of Tirunelveli Municipal Corporation were
+engaged in the work related to rescue and remedial operations and
+hence there was no response to the letter issued dated 06-12-2023. In
+view of this, proceedings u/s.201(1)/201(1A) was initiated by the AO in
+respect of Tirunelveli Municipal Corporation, Tirunelveli (Health Section)
+on 17-01-2024.
+
+
+
+All the above actions of the e-nivaran petition have been promptly
+intimated to Ms. P. Jaya Gaushika vide office letters of the ITO, TDS
+Ward, Tirunelveli in ITBA/ADM/S/26/2023-24/1058504943(1) dated 06-
+12-2023, ITBA/COM/F/17/2023-24/1059460890(1) dated 08-01-2024
+and ITBA/COM/F/17/2023-24/1059890511(1) dated 18-01-2024.
+
+
+
+3. Later, a CPGRAMS in PMOPG/E/2024/028824 dated 06-02-2024 was
+filed by Shri. D. Pitchaimuthu, Father of Ms. P. Jaya Gaushika (PAN:
+
+BCIPJ9349G), on behalf of his daughter with the following grievances:
+
+
+
+                                                               Page 27 of 67
+
+
+ (c) Delay in processing of ITR of Ms. P. Jaya Gaushika where refund is
+involved.
+
+
+
+With regard to mismatch in Form 26AS, Immediately on receipt of the e-
+nivaran petition on 06-12-2023, the ITO, TDS Ward, Tirunelveli had
+issued letter on the same day to the deductor M/s Tirunelveli Municipal
+Corporation, Tirunelveli (Health Section) and subsequently initiated
+appropriate proceedings by issue of notice
+ u/s 201
+/
+201(1A)
+ of the IT Act.
+Sufficient opportunity as per provisions of the 
+IT Act
+ as well as per the
+principle of Natural Justice was given to the deductor. Consequent to
+issue of notice, TDS quarterly statements were filed on 10-02-2024 and
+subsequent correction statement were filed on 13-02-2024 for the F.Yrs.
+2022-23 and 2023-24 were filed giving TDS credit of Rs.15,600/- and
+Rs.31,200/- respectively and the same was reflected in the TRACES portal
+of Ms. P.Jaya Gaushika. The CPGRAMs was resolved on 21-02-2024 in a
+span of 15 days with respect to TDS matter.
+
+
+
+With regard to Point (c) being delay in processing of ITR where refund is
+involved, it was submitted that the processing of ITR is under the purview
+
+of CPC
+-ITR, Bengaluru as the TDS-ITO is not empowered to issue refund
+and hence the matter was escalated to 
+CPC
+ ITR/JAO for issue of refund.
+
+
+
+4. It is pertinent here to mention that the ITO, TDS Ward, Tirunelveli had
+acted on the CPGRAMS quickly, issued notice
+ u/s 201(1)
+/
+201(1A)
+ of the IT
+Act and brought the TDS credits to the 26AS of the Individual within a
+span of 15 days. The ITO, TDS Ward, Tirunelveli has taken utmost care in
+resolving the issue by escalating it to the personal attention of CHO for
+filing quarterly statements and correction statement and to 
+CPC
+ for the
+speedy process of TDS statements filed by the deductor in order to bring
+the TDS credits in 26AS of the individual.
+
+
+
+5. (Redacted)
+
+
+6. In spite of the speedy action of Shri Maharajan Gomathinayagam, ITO,
+TDS Ward, Tirunelveli, the petitioner Shri D. Pitchaimuthu had been filing
+various petitions under CPGRAMS, RTI and Grievances for action against
+the ITO for handling the CPGRAMS in a casual manner and not issuing
+
+                                                               Page 28 of 67
+
+ notice
+ u/s 276B
+ of the IT Act thereby diluting the issue and biased act in
+favour of employer.
+
+As per 
+section 276B
+ of the IT Act, "if a person fails to pay to the credit of
+the Central Government, the tax deducted at source by him as required
+by or -----------under for ready reference:
+
+
+
+* In Government Accounting System, each DDO who is responsible for
+tax deduction at source (TDS) is allotted a TAN and he is responsible for
+filing of TDS Statements like Form 24Q and Form 26Q..
+
+
+
+*Each DDO reports to a Pay and Accounts Officer (PAO)/District Treasury
+Officer (DTO)/ Cheque Drawing and Disbursing Officer (CDDO)
+(hereinafter mentioned as Accounts Officer). These persons are allotted
+AINS (Account Office Identification Numbers)
+
+*The information regarding TDS deducted against payments is passed on
+by the DDO who holds the TAN to the Accounts Officer who holds the
+AIN.
+
+
+
+*The Accounts Officer makes book entry for the transfer of TDS credit to
+the account of the Central Government by filing Form 24G every month
+as per ITD Notification no. 41/2010 dated 31 May 2010 using the
+Accounts Office Identification Number (AIN).
+
+
+
+*After filing of Form 24G, Book Adjustment Identification Number (BIN)
+is generated for each DDO.
+
+*Using the BIN (Book Adjustment Identification Number), the DDO files
+quarterly TDS/TCS statements in Form Nos. 24Q/26Q/270/27EQ (as may
+be applicable).
+
+
+
+*Income Tax Department processes the TDS/TCS statements filed by the
+DDO, quarterly, and passes on the TDS/TCS credit (as per the quarterly
+TDS/TCS Statements in FormNos.240/260/270/27EQ filed by the DDOs to
+the PAN holders relating to whom the tax has been supposedly
+deducted/collected. The said tax credits are thereafter reflected in Form
+26AS/Annual Tax Statement of the PAN holder.
+
+
+
+                                                                 Page 29 of 67
+
+
+      In this case, since it is a Government deductor, the TDS credits are
+     credited to the Government account on the same day as it is done
+     through book adjustments. There is no default of TDS non remittances
+     and hence, the question of invoking 
+section 2768
+ of the IT Act does not
+     arise.
+
+
+
+     7. The petitioner has been informed several times that "Provisions of
+     section 2768 does not attract as City Health Office is functioning under
+     Department of Health, Government of Tamil Nadu and the salary
+     payments the petitions were promptly attended and redressed by Shri.
+     Maharajan Gomathinayagam in timely manner. There has been no laxity
+     on the department side.
+
+
+
+     In view of the discussions as in previous paragraphs, it is submitted that
+     undue delay, administrative lapse or any vigilance angle cannot be
+     attributed to the actions taken by Shri. Maharajan Gomathinayagam,
+     ITO, TDS Tirunelveli. The report is submitted for kind perusal."
+
+
+
+     3. The complaint of the applicant was closed by the competent authority
+     after consideration of the factual report as there was no vigilance angle
+     attributable to the actions taken by Shri Maharajan Gomathinayagam,
+     ITO, TDS, Tirunelveli.
+
+
+
+     4. The RTI application is disposed of accordingly."
+
+
+
+48. Feeling aggrieved and dissatisfied, complainant approached the
+    Commission with the instant Complaint.
+
+
+
+49. A written submission has been received from Shri Keerthi Narayan P.,
+    CPIO-cum-JDIT, vide letter dated 25.06.2025, a copy of which has been
+    sent to the Complainant and the same has been taken on record. The
+    relevant extract of the same is as under:
+
+
+
+    "2. The RTI application dated 14/10/2024 of Shri D. Pitchaimuthu of Tirunelveli
+    was disposed of by the CPIO & Addl. DIT(V)(S), Unit-1, Chennai vide Order u/s
+    dated 04/11/2024.
+
+    3. The appellant in the appeal filed before the Commission has enclosed a copy
+    of letter dated 09.11.2024 addressed to the Appellate Authority (First Appellate
+    Authority). However, as per the records of the Pr. Additional Director General
+    (Vigilance) (South) [First Appellate Authority], no such letter has been received
+
+                                                                         Page 30 of 67
+
+      in the Directorate. Further, in the Notice of Hearing cited in reference above,
+     there are no details under the Column 'Date of 1st Appeal made, if any' and
+     'Date of order, if any, of First AA'. Hence, the fact that, the appellant has not
+     filed his first appeal before the First Appellate Authority is clear from the Notice.
+
+     4. As per S.No.18 of FAQ in the CIC Website (extract enclosed), first appeal
+     before the First Appellate Authority should be filed before moving the second
+     appeal before the Commission and if a second appeal is filed without filing a
+     first appeal, the same is liable to be returned.
+
+     5. In view of the above, it is requested that the appeal of the appellant may be
+     returned."
+
+
+
+                              15.CIC/CCITB/C/2024/623528
+
+Relevant facts emerging from complaint:
+
+
+
+RTI application filed on              :   05.04.2024
+CPIO replied on                       :   11.05.2024
+First appeal filed on                 :   Not on record
+First Appellate Authority's order     :   Not on record
+2nd Appeal/Complaint dated            :   04.06.2024
+
+Information sought:
+
+50. The Complainant filed an (online) RTI application dated 05.04.2024
+seeking the following information:
+
+
+
+     "The enclosure is self explanatory where the system charged interest upto
+     010424 despite the mismatched amount Rs15600 remitted by the employer on
+     13th and 14th feb2024 which the system has also absorbed as fully matched as
+     against the claim made in the ITR. IT is immaterial how many segments are
+     working under 
+the CPC
+ and the ultimate authority who is responsible for in
+     making correction while setling the refund Rs5200 involved in the case. The
+     omission to correct the issue a major cotributing factor leading to complecating
+     the issue more and more warrants this RTI. INFORMATION SOUGHT
+     1 MENTION THE SECTION OF IT ACT OR ADMINISTRATIVE GUIDELINES
+     ENABLING THE 
+CPC
+ TO CHARGE INTEREST EVEN AFTER MISMATCHED AMOUNT
+     REMITTED ON 13TH AND 14TH FEB24.
+
+     2 MENTION THE SECTION OF IT ACT OR ADM GUIDELINES ENABLING THE 
+CPC
+
+     TO KEEP THE TAX PAYER UNDER DEFAULTER LIST ILLEGALY SINCE 25THJULY
+     2023 WHERE THE OFFENCE OF NOT REMITTING TDS REST WITH THE EMPLOYER
+     ONLY BROUGHT TO THE NOTICE OF ITO OF TIRUNELVELI VIDE LETTER DT
+     030823 WHICH IS ALSO WITHIN THE KNOWLEDGE OF ITO TDS OF TIRUNELVELI
+     AS PER HIS LETTER 06122023."
+
+
+
+                                                                             Page 31 of 67
+
+
+ 51. The CPIO furnished a reply to the complainant on 11.05.2024 stating as
+under:
+
+
+
+     "The RTI application Vide Registration No. CCACH/R/T/24/00093, dated
+     05.04.2024 was received in this office on 12.04.2024 on transfer from the
+     Principal Chief Commissioner of Income tax, Tamilnadu & Puducherry,
+     Chennai. In the application, the applicant has sought the following
+     information:
+
+     (i) Mention the section of 
+IT Act
+ or administrative guidelines enabling 
+the CPC
+
+     to charge Interest even after mismatched amount remitted on 13th and 14th
+     Feb24.
+
+     (ii) Mention the section of 
+IT Act
+ or administrative guidelines enabling 
+the CPC
+
+     to keep the taxpayer under defaulter list illegally since 25th July 2023 where
+     the offence of not remitting TDS rest with the employer only brought to the
+     notice of ITO of Tirunelveli vide letter dt 030823 which is also within the
+     knowledge of ITO TDS of Tirunelveli as per his letter 06122023.
+
+
+
+     2. The RTI application is disposed as under.
+
+     With reference to the above questions, it is informed that the information
+     sought is in the form of seeking clarification/ an 'opinion' or 'interpretation' of
+     the intent of the Legislature in charging interest on outstanding demand and
+     treating the applicant as defaulter. In this regard, it is also informed that the
+     CPIO is not required to make an interpretation of the 
+Income Tax Act
+/Rules or
+     provide an 'opinion' nor required to obtain and furnish any 'opinion' to an
+     applicant. The CPIO is also not obliged to furnish information which requires
+     drawing of inferences and / or making of assumptions. In this connection,
+     attention of the applicant is drawn to the order in the case of Jigyesh Sharma
+     Vs CPIO, O/o. Director of Income Tax, 
+CPC
+, Bengaluru in
+     F.No.CIC/DGITS/A/2021/648486 dated 10.10.2022, wherein the Hon'ble CIC
+     has placed reliance on the judgment of the Hon'ble Supreme Court in the case
+     of CBSE Vs Aditya Bandopadhyay & Ors. (Civil Appeal No.6454 of 2011), by
+     citing Para 35 therein, which clarifies the scope and ambit of 
+Section 2(f)
+ of the
+     RTI Act. In view of the above, the request of the applicant cannot be acceded
+     to.
+
+
+
+     Without prejudice to the above, it is also informed that the applicant's Income
+     tax return had been processed and results of processing were communicated
+     to the applicant vide intimation dated 25.07.2023 under section 143(1) of the
+     Income tax Act, 1961. As on the date of processing of the applicant's ITR, the
+     credit for Rs. 15,600/- was not available and accordingly demand was raised.
+
+                                                                           Page 32 of 67
+
+
+      The reason for the same is also evident from the above application wherein it
+     has been mentioned that the "mismatched amount of Rs. 15,600/-remitted by
+     the employer on 13th and 14th feb 2024" which is much later than the date of
+     processing. However, the applicant can file online rectification for obtaining
+     the refund, eligible if any, for the assessment year 2023-24."
+
+
+
+52. Feeling aggrieved and dissatisfied, complainant approached the
+    Commission with the instant Complaint.
+
+
+
+53. A written submission has been received from Shri B. Vaidyanath, CPIO-
+    cum-ITO, vide letter dated 01.07.2025, a copy of which has been sent to
+    the Complainant and the same has been taken on record. The relevant
+    extract of the same is as under:
+
+
+
+    "2. The following is submitted for the kind consideration of the Hon'ble CIC:
+
+    The appellant, Mr. D. Pitchaimuthu, had filed an online application vide
+    registration no. CCACH/R/T/24/00093 dated 05.04.2024 under the 
+RTI Act
+. The
+    application was received in this office on 12.04.2024 on transfer under 
+section
+    6(3)
+ of the RTI Act, 2005 from the Principal Chief Commissioner of Income tax,
+    Tamilnadu & Puducherry, Chennai. In the application, the appellant had sought
+    the following information:
+
+    (i) Mention the section of 
+IT Act
+ or administrative guidelines enabling 
+the CPC
+ to
+    charge Interest even after mismatched amount remitted on 13th and 14th Feb,
+    2024.
+
+    (ii) Mention the section of 
+IT Act
+ or administrative guidelines enabling 
+the CPC
+
+    to keep the taxpayer under defaulter list illegally since 25th July 2023 where the
+    offence of not remitting TDS rest with the employer only brought to the notice
+    of ITO of Tirunelveli vide letter dt 03.08.2023 which is also within the knowledge
+    of ITO TDS of Tirunelveli as per his letter 06.12.2023.
+
+    2.1. The CPIO, vide order under 
+Section 7(1)
+ of the RTI Act dated 08.05.2024
+    disposed the RTI application. The order passed
+ u/s 7(1)
+ of the RTI Act on
+    08.05.2024 was despatched to the address provided in the RTI application on
+    08.05.2024. Vide the order, it was informed to the applicant as under:
+
+ 
+"With reference to the above questions, it is informed that the information
+    sought is in the form of seeking clarification/ an 'opinion' or 'interpretation' of
+    the intent of the Legislature in charging interest on outstanding demand and
+    treating the applicant as defaulter. In this regard, it is also informed that the
+    CPIO is not required to make an interpretation of the 
+Income Tax Act
+/Rules or
+    provide an 'opinion' nor required to obtain and furnish any 'opinion to an
+    applicant. The CPIO is also not obliged to furnish information which requires
+    drawing of inferences and / or making of assumptions. in this connection,
+    attention of the applicant is drawn to the order in the case of ligyesh 
+Sharma Vs
+    CPIO
+, O/o. Director of Income Tax, 
+CPC
+, Bengaluru in F.No.
+    CIC/DGITS/A/2021/648486 dated 10.10.2022, wherein the Hon'ble CIC has
+
+                                                                           Page 33 of 67
+
+ placed reliance on the judgment of the Hon'ble Supreme Court in the case of
+CBSE Vs Aditya Bandopadhyay & Ors. (Civil Appeal No.6454 of 2011), by citing
+Para 35 therein, which clarifies the scope and ambit of 
+Section 2(f)
+ of the RTI
+Act. In view of the above, the request of the applicant cannot be acceded to.
+Without prejudice to the above, it is also informed that the applicant's Income
+tax return had been processed and results of processing were communicated to
+the applicant vide intimation dated 25.07.2023 under section 143(1) of the
+Income tax Act, 1961. As on the date of processing of the applicant's ITR, the
+credit for Rs.15,600/- was not available and accordingly demand was raised.
+The reason for the same is also evident from the above application wherein it
+has been mentioned that the "mismatched amount of Rs.15,600/-remitted by
+the employer on 13th and 14th Feb 2024" which is much later than the date of
+processing. However, the applicant can file online rectification for obtaining the
+refund, eligible if any, for the assessment year 2023-24."
+
+
+2.2. With regard to filing appeal before first appellate authority, as per records
+
+of the CPC
+(ITR), Bengaluru, the applicant is found to have filed appeal with the
+Income Tax Officer (HQrs) (Coord) in Office of the Principal Chief Commissioner
+of Income Tax, Tamilnadu & Puducherry through email on 06.05.2024. The
+appeal of the applicant was received by the First Appellate Authority i.e. Joint
+Director of Income Tax, Unit-4, 
+CPC
+, Bengaluru on transfer on 13.05.2025. The
+contents of the appeal are as under:
+
+"I SUBMIT HEREWITH THE FIRST APPEAL FOR THE DEFAULT UNDER RTI ACT THIS
+FIRST APPEAL MEANT FOR PLACING BEFORE THE APPELLATE AUTHORITY."
+
+The first appellate authority vide order under 
+section 19(1)
+ of the RTI Act, 2005,
+dated 11.06.2024 dismissed the appeal of the appellant stating that there are
+no specific grounds which need to be adjudicated. The FAA also observed that
+the appellant is seeking to use the appellate forum as a litigant tool which is not
+within the ambit of the Act and there is nothing in the appeal which shows that
+there has been failure on the part of the CPIO, 
+CPC
+, Bengaluru in the case of the
+appellant as the information sought for in the application has been furnished
+within the meaning of the RTI Act
+
+3. As per the enclosures to the notice of hearing under reference, the applicant
+had filed second appeal before the Hon'ble Central Information Commission on
+04.06.2024 with the following grounds of appeal:
+
+"(a) The cry of the dept refund settled becomes true only at the moment actual
+receipt of refund of Rs.5200
+
+(b) Sec 143 becomes inoperative once the tax payer submitted undisputable
+documents to the dept to their satisfaction on 01.08.2023. ITO TDS issued notice
+on 06.12.2023(after 120 days) indicate their responsiveness towards tax payer
+interest. charging Interest after set a righting the mismatched amount should
+be backed with reasons in writing and the written brief will constitute an
+information. 
+CPC
+ is the competent authority answerable to the tax payer and for
+anything and everything sec 2f of decided case can't be invoked as reply to RTI.
+
+Charging interest after adjusting the mismatch without written brief is coming
+under the purview of unreasoned act on the part of officer concerned and for
+
+
+                                                                       Page 34 of 67
+
+ unreasoned act 
+CPC
+ can't hide themselves under the sec 2F of RTI Act. If no
+written brief for unreasoned act it amounts to abuse of power a major
+misconduct under service rules, Hence invoking sec 2f of the 
+RTI Act
+ by the CPIO
+
+of CPC
+ is unsustainable under 
+RTI Act
+.
+
+EXHIBIT 4 ITO LR DT 06.12.2023 unilateral declaration-fully resolved.
+
+(c) Likewise once the mismatched amount is settled the tax payer status as
+defaulter get automatically changed by processing the return by 
+the CPC
+ as the
+right to correct rest with them only.
+
+(d) Having failed to do the job in the normal course of day to day affairs
+attempting to interpreting the information sought under 
+RTI Act
+ in different
+concept indicate the deriliction of duty on their part. 
+CPC
+ should be in a position
+to provide the reason for an indifferent status of tax payer reflecting in the
+website which won't coming under the concept claimed by the CPIO 
+of CPC
+ in his
+reply.
+
+(e) 
+CPC
+ duty bound to answer the status of the return and for indifferent status
+from the one it should be, responsibility is absolute which can't be misconceived
+under sec 2F of RTI Act. in brief, if for all omissions of officers section 2 F is
+invoked for taking shelter the wheel of administration will collapse and the sec 2
+F can't be used as a tool for that.
+
+(1) Employer identified as an offender under I.T act as per enclosure which has
+relevance to settlement/non settlement of refund due to the manner in which
+the amount collected appropriated
+
+(g) Dept acting as a profit oriented ORGC by charging penalty from employer
+and interest from tax payer for the default of employer as per the enclosure is a
+illegal practice on the part 
+of the CPC
+
+
+(h) Officers acting at their own style in their deciding not based on income tax
+act or administrative guidelines, being the reason for not furnishing reply to RTI
+
+(i) Gross misunderstanding the concept default vs demand and default by
+employer has been taken as a default of employee & after giving all sort of
+stress for quite long period, querries if any will be dealt with by taking shelter
+under 
+RTI Act
+, that too by dragging irrelevant cases on record. The issue
+resolvable during the normal course itself dragged for an year by the dept
+indicate deriliction of duty, non compliance of govt guidelines on the part of
+officers
+
+(j) The PMOPG PORTAL grievance dt 13.02.2023 addressed to 
+the CPC
+ is under
+the lock and custody of director of IT., 
+CPC
+ which being the most appropriate
+reason the CPIO has comfortably refused information under 
+RTI Act
+.
+EXHIBIT 5 PMOPG COMPLAINT COPY UINDER THE SAFE CUSTODY OF DIT 
+CPC
+ 6
+DARPG OM 7 TAX PAYERS CHARTER 8 CBODT OM DT 11.03.2016
+
+(k) There is no proper checks and balances in the dept whenever there is a
+deriliction of duty on the part of officers which being the reason for either giving
+false statement to the tax payers or inaction on the issues before them.
+EXHIBIT 9 defaulter as on date with upto date interest.
+
+(l) The approach of the dept and officers are not clean as observed from the
+refusal of information on the basis of unwritten codes against the interest of tax
+
+
+                                                                        Page 35 of 67
+
+      payer's charter & the principles of fair practices, I submit a corrective measure is
+     inevitable as prayed below
+     EXHIBIT 10 TDS correction stat for FYR 2022-23 employer an offender under LT.
+     act
+     PRAYER SOUGHT
+
+     1. Disciplinary action against the CPIO, 
+CPC
+, Bangaluru under sec 20(2) of RTI
+     act
+
+     2. Please levy appropriate Penalty under sec 20(1) of RTI act."
+
+     4. In the light of the above discussions, the following submission in respect of
+     the issues pertaining to this office is respectfully made before the Hon'ble CIC.
+     4.1 The applicant had sought information on two issues, which according to him
+     are falling under the ambit of information as per the 
+RTI Act, 2005
+. From the
+     queries raised, the same are observed not falling within the ambit of
+     information and are falling under the scope of "seeking interpretation on the
+     issue of law". Accordingly, the application has been rejected by the CPIO by
+     providing the reasons. However, information to the extent to be provided has
+     also been provided to the applicant even though the same is already made
+     available in the departmental communications.
+
+     4.2. The first appeal of the applicant has been rejected by the First Appellate
+     Authority for the same reasons. It is also noted by the FAA that the applicant is
+     seeking to use the appellate forum as a litigant tool which is not within the
+     ambit of the 
+RTI Act, 2005
+.
+
+     4.3 In the present appeal, the applicant has made some assumptions and is
+     seeking action from the CIC, based on such assumptions. These assumptions are
+     neither arising from the facts on record nor relatable to the issue at hand. Some
+     of the assumptions may be falling under the ambit of appeal under the 
+Income
+     Tax Act, 1961
+ or appeal against the grievance resolution and appeal under the
+     
+RTI Act, 2005
+ cannot be invoked as a replacement for these appeals.
+     In view of the above, it is informed that the RTI application filed by the applicant
+     had been disposed in terms of the 
+RTI Act, 2005
+ without any mala fide
+     intention."
+
+
+
+                         16.CIC/CUSCZ/C/2024/629573/CCACH
+
+Relevant facts emerging from complaint:
+
+
+
+RTI application filed on             :   21.05.2024
+CPIO replied on                      :   Not on record
+First appeal filed on                :   Not on record
+First Appellate Authority's order    :   Not on record
+2nd Appeal/Complaint dated           :   11.07.2024
+
+Information sought:
+
+
+
+                                                                             Page 36 of 67
+
+
+ 54. The Complainant filed an (online) RTI application dated 21.05.2024
+seeking the following information:
+
+
+
+     "Sir I submit no action taken on my complaint preferred through PMOPG
+     dt 160224 addressed to the DGIT VIG for the omissions on the part of ITO
+     TDS TIRUNELVELI and the complaint is presently sleeping in the desk of
+     ITO-JAO WARD 1 of TIRUNELVELI for more than 45 days. The refund
+     claimed vide ITR 23-24 not yet settled due to the omissions of ITO TDS
+     TIRUNELVELI for not invoking sec 276b against the employer. TDS
+     deduction a mandatory obligation on the part of employer and for any
+     lapses any interest and penalty cannot be loaded in the ITR of tax payer.
+     This being the cause for this RTI where you can observe interest charged
+     u/s 234c in the ITR of taxpayer for the lapses on the part of employer who
+     failed to remit TDS to the Govt account as per schedule. The fact of
+     omission on the part of my employer PUBLIC AUTHORITY is well within
+     the knowledge of ITO TDS TIRUNELVELI ITO JAO WARD
+     1 TIRUNELVELI as well the JCIT of TIRUNELVELI. The context need RTI and
+     the information sought as below 1REASON FOR LOADING INTEREST IN MY
+     ITR FOR THE LAPSES ON THE PART OF MY EMPLOYER A PUBLIC
+     AUTHORITY WHO IS HAVING MANDATORY OBLIGATION TO DEDUCT TDS
+     AND TO REMIT TO GOVT AS PER SCHEDULE
+     2 AS THE LAPSES ON THE PART OF MY EMPLOYER IS WELL WITHIN THE
+     KNOWLEDGE OF ITO TDS TIRUNELVELI ITO JAO TIRUNELVELI JCIT
+     TIRUNELVELI REASON FOR NOT PREVENTING THE LOADING OF INTEREST
+     FACTOR U/S 234C VIDE APPROPRIATE NOTE TO 
+CPC
+ PLEASE BE
+     PROVIDED.
+
+     YOURS FAITHFULLY D PITCHAIMUTHU
+     PS THE VERY REASON FOR ROUTING THE RTI THROUGH CBODT IS THE
+     PMOPG COMPLAINT DT 16022024 NOT REDRESSED BY TAKING ACTION
+     AGAINST THE ITO TDS TIRUNELVELI"
+
+
+
+55. Feeling aggrieved and dissatisfied, complainant approached the
+Commission with the instant Complaint.
+
+
+
+                            17.CIC/CCITB/C/2024/639038
+
+Relevant facts emerging from complaint:
+
+
+
+RTI application filed on            :   03.07.2024
+CPIO replied on                     :   Not on record
+First appeal filed on               :   Not on record
+
+First Appellate Authority's order   :   Not on record
+
+                                                                    Page 37 of 67
+
+ 2nd Appeal/Complaint dated           :   02.09.2024
+
+
+Information sought:
+
+56. The Complainant filed an (online) RTI application dated 03.07.2024
+seeking the following information:
+
+
+
+     "This RTI pertains to 
+CPC
+ Bangalore kindly refer the enclosure and also
+     the complaint closed today PMOPG E 2024 0036647 DT 16022024
+     wherein in both cases the date of action modified as 27062024 The date
+     has been modified with fradulant intention warrants this RTI as the name
+     of officer with whom it is pending for the past 3 months not get changed
+     INFORMATION SOUGHT
+     1 PLEASE PROVIDE THE NAME AND DESIGNATION OF THE FRAUDSTER
+     WHO IS THE AUTHOR OF THIS IDEOLOGY TO CHEAT THE TAX PAYER
+     COMPLAINANT DEPT GOVT AND THE SOCIETY AS A WHOLE
+     2 PLEASE PROVIDE THE DETAILS OF THIS VIRAL ATTACKS APPLIED IN
+     CPGRAMS PMOPG PORTAL FOR THE PAST TWO MONTHS WHERE THE
+     BLESSINGS OF COMPETENT AUTHORITY IS INEVITABLE AS THIS SORT OF
+     ACTION IS IMPOSSIBLE BY ANY OFFICER SINGLY.
+
+     3 KINDLY PROVIDE THE RECOMMENDED NOTE TO CBODT FOR THE
+     CLOSURE OF PMOPG COMPLAINT PMOPG E 2024 0036647 DT 16022024"
+
+
+
+57. Feeling aggrieved and dissatisfied, complainant approached the
+    Commission with the instant Complaint.
+
+
+
+58. A written submission has been received from Shri B. Vaidyanath, CPIO-
+    cum-ITO, vide letter dated 30.06.2025, a copy of which has been sent to
+    the Complainant and the same has been taken on record. The relevant
+    extract of the same is as under:
+
+
+
+    "2.1. The CPIO, vide order under 
+Section 7(1)
+ of the RTI Act dated 01.08.2023
+    disposed the RTI application. The order disposing the application filed under the
+    
+RTI Act,2005
+ was made available on the RTI MIS portal within time limit which is
+    visible as per the RTI MIS portal. Vide the order, it was informed to the applicant
+    as under:
+
+ 
+The requested information as sought by the applicant is pertaining to PAN:
+    BCIPJ93496 which is a third party as per records of the Centralised Processing
+    Centre and hence the request of the applicant was rejected invoking the
+    provisions of 8(1)(j) and 8(1)(e) of the 
+RTI Act, 2005
+ inviting the attention of the
+    applicant to the 
+section 8(1)(e)
+ of the RTI Act, 2005 and relying on the decision
+    of Hon'ble High Court of Gujarat in the case of 
+Shri Vinubhai Haribhai Patel Vs
+
+                                                                            Page 38 of 67
+
+ Asst
+.
+ 
+Commissioner of Income Tax, dated 27.01.2021 in C/LPA/1169/2016 and
+the Hon'ble Supreme Court in the case of 
+Sri Girish Ramachandra Deshpande Vs.
+Central Information Commissioner & Ors
+ (SLP No.27734 of 2012), dated
+03.10.2012.
+
+
+It had also been informed that from the contents of the RTI application it was
+seen that the same are in the nature of redressal of grievances. In this
+connection, it is informed that grievance redressal is beyond the scope of the 
+RTI
+Act
+. The scope of the 
+RTI Act
+ is limited to provisioning of 'information" defined
+under the Act by the CPIO on an application made by a citizen for the purpose,
+subject to the other provisions thereof.
+
+2.2. With regard to filing appeal before first appellate authority, as per records
+
+of the CPC
+(ITR), Bengaluru, the applicant is found to have filed appeal against
+the order of the CPIO-
+CPC
+(ITR), Bengaluru before the First Appellate Authority
+i.e. Joint Director of Income Tax, Unit-4, 
+CPC
+, Bengaluru on 02.08.2024. The
+contents of the appeal are as under:
+
+"DUE TO DEFAULT UNDER RTI ACT. FIRST APPEAL PREFERRED AS PER
+ENCLSOURES. PLEASE PROVIDE THE INFORMATION SOUGHT"
+
+The First Appellate Authority (the FAA) vide order under 
+section 19(1)
+ of the RTI
+Act, 2005, dated 30.08.2024 dismissed the appeal of the appellant stating that
+the grounds of appeal are devoid of merits. The FAA also observed as under:
+
+The CPIO had furnished/responded to the information sought for within time
+limit. The FAA further observed that the PAN pertaining to which the
+information sought for is not that of the appellant but is relating to a third
+party. The CPIO had responded rightly to the request of information pertaining
+to a third party based on the provisions of the 
+RTI Act
+ and the judicial
+pronouncements of the Supreme Court and High Court in the matter. The
+appellant is seeking to use the appellate forum as a litigant tool which is not
+within the ambit of the Act and there is nothing in the appeal which shows that
+there has been failure on the part of the CPIO, 
+CPC
+, Bengaluru in the case of the
+appellant as the information sought for in the application has been furnished
+within the meaning of the 
+RTI Act
+.
+
+3 As per the enclosures to the notice of hearing under reference, the applicant
+had filed second appeal before the Hon'ble Central Information Commission on
+02.09.2024 with the following grounds for complaint:
+
+"Fradulant act: Having committed a fradulant act in the CPGRAMS portal of
+govt 
+the CPC
+ officials have no local standy to invoke RTI sections as defence for
+their omissions on record.
+
+Accountability of official
+The material alteration in the date will change its original status where the
+complainant has to suffer more to prove it on record hence the act 
+of CPC
+ is
+detrimental to the interest of applicant arising due to abuse of power by 
+CPC
+
+officials
+Dishonest motive
+The 
+CPC
+ has closed the complaint on 01.08.2024 stating that the issue was
+settled by ITO Tirunelveli vide MOU dt 15.07.2024 speaks the role 
+of CPC
+ in the
+
+
+                                                                      Page 39 of 67
+
+ issue for more than 160 days is nil and they are holding the grievance
+application just to teach lesson to the complainant is against the guidelines of
+DARPG. The MOU arrived by the ITO Tirunelveli is of half page-LKG work
+whereas 
+the CPC
+ deliberately holding the grievances beyond 160 days speaks
+the credibility of their office.
+
+Habitual offender
+It is something exceptional knowingly indulging in daring acts of this sort of
+alteration where the minimum number of officers required is two or more
+depending upon the design of the software. Hence by all means there is a
+reason to believe of doing this sort of practices is an ongoing/habitual on the
+part 
+of CPC
+ officials. This being the reason for my request for second
+information under RTI. Further in my case alone 
+CPC
+ has altered the date in two
+applications which doubly ensured my conception as true.
+Abuse of power vs unwritten guidelines
+It is evident from the omissions 
+of CPC
+ officials that they are doing their jobs not
+on the basis of any written guidelines of govt and also on the basis of dept
+guidelines. Hence we can conclude their acts are well within the offence of
+abuse of official power only detrimental to the interest of complainant and also
+to the image of the govt. 
+CPC
+ officials recklessly acted in the issue prompting
+them to take shelter under RTI Sec's not relevant to the context just to
+safeguard their personal interest.
+
+Fradulant alterations made in my grievance applications
+The third information requested is about two applications rejected without
+speaking order both representing my name only where 
+CPC
+ deliberately
+dragging RTI sections into the scene is just to hide the reality of the issue as
+observed from the reply. CPIO keeping utmost silence about the core issue
+fradulant alteration made in the CPGRAMS portal
+Outcome of first appeal
+There is no response from the FAA
+I humbly submit the CPIO 
+of CPC
+ simply ignored the core issue of the RTI
+deliberati dragging RTI section into the scenario is not in order further 
+CPC
+ is
+under the impression that their power is supreme than any guiding principles of
+their dept/govt and they are considering their abuse of power as a legalised
+licence to do any act detrimental to the interest of tax payers /dept/govt/society
+as a whole.
+
+Agrieved with the refusal of information I hereby submit my prayer as below
+Prayer
+
+1. Disciplinary action against the CPIO, Income Tax Officer 
+CPC
+, Bangalore under
+sec 20(2) of RTI act
+
+2. Prayer for levying appropriate penalty under sec 20(1) of RTI act for denial of
+information sought"
+
+4, In the light of the above discussions, the following submission is respectfully
+made before the Hon'ble CIC.
+
+The CPGRAMS portal is maintained by the Department of Administrative
+Reforms & Public Grievances (DARPG), Government of India, data on which
+
+                                                                        Page 40 of 67
+
+      cannot be tampered with by anybody. The flow of a grievance depicts the
+     comments of each office handling the grievance as per their role in redressal of
+     said grievance. The time to respond to a particular grievance would depend on
+     the nature of the grievance. The grievance under consideration had reached this
+     office on 11.03.2024 and same was disposed as per the role 
+of CPC
+(ITR) on
+     14.03.2024 as per the role 
+of CPC
+ at the given time. The same is evident from
+     the history of given grievance on CPGRAMS portal.
+
+ 
+Under the third point of the RTI application, the applicant had sought
+     information on the closure of CPGRAM bearing no. PMOPG/E/24/0036647,
+     dated 16.02.2024. On perusal of the contents of said complaint, it is observed
+     that redressal of the same pertains to income tax refund matter of Dr
+     Jayagaushika, a third party in terms of the 
+RTI Act, 2005
+. 
+Section 2(n)
+ of the RTI
+     Act, 2005 defines the term "Third Party" as 'a person other than the citizen
+     making a request for information and includes a public authority. Further,
+     relying on the provisions of 
+section 138
+ of the Income Tax Act, 1961 and judicial
+     pronouncements of Hon'ble Supreme Court of India in the case of 
+Sri Girish
+     Rarnachandra Deshpande Vs. Central Information Commissioner & Ors
+ (SLP
+     No.27734 of 2012), dated 03.10.2012 and Hon'ble High Court of Gujarat in the
+     case of 
+Shri Vinubhai Haribhai Patel Vs Asst
+. Commissioner of Income Tax, dated
+     27.01.2021 in C/LPA/1169/2016, the request of the applicant cannot be acceded
+     to.
+
+
+     As per records 
+of CPC
+, Bengaluru, it is observed that the First Appellate
+     Authority has disposed the appeal of the applicant vide order under 
+section
+     19(1)
+ of the RTI Act, 2005 in file no. RTI/APPEAL/27/2024-25 dated 30.08.2025
+     and the same had been uploaded on the RTI MIS portal.
+     It is further informed that on perusal of the contents of the information sought
+     in the RTI application as well as grounds of complaint before the Hon'ble Central
+     Information Commission, it is observed that the applicant is appearing to use
+     the RTI as a litigant tool which is not within the ambit of the 
+RTI Act, 2005
+.
+     Without prejudice to the above, it is informed that the status of grievance of
+     non-issue of refund to the applicant's daughter for the assessment year 2023-24
+     can be responded to the tax payer concerned.
+
+     In view of the above, it is informed that the RTI application filed by the applicant
+     had been disposed in terms of the 
+RTI Act, 2005
+, provisions of 
+section 138
+ of the
+     Income Tax Act, 1961 and various judicial pronouncements."
+
+
+
+                              18.CIC/CCITB/C/2024/639662
+
+Relevant facts emerging from complaint:
+
+
+
+RTI application filed on             :   02.07.2024
+
+
+                                                                            Page 41 of 67
+
+ CPIO replied on                     :   02.08.2024
+First appeal filed on               :   Not on record
+
+First Appellate Authority's order   :   Not on record
+2nd Appeal/Complaint dated          :   05.09.2024
+
+Information sought:
+
+59. The Complainant filed an (online) RTI application dated 02.07.2024
+seeking the following information:
+
+
+
+     "THIS RTI PERTAINS TO 
+CPC
+ BANGALORE, THIS HAS REF TO THE
+     ENCLOSURE WHEREFROM THE FOLLOWING INFORMATION REQUESTED
+     1 NUMBER OF OCCASIONS WITH DATES RECTIFICATION RIGHTS HAVE
+     BEEN TRANSFERED TO YOUR AO TO DO CORRECTION IN RESPECT OF ITR
+     PERTAINING TO BCIPJ9349G
+     2 DATE ON WHICH YOUR 
+CPC
+ CAME TO KNOW THE APPARENT
+     MISMATCH OR MISTAKE IS DUE TO THE DEFAULT ON THE PART OF
+     DECUCTOR HAVING FAILED TO REMIT TDS AS PER SCHEDULE FOR
+     BCIPJ9349G.
+
+     3 PROCESS NOTE RECEIVED BY YOUR OFFICE FOR RECTIFICATION OF ITR
+     BEFORE AND AFTER THE MISMATCHED AMOUNT WAS REFLECTED IN
+     26AS FROM ITO TDS TIRUNELVELI ITO JAO TIRUNELVELI OR FROM OTHER
+     OFFICERS OF YOUR DEPT IRRESPECTIVE OF THEIR JURICDICTION TDS
+     RANGE OR OTHERWISE
+     4 DATE FROM WHICH TAX PAYER REQUEST FOR RECTIFICATION OF ITR
+     PENDING WITH YOUR 
+CPC
+ EXCLUDING THIS PRESENT REJECTION.
+     5 PASS ON THIS MESSAGE OF REJECTION TOOK 44 DAYS NOT IN LINE
+     WITH GOVT GUIDELINES WARRANTS CLARITY WHETHER 
+CPC
+ IS SUPREME
+     THAN THE GOVT GUIDELINES"
+
+
+
+60. The CPIO furnished a reply to the complainant on 02.08.2024 stating as
+under:
+
+
+
+      "The RTI application, with Registration No.DGITS/R/T/24/00632, dated
+      03.07.2024, was received in this office on 03.07.2024 on transfer under
+      
+section 6(3)
+ of the RTI Act, 2005. In the application, the applicant has
+      sought the following information:
+
+
+
+      1 NUMBER OF OCCASIONS WITH DATES RECTIFICATION RIGHTS HAVE
+      BEEN TRANSFERED TO YOUR AO TO DO CORRECTION IN RESPECT OF ITR
+      PERTAINING TO BCIPJ9349G.
+
+
+
+                                                                   Page 42 of 67
+
+
+ 2 DATE ON WHICH YOUR 
+CPC
+ CAME TO KNOW THE APPARENT
+MISMATCH OR MISTAKE IS DUE TO THE DEFAULT ON THE PART OF
+DECUCTOR HAVING FAILED TO REMIT TDS AS PER SCHEDULE FOR
+BCIPJ9349G.
+
+3 PROCESS NOTE RECEIVED BY YOUR OFFICE FOR RECTIFICATION OF ITR
+BEFORE AND AFTER THE MISMATCHED AMOUNT WAS REFLECTED IN
+26AS FROM ITO TDS TIRUNELVELI ITO JAO TIRUNELVELI OR FROM OTHER
+OFFICERS OF YOUR DEPT IRRESPECTIVE OF THEIR JURICDICTION TDS
+RANGE OR OTHERWISE.
+
+4 DATE FROM WHICH TAX PAYER REQUEST FOR RECTIFICATION OF ITR
+PENDING WITH YOUR 
+CPC
+ EXCLUDING THIS PRESENT REJECTION.
+5 PASS ON THIS MESSAGE OF REJECTION TOOK 44 DAYS NOT IN LINE
+WITH GOVT GUIDELINES WARRANTS CLARITY WHETHER 
+CPC
+ IS
+SUPREME THAN THE GOVT GUIDELINES.
+
+
+
+2. The RTI application is disposed as under.
+
+With reference to the information sought, it is informed that the
+information sought is the 
+RTI Act, 2005
+. Hence, the request is liable to be
+rejected invoking the provisions of 
+Section 8(1)(e)
+ & 
+8(1)(j)
+ of the RTI Act.
+
+
+
+It may be mentioned here that the information on matters pertaining to
+income returns etc., of any taxpayer, is held by the Centralized
+Processing Centre, Bengaluru, in its fiduciary capacity and treated as
+confidential. Kind attention is invited to 
+Section 8(1)(e)
+ of the RTI Act
+which reads as follows:
+
+
+
+Notwithstanding anything contained in this Act, there shall be no
+obligation to give any citizen information available to a person in his
+fiduciary relationship, unless the competent authority is satisfied that the
+larger public interest warrants the disclosure of such information.
+
+
+
+The Hon'ble Supreme Court of India, in the matter of Girish Ramachandra
+Deshpande (SLP No.27734 of 2012) has held that the information
+relating to Income tax matters of an assessee is personal information
+which stands exempt from disclosure under the 
+RTI Act
+. In the
+application, nothing is found to establish the larger public interest is
+involved in seeking this information. Therefore, the undersigned is not
+
+                                                                 Page 43 of 67
+
+      satisfied that larger public interest warranting disclosure of the
+     information has been sought by the applicant.
+
+
+
+ 
+In this connection, attention of the applicant is invited to the decision of
+     the Hon'ble Gujarat High Court in the case of 
+Shri Vinubhai Haribhai
+     Patel Vs Asst
+. Commissioner of Income Tax dated 27.01.2021 in
+     C/LPA/1169/2016 wherein, vide para no.14, it has been held that only
+     the larger public interest, duly established with relevant material, can
+     override this confidentiality of the information and documents available
+     with the Income Tax Department. The Hon'ble High Court of Gujarat has
+     further held that the provisions of the 
+RTI Act
+ are not meant to allow the
+     parties to collect evidence from such Departments or Public Authorities
+     to sub-serve their private interest.
+
+
+
+
+     In view of the above, the request of the applicant is rejected, invoking the
+     provisions of 
+Section 8(1)(j)
+ of the RTI Act."
+
+
+
+61. Feeling aggrieved and dissatisfied, complainant approached the
+    Commission with the instant Complaint.
+
+
+
+62. A written submission has been received from Shri B. Vaidyanath, CPIO-
+    cum-ITO, vide letter dated 30.06.2025, a copy of which has been sent to
+    the Complainant and the same has been taken on record. The relevant
+    extract of the same is as under:
+
+
+
+    "2. The following is submitted for the kind consideration of the Hon'ble CIC:
+
+
+
+    The appellant, Mr. D.Pitchaimuthu, had filed an online application vide
+    reference no. CCITB/R/T/24/00174 on 03.07.2024 under the 
+RTI Act
+. The
+    application, with registration no. DGITS/R/T/24/00632, was received in this
+    office through RTI MIS portal on transfer under 
+section 6(3)
+ of the RTI Act, 2005
+    on 08.07.2024. In the application, the appellant had sought the following
+    information:
+
+
+
+    "1. Number of occasions with dates Rectification Rights have been transfered to
+    your AO to do correction in respect of ITR pertaining to BCIPJ9349G.
+
+
+
+    2. Date on which your 
+CPC
+ came to know the apparent mismatch or mistake is
+    due to the default on the part of decuctor having failed to remit TDS as per
+    schedule for BCIPJ9349G.
+
+
+
+                                                                          Page 44 of 67
+
+
+ 3. Process Note received by your office for Rectification of ITR before and after
+the mismatched amount was reflected in 26SAS from ITO TDS Tirunelveli ITO
+JAO Tirunelveli or from other Officers of your Dept irrespective of their
+juricdiction TDS Range or otherwise.
+
+
+
+4. Date from which Tax Payer Request for rectification of ITR pending with your
+
+CPC
+ excluding this present rejection.
+
+
+
+5. Pass on this message of rejection took 44 days not in line with Govt
+Guidelines warrants clarity whether 
+CPC
+ is supreme than the Govt Guidelines."
+
+
+
+2.1. The CPIO, vide order under 
+Section 7(1)
+ of the RTI Act disposed the RTI
+application on 01.08.2024. Vide the order, it was informed to the applicant that
+the requested information as sought by the applicant is pertaining to PAN:
+
+BCIPJ9349G which is a third party as per records of the Centralised Processing
+Centre and hence the request of the applicant was rejected invoking the
+provisions of 8(1)(j) of the 
+RTI Act, 2005
+ inviting the attention of the applicant to
+the 
+section 8(1)(e)
+ of the RTI Act, 2005 and relying on the decision of Hon'ble
+High Court of Gujarat in the case of 
+Shri Vinubhal Haribhai Patel Vs Asst
+.
+
+
+Commissioner of Income Tax, dated 27.01.2021 in C/LPA/1169/2016 and the
+Hon'ble Supreme Court in the case of 
+Sri Girish Ramachandra Deshpande Vs.
+Central Information Commissioner & Ors
+ (SLP No.27734 of 2012), dated
+
+
+03.10.2012. The order disposing the application filed under the 
+RTI Act, 2005
+
+was made available on the RTI MIS portal within time limit which is visible as
+per the RTI MIS portal.
+
+
+
+2.2. With regard to filing appeal by the applicant before first appellate
+authority, as per records 
+of the CPC
+(ITR), Bengaluru, the applicant is found to
+have filed appeal before the First Appellate Authority i.e. Joint Director of
+Income Tax, Unit-4, 
+CPC
+, Bengaluru on 02.08.2024.
+
+
+
+The contents of the appeal are as under:
+
+
+
+"DUE TO DEFAULT UNDER RTI ACT. FIRST APPEAL PREFERRED AS PER
+ENCLSOURES.
+
+
+
+PLEASE PROVIDE THE INFORMATION SOUGHT."
+
+
+
+The First Appellate Authority (the FAA) vide order under 
+section 19(1)
+ of the RTI
+Act, 2005, dated 30.08.2024 dismissed the appeal of the appellant stating that
+the grounds of appeal are devoid of merits. The FAA also observed as under:
+
+
+
+The CPIO had furnished / responded to the information sought for within time
+limit.
+
+
+
+The FAA further observed that the PAN pertaining to which the information
+sought for is not that of the appellant but is relating to a third party. The CPIO
+
+
+                                                                        Page 45 of 67
+
+ had responded rightly to the request of information pertaining to a third party
+based on the provisions of the 
+RTI Act
+ and the judicial pronouncements of the
+Supreme Court and High Court in the matter. The appellant is seeking to use the
+appellate forum as a litigant tool which is not within the ambit of the Act and
+there is nothing in the appeal which shows that there has been failure on the
+part of the CPIO, 
+CPC
+, Bengaluru in the case of the appellant as the information
+sought for in the application has been furnished within the meaning of the 
+RTI
+Act
+.
+
+
+
+3. As per the enclosures to the notice of hearing under reference, the applicant
+had filed second appeal before the Hon'ble Central Information Commission on
+05.09 2024 with the following grounds for complaint:
+
+
+
+(1) Having adviced me to file application for rectification subsequent rejection of
+request by dragging RTI Sec is not in order
+
+(11) Dishonest statement by 
+CPC
+: It is evident from the enclosure the closure of
+functionality for rectification for 2022-23 is the reason for the delay in
+settlement of issues whereas 
+the CPC
+ instead of disclosing their inability
+searching for reason under the RTI Sec is not in order.
+
+
+
+(10) The information sought has no relevance with that of tax payer's income
+tax return or of personal in nature. The non functionality of any service
+(rectification of (TR) is pertaining to public at large will affect the settlement of
+refund issues pending with 
+CPC
+ Bangaluru for the whole year. Hence 
+CPC
+'s
+misconception of my request is not in order indicates lack of application of mind
+only.
+
+
+
+(iv) Enclosures reveals the refund issue is pending with 
+CPC
+ since August 2023
+date on which supportive documents for TDS deduction submitted to ITO,
+Tirunelveli & 
+CPC
+
+
+(v) The lazyness on the part 
+of CPC
+ itself is a record to infer there won't be any
+process note on hand for rectification of ITR before the mismatch was settled.
+
+CPC
+ is very cool in handling the refund issue even after the mismatch was
+settled as observed from the confirmation enclosed where they took 5 months
+even to reject the request for rectification indicate their commitment towards
+tax payers
+
+
+(vi) 
+CPC
+ Bangalore is supreme in mindset as they are having their own unwritten
+code for functioning in settling issues of tax payers and never bothered about
+DARPG or internal guidelines TAT in settlement of refund issues. This sort of big
+brother attitude on the part 
+of CPC
+ needs checks from Hon' Commission in the
+interest of society as a whole.
+
+
+
+                                                                        Page 46 of 67
+
+
+ (vil) The information sought are not of personal information of tax payer and
+disclosure though beneficial to the tax payer and non disclosure will black the
+settlement indefenitely as observed from the pending refund issue nearing one
+year.
+
+
+
+(viii) Mere conveying a rejection took 44 days itself speaks 
+the CPC
+ is have no
+say over the issue and just to supress their omissions taking shelter under 
+RTI
+Act
+.
+
+
+
+(ix) Fiduciary relationship will become operative only to ideal situation where
+
+the CPC
+'s working is as per written guidelines of Dept or Govt. Once there is a
+violation from the written code fiduciary concept will become inoperative as
+observed from below deviations
+
+A. Advicing me to prefer rectification request and rejected thereafter
+
+B. To convey rejection took 44 days
+
+C. Refund issue not settled for year
+
+D. Non functionality of service (rectification right) has been suppressed. This
+aspect coming under the Suo Motta disclosure of information as the same
+pertaining to tax payers/public at large where 
+CPC
+ is duty bound to disclose
+volntarily to reduce RTI from the tax payers. Having failed to comply 
+CPC
+'s
+taking shelter under 
+RTI Act
+ is not in order.
+
+
+
+E. Misguiding the tax payer with wrong information (we have tid the
+rectification rights to our AO, you are adviced to contact your JAO)
+
+F. Non compliance of DARPG TAT for redressal
+
+G. Delay of 5 months in settling refund even after mismatch issue over
+
+H. Unwarranted taking shelter under 
+RTI Act
+ just to suppress omissions
+
+
+1. Misconception of fiduciary concept/public documents as private and personal
+information to their advantages.
+
+
+
+1. It is something special on the part 
+of CPC
+ in considering me as third party to
+my daughter whereas I am the person looking after the IT. issues of my
+daughter for the past five years due to her working in essential sector where the
+work nature is different from others. The income tax dept is communicating to
+my mobile number and mail id only for the past 5 years thereby constituting a
+legally binding relationship under the principle of estoppel and denying
+information is not in order. It is just to supress their omissions and none else 
+CPC
+
+is invoking RTI Sections to their advantages.
+
+
+
+As the factual reasons for denial of information is not a genuine one where the
+malafide intention to supress the fact non functionality of rectification rights
+
+                                                                         Page 47 of 67
+
+ involved as also the RTI couldn't be brought within the scope of fiduciary
+concept which 
+CPC
+ is taken as a shelter for their inefficiency the issue deserves
+Hon' Commission's intervention.
+
+
+
+Outcome of the first appellate authority order
+
+The FAA Order received belatedly taken on record.
+
+
+
+The FAA when speaking about the RTI requester as using RTI forum for litigant
+purpose has failed to see through the cause for RTI. Theirs inefficiency in
+rendering services to tax payers moreso their failure to declare the non
+functionality of rectification rights for 2022-2023 as suo motto declaration
+cann't be simply ignored while reviewing the CPIO order.
+
+
+
+The FAA Order is highly subject to departmental bias
+
+       In view of foregoing brief my prayer is as below
+
+
+       1. Disciplinary action against the CPIO, Income Tax Officer 
+CPC
+,
+       Bangalore under sec 20(2) of RTI act
+
+
+       2. Prayer for levying appropriate penalty under sec 20(1) of RTI act for
+       denial of information sought."
+
+
+
+4 In the light of the above, the following submission is respectfully made before
+the Hon'ble CIC:
+
+
+
+In addition to the judicial pronouncements relied upon by the CPIO in disposing
+the RTI application of the appellant, it may also be pertinent to mention here
+that, 
+Section 138
+ of the Income Tax Act prohibits disclosure of such information
+available with the Income Tax Department to any third party unless again, the
+larger public interest to be established by the Applicant requires it to be done.
+
+The Act
+ provides for keeping such information guarded in confidence with the
+Authorities. Therefore, the bar under 
+Section 138
+ of the RTI Act as well as the
+exemption provisions against such disclosure under 
+Section 8
+ of the RTI Act
+discussed above, underscores the responsibility of the Department/
+CPC
+/CPIO in
+safe guarding the Income-tax related information of taxpayers from third
+parties.
+
+
+
+The applicant is stating that communications have been sent to the mobile
+number and email id of the applicant by 
+CPC
+ for the last five years. In this
+connection, attention of the applicant is invited to the 
+section 2(n)
+ of the RTI
+Act, 2005 which defines the term "Third Party" as 'a person other than the
+citizen making a request for information and includes a public authority.
+Therefore, as per the provisions of the 
+RTI Act
+, the applicant is a third party. It is
+also informed that sending communications, under the 
+Income Tax Act, 1961
+, to
+the registered email id/mobile number on the e-filing portal and providing the
+
+
+                                                                         Page 48 of 67
+
+      information sought under the 
+RTI Act, 2005
+ are under two different set of laws
+     which cannot be linked.
+
+
+
+     The transferring of rectification rights to the Jurisdictional Assessing Officer(the
+     JAO) takes place in automated manner once a request is received from the JAO.
+
+     Once rectification rights are transferred to the JAO, 
+the CPC
+ processes the
+     accounting of orders received from the JAO for a given PAN and for the
+     assessment year in respect of which rectification rights are transferred to JAO. If
+     the rectification rights of a particular PAN are transferred to the Jurisdictional
+     Assessing Officer and thereafter a rectification application is received in 
+the CPC
+,
+     the rectification application gets rejected in the system automatically and the
+     status of the rectification application filed is visible to the taxpayers on e-filing
+     portal.
+
+
+
+     It is pertinent to be mentioned here that the entire process of income tax
+     returns/rectification applications etc., at Centralised Processing Centre (
+CPC
+),
+     Bengaluru is fully automated and functions without any human intervention. In
+     the automated system the taxpayers are required to meet the system
+     requirements for compliances and there is no scope of manual intervention on a
+     case-to-case basis at any stage of operations at 
+CPC
+. The credit for TDS will be
+     recognized by the system if the TAN and TDS amount claimed in the return of
+     income matches with the TAN and TDS amount available in 26AS at the time
+     processing the income tax return or rectification application. The applicant
+     himself had stated In the RTI application dated 05.04.2024 that the mismatched
+     amount of Rs.15,600/- was remitted by the employer on 13th or 14th February,
+     2024 for the assessment year 2023-24 which is under consideration. However, in
+     the ground of complaint (4) as above, the applicant stated that the refund issue
+     is pending with 
+CPC
+ since August, 2023.
+
+
+
+     In view of the above facts and circumstances, it is informed that the act of CPIO-
+     
+CPC
+ in rejecting the application filed under the 
+RTI Act, 2005
+ is not a mala fide
+     act and it is as per provisions of the 
+RTI Act, 2005
+, provisions of 
+section 138
+ of
+     the Income Tax Act, 1961 and various judicial pronouncements."
+
+
+
+                              19.CIC/CCITB/C/2024/640056
+
+Relevant facts emerging from complaint:
+
+
+
+RTI application filed on              :   07.07.2024
+CPIO replied on                       :   06.08.2024
+First appeal filed on                 :   06.08.2024
+First Appellate Authority's order     :   05.09.2024
+2nd Appeal/Complaint dated            :   07.09.2024
+
+                                                                             Page 49 of 67
+
+ Information sought:
+
+63. The Complainant filed an (online) RTI application dated 07.07.2024
+seeking the following information:
+
+
+
+     "THIS RTI PERTAINING TO 
+CPC
+ BANGALORE AMRITA RANJAN DIT THE
+     ENCLOSED GRIEVANCE BEARING NUMBER PMOPG/E/2024/0034314 DT
+     13022024 HIMALAYAN TASK KEPT PENDING IN YOUR DESK FOR MORE
+     THAN 110 DAYS DRAGING WITHOUT ANY ACTION GOT TRANSFREED TO
+     LUCKNOW ON 05072024 WARRANTS THIS RTI INFORMATION SOUGHT
+     1 KINDLY PROVIDE ME THE CONTRIBUTION FROM YOUR PART IN
+     REDRESSING THE GRIEVANCE FOR THE PAST 110 DAYS
+     2 PRESENT TRANSFER TO LUCKNOW WHETHER AT YOUR INSTANCE OR BY
+     CBODT OR BY NODAL AUTHORITY KARNATAKA"
+
+
+
+64. The CPIO furnished a reply to the complainant on 06.08.2024 stating as
+under:
+
+
+
+     "The RTI application, with Registration No.DGITS/R/T/24/00656, dated
+     08.07.2024, was received in this office on 08.07.2024 on transfer under
+     
+section 6(3)
+ of the RTI Act, 2005 from the CPIO of Principal Chief
+     Commissioner of Income Tax (CCA), Bangalore. In the application, the
+     applicant has sought the following information:
+
+     (i) KINDLY PROVIDE ME THE CONTRIBUTION FROM YOUR PART IN
+     REDRESSING THE GRIEVANCE FOR THE PAST 110 DAYS.
+
+     (ii) PRESENT TRANSFER TO LUCKNOW WHETHER AT YOUR INSTANCE OR
+     BY CBODT OR BY NODAL AUTHORITY KARNATAKA.
+
+     2. The RTI application is disposed as under.
+
+     With reference to the information sought, it is informed that the
+     information sought is with reference to the grievances
+     No.PMOPG/E/2024/0034314, dated 13.02.2024 filed by the applicant on
+     behalf of his daughter Dr. Pichaimuthu Jayagaushika in connection with
+     the income tax matters. In this connection, it is also informed that
+     grievance redressal is beyond the scope of the 
+RTI Act
+. The scope of the
+     
+RTI Act
+ is limited to provisioning of 'information' defined under the Act by
+     the CPIO on an application made by a citizen for the purpose, subject to
+     the other provisions thereof. For redressal of grievances, the applicant
+     may explore various other platforms/forums meant for the purpose.
+     Hence, the request of the applicant cannot be acted upon.
+
+                                                                     Page 50 of 67
+
+
+ Without prejudice to the above, it is informed that the information
+sought is pertaining a PAN: BCIPJ9349G pertaining to Dr. Pichaimuthu
+Jayagaushika, a third party as per the 
+RTI Act, 2005
+. Hence, the request
+is liable to be rejected invoking the provisions of 
+Section 8(1)(e)
+ & 
+8(1)(j)
+
+of the RTI Act.
+
+It may be mentioned here that the information on matters pertaining to
+income returns etc., of any taxpayer, is held by the Centralized
+Processing Centre, Bengaluru, in its fiduciary capacity and treated as
+confidential. Kind attention is invited to 
+Section 8(1)(e)
+ of the RTI Act
+which reads as follows:
+
+Notwithstanding anything contained in this Act, there shall be no
+obligation to give any citizen information available to a person in his
+fiduciary relationship, unless the competent authority is satisfied that the
+larger public interest warrants the disclosure of such information.
+The Hon'ble Supreme Court of India, in the matter of Girish Ramachandra
+Deshpande (SLP No.27734 of 2012) has held that the information
+relating to Income tax matters of an assessee is personal information
+which stands exempt from disclosure under the 
+RTI Act
+. In the
+application, nothing is found to establish the larger public interest is
+involved in seeking this information. Therefore, the undersigned is not
+satisfied that larger public interest warranting disclosure of the
+information has been sought by the applicant.
+
+In this connection, attention of the applicant is invited to the decision of
+the Hon'ble Gujarat High Court in the case of 
+Shri Vinubhai Haribhai
+Patel Vs Asst
+. Commissioner of Income Tax dated 27.01.2021 in
+C/LPA/1169/2016 wherein, vide para no. 14, it has been held that only
+the larger public interest, duly established with relevant material, can
+override this confidentiality of the information and documents available
+with the Income Tax Department. The Hon'ble High Court of Gujarat has
+further held that the provisions of the 
+RTI Act
+ are not meant to allow the
+parties to collect evidence from such Departments or Public Authorities
+to sub-serve their private interest.
+
+
+In view of the above, the request of the applicant is rejected, invoking the
+provisions of 
+Section 8(1)(j)
+ of the RTI Act
+Without prejudice to the above, it is also informed that 
+the CPC
+ is the
+back-end office of the Assessing Officer and therefore, action in many of
+the grievances received, pertain to the jurisdictional Assessing Officer.
+
+                                                                 Page 51 of 67
+
+
+       Besides, the time to respond to a particular grievance would depend on
+      the nature of the grievance. For example, if it relates to processing and
+      issuance of refund, etc., it would depend on the timelines prescribed
+      under the 
+Income Tax Act
+, the Amendments (that are in force at any
+      given point of time) and Notifications/Circulars, etc. issued by CBDT in
+      this regard from time to time. Furthermore, given the nature of
+      automated, system driven processing at 
+CPC
+, every return filed is unique
+      and passes through several filters/checks built into the system and would
+      depend on the data / information contained in the return."
+
+
+
+65. Being dissatisfied, the complainant filed a First Appeal dated 06.08.2024.
+
+The FAA vide its order dated 05.09.2024, held as under.
+
+
+
+      "1 It is seen from the records that the CPIO had furnished his reply dt.
+      06.08.2024 and responded to the information sought for within time
+      limit. The CPIO is found to have discharged his obligation sunder the 
+RTI
+      Act
+ of providing an appropriate reply to the appellant and no infirmity is
+      observed therein
+
+      2 Upon reviewing the appellant's appeal, it appears that the information
+      sought in RTI application pertains to a third party and not the appellant.
+      Based on the provisions of the 
+RTI Act
+, as well as relevant judicial
+      pronouncements by the Supreme Court and High Courts, information
+      related to third parties falls outside the scope of the 
+RTI Act
+.
+      Consequently, the resolution of the CPGRAM relating to a third party,
+      cannot be disclosed under the 
+RTI Act
+.
+
+
+
+      3 
+RTI Act
+ and Grievance Redressal
+      It is pertinent to mention that the scope of the 
+RTI Act
+ is limited to
+      adjudication by the First Appellate Authority as to whether the CPIO has
+      provided a reply to the appellant under 
+RTI Act
+. However, resolution of
+      grievance, if any, cannot be addressed under the 
+RTI Act
+.
+
+
+
+      4 Conclusion:
+
+      In the light of the above discussion, it is seen that the CPIO has
+      discharged the obligations under the 
+RTI Act
+ and no infirmity therein, is
+
+
+
+                                                                     Page 52 of 67
+
+      observed. In view of this it is held that the grounds of appeal are devoid
+     of merits and the appeal stands dismissed."
+
+
+
+66. Feeling aggrieved and dissatisfied, complainant approached the
+    Commission with the instant Complaint.
+
+
+
+67. A written submission has been received from Shri B. Vaidyanath, CPIO-
+    cum-ITO, vide letter dated 30.06.2025, a copy of which has been sent to
+    the Complainant and the same has been taken on record. The relevant
+    extract of the same is as under:
+
+
+
+    "2. The following is submitted for the kind consideration of the Hon'ble CIC:
+
+    The appellant, Mr. D.Pitchaimuthu, had filed an online application vide
+    registration no. CCITB/R/T/24/00182 dated 08.07.2024 under the 
+RTI Act
+. The
+    application was received in this office on transfer on 08.07.2024 under 
+section
+    6(3)
+ of the RTI Act, 2005 from the Principal Chief Commissioner of Income
+    tax(CCA), Bangalore. In the application, the appellant had sought the following
+    information:
+
+    "This RTI pertaining to 
+CPC
+ Bangalore Amrita Ranjan DIT the enclosed grievance
+    bearing number PMOPG/E/2024/0034314, dated 13.02.2024. Himalayan task
+    kept pending in your desk for more than 110 days dragging without any action
+    got transferred to Lucknow on 05.07.2024 warrants this RTI information sought:
+
+    (i) Kindly provide me the Contribution from your part in redressing the Grievance
+    for the past 110 days.
+
+    (ii) Present transfer to Lucknow whether at your instance or by CBODT or by
+    Nodal Authority Karnataka."
+
+    2.1. The CPIO, vide order under 
+Section 7(1)
+ of the RTI Act dated 06.08.2023
+    disposed the RTI application and uploaded the response on the RTI MIS portal.
+    Vide the order, the applicant was informed, inter alia, that grievance redressal is
+    beyond the scope of the 
+RTI Act
+. The scope of the 
+RTI Act
+ is limited to
+    provisioning of 'information' defined under the Act by the CPIO on an
+    application made by a citizen for the purpose, subject to the other provisions
+    thereof. For redressal of grievances, the applicant may explore various other
+    platforms/forums meant for the purpose.
+
+ 
+It was also informed that from the contents of the enclosure to the request
+    made in the application filed under the 
+RTI Act
+, is found to be pertaining to the
+    grievances No. PMOPG/E/2024/0034314, dated 13.02.2024 filed by the
+    applicant on behalf of his daughter Dr. Pichaimuthu Jayagaushika in connection
+    with the income tax matters. As such the information sought pertaining to the
+    income tax matter of a third party as per the 
+RTI Act, 2005
+. Hence, the request is
+    liable to be rejected invoking the provisions of 
+Section 8(1)(e)
+ & 
+8(1)(1)
+ of the
+    RTI Act relying on the Hon'ble Supreme Court of India's decision in the case of Sri
+    Girish Ramachandra Deshpande vs. Central Information Commission (SLP
+
+                                                                           Page 53 of 67
+
+ No.27734 of 2012) and Hon'ble Gujarat High Court in the case of 
+Shri Vinubhai
+Haribhai Patel Vs Asst
+. Commissioner of Income Tax dated 27.01.2021 in
+C/LPA/1169/2016
+Further, it was informed that 
+the CPC
+ is the back-end office of the Assessing
+Officer and therefore, action in many of the grievances received, pertain to the
+Jurisdictional Assessing Officer. Besides, the time to respond to a particular
+grievance would depend on the nature of the grievance. For example, if it
+relates to processing and issuance of refund, etc., it would depend on the
+timelines prescribed under the 
+Income Tax Act
+, the Amendments (that are in
+force at any given point of time) and Notifications/Circulars, etc. issued by CBDT
+in this regard from time to time. Furthermore, given the nature of automated,
+system driven processing at 
+CPC
+, every return filed is unique and passes through
+several filters / checks built into the system and would depend on the
+data/information contained in the return.
+
+
+2.2. As regards to filing appeal before first appellate authority, as per records 
+of
+the CPC
+(ITR), Bengaluru, the applicant is found to have filed appeal on
+06.08.2024 before the First Appellate Authority i.e. Additional Director of
+Income Tax, Unit-4, 
+CPC
+, Bengaluru. The First Appellate Authority (the FAA) vide
+order under 
+section 19(1)
+ of the RTI Act, 2005, dated 05.09.2024 dismissed the
+appeal of the appellant stating that the grounds of appeal are devoid of merits
+and observing the information sought in RTI application pertains to a third party
+and not the applicant. Based on the provisions of the 
+RTI Act
+, as well as relevant
+judicial pronouncements by the Supreme Court and High Courts, information
+related to third parties falls outside the scope of 
+RTI Act
+. Further, it has also
+been observed that resolution of grievance, if any, cannot be addressed under
+the 
+RTI Act
+.
+
+3 As per the enclosures to the notice of hearing under reference, the applicant
+had filed second appeal before the Hon'ble Central Information Commission on
+07.09.2024 with the following grounds for complaint
+"a). 
+CPC
+ ALONE RESPONSIBLE FOR THE RTI:
+
+CPC
+'s inefficiency in handling the grievance for > 100 days where any reasonable
+person will lost his patience resorted to RTI to know the fate/status of the
+grievance is a normal happening. Whereas just to suppress their sleeping over
+the issue for more than 110 days take shelter under RTI Sections by 
+CPC
+ is not in
+order.
+
+b) 
+CPC
+'s Failure to invoke RTI Sections within the TAT:
+
+It is upto 
+the CPC
+ to reject the grievance within the TAT which being an
+appropriate way of handling, but having failed for> 110 days their right to act
+otherwise is not based on merit and taking shelter under 
+RTI Act
+ for omissions
+constitute an unethical practice on their part.
+
+c) No written guidelines followed by 
+CPC
+:
+
+CPC
+ is very cool in holding the grievance for > 110 days and awakened only after
+raising RTI is an indicator their working is not based on any written guidelines of
+the Dept/Govt.
+
+d) Recklessly transferring the grievance to Lucknow:
+
+                                                                        Page 54 of 67
+
+
+ This is absolutely an unjustified Act on the part of DGITS where any person with
+reasonable knowledge raise QNs against 
+CPC
+. The DGITS instead of facing the
+RTI trying to take shelter under 
+RTI Act
+ is not in order. The application in QN was
+transferred just because of the unwillingness to hold for further more time by
+MS Amirtha Ranjan DIT 
+CPC
+ as the same was highlighted to the notice of higher
+ups vide RTI.
+
+e) Closure comments Vs foolishing the taxpayers:
+
+The Grievance application was closed by the DGITS on 01.08,2024 with simple
+remark "Adviced the JAO to examine to settle the issue" is the outcome 
+of CPC
+'s
+research for > 110 is not only a teasing comments meant for the tax payer it is
+also meant for the credibility of the DEPT/Govt also.
+
+f) 
+CPC
+ not working, hence no written brief available on record:
+
+As transfering the application to Lucknow not based on any reasonable
+prudence without any written brief for such transfer, naturaly there will be no
+information available in their desk which ultimately prompted the RTI Sections
+only not relevant to the context.
+
+g) Fiduciary relationship Vs. information sought
+The fiduciary concept has to do nothing with that 
+of CPC
+'s inaction on the
+grievance handling for more than 110 days is a scale of their
+performance/commitment to the tax payers but 
+CPC
+'s invoking RTI Section for
+any thing and every thing is not based on merit.
+
+h) 
+CPC
+ is not true to themselves & tax payers:
+
+CPC
+ has failed to comply with the guidelines set out in the tax payers charter
+and thereby badly exposes the image of the dept before the public.
+
+1) Information sought vs. RTI Sections involved by 
+CPC
+:
+
+CPC
+'s contribution in redressing the grievance for 110 days and the reason for
+transferring the application to Lucknow has to do nothing with that of fiduciary
+relationship and other exemptions claimed by 
+the CPC
+ for the reason the
+information sought are not of personal nature. 
+CPC
+ has failed to explain how
+the information sought would interfering the fiduciary relationship and
+dragging Sec 8(1)()) & (E) are unwarranted to the information sought by me.
+The DGIT's hasty action of transferring the application to Lucknow is nothing but
+an abuse of official power by the DGITS where no public interest is involved but
+
+the CPC
+ is considering the RTI forum as a legalised platform to take shelter for
+their omissions in the date to affairs including of my case of inaction for 110
+days. 
+CPC
+ is duty bound to declare the reason voluntarily under suo motto
+declaration for transferring the applications to Lucknow which is also a failure
+under the 
+RTI Act
+ by 
+CPC
+.
+
+In view of the foregoing brief humbly submit, I am deserving for a Prayer
+
+1. Disciplinary Action against the CPIO, Income Tax Officer 
+CPC
+, Bangalore
+Under Sec 20(2) Of RTI Act
+
+2. Prayer for levying appropriate Penalty under sec 20(1) of 
+RTI Act
+ for denial of
+Information Sought."
+
+4. In the light of the above, the following submission is respectfully made before
+the Hon'ble CIC.
+
+                                                                       Page 55 of 67
+
+
+ 
+On perusal of the contents of the information sought in the RTI application as
+    well as grounds of complaint before the Hon'ble Central Information
+    Commission, it is observed that the applicant is appearing to use the RTI as a
+    litigant tool which is not within the ambit of the 
+RTI Act, 2005
+. If the applicant is
+    not satisfied with the resolution provided against the grievance raised, the
+    applicant may approach appellant authorities of grievance forum.
+    The information sought on the grievance is found to be pertaining to a third
+    party and hence the same cannot be provided to the applicant as per the
+    provisions of the 
+RTI Act, 2005
+. 
+Section 2(n)
+ of the RTI Act, 2005 defines the term
+    "Third Party" as "a person other than the citizen making a request for
+    information and includes a public authority. Further, relying on the provisions of
+    
+section 138
+ of the Income Tax Act, 1961 and judicial pronouncements of Hon'ble
+    Supreme Court of India in the case of 
+Sri Girish Ramachandra Deshpande Vs.
+    Central Information Commissioner & Ors
+ (SLP No.27734 of 2012), dated
+    03.10.2012 and Hon'ble High Court of Gujarat in the case of 
+Shri Vinubhai
+    Haribhai Patel Vs Asst
+. Commissioner of Income Tax, dated 27.01.2021 in
+    C/LPA/1169/2016, the request of the applicant could not be acceded to.
+    Without prejudice to the above, it is informed that the status of grievance of
+    non-issue of refund to the applicant's daughter for the assessment year 2023-24
+    can be responded to the tax payer concerned.
+
+
+    In view of the above, it is submitted that the RTI application filed by the
+    applicant had been disposed as per the provisions of the 
+RTI Act, 2005
+,
+    provisions of the 
+Income Tax Act, 1961
+ and various judicial pronouncements."
+
+
+
+                             20.CIC/CCACH/C/2024/639883
+
+Relevant facts emerging from complaint:
+
+RTI application filed on          : 07.07.2024
+CPIO replied on                   : 08.07.2024
+First appeal filed on             : 08.07.2024
+First Appellate Authority's order : 07.08.2024
+2nd Appeal/Complaint dated        : 06.09.2024
+
+Information sought:
+
+68. The Complainant filed an (online) RTI application dated 07.07.2024
+seeking the following information:
+
+
+
+     "THIS RTI PERTAINS TO CIT TDS MADURAI THE ENCLOSURE REPORTEDLY
+     SIGNED WITH DIGITAL SINATURE BY EYAS AHAMED MUHAMMED
+     CIT TDS MADURAI INFORMATION SOUGHT 1 PLEASE PROVIDE THE
+     SUBJECT ORDER ENCLOSED HEREWITH IN VALIDATED STATUS I.E. WITH
+     TICK MARK ONLY BY E MAIL AND NOT BY POSTAL MODE"
+
+
+
+                                                                            Page 56 of 67
+
+
+ 69. The CPIO furnished a reply to the complainant on 08.07.2024 stating as
+under:
+
+
+
+      "In connection with the information sought by the applicant, it is stated
+      that 
+CPC
+(TDS) is a processing center and the information that has been
+      requested through this application is outside the purview 
+of CPC
+ (TDS)
+      and accordingly, disposed of."
+
+
+
+70. Being dissatisfied, the complainant filed a First Appeal dated 08.07.2024.
+The FAA vide its order dated 07.08.2024, held as under.
+
+
+
+      "The appellant had filed RTI application dated 08.07.2024 addressed to
+      CPIO though e-RTI application vide which he had requested the copy of
+      order of CIT (TDS), Madurai with validated status i.e., with tick mark only
+      by e-mail and not by the postal mode. The appellant Sh. D Pitchaimuthu
+      has filed the appeal on the following ground.
+
+      1) Information requested not received from the CPIO vide order DT
+      08.07.2024.
+
+
+
+      2. After careful perusal of RTI application and the reply of CPIO (
+CPC
+-TDS)
+      and also the RTI appeal, I am of the considered view that there is no
+      infirmity in the order passed by the CPIO since no information has been
+      sought by the appellant w.r.t. 
+CPC
+-TDS.
+
+
+
+      3. Accordingly, the First Appeal Petition under the 
+RTI Act, 2005
+ filed by
+      the appellant stands disposed accordingly."
+
+
+
+71. Feeling aggrieved and dissatisfied, complainant approached the
+    Commission with the instant Complaint.
+
+
+
+72. A written submission has been received from Shri Vinod Pant, CPIO-cum-
+    Pr. CIT, vide letter dated 26.06.2025 and the same has been taken on
+    record. The relevant extract of the same is as under:
+
+
+
+    "Respected Sir,
+    This is with reference to the notice issued by the Hon'ble Commission to the
+    undersigned in connection with a grievance filed by the RTI applicant, Shri D.
+    Pitchaimuthu, under 
+Section 18(1)
+ of the RTI Act, 2005, against the ITO
+    (Headquarters), Office of the Principal Chief Commissioner of Income Tax (Tamil
+    Nadu & Puducherry region) and the Nodal Officer, CBODT, New Delhi.
+    In this regard, it is respectfully submitted that the said grievance does not
+    pertain to the CPIO, 
+CPC
+-TDS. The undersigned has no role in the matter, as the
+
+                                                                       Page 57 of 67
+
+     grievance is directed towards the aforementioned authorities. A copy of the
+    grievance letter along with its enclosures has already been forwarded to the
+    concerned offices via email on 25.06.2025 at their official email IDs: diritcc-
+    
+[email protected]
+ and 
+[email protected]
+ for their information and
+    necessary action. In addition, a hard copy of the same was also dispatched to
+    the said offices on 25.06.2025 & 26.06.2025.
+
+    In view of the above, it is humbly requested that the notice issued to the
+    undersigned may kindly be withdrawn."
+
+
+
+73. A written submission has been received from Shri Manish, ITO-cum-CPIO,
+    vide letter dated nil, stating as under:
+
+
+
+    "Para wise counter on the Ground for complaint raised by the Appellant
+
+    1. In the First para the Appellant has raised certain issues regarding the RTI
+    order of the CIT(TDS), Madurai dated 03.07.2024. As this order is not under the
+    purview of this Office, the undersigned has no comments to offer on the same.
+
+    2. In the Second para, the Appellant has raised issue regarding failure by the
+    Nodal Officer, CBODT to send the RTI to the correct CPIO. Again, the
+    assignment/transfer of the original RTI application, was not made by this Office
+    and hence the undersigned has no comments to offer on the same.
+
+    3. Further, in the second para, the Appellant has mentioned that while filing the
+    First appeal, he has brought the error to the notice of this office (ITO H.QRS,
+    Chennai (Nodal Officer)) inspite of which the appeal was forwarded to the
+    wrong FAA. For clarity, the Appellant's email dated 08.07.2024 sent to this office
+    is reproduced as under:
+
+    "SIR 1 SUBMIT HEREWITH THE CPIO REPLY WHICH IS IN ORDER IN ALL ASPECTS
+    AND THE OMISSIION IS ON THE PART OF CBODT WRONG ASSIGNMENT ONLY. I
+    REQUEST YOU TO DOUBLY CHECK THE FIRST APPELLATE AUTHORITY BEFORE
+    ASSIGNING THE RTI TO AVOID RECURRENCE OF MISTAKE ONCE AGAIN THE FAA
+    IS NOT THE ONE MENTIONED BY CPIO SH VINOD PANT I FURTHER STATE AS A
+    RTI REQUESTER I WILL CONSIDER THIS DATE AS MY FIRST APPEAL DATE FOR ALL
+    PURPOSE.
+
+    4. It's important to note that the original RTI application (Reg No.
+    CBODT/R/E/24/01879, filed online on July 7, 2024) was processed and closed by
+    the CPIO(
+CPC
+-TDS), Ghaziabad on July 8, 2024. In view of this, the first Appellate
+    Authority under the 
+RTI Act
+ would be an officer senior in rank to the Central
+    Public Information Officer (CPIO) within the same public authority. In this
+    regard, for the convenience of the Appellant & for the purpose of Appeal against
+    the impugned order, the ITO CPIO(
+CPC
+-TDS), Ghaziabad has clearly stated as
+    under:
+
+    "If the applicant feels aggrieved by the above order he may file an appeal before
+    the Appellate Authority, Joint CIT, O/o Pr.CIT(
+CPC
+, TDS), Aavakar Bhawan,
+    Vaishali, Ghaziabad under 
+RTI Act, 1961
+ within 30 days of the receipt of this
+    order."
+
+                                                                          Page 58 of 67
+
+
+ 5. Despite the RTI order of July 8, 2024, clearly listing the FAA (Joint CIT, O/o P1.
+CIT(
+CPC
+ TDS), Aayakar Bhawan, Vaishali, Ghaziabad), the Appellant inexplicably
+chose to mail their First Appeal memo (Annexure-1) to this office on 11.07.2024
+requesting to place the appeal before the Appropriate Authority for the required
+information.
+
+6. The Appellant claimed in his July 8, 2024, email that the CBDT incorrectly
+assigned his RTI. However, given that the original RTI wasn't submitted to this
+office, it's puzzling why he chose to file his appeal memo against the impugned
+order dated July 8, 2024, which pertained to the disposition of an RTI application
+filed by the appellant before this office. The Appellant was obligated to file this
+appcal directly before the FAA. However, for reasons solely known to the
+Appellant, the appeal memo was submitted to this office via email on July 11,
+2024. Additionally, he's requesting this office to transfer the appeal to an FAA
+other than the one clearly stated in the order being appealed.
+
+7. Should the Appellant have been dissatisfied with the assignment of their
+original RTI application, the proper course of action would have been to register
+an objection with the public authority that initially received the application. The
+decision to raise such an objection, or its execution, falls solely within the
+Appellant's knowledge.
+
+8. Now, in the impugned order against which this appeal was preferred, the
+details of the FAA is clearly mentioned as. as Joint CIT, O/ Pr. CIT(
+CPC
+ TDS),
+Aayakar Bhawan, Vaishali, Ghaziabad. Accordingly, vide email dated
+15.07.2025, this RTI appeal was sent to the FAA concerned, i.e., Joint CIT, O/o
+Pr. CIT(
+CPC
+ TDS). In this email it was clearly mentioned by the undersigned that
+as the original application was disposed at that office, the First appeal
+application are forwarded. A copy of this mail was duly marked to the Appellant
+(Annexure-2).
+
+9. The Appellant had the option to file their First Appeal directly with an
+alternative FAA if he believed the one mentioned in the CPIO(
+CPC
+-TDS) order of
+July 8, 2024, was incorrect, or to state correct FAA in the appeal memo itself. It's
+difficult to comprehend why the Appellant would expect the Nodal Officer to
+forward the appeal to an FAA not specified in the original order. The Joint CIT,
+O/o Pr. CT(
+CPC
+ TDS), Aayakar Bhawan, Vaishali, Ghaziabad, was the designated
+FAA in the CPIO's order dated July 8, 2024, and this is the appropriate authority
+for appeals arising from that CPIO. This office was obligated to forward the
+appeal memo solely to the specified FAA. It would have been incorrect
+procedure to send it to any other FAA, even if the Appellant expected otherwise.
+Under Other Grounds:
+
+10.In point 1, the Appellant has raised issue of wrong assignment of CPIO by the
+Nodal Officer, CBODT. This issue is outside the purview of this office and
+therefore no comments are offered.
+
+11.In Point No. 2, the Appellant states that the ITO HQRS Chennai can send the
+letter in QN even directly to the Officer for manual signature which also a valid
+validation of the letter in question. He further states that the ITO, HQ has failed
+
+
+
+                                                                        Page 59 of 67
+
+     to act with reasonable prudence and handed the issue casually giving room to
+    this complaint.
+
+    12.It is respectfully submitted that, as the Nodal Officer (RTI), this authority's
+    function is to forward RTI applications to the appropriate CPIO possessing the
+    requested information. This office is not responsible for providing information
+    on undertaken action which is not within its direct purview.
+
+    13. The issue raised at point 3, 4 & 4 (repeated) is not in the purview of this
+    office and hence no comments are offered.
+
+    14. Regarding point no. 5, this office received an appeal memo via email on July
+    11, 2024, concerning an RTI order issued to the assessee on July 8, 2024 by the
+    CPIO(
+CPC
+-TDS). The Appellant should have submitted this appeal directly to the
+    designated FAA or to any other authority he believed to be correct. For reasons
+    unknown to this office, he emailed it to this office instead. Since the memo
+    challenged the CPIO, 
+CPC
+-TDS order of July 8, 2024, which clearly named the
+    Joint CIT, O/o Pr. CIT(
+CPC
+ TDS) as the FAA and is also the designated FAA for
+    that CPIO, this office transferred the appeal to that office. Subsequently, the
+    FAA then disposed of this appeal through an order dated August 7, 2024,
+
+    15. In the instant case, the original application was filed before the CBDT which
+    was then transferred to the CPIO(
+CPC
+-TDS). Consequent to which, the order
+    dated 08.07.2024 was passed by that CPIO. The first time the appellant
+    approached this office was by way of sending appeal memo via email dated
+    11.07.2024 and the same was promptly transferred to the specified FAA via
+    email dated 15.07.2024. Hence, it is clear that in contrast to the allegations
+    levied by the appellant, this office has acted promptly and forwarded the appeal
+    memo to the FAA concerned. Henec, there was no obstruction in provision of
+    information to the appellant.
+
+    In light of the preceding points, it is humbly submitted that this office adhered
+    to conect procedure by transferring the appeal to the specified FAA, rather than
+    another authority as the Appellant unlawfully expects. Therefore, it is submitted
+    that this appeal/ complaint is liable to be dismissed."
+
+
+
+Relevant Facts emerged during Hearing:
+
+
+
+The following were present:-
+
+
+
+Complainant: Present through VC.
+
+Respondent: Shri A. Shenbagam, ITO-cum-CPIO/ TDS Ward, attended the
+hearing through VC.
+
+Shri Srisharan, CPIO-cum-Additional Commissioner, attended the hearing
+through VC.
+
+Shri Manoj Prakash, CPIO-cum-Joint Commissioner, attended the hearing
+through VC.
+
+
+
+                                                                          Page 60 of 67
+
+
+ Ms. Gayatri, CPIO-cum-Assistant Director, attended the hearing through VC.
+Ms. S. Thilagavathy, CPIO-cum-ITO (HQ), attended the hearing through VC.
+Shri Srisharan, CPIO-cum-Additional Commissioner, attended the hearing
+through VC.
+
+Keerthi Narayan, CPIO-cum-Joint Director, attended the hearing through VC.
+Shri B. Vaidyanath, CPIO-cum-ITO, attended the hearing through VC.
+Shri Vinod Pant, CPIO, attended the hearing in person.
+
+
+
+74. The Complainant stated that he is not satisfied with the replies provided
+    by the Respondent. While explaining the brief background of the case, he
+    relied upon his written submission which is as under:
+
+
+
+    "False statement by CPIO treasury officer letter reads they have remitted TDS
+    amount to the tan account only without resorting any submission of 24g. CPIO
+    just to establish his false statement TDS remitted vide book adjustment is not
+    applicable to the employer who holds TDS amount in tan account for more than
+    a year. CPIO repeated the false theory again and again despite having a to z
+    direct evidences on hand, TDS was remitted one year later with correction
+    statement therefor.
+
+    Further any amount lying in tan account or remitted to the tan account by the
+    treasury couldn't be considered as a amount held in central govt account unless
+    otherwise reversing the amount so held via 24q as per TDS remittence schedule.
+    _ CPIO is of the view that outsiders are unable to understand the mechanism of
+    TDS concept and actively placed his false theory before the RTI forum is a
+    serious breach of RTI act.
+
+    While narrating the reason for not providing the tan statement CPIO has
+    comfortably deviated from answering the reasons, a delibere misleading to the
+    hon' commission as providing the statement will expose his foulplay before the
+    RTI forum as evidenced from the penalty and tax due of Rs 11,57,757 / found in
+    the CPIO letter.
+
+    CPIO is the cause for all multiple RTI as he tried his level best in concealing the
+    facts on record by misrepresenting the issues at the pretext of RTI sections the
+    public authority, a legal person, where invasion of privacy of third
+    person/fiduciary relationship / personal information won't work before the
+    mandate for RTI: the information must be truthful and correct in all respects.
+    CPIO vide his present report misrepresented the fact vide para 11 page 5 sub sec
+    iii & iv, as there is no such process took place in TDS case, clarified very clearly
+    by the treasury officer the amount to the extent of 24g was credited to the tan
+    account without resorting to 24g as via media CPIO to his convenience
+    interpreting the letter just to conceal his omissions from record.
+
+                                                                           Page 61 of 67
+
+
+     CPIO couldn't take shelter under one or another concept/cooked up theory to his
+    advantage as the mechanism brought into record not applicable to the
+    employer in the present case, hence ascribed for the omission of
+    misrepresentation of fact in the RTI forum.
+
+    CBDT, apex body investigation report reads TDS was remitted with a delay of
+    one year followed by the correction statement for the same.
+    CPIO concealed the fact on record and has given false report to the RTI forum
+    with a highlighted statement- treasury office has remitted TDS via 24g is the
+    conclusive opinion of CPIO is differing from the written statement of treasury;
+    they credited amount to tan account without resorting to 24g. The signatory of
+    the present report is Tamil knowing person only but closed his eyes while giving
+    report to the hon' commission.
+
+    TDS issue was fully resolved on 25.07.2024 le actual receipt of amount into the
+    account and the report 21.02.2024 or 06.12.2023 as reported by ITO Tirunelveli
+    both are false statement registered in the RTI forum as the fully resolved should
+    be read with actual receipt of amount by the tax payer/claimant only.
+    Form 26a of taxpayer is also direct evidence for the TDS default of one year
+    attracts sec 276b reportable to the commissioner of income tax, omission of
+    which suppressed by the CPIO. Failure to invoke sec 276 is a serious misconduct
+    under service rules
+    CPIO is silent over the penalty levied against the employer for Rs 11,57,757/ due
+    to my complaint of TDS default. CPIO is responsible for obstrction of information
+    and the CPIO'S report is void ab initio.
+
+    Hon apex court and hon high courts observed any proceedings based on
+    falsehood be summarily rejected even without following the principle of natural
+    justice and the CPIO order is absolutely coming under the purview of above
+    findings.
+
+    Documents relied
+    Treasury officer letter confirming TDS remitted to tan account of employer
+    Employer penalised for Rs 11,57,757/(certificate for clean hands) of ITO TDS
+    against whom complaint was made
+    CBDT letter -TDS belated remittance vide statement followed by correction
+    statement
+    Form 26a of taxpayer with dt of credit details
+    Ito self-admission TDS return not filed
+    Brief on sec 276b TDS return filing direct evidence for TDS default
+    Respectfully prayed
+    Please issue necessary instruction to initiate disciplinary action against the cp
+    Please levy appropriate penalty
+    Please declare the CPIO'S present report as invalid"
+
+
+
+75. The Respondent submitted that suitable reply based on available records
+    has been given to the Complainant on all his RTI Applications. While
+    explaining the brief background of the case, he submitted that Ms.
+
+
+                                                                         Page 62 of 67
+
+ Pitchaimuthu Jaya Gaushika D/o Shri D. Pitchaimuthu, filed an e-Nivaran
+petition before 
+CPC
+-TDS on 24.10.2023 requesting them to take stern
+action against employer i.e. City Health Officer (CHO), Tirunelveli
+Corporation, for failing to file TDS quarterly statements. As a result of
+failure in duty by the CHO, the daughter of the Complainant was unable
+to receive TDS credit, which led to a tax demand notice being issued to
+her. Upon receipt of the petition, a letter dated 06.12.2023 was issued by
+the Respondent to Tirunelveli Municipal Corporation, Tirunelveli (Health
+Section) to show cause notice as to why proceedings
+ u/s 201(1)
+/
+201(1A)
+
+of the Income-tax Act, 1961 shall not be initiated for the non-compliance
+of TDS provisions and the deductor was given opportunity up to
+18.12.2023 to reply to the notice. Despite sufficient opportunity given,
+the deductor did not respond to the aforesaid letter. Meanwhile, during
+the 2nd and 3rd week of December 2023, an unprecedented rain that
+pounded Tirunelveli and flash flooding threw normal life out of gear and
+the office staff of Tirunelveli Municipal Corporation were engaged in work
+related to rescue and remedial operations. Considering the abnormal
+situation prevailed in Tirunelveli, their office waited for a reply from the
+deductor till 16.01.2024. As there was no reply received from the
+deductor, proceedings
+ u/s 201(1)
+/
+201(1A)
+ of the Income-tax Act, 1961
+was initiated by Respondent's office in respect of Tirunelveli Municipal
+Corporation, Tirunelveli on 17.01.2024. In response to notice
+ u/s
+201(1)
+/
+201(1A)
+ of the Income-tax Act, 1961 dated 17-01-2024, the
+deductor i.e. CHO, Tirunelveli Municipal Corporation vide her letter dated
+24-01-2024 submitted that she has undergone critical medical treatment
+and was on leave and she has just joined the duty. It was also added that
+on receipt of the said notice, she has been making efforts to sort out the
+issue and comply with TDS provision at the earliest and requested for
+further time period of 30 days. The submission of the deductor was
+considered carefully by the Respondent and she was given further time up
+to 12.02.2024. Thereafter, the deductor filed TDS quarterly statement for
+the F.Ys. 2022-23 and 2023-24 giving TDS credit of Rs. 15,600/- and
+Rs.31,200/-respectively to Ms. P. Jaya Gaushika. In view of the above, the
+Respondent submitted that the mismatch in Form 26AS in respect of Ms.
+P. Jaya Gaushika for the financial years 2022-23 and 2023-24 were fully
+resolved and there is no delay in action against City Health Officer who is
+
+
+                                                                 Page 63 of 67
+
+      the employer of the daughter of the Complainant and notice to Ms. P.
+     Jaya Gaushika was discharged.
+
+
+
+76. Thereafter, the Complainant filed multiple petitions under 
+RTI Act, 2005
+
+    and CPGRAMS in this office to initiate action against the City Health
+    Officer, Tirunelveli Corporation who is the employer of his daughter. He
+    repetitively insisted on initiating the prosecution proceedings against City
+    Health Officer, Tirunelveli
+ u/s 276B
+ of the Income-tax Act, 1961. He
+    apprised the Bench of the fact that as per the provisions of 
+Section 276B
+
+    of the Income-tax Act, 1961, if a person fails to pay to the credit of the
+    Central Government, the tax deducted at source by him as required by or
+    under the provisions of Chapter XVII-B, he shall be punishable with
+    rigorous imprisonment for a term which shall not be less than three
+    months but which may extend to seven years and with fine. At this
+    juncture, it is pertinent to mention that the City Health Office is
+    functioning under the control of Department of Health, Government of
+    Tamil Nadu. All payments, including salary, are made through the District
+    Treasury and the amount of TDS is also remitted to the Government
+    account through book adjustments. The amount of TDS deducted by the
+    CHO is not held by her at any point of time during the entire process and
+    instead the amount remains in the Government account. There is no
+    default of TDS non-remittances and hence, it is factually wrong to state
+    that the City Health Officer, Tirunelveli is a defaulter of TDS non-
+    remittance and an offender
+ u/s 276B
+ of the Income-Tax Act, 1961. It is
+    also confirmed by the District Treasury Officer that the amount of tax
+    deducted at source made by the Drawing and Disbursing Officer is given
+    credit to their respective TAN every month by filing Form 24G. As such,
+    the amount of TDS deducted by the City Health Officer, Tirunelveli
+    Corporation for the months of February 2023 and March 2023 have been
+    given due credit in Form 24G filed by the District Treasury Officer. The TDS
+    amount has been duly credited to Central Government Account by the
+    District Treasury (not by the City Health Officer) and the District Treasury
+    filed Form 24G to give TDS credit to the TAN of City Health Officer. From
+    the above, it is clear that in case of Government Deductor, the District
+    Treasury Officer remits the TDS amount into the Central Government
+    Account By filing Form 24G and it is not the responsibility of the deductor
+    or TAN holder. In the present case, the City Health Officer being the
+
+                                                                     Page 64 of 67
+
+     deductor /TAN holder is not responsible for crediting the TDS amount into
+    the Central Government Account. Hence, he/she cannot be fixed as the
+    defaulter
+ u/s.276B
+ of the Income-tax Act, 1961. In the present case, it is
+    very clear that the amount of TDS deducted by the City Health Officer has
+    been credited to the Central Government account by the District
+    Treasury. The Complainant has failed to comprehensively understand the
+    concept of TDS mechanism. Despite this the Complainant sticks on to his
+    position that the deductor is defaulter
+ u/s 276
+ the Income-tax Act, 1961
+    in the instant case.
+
+
+
+77. A written submission has been received from the Complainant vide letter
+    dated 30.06.2025 and the same has been taken on record.
+
+
+
+78. A supplementary written submission has been received from the
+    Complainant vide letter dated 01.07.2025 and the same has been taken
+    on record. It is noted that the concerned public authority of the State
+    Government did not make any stop gap arrangement during the absence
+    of the original incumbent CHO who was on leave because in the absence
+    of DDO no bills can be paid including salary.
+
+
+
+Decision
+
+
+79. The Commission observed that the present complaints were filed under
+    
+Section 18
+ of the RTI Act, 2005 where the Commission was only required
+    to ascertain if the information has been denied with a mala fide intent or
+    due to an unreasonable cause or under any other clause of 
+Section 18
+ of
+    RTI Act. 
+In this regard, the Commission relies on one judgment of Hon'ble
+    Supreme Court in "
+Chief Information Commissioner & Anr. Vs. State of
+    Manipur & Anr.
+" bearing CIVIL APPEAL NOs.10787-10788 OF 2011
+    decided on 12.12.2011 has held as under:-
+
+
+
+
+    "Therefore, the procedure contemplated under 
+Section 18
+ and 
+Section 19
+ of the
+    said Act is substantially different. The nature of the power under 
+Section 18
+ is
+    supervisory in character whereas the procedure under 
+Section 19
+ is an appellate
+    procedure and a person who is aggrieved by refusal in receiving the information
+    which he has sought for can only seek redress in the manner provided in the
+    statute, namely, by following the procedure under 
+Section 19
+. This Court is,
+    therefore, of the opinion that 
+Section 7
+ read with 
+Section 19
+ provides a
+    complete statutory mechanism to a person who is aggrieved by refusal to
+    receive information. Such person has to get the information by following the
+
+
+                                                                        Page 65 of 67
+
+       aforesaid statutory provisions. The contention of the appellant that information
+      can be accessed through 
+Section 18
+ is contrary to the express provision of
+      
+Section 19
+ of the Act. It is well known when a procedure is laid down statutorily
+      and there is no challenge to the said statutory procedure the Court should not,
+      in the name of interpretation, lay down a procedure which is contrary to the
+      express statutory provision. It is a time honoured principle as early as from the
+      decision in Taylor v. Taylor [(1876) 1 Ch. D. 426] that where statute provides for
+      something to be done in a particular manner it can be done in that manner
+
+80.
+      alone and all other modes of performance are necessarily forbidden."
+
+
+
+81. The above ratio is applicable to this case as well. In all these cases, it is
+    noted that the Complainant has a grievance that City Health Officer
+    should be declared as defaulter under 
+Section 276
+ the Income Tax Act,
+    1961, which cannot be addressed under the scope and ambit of the 
+RTI
+    Act
+. Despite this, the Respondent has amply clarified that the City Health
+    Officer is not responsible for crediting the TDS amount to the Central
+    Government Account. Hence, he/she cannot be fixed as the defaulter
+    under 
+Section 276B
+ of the Income Tax Act, 1961.
+
+
+
+82. Since records of these cases do not indicate any such deliberate denial or
+    concealment of information on the part of the PIO, the Commission
+    concluded that there was no cause of action which would necessitate
+    action under the provisions of the 
+Section 20(1)
+ of the RTI Act, 2005 in
+    these complaints.
+
+
+
+83. A pertinent issue emanating from the instant cases is that while notice to
+    the assessee is issued promptly and automatically but the same
+    parameter is not applied to the DDO/Deductor resulting in an avoidable
+    harassment of the assessee/deductee who is a salaried employee. Thus,
+    leaving the deductee/salaried employee/assessee generally to fend for
+    themselves going and begging before both i.e. the DDO and the Income
+    Tax Authorities despite having paid the tax well in time. The notice to the
+    assessee is issued automatically through a faceless system without any
+    manual interference because the system is now fully computerised,
+    automated, faceless and nameless. However, for the DDO to be brought
+    on notice simultaneously in such cases, there is no automated system for
+    issuing notices to the concerned DDO (deductor) for any default on their
+    part. This apparent discriminatory treatment of the two (deductee on one
+    hand and the deductor on the other) can be addressed by a simple
+    intervention of issuing notice to both simultaneously.
+
+                                                                            Page 66 of 67
+
+
+ 84. In view of the above, it is deemed fit to issue advisory for addressing the
+    discrimination as noted above. Accordingly, an advisory under 
+Section
+    25(5)
+ of the RTI Act is issued to the Respondent Public Authority to
+    explore possibility of synchronising the issuance of notices simultaneously
+    to the deductee and as well as to the DDO concerned for an efficient and
+    early resolution by forcing both to file replies within the same timeframe.
+    This simple measure can help an honest salaried taxpayer who doesn't
+    receive TDS credit because of the default of the DDO (deductor) which
+    leads to a tax demand against them and ultimately making them suffer
+    hardships and mental agony. In pursuance of the aforesaid advisory, the
+    CPIO is directed to place a copy of this order before their competent
+    authority for taking necessary action.
+
+
+
+                    The Complaints are disposed off accordingly.
+
+
+
+                                    Vinod Kumar Tiwari (विनोद कुमार वििारी)
+                                   Information Commissioner (सूचना आयुक्त)
+Authenticated true copy
+(अनिप्रमानणत सत्यानित प्रनत)
+
+(S. Anantharaman)
+Dy. Registrar
+011- 26181927
+Date
+
+Copy To:
+
+The FAA,
+Office of the Joint Commissioner
+of Income Tax (TDS), No. 2,
+V P Rathinasamy Nadar Road,
+CR Building, Bibikulam, Madurai - 625002
+
+
+
+
+
+                                                                    Page 67 of 67
+
+                                    Recomendation(s) to PA under 
+section 25(5)
+ of the RTI Act, 2005:-
+
+
+
+                                   1. Any other recommendation(s) to secure compliance with the provisions of the 
+RTI Act, 2005
+-
+
+ 
+Section 25 (5)
+ of The RTI Act to explore possibility of synchronising the issuance of notices .....
+
+
+
+Powered by TCPDF (www.tcpdf.org)

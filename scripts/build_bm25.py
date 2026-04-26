@@ -22,8 +22,40 @@ log = logging.getLogger(__name__)
 STOPWORDS = set(stopwords.words('english'))
 
 def tokenize(text: str) -> list[str]:
-    tokens = text.lower().split()
-    return [t for t in tokens if t.isalpha() and t not in STOPWORDS]
+    """
+    Tokenize text while preserving section numbers like 8(1)(a), 8(1)a, 2(f), etc.
+    """
+    import re
+    # Normalize to lowercase
+    text = text.lower()
+    
+    # Pattern for RTI section numbers and other alphanumeric codes
+    # This matches: 8(1)(a), 2(f), 4(1)(b), 8(1)a, etc.
+    section_pattern = re.compile(r'\b\d+\(?[\w\d]*\)?(?:\(?[\w\d]*\)?)*\b')
+    
+    # Extract section numbers first
+    sections = section_pattern.findall(text)
+    
+    # Remove symbols except those used in section numbers, then split
+    clean_text = re.sub(r'[^a-z0-9\(\)\[\]]', ' ', text)
+    tokens = clean_text.split()
+    
+    result = []
+    # Process tokens
+    for t in tokens:
+        # If it's in our pre-extracted sections, keep it
+        if t in sections or section_pattern.match(t):
+            result.append(t)
+            continue
+        
+        # Strip parentheses for normal word check
+        t_word = t.strip('()[]')
+        if len(t_word) > 1 and t_word.isalnum() and t_word not in STOPWORDS:
+            result.append(t_word)
+        elif t_word.isalpha() and t_word not in STOPWORDS:
+            result.append(t_word)
+
+    return list(set(result)) # Unique tokens
 
 engine = create_engine(DB_URL)
 

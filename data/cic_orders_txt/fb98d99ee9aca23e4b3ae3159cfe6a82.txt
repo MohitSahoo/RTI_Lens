@@ -1,0 +1,772 @@
+[Cites 
+8
+, Cited by 
+0
+]
+
+
+
+
+Central Information Commission
+
+
+Samir Sardana vs Punjab National Bank on 5 November, 2021
+
+
+Author: 
+Suresh Chandra
+
+
+Bench: 
+Suresh Chandra
+
+
+                                        के   ीय सूचना आयोग
+                               Central Information Commission
+                                    बाबा गंगनाथ माग ,मुिनरका
+                                Baba Gangnath Marg, Munirka
+                                   नई  द ली, New Delhi - 110067
+
+िशकायत सं या / Complaint No. CIC/PNBNK/C/2019/660829
+
+Samir Sardana                                                ...िशकायतकता/Complainant
+
+                                          VERSUS
+                                           बनाम
+
+CPIO: Punjab National Bank,
+New Delhi.                                                   ... ितवादीगण /Respondents
+
+Relevant dates emerging from the complaint:
+
+RTI : 15.10.2019                 FA     : 23.12.2019              Complaint : 26.12.2019
+
+CPIO : No Reply                  FAO : No Order                   Hearing   : 28.09.2021
+
+
+                                           CORAM:
+                                     Hon'ble Commissioner
+                                   SHRI SURESH CHANDRA
+                                          ORDER
+
+                                         (03.10.2021)
+
+
+1.          The issues under consideration i.e. the reliefs sought by the complainant in his
+complaint dated 26.12.2019 due to alleged non-supply of information vide his RTI
+application dated 15.10.2019 are as under:-
+
+     (i)       Impose maximum Penalty, on the PIO under 
+Section 20(1)
+, of the RTI
+               Act,2005;
+
+     (ii)      Dismissal of the PIO (under the Ministry of Finance Rules and the Code of
+               Conduct for Bank staff and other officers laid down by the Ministry of Finance)
+               for illegal and mala fide action, and also under the Punjab National Bank
+               Service Rules- which has several provisions for the same;
+
+                                                                                      Page 1 of 17
+
+
+      (iii)    Administrative action and/strictures, against the PIO (under 
+Section 20(2)
+, of
+              the RTI Act,2005, and also under the Punjab National Bank service rules which
+              has several provisions for the same;
+
+     (iv)     Recommendation to the Ministry of Finance for administrative action
+              and/strictures, against the PIO;
+
+     (v)      Direct the Respondents to refund the Application fee paid by Complainant
+              while submitting RTI Application, as per section (7)(6) of the 
+RTI Act
+;
+
+     (vi)     Invoke its powers under the 
+RTI Act
+ to issue any other direction or
+              recommendation as it may deem appropriate;
+
+     (vii) Direct the public authority to make entry in Service Book/Annual Performance
+              Appraisal Report of the Respondents for defying the provisions of the Act
+              (under the Punjab National Bank Service Rules- which has several provisions
+              for the same);
+
+     (viii) Compensate the Complainant.
+
+2.         Succinctly facts of the case are that the complainant filed an application dated
+15.10.2019 under the 
+Right to Information Act, 2005
+ 
+(RTI Act
+) before the Central Public
+Information Officer (CPIO), Punjab National Bank, New Delhi, seeking information
+which is reproduced as under:
+
+"The following information was sought from the CPIO of the bank with respect to the
+bank operation in the MUDRA scheme:
+
+     (i) NPAs
+              • NPA in the 3 categories (Shishu, Kishor and Tarun) of Mudra loans o/s as
+                 at March 31, 2019, in terms of number and amount
+                    o PIO to confirm that the list of NPA Accounts by name and value and
+                       geography is available in electronic format
+              • W.r.t. the above NPA loans in each of the 3 categories, the ageing in terms
+                 of the number of years for which the accounts are NPA (as at March 31,
+                 2019) - by number and value
+
+
+                                                                                    Page 2 of 17
+
+       o Less than 1 year
+      o 1 - 2 years
+      o 2-3 years
+      o 3-4 years
+• W.r.t. the above NPA loans in each of the 3 categories, the nature for the
+   accounts which are NPA (as at March 31, 2019) by number and value
+      o Male and Female
+      o Minorities and Non-Minorities
+      o SC-ST and General
+      o OBC and General
+• W.r.t. the above NPA loans (as at March 31, 2019) in each of the above said
+   3 categories, the ageing in terms of the number of years, from when the loan
+   was "sanctioned" (as opposed to when the loan became an NPA in point 2
+   above)
+      o FY 2015
+      o FY 2016
+      o FY 2017
+      o FY 2018
+      o FY 2019
+• W.r.t. the above NPA loans (as at March 31, 2019) in each of the 3
+   categories, the state wise distribution of the NPA is sought for the Top 15
+   states by value and number of NPA accounts separately for the Bank
+• W.r.t. the above NPA loans (as at March 31, 2019) in each of the 3
+   categories, the district wise distribution of the NPA is sought for the Top 15
+   districts by value and number of NPA accounts separately for the Bank
+• PIO to confirm that the eligibility condition for the Mudra loans excludes
+   previous defaulters, from the bank within a particular time period or for a
+   time period
+      o In addition, if Yes, the PIO to provide the name of the technology
+         system and platform used to verify and authenticate the same
+
+                                                                      Page 3 of 17
+
+ • PIO to confirm that the eligibility condition for the Mudra loans excludes previous
+       borrowers of Mudra loans from the bank within a particular time period or for a
+       time period
+                o In addition, If Yes, the PIO to provide the name of the technology
+                     system and platform used to verify and authenticate the same
+• PIO to confirm that the eligibility condition for the Mudra loans excludes previous
+       borrowers of Mudra loans from other banks within a particular time period or for
+       a time period
+                o In, addition, If Yes, the PIO to provide the name of the technology
+                     system and platform used to verify and authenticate the same
+• PIO to confirm that the eligibility condition for the Mudra loans excludes previous
+       other borrowers of Mudra loans from the bank with the same address as the
+       proposed borrower, within a particular time period or for a time period
+                o In addition, if yes, the PIO to provide the name of the technology
+                     system and platform used to verify and authenticate the same
+
+(ii)     Disbursals
+• PIO to provide the aggregate of the loan disbursals (on all India basis) in the 3
+       categories (Shishu, Kishor and Tarun) of Mudra loans for the last 4 financial
+       years, in terms of number and amount
+• PIO to provide the aggregate of the loan disbursals (for the top 10 states by value
+       and number of borrowers) in the 3 categories (Shishu, Kishor and Tarun) of
+       Mudra loans for the last 4 financial years, in terms of number and amount
+• PIO to provide the aggregate of the loan disbursals (for the top 20 districts by
+       value and number of borrowers) in the 3 categories (Shishu, Kishor and Tarun) of
+       Mudra loans for the last 3 financial years, in terms of number and amount
+• PIO to confirm that the disbursal of Shishu loans are made on outright basis or on
+       re-imbursement node or direct payments to suppliers/vendors
+                o If on outright basis, PIO to confirm that the borrower has to provide
+                     proof of expenditure on self attestation basis or on declaration and/or
+                     certification
+
+                                                                                  Page 4 of 17
+
+            o PIO to provide the number of loan accounts for which the Bank has
+              no proof of expenditure
+           o PIO to provide the number of loan accounts for which the Bank has
+              no self attested/certified proof of expenditure
+           o PIO to provide the number of loan accounts for which the Bank has
+              no 3rd party attested/certified proof of expenditure
+• PIO to confirm that the disbursal of Kishor loans are made on outright basis or
+   on re-imbursement node or direct payments to suppliers/vendors
+      o If on outright basis, PIO to confirm that the borrower has to provide proof
+         of expenditure on self attestation basis or on declaration and/or
+         certification
+      o PIO to provide the number of loan accounts for which the bank has no
+         proof of expenditure
+      o PIO to provide the number of loan accounts for which the bank has no self
+         attested/certified proof of expenditure
+      o PIO to provide the number of loan accounts for which the bank has no 3rd
+         party attested/certified proof of expenditure
+• PIO to confirm that the disbursal of Tarun loans are made on outright basis or on
+   re-imbursement node or direct payments to suppliers/vendors
+      o If on outright basis, PIO to confirm that the borrower has to provide proof
+         of expenditure on self attestation basis or on declaration and/or
+         certification
+      o PIO to provide the number of loan accounts for which the bank has no
+         proof of expenditure
+      o PIO to provide the number of loan accounts for which the bank has no self
+         attested/certified proof of expenditure
+      o PIO to provide the number of loan accounts for which the bank has no 3rd
+         party attested/certified proof of expenditure.
+
+
+
+                                                                         Page 5 of 17
+
+
+ (iii)        Tarun and Kishor Loans
+ • W.r.t the Tarun and Kishor loans, separately, the PIO to provide the details of the
+        number and value of loans o/s as at March 31, 2019, provided to 1st time
+        entrepreneurs for each sector (as the sector of application of loan would be stated
+        in the application form and the Project Report)
+ • W.r.t the Tarun and Kishor loans, separately, the PIO to provide the details of the
+        number and value of loans o/s as at March 31, 2019, provided to Existing
+        Businesses of entrepreneurs for each sector (as the sector of application of loan
+        would be stated in the application form and the Project Report)
+ • W.r.t the NPA accounts related to Tarun and Kishor loans, separately, the PIO to
+        provide the details of the number and value of loans o/s as at March 31, 2019,
+        provided to 1st time entrepreneurs
+ • W.r.t the NPA accounts related to Tarun and Kishor loans, separately, the PIO to
+        provide the details of the number and value of loans o/s as at March 31, 2019,
+        provided to the existing business of entrepreneurs
+ • W.r.t the Loan accounts related to Tarun and Kishor loans for 1st time
+        entrepreneurs, separately, the PIO to provide the details of the number and value
+        of loans o/s ,as at March 31, 2019, provided for the following purposes, as
+        sanctioned and/or disbursed
+           o Working Capital
+           o Asset Creation
+           o Operating Expense
+           o Refinancing Interest
+           o Marketing Expense
+           o Maintenance costs
+           o Offset Losses and Write Offs
+• W.r.t the Loan accounts related to Tarun and Kishor loans for existing businesses
+    of entrepreneurs, separately, the PIO to provide the details of the number and
+    value of loans o/s as at March 31, 2019, provided for the following purposes, as
+    sanctioned and/or disbursed
+
+                                                                                 Page 6 of 17
+
+           o Working Capital
+          o Asset Creation
+          o Operating Expense
+          o Refinancing Interest
+          o Marketing Expense
+          o Maintenance costs
+          o Offset Losses and Write Offs
+
+(iv)         Proof of expenditure
+• PIO to confirm w.r.t the aggregate NPA loans o/s (by value) in each of the 3 loan
+       categories (Shishu, Kishor and Tarun), as at March 31,2019, the following
+       information
+          o Value of disbursals for which there is no proof of expenditure at all
+          o Value of disbursals for which there is proof of expenditure in terms of self
+             certification only
+          o Value of disbursals for which there is proof of expenditure in terms of 3rd
+             party certification only
+          o Value of disbursals for which there is proof of expenditure in terms of bills
+             and invoices only
+
+
+
+(v) Wilful defaulters and suits filed or recovery initiated cases
+• PIO to provide w.r.t the aggregate MUDRA loans o/s (by value and number) in
+       the 3 loan categories (Shishu, Kishor and Tarun),as at March 31, 2019, declared
+       by the bank as wilful defaulters
+• PIO to provide w.r.t the aggregate MUDRA loans o/s (by value and number) in
+       the 3 loan categories (Shishu, Kishor and Tarun), as at March 31, 2019, w.r.t
+       which the bank has initiated recovery proceedings of any sort
+
+(vi)         Technology/ERP Platforms
+         • W.r.t the MUDRA loan disbursals made by the Bank, the PIO is to confirm
+             the following :
+
+
+
+                                                                               Page 7 of 17
+
+
+              o That Each loan account is entered into the Bank's Databases and
+                ERP with the name of borrower, address, type of loan and loan
+                account number
+             o PIO to provide a sample copy of the Data entry format used to make
+                the loan disbursal entry into the Bank ERP and Bank IT Databases
+                for each of the 3 Mudra loan types
+        • W.r.t. the 3 types of Mudra Loans disbursed by the bank, the PIO is to
+          provide the following data
+                o A screen shot of 3 sample loan accounts of the 3 types of loan
+                   accounts as displayed in the loans or borrower module /section of
+                   the Banks ERP/IT databases/systems
+                o If the bank so desires - it can blank out the names of the borrower
+                   and the address of the borrower as also the photos of the
+                   borrowers
+
+(vii)     Banks and 3rd party services
+        • PIO to confirm that it provides assistance to MUDRA borrowers to fill in
+          the application and prepare a Tentative or Detailed Project Report
+             o If Yes, the PIO to provide 3 sample application forms and 3 Tentative
+                Project Reports which the bank assisted the MUDRA borrowers to
+                prepare in the 3 types of MUDRA loans
+        • PIO to confirm the number and value of MUDRA loans disbursed (in the
+          last 4 years in the aggregate) for cases wherein the MUDRA borrowers
+          used NGOs and other agencies to prepare the application form and the
+          Tentative or Detailed Project Report, as also, to complete other formalities
+          with the bank, for the sanction and disbursal of the MUDRA loan
+             o PIO to provide 3 sample application forms and 3 Tentative Project
+                Reports which the said NGOs and other agencies, assisted the
+                MUDRA borrowers to prepare, in the 3 types of MUDRA loans
+
+
+
+
+
+                                                                            Page 8 of 17
+
+
+ (viii)      Repeat borrowers
+         • PIO to confirm w.r.t the aggregate loans o/s (by value) in the 3 loan
+            categories(Shishu, Kishor and Tarun),as at March 31, 2019, the following
+            information
+                 o Number and value of loans to repeat borrowers who made no loan
+                    defaults
+                 o Number and value of loans to repeat borrowers who made some loan
+                    defaults
+
+(ix)        Procedures
+         • PIO to provide the loan application form and Project Report format and
+            disbursal guidelines w.r.t the Shishu, Tarun and Kishor loans - and direct
+            the applicant if the said information is available on an authentic mode, on a
+            GOI portal on the web
+
+(x) Statistics
+         • PIO to confirm that it has information w.r.t the aggregate number of
+            MUDRA enterprise units in operation in various districts of India, as at
+            March 31, 2019, even on a deductive basis (id.est., assuming that the Non-
+
+
+            NPAs are operational enterprise units)
+
+(xi)        Audits and inspections
+         • PIO to confirm that the Bank has carried out or funded the audit of the
+            sanctions and disbursals of MUDRA loans by the Bank , at any time in the
+            last 5 years
+                 o If Yes, the nature, year, scope of audit and name of audit agency
+                 o If Yes, the PIO to confirm that it has a copy of the said audit reports
+                    and that they are in e-format
+                 o If Not, the bank to provide the name of the Public Authority which has
+                    the information w.r.t the said audit, if any, carried out
+         • PIO to confirm that the CAG has carried out the audit of the sanctions and
+            disbursals of MUDRA loans by the Bank, at any time in the last 5 years
+                 o If Yes, the nature, year, scope of audit and name of audit agency
+
+                                                                                Page 9 of 17
+
+                     o If Yes, the PIO to confirm that the Bank has a copy of the said audit
+                       reports and that they are in e-format
+              • PIO to confirm that the Bank or the disbursing bankers have used any
+                 agency or statistician to ascertain the end use of the Mudra loans in any
+                 geography in the last 5 years
+                    o If Yes, the nature, year, scope of assignment and name of agency
+                    o If Yes, the PIO to confirm that it has a copy of the said analytical or
+                       statistical reports and that they are in e-format
+                    o If Not, the Bank to provide the name of the Public Authority which
+                       has the information w.r.t the said analysis, if any, carried out
+
+     (xii)       Credit insurance
+              • PIO to confirm the aggregate credit insurance cover taken by the Bank w.r.t
+                 the o/s MUDRA loans as at March 31, 2019
+
+     (xiii)      Case studies and sample credit cases
+              • PIO to confirm that the Bank has made case studies on varied enterprise
+                 business models for each district or other geography of India, along with tie
+                 ups with suppliers, vendors, training companies and video and audio kits for
+                 the same
+                    o If Yes, PIO to confirm that all the said data is in e-format
+
+If Yes, PIO to confirm that all the said data is available on the web on an authenticated
+source of the GOI"
+
+
+
+        The CPIO did not give any reply. Dissatisfied with the same, the complainant filed
+first appeal dated 23.12.2019. The complainant without waiting for the order of the FAA
+filed a complaint dated 26.12.2019 before the Commission which is under consideration.
+
+
+
+3.       The complainant has filed the instant complaint dated 26.12.2019 inter alia on the
+grounds that the CPIO did not give any reply to the RTI application which was deemed
+rejection under 
+section 7 (2)
+ of the RTI Act. The complainant requested the Commission
+to to take necessary action as per 
+Section 20 (1)
+ of the RTI Act.
+
+
+
+                                                                                     Page 10 of 17
+
+
+ 4.     As per the records submitted by the complainant for filing of complaint dated
+26.12.2019, it was revealed that the CPIO as well as the FAA did not give any reply or
+information.
+
+
+
+Hearing on 17.08.2021
+
+4.1.   The complainant and on behalf of the respondent Shri Ashok Kumar Mishra,
+CPIO and Deputy General Manager and Shri Jaseem Siddiqui, Chief Manager(Law),
+Punjab National Bank, Delhi, attended the hearing through video conference.
+
+
+
+Interim order dated 31.08.2021
+
+4.2.   The Commission has passed the following observations and directions on
+31.08.2021
+
+       "6.5 The Commission after adverting to the facts and circumstances of the case,
+       hearing both the parties and perusal of records, observed that no reply was given by
+       the respondent in response to the RTI application dated 15.10.2019 so far in spite of
+       almost two years having elapsed from the date of filing the RTI application. Further,
+       perusal of the records including the dispatch details revealed that the hearing notice
+       for the hearing of the instant complaint was dispatched on 20.07.2021. However, the
+       respondent made no efforts to obtain a copy of the RTI application from either the
+       complainant, the web portal of the CIC or the Registry of this Bench. This reflects
+       their casual and callous attitude towards both the 
+RTI Act
+ as well as the Commission.
+       In view of the above, Shri Ashok Kumar Mishra, present CPIO and the then CPIO (as
+       on 15.10.2019) are show caused as to why penalty as per 
+section 20 (1)
+ of the RTI
+       Act may not be imposed upon each of them for not responding to the RTI application
+       within stipulated time. Shri Ashok Kumar Mishra is given the responsibility to serve a
+       copy of this order upon the then CPIO and secure his written explanations as well as
+       his attendance on the next date of hearing i.e. on 28.09.2021. All written submissions
+       must be uploaded on the Commission's web portal within 21 days. The matter is
+       posted to 28.09.2021."
+
+
+
+                                                                                 Page 11 of 17
+
+
+ Hearing on 28.09.2021
+
+
+5.      The complainant attended the hearing through video conference and on behalf of
+the respondent Shri Ashok Kumar Mishra, Dy. General Manager & CPIO, Shri S.S.
+Yadav, Retired Dy. General Manager, Shri Sudhir Sharma, Retd. Dy. General Manager,
+Shri Jaseem Siddiqui, Chief Manager-Law, Shri Kunal Chauhan, Law Officer, Punjab
+Nation Bank, New Delhi attended the hearing in person.
+
+
+
+5.1.    The complainant inter alia submitted that he had received CPIO's reply dated
+20.09.2021, but the same as incomplete and evasive. He further submitted that most of
+the information sought was denied on the pretext of 
+section 2 (f)
+ and 
+7 (9)
+ of the RTI
+Act. He alleged that the respondent failed to provide specific reasons or rationale while
+refusing the information. The complainant further submitted that the respondent had not
+provided complete information within the stipulated time. The complainant argued that
+the information was sought in the interest of transparency, accountability and larger
+public interest. Therefore, the same should have been provided within the stipulated
+time. Accordingly, he requested the Commission to impose maximum penalty on the
+concerned CPIO for providing mala fide, incomplete and evasive delayed reply and
+direct the respondent to provide complete information.
+5.2.    The respondent while defending their case inter alia submitted that RTI
+application as well as the first appeal was not received by them, hence, reply to the same
+could not be given within the stipulated time. However, in compliance of the order dated
+31.08.2021 of the Commission, they had obtained the RTI application and relevant
+documents from the Commission and provided point-wise information/reply to the
+complainant vide letter dated 20.09.2021 and the same is produced as under:-
+
+
+
+"NPA in the 3 categories (Shishu, Kishor and Tarun)
+      Copy enclosed as Annexure 1
+      The query raised is not "information" under Right to Information act 2005.
+
+
+
+                                                                               Page 12 of 17
+
+
+ Disbursals
+
+   Copy enclosed as Annexure A.
+   The query raised is not "Information" under Right to Information act 2005.
+   Information asked is not available in the record in the form and format it is asked
+     and compilation of the same will divert the resources of the bank
+     disproportionately. Hence cannot provide under 
+section 7(9)
+ of the Right to
+     Information Act, 2005.
+
+   The query raised is not "Information" under Right to Information act 2005.
+   Information asked is not available in the record in the form and format it is asked
+     and compilation of the same will divert the resources of the bank
+     disproportionately. Hence cannot provide under 
+section 7(9)
+ of the Right to
+     Information Act, 2005.
+
+   The query raised is not "Information" under Right to Information act 2005.
+   Information asked is not available in the record in the form and format it is asked
+     and compilation of the same will divert the resources of the bank
+     disproportionately. Hence cannot provide under 
+section 7(9)
+ of the Right to
+     Information Act, 2005.
+
+
+
+Tarun and Kishor loans
+
+   Query raised is not clear and vague.
+
+   Information asked is not available in the record in the form and format it is asked
+     and compilation of the same will divert the resources of the bank
+     disproportionately. Hence cannot provide under 
+section 7(9)
+ of the Right to
+     Information Act, 2005.
+
+   Information sought is enclosed as Annexure B.
+   For rest of categories Information asked is not available in the record in the form
+     and format it is asked and RTI act does not require the CPIO to create
+     information. Moreover compilation of the same will divert the resources of the
+     bank disproportionately. Hence cannot provide under 
+section 7(9)
+ of the Right to
+     Information Act, 2005.
+
+                                                                            Page 13 of 17
+
+
+ Proof of expenditure
+
+    Information asked is not available in the record in the form and format it is asked
+      and RTI act does not require the CPIO to create information. Moreover
+      compilation of the same will divert the resources of the bank disproportionately.
+      Hence cannot provide under 
+section 7(9)
+ of the Right to Information Act, 2005.
+
+
+
+Wilful Defaulters and Suits Filed or Recovery initiated cases
+
+    No such information available on record.
+
+
+
+Technology/ ERP Platforms
+
+    The query raised is not "Information" under Right to Information act 2005.
+    Bank unified software for retail as well as MSME loan. There is no specific
+      specimen for mudra loan.
+
+    Information asked is not available in the record in the form and format it is asked
+      and RTI act does not require the CPIO to create information. Moreover
+      compilation of the same will divert the resources of the bank disproportionately.
+      Hence cannot provide under 
+section 7(9)
+ of the Right to Information Act, 2005.
+
+
+
+Banks and 3rd party services
+
+    The query raised is not "Information" under Right to Information act 2005.
+    No such information held on record.
+
+
+
+Repeat Borrowers
+
+    The query raised is not "Information" under Right to Information act 2005.
+
+
+
+Procedures
+
+    Application form for MUDRA loan is enclosed. Project report is submitted by
+      applicant as per proposed activity.
+
+
+
+                                                                             Page 14 of 17
+
+
+ Statistics
+
+      All the data regarding Mudra Loan sanction, disbursement, outstanding, NPA are
+        being uploaded by banks on website. www.mudra.org.in on periodic basis as per
+        Government guidelines. We have already uploaded above data till 31.03.2021 on
+        above mentioned website.
+
+
+
+Audits and Inspections
+
+      The query raised is not "Information" under Right to Information act 2005.
+
+
+
+Credit Insurance
+
+      No aggregate insurance is being taken by the bank for credit facility. However
+        every credit facility where asset is hypothecated to bank is to be insured
+        comprehensively as per bank clause.
+
+
+
+Case Studies and Sample Credit cases
+
+      The query raised is not "Information" under Right to Information act 2005."
+
+Further, they tendered unconditional apology for the inconvenience caused to the
+complainant as well as the Commission. It was stated that they had full faith and regard
+for the Commission and had no intention what-so-ever to show any kind of disrespect or
+willful disobedience towards the Hon'ble Commission. They stated that written
+explanations of both the CPIOs in response to the show cause notices were submitted on
+web portal of the Commission. They stated that they had acted in good faith without
+having any mala fide and accordingly requested the Commission to drop the penalty
+proceedings.
+
+
+
+6.      The Commission after adverting to the facts and circumstances of the case, hearing
+both the parties and perusal of records, observed that point-wise information/reply was
+given by the respondent vide letter dated 20.09.2021. The respondent during the course
+of hearing submitted that the RTI application as well as the first appeal was not received
+by them, hence, reply to the same could not be given within the stipulated time. The
+
+
+                                                                               Page 15 of 17
+
+ respondent have submitted detailed written explanations in response to the show cause
+notices. It was also submitted that most of the information sought by the complainant was
+not specific, definite, inquiry form and it was not maintained by the respondent bank in the
+form it was sought. Hence, they expressed their inability to provide the information under
+
+section 2 (f)
+ and 
+section 7 (9)
+ of the RTI Act. It appears that there was no mala fide on part
+of the respondent and there was no conscious or deliberate attempt to withhold the
+information sought by the appellant. The High Court of Delhi in the decision of Col.
+
+
+
+Rajendra Singh v. Central Information Commission and Anr. WP (C
+) 5469 of 2008
+dated 20.03.2009 had observed as under:
+
+
+
+
+        "
+Section 20
+, no doubt empowers the CIC to take penal action and direct payment of
+        such compensation or penalty as is warranted. Yet the Commission has to be satisfied
+        that the delay occurred was without reasonable cause or the request was denied
+        malafidely.
+
+
+
+......The preceding discussion shows that at least in the opinion of this Court, there are no
+allegations to establish that the information was withheld malafide or unduly delayed so as
+to lead to an inference that petitioner was responsible for unreasonably withholding it."
+
+
+
+Further, in view of the above it is observed that the respondent explained the delay which is
+reasonable and in the absence of any mala fide on part of the respondent, it would not be
+appropriate to impose a penalty on them. Accordingly, the Show Cause Notice issued to
+Shri Ashok Kumar Mishra, present CPIO and the then CPIO (as on 15.10.2019), are
+hereby dropped. With the aforementioned observations, the complaint is rejected.
+
+        Copy of the decision be provided free of cost to the parties.
+
+
+
+                                                                                      Sd/-
+
+                                                              (Suresh Chandra) (सुरेश चं ा)
+                                                                                         ा)
+                                                 Information Commissioner (सूचना आयु )
+                                                                दनांक/Date: 03.11.2021
+Authenticated true copy
+
+
+                    आर. सीताराम मूत )
+R. Sitarama Murthy (आर.
+
+
+
+                                                                                   Page 16 of 17
+
+
+ Dy. Registrar (उप पंजीयक)
+011-26181927((०११-२६१८१९२७)
+
+
+Addresses of the parties:
+
+CPIO :
+
+PUNJAB NATIONAL BANK
+MANAGEMENT AUDIT & REVIEW DIVISION
+(RIGHT TO INFORMATION CELL)
+2ND FLOOR, EAST WING (A), PLOT NO. 4,
+SECTOR - 10, DWARKA,
+HO: NEW DELHI - 110 075
+
+THE FIRST APPELLATE AUTHORITY,
+PUNJAB NATIONAL BANK,
+MANAGEMENT AUDIT & REVIEW DIVISION
+(RIGHT TO INFORMATION CELL)
+2ND FLOOR, EAST WING (A),
+PLOT NO. 4, SECTOR - 10, DWARKA,
+HO: NEW DELHI -110 075
+
+
+CPIO : 1. SH. ASHOK KUMAR MISHRA
+PUNJAB NATIONAL BANK, MANAGEMENT
+AUDIT & REVIEW DIVISION (RIGHT TO
+INFORMATION CELL) 2ND FLOOR, EAST
+WING (A), PLOT NO. 4, SECTOR - 10,
+DWARKA, HO: NEW DELHI - 110 075
+
+
+
+2. SH. ASHOK KUMAR MISHRA (C.P.I.O)
+PUNJAB NATIONAL BANK, MANAGEMENT
+AUDIT & REVIEW DIVISION (RIGHT TO
+INFORMATION CELL) 2ND FLOOR, EAST
+WING (A), PLOT NO. 4, SECTOR - 10,
+DWARKA, HO: NEW DELHI - 110 075 (FOR
+FORWARDING TO THE THEN C.P.I.O AS ON
+15-10-2019)
+
+SH SAMIR SARDANA
+
+
+
+
+
+                                        Page 17 of 17

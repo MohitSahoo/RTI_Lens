@@ -1,0 +1,70 @@
+{
+  "doc_name": "927a1072f7c49fa963dac049517d400e",
+  "line_count": 980,
+  "structure": [
+    {
+      "title": "Central Information Commission",
+      "node_id": "0001",
+      "line_num": 10
+    },
+    {
+      "title": "Central Information Commission",
+      "node_id": "0002",
+      "line_num": 18,
+      "nodes": [
+        {
+          "title": "Relevant facts emerging from complaint:",
+          "node_id": "0003",
+          "line_num": 43
+        },
+        {
+          "title": "Information sought",
+          "node_id": "0004",
+          "line_num": 52
+        },
+        {
+          "title": ":",
+          "node_id": "0005",
+          "line_num": 54
+        },
+        {
+          "title": "seeking the following information:",
+          "node_id": "0006",
+          "line_num": 58
+        }
+      ]
+    },
+    {
+      "title": "Singh Cs Central Information Commission & ors, AIC 284, 2008 page 284",
+      "node_id": "0007",
+      "line_num": 207,
+      "nodes": [
+        {
+          "title": "order dt 04.04.24 issued by the Supdt. Range-33, CGST, Rewari. In",
+          "node_id": "0008",
+          "line_num": 296
+        },
+        {
+          "title": "stating as under:",
+          "node_id": "0009",
+          "line_num": 494
+        },
+        {
+          "title": "Relevant Facts emerged during Hearing:",
+          "node_id": "0010",
+          "line_num": 839
+        },
+        {
+          "title": "Decision",
+          "node_id": "0011",
+          "line_num": 891
+        },
+        {
+          "title": "Copy To:",
+          "node_id": "0012",
+          "line_num": 949
+        }
+      ]
+    }
+  ]
+}

@@ -230,6 +230,11 @@ def ingest():
         appeal_level = extract_appeal_level(raw_text)
         ministry_id  = resolve_ministry(raw_text, session)
 
+        if ministry_id is None:
+            log.warning(f"Could not resolve ministry for order: {order_number}")
+            failed += 1
+            continue
+
         # Skip duplicate order numbers
         existing = session.execute(
             text("SELECT id FROM cases WHERE order_number = :order_number"),

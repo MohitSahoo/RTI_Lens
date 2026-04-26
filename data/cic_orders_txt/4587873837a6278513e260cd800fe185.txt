@@ -1,0 +1,809 @@
+[Cites 
+17
+, Cited by 
+1
+]
+
+
+
+
+Central Information Commission
+
+
+Radha Raman Tripathy vs Prime Minister'S Office on 31 December, 2020
+
+
+                                  के न्द्रीयसूचनाआयोग
+                        Central Information Commission
+                               बाबागंगनाथमागग,मुननरका
+                        Baba Gangnath Marg, Munirka
+                          नईदिल्ली, New Delhi - 110067
+
+निकायत संख्या / Complaint Nos.
+
+
+ 1     CIC/PMOIN/C/2019/636254           19    CIC/PMOIN/C/2019/643489
+ 2     CIC/PMOIN/C/2019/636257           20    CIC/PMOIN/C/2019/643494
+ 3     CIC/PMOIN/C/2019/636258           21    CIC/PMOIN/C/2019/643495
+ 4     CIC/PMOIN/C/2019/636271           22    CIC/PMOIN/C/2019/643497
+ 5     CIC/PMOIN/C/2019/636272           23    CIC/PMOIN/C/2019/643500
+ 6     CIC/PMOIN/C/2019/636273           24    CIC/PMOIN/C/2019/643502
+ 7     CIC/PMOIN/C/2019/636274           25    CIC/PMOIN/C/2019/643503
+ 8     CIC/PMOIN/C/2019/636276           26    CIC/PMOIN/C/2019/643504
+ 9     CIC/PMOIN/C/2019/636278           27    CIC/PMOIN/C/2019/643505
+ 10    CIC/PMOIN/C/2019/636280           28    CIC/PMOIN/C/2019/643506
+ 11    CIC/PMOIN/C/2019/636282           29    CIC/PMOIN/C/2019/643508
+ 12    CIC/PMOIN/C/2019/636283           30    CIC/PMOIN/C/2019/643509
+ 13    CIC/PMOIN/C/2019/636285           31    CIC/PMOIN/C/2019/643510
+ 14    CIC/PMOIN/C/2019/636287           32    CIC/PMOIN/C/2019/643511
+ 15    CIC/PMOIN/C/2019/636291           33    CIC/PMOIN/C/2019/643512
+ 16    CIC/PMOIN/C/2019/636294           34    CIC/PMOIN/C/2019/643513
+ 17    CIC/PMOIN/C/2019/636295           35    CIC/PMOIN/C/2019/643514
+ 18    CIC/PMOIN/C/2019/636296
+
+Shri Radha Raman Tripathy                            ... निकायतकताग/Complainant
+
+                                 VERSUS/बनाम
+
+CPIO/ Under Secretary, PMO                            ...प्रनतवािीगण /Respondent
+Prime Minister Office,
+New Delhi.
+Date of Hearing                     :   29.12.2020
+Date of Decision                    :   31.12.2020
+Chief Information Commissioner      :   Shri Y. K. Sinha
+
+
+
+
+                                                                      Page 1 of 12
+ Information sought
+ and background of the case:
+
+
+
+Since the queries raised in 34 RTI applications relate to action taken on his
+complaints, the matters are decided by the Commission by way of a common
+order. However, since Complaint no. 35 deals with a different set of queries
+it is decided separately.
+
+
+
+The Complainant vide following RTI applications sought information regarding
+action taken on his various complaints filed before the respondent public
+authority, the details of which are mentioned below:-
+
+
+
+S.No.                 Complaint
+                                                                   CIC
+        Case Nos.    dated before    RTI dated   CPIO Reply     Complaint
+                         PMO                                      Dated
+
+   1     636254     20.04.2018      30.01.2019   13.02.2019    16.03.2019
+   2     636257     28.06.2018      30.01.2019   13.02.2019    16.03.2019
+   3     636258     17.02.2018      30.01.2019   13.02.2019    16.03.2019
+   4     636271     05.08.2018      30.01.2019   13.02.2019    16.03.2019
+   5     636272     03.07.2018      30.01.2019   13.02.2019    16.03.2019
+   6     636273     07.06.2018      30.01.2019   13.02.2019    16.03.2019
+   7     636274     01.01.2018      30.01.2019   13.02.2019    16.03.2019
+   8     636276     20.07.2018      30.01.2019   13.02.2019    16.03.2019
+   9     636278     04.05.2018      30.01.2019   13.02.2019    16.03.2019
+  10     636280     19.04.2018      30.01.2019   13.02.2019    16.03.2019
+  11     636282     04.03.2018      30.01.2019   13.02.2019    16.03.2019
+  12     636283     18.05.2018      30.01.2019   13.02.2019    16.03.2019
+  13     636285     11.03.2018      30.01.2019   13.02.2019    16.03.2019
+  14     636287     04.03.2018      30.01.2019   13.02.2019    16.03.2019
+  15     636291     21.02.2018      30.01.2019   13.02.2019    16.03.2019
+  16     636294     01.08.2018      30.01.2019   13.02.2019    16.03.2019
+  17     636295     03.02.2018      30.01.2019   13.02.2019    16.03.2019
+  18     636296     12.05.2018      30.01.2019   13.02.2019    16.03.2019
+  19     643489     12.09.2012      10.05.2019   04.06.2019    19.06.2019
+  20     643494     19.08.2011      10.05.2019   04.06.2019    19.06.2019
+  21     643495     04.04.2018      10.05.2019   04.06.2019    19.06.2019
+  22     643497     05.02.2009      10.05.2019   04.06.2019    19.06.2019
+  23     643500     04.02.2009      10.05.2019   04.06.2019    19.06.2019
+  24     643502     06.09.2008      10.05.2019   04.06.2019    19.06.2019
+  25     643503     05.06.2008      10.05.2019   04.06.2019    19.06.2019
+  26     643504     23.05.2008      10.05.2019   04.06.2019    19.06.2019
+  27     643505     13.06.2007      10.05.2019   04.06.2019    19.06.2019
+
+
+
+                                                                    Page 2 of 12
+
+   28      643506      21.07.2007        10.05.2019    04.06.2019     19.06.2019
+  29      643508      25.11.2007        10.05.2019    04.06.2019     19.06.2019
+  30      643509      13.10.2007        10.05.2019    04.06.2019     19.06.2019
+  31      643510      02.10.2007        10.05.2019    04.06.2019     19.06.2019
+  32      643511      18.09.2007        10.05.2019    04.06.2019     19.06.2019
+  33      643512      05.06.2008        10.05.2019    04.06.2019     19.06.2019
+  34      643513      12.09.2007        10.05.2019    04.06.2019     19.06.2019
+
+
+
+The CPIO/Under Secretary, PMO vide letter dated 04.06.2019 replied as under -
+
+
+
+    "It has been observed that have filed a large number of RTI Applications with
+    this office. During the current year i.e. 2019 itself, so far 36 Application
+    under 
+RTI Act
+ have been received. A list of these RTI Applications is enclosed
+    herewith. Out of these, response to 18 applications has already been sent. It
+    has been observed that all applications filed by you are on the issue i.e.
+    complaint(s) filed by you in connection with 'delayed refunds by Officers of
+    ACIT Circle-3, Bokaro Steel City'................
+
+
+
+    ..........3. In the light of the above decisions, we have reached to a conclusion
+    to not to respond to your remaining 17 applications under 
+RTI Act
+. You are
+    also advised not to flood this Public Authority with RTI Applications on the
+    same matter involving no larger public interest."
+
+
+
+Furthermore, The CPIO/Under Secretary, PMO vide another letter dated
+13.02.2019 replied as under -
+
+
+
+    "..... It has been noted that all these RTI applications are of identical/similar
+    in nature. It is also noted that these RTI applications are on same issues,
+    with slightly altered words/requests..........................................................
+
+
+
+ 4. In view of the above, it may not be feasible for this office to respond all the
+ abovementioned RTI applications as these are versions of similar set of queries
+ repeated in each with slight variations of expression and phrases only ."
+
+
+
+Dissatisfied with the replies received from the CPIO, the Complainant filed the
+instant Complaints before the Commission seeking penal action against the CPIO.
+
+
+
+Facts emerging during the hearing
+
+A written submission has been received from the US and CPIO, PMO dated
+21.12.2020 wherein it was stated that responses were given to the Complainant
+vide their letters dated 13.02.2019, 19.03.2019 and 04.06.2019. In addition it
+was stated that the status of a grievance can be checked by a citizen on
+http://pgportal.gov.in/Status by using the registration number of his petition.
+Gist of the action taken by the authorities and the copy of the reply to the
+applicant is also uploaded on the portal. Further telephonic enquiries relating to
+the grievances may be made on Public Wing's facilitation number on working days
+
+
+
+                                                                           Page 3 of 12
+
+ and during working hours. Redressal of grievance in such cases is within the
+purview of the appropriate authority to which the grievance is forwarded.
+Therefore, the petitioner may seek the details of the follow up action on the
+petition from the concerned authority in the Ministry/ Department/ State
+Government to which the grievance has been forwarded. PG Portal (public
+interface- http://pgportal.in/Status also has a provision of display of the details
+(designation/ phone number. etc) of the concerned authority to which the
+grievance has been forwarded through CPGRAMS to enable the petitioner to
+pursue the matter. For other information, the applicant may also refer to the
+relevant FAQ on website of the office i.e., http://www.pmindia.gov.in- Right to
+Information (from drop down menu)- Frequently Asked Questions- FAQ relating to
+public grievance. Thus, the status and other details of the petitions are already
+accessible by the Petitioners on the online PG portal. Sufficient information
+relating to processing of the petitions received in the office has also been made
+available on the website of this office in the form of FAQ. Thus, there was no need
+to seek such information by petitioners through applications under the 
+RTI Act,
+2005
+.
+
+
+
+The Commission vide notice dated 08.12.2020 had fixed the hearing in all the
+matters under consideration herein through video conference. However, vide email
+dated 28.12.2020, the Complainant authorised Shri Varun Krishna to attend the
+hearing on his behalf, who vide email dated 28.12.2020 sought an opportunity of
+hearing over phone as he is not travelling outside due to prevalence of COVID-19.
+The Commission thus heard both the parties through audio conference.
+
+
+
+The Complainant's representative Shri Varun Krishna stated that incorrect and
+misleading response was provided by the CPIO in all these matters hence penal
+action should be initiated against him. He further stated that complaints
+mentioned in each RTI application were different and not on the same issues as
+mentioned in the replies of CPIO dated 13.02.2019 and 04.06.2019. However, a
+cyclostyled response denying the information was provided. Furthermore, the
+decision of the CPIO not to respond to the remaining RTI applications was against
+the provisions of the 
+RTI Act, 2005
+. He also stated that contrary to the stand of
+the CPIO, the issues raised are in the larger public interest as it relates to multiple
+issues including a bogus IT refunds scam amounting to Rs 30 Crores for the
+assessment years mentioned in the Complaints filed with PMO.
+
+
+
+The Respondent is represented by Shri Praveen Kumar, US, PMO through audio
+conference. While acknowledging that separate complaints were filed by the
+information seeker, he stated that the issues raised in all the complaints
+essentially revolved around the larger issue of delayed refunds processed by the
+officers of ACIT Circle-3, Bokaro Steel City. He thereafter stated that the matter
+pertains to redressal of grievance of the Complainant who is seeking action taken
+on complaints for which the CPGRAMS mechanism is already in existence. The
+Public Grievance mechanism within the PMO deals with several such complaints
+periodically and action taken is invariably intimated to all the complainants
+including the information seeker herein. In this context, he referred to the replies
+of CPIO dated 07.09.2018, 11.09.2018 and 27.02.2019 provided in reference to
+the RTI applications dated 27.08.2018, 28.08.2018 and 30.01.2018 respectively,
+
+
+
+                                                                             Page 4 of 12
+
+ wherein action taken on the complaints together with the copy of the forwarding
+note sent by the PMO to the Secretary, D/o Revenue was also provided to the
+Complainant. Thus, Shri Kumar stated that there is no malafide intention to deny
+the information and in case the Complainant was not in receipt of the ATR on his
+offline complaint he should have mentioned the same in the RTI application based
+on which an appropriate reply would have been provided to him. However, the
+Complainant resorted to filing multiple RTI applications on similar issues which
+pertain to the D/o Revenue resulting in disproportionate diversion of the
+resources of the Public Authority i.e. PMO and that instead of filing multiple
+applications, he could have filed a consolidated RTI application seeking details of
+action taken on all the complaints. In order to establish that grievance petitions
+are thoroughly examined at the appropriate level, Shri Kumar further referred to a
+response of D/o Revenue dated 14.05.2019 against a grievance petition filed by
+the Complainant where the details of the report submitted by PCIT Hazaribagh
+relating to the allegations levelled by the Complainant on the issue of bogus
+refunds was intimated.
+
+
+
+Decision:
+
+
+
+ 
+1. Keeping in view the facts and the submissions made by both the parties, the
+    Commission is of the considered opinion that no malafide can be attributed to
+    the conduct of the CPIO in the instant cases. The fact that the onus to
+    establish malafide or unreasonable conduct of the CPIO is on the
+    Complainant/ Appellant is no longer res integra. The Hon'ble Delhi High
+    Court in W.P.(C) 11271/2009 
+Registrar of Companies & Ors v. Dharmendra
+    Kumar Garg & Anr.
+ (delivered on: 01.06.2012) held as under:
+
+
+
+
+          " 61. Even if it were to be assumed for the sake of argument, that the view
+         taken by the learned Central Information Commissioner in the impugned
+         order was correct, and that the PIOs were obliged to provide the
+         information, which was otherwise retrievable by the querist by resort to
+         
+Section 610
+ of the Companies Act, it could not be said that the information
+         had been withheld malafide or deliberately without any reasonable cause.
+         It can happen that the PIO may genuinely and bonafidely entertain the
+         belief and hold the view that the information sought by the querist cannot
+         be provided for one or the other reasons. Merely because the CIC
+         eventually finds that the view taken by the PIO was not correct, it cannot
+         automatically lead to issuance of a showcause notice under 
+Section 20
+ of
+         the RTI Act and the imposition of penalty. The legislature has cautiously
+         provided that only in cases of malafides or unreasonable conduct, i.e.,
+         where the PIO, without reasonable cause refuses to receive the application,
+         or provide the information, or knowingly gives incorrect, incomplete or
+         misleading information or destroys the information, that the personal
+         penalty on the PIO can be imposed. This was certainly not one such case.
+         If the CIC starts imposing penalty on the PIOs in every other case, without
+         any justification, it would instill a sense of constant apprehension in those
+         functioning as PIOs in the public authorities, and would put undue
+         pressure on them. They would not be able to ful fill their statutory duties
+
+
+
+                                                                            Page 5 of 12
+
+        under the 
+RTI Act
+ with an independent mind and with objectivity. Such
+       consequences would not auger well for the future development and growth
+       of the regime that the 
+RTI Act
+ seeks to bring in, and may lead to skewed
+       and imbalanced decisions by the PIOs Appellate Authorities and the CIC. It
+       may even lead to unreasonable and absurd orders and bring the
+       institutions created by the 
+RTI Act
+ in disrepute."
+
+
+
+2. Similarly, the following observation of the Hon'ble Delhi High Court in 
+Bhagat
+   Singh v. CIC & Ors. WP(C
+) 3114/2007 are pertinent in this matter:
+
+
+
+
+      "17. This Court takes a serious note of the two year delay in releasing
+      information, the lack of adequate reasoning in the orders of the Public
+      Information Officer and the Appellate Authority and the lack of application of
+      mind in relation to the nature of information sought. The materials on record
+      clearly show the lackadaisical approach of the second and third respondent
+      in releasing the information sought. However, the Petitioner has not been
+      able to demonstrate that they malafidely denied the information
+      sought. Therefore, a direction to the Central Information Commission to
+      initiate action under 
+Section 20
+ of the Act, cannot be issued."
+
+
+
+3. Furthermore, the High Court of Delhi in the decision of Col. 
+Rajendra Singh v.
+   Central Information Commission and Anr. WP (C
+) 5469 of 2008 dated
+   20.03.2009 held as under:
+
+
+
+
+      "
+Section 20
+, no doubt empowers the CIC to take penal action and direct
+      payment of such compensation or penalty as is warranted. Yet the
+      Commission has to be satisfied that the delay occurred was without
+      reasonable cause or the request was denied malafidely.
+
+
+
+      ......The preceding discussion shows that at least in the opinion of
+      this Court, there are no allegations to establish that the information was
+      withheld malafide or unduly delayed so as to lead to an inference that
+      petitioner was responsible for unreasonably withholding it."
+
+
+
+4. The CPIO in its response dated 13.02.2019 and 04.06.2019 has cited several
+   decisions of Hon'ble Supreme Court, High Court of Delhi and the CIC in
+   
+CBSE vs Aditya Bandopadhyay and Ors
+ Civil Appeal NO 6454/2011 dated
+   09.08.2011; ICAI vs Shaunak H Satya (2011) 8 SCC 781; 
+Shail Sahni vs
+   Sanjeev Kumar, WP (C
+) 845/2014 and CIC/AD/A/2013/001046-SA dated
+   20.06.2014. The Commission agrees with the stand taken by the CPIO and
+   observes that instead of filing multiple RTI applications, the Complainant
+   could have filed a single consolidated application. Nonetheless, as stated by
+   the Respondent there exists an efficacious alternative grievance redressal
+   mechanism within the public authority where the action taken on his
+   grievance would be invariably informed to the Complainant.
+
+
+
+
+5. It is noteworthy that the issues raised by the Complainant pertain to the
+   officers working under the overall jurisdiction of D/o Revenue and not the
+   PMO. The PMO has forwarded his complaints in several matters to the
+
+
+
+
+                                                                          Page 6 of 12
+
+    relevant official/s and informed him about the action taken on his complaints
+   under RTI for issues which do not relate to the PMO.
+
+
+
+6. Even if the Commission were to reluctantly acknowledge that this is an
+   attempt on the Complainant's part to fight corruption, the means adopted by
+   him stifles and defeats the very purpose of the 
+RTI Act
+. In other words,
+   however noble the purpose of this vigorous attempt to bring about probity in
+   the functioning of the revenue authorities viz. D/o Revenue, IT department,
+   Bokaro and Hazaribagh would have been, the fact remains that the means
+   adopted by the Complainant by inundating the PMO with unrelated RTI cases
+   unfortunately only points to the ignorance of the Complainant about the
+   spirit of the 
+RTI Act
+. As much as a CPIO has a statutory responsibility of
+   complying with the provisions of the 
+RTI Act
+, it is also expected of the RTI
+   Applicant/s to not undermine the spirit of the 
+RTI Act
+ by clogging the system
+   with such a barrage of RTI applications, merely claiming that these are aimed
+   at combatting corruption.
+
+
+
+7. The   Supreme Court in 
+Advocate General, Bihar vs. M.P. Khair
+   Industries
+(AIR 1980 SC 946) has termed "....filing of frivolous and
+   vexatious petitions as abuse of the RTI process. Some of such abuses
+   specifically mentioned by the Apex Court include initiating or carrying on
+   proceedings which are wanting in bona-fides or which are frivolous, vexatious
+   or oppressive. The Apex Court also observed that in such cases the Court has
+   extensive alternative powers to prevent an abuse of its process by striking out
+   or staying proceedings or by prohibiting taking up further proceedings. ...."
+
+
+
+
+8. Furthermore, it is pertinent to note that the Apex Court had discussed the
+   issue in great detail in the case of 
+Ashok Kumar Pandey vs. The State of West
+   Bengal
+, (AIR 2003 SC 280 Para 11), where J.Pasayat had held:
+
+
+         ".........It is depressing to note that on account of such trumpery
+         proceedings initiated before the Courts, innumerable days are wasted,
+         which time otherwise could have been spent for the disposal of cases of the
+         genuine litigants. Though we spare no efforts in fostering and developing
+         the laudable concept of PIL and extending our long arm of sympathy to the
+         poor, the ignorant, the oppressed and the needy whose fundamental rights
+         are infringed and violated and whose grievances go unnoticed,
+         unrepresented and unheard; yet we cannot avoid but expressing our
+         opinion that while genuine litigants with legitimate grievances relating to
+         civil matters involving properties worth hundreds of millions of rupees and
+         criminal cases in which persons sentenced to death facing gallows under
+         untold agony and persons sentenced to life imprisonment and kept in
+         incarceration for long years, persons suffering from undue delay in service
+         matters, Government or private, persons awaiting the disposal of case... ...
+         ... etc. etc. are all standing in a long serpentine queue for years with the
+         fond hope of getting into the Courts and having their grievances redressed,
+         the busybodies, meddlesome interlopers, wayfarers or officious interveners
+         having absolutely no public interest except for personal gain or private
+         profit either of themselves or as proxy of others or for any other extraneous
+         motivation or for glare of publicity break the queue muffing their faces by
+
+
+                                                                                Page 7 of 12
+
+          wearing the mask of public interest litigation and get into the Courts by
+         filing vexatious and frivolous petitions and thus criminally waste the
+         valuable time of the Courts, as a result of which the queue standing
+         outside the doors of the Courts never moves, which piquant situation
+         creates frustration in the minds of the genuine litigants and resultantly
+         they lose faith in the administration of our judicial system..........."
+
+
+
+                                                                 Emphasis supplied
+
+
+9. The Hon'ble High Court of Madras in the case of Public Information Officer,
+   Registrar (Administration) Vs B Bharathi[WP No. 26781/2013 dated
+   17.09.2014] has also given its opinion about such vexatious litigation
+   crippling the public authorities and held as follows:
+
+
+
+          "...The action of the second respondent in sending numerous
+          complaints and representations and then following the same with
+          the RTI applications; that it cannot be the way to redress his
+          grievance; that he cannot overload a public authority and
+          divert its resources disproportionately while seeking
+          information and that the dispensation of information
+          should not occupy the majority of time and resource of any
+          public authority, as it would be against the larger public
+          interest....."
+
+                                                                 Emphasis supplied
+
+
+
+10. The Hon'ble Delhi High Court while deciding the case of 
+Shail Sahni vs.
+   Sanjeev Kumar &Ors. [W.P. (C
+) 845/2014] has observed that:
+
+
+          "........Consequently, this Court deems it appropriate to refuse toexercise
+          its writ jurisdiction. Accordingly, present petition is dismissed. This Court
+          is also of the view that misuse of the 
+RTI Act
+ has to be
+          appropriately dealt with, otherwise the public would lose faith and
+          confidence in this "sunshine Act". A beneficial Statute, when made a tool
+          for mischief and abuse must be checked in accordance
+          with law. ...................."
+
+                                                                Emphasis supplied
+
+
+
+11. In the matter of Rajni Maindiratta- Vs Directorate of Education (North West-
+   B) [W.P.(C) No. 7911/2015] the Hon'ble High Court of Delhi, vide its order
+   dated 08.10.2015 has held that:
+
+
+
+      "8. .....Though undoubtedly, the reason for seeking the information is
+      not required to be disclosed but when it is found that the process of the
+      law is being abused, the same become relevant. Neither the authorities
+      created under the 
+RTI Act
+ nor the Courts are helpless if witness the
+      provisions of law being abused and owe a duty to immediately put a
+      stop thereto..."
+
+
+
+                                                                                 Page 8 of 12
+
+
+ 12. The aforesaid dicta essentially prove that the misuse of 
+RTI Act
+ is a
+  well recognized problem and citizens such as the Complainant should
+  take note that their right to information is not absolute.
+
+
+
+13.   The Apex Court in a vital decision has categorically cautioned thus:
+
+          "...
+The RTI Act
+ provides access to all information that is available and
+          existing. This is clear from a combined reading of Section 3 and the
+          definitions of 'information' and 'right to information' under Clauses (f) and
+
+          (j) of 
+Section 2
+ of the Act. If a public authority has any information in the
+          form of data or analysed data, or abstracts, or statistics, an applicant may
+          access such information, subject to the exemptions in 
+Section 8
+ of the Act.
+
+ 
+But where the information sought is not a part of the record of a public
+          authority, and where such information is not required to be maintained
+          under any law or the rules or regulations of the public authority, the Act
+          does not cast an obligation upon the public authority, to collect or collate
+          such non-available information and then furnish it to an applicant. The
+          right to information is a fundamental right as enshrined in 
+Article 19
+ of the
+          Constitution of India. The Hon'ble Supreme Court has declared in a
+          plethora of cases that the most important value for the functioning of a
+          healthy and well-informed democracy is transparency. However it is
+          necessary to make a distinction in regard to information intended to bring
+          transparency, to improve accountability and to reduce corruption, falling
+          under 
+Section 4(1)(b)
+ and (c) and other information which may not have a
+          bearing on accountability or reducing corruption. The competent authorities
+          under the 
+RTI Act
+ will have to maintain a proper balance so that while
+          achieving transparency, the demand for information does not reach
+          unmanageable proportions affecting other public interests, which
+          include efficient operation of public authorities and government,
+          preservation of confidentiality of sensitive information and optimum use.."
+          (
+The Institute of Chartered Accountants of India Vs. Shaunak H.
+          Satya and Ors
+, A.I.R 2011 SC 3336).
+
+
+                                                               Emphasis supplied
+
+
+
+14. 
+In the other landmark judgement in the case of 
+Central Board of Secondary
+   Education &Anr. Vs. Aditya Bandopadhyay&Ors.
+, the Apex Court held as
+   follows:
+
+
+            "...
+The Act
+ seeks to bring about a balance between two conflicting
+            interests, as harmony between them is essential for preserving
+            democracy. One is to bring about transparency and accountability by
+            providing access to information under the control of public authorities.
+            The other is to ensure that the revelation of information, in
+            actual practice, does not conflict with other public interests
+            which include efficient operation of the governments, optimum
+            use of limited fiscal resources and preservation of confidentiality of
+            sensitive information. The preamble to the Act specifically states that
+            the object of the Act is to harmonise these two conflicting interest.
+            ...................................
+
+            37. The right to information is a cherished right. Information and right
+            to information are intended to be formidable tools in the hands of
+
+
+
+                                                                               Page 9 of 12
+
+                responsible citizens to fight corruption and to bring in transparency and
+               accountability............................. Indiscriminate and impractical
+               demands or directions under 
+RTI Act
+ for disclosure of all and
+               sundry      information              (unrelated     to   transparency   and
+               accountability in the functioning of public authorities and
+               eradication of corruption) would be counter-productive as it will
+               adversely affect the efficiency of the administration and result
+               in the executive getting bogged down with the non-productive
+               work of collecting and furnishing information. 
+The Act
+ should
+               not be allowed to be misused or abused, to become a tool to
+               obstruct the national development and integration, or to destroy
+               the peace, tranquility and harmony among its citizens. Nor should it be
+               converted into a tool of oppression or intimidation of honest officials
+               striving to do their duty. The nation does not want a scenario
+               where 75% of the staff of public authorities spends 75% of their
+               time in collecting and furnishing information to applicants
+               instead of discharging their regular duties..."
+
+                                                                          Emphasis supplied
+
+
+
+
+ 15. In the light of the above discussion and in view of the fact that the
+    Complainant could not establish malafide/ unreasonable conduct on the part
+    of the CPIO, the Complaints are thus dismissed.
+
+
+
+Information sought and background of the case:
+
+
+
+S.No.        Case Nos.           RTI dated           CPIO Reply         Complaint Dated
+
+35.             643514          27.05.2019           04.06.2019             19.06.2019
+
+                           (35) CIC/PMOIN/C/2019/643514
+
+
+The Complainant filed an RTI application seeking copies of 18 RTI applications
+filed on 31.01.2019 showing therein repetition of facts. This is in order to
+substantiate that the RTI applications do not deal with the same issue.
+
+
+
+The CPIO/Under Secretary, PMO vide letter dated 04.06.2019 replied to the RTI
+application as under -
+
+
+
+      "It has been observed that you have filed a large number of RTI Applications
+      with this office. During the current year i.e. 2019 itself, so far 36 Application
+      under 
+RTI Act
+ have been received. A list of these RTI Applications is enclosed
+      herewith. Out of these, response to 18 applications has already been sent. It
+      has been observed that all applications filed by you are on the issue i.e.
+      complaint(s) filed by you in connection with 'delayed refunds by Officers of
+      ACIT Circle-3, Bokaro Steel City'................
+
+
+
+                                                                                    Page 10 of 12
+
+
+     ..........3. In the light of the above decisions, we have reached to a conclusion
+    to not to respond to your remaining 17 applications under 
+RTI Act
+. You are
+    also advised not to flood this Public Authority with RTI Applications on the
+    same matter involving no larger public interest."
+
+
+
+Dissatisfied with the reply received from the CPIO, the Complainant filed the
+instant Complaint before the Commission seeking penal action against the CPIO.
+
+
+
+Facts emerging during the hearing
+
+The written submission sent by the CPIO and US, PMO dated 21.12.2020 in
+reference to the above order applies in the instant matter as well.
+
+
+
+The Complainant's representative Shri Varun Krishna participated in the hearing
+on being contacted on his telephone. He reiterated his contentions in the earlier
+34 matters and stated that incorrect and misleading response was provided by the
+CPIO hence penal action should be initiated against him.
+
+
+
+The Respondent is represented by Shri Praveen Kumar, US, PMO through audio
+conference who also requested the Commission to take into account his
+submissions in the earlier 34 matters for adjudication of this case.
+
+
+
+Decision
+
+Having heard both the parties and on perusal of the available records, the
+Commission observes that the detailed reasoning provided in Complaint No
+CIC/PMOIN/C/2019/643514 and others is squarely applicable in this matter as
+well. Besides, the queries are interrogative / interpretative in nature seeking the
+opinion of CPIO which is beyond the definition of information and right to
+information as per the 
+RTI Act, 2005
+. Moreover, the Complainant is seeking
+information on his own earlier RTI applications which should be available with
+him. 
+In this context, the Commission refers to the decision of Hon'ble High Court
+of Madras in PIO The Registrar Administration High Court of 
+Madras vs
+CICW.P.No.26781
+ of 2013 and M.P.No.1 of 2013, the relevant extract of which is
+as under:
+
+
+
+
+       "24. Insofar as query (iv) is concerned, we fail to understand as to how the
+       second respondent is entitled to justify his claim for seeking the copies of his
+       own complaints and appeals. It is needless to say that they are not the
+       information available within the knowledge of the petitioner; on the other
+       hand, admittedly, they are the documents of the second respondent himself,
+       and therefore, if he does not have copies of the same, he has to blame
+       himself and he cannot seek those details as a matter of right, thinking that
+       the High Court will preserve his frivolous applications as treasures/valuable
+       assets. Further, those documents cannot be brought under the definition
+       "information" as defined under 
+Section 2(f)
+ of the RTI Act. Therefore, we
+       reject the contention of the second respondent in this aspect."
+
+
+
+                                                                           Page 11 of 12
+
+
+   In the light of the abovementioned observations, the instant Complaint stands
+  dismissed accordingly.
+
+
+
+                                                        Y. K. Sinha (वाई. के . नसन्द्हा)
+                                   Chief Information Commissioner (मुख्य सूचना आयुक्त)
+
+
+Authenticated true copy
+(अभिप्रमाभित सत्याभित प्रभत)
+
+
+
+S. K. Chitkara (एस. के. चिटकारा)
+Dy. Registrar (उप-पंजीयक)
+011-26186535
+
+
+
+
+
+                                                                            Page 12 of 12

@@ -4,6 +4,7 @@ Pydantic schemas for request/response validation
 from pydantic import BaseModel, Field
 from typing import Optional, List
 from datetime import date
+from backend.enums import AppealLevel
 
 class QARequest(BaseModel):
     question: str = Field(..., min_length=10, max_length=500)
@@ -30,7 +31,7 @@ class DraftResponse(BaseModel):
 class PredictRequest(BaseModel):
     ministry: str
     section_cited: str
-    appeal_level: str
+    appeal_level: AppealLevel
     order_date: Optional[date] = None
     raw_text: str = Field(..., min_length=100)
 

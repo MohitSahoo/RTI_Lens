@@ -1,0 +1,789 @@
+{
+  "doc_name": "02a74f99cb51122df6c232353e5364ae",
+  "line_count": 3753,
+  "structure": [
+    {
+      "title": "Central Information Commission",
+      "node_id": "0001",
+      "line_num": 10
+    },
+    {
+      "title": "Central Information Commission",
+      "node_id": "0002",
+      "line_num": 18,
+      "nodes": [
+        {
+          "title": "Relevant facts emerging from complaint:",
+          "node_id": "0003",
+          "line_num": 93
+        },
+        {
+          "title": "Information sought",
+          "node_id": "0004",
+          "line_num": 104
+        },
+        {
+          "title": ":",
+          "node_id": "0005",
+          "line_num": 106
+        },
+        {
+          "title": "the following information:",
+          "node_id": "0006",
+          "line_num": 110
+        },
+        {
+          "title": "complaints/grievances lodged through hard physical copy such as per",
+          "node_id": "0007",
+          "line_num": 151
+        },
+        {
+          "title": "as under:",
+          "node_id": "0008",
+          "line_num": 176
+        },
+        {
+          "title": "Relevant facts emerging from complaint:",
+          "node_id": "0009",
+          "line_num": 194
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0010",
+          "line_num": 206
+        },
+        {
+          "title": "the following information:",
+          "node_id": "0011",
+          "line_num": 210
+        },
+        {
+          "title": "as under:",
+          "node_id": "0012",
+          "line_num": 257
+        },
+        {
+          "title": "Relevant facts emerging from complaint:",
+          "node_id": "0013",
+          "line_num": 276
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0014",
+          "line_num": 289
+        },
+        {
+          "title": "the following information:",
+          "node_id": "0015",
+          "line_num": 293
+        },
+        {
+          "title": "complaints/grievances lodged through hard physical copy such as per",
+          "node_id": "0016",
+          "line_num": 337
+        },
+        {
+          "title": "as under:",
+          "node_id": "0017",
+          "line_num": 359
+        },
+        {
+          "title": "Relevant facts emerging from complaint:",
+          "node_id": "0018",
+          "line_num": 381
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0019",
+          "line_num": 394
+        },
+        {
+          "title": "seeking the following information:",
+          "node_id": "0020",
+          "line_num": 398
+        },
+        {
+          "title": "complaints/grievances lodged through hard physical copy such as per",
+          "node_id": "0021",
+          "line_num": 442
+        },
+        {
+          "title": "as under:",
+          "node_id": "0022",
+          "line_num": 465
+        },
+        {
+          "title": "Relevant facts emerging from complaint:",
+          "node_id": "0023",
+          "line_num": 489
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0024",
+          "line_num": 504
+        },
+        {
+          "title": "seeking the following information:",
+          "node_id": "0025",
+          "line_num": 508
+        },
+        {
+          "title": "complaint as per (i).\"",
+          "node_id": "0026",
+          "line_num": 531
+        },
+        {
+          "title": "Relevant facts emerging from appeal:",
+          "node_id": "0027",
+          "line_num": 538
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0028",
+          "line_num": 550
+        },
+        {
+          "title": "following information:",
+          "node_id": "0029",
+          "line_num": 554
+        },
+        {
+          "title": "Relevant facts emerging from appeal:",
+          "node_id": "0030",
+          "line_num": 579
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0031",
+          "line_num": 592
+        },
+        {
+          "title": "the following information:",
+          "node_id": "0032",
+          "line_num": 596
+        },
+        {
+          "title": "Relevant facts emerging from appeal:",
+          "node_id": "0033",
+          "line_num": 648
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0034",
+          "line_num": 660
+        },
+        {
+          "title": "following information:",
+          "node_id": "0035",
+          "line_num": 664
+        },
+        {
+          "title": "Order on applicant's First Appeal dated 24th April, 2019, thereafter filed",
+          "node_id": "0036",
+          "line_num": 770
+        },
+        {
+          "title": "Order/ Letter of such Authorization.",
+          "node_id": "0037",
+          "line_num": 795
+        },
+        {
+          "title": "Relevant facts emerging from appeal:",
+          "node_id": "0038",
+          "line_num": 827
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0039",
+          "line_num": 843
+        },
+        {
+          "title": "the following information:",
+          "node_id": "0040",
+          "line_num": 847
+        },
+        {
+          "title": "Relevant facts emerging from appeal:",
+          "node_id": "0041",
+          "line_num": 900
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0042",
+          "line_num": 914
+        },
+        {
+          "title": "12.10.2022 seeking the following information:",
+          "node_id": "0043",
+          "line_num": 918
+        },
+        {
+          "title": "Relevant facts emerging from appeal:",
+          "node_id": "0044",
+          "line_num": 936
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0045",
+          "line_num": 948
+        },
+        {
+          "title": "following information:",
+          "node_id": "0046",
+          "line_num": 952
+        },
+        {
+          "title": "Relevant facts emerging from appeal:",
+          "node_id": "0047",
+          "line_num": 965
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0048",
+          "line_num": 979
+        },
+        {
+          "title": "following information:",
+          "node_id": "0049",
+          "line_num": 983
+        },
+        {
+          "title": "Relevant facts emerging from appeal:",
+          "node_id": "0050",
+          "line_num": 1076
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0051",
+          "line_num": 1088
+        },
+        {
+          "title": "following information:",
+          "node_id": "0052",
+          "line_num": 1092
+        },
+        {
+          "title": "Relevant facts emerging from appeal:",
+          "node_id": "0053",
+          "line_num": 1186
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0054",
+          "line_num": 1199
+        },
+        {
+          "title": "following information:",
+          "node_id": "0055",
+          "line_num": 1203
+        },
+        {
+          "title": "Relevant facts emerging from appeal:",
+          "node_id": "0056",
+          "line_num": 1294
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0057",
+          "line_num": 1306
+        },
+        {
+          "title": "following information:",
+          "node_id": "0058",
+          "line_num": 1310
+        },
+        {
+          "title": "Relevant facts emerging from appeal:",
+          "node_id": "0059",
+          "line_num": 1343
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0060",
+          "line_num": 1355
+        },
+        {
+          "title": "following information:",
+          "node_id": "0061",
+          "line_num": 1359
+        },
+        {
+          "title": "Relevant facts emerging from appeal:",
+          "node_id": "0062",
+          "line_num": 1379
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0063",
+          "line_num": 1391
+        },
+        {
+          "title": "following information:",
+          "node_id": "0064",
+          "line_num": 1395
+        },
+        {
+          "title": "Relevant facts emerging from appeal:",
+          "node_id": "0065",
+          "line_num": 1414
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0066",
+          "line_num": 1426
+        },
+        {
+          "title": "following information:",
+          "node_id": "0067",
+          "line_num": 1433
+        },
+        {
+          "title": "Relevant facts emerging from appeal:",
+          "node_id": "0068",
+          "line_num": 1452
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0069",
+          "line_num": 1464
+        },
+        {
+          "title": "following information:",
+          "node_id": "0070",
+          "line_num": 1468
+        },
+        {
+          "title": "Relevant facts emerging from appeal:",
+          "node_id": "0071",
+          "line_num": 1496
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0072",
+          "line_num": 1510
+        },
+        {
+          "title": "following information:",
+          "node_id": "0073",
+          "line_num": 1514
+        },
+        {
+          "title": "Relevant facts emerging from appeal:",
+          "node_id": "0074",
+          "line_num": 1638
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0075",
+          "line_num": 1651
+        },
+        {
+          "title": "following information:",
+          "node_id": "0076",
+          "line_num": 1655
+        },
+        {
+          "title": "Information requested:",
+          "node_id": "0077",
+          "line_num": 1668
+        },
+        {
+          "title": "decision rejecting applicant's above request for correction of",
+          "node_id": "0078",
+          "line_num": 1721
+        },
+        {
+          "title": "Relevant facts emerging from appeal:",
+          "node_id": "0079",
+          "line_num": 1743
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0080",
+          "line_num": 1759
+        },
+        {
+          "title": "following information:",
+          "node_id": "0081",
+          "line_num": 1763
+        },
+        {
+          "title": "RTI applications on similar issues/subjects:",
+          "node_id": "0082",
+          "line_num": 1938
+        },
+        {
+          "title": ", on 24.04.2017, CIC has observed that:",
+          "node_id": "0083",
+          "line_num": 1967
+        },
+        {
+          "title": "appeal, respectively among other reasons if any.",
+          "node_id": "0084",
+          "line_num": 1988
+        }
+      ]
+    },
+    {
+      "title": "Commission and decisions of Central Information Commission on",
+      "node_id": "0085",
+      "line_num": 2017,
+      "nodes": [
+        {
+          "title": "Relevant facts emerging from appeal:",
+          "node_id": "0086",
+          "line_num": 2038
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0087",
+          "line_num": 2050
+        },
+        {
+          "title": "following information:",
+          "node_id": "0088",
+          "line_num": 2054
+        },
+        {
+          "title": "order is not on record.",
+          "node_id": "0089",
+          "line_num": 2099
+        },
+        {
+          "title": "Relevant facts emerging from appeal:",
+          "node_id": "0090",
+          "line_num": 2106
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0091",
+          "line_num": 2118
+        },
+        {
+          "title": "the following information:",
+          "node_id": "0092",
+          "line_num": 2122
+        },
+        {
+          "title": "Relevant facts emerging from appeal:",
+          "node_id": "0093",
+          "line_num": 2146
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0094",
+          "line_num": 2160
+        },
+        {
+          "title": "following information:",
+          "node_id": "0095",
+          "line_num": 2164
+        },
+        {
+          "title": "order is not on record.",
+          "node_id": "0096",
+          "line_num": 2188
+        },
+        {
+          "title": "Relevant facts emerging from appeal:",
+          "node_id": "0097",
+          "line_num": 2195
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0098",
+          "line_num": 2209
+        },
+        {
+          "title": "following information:",
+          "node_id": "0099",
+          "line_num": 2213
+        },
+        {
+          "title": "order is not on record.",
+          "node_id": "0100",
+          "line_num": 2249
+        },
+        {
+          "title": "Relevant facts emerging from appeal:",
+          "node_id": "0101",
+          "line_num": 2256
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0102",
+          "line_num": 2269
+        },
+        {
+          "title": "following information:",
+          "node_id": "0103",
+          "line_num": 2278
+        },
+        {
+          "title": "order is not on record.",
+          "node_id": "0104",
+          "line_num": 2314
+        },
+        {
+          "title": "Relevant facts emerging from appeal:",
+          "node_id": "0105",
+          "line_num": 2321
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0106",
+          "line_num": 2334
+        },
+        {
+          "title": "seeking the following information:",
+          "node_id": "0107",
+          "line_num": 2338
+        },
+        {
+          "title": "complaint and the reminder.",
+          "node_id": "0108",
+          "line_num": 2355
+        },
+        {
+          "title": "as under:",
+          "node_id": "0109",
+          "line_num": 2382
+        },
+        {
+          "title": "Relevant facts emerging from complaint:",
+          "node_id": "0110",
+          "line_num": 2427
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0111",
+          "line_num": 2440
+        },
+        {
+          "title": "following information:",
+          "node_id": "0112",
+          "line_num": 2444
+        },
+        {
+          "title": "Appeals referred to in para-2 of Order No.103/RTI/CDN/2022/384 dated",
+          "node_id": "0113",
+          "line_num": 2450
+        },
+        {
+          "title": "Appeal dated 13.03.2023. The FAA order is not on record.",
+          "node_id": "0114",
+          "line_num": 2492
+        },
+        {
+          "title": "Relevant facts emerging from complaint:",
+          "node_id": "0115",
+          "line_num": 2499
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0116",
+          "line_num": 2512
+        },
+        {
+          "title": "seeking the following information:",
+          "node_id": "0117",
+          "line_num": 2516
+        },
+        {
+          "title": "Relevant facts emerging from complaint:",
+          "node_id": "0118",
+          "line_num": 2557
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0119",
+          "line_num": 2570
+        },
+        {
+          "title": "following information:",
+          "node_id": "0120",
+          "line_num": 2574
+        },
+        {
+          "title": "decision as per para-14 of the Office Order per query (i) above.\"",
+          "node_id": "0121",
+          "line_num": 2602
+        },
+        {
+          "title": "Appeal dated 09.09.2023. The FAA order is not on record.",
+          "node_id": "0122",
+          "line_num": 2611
+        },
+        {
+          "title": "Relevant facts emerging from complaint:",
+          "node_id": "0123",
+          "line_num": 2618
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0124",
+          "line_num": 2631
+        },
+        {
+          "title": "following information:",
+          "node_id": "0125",
+          "line_num": 2635
+        },
+        {
+          "title": "decision as per para-14 of the Office Order per query (i) above.\"",
+          "node_id": "0126",
+          "line_num": 2663
+        },
+        {
+          "title": "Appeal dated 09.09.2023. The FAA order is not on record.",
+          "node_id": "0127",
+          "line_num": 2669
+        },
+        {
+          "title": "Relevant facts emerging from complaint:",
+          "node_id": "0128",
+          "line_num": 2680
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0129",
+          "line_num": 2693
+        },
+        {
+          "title": "seeking the following information:",
+          "node_id": "0130",
+          "line_num": 2697
+        },
+        {
+          "title": "Relevant facts emerging from complaint:",
+          "node_id": "0131",
+          "line_num": 2745
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0132",
+          "line_num": 2761
+        },
+        {
+          "title": "following information:",
+          "node_id": "0133",
+          "line_num": 2765
+        },
+        {
+          "title": "CIC/MOHUA/C/2023/148268, CIC/MOHUA/C/2023/148269:",
+          "node_id": "0134",
+          "line_num": 2816
+        },
+        {
+          "title": "Relevant Facts emerged during Hearing:",
+          "node_id": "0135",
+          "line_num": 2830
+        },
+        {
+          "title": "complaints and appeals within the time period specified under",
+          "node_id": "0136",
+          "line_num": 2975
+        },
+        {
+          "title": "complaints and appeals as above, in the interest of justice, also requests to",
+          "node_id": "0137",
+          "line_num": 2999
+        },
+        {
+          "title": "consider similar other Orders viz.:",
+          "node_id": "0138",
+          "line_num": 3001
+        }
+      ]
+    },
+    {
+      "title": "Mujibur Rehman vs Central Information Commission",
+      "node_id": "0139",
+      "line_num": 3008,
+      "nodes": [
+        {
+          "title": "below, for ready reference:",
+          "node_id": "0140",
+          "line_num": 3049
+        },
+        {
+          "title": "\"Subject:",
+          "node_id": "0141",
+          "line_num": 3054
+        }
+      ]
+    },
+    {
+      "title": "Tiwari at venue Room No 313, 3rd Floor, Central Information Commission,",
+      "node_id": "0142",
+      "line_num": 3063
+    },
+    {
+      "title": "Commission and decisions of Central Information Commission on repeated/",
+      "node_id": "0143",
+      "line_num": 3117,
+      "nodes": [
+        {
+          "title": "order (Copies attached as Annexure-II). However, this office has limited",
+          "node_id": "0144",
+          "line_num": 3131
+        },
+        {
+          "title": "are reproduced below, for ready reference:",
+          "node_id": "0145",
+          "line_num": 3158
+        },
+        {
+          "title": "as under:",
+          "node_id": "0146",
+          "line_num": 3168
+        },
+        {
+          "title": "appeals are a consequence due to obstructing transparency through malafide",
+          "node_id": "0147",
+          "line_num": 3350
+        },
+        {
+          "title": "Decision",
+          "node_id": "0148",
+          "line_num": 3436
+        },
+        {
+          "title": "order for the sake of brevity as these relates to similar issues raised by him",
+          "node_id": "0149",
+          "line_num": 3441
+        },
+        {
+          "title": "order at the address for correspondence of the then CPIO(s) for timely",
+          "node_id": "0150",
+          "line_num": 3506
+        },
+        {
+          "title": "CIC/MOHUA/C/2023/148268, CIC/MOHUA/C/2023/148269:",
+          "node_id": "0151",
+          "line_num": 3531
+        },
+        {
+          "title": "order.",
+          "node_id": "0152",
+          "line_num": 3578
+        },
+        {
+          "title": "order at the address for correspondence of the then CPIO(s) for timely",
+          "node_id": "0153",
+          "line_num": 3584
+        },
+        {
+          "title": "CIC/MOHUA/A/2023/127635:",
+          "node_id": "0154",
+          "line_num": 3654
+        },
+        {
+          "title": "Copy To:",
+          "node_id": "0155",
+          "line_num": 3726
+        }
+      ]
+    }
+  ]
+}

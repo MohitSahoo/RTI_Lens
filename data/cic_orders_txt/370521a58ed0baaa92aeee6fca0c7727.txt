@@ -1,0 +1,925 @@
+[Cites 
+25
+, Cited by 
+0
+]
+
+
+
+
+Central Information Commission
+
+
+S Dinesh vs Reserve Bank Of India on 29 September, 2023
+
+
+Author: 
+Saroj Punhani
+
+
+Bench: 
+Saroj Punhani
+
+
+                               के   ीय सूचना आयोग
+                        Central Information Commission
+                            बाबागंगनाथमाग , मुिनरका
+                         Baba Gangnath Marg, Munirka
+                         नई द ली, New Delhi - 110067
+
+
+File No : CIC/RBIND/A/2022/153147 +
+          CIC/RBIND/A/2022/133995
+
+S DINESH
+(State Bank of India)                                  ......अपीलकता /Appellant
+
+
+                                    VERSUS
+                                     बनाम
+1. CPIO,
+RESERVE BANK OF INDIA,
+NODAL CPIO, RTI CELL,
+DEPARTMENT OF SUPERVISION,
+CENTRE-1, WORLD TRADE CENTRE,
+CUFFE PARADE, COLABA,
+MUMBAI-400005.
+
+2. CPIO,
+RESERVE BANK OF INDIA,
+ENFORCEMENT DEPARTMENT,
+CENTRAL OFFICE, MEZZANINE FLOOR,
+MAIN BUILDING, SHAHID BHAGAT SINGH MARG,
+FORT, MUMBAI-400005                                 .... ितवादीगण /Respondent
+
+
+Date of Hearing                 :   21/09/2023
+Date of Decision                :   21/09/2023
+
+INFORMATION COMMISSIONER :          Saroj Punhani
+
+Note - The above-mentioned Appeals have been clubbed together for decision
+as these are based on similar RTI Applications.
+                                      1
+ (Note: The instant appeal has been filed by the third party i.e. State Bank of
+India aggrieved by an order passed by the FAA, RBI).
+
+
+Relevant facts emerging from appeal (s):
+
+RTI application filed on           :   01/05/2021, 16/01/2022
+CPIO replied on                    :   26/07/2022, 23/03/2022
+First appeal filed on              :   11/08/2022, 25/04/2022
+First Appellate Authority order    :   11/10/2022, 06/06/2022
+2nd Appeal/Complaint dated         :   31/10/2022, 11/07/2022
+
+Information sought
+:
+
+
+
+                           CIC/RBIND/A/2022/153147
+
+The RTI applicant Shri Girish Mittal filed an RTI application dated 01.05.2021
+seeking the following information:
+
+
+
+"Kindly provide following information:
+
+
+
+Inspection Reports/Risk Assessment Report made by RBI post completing the
+inspection of commercial banks and NBFCs for last 3 years available. If RBI has
+provided any of the below information earlier, the same may be indicated in the
+response quoting the date/ RTI number under which the same was provided:
+
+
+
+      (i) HDFC Bank.
+
+      (ii) RBL Bank.
+
+      (iii) Yes Bank.
+
+      (iv) Axis Bank.
+
+      (v) ICICI Bank.
+
+      (vi) Bajaj Finance.
+
+      (vii) State Bank of India.
+
+      (viii) Bank of Baroda.
+
+      (ix) Indus Ind Bank.
+
+      (x) Kotak Mahindra Bank.
+
+      (xi) HDFC Ltd.
+
+      (xii) ILFS
+
+      (xiii) IDFC Bank
+
+
+                                         2
+
+
+       (xiv)Sahara Bank Financial Services or any entity of Sahara group registered
+      with RBI.
+
+
+
+Kindly also provide copies of show cause notices issued to any of the above and
+response of these banks/NBFCs."
+
+
+
+The CPIO vide its letter dated 26.07.2022 had sent a notice
+ u/s. 11
+ of the RTI Act
+to the Appellant bank i.e. State Bank of India stating as under:
+
+
+
+      "Please refer to our letter No. DOS CO RIA No.S1919/01-12-001/2022-2023
+dated June 16, 2022, wherein we had issued a notice under 
+section 11(1)
+ read with
+
+section 11(2)
+ of the Right to Information Act, 2005 with respect to captioned RTI
+request to enable you to make a written submission as to whether the information
+may be disclosed or not along with reasons for exemption from disclosure under
+any clause of 
+RTI Act, 2005
+ ("the Act").
+
+
+
+       2. In response to our notice, State Bank of India ("the bank") vide letter
+dated June 22, 2022, has submitted that the information sought is exempt from
+disclosure under 
+Section 8(1)(a)
+. 8(1)(d), 8(1)(e) and 8(1)(j) of the Act. The bank
+also submitted that the information sought to be disclosed by the RBI under the
+Act is statutorily confidential under various provisions such as Section 44 of the SBI
+Act, 1955, Section 45E and 
+Section 45NB
+ of RBI Act, 
+Section 34A
+ of Banking &
+Regulation Act, and 
+Section 20
+ of the Credit Information Companies (Regulation)
+Act, 2005.
+
+
+
+       3. The objections made by the bank to the disclosure proposed in the notice
+dated June 16, 2022, have been examined and duly considered. It is stated that
+the exemption from disclosure under clauses (a), (d) and (e) of Section 8(1) of the
+Act is not applicable in view of the judgment of the Hon'ble Supreme Court (SC) in
+Reserve Bank of India v. Jayantilal N. Mistry & Ors. (AIR 2016 SC 1 (2016) 3 SCC
+
+525). As regards the kind of information contained in AFI/scrutiny reports or
+related documents, etc. for which exemption from disclosure was claimed by the
+Reserve Bank under clauses (a), (d) and (e) of 
+Section 8(1)
+ of the Act, the Supreme
+Court has specifically held that since such information is provided to the Reserve
+Bank under mandate of law, the claim of exemption is not sustainable. The
+
+
+                                          3
+
+ following observation of the Hon'ble Supreme Court in 
+Reserve Bank of India &
+Ors. v. Jayantilal N. Mistry & Ors.
+, (2016) 3 SCC 525 is pertinent in this regard:
+
+
+
+
+      "RBI is supposed to uphold public interest and not the interest of individual
+      banks. RBI is clearly not in any fiduciary relationship with any bank. RBI has
+      no legal duty to maximize the benefit of any public sector or private sector
+      bank, and thus there is no relationship of trust' between them. RBI has a
+      statutory duty to uphold the interest of the public at large, the depositors,
+      the country's economy, and the banking sector. Thus, RBI ought to act with
+      transparency and not hide information that might embarrass individual
+      banks. It is duty bound to comply with the provisions of the 
+RTI Act
+ and
+      disclose the information sought by the respondents herein".
+
+
+
+ 
+4. It is further stated that in 
+Girish Mittal v. Parvathy Sundaram and
+Another
+, (2019) (6) SCALE 804, the apex Court directed the Reserve Bank that "the
+Respondents are duty bound to fumish all information relating to inspection
+reports and other material apart from the material that was exempted in para 77
+of the judgement in 
+Jayantilal Mistry
+'s case. In paragraph 77 of the judgement
+
+referred to above
+, the Supreme Court observed, as follows:
+
+
+
+
+      "When it comes to national economic interest, disclosure of information
+      about currency or exchange rates, interest rates, tax, the regulation and
+      supervision of banking, insurance and other financial institutions, proposals
+      for expenditure or borrowing and foreign investment could in some cases
+      harm the national economy, particularly if released prematurely. With
+      regard to such information affecting national interest, the Supreme Court
+      further observed in the same paragraph that ...the appropriate time of
+      providing the information which will depend on the nature of the
+      information sought for and the consequences it will lead to after coming in
+      public domain."
+
+
+
+       5. The exemption under 
+Section 8(1) (i)
+ is available in respect of "personal
+information" of an individual. The word "personal information" used in 
+Section
+8(1)(j)
+ may not cover the information relating to a body corporate. If the
+information includes details of "individuals", the same may be an exempted
+information under 
+Section 8(1) (j)
+ of the Act.
+
+
+
+      6. It may be noted that there is no stay order as on date on disclosure of the
+requested information.
+
+                                         4
+
+
+ 
+7. RBI had, raised contention in 
+Reserve Bank of India & Ors. V. Jayantilal N.
+Mistry & Ors.
+, [(2016) 3 SCC 525] that "the 
+Right to Information Act, 2005
+ is a
+general provision which cannot override specific provisions relating to
+confidentiality in earlier legislation in accordance with the principle that where
+there are general words, in a later statute it cannot be held that the earlier
+statutes are repealed altered or discarded".
+ 
+It is clarified that the Hon'ble Supreme
+Court in the aforesaid 
+Jayantilal/ N. Mistry
+'s Case had rejected this and other
+contentions taken by the Reserve Bank against disclosure of inspection reports of
+regulated entities.
+
+
+
+
+       8. In view of the foregoing, it has been decided to disclose the Risk
+Assessment Reports (RAR) for the years 2017-18 & 2018-19 and Inspection Report
+for the year 2018-19 of your bank to the applicant [copy of the Risk Assessment
+Report for the year 2018-19 is attached after redacting the information exempt
+from disclosure under 
+section 8(1)(h)
+ of the RTI Act, 2005.].
+
+
+
+      9. Hence a Notice under 
+Section 11(3)
+ of the Act is hereby given apprising
+you of the decision taken in the matter."
+
+
+
+Being dissatisfied, the appellant bank through its authorized representative filed a
+First Appeal dated 11.08.2022. FAA's order, dated 11.10.2022, upheld the reply of
+the CPIO.
+
+
+
+                           CIC/RBIND/A/2022/133995
+
+The RTI applicant Priyam Mittal filed an RTI application dated 16.01.2022 seeking
+the following information:
+
+
+
+"Kindly provide following information:
+
+
+
+Inspection Reports/Risk Assessment Report made by RBI post completing the
+inspection of commercial banks and NBFCs for last 3 years available under 
+BR Act
+
+or any other applicable act.
+
+
+
+      (i) HDFC Bank.
+
+      (ii) RBL Bank.
+
+      (iii) Yes Bank.
+
+      (iv) Axis Bank.
+
+                                         5
+
+
+       (v) ICICI Bank.
+
+      (vi) Bajaj Finance.
+
+      (vii) State Bank of India.
+
+      (viii) Bank of Baroda.
+
+      (ix) IndusInd Bank.
+
+      (x) Kotak Mahindra Bank.
+
+      (xi) HDFC Ltd.
+
+      (xii) ILFS
+
+      (xiii) IDFC Bank
+
+      (xiv) HDB Financial Services Ltd
+
+      (xv) Kotak Mahindra Prime Ltd
+      (xvi) Kotak Mahindra Capital Ltd
+      (xvii) Kotak Mahindra Investments Ltd
+
+      (xiv) Sahara India Financial Services or any entity of Sahara group registered
+      with RBI.
+
+
+
+Kindly also provide copies of show cause notices issued to any of the above and
+response of these banks/NBFCs."
+
+
+
+The CPIO vide its letter dated 23.03.2022 had sent a notice
+ u/s. 11
+ of the RTI Act
+to the Appellant bank i.e. State Bank of India stating as under:
+
+
+
+       "Please refer to the 
+section 11(1)
+ notice Issued by Reserve Bank of India
+(RBI) to State Bank of India (the bank) under 
+Right to Information Act, 2005
+ 
+(RTI
+Act
+) vide letter EFD.CO.RTI No. 8638/07.03.001/2021-2022 dated February 22,
+2022 and your bank's response vide letter dated March 4, 2022 to the said notice.
+
+
+
+       2. The bank has objected to the disclosure of the copy of documents that
+include Show Cause Notice issued and responses by the bank (as detailed in
+paragraph 2 of the notice dated February 22, 2022). It is said that as SBI being
+Domestic Systemically Important Bank (D-SIB), the disclosure will prejudicially
+affect the economic interests of State (India) thereby harming the overall public
+sentiment and hence the information is exempted from disclosure under 
+section
+8(1)(a)
+. Further, objections are being raised indicating that the information is
+exempt under each of the 
+Sections 8(1)(d)
+ and (e). The bank also referred to
+
+Section 8(1)
+) which exempts the information related to personal Information the
+disclosure of which has no relationship to any public activity or interest or which
+
+
+                                         6
+
+ would cause unwarranted invasion of the privacy of the individual, and the term
+'individual' should be interpreted in a broad meaning to include body corporates
+like SBI. The supply of information would cause unwarranted invasion of the
+privacy of the bank, the same should hence be exempted under 
+section 8(1)
+0). The
+bank has informed that a Writ Petition (1469/2019) was filed by the bank on
+9/12/2019 in the Supreme Court of India in the matter.
+
+
+
+ 
+3. The objections made by the bank to the disclosures proposed in the notice
+dated February 22, 2022 have been examined and duly considered. With respect
+to the Writ Patton filed by the bank, the bank has not produced any stay order for
+non-disclosure of information pertaining to the bank. The Honourable Supreme
+Court in its Order dated December 16, 2015 in TP No. 91 of 2015 (
+Reserve Bank of
+India v. Jayantilal N. Mistry
+), restricted the scope of the exemption under 
+section
+8(1)(a)
+ to be very limited and may not be relied upon as a matter of course.
+Similarly, it refused to accept that there is fiduciary relationship between RBI and
+the banks while it is acting as a supervisor/regulator in furtherance to statutory
+provisions.
+
+
+
+
+       4. RBI being a public authority is under a legal obligation to disclose the
+information held by it about the bank, subject only to the exemptions contained in
+that Act. Even otherwise, as indicated in RBI's notice under 
+section 11(1)
+ of the RTI
+Act, information, if any, falling within the scope of the exemptions under 
+section
+8(1)(d)
+, (e) and () is not being disclosed. In this regard the bank has not pointed
+out any specific/additional information or part thereof which is exempt from
+disclosure under 
+RTI Act
+. As regards the contention that the information which
+was made public by RBI by way of the RBI Press release, explicitly made RBI's
+intention clear and the RTI Applicant made no ground to overturn the said
+intention, is not tenable.
+
+
+
+       5. In light of the above, it has been decided to disclose to the applicant a
+copy of the documents as given in the table below, after severing the information
+exempt from disclosure in accordance with the provisions of 
+section 10 (1)
+ of RTI
+Act, as indicated in the 
+Section 11(1)
+ notice issued earlier.
+
+
+
+       Accordingly, the notice of the decision taken in the matter is hereby being
+given as required
+ u/s 11(3)
+ of the RTI Act. The copies of the aforesaid documents
+after duly severing the information exempt from disclosure are enclosed."
+
+
+
+                                         7
+
+
+ Being dissatisfied, the appellant bank through its authorized representative filed a
+First Appeal dated 25.04.2022. FAA's order, dated 06.06.2022, upheld the reply of
+the CPIO.
+
+
+
+Feeling aggrieved and dissatisfied, the appellant bank approached the
+Commission with the instant Second Appeal.
+
+
+
+Relevant Facts emerging during Hearing:
+
+The following were present:-
+
+
+
+Appellant: Sonal Purohit, DGM and Abhinav Rishi, Manager (Law) present in
+person.
+
+Respondent: Abhishek Joshi, AGM and Suman Choudhary, Legal Officer present
+through Video-Conference.
+
+Original RTI applicant not present.
+
+
+
+The Appellant bank and the Respondent submitted their written submissions and
+the same are taken on record.
+
+
+
+The Appellant bank during the hearing reiterated the contents of their instant
+second appeal and submitted as under:
+
+
+
+"A. In October 2010, several applicants sought copies of RAR's of various banks
+including that of the Appellant bank under the Act. The RAR's sought by the
+concerned RTI applicants are prepared by RBI pursuant to inspection/scrutiny
+conducted by its officers, under 
+Section 35
+ of the Banking Regulation Act 1949,
+annually. The said annual inspection reports, also called RARS, contain
+comprehensive review of the performance operational frailties/ functioning of the
+banks by RBI in exercise of its supervisory and regulatory powers. The RAR's
+contain wide-ranging information, including business plans of the banks to
+customer details and legal compliance, it also contains requirement, if any, of
+regulatory intervention and risk assessment of various credit risks of the bank in
+question, by RB). Such inspection reports are not only irrelevant to the public at
+large, but also the information contained thereto are price sensitive and
+confidential. As a result, the information requests under the Act were denied by
+RBI on the grounds of economic interest. commercial confidence, fiduciary
+relationship, and public interest (under applicable exemptions provisions of the
+Act). Several applicants filed appeals before the Chief Information Commission
+inter alia challenging the denial of the disclosure of the RARS by RBI. B. Findings of
+the Apex Court: The issue was finally decided by the Hon'ble Apex court on
+
+                                          8
+
+ 16.12.2015 in a Transfer Petition (91/2015) titled as 
+Reserve Bank of India vs.
+Jayantilal N Mistry
+ case, (2016) 3 SCC 525 (Mistry Case/Judgment"). The findings
+of the learned Court were broadly made on two aspects of the Act and have been
+recorded as under- • Fiduciary relationship [Concerns 
+Section 8(1) (e)
+ of the Act]
+Economic interests [Concerns 
+Section 8(1) (a)
+ of the Act] C. Contempt Petitions
+before the Hon'ble Apex Court: Thereafter, one Mr. Girish Mittal, filed a Contempt
+Petition being Contempt Petition No. (C) No.928 of 2016 against RBI and before
+the Hon'ble Apex Court inter alia alleging that RBI have withheld certain
+information in spite of the directions of the Hon'ble Court in the Judgment of
+Jayantilal N. Mistry and therefore they have committed contempt of the
+judgement of the Hon'ble Court.
+ 
+Further, another Contempt Petition L.e.,
+Contempt Petition (C) No.59 of 2017 was filed against RBI inter alia alleging that
+RBI had uploaded a Disclosure Policy dated 30.11.2016 on its website by which the
+Public Information Officers were directed not to disclose virtually all kinds of
+information, which were in violation of the judgment in 
+Jayantilal N. Mistry
+ case.
+
+
+As a result, on 26.04.2019, the Hon'ble Apex Court passed the judgment in 
+Girish
+Mittal v. Paravati V. Sundaram
+, 2019 
+SCC OnLine SC 607 (Girish Mittal
+ case'),
+wherein it was inter alia held that RBI had committed contempt of the Court by
+exempting disclosure of information as directed in 
+Jayantilal N. Mistry
+ case, in its
+disclosure policy dated 18.06.2018. Importantly, the Hon'ble Court also stated:
+
+
+"We are not persuaded to accept the submission of Mr. Gupta that the judgment
+dated 16.12.2015 requires reconsideration as we cannot consider the said
+submission while deciding the contempt petitions."
+
+B. While the responses dated: 16.12.2019, 30.11.2021, 25.03.2022 given by the
+Appellant Bank to notice dated: 03.12.2019, 01.11.2021, 03.01.2022 issued by the
+CPIO and FAA RBI were categorical in as much as it cited applicable exemptions
+provisions contained in the Act as well as decisions of the Hon'ble CIC/other
+forums which squarely cover the subject matter of the instant RTI application,
+there has been no discussion/analysis/views recorded by the CPIO or FAA RBI, in
+their orders dated: 01.11.2021 and 03.01.2022. The RBI FAA order has only given
+emphasis on the Apex court judgment in the 
+Mistry
+ Case. It is submitted that the
+entire information contained in the Document have to be seen as whole in order to
+understand the actual impact their disclosure would have on the Bank and to see
+as to how, there disclosure would fall within the exemptions provided under
+
+Section 8(1) (a)
+, (d). (e) & (j) of the Act. Thus, precise/specific information recorded
+in the Documents could not have been culled out, as the entire information in the
+Documents are such, which will attract applicability of 
+Section 8(1) (a)
+, (d), (e.) &
+
+
+(j) of the Act. The information recorded in the Document was hence requested to
+be considered in toto and not in an abstract/standalone form-The same does not
+seem to have been done. C. The public disclosure to any applicant who may have
+
+                                           9
+
+ vested interests in the Document received pursuant to the RTI application has the
+potential to create panic and spread misinformation. Such Information is thus
+exempt under 
+Section 8
+ of the RTI Act and disclosure whereof would not serve any
+larger public interest. Rather, disclosure of such Documents would adversely affect
+the position of the banks, including the Appellant bank in a highly competitive
+banking sector in our country. D. As has been detailed above, pursuant to the ratio
+in 
+Jayantilul N. Mistry
+ case and the 
+Girish Mittal
+ case, RBI disclosed complete
+RARS, of the Appellant Bank for the years 2012, 2013, 2014, 2015, without
+complying with the provisions of the 
+RTI Act
+ or the principles of natural justice,
+which actions are completely arbitrary and therefore violative of 
+Article 14
+ of the
+Constitution. The Appellant thus apprehends that the same may be done in the
+instant case/as regards the instant Applicant also."
+
+
+
+
+The Respondent, during the hearing, reiterated the contents of their written
+submissions which states as under:
+
+
+
+"7. It is submitted that the Hon'ble Supreme Court in 
+Reserve Bank of India v.
+Jayantilal N Mistry & Ors.
+ (2016) 3 SCC 525, referred to the stand of RBI on
+confidentiality provisions under various statutory enactments. As regards the
+nature of information contained in AFI/scrutiny reports or related documents, etc.
+for which exemption from disclosure was claimed by the Reserve Bank under
+clauses (a), (d) and (e) of 
+Section 8(1)
+ of the RTI Act, the Supreme Court has
+specifically held that since such information is provided to the RBI under the
+mandate of law, the claim of exemption is not sustainable.
+ 
+The following
+observation of the Hon'ble Supreme Court in 
+Reserve Bank of India & Ors. v.
+Jayantilal N. Mistry & Ors.
+, (2016) 3 SCC 525 is pertinent in this regard "RBI is
+supposed to uphold public interest and not the interest of individual banks. RBI is
+clearly not in any fiduciary relationship with any bank. RBI has no legal duty to
+maximize the benefit of any public sector or private sector bank, and thus there is
+no relationship of trust' between them. RBI has a statutory duty to uphold the
+interest of the public at large, the depositors, the country's economy and the
+banking sector Thus, RBI ought to act with transparency and not hide information
+that might embarrass individual banks. It is duty bound to comply with the
+provisions of the 
+RTI Act
+ and disclose the information sought by the respondents
+herein7.
+ 
+Further it is also submitted that, in 
+Girish Mittal v. Parvathy Sundaram
+and Another
+
+Xxxxxxxxx
+
+
+8. The exemption under 
+Section 8 (1)
+ () of the 
+RTI Act
+ has been considered by the
+Delhi High Court in 
+Naresh Trehan v Rakesh Kumar Gupta
+, 216 (2015) DLT 156
+wherein it held that the same does not extend to information relating to
+
+                                        10
+
+ companies. 9. It is submitted that it is true that the Supreme Court has by its order
+dated September 30, 2022 in IA No. 68597 and IA No. 51632/2021 in WP (Civil)
+No. 1159 of 2019 held against the preliminary objection raised on the
+maintainability of the pending writ petitions. Consequently, the Supreme Court
+will now hear the matter on merit.
+ 
+In our view, this would not mean that the
+judgement of the SC in 
+Jayantilal Mistry
+'s case does not continue to be governing
+the issue.
+ 
+Therefore, it will not be possible for the banks to plead that the
+judgement in 
+Jayantilal Mistry
+'s case has been 'overruled by the order dated
+September 30, 2022".
+
+
+
+
+The Respondent, during the hearing, contended that similar matters are already
+remanded back by the Hon'ble Commission and the same was already dealt with,
+therefore, such matters should not be remanded back again to the Public
+Authority.
+
+
+
+Decision:
+
+
+
+At the outset, the Commission observes that the Respondent has not specifically
+mention the cases details where similar matter was already dealt with by the
+Public Authority, therefore, the Commission cannot appreciate the contention of
+the Appellant as no identical case was placed on record.
+
+
+
+In the facts of the instant case, it is pertinent to note that a decision of a
+coordinate bench of the Commission in the matter of various third-party banks vs.
+RBI vide File No. CIC/RBIND/A/2021/152460 + Ors. dated 05.05.2022 covers a
+detailed discussion inter alia on the same nature of information sought for from
+the RBI and the reliance placed by RBI on the 
+Jayantilal Mistry
+ case. Suffice to say
+that the issues raised in the instant case are encapsulated in that same discussion
+of the coordinate bench in the following manner:
+
+
+
+
+ 
+"39. A comprehensive view has to be taken on the objection filed by the
+institutions. These objectives has to be deliberated and adjudicated in the light of
+
+Jayantilal Mistry
+'s case and other judicial pronouncements relevant in such
+matter, some of which have been referred by the Commission in the above parts
+as well. The Commission while examining various objections realize that the Writ
+Petitions filed before the Hon'ble Supreme Court of India is seeking directions of
+the Supreme Court for non-disclosure of certain aspects of these audit/inspection
+report and any such guidance in these Writ Petitions will have direct bearing and
+provide further clarity to the CPIO/FAA in adjudicating various aspects of
+disclosure/non-disclosure of reports or the information/data which are part of
+
+                                         11
+
+ these reports under the provisions of the 
+RTI Act
+.
+ The Commission takes note that
+all the cases/second appeals filed herein are based on interpretations of RBI Vs.
+Jayantilal Mistry case and other relevant judicial pronouncements requesting for
+full disclosure vis-à-vis with exemptions under 
+Section 8(1)
+ of the RTI Act for non-
+disclosure of full or parts of these reports.
+
+ 
+40. In view of the above observations, the Commission is of the view that
+the reports generated in the hands of regulatory public authority in discharge of
+its statutory obligations are information under 
+Section 2 (f)
+ of the RTI Act, as the
+regulator and the regulated entities are not governed by fiduciary relationship.
+The orders of the Commission to their effect has been upheld by the Hon'ble
+Supreme Court in 
+Jayantilal Mistry
+'s case and the position is unchanged even
+today. Various objections filed by banks/financial institutions, to be examined,
+analyzed and adjudicated upon, are related to various data and information
+submitted to the Reserve Bank of India by these financial institutions explaining
+their operations, commercial decisions, clients data etc. under statutory
+obligations can be disclosed as such. There are apparently two set of such
+information which have been shared by the institutions with the regulator under
+statutory obligation. First is the information/data of clients relating to their
+business/commercial operations, financial transactions, business and commercial
+strategy which is shared by clients with financial institutions in full trust and
+confidence and is held by them in fiduciary capacity, protected from disclosure
+under the 
+RTI Act
+ in their hands. Second set is the information relating to business
+strategy, decisions, transactions, other operational data etc. of financial
+institutions have been bearing on their competitive position which also enjoys the
+exemption from disclosure in their hands, if it is a public authority or otherwise,
+under the 
+RTI Act
+. Some of such data, on case to case basis be sensitive enough for
+protection of national interest. The Commission is of the view that the protection
+of disclosure of information under 
+Section 8(1)
+ of the RTI Act, 2005 in the hands of
+financial institutions does not evaporate once such data/information is shared, in
+good faith and trust, with the regulator under statutory obligation.
+ 
+Various
+observations of Hon'ble Supreme Court in 
+Jayantilal Mistry
+'s case also does not
+indicate so and decision of the regulator to consider redacting such
+data/information while disclosing the reports is aligned with this and other judicial
+pronouncements of Supreme Court and High Courts.
+
+
+ 
+41. The Commission has already outlined the deficiency in the conduct of
+the CPIO/FAA while hearing such matters and hence is of the opinion that due care
+has to be taken by according opportunity of personal hearing and making
+reasoned order with reference to the objections in the hands of the CPIO and later
+in the hands of FAA, if any appeal is preferred. Hence, the CPIO will be required to
+adjudicate such RTI applications in the light of the observations of the Commission
+
+                                         12
+
+ afresh. The Commission also expects that the CPIO will take view on various
+objections filed by the Banks and Financial Institutions and submissions made by
+applicant to reach the decision in favour or against redaction of various parts of
+the report on case to case basis. He has to factor the observation of Hon'ble
+Supreme Court in 
+Jayantilal Mistry
+ case and other relevant judgments, some of
+which have been referred in this order as well. Hence, with these observations the
+orders passed by the CPIO and FAA in these matters are set aside and the cases
+are being remanded to the CPIO for adjudication afresh. (Emphasis Supplied)
+
+
+       42. It is amply clear that Writ Petition Nos. 1159/2019 and 768/2021 and
+others tagged are admitted in Hon'ble Supreme Court wherein guidance and
+direction has been sought on non-disclosure of certain type of information which
+are essentially the part of the Annual Inspection Report/RAR, etc. These petitions
+also seek protection of interim communication between regulator and the
+regulated entity in the process of finalization of these reports or otherwise. It is
+obvious that decision in these Writ Petitions will provide clarity and guidance to
+the Public Authority on redaction/non-disclosure of a set of information inspite of
+being part of these reports which are open to disclosure. At this stage, any
+decision by the Public Authority will amount to pre-judging the issues pending
+admitted Writ Petitions before the Hon'ble Supreme Court. Various banks,
+financial institutions, respondent public authority and the RTI applicant have
+already impleaded party and are presenting their arguments before the Apex
+Court.
+
+       43. Hence, any decision of redaction or disclosure of information, without
+waiting for decision in the Writ Petition Nos. 1159/2019 and 768/2021 and others
+tagged may cause irrevocable damage against right of privacy and protection of
+commercial interest. Hence, the respondent public authority if expedient may
+wait for the outcome in Writ Petition Nos. 1159/2019 and 768/2021 and others
+tagged or seek clarification from the Hon'ble Court and accordingly decide these
+RTI applications by following process as enumerated in the earlier paras by the
+Commission in the interest of principles of natural justice. While disclosing the
+information they should be cautious in taking a considerate view balancing right
+to privacy, protection of national and commercial interest on one hand vis-à-vis
+larger public interest. (Emphasis Supplied)
+
+ 
+44. It is further observed that similar view has also been taken by the
+Division Bench of the Commission in file bearing nos. CIC/VS/A/2013/001488 and
+CIC/VS/A/2013/001805 dated 11.05.2017 wherein the Commission observed that
+'Having considered the submissions of both the parties, the Commission observes
+that since a similar issue is pending adjudication before the Hon'ble Supreme
+Court in the matter of Central for 
+Public Interest Litigation Vs. Housing & Urban
+Development Corporation Ltd. &Ors.
+, it would be judicious to await the final
+
+                                        13
+
+ outcome from the Hon'ble Supreme Court. However, on receipt of the final
+outcome from the Hon'ble Supreme Court in the matter, the appellant shall be at
+liberty to file second appeal afresh, if he so desires. The instant appeals are
+disposed of'."
+
+
+
+
+The above decision is therefore applicable to the instant case and no separate line
+of adjudication is warranted in the matter. The stipulations contained in File No.
+CIC/RBIND/A/2021/152460 + Ors. dated 05.05.2022 stands endorsed to the
+Respondent CPIO with emphasis on para 41 & 43 supplied as above .
+
+
+
+                   The appeal (s) are disposed of accordingly.
+
+
+
+                                                   Saroj Punhani (सरोज पुनहािन)
+                                                                          हािन)
+                                         Information Commissioner (सूचना आयु )
+Authenticated true copy
+(अिभ मािणत स#यािपत  ित)
+
+(C.A. Joseph)
+Dy. Registrar
+011-26179548/ 
+[email protected]
+
+सी. ए. जोसेफ, उप-पंजीयक
+ दनांक /
+
+
+
+
+
+                                        14

@@ -1,0 +1,724 @@
+[Cites 
+19
+, Cited by 
+0
+]
+
+
+
+
+Central Information Commission
+
+
+Madhavarao K vs Office Of The Controller General Of ... on 16 August, 2023
+
+
+Author: 
+Saroj Punhani
+
+
+Bench: 
+Saroj Punhani
+
+
+                                के   ीय सूचना आयोग
+                         Central Information Commission
+                             बाबागंगनाथमाग , मुिनरका
+                          Baba Gangnath Marg, Munirka
+                           नई द ली, New Delhi - 110067
+
+
+File No : CIC/CGPDT/A/2022/644410
+
+Madhavarao K                                             ......अपीलकता /Appellant
+
+                                       VERSUS
+                                        बनाम
+1. CPIO,
+Office of the controller General of
+Patents, Desings & Trade Marks,
+RTI Cell, Patent Office Intellectual Property
+Building, G.S.T Road, Guindy,
+Chennai-600032, Tamilnadu.
+
+2. The CPIO,
+Trade Marks Registry, RTI Cell,
+Bhoudik Sampada Bhawan, Antop Hill,
+Mumbai-400037, Maharashtra.                         .... ितवादीगण /Respondent
+
+
+Date of Hearing                    :   23/06/2023
+Date of Decision                   :   23/06/2023
+
+INFORMATION COMMISSIONER :             Saroj Punhani
+
+Relevant facts emerging from appeal:
+
+RTI application filed on           :   16/04/2022
+CPIO replied on                    :   12/05/2022
+First appeal filed on              :   13/05/2022
+First Appellate Authority order    :   27/05/2022
+Second Appeal dated                :   NIL
+
+                                          1
+ Information sought
+:
+
+The Appellant filed an RTI application dated 16.04.2022 seeking the following
+information:
+
+
+
+"1. Has the Controller constituted the Opposition Board with respect to opposition
+of the patent bearing number 332522 tiled by Mr. Arumugam.
+
+
+
+2. Please share the order constituting the Opposition Board issued by the
+Controller with respect to patent number 332522.
+
+
+
+3. Has the Opposition Board issued its recommendations in the opposition filed by
+Mr. Arumugam against the patent bearing number 332522
+
+
+4. Please share the recommendations issued by the Opposition Board with respect
+to the opposition of the patent bearing number 332522."
+
+
+
+The CPIO furnished a reply to the appellant on 12.05.2022 stating as under:
+
+
+
+      "The information pertaining to any patent cannot be provided under 
+RTI Act
+
+as there is a provision
+ u/s 153
+ of The Patents Act,1970 to obtain the required
+Information by making a request to the controller with prescribed fee."
+
+
+
+Being dissatisfied, the appellant filed a First Appeal dated 13.05.2022. FAA's order
+dated 27.05.2022 denied the information sought by the Appellant by invoking
+
+Section 8(1)(d)
+ of RTI Act.
+
+
+
+Feeling aggrieved and dissatisfied, the appellant approached the Commission with
+the instant Second Appeal.
+
+
+
+Relevant Facts emerging during Hearing:
+
+The following were present:-
+
+
+
+Appellant: Represented by Advocate Kavya S present through audio-conference.
+
+
+
+Respondent: Dr. V. Parmala Darsini, Deputy Controller of Design (Chennai) & CPIO
+along Nilesh Patil, Examiner of Patents & Design (Mumbai) present through audio-
+conference.
+
+
+
+The Rep. Of Appellant raised the following arguments in the instant Appeal -
+
+                                         2
+
+
+        "...3. It is submitted that the provision, 
+Section 25(3)
+ of the Patents Act,
+based on which information was sought by the RTI Applicant reads as follows:
+"25(3 )(b) On receipt of such notice of opposition. the Controller shall, by order in
+writing, constitute a Board to be known as the Opposition Board consisting of such
+officers as he may determine and refer such notice of opposition along with the
+documents to that Board for examination and submission of its recommendations
+to the Controller."
+
+
+
+4. It is submitted that the information sought by the RTI Applicant was primarily
+the order passed by the Controller under 
+Section 25(3)
+ constituting the opposition
+board in proceedings relating to patent number 332522, which are public
+proceedings. It is submitted that all documents relating to these proceedings
+except the order sought through the RTI application are available online. The
+documents available online include the opposition board's report, but do not
+include the order in writing constituting the opposition board, which is also a
+public document.
+
+
+
+5. It is submitted that the CPIO rejected this request for information on 12th May
+2022 stating that the said information cannot be provided because the
+information should be sought under 
+Section 153
+ of the Patents Act, which provides
+a mechanism to inspect, and sock information relating to patents. The CPIO's
+response reads as follows: "Reply to points 14: The information pertaining to any
+patent cannot be provided under wri Act as there is a provision Ws 153 of 
+The
+Patents Act,1970
+ to obtain the required information by making a request to the
+controller with inscribed fee."
+
+
+
+5. It is submitted that aggrieved by the response of the CPIO, the RTI Applicant
+filed an appeal before the FAA citing a decision of the Honourable CIC, which
+clearly held that even if a mechanism of applying for information is available
+under a specific statute, a person may choose to apply for the same information
+under the RT1 Act also. In other words, the Honourable CIC held that if two
+mechanisms of applying for information are available, one under the specific
+statute, and another under the 
+RTI Act
+, the applicant may choose to apply for
+information under the 
+RTI Act
+, and the public authority is required to provide the
+information under the said Act. The case cited by the RTI Applicant is: 
+Kamal
+Kishore Arora vs Department Of Industrial Policy & others
+, Decided by the
+Honourable CIC on 26 April, 2022 (File No.: C1C/DOIPP/A/2020/672232), available
+at: http://indiankanoon.org/doc 177266213/, which cited the Judgment of the
+
+                                         3
+
+ Honble Supreme Court in the matter of ICSI Vs Paras Jain, Civil Appeal No.
+5665/2014.
+
+
+
+
+6. It is submitted that to the RT1 Applicant's utter surprise and shock, the FAA
+instead of addressing the ground based on which the CPIO rejected the
+information, raised a new ground to deny the information sought by the RTI
+Applicant. The FAA on first appeal rejected the information stating that the
+information is confidential, and that it cannot be provided under 
+Section 8(1)(d)
+ of
+the RTI Act. The response of the FAA reads as follows:
+
+
+
+"The submissions in the appeal have been given careful consideration. The
+information sought by the applicant are not covered under sec 153 of the 
+Patents
+Act, 1970
+ and are exempted under sec 8(I)(d) of the 
+RTI Act
+. Hence, the appeal is
+disposed off."
+
+
+
+8. It is submitted that 
+Section 8(1)(d)
+ of the RTI Act based on which the FAA
+rejected the information reads as follows:
+
+                                        xxx
+
+c. RTI Applicant's Submissions A. The FAA cannot raise a new ground at the
+appellate stage I. The RTI Applicant humbly submits that it is a well-established
+principle of law that a new ground cannot be raised at the appellate stage, and
+that if any ground is raised, the RTI Applicant must be given an opportunity to
+respond to the same. Raising a new ground is not only legally invalid and
+untenable, but also violates principles of natural justice of the RTI Applicant.
+
+
+
+12. It is submitted that in 
+Chitturi Subbanna v. Kudapa Subbanna
+ [AIR 1965 SC
+1325], the Hon'ble Supreme Court observed as follows:
+
+
+
+
+Considerations of public policy require that a successful party should not, at the
+appellate stage, be faced with new grounds of attack after having repulsed the
+original ones. The proper function of an appellate court is to correct an error in the
+judgment or proceedings of the court below and not to adjudicate upon a different
+kind of dispute -a dispute that was never taken before the court below....
+" 13. Based on the afore-mentioned case, it is humbly submitted by the RTI
+Applicant that the FAA's act of citing a new ground at the appellate stage is
+invalid and untenable, and violates principles of natural justice. If the said ground
+is to be raised, the RTI Applicant should have been given an opportunity to
+respond, which was never given by the FAA to the RTI Applicant. This action of the
+
+                                          4
+
+ FAA is therefore arbitrary, unreasonable, and violates well established principles
+of natural justice. Also, it is submitted that by raising a new ground, the FAA has
+admitted that the ground raised by the CPIO to reject the information sought is
+invalid.
+
+
+
+13. It is submitted that if two modes of applying for information are available to
+an RTI Applicant, the applicant may choose to file an application under one of
+them such as the 
+RTI Act
+ for the said information. In the present cast, the RTI
+Applicant applied for information under the 
+RTI Act
+ though the 
+Patents Act
+ also
+provides for applying for some types of information under Section 153. It is
+submitted that the application under the 
+RTI Act
+ cannot be rejected by CPIO just
+because another option is available under another statute such as the 
+Patents Act
+
+as held by the Honourable CIC in 
+Kamal Kishore Arora vs Department Of Industrial
+Policy & others
+, Decided by the Honourable CIC on 26 April. 2022 (File No.:
+
+
+CIC/DOIPP/A/2020/672232), available at:
+
+
+
+http://indiankanoon.org/doc/77266213/, which in relevant part stated as follows:
+
+
+
+"In view of the totality of the circumstances discussed above, the Commission
+directs the CPIO to revisit the RTI Application and provide the information sought
+for therein to the extent that is accessible to the public under the 
+Copyrights Act,
+1957
+. At this stage, the CPIO is directed to provide the said information free of
+cost to the Appellant upto 100 pages and beyond this limit, fees may be charged
+as per Rule 4 of RTI rules, 2012. In this regard, attention of the CPIO is drawn
+towards a judgment of the Hon'ble Supreme Court in the matter of ICSI Vs Paras
+Jain, Civil Appeal No. 5665/2014 wherein the Court had held as under in the
+context of supply of information under 
+RTI Act
+ vis-a-vis extant ICSI guidelines: "12.
+Be that as it may. Guideline no.3 of the appellant does not take away from Rule 4,
+The Right to Information (Regulation of Fees and Cost) Rules. 2005 which also
+entitles the candidates to seek inspection and certified copies of their answer
+scripts. In our opinion, the existence of these two avenues is not mutually exclusive
+and it is up to the candidate to choose either of the routes. Thus, if a candidate
+seeks information under the provisions of the Right to Information, then payment
+has to be sought under the Rules therein, however, if the information is sought
+under the Guidelines of the appellant, then the appellant is at liberty to charge the
+candidates as per its guidelines."
+
+
+
+                                       xxx
+C. The information requested by the RTI Applicant relates to public interest.
+
+                                         5
+
+
+ 26. The RTI Applicant humbly submits that patents have a direct relationship with
+public interest, and any information relating to patents relates to public interest.
+
+Therefore, the information sought in the present case is also within the scope of
+exclusion under 
+Section 8(IXd)
+ based on public interest, which deserves its
+disclosure. In other words. the RTI Applicant humbly submits that 
+Section 8(1)(d)
+
+requires public authorities to disclose even exempted information if it relates to
+public interest, and the information sought by the RTI Applicant qualifies as such.
+
+
+
+27. It is submitted that 
+Section 83
+ of the Patents Act specifically states that
+patents are directly related to public interest, and that public interest concerns
+form an important aspect of working of patents. Relevant portion of Section 83
+reads as follows: "83. GENERAL PRINCIPLES APPLICABLE TO WORKING OF
+PATENTED INVENTIONS.
+
+
+
+Without prejudice to the other provisions contained in this Act, in exercising the
+powers conferred by this Chapter, regard shall be had to the following general
+considerations, namely:--
+
+
+
+(c) that the protection and enforcement of patent rights contribute to the
+promotion of technological innovation and to the transfer and dissemination of
+technology, to the mutual advantage of producers and users of technological
+knowledge and in a manner conducive to social and economic welfare, and to a
+balance of rights and obligations; (d) that patents granted do not impede
+protection of public health and nutrition and should act as instruments to promote
+public interest specifically in sectors vital importance for socio-economic and
+technological development of India;" 28. It is submitted that 
+Section 83
+ of the
+Patents Act clearly provides that patents are meant to further public interest, and
+that social and public welfare is at the core of patent law. In Novanis Vs. UOI, the
+Honourable Supreme Court reiterated the public interest aspect of patent law, and
+pointed out the importance of public interest and health while dealing with
+patents. 
+(
+Novanis Ag vs Union Of India & Ors
+, Decided by the Supreme Court on 1
+April. 2013, CIVIL APPEAL Nos. 2706-2716 OF 2013).
+
+
+
+
+28. It is submitted that in Central Public Information Officer. Supreme Court of
+
+India v. Subhash Chandra Agarwal, MANU/SC/1561/2019
+, the Hon'ble Supreme
+Court while discussing public interest exception in 
+Section 8(1)(d)
+ of the RTI Act,
+2000 stated as follows.
+
+
+
+
+                                         6
+
+
+ "61.... Pertinently, information including trade secrets, intellectual property rights,
+etc. are governed by clause (d) to sub-section (I) of 
+Section 8
+ and Section 9 of the
+RT1 Act. In all other cases where the information relates to or has been supplied
+by the third party and treated as confidential by that third party, disclosure in
+terms of the proviso may be allowed where the public interest in disclosure
+outweighs in importance any possible hann or injury to the interest of the third
+party. Confidentiality is protected and preserved in law because the public interest
+requires such protection. It helps and promotes free communication without fear
+of retaliation. However, public interest in protecting confidentiality is subject to
+three well-known exceptions. The first exception being a public interest in the
+disclosure of iniquity for there cannot be any loss of confidentiality involving a
+wrongdoing. Secondly, there cannot be any public interest when the public has
+been misled. Thirdly, the principle of confidentiality does not apply when the
+disclosure relates to matters of public concern, which expression is vastly different
+from news value or news to satiate public curiosity. Public concern relates to
+matters which are an integral part of free speech and expression and entitlement
+of everyone to truth and fair comment about it. There are certain circumstances
+where the public interest in maintaining confidentiality may be outweighed by the
+public interest in disclosure and, thus, in common law, it may not be treated by the
+courts as confidential information."
+
+
+
+29. It is submitted that in the present cast as well, even if the information is
+considered confidential, information relating to patents furthers public interest,
+and may therefore be disclosed by the public authority as it outweighs any other
+confidentiality considerations.
+
+
+
+.A. Another FAA of the same Public Authority has asked the CPIO to disclose the
+same information (
+Section 25(3)
+ order) with respect to another patent The RTI
+Applicant humbly submits that he filed another RTI application requesting the
+order of the Controller under 
+Section 25(3)
+ with respect to another patent bearing
+number 309399 (RTI Application No. CGPDT/R/E/22(00201 and First Appeal No.
+COPDT/A/E/22/00044). In that instance. the CPIO refused the information under
+
+Section 8(I)(d)
+, but the FAA in the said case stated on appeal that the information
+has to be disclosed by the CPIO as it does not fall within the scope of 
+Section
+8(I)(d)
+. The RTI Applicant humbly submits that if the order can be disclosed with
+respect to one patent. the same information may be disclosed with another patent
+by the same Public Authority. It is therefore submitted that the CPIO may be
+ordered to disclose the order in this case as well.
+
+
+
+                                          7
+
+
+ D. Suo Moto Disclosure of information by the public authority
+
+34. The RTI Applicant humbly submits that the information requested must be
+disclosed suo moto by the Office of CGPDTM under 
+Section4
+ of RTI Act, which
+reads as follows:
+
+"4. Obligations of public authorities.--
+
+(2) It shall be a constant endeavour of every public authority to take steps in
+accordance with the requirements of clause (b) of sub section (I) to provide as
+much information suo motu to the public at regular intervals through various
+means of communications,
+                                         xxx
+
+35. It is submitted that documents relating to patents arc published online by the
+office of CGPDTM as they are public documents. The published documents include
+documents relating to oppositions such as notice of opposition. Counter
+statement, report of opposition board, hearing documents, and orders of the
+Controller of Patents. However, though the report of the opposition board is
+published online, the order in writing under 
+Section 25(3)
+ constituting the
+opposition board is not published. This is absurd because the order constituting
+the opposition board is passed by the Controller of Patents in her/his capacity as a
+quasi-judicial authority in a public proceeding., and all other documents that form
+part of the proceedings are published including the report given in furtherance of
+the order. As the Office of CGPDTM is disclosing all reports of opposition boards
+online, it is submitted that the orders constituting the opposition board may also
+be provided at the same link so that the public gets the opportunity to access and
+act upon the said information. It is submitted that providing orders under 
+Section
+25(3)(b)
+ of the Patents Act online will not only further public interest, but will also
+further the objectives of the 
+RTI Act
+. This will also avoid the necessity of filing RTI
+applications to get orders that form part of regular public information that ought
+to be disclosed suo moto. ..."
+
+
+
+The CPIO reiterated the contents of her above- mentioned reply & FAA's order.
+Further, to a query from the Commission regarding disclosure of patent bearing
+number in public domain, the CPIO submitted that such related information is
+never uploaded on their website .
+
+
+
+Decision:
+
+
+
+At the outset, the Commission agrees with the submissions of the Appellant that
+initial denial of information by the CPIO on the plea that it has not been sought
+
+
+
+                                          8
+
+ through alternative prescribed process at the initial stage, was not appropriate as
+per the provisions of the 
+RTI Act
+ and RTI Rules, 2012.
+
+
+
+The CPIO although advised the Appellant to obtain certified copies of documents
+by following the procedure prescribed
+ u/s 153
+ of The Patents Act,1970; however
+under 
+RTI Act
+, he cannot take umbrage of any other rules and regulations for
+supplying the information or stipulating the fees for supply of copy of documents.
+In this regard, attention of the CPIO is drawn towards a judgment dated
+11.04.2019 of the Apex Court in the matter of ICSI Vs Paras Jain, Civil Appeal No.
+5665/2014 wherein it was held as under-
+
+
+
+  "12. Be that as it may, Guideline no.3 of the appellant does not take away
+  from Rule 4, The Right to Information (Regulation of Fees and Cost) Rules,
+  2005 which also entitles the candidates to seek inspection and certified
+  copies of their answer scripts. In our opinion, the existence of these two
+  avenues is not mutually exclusive and it is up to the candidate to choose
+  either of the routes. Thus, if a candidate seeks information under the
+  provisions of the Right to Information, then payment has to be sought under
+  the Rules therein, however, if the information is sought under the Guidelines
+  of the appellant, then the appellant is at liberty to charge the candidates as
+  per its guidelines." (Emphasis Supplied)
+
+  Adverting to aforesaid ratio, the CPIO is under obligation to provide copy of
+  answer scripts sought for under the 
+RTI Act
+ by charging photocopying
+  charges strictly as per the RTI Rules, 2012. Thus, the CPIO is hereby
+  cautioned to exercise due diligence in future while replying to such RTI
+  Applications. (Emphasis supplied)
+
+Notwithstanding the aforesaid, the Commission after close scrutiny of the
+contents of RTI Application arrives at the conclusion that the queries raised by the
+Appellant at points no. 1 and 3 are in the nature of seeking
+clarifications/explanations from the CPIO based on his interrogatories which
+concededly do not conform to 
+Section 2(f)
+ of RTI Act. In this regard, the Appellant
+shall note that outstretching the interpretation of 
+Section 2(f)
+ of the RTI Act to
+include deductions and inferences to be drawn by the CPIO is unwarranted as it
+casts immense pressure on the CPIOs to ensure that they provide the correct
+deduction/inference to avoid being subject to penal provisions under the 
+RTI Act
+.
+For the sake of clarity, the provision of 
+Section 2(f)
+ of the RTI Act is reproduced
+hereunder:
+
+                                         9
+
+
+       "2. Definitions.--In this Act, unless the context otherwise requires,--
+
+       (f) "information" means any material in any form, including records,
+documents, memos, e-mails, opinions, advices, press releases, circulars, orders,
+logbooks, contracts, reports, papers, samples, models, data material held in any
+electronic form and information relating to any private body which can be
+accessed by a public authority under any other law for the time being in force;.."
+
+His attention is also drawn towards a judgment of the Hon'ble Supreme Court on
+the scope and ambit of 
+Section 2(f)
+ of RTI Act in the matter of CBSE vs. Aditya
+Bandopadhyay & Ors.[CIVIL APPEAL NO.6454 of 2011]wherein it was held as
+under:
+
+       "35. At this juncture, it is necessary to clear some misconceptions about
+the 
+RTI Act
+. 
+The RTI Act
+ provides access to all information that is available and
+existing.........A public authority is also not required to furnish information which
+require drawing of inferences and/or making of assumptions. It is also not
+required to provide `advice' or `opinion' to an applicant, nor required to obtain
+and furnish any `opinion' or `advice' to an applicant. The reference to `opinion'
+or `advice' in the definition of `information' in 
+section 2(f)
+ of the Act, only refers
+to such material available in the records of the public authority. Many public
+authorities have, as a public relation exercise, provide advice, guidance and
+opinion to the citizens. But that is purely voluntary and should not be confused
+with any obligation under the 
+RTI Act
+." (Emphasis Supplied)
+
+
+In addition to above, the details of opposition board pertaining to patent bearing
+number 332522 of third party as sought by the Appellant at point no. 2 & 4 of RTI
+Application is squarely hit by 
+Section 8(1)(j)
+ of RTI Act. The said exemption clause
+is reproduced as under:
+
+
+
+     "8. Exemption from disclosure of information --
+
+
+
+     Notwithstanding anything contained in this Act, there shall be no obligation
+     to give any citizen:
+
+                                          xxxx
+
+     (j) information which relates to personal information the disclosure of which
+     has no relationship to any public activity or interest, or which would cause
+     unwarranted invasion of the privacy of the individual unless the Central
+     Public Information Officer or the State Public Information Officer or the
+
+
+                                         10
+
+      appellate authority, as the case may be, is satisfied that the larger public
+     interest justifies the disclosure of such information:.."
+
+
+
+The above mentioned observation is in lines with a judgement of Hon'ble
+Supreme Court of India in the matter of Central Public Information Officer,
+Supreme Court of 
+India Vs. Subhash Chandra Agarwal
+ in Civil Appeal No. 10044
+of 2010 with Civil Appeal No. 10045 of 2010 and Civil Appeal No. 2683 of 2010
+wherein while explaining the import of "personal information" envisaged under
+
+Section 8(1)(j)
+ of RTI Act has been exemplified in the context of earlier ratios 
+laid
+down by
+ the same Court in the matter(
+s) of Canara Bank Vs. C.S. Shyam
+ in Civil
+Appeal No.22 of 2009; 
+Girish Ramchandra Deshpande vs. Central Information
+Commissioner & Ors.
+, (2013) 1 SCC 212 and R.K. Jain vs. Union of India &Anr.,
+(2013) 14 SCC 794.The following was thus held:
+
+
+
+
+                "59. Reading of the aforesaid judicial precedents, in our opinion,
+         would indicate that personal records, including name, address, physical,
+         mental and psychological status, marks obtained, grades and answer
+         sheets, are all treated as personal information. Similarly, professional
+         records, including qualification, performance, evaluation reports, ACRs,
+         disciplinary proceedings, etc. are all personal information. Medical
+         records, treatment, choice of medicine, list of hospitals and doctors
+         visited, findings recorded, including that of the family members,
+         information relating to assets, liabilities, income tax returns, details of
+         investments, lending and borrowing, etc. are personal information. Such
+         personal information is entitled to protection from unwarranted invasion
+         of privacy and conditional access is available when stipulation of larger
+         public interest is satisfied. This list is indicative and not exhaustive..."
+
+         (Emphasis Supplied)
+
+Having observed as above, no further relief can be granted in the matter.
+
+
+
+                      The appeal is disposed of accordingly.
+
+
+
+                                                    Saroj Punhani (सरोज पुनहािन)
+                                                                           हािन)
+                                          Information Commissioner (सूचना आयु )
+
+
+
+
+                                         11
+
+ Authenticated true copy
+(अिभ मािणत स#यािपत  ित)
+
+(C.A. Joseph)
+Dy. Registrar
+011-26179548/ 
+[email protected]
+
+सी. ए. जोसेफ, उप-पंजीयक
+ दनांक /
+
+
+
+
+
+                                 12

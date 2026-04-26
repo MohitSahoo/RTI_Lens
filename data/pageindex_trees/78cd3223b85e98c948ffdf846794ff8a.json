@@ -1,0 +1,75 @@
+{
+  "doc_name": "78cd3223b85e98c948ffdf846794ff8a",
+  "line_count": 438,
+  "structure": [
+    {
+      "title": "Central Information Commission",
+      "node_id": "0001",
+      "line_num": 10,
+      "nodes": [
+        {
+          "title": "Author:",
+          "node_id": "0002",
+          "line_num": 17
+        },
+        {
+          "title": "Bench:",
+          "node_id": "0003",
+          "line_num": 22
+        }
+      ]
+    },
+    {
+      "title": "Central Information Commission",
+      "node_id": "0004",
+      "line_num": 28,
+      "nodes": [
+        {
+          "title": "Complaint dated                                                        Nil",
+          "node_id": "0005",
+          "line_num": 57
+        },
+        {
+          "title": "ORDER",
+          "node_id": "0006",
+          "line_num": 60
+        },
+        {
+          "title": "HEARING:",
+          "node_id": "0007",
+          "line_num": 83
+        },
+        {
+          "title": "Facts emerging during the hearing:",
+          "node_id": "0008",
+          "line_num": 86
+        },
+        {
+          "title": "The following were present:",
+          "node_id": "0009",
+          "line_num": 89
+        },
+        {
+          "title": "information sought was rightly denied",
+          "node_id": "0010",
+          "line_num": 108
+        },
+        {
+          "title": ") had held as under:",
+          "node_id": "0011",
+          "line_num": 178
+        },
+        {
+          "title": "SCC 781 dated 02.09.2011 had held as under:",
+          "node_id": "0012",
+          "line_num": 359
+        },
+        {
+          "title": "DECISION:",
+          "node_id": "0013",
+          "line_num": 398
+        }
+      ]
+    }
+  ]
+}

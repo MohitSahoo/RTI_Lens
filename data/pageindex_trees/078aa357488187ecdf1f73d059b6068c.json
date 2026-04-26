@@ -1,0 +1,960 @@
+{
+  "doc_name": "078aa357488187ecdf1f73d059b6068c",
+  "line_count": 6392,
+  "structure": [
+    {
+      "title": "Central Information Commission",
+      "node_id": "0001",
+      "line_num": 10
+    },
+    {
+      "title": "Central Information Commission",
+      "node_id": "0002",
+      "line_num": 18,
+      "nodes": [
+        {
+          "title": "Relevant facts emerging from complaint:",
+          "node_id": "0003",
+          "line_num": 94
+        },
+        {
+          "title": "Information sought",
+          "node_id": "0004",
+          "line_num": 114
+        },
+        {
+          "title": ":",
+          "node_id": "0005",
+          "line_num": 116
+        },
+        {
+          "title": "following information:",
+          "node_id": "0006",
+          "line_num": 120
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0007",
+          "line_num": 173
+        },
+        {
+          "title": "following information:",
+          "node_id": "0008",
+          "line_num": 177
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0009",
+          "line_num": 257
+        },
+        {
+          "title": "following information:",
+          "node_id": "0010",
+          "line_num": 261
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0011",
+          "line_num": 336
+        },
+        {
+          "title": "following information:",
+          "node_id": "0012",
+          "line_num": 340
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0013",
+          "line_num": 423
+        },
+        {
+          "title": "following information:",
+          "node_id": "0014",
+          "line_num": 427
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0015",
+          "line_num": 507
+        },
+        {
+          "title": "following information:",
+          "node_id": "0016",
+          "line_num": 511
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0017",
+          "line_num": 589
+        },
+        {
+          "title": "following information:",
+          "node_id": "0018",
+          "line_num": 593
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0019",
+          "line_num": 673
+        },
+        {
+          "title": "following information:",
+          "node_id": "0020",
+          "line_num": 677
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0021",
+          "line_num": 757
+        },
+        {
+          "title": "following information:",
+          "node_id": "0022",
+          "line_num": 761
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0023",
+          "line_num": 839
+        },
+        {
+          "title": "following information:",
+          "node_id": "0024",
+          "line_num": 843
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0025",
+          "line_num": 892
+        },
+        {
+          "title": "following information:",
+          "node_id": "0026",
+          "line_num": 896
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0027",
+          "line_num": 945
+        },
+        {
+          "title": "following information:",
+          "node_id": "0028",
+          "line_num": 949
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0029",
+          "line_num": 997
+        },
+        {
+          "title": "following information:",
+          "node_id": "0030",
+          "line_num": 1001
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0031",
+          "line_num": 1052
+        },
+        {
+          "title": "following information:",
+          "node_id": "0032",
+          "line_num": 1056
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0033",
+          "line_num": 1105
+        },
+        {
+          "title": "following information:",
+          "node_id": "0034",
+          "line_num": 1109
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0035",
+          "line_num": 1161
+        },
+        {
+          "title": "following information:",
+          "node_id": "0036",
+          "line_num": 1165
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0037",
+          "line_num": 1221
+        },
+        {
+          "title": "following information:",
+          "node_id": "0038",
+          "line_num": 1225
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0039",
+          "line_num": 1283
+        },
+        {
+          "title": "following information:",
+          "node_id": "0040",
+          "line_num": 1287
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0041",
+          "line_num": 1347
+        },
+        {
+          "title": "following information:",
+          "node_id": "0042",
+          "line_num": 1351
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0043",
+          "line_num": 1411
+        },
+        {
+          "title": "following information:",
+          "node_id": "0044",
+          "line_num": 1415
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0045",
+          "line_num": 1469
+        },
+        {
+          "title": "following information:",
+          "node_id": "0046",
+          "line_num": 1473
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0047",
+          "line_num": 1528
+        },
+        {
+          "title": "following information:",
+          "node_id": "0048",
+          "line_num": 1532
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0049",
+          "line_num": 1583
+        },
+        {
+          "title": "following information:",
+          "node_id": "0050",
+          "line_num": 1587
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0051",
+          "line_num": 1641
+        },
+        {
+          "title": "following information:",
+          "node_id": "0052",
+          "line_num": 1645
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0053",
+          "line_num": 1701
+        },
+        {
+          "title": "following information:",
+          "node_id": "0054",
+          "line_num": 1705
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0055",
+          "line_num": 1759
+        },
+        {
+          "title": "following information:",
+          "node_id": "0056",
+          "line_num": 1763
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0057",
+          "line_num": 1816
+        },
+        {
+          "title": "following information:",
+          "node_id": "0058",
+          "line_num": 1820
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0059",
+          "line_num": 1875
+        },
+        {
+          "title": "following information:",
+          "node_id": "0060",
+          "line_num": 1879
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0061",
+          "line_num": 1929
+        },
+        {
+          "title": "following information:",
+          "node_id": "0062",
+          "line_num": 1936
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0063",
+          "line_num": 1986
+        },
+        {
+          "title": "following information:",
+          "node_id": "0064",
+          "line_num": 1990
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0065",
+          "line_num": 2043
+        },
+        {
+          "title": "following information:",
+          "node_id": "0066",
+          "line_num": 2047
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0067",
+          "line_num": 2100
+        },
+        {
+          "title": "following information:",
+          "node_id": "0068",
+          "line_num": 2104
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0069",
+          "line_num": 2157
+        },
+        {
+          "title": "following information:",
+          "node_id": "0070",
+          "line_num": 2161
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0071",
+          "line_num": 2214
+        },
+        {
+          "title": "following information:",
+          "node_id": "0072",
+          "line_num": 2218
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0073",
+          "line_num": 2268
+        },
+        {
+          "title": "following information:",
+          "node_id": "0074",
+          "line_num": 2272
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0075",
+          "line_num": 2325
+        },
+        {
+          "title": "following information:",
+          "node_id": "0076",
+          "line_num": 2329
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0077",
+          "line_num": 2379
+        },
+        {
+          "title": "following information:",
+          "node_id": "0078",
+          "line_num": 2383
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0079",
+          "line_num": 2436
+        },
+        {
+          "title": "following information:",
+          "node_id": "0080",
+          "line_num": 2440
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0081",
+          "line_num": 2493
+        },
+        {
+          "title": "following information:",
+          "node_id": "0082",
+          "line_num": 2497
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0083",
+          "line_num": 2550
+        },
+        {
+          "title": "following information:",
+          "node_id": "0084",
+          "line_num": 2554
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0085",
+          "line_num": 2607
+        },
+        {
+          "title": "following information:",
+          "node_id": "0086",
+          "line_num": 2611
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0087",
+          "line_num": 2689
+        },
+        {
+          "title": "following information:",
+          "node_id": "0088",
+          "line_num": 2693
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0089",
+          "line_num": 2768
+        },
+        {
+          "title": "following information:",
+          "node_id": "0090",
+          "line_num": 2772
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0091",
+          "line_num": 2857
+        },
+        {
+          "title": "following information:",
+          "node_id": "0092",
+          "line_num": 2861
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0093",
+          "line_num": 2945
+        },
+        {
+          "title": "following information:",
+          "node_id": "0094",
+          "line_num": 2949
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0095",
+          "line_num": 3030
+        },
+        {
+          "title": "following information:",
+          "node_id": "0096",
+          "line_num": 3034
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0097",
+          "line_num": 3083
+        },
+        {
+          "title": "following information:",
+          "node_id": "0098",
+          "line_num": 3087
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0099",
+          "line_num": 3136
+        },
+        {
+          "title": "following information:",
+          "node_id": "0100",
+          "line_num": 3140
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0101",
+          "line_num": 3189
+        },
+        {
+          "title": "following information:",
+          "node_id": "0102",
+          "line_num": 3193
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0103",
+          "line_num": 3244
+        },
+        {
+          "title": "following information:",
+          "node_id": "0104",
+          "line_num": 3248
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0105",
+          "line_num": 3296
+        },
+        {
+          "title": "following information:",
+          "node_id": "0106",
+          "line_num": 3300
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0107",
+          "line_num": 3353
+        },
+        {
+          "title": "following information:",
+          "node_id": "0108",
+          "line_num": 3357
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0109",
+          "line_num": 3415
+        },
+        {
+          "title": "following information:",
+          "node_id": "0110",
+          "line_num": 3419
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0111",
+          "line_num": 3475
+        },
+        {
+          "title": "following information:",
+          "node_id": "0112",
+          "line_num": 3479
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0113",
+          "line_num": 3535
+        },
+        {
+          "title": "following information:",
+          "node_id": "0114",
+          "line_num": 3539
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0115",
+          "line_num": 3597
+        },
+        {
+          "title": "following information:",
+          "node_id": "0116",
+          "line_num": 3601
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0117",
+          "line_num": 3654
+        },
+        {
+          "title": "following information:",
+          "node_id": "0118",
+          "line_num": 3658
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0119",
+          "line_num": 3711
+        },
+        {
+          "title": "following information:",
+          "node_id": "0120",
+          "line_num": 3715
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0121",
+          "line_num": 3765
+        },
+        {
+          "title": "following information:",
+          "node_id": "0122",
+          "line_num": 3772
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0123",
+          "line_num": 3822
+        },
+        {
+          "title": "following information:",
+          "node_id": "0124",
+          "line_num": 3826
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0125",
+          "line_num": 3877
+        },
+        {
+          "title": "following information:",
+          "node_id": "0126",
+          "line_num": 3881
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0127",
+          "line_num": 3935
+        },
+        {
+          "title": "following information:",
+          "node_id": "0128",
+          "line_num": 3939
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0129",
+          "line_num": 3993
+        },
+        {
+          "title": "following information:",
+          "node_id": "0130",
+          "line_num": 3997
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0131",
+          "line_num": 4050
+        },
+        {
+          "title": "following information:",
+          "node_id": "0132",
+          "line_num": 4054
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0133",
+          "line_num": 4109
+        },
+        {
+          "title": "following information:",
+          "node_id": "0134",
+          "line_num": 4113
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0135",
+          "line_num": 4197
+        },
+        {
+          "title": "following information:",
+          "node_id": "0136",
+          "line_num": 4201
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0137",
+          "line_num": 4285
+        },
+        {
+          "title": "following information:",
+          "node_id": "0138",
+          "line_num": 4289
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0139",
+          "line_num": 4373
+        },
+        {
+          "title": "following information:",
+          "node_id": "0140",
+          "line_num": 4377
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0141",
+          "line_num": 4461
+        },
+        {
+          "title": "following information:",
+          "node_id": "0142",
+          "line_num": 4465
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0143",
+          "line_num": 4549
+        },
+        {
+          "title": "following information:",
+          "node_id": "0144",
+          "line_num": 4553
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0145",
+          "line_num": 4613
+        },
+        {
+          "title": "following information:",
+          "node_id": "0146",
+          "line_num": 4617
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0147",
+          "line_num": 4703
+        },
+        {
+          "title": "following information:",
+          "node_id": "0148",
+          "line_num": 4707
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0149",
+          "line_num": 4791
+        },
+        {
+          "title": "following information:",
+          "node_id": "0150",
+          "line_num": 4795
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0151",
+          "line_num": 4879
+        },
+        {
+          "title": "following information:",
+          "node_id": "0152",
+          "line_num": 4883
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0153",
+          "line_num": 4961
+        },
+        {
+          "title": "following information:",
+          "node_id": "0154",
+          "line_num": 4965
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0155",
+          "line_num": 5044
+        },
+        {
+          "title": "following information:",
+          "node_id": "0156",
+          "line_num": 5048
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0157",
+          "line_num": 5106
+        },
+        {
+          "title": "following information:",
+          "node_id": "0158",
+          "line_num": 5110
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0159",
+          "line_num": 5189
+        },
+        {
+          "title": "following information:",
+          "node_id": "0160",
+          "line_num": 5193
+        },
+        {
+          "title": "Information sought:",
+          "node_id": "0161",
+          "line_num": 5258
+        },
+        {
+          "title": "following information:",
+          "node_id": "0162",
+          "line_num": 5262
+        },
+        {
+          "title": "Relevant Facts emerged during Hearing:",
+          "node_id": "0163",
+          "line_num": 5315
+        },
+        {
+          "title": "order. The Complainant may note that the timing indicated in the cause list is",
+          "node_id": "0164",
+          "line_num": 5341
+        },
+        {
+          "title": "complaint cases in which first appeals are not filed by the Complainant. In",
+          "node_id": "0165",
+          "line_num": 5354
+        },
+        {
+          "title": "complaint cases, the Commission has to only adjudicate whether information",
+          "node_id": "0166",
+          "line_num": 5356
+        },
+        {
+          "title": "which is being reproduced herein:",
+          "node_id": "0167",
+          "line_num": 5367
+        },
+        {
+          "title": "information sought.",
+          "node_id": "0168",
+          "line_num": 5401
+        },
+        {
+          "title": "hereinbelow:",
+          "node_id": "0169",
+          "line_num": 5408
+        },
+        {
+          "title": "Written Submission 1:",
+          "node_id": "0170",
+          "line_num": 5414
+        },
+        {
+          "title": "5. Merits of the case:",
+          "node_id": "0171",
+          "line_num": 5579
+        },
+        {
+          "title": "appeal may be rejected, if deemed fit.",
+          "node_id": "0172",
+          "line_num": 5659
+        },
+        {
+          "title": "Written submissions 2:",
+          "node_id": "0173",
+          "line_num": 5671
+        },
+        {
+          "title": "Written submissions 3:",
+          "node_id": "0174",
+          "line_num": 5702
+        },
+        {
+          "title": "Written submissions 4:",
+          "node_id": "0175",
+          "line_num": 5750
+        },
+        {
+          "title": "Written submissions 5:",
+          "node_id": "0176",
+          "line_num": 5825
+        },
+        {
+          "title": "Written submissions 6:",
+          "node_id": "0177",
+          "line_num": 5842
+        },
+        {
+          "title": "Written submissions 7:",
+          "node_id": "0178",
+          "line_num": 5866
+        },
+        {
+          "title": "Decision:",
+          "node_id": "0179",
+          "line_num": 5949
+        },
+        {
+          "title": "hereinbelow:",
+          "node_id": "0180",
+          "line_num": 5960
+        },
+        {
+          "title": "complaints cases including the present set of cases listed for",
+          "node_id": "0181",
+          "line_num": 6001
+        },
+        {
+          "title": "3114/2007 vide order dated 03.12.2007 held that:",
+          "node_id": "0182",
+          "line_num": 6026
+        }
+      ]
+    },
+    {
+      "title": "Central Information Commission to initiate action under",
+      "node_id": "0183",
+      "line_num": 6042
+    },
+    {
+      "title": "Singh v. Central Information Commission and Anr. WP (C",
+      "node_id": "0184",
+      "line_num": 6055,
+      "nodes": [
+        {
+          "title": "dated 20.03.2009 had held as under:",
+          "node_id": "0185",
+          "line_num": 6058
+        },
+        {
+          "title": "11), where J. Pasayat had held:",
+          "node_id": "0186",
+          "line_num": 6115
+        },
+        {
+          "title": "similar observations:",
+          "node_id": "0187",
+          "line_num": 6172
+        },
+        {
+          "title": "Court held as follows:",
+          "node_id": "0188",
+          "line_num": 6190
+        },
+        {
+          "title": "decision of this bench, wherein aspect of \"misuse of the right to",
+          "node_id": "0189",
+          "line_num": 6222
+        },
+        {
+          "title": "is as under:",
+          "node_id": "0190",
+          "line_num": 6232
+        }
+      ]
+    }
+  ]
+}

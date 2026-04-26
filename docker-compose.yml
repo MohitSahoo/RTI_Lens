@@ -1,16 +1,44 @@
-
 version: '3.8'
+
 services:
   db:
-    image: postgres:16
+    image: postgres:15-alpine
+    container_name: rtilens-db
     environment:
+      POSTGRES_USER: rtilens
+      POSTGRES_PASSWORD: rtilens_dev
       POSTGRES_DB: rtilens
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
     ports:
       - "5432:5432"
     volumes:
-      - pgdata:/var/lib/postgresql/data
+      - postgres_data:/var/lib/postgresql/data
+      - ./schema.sql:/docker-entrypoint-initdb.d/schema.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U rtilens"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: rtilens-api
+    environment:
+      DATABASE_URL: postgresql://rtilens:rtilens_dev@db:5432/rtilens
+      API_HOST: 0.0.0.0
+      API_PORT: 8001
+      GEMINI_API_KEY: ${GEMINI_API_KEY}
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+    ports:
+      - "8001:8001"
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - ./data:/app/data
+      - ./backend:/app/backend
+    restart: unless-stopped
 
 volumes:
-  pgdata:
+  postgres_data:

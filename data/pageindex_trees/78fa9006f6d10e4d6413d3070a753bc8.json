@@ -1,0 +1,60 @@
+{
+  "doc_name": "78fa9006f6d10e4d6413d3070a753bc8",
+  "line_count": 280,
+  "structure": [
+    {
+      "title": "Central Information Commission",
+      "node_id": "0001",
+      "line_num": 10,
+      "nodes": [
+        {
+          "title": "Author:",
+          "node_id": "0002",
+          "line_num": 17
+        },
+        {
+          "title": "Bench:",
+          "node_id": "0003",
+          "line_num": 22
+        }
+      ]
+    },
+    {
+      "title": "Central Information Commission",
+      "node_id": "0004",
+      "line_num": 28,
+      "nodes": [
+        {
+          "title": "ORDER",
+          "node_id": "0005",
+          "line_num": 51
+        },
+        {
+          "title": "order dated 25.11.2019",
+          "node_id": "0006",
+          "line_num": 83
+        },
+        {
+          "title": "Hearing:",
+          "node_id": "0007",
+          "line_num": 114
+        },
+        {
+          "title": "Decision:",
+          "node_id": "0008",
+          "line_num": 138
+        },
+        {
+          "title": "the Commission had held as under:",
+          "node_id": "0009",
+          "line_num": 190
+        },
+        {
+          "title": "Addresses of the parties:",
+          "node_id": "0010",
+          "line_num": 266
+        }
+      ]
+    }
+  ]
+}

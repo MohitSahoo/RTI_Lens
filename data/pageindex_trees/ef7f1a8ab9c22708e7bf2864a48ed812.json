@@ -1,0 +1,72 @@
+{
+  "doc_name": "ef7f1a8ab9c22708e7bf2864a48ed812",
+  "line_count": 317,
+  "structure": [
+    {
+      "title": "Central Information Commission",
+      "node_id": "0001",
+      "line_num": 10,
+      "nodes": [
+        {
+          "title": "Author:",
+          "node_id": "0002",
+          "line_num": 17
+        },
+        {
+          "title": "Bench:",
+          "node_id": "0003",
+          "line_num": 22
+        }
+      ]
+    },
+    {
+      "title": "Central Information Commission",
+      "node_id": "0004",
+      "line_num": 28,
+      "nodes": [
+        {
+          "title": "ORDER",
+          "node_id": "0005",
+          "line_num": 51
+        },
+        {
+          "title": "Hearing:",
+          "node_id": "0006",
+          "line_num": 102
+        },
+        {
+          "title": "ordered to provide the requested information to the appellant.",
+          "node_id": "0007",
+          "line_num": 126
+        },
+        {
+          "title": "Decision:",
+          "node_id": "0008",
+          "line_num": 152
+        },
+        {
+          "title": "(2011) 8 SCC 497 wherein it was held as under:",
+          "node_id": "0009",
+          "line_num": 197
+        }
+      ]
+    },
+    {
+      "title": "Central Information Commission",
+      "node_id": "0010",
+      "line_num": 239,
+      "nodes": [
+        {
+          "title": "03/10/2012 wherein it was held as under:",
+          "node_id": "0011",
+          "line_num": 242
+        },
+        {
+          "title": "Addresses of the parties:",
+          "node_id": "0012",
+          "line_num": 302
+        }
+      ]
+    }
+  ]
+}

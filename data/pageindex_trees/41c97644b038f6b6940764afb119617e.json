@@ -1,0 +1,65 @@
+{
+  "doc_name": "41c97644b038f6b6940764afb119617e",
+  "line_count": 235,
+  "structure": [
+    {
+      "title": "Central Information Commission",
+      "node_id": "0001",
+      "line_num": 10,
+      "nodes": [
+        {
+          "title": "Author:",
+          "node_id": "0002",
+          "line_num": 17
+        },
+        {
+          "title": "Bench:",
+          "node_id": "0003",
+          "line_num": 22
+        }
+      ]
+    },
+    {
+      "title": "Central Information Commission",
+      "node_id": "0004",
+      "line_num": 28,
+      "nodes": [
+        {
+          "title": "Relevant dates emerging from the appeal:",
+          "node_id": "0005",
+          "line_num": 48
+        },
+        {
+          "title": "ORDER",
+          "node_id": "0006",
+          "line_num": 55
+        },
+        {
+          "title": "Hearing:",
+          "node_id": "0007",
+          "line_num": 95
+        },
+        {
+          "title": "Decision:",
+          "node_id": "0008",
+          "line_num": 112
+        },
+        {
+          "title": "under:",
+          "node_id": "0009",
+          "line_num": 154
+        },
+        {
+          "title": "dated 11.01.2013 held as under:",
+          "node_id": "0010",
+          "line_num": 169
+        },
+        {
+          "title": "Addresses of the parties:",
+          "node_id": "0011",
+          "line_num": 219
+        }
+      ]
+    }
+  ]
+}

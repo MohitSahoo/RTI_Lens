@@ -1,9 +1,12 @@
 """
-BM25 Index Singleton Loader
+BM25 Index Singleton Loader with integrity verification
 """
-import pickle
+import logging
 from pathlib import Path
 from backend.config import BM25_INDEX_PATH
+from backend.utils.pickle_security import load_pickle_with_verification, PickleIntegrityError
+
+logger = logging.getLogger(__name__)
 
 class BM25Loader:
     _instance = None
@@ -18,15 +21,26 @@ class BM25Loader:
 
     @classmethod
     def _load_index(cls):
-        """Load BM25 index from pickle file"""
+        """Load BM25 index from pickle file with integrity verification"""
         path = Path(BM25_INDEX_PATH)
         if not path.exists():
             raise FileNotFoundError(f"BM25 index not found at {BM25_INDEX_PATH}")
 
-        with open(path, "rb") as f:
-            data = pickle.load(f)
+        # Load pickle with integrity verification
+        hash_file = Path(str(path) + '.sha256')
+        try:
+            data = load_pickle_with_verification(
+                path,
+                hash_file=hash_file if hash_file.exists() else None
+            )
             cls._bm25 = data["bm25"]
             cls._index = data["index"]
+            logger.info("BM25 index loaded successfully with integrity verification")
+        except PickleIntegrityError as e:
+            logger.error(f"BM25 index integrity check failed: {e}")
+            raise FileNotFoundError(
+                "BM25 index file integrity check failed. Please regenerate the index with scripts/build_bm25.py"
+            )
 
     @classmethod
     def get_bm25(cls):
@@ -45,13 +59,48 @@ class BM25Loader:
     @classmethod
     def search(cls, query: str, top_k: int = 5):
         """Search BM25 index and return top-k results"""
+        import re
         from nltk.corpus import stopwords
 
         STOPWORDS = set(stopwords.words('english'))
 
         def tokenize(text: str):
-            tokens = text.lower().split()
-            return [t for t in tokens if t.isalpha() and t not in STOPWORDS]
+            """
+            Tokenize text while preserving section numbers like 8(1)(a), 8(1)a, 2(f), etc.
+            """
+            import re
+            # Normalize to lowercase
+            text = text.lower()
+            
+            # Pattern for RTI section numbers and other alphanumeric codes
+            # This matches: 8(1)(a), 2(f), 4(1)(b), 8(1)a, etc.
+            section_pattern = re.compile(r'\b\d+\(?[\w\d]*\)?(?:\(?[\w\d]*\)?)*\b')
+            
+            # Extract section numbers first
+            sections = section_pattern.findall(text)
+            
+            # Remove symbols except those used in section numbers, then split
+            clean_text = re.sub(r'[^a-z0-9\(\)\[\]]', ' ', text)
+            tokens = clean_text.split()
+            
+            result = []
+            STOPWORDS = set(stopwords.words('english'))
+
+            # Process tokens
+            for t in tokens:
+                # If it's in our pre-extracted sections, keep it
+                if t in sections or section_pattern.match(t):
+                    result.append(t)
+                    continue
+                
+                # Strip parentheses for normal word check
+                t_word = t.strip('()[]')
+                if len(t_word) > 1 and t_word.isalnum() and t_word not in STOPWORDS:
+                    result.append(t_word)
+                elif t_word.isalpha() and t_word not in STOPWORDS:
+                    result.append(t_word)
+
+            return list(set(result)) # Unique tokens
 
         bm25 = cls.get_bm25()
         index = cls.get_index()
