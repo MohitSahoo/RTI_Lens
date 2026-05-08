@@ -4,13 +4,12 @@ RTI Appeal Draft Generation Endpoint
 from fastapi import APIRouter, Depends, HTTPException, Request
 from sqlalchemy.orm import Session
 from sqlalchemy import text
-from google import genai
-from google.genai import types
+from groq import Groq
 from slowapi import Limiter
 from slowapi.util import get_remote_address
 import json
 import logging
-from backend.config import GEMINI_API_KEY, GEMINI_MODEL, RATE_LIMIT
+from backend.config import GROQ_API_KEY, GROQ_MODEL, RATE_LIMIT
 from backend.database import get_db
 from backend.schemas import DraftRequest, DraftResponse
 from backend.utils.bm25_loader import BM25Loader
@@ -24,12 +23,12 @@ logger = logging.getLogger(__name__)
 @limiter.limit(RATE_LIMIT)
 async def generate_draft(request: Request, body: DraftRequest, db: Session = Depends(get_db)):
     """
-    Generate RTI appeal draft using BM25 retrieval + section stats + Gemini
+    Generate RTI appeal draft using BM25 retrieval + section stats + Groq
     """
-    if not GEMINI_API_KEY:
+    if not GROQ_API_KEY:
         raise HTTPException(
             status_code=503,
-            detail="Draft endpoint unavailable: GEMINI_API_KEY not configured. Get a key from https://aistudio.google.com/apikey and add to .env file."
+            detail="Draft endpoint unavailable: GROQ_API_KEY not configured. Get a key from https://console.groq.com/keys and add to .env file."
         )
 
     # Sanitize and validate inputs
@@ -67,7 +66,51 @@ async def generate_draft(request: Request, body: DraftRequest, db: Session = Dep
     # Retrieve similar cases using BM25
     bm25_loader = BM25Loader()
     search_query = f"{ministry} {section} appeal"
-    results = bm25_loader.search(search_query, top_k=3)
+    results = bm25_loader.search(search_query, top_k=5)
+
+    from backend.utils.pageindex_loader import PageIndexLoader
+    pageindex_loader = PageIndexLoader()
+
+    # Fetch full case details and hierarchical text
+    case_details = []
+    order_numbers = [r['paragraph']['order_number'] for r in results[:3]]
+    
+    for order_number in order_numbers:
+        case_query = text("""
+            SELECT
+                order_number,
+                section_cited,
+                appeal_outcome,
+                appeal_level
+            FROM cases
+            WHERE order_number = :order_number
+            LIMIT 1
+        """)
+        case_row = db.execute(case_query, {"order_number": order_number}).fetchone()
+
+        if case_row:
+            # Use PageIndex to get relevant sections based on the draft context
+            sections = pageindex_loader.get_relevant_sections_by_order_numbers(
+                [order_number],
+                context,
+                max_sections=2
+            )
+            
+            if sections:
+                case_text = "\n".join([f"[{s['hierarchy']}] {s['text'][:500]}" for s in sections])
+            else:
+                # Fallback to DB paragraphs if PageIndex fails
+                para_query = text("SELECT text FROM paragraphs WHERE case_id = (SELECT id FROM cases WHERE order_number = :order_number) LIMIT 3")
+                paras = db.execute(para_query, {"order_number": order_number}).fetchall()
+                case_text = "\n".join([p.text[:300] for p in paras])
+
+            case_details.append({
+                "order_number": case_row.order_number,
+                "section": case_row.section_cited,
+                "outcome": case_row.appeal_outcome,
+                "level": case_row.appeal_level,
+                "text": case_text
+            })
 
     # Build context
     stats_context = ""
@@ -79,12 +122,16 @@ Section {section_stats.section_cited} Statistics for {section_stats.ministry}:
 - Misuse rate: {section_stats.misuse_rate * 100:.1f}%
 """
 
-    similar_cases = "\n".join([
-        f"- Order {r['paragraph']['order_number']}: {r['paragraph']['text'][:200]}..."
-        for r in results[:2]
-    ])
+    similar_cases = ""
+    for i, case in enumerate(case_details, 1):
+        similar_cases += f"""
+Case {i}: {case['order_number']}
+Section: {case['section']} | Outcome: {case['outcome']} | Level: {case['level']}
+Text: {case['text']}
+---
+"""
 
-    # Generate draft using Gemini
+    # Generate draft using Groq
     prompt = f"""You are an expert RTI appeal drafter in India.
 
 Analyze and improve the following RTI query:
@@ -95,14 +142,14 @@ Original Query: {context}
 
 {stats_context}
 
-Similar Cases:
+Similar CIC Cases (REAL CASES - DO NOT INVENT):
 {similar_cases}
 
 Instructions:
 - Rewrite the query to be more specific, legally sound, and harder to deny
 - Identify what was vague or problematic in the original query
 - Suggest phrases to avoid based on common denial patterns
-- Reference relevant legal precedents
+- For sources: ONLY use the case numbers provided above. Extract relevance DIRECTLY from the case text shown. DO NOT fabricate cases or relevance descriptions.
 
 Return your response as JSON with this exact structure:
 {{
@@ -113,23 +160,39 @@ Return your response as JSON with this exact structure:
   ],
   "avoid_phrases": ["phrase 1 that often leads to denial", "phrase 2", "phrase 3"],
   "sources": [
-    {{"order_number": "CIC/...", "ministry": "...", "relevance": "why this case is relevant"}}
+    {{"order_number": "MUST be from cases above", "outcome": "allowed/denied from above", "relevance": "extract ONLY from case text above, quote specific phrases"}}
   ]
 }}
+
+CRITICAL: Only reference cases provided above. Do not invent case numbers or relevance.
 
 Response:"""
 
     try:
-        client = genai.Client(api_key=GEMINI_API_KEY)
+        client = Groq(api_key=GROQ_API_KEY)
 
-        response = client.models.generate_content(
-            model=GEMINI_MODEL,
-            contents=prompt
+        response = client.chat.completions.create(
+            model=GROQ_MODEL,
+            messages=[
+                {
+                    "role": "system",
+                    "content": "You are an expert RTI appeal drafter in India. Always respond with valid JSON."
+                },
+                {
+                    "role": "user",
+                    "content": prompt
+                }
+            ],
+            temperature=0.7,
+            response_format={"type": "json_object"}
         )
-        response_text = response.text
+        response_text = response.choices[0].message.content
 
         # Try to parse JSON response
         try:
+            if not response_text:
+                raise ValueError("Empty response from AI model")
+
             # Extract JSON from markdown code blocks if present
             if "```json" in response_text:
                 json_start = response_text.find("```json") + 7
@@ -145,7 +208,7 @@ Response:"""
             change_notes = parsed.get("change_notes", [])
             avoid_phrases = parsed.get("avoid_phrases", [])
             sources = parsed.get("sources", [])
-        except json.JSONDecodeError:
+        except (json.JSONDecodeError, ValueError):
             # Fallback: use original context and generate basic response
             improved_query = context
             change_notes = [{
@@ -163,13 +226,19 @@ Response:"""
                 f"(has {section_stats.misuse_rate * 100:.1f}% overturn rate)"
             )
 
-        # Add sources from BM25 results
-        for r in results[:2]:
-            sources.append({
-                "order_number": r['paragraph']['order_number'],
-                "ministry": r['paragraph']['ministry'],
-                "relevance": "Similar case with relevant precedent"
-            })
+        # Validate sources - only keep if they match actual retrieved cases
+        valid_case_numbers = {case['order_number'] for case in case_details}
+        validated_sources = []
+        for src in sources:
+            if src.get('order_number') in valid_case_numbers:
+                # Add outcome from actual case data
+                matching_case = next((c for c in case_details if c['order_number'] == src['order_number']), None)
+                if matching_case:
+                    src['outcome'] = matching_case['outcome']
+                    src['section'] = matching_case['section']
+                    validated_sources.append(src)
+
+        sources = validated_sources[:3]  # Limit to 3 validated sources
 
         return DraftResponse(
             improved_query=improved_query,
@@ -181,9 +250,15 @@ Response:"""
     except ValueError as e:
         logger.error(f"Validation error in draft generation: {e}")
         raise HTTPException(status_code=400, detail=str(e))
-    except json.JSONDecodeError as e:
-        logger.error(f"JSON parsing error in draft generation: {e}")
-        raise HTTPException(status_code=500, detail="Failed to parse AI response. Please try again.")
     except Exception as e:
         logger.error(f"Unexpected error in draft generation: {e}", exc_info=True)
-        raise HTTPException(status_code=500, detail="An error occurred while generating the draft. Please try again.")
+        error_msg = str(e)
+        if "503" in error_msg or "overloaded" in error_msg.lower() or "high demand" in error_msg.lower():
+            raise HTTPException(
+                status_code=503, 
+                detail="The AI model is currently experiencing high demand. Please try again in a few seconds."
+            )
+        raise HTTPException(
+            status_code=500, 
+            detail="An error occurred while generating the draft. Please try again."
+        )

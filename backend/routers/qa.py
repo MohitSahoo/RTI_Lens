@@ -1,12 +1,11 @@
 """
-Q&A API Endpoint with BM25 + PageIndex hierarchical retrieval and Gemini
+Q&A API Endpoint with BM25 + PageIndex hierarchical retrieval and Groq
 """
 from fastapi import APIRouter, Request, HTTPException
-from google import genai
-from google.genai import types
+from groq import Groq
 from slowapi import Limiter
 from slowapi.util import get_remote_address
-from backend.config import GEMINI_API_KEY, GEMINI_MODEL, MAX_QA_CALLS_PER_SESSION, RATE_LIMIT
+from backend.config import GROQ_API_KEY, GROQ_MODEL, MAX_QA_CALLS_PER_SESSION, RATE_LIMIT
 from backend.schemas import QARequest, QAResponse
 from backend.utils.bm25_loader import BM25Loader
 from backend.utils.pageindex_loader import PageIndexLoader
@@ -40,12 +39,12 @@ def get_session_id(request: Request) -> str:
 @limiter.limit(RATE_LIMIT)
 async def answer_question(request: Request, body: QARequest):
     """
-    Answer questions about RTI cases using BM25 + PageIndex hierarchical retrieval + Gemini
+    Answer questions about RTI cases using BM25 + PageIndex hierarchical retrieval + Groq
     """
-    if not GEMINI_API_KEY:
+    if not GROQ_API_KEY:
         raise HTTPException(
             status_code=503,
-            detail="Q&A endpoint unavailable: GEMINI_API_KEY not configured. Get a key from https://aistudio.google.com/apikey and add to .env file."
+            detail="Q&A endpoint unavailable: GROQ_API_KEY not configured. Get a key from https://console.groq.com/keys and add to .env file."
         )
 
     # Session call limiting
@@ -140,7 +139,7 @@ async def answer_question(request: Request, body: QARequest):
 
     context = "\n".join(context_parts)
 
-    # Generate answer using Gemini
+    # Generate answer using Groq
     prompt = f"""You are an expert on India's Right to Information Act and CIC (Central Information Commission) orders.
 
 Based on the following relevant excerpts from CIC orders (organized hierarchically by document sections), answer the user's question accurately and concisely.
@@ -163,18 +162,24 @@ Instructions:
 Answer:"""
 
     try:
-        client = genai.Client(api_key=GEMINI_API_KEY)
+        client = Groq(api_key=GROQ_API_KEY)
 
-        response = client.models.generate_content(
-            model=GEMINI_MODEL,
-            contents=prompt,
-            config=types.GenerateContentConfig(
-                temperature=0.7,
-                top_p=0.95,
-                top_k=40
-            )
+        response = client.chat.completions.create(
+            model=GROQ_MODEL,
+            messages=[
+                {
+                    "role": "system",
+                    "content": "You are an expert on India's Right to Information Act and CIC orders. Provide accurate, well-cited answers."
+                },
+                {
+                    "role": "user",
+                    "content": prompt
+                }
+            ],
+            temperature=0.7,
+            top_p=0.95
         )
-        answer = response.text
+        answer = response.choices[0].message.content
 
         # Faithfulness check: ensure answer references sources
         has_citations = any(src["order_number"] in answer for src in sources)
@@ -188,11 +193,17 @@ Answer: {answer}
 
 Faithful (yes/no):"""
 
-        faithfulness_response = client.models.generate_content(
-            model=GEMINI_MODEL,
-            contents=faithfulness_prompt
+        faithfulness_response = client.chat.completions.create(
+            model=GROQ_MODEL,
+            messages=[
+                {
+                    "role": "user",
+                    "content": faithfulness_prompt
+                }
+            ],
+            temperature=0.3
         )
-        is_faithful = "yes" in faithfulness_response.text.lower()
+        is_faithful = "yes" in faithfulness_response.choices[0].message.content.lower()
 
         # Determine confidence
         if has_citations and is_faithful and len(sources) >= 3:
@@ -218,4 +229,13 @@ Faithful (yes/no):"""
         raise HTTPException(status_code=400, detail=str(e))
     except Exception as e:
         logger.error(f"Unexpected error in Q&A: {e}", exc_info=True)
-        raise HTTPException(status_code=500, detail="An error occurred while processing your question. Please try again.")
+        error_msg = str(e)
+        if "503" in error_msg or "overloaded" in error_msg.lower() or "high demand" in error_msg.lower():
+            raise HTTPException(
+                status_code=503, 
+                detail="The AI model is currently experiencing high demand. Please try again in a few seconds."
+            )
+        raise HTTPException(
+            status_code=500, 
+            detail="An error occurred while processing your question. Please try again."
+        )

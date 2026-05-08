@@ -1,140 +1,127 @@
-# RTI-Lens: AI-Powered CIC Order Analytics
+# 🔍 RTI-Lens: AI-Powered CIC Order Analytics
 
-AI platform for analyzing India's RTI Act rulings from the Central Information Commission. Predicts appeal success, analyzes denial patterns, queries 700+ rulings, and drafts appeals with precedent citations.
+RTI-Lens is an advanced AI platform designed to analyze India's RTI (Right to Information) Act rulings from the Central Information Commission. It predicts appeal success, identifies denial patterns, and provides a semantic Q&A interface for over 700+ rulings.
 
-**Stack**: FastAPI + PostgreSQL + Gemini Flash RAG
-**Docs**: [RTI_Lens_PRD.md](RTI_Lens_PRD.md)
+---
 
-## Quick Start
+## 🏗️ System Architecture
 
-**Prerequisites:**
-- PostgreSQL 14+ running
-- Python 3.12+
-- NLTK stopwords data
+```mermaid
+graph TD
+    subgraph "Frontend Layer"
+        ST[Streamlit UI]
+    end
 
-**Setup:**
+    subgraph "API Layer (FastAPI)"
+        BE[Backend Entry]
+        REST[REST Routers]
+        GQL[GraphQL Engine]
+        BE --> REST
+        BE --> GQL
+    end
+
+    subgraph "Logic & Search"
+        RAG[Groq RAG]
+        BM25[BM25 Search Index]
+        PI[PageIndex Trees]
+        ML[Outcome Classifier]
+        KG[NetworkX Knowledge Graph]
+    end
+
+    subgraph "Storage"
+        PG[(PostgreSQL)]
+        FS[Local Filesystem]
+    end
+
+    ST -- Requests --> BE
+    REST -- Query --> PG
+    GQL -- Query --> PG
+    REST -- Search --> BM25
+    REST -- Analyze --> PI
+    REST -- Predict --> ML
+    REST -- Visualize --> KG
+    RAG -- Grounding --> BM25
+    RAG -- Context --> FS
+```
+
+---
+
+## 📁 Project Structure
+
+The project is organized for modularity and scalability:
+
+```text
+.
+├── bin/                    # Operational & startup scripts
+│   ├── setup_data.sh       # Main data ingestion pipeline
+│   ├── start_api.sh        # Launches FastAPI backend
+│   └── start_frontend.sh   # Launches Streamlit UI
+├── backend/                # FastAPI application core
+│   ├── main.py             # App entry point & configuration
+│   ├── routers/            # REST API endpoints (QA, Analytics, etc.)
+│   ├── gql/                # GraphQL Schema & Resolvers
+│   ├── models.py           # SQLAlchemy ORM Models
+│   └── utils/              # Data loaders and search helpers
+├── data/                   # Data storage (git-ignored except templates)
+│   ├── cic_orders_txt/     # Raw text rulings (Input)
+│   ├── cic_orders_md/      # Intermediate Markdown files
+│   ├── pageindex_trees/    # Hierarchical JSON structures
+│   └── *.pkl               # Serialized search & ML models
+├── migrations/sql/         # Database schema and migration files
+├── scripts/                # Build and maintenance scripts
+├── streamlit_app.py        # Streamlit Frontend application
+├── Dockerfile              # Production container definition
+└── requirements.txt        # Python dependencies
+```
+
+---
+
+## 🚀 Quick Start
+
+### 1. Prerequisites
+- **PostgreSQL 14+**
+- **Python 3.11+**
+- **Groq API Key** (Get one at [Groq Console](https://console.groq.com/keys))
+
+### 2. Environment Setup
+Create a `.env` file in the root directory:
 ```bash
-# 1. Install dependencies
-pip install -r requirements.txt
-
-# 2. Download NLTK data
-python3 -c "import nltk; nltk.download('stopwords')"
-
-# 3. Start PostgreSQL (macOS)
-brew services start postgresql@14
-
-# 4. Create database and load schema
-psql -U mohitsahoo -d postgres -c "CREATE DATABASE rtilens"
-psql -U mohitsahoo -d rtilens -f schema.sql
-
-# 5. Configure environment
 cp .env.example .env
-# Edit .env with your API keys (GEMINI_API_KEY required)
-
-# 6. Add your CIC order data
-# Place TXT files in data/cic_orders_txt/
-# See data/README.md for format details
-
-# 7. Build data files (BM25 index, PageIndex trees, etc.)
-./setup_data.sh
-
-# 8. Start API
-./start_api.sh
+# Edit .env with your DATABASE_URL and GROQ_API_KEY
 ```
 
-**Test:**
+### 3. Initialize & Ingest
+Run the unified setup script to build your local database and search indices:
 ```bash
-./check_system.sh        # System health check
-./test_all_endpoints.sh  # Full API test suite
+./bin/setup_data.sh
 ```
+*Note: This script handles ingestion, BM25 indexing, and building hierarchical PageIndex trees.*
 
-**Access:**
-- API: http://localhost:8001
-- Docs: http://localhost:8001/docs
-- GraphQL: http://localhost:8001/graphql
+### 4. Launch the Platform
+Start the backend and frontend in separate terminals:
 
-**Frontend (Streamlit):**
+**Terminal 1 (Backend)**
 ```bash
-# Start frontend (API must be running first)
-./start_frontend.sh
+./bin/start_api.sh
 ```
-- Frontend: http://localhost:8501
-- Features: Q&A, Appeal Drafting, Outcome Prediction, Analytics, Knowledge Graph
 
-## Deployment
-
-**Streamlit Cloud:**
-1. Fork/push repo to GitHub
-2. Go to [share.streamlit.io](https://share.streamlit.io)
-3. Deploy `streamlit_app.py`
-4. Add secret in dashboard: `API_BASE_URL = "https://your-backend-url.com"`
-5. App auto-deploys on push
-
-**Backend (Render/Railway/Fly.io):**
-- Deploy FastAPI backend first
-- Set environment variables from `.env.example`
-- Ensure PostgreSQL database accessible
-- Note backend URL for Streamlit config
-
-## Secrets
-
-- Use `.env.example` as the only committed template.
-- Keep real credentials only in `.env`, which is gitignored.
-- `GEMINI_API_KEY` is required for the Q&A and draft flows.
-- `OPENAI_API_KEY` is optional unless you are working on code paths that explicitly require it.
-- If a key is exposed, revoke and rotate it immediately.
-
-Detailed guidance: [SECURITY.md](SECURITY.md)
+**Terminal 2 (Frontend)**
+```bash
+./bin/start_frontend.sh
+```
 
 ---
 
-## 📋 Work Distribution
-
-### Backend Team (Mohit & Saksham)
-
-**Phase A: Database & ORM** ✅ COMPLETE
-- [x] Migrate raw SQL to SQLAlchemy ORM
-- [x] Define ORM schema for CIC orders
-- [x] Implement typed database queries
-- [x] Test data integrity after migration
-
-**Phase B: API Layer** ✅ COMPLETE
-- [x] Design GraphQL schema
-- [x] Implement GraphQL resolvers (6 queries, 1 mutation)
-- [x] Build enhanced knowledge graph with NetworkX
-- [x] Integrate GraphQL with FastAPI at /graphql
-
-**Phase C: DevOps**
-- [ ] Create Dockerfile for backend
-- [ ] Setup GitHub Actions CI/CD
-- [ ] Configure automated testing pipeline
-- [ ] Deploy to production environment
-
-**Phase D: Frontend Integration**
-- [ ] Build React dashboard UI
-- [ ] Implement Q&A interface
-- [ ] Create appeal drafting interface
-- [ ] Connect frontend to GraphQL API
+## 🛠️ Tech Stack
+- **Backend**: FastAPI, Strawberry (GraphQL), SQLAlchemy, Uvicorn
+- **Frontend**: Streamlit, Requests, Pandas
+- **AI/LLM**: Groq (RAG), Scikit-learn (Classifier)
+- **Search**: BM25, PageIndex (Hierarchical Structure Extraction)
+- **Database**: PostgreSQL
 
 ---
 
-### Simulation & Blockchain Team (Aditya)
-
-**Government Simulation**
-- [ ] Design government entity models
-- [ ] Implement ministry behavior simulation
-- [ ] Create decision-making algorithms
-- [ ] Build simulation dashboard
-
-**Blockchain Integration**
-- [ ] Design blockchain architecture for RTI tracking
-- [ ] Implement smart contracts for transparency
-- [ ] Build blockchain explorer interface
-- [ ] Integrate with main platform
-
-**Testing & Validation**
-- [ ] Test simulation accuracy
-- [ ] Validate blockchain transactions
-- [ ] Performance benchmarking
-- [ ] Documentation
-
+## 🛡️ Security
+- API keys are managed via environment variables.
+- Pickle files are verified with SHA-256 hashes before loading.
+- Database queries use SQLAlchemy ORM to prevent SQL injection.

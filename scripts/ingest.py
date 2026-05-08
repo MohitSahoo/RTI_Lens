@@ -24,7 +24,7 @@ from sqlalchemy.orm import sessionmaker
 DB_URL        = "postgresql://mohitsahoo@localhost:5432/rtilens"
 TXT_DIR       = Path("data/cic_orders_txt")
 PDF_DIR       = Path("data/cic_orders_pdf")
-ALIASES_FILE  = Path("ministry_aliases.json")
+ALIASES_FILE  = Path("data/ministry_aliases.json")
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger(__name__)

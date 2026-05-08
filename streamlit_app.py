@@ -2,13 +2,16 @@
 Streamlit Frontend for RTI-Lens API Testing
 """
 import streamlit as st
+import streamlit.components.v1 as components
 import requests
 from datetime import date
 import json
 import pandas as pd
 import os
+from pyvis.network import Network
+import tempfile
 
-API_BASE = os.getenv("API_BASE_URL", "http://localhost:8001")
+API_BASE = os.getenv("API_BASE_URL", "http://127.0.0.1:8001")
 
 st.set_page_config(page_title="RTI-Lens Test UI", layout="wide")
 st.title("🔍 RTI-Lens API Test Interface")
@@ -123,7 +126,14 @@ with tab2:
                         st.subheader("Supporting Precedents")
                         for i, source in enumerate(data["sources"], 1):
                             with st.expander(f"Precedent {i}"):
-                                st.json(source)
+                                st.markdown(f"**Case:** {source.get('order_number', 'N/A')}")
+                                outcome = source.get('outcome', 'N/A')
+                                outcome_color = "🟢" if outcome.lower() == "allowed" else "🔴" if outcome.lower() == "denied" else "⚪"
+                                st.markdown(f"**Outcome:** {outcome_color} {outcome.title()}")
+                                section = source.get('section', 'N/A')
+                                if section and section != "NULL":
+                                    st.markdown(f"**Section:** {section}")
+                                st.markdown(f"**Relevance:** {source.get('relevance', 'N/A')}")
                     else:
                         st.error(f"Error {response.status_code}: {response.text}")
                 except Exception as e:
@@ -197,6 +207,46 @@ with tab3:
 with tab4:
     st.header("Analytics Dashboard")
 
+    # Dashboard Overview Section
+    st.subheader("📊 Dashboard Overview")
+    if st.button("Load Dashboard Stats", key="dashboard_stats_btn"):
+        with st.spinner("Loading dashboard statistics..."):
+            try:
+                response = requests.get(f"{API_BASE}/api/dashboard/stats", timeout=10)
+                if response.status_code == 200:
+                    data = response.json()
+                    st.success("✅ Dashboard stats loaded")
+
+                    # Overview metrics
+                    col1, col2 = st.columns(2)
+                    with col1:
+                        st.metric("Total Cases", data["overview"]["total_cases"])
+                    with col2:
+                        st.metric("Total Ministries", data["overview"]["total_ministries"])
+
+                    # Outcome distribution
+                    st.subheader("Outcome Distribution")
+                    outcome_df = pd.DataFrame(data["overview"]["outcomes"])
+                    st.dataframe(outcome_df, use_container_width=True)
+                    st.bar_chart(outcome_df.set_index('outcome')['percentage'])
+
+                    # Top sections
+                    st.subheader("Top 5 Most Cited Sections")
+                    sections_df = pd.DataFrame(data["top_sections"])
+                    st.dataframe(sections_df, use_container_width=True)
+
+                    # Top ministries
+                    st.subheader("Top 5 Ministries by Case Volume")
+                    ministries_df = pd.DataFrame(data["top_ministries"])
+                    st.dataframe(ministries_df, use_container_width=True)
+                else:
+                    st.error(f"Error {response.status_code}: {response.text}")
+            except Exception as e:
+                st.error(f"Request failed: {str(e)}")
+
+    st.markdown("---")
+    st.subheader("📈 Detailed Analytics")
+
     analytics_type = st.selectbox(
         "Select Analytics",
         ["Denial Rates by Ministry", "Section Misuse Heatmap", "Override Trends"]
@@ -261,28 +311,130 @@ with tab4:
 with tab5:
     st.header("Knowledge Graph Visualization")
 
-    if st.button("Load Graph Data"):
-        with st.spinner("Building knowledge graph..."):
+    st.info("💡 Interactive graph showing relationships between ministries, RTI sections, and appeal outcomes.")
+
+    if st.button("Load Enhanced Graph Data"):
+        with st.spinner("Building enhanced knowledge graph..."):
             try:
-                response = requests.get(f"{API_BASE}/api/graph", timeout=15)
+                response = requests.get(f"{API_BASE}/api/dashboard/graph", timeout=15)
                 if response.status_code == 200:
                     data = response.json()
-                    st.success(f"✅ Graph loaded: {len(data['nodes'])} nodes, {len(data['edges'])} edges")
+                    st.success(f"✅ Enhanced graph loaded: {len(data['nodes'])} nodes, {len(data['edges'])} edges")
 
+                    # Display metadata if available
+                    if "metadata" in data:
+                        st.subheader("Graph Statistics")
+                        meta_cols = st.columns(3)
+                        metadata = data["metadata"]
+                        with meta_cols[0]:
+                            st.metric("Total Nodes", metadata.get("total_nodes", len(data['nodes'])))
+                        with meta_cols[1]:
+                            st.metric("Total Edges", metadata.get("total_edges", len(data['edges'])))
+                        with meta_cols[2]:
+                            st.metric("Node Types", metadata.get("node_types", "N/A"))
+
+                    # Create interactive visualization
+                    st.subheader("Interactive Network Visualization")
+
+                    # Legend first
+                    legend_cols = st.columns(3)
+                    with legend_cols[0]:
+                        st.markdown("🔵 **Ministries** - Sized by case count")
+                    with legend_cols[1]:
+                        st.markdown("🟠 **RTI Sections** - Sized by citations")
+                    with legend_cols[2]:
+                        st.markdown("🟢🔴 **Outcomes** - Green=Allowed, Red=Denied")
+
+                    # Create pyvis network with better readability settings
+                    net = Network(
+                        height="750px",
+                        width="100%",
+                        bgcolor="#1e1e1e",
+                        font_color="white"
+                    )
+
+                    # Better physics for spacing and readability
+                    net.barnes_hut(
+                        gravity=-15000,
+                        central_gravity=0.2,
+                        spring_length=300,
+                        spring_strength=0.001,
+                        damping=0.15,
+                        overlap=0
+                    )
+
+                    # Add nodes with better visibility
+                    for node in data["nodes"]:
+                        node_id = node.get("id", "")
+                        node_label = node.get("label", node_id)
+                        node_color = node.get("color", "#97c2fc")
+                        node_size = max(node.get("size", 10) * 1.5, 20)  # Larger, more visible
+                        node_title = f"<b>{node.get('type', 'unknown').upper()}</b><br>{node_label}"
+
+                        net.add_node(
+                            node_id,
+                            label=node_label,
+                            color=node_color,
+                            size=node_size,
+                            title=node_title,
+                            font={"size": 16, "color": "white", "face": "arial", "bold": True}
+                        )
+
+                    # Add edges with better visibility
+                    for edge in data["edges"]:
+                        source = edge.get("source", "")
+                        target = edge.get("target", "")
+                        edge_color = edge.get("color", "#848484")
+                        edge_width = max(edge.get("width", 1) * 2, 2)  # Thicker edges
+                        edge_title = edge.get("label", f"{source} → {target}")
+
+                        net.add_edge(
+                            source,
+                            target,
+                            color=edge_color,
+                            width=edge_width,
+                            title=edge_title,
+                            smooth={"type": "continuous"}
+                        )
+
+                    # Save and display
+                    with tempfile.NamedTemporaryFile(delete=False, suffix=".html", mode='w') as f:
+                        net.save_graph(f.name)
+                        with open(f.name, 'r') as html_file:
+                            html_content = html_file.read()
+                        components.html(html_content, height=800, scrolling=True)
+
+                    st.caption("💡 Drag nodes to rearrange • Scroll to zoom • Click nodes for details")
+
+                    # Node type breakdown
+                    st.subheader("Node Type Distribution")
+                    node_types = {}
+                    for node in data["nodes"]:
+                        node_type = node.get("type", "unknown")
+                        node_types[node_type] = node_types.get(node_type, 0) + 1
+
+                    type_df = pd.DataFrame([
+                        {"type": k, "count": v} for k, v in node_types.items()
+                    ])
+                    st.dataframe(type_df, use_container_width=True)
+
+                    # Detailed data in expanders
                     col1, col2 = st.columns(2)
 
                     with col1:
-                        st.subheader("Nodes")
-                        st.json(data["nodes"][:10])  # Show first 10
-                        st.caption(f"Showing 10 of {len(data['nodes'])} nodes")
+                        with st.expander("View Node Details"):
+                            nodes_preview = data["nodes"][:10]
+                            for node in nodes_preview:
+                                st.json(node)
+                            st.caption(f"Showing 10 of {len(data['nodes'])} nodes")
 
                     with col2:
-                        st.subheader("Edges")
-                        st.json(data["edges"][:10])  # Show first 10
-                        st.caption(f"Showing 10 of {len(data['edges'])} edges")
+                        with st.expander("View Edge Details"):
+                            edges_preview = data["edges"][:10]
+                            for edge in edges_preview:
+                                st.json(edge)
+                            st.caption(f"Showing 10 of {len(data['edges'])} edges")
 
-                    with st.expander("Full Graph Data"):
-                        st.json(data)
                 else:
                     st.error(f"Error {response.status_code}: {response.text}")
             except Exception as e:

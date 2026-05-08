@@ -36,7 +36,7 @@ if ! psql -U mohitsahoo -d rtilens -c "SELECT 1" > /dev/null 2>&1; then
     echo ""
     echo "📝 Setup database first:"
     echo "  psql -U mohitsahoo -d postgres -c \"CREATE DATABASE rtilens\""
-    echo "  psql -U mohitsahoo -d rtilens -f schema.sql"
+    echo "  psql -U mohitsahoo -d rtilens -f migrations/sql/schema.sql"
     exit 1
 fi
 echo "✅ Database connected"

@@ -11,6 +11,11 @@ env/
 .agents/
 pageindex_lib/
 
+# Local development directories
+archive/
+scratch/
+lib/
+
 # Generated data files (users build locally)
 data/*.pkl
 data/*.csv

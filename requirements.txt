@@ -24,9 +24,10 @@ numpy==1.26.4
 
 # Graph
 networkx==3.2.1
+pyvis==0.3.2
 
-# AI - Gemini (new package)
-google-genai
+# AI - Groq
+groq
 
 # PageIndex (VectifyAI)
 openai==1.30.1

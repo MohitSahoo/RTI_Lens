@@ -22,7 +22,7 @@ cp .env.example .env
 ## Required Variables
 
 - `DATABASE_URL`: PostgreSQL connection string for the backend.
-- `GEMINI_API_KEY`: required for the Q&A and draft endpoints.
+- `GROQ_API_KEY`: required for the Q&A and draft endpoints.
 - `OPENAI_API_KEY`: optional unless a specific workflow depends on it.
 
 ## If A Secret Is Exposed

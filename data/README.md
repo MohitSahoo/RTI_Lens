@@ -31,6 +31,7 @@ Place CIC order TXT files in `data/cic_orders_txt/`:
 
 From project root:
 ```bash
+
 ./setup_data.sh
 ```
 

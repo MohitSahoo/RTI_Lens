@@ -49,7 +49,7 @@ COPY --chown=rtilens:rtilens backend/ ./backend/
 COPY --chown=rtilens:rtilens scripts/ ./scripts/
 COPY --chown=rtilens:rtilens data/ ./data/
 COPY --chown=rtilens:rtilens migrations/ ./migrations/
-COPY --chown=rtilens:rtilens schema.sql ./
+COPY --chown=rtilens:rtilens migrations/sql/schema.sql ./
 
 # Switch to non-root user
 USER rtilens

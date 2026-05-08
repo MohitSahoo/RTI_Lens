@@ -17,7 +17,7 @@ fi
 if ! psql -U mohitsahoo -lqt | cut -d \| -f 1 | grep -qw rtilens; then
     echo "❌ Database 'rtilens' not found. Creating..."
     psql -U mohitsahoo -d postgres -c "CREATE DATABASE rtilens"
-    psql -U mohitsahoo -d rtilens -f schema.sql
+    psql -U mohitsahoo -d rtilens -f migrations/sql/schema.sql
 fi
 
 # Check .env
