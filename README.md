@@ -8,78 +8,78 @@ RTI-Lens is a state-of-the-art AI platform designed for advanced analysis of Ind
 
 ```mermaid
 graph TD
-    subgraph "Frontend (React + Vite)"
-        UI[Dashboard UI]
-        GL[Glassmorphism Logic]
-        RF[React Flow Graph]
+    subgraph "Frontend Layer (React 18 + Vite)"
+        UI[Glassmorphism Dashboard]
+        VA[Voice Intelligence UI]
+        RF[React Flow Citation Graph]
         RC[Recharts Analytics]
-        VA[Voice Assistant UI]
     end
 
-    subgraph "Cloud Intelligence & Observability"
-        GAI[Google AI Studio - Gemini 1.5 Pro]
-        EL[ElevenLabs - Voice Synthesis]
-        BB[Backboard.io - Workflow Tracing]
-    end
-
-    subgraph "Backend (FastAPI)"
+    subgraph "Orchestration & Observability"
         BE[FastAPI Core]
-        API_Q[Query Assistant API]
-        API_P[Outcome Predictor API]
-        API_G[Knowledge Graph API]
-        BC[Blockchain Integrity Layer]
+        BB[Backboard.io - Session Tracing]
+        EL[ElevenLabs - Neural Voice]
+        GAI[Google AI Studio - Gemini 1.5 Pro]
     end
 
-    subgraph "Storage & Intelligence"
-        RAG[RAG Pipeline]
-        ML[Outcome Classifier - Pickle]
-        BM25[BM25 Search Index]
-        KG[Relationship Engine]
-        MDB[(MongoDB Atlas - Vector Store)]
-        SOL[(Solana - SPL Memo Ledger)]
+    subgraph "Intelligence Services"
+        RAG[Hybrid RAG Pipeline]
+        OPT[Query Optimizer Agent]
+        ML[Outcome Predictor - XGBoost]
+        KG[Knowledge Graph Engine]
     end
 
-    UI -- REST/WS --> BE
-    BE --> GAI & EL & BB
-    BE --> API_Q & API_P & API_G & BC
+    subgraph "Persistence & Proof"
+        PG[(Postgres - Relational Data)]
+        MDB[(MongoDB Atlas - Vector Search)]
+        SOL[(Solana Devnet - Integrity Ledger)]
+        BM25[BM25 Keyword Index]
+    end
+
+    %% Interactions
+    UI -- "REST / WebSocket" --> BE
+    BE -- "Trace Events" --> BB
+    BE -- "Contextual Prompting" --> GAI
+    BE -- "Neural Synthesis" --> EL
+    EL -- "Audio Stream" --> VA
+
+    BE -- "Route" --> RAG & OPT & ML & KG
     
-    API_Q --> RAG
-    RAG --> BM25 & MDB
+    RAG -- "Semantic Query" --> MDB
+    RAG -- "Keyword Matching" --> BM25
     
-    API_P --> ML
-    BC --> SOL
+    OPT -- "Precedent Analysis" --> RAG
     
-    VA -- Audio Stream --> EL
+    BE -- "Anchor Hash" --> SOL
+    BE -- "Metadata" --> PG
 ```
 
 ---
 
-## 🌟 Key Features & Specialized Integrations
+## 🚀 Key Integrations & Technology Stack
 
-### 1. 🤖 Multi-Agent RAG with Google AI Studio
-Powered by **Gemini 1.5 Pro** via **Google AI Studio**, our RAG (Retrieval-Augmented Generation) pipeline handles complex legal reasoning with 1M+ token context window support.
-- **Query Optimization**: Reformulates vague RTI queries into precise legal requests.
-- **Grounded Responses**: Every answer is cited directly from CIC historical data.
+- **LLM Intelligence**: **Google AI Studio (Gemini 1.5 Pro)** is used as the primary reasoning engine for complex legal document analysis and query reformulation.
+- **Vector Search**: **MongoDB Atlas Vector Search** enables high-dimensional semantic retrieval of 70,000+ legal paragraphs.
+- **Blockchain Integrity**: **Solana Devnet** acts as a tamper-proof ledger for RTI filings, anchoring SHA-256 document hashes via the **SPL Memo Program**.
+- **Voice Synthesis**: **ElevenLabs** provides ultra-realistic neural voice synthesis for the real-time legal assistant.
+- **Observability**: **Backboard.io** provides real-time workflow tracing, allowing developers to monitor the decision-making steps of the RAG agents.
 
-### 2. 🔗 Blockchain Integrity Layer (Solana)
-Ensures the "Right to Information" is protected by immutable technology.
-- **Proof of Filing**: Every RTI application hash is anchored to the **Solana** blockchain using the **SPL Memo Program**.
-- **Tamper-Proof Ledger**: Provides citizens with a verifiable, timestamped receipt of their submission that can't be altered by any authority.
+---
 
-### 3. 🎙️ Voice-Enabled Legal Assistant (ElevenLabs)
-Real-time legal guidance through high-fidelity neural speech synthesis.
-- **Natural Interaction**: Uses **ElevenLabs** to convert complex legal summaries into clear, spoken advice.
-- **Accessibility**: Makes legal intelligence accessible to users with visual impairments or literacy challenges.
+## 🧠 Advanced RAG & Query Pipeline
 
-### 4. 🗄️ Hybrid Vector Search (MongoDB Atlas)
-Sophisticated document retrieval combining traditional and semantic search.
-- **MongoDB Atlas Vector Search**: Performs high-dimensional similarity searches on millions of legal paragraphs.
-- **BM25 Integration**: Merges keyword-based ranking with semantic context for 99.9% retrieval accuracy.
+### 1. Hybrid Retrieval Logic
+RTI-Lens employs a sophisticated two-stage retrieval process:
+*   **Stage 1 (Semantic)**: Queries the MongoDB Atlas Vector Store using `all-MiniLM-L6-v2` embeddings to find conceptually related precedents.
+*   **Stage 2 (Keyword)**: Utilizes a **BM25** index to ensure high-precision matching for specific legal terms (e.g., "Section 8(1)(j)").
+*   **Reranking**: Results are merged and reranked using weighted scores (40% Keyword / 60% Semantic) to prioritize the most authoritative sources.
 
-### 5. 📉 Observability & Tracing (Backboard.io)
-Enterprise-grade monitoring for AI workflows.
-- **Backboard.io Integration**: Real-time tracing of every AI decision, prompt, and retrieval step.
-- **Workflow Persistence**: Ensures conversation continuity and detailed logs for audit trails.
+### 2. PageIndex Verification
+Unlike standard RAG, RTI-Lens uses a proprietary **PageIndex** (hierarchical tree structure) to verify the integrity of retrieved chunks. It reconstructs the parent-child relationships of the original CIC ruling to ensure the LLM sees the full legal context, not just isolated sentences.
+
+### 3. Query Assistant Endpoints
+*   **`POST /api/query-assistant/optimize`**: An intelligent agent that detects vague queries and reformulates them into legally sound document requests. It suggests the most relevant Ministry and RTI Sections based on 10,000+ historical precedents.
+*   **`POST /api/qa`**: The core RAG endpoint. It generates grounded answers, provides verified citations, and includes a **Confidence Score** calculated by cross-referencing retrieval relevance and LLM faithfulness.
 
 ---
 
@@ -87,71 +87,47 @@ Enterprise-grade monitoring for AI workflows.
 
 ```text
 .
-├── backend/                # FastAPI Core
-│   ├── blockchain/         # Solana Client & Encryption logic
-│   ├── routers/            # Feature-specific API endpoints
-│   ├── app/services/       # RAG (Gemini) & Optimization logic
-│   ├── models.py           # SQLAlchemy ORM Models
-│   └── database.py         # DB Connection management
-├── frontend/               # React + Vite Application
-│   ├── src/components/     # Modular Dashboard & Blockchain components
-│   ├── src/pages/          # Main application views
-│   └── src/ui/             # Shared Glassmorphism components
-├── data/                   # Intelligence Assets
-│   ├── model.pkl           # Trained Outcome Classifier
-│   ├── graph_data.json     # Pre-computed relationship graph
-│   └── bm25_pageindex.pkl  # Search index for RAG
-└── .env                    # Environment configuration
+├── backend/                # FastAPI High-Performance Core
+│   ├── blockchain/         # Solana Client & SPL Memo Integration
+│   ├── routers/            # Feature-specific API (QA, Predict, Voice)
+│   ├── app/services/       # RAG Orchestration & Query Optimization
+│   ├── utils/              # Vector Search & Backboard Integrations
+│   └── main.py             # App Entry Point
+├── frontend/               # React 18 + Tailwind + Framer Motion
+│   ├── src/components/     # Specialized Dashboard Modules
+│   ├── src/contexts/       # Solana Wallet & Global State
+│   └── src/ui/             # Glassmorphism Design System
+├── data/                   # ML Models & Search Indices
+└── .env                    # Secrets & API Configuration
 ```
 
 ---
 
-## 🚀 Tech Stack
+## 🛠️ Setup & Deployment
 
-- **LLM Engine**: Google AI Studio (Gemini 1.5 Pro)
-- **Vector Database**: MongoDB Atlas (Vector Search)
-- **Blockchain**: Solana (SPL Memo Program / Devnet)
-- **Voice Intelligence**: ElevenLabs
-- **Observability**: Backboard.io
-- **Frontend**: React 18, Vite, Tailwind CSS, Framer Motion, React Flow, Recharts.
-- **Backend**: FastAPI, SQLAlchemy, solders (Solana SDK), cryptography.
+1. **Environment Config**:
+   Populate your `.env` with:
+   - `GEMINI_API_KEY` (Google AI Studio)
+   - `MONGODB_URI` (Atlas Cluster)
+   - `SOLANA_PRIVATE_KEY` (Array format)
+   - `ELEVENLABS_API_KEY`
+   - `BACKBOARD_API_KEY`
 
----
-
-## 🛠️ Getting Started
-
-1. **Install Dependencies**:
+2. **Backend Startup**:
    ```bash
-   pip install -r requirements.txt
-   cd frontend && npm install
-   ```
-
-2. **Configure Environment**:
-   Update `.env` with your API keys:
-   ```env
-   GOOGLE_API_KEY=your_gemini_key
-   MONGODB_URI=your_atlas_uri
-   ELEVENLABS_API_KEY=your_key
-   SOLANA_PRIVATE_KEY=[...]
-   BACKBOARD_API_KEY=your_key
-   ```
-
-3. **Launch Platform**:
-   ```bash
-   # Backend (Port 8002)
    cd IDP
    python -m uvicorn backend.main:app --reload --port 8002
-   
-   # Frontend (Port 5173)
+   ```
+
+3. **Frontend Startup**:
+   ```bash
    cd IDP/frontend
    npm run dev
    ```
 
 ---
 
-## 🛡️ Security & Resilience
-
-- **Blockchain Anchoring**: Ed25519 signatures for all transaction proofs.
-- **Hybrid Search Fallbacks**: Automatic switch to local BM25 if MongoDB Atlas is unreachable.
-- **RSA-2048 Encryption**: Optional citizen-to-government secure document tunneling.
-- **Session Isolation**: Backboard-tracked threads for high-integrity data handling.
+## 🛡️ Security & Proof of Integrity
+*   **Ed25519 Signatures**: Every blockchain anchor is signed by the platform's authority key.
+*   **SHA-256 Anchoring**: Only document hashes are stored on Solana, preserving citizen privacy while proving submission timing.
+*   **Backboard Tracing**: Every AI-generated response is traced to its source for full accountability.
