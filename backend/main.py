@@ -7,8 +7,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 # from strawberry.fastapi import GraphQLRouter  # Temporarily disabled
 from backend.config import API_HOST, API_PORT
-from backend.routers import qa, draft, analytics, predict, dashboard
-from backend.routers import query_assistant
+from backend.routers import analytics, predict, dashboard, qa, draft, query_assistant, blockchain, voice
 from backend.routers.graph import router as graph_router
 # from backend.gql.queries import schema  # Temporarily disabled
 
@@ -29,15 +28,9 @@ app = FastAPI(
 # For production, update with actual frontend domain
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:8501",  # Streamlit dev server
-        "http://127.0.0.1:8501",  # Streamlit alternative
-        "http://localhost:5173",  # Vite dev server
-        "http://127.0.0.1:5173",  # Vite alternative
-        # Add production frontend URL here when deployed
-    ],
+    allow_origins=["*"],  # Allow all for local simulation
     allow_credentials=True,
-    allow_methods=["GET", "POST", "OPTIONS"],
+    allow_methods=["*"],
     allow_headers=["*"],
 )
 
@@ -49,6 +42,8 @@ app.include_router(dashboard.router)
 app.include_router(qa.router)
 app.include_router(draft.router)
 app.include_router(query_assistant.router)
+app.include_router(blockchain.router)
+app.include_router(voice.router)
 
 # Include GraphQL router (temporarily disabled)
 # graphql_app = GraphQLRouter(schema)
@@ -68,7 +63,9 @@ async def root():
                 "draft": "/api/draft",
                 "query_assistant": "/api/query-assistant/*",
                 "graph": "/api/graph",
-                "dashboard": "/api/dashboard/*"
+                "dashboard": "/api/dashboard/*",
+                "blockchain": "/api/blockchain/*",
+                "voice": "/api/voice/transcribe"
             }
         }
     }

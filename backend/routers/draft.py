@@ -105,6 +105,8 @@ async def generate_draft(request: Request, body: DraftRequest, db: Session = Dep
 
     # Step 2: Hybrid search with semantic similarity
     retrieval_method = "hybrid_bm25_vector"
+    hybrid_results = []
+    
     if VECTOR_SEARCH_AVAILABLE:
         try:
             vector_loader = VectorSearchLoader()
@@ -116,11 +118,10 @@ async def generate_draft(request: Request, body: DraftRequest, db: Session = Dep
                 semantic_weight=SEMANTIC_WEIGHT
             )
         except Exception as e:
-            logger.warning(f"Vector search failed, falling back to BM25 only: {e}")
+            logger.error(f"Vector search failed in draft (likely DB offline): {e}")
+            retrieval_method = "bm25_fallback"
             hybrid_results = bm25_results[:5]
-            retrieval_method = "bm25_only"
     else:
-        logger.info("Vector search not available, using BM25 only")
         hybrid_results = bm25_results[:5]
         retrieval_method = "bm25_only"
 

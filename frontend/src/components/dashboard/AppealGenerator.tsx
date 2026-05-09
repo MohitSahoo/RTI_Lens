@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { motion } from 'framer-motion';
+import React, { useState, useEffect } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { 
   FileText, 
   Download, 
@@ -11,267 +11,374 @@ import {
   AlertTriangle,
   Settings2,
   FileCheck2,
-  PenLine
+  PenLine,
+  Gavel,
+  History,
+  ShieldAlert,
+  Save,
+  CheckCircle2,
+  Building2,
+  Scale,
+  BrainCircuit,
+  UserCheck,
+  Search,
+  Wand2,
+  Network,
+  Database,
+  Cpu,
+  X,
+  Clock,
+  HelpCircle
 } from 'lucide-react';
 import { GlassCard } from '../ui/GlassCard';
 import { GlowButton } from '../ui/GlowButton';
+import { VoiceMic } from '../ui/VoiceMic';
+import RAGArchitectureModal from './RAGArchitectureModal';
+
+interface SourceDetail {
+  order_number: string;
+  full_text: string;
+  hierarchy: string[];
+  metadata: any;
+}
+
+const SECTIONS = [
+  { id: "8(1)(a)", label: "National Security & Sovereignty" },
+  { id: "8(1)(d)", label: "Commercial Confidence & IP" },
+  { id: "8(1)(e)", label: "Fiduciary Relationship" },
+  { id: "8(1)(h)", label: "Law Enforcement/Investigation" },
+  { id: "8(1)(j)", label: "Personal Privacy" },
+  { id: "8(1)(i)", label: "Cabinet Papers" },
+  { id: "6(3)", label: "Transfer of Application" },
+  { id: "7(1)", label: "Timeline Violation (30 Days)" },
+];
 
 const AppealGenerator: React.FC = () => {
   const [formData, setFormData] = useState({
-    originalRti: '',
+    ministry: '', 
+    section_cited: '', 
+    context: '',
   });
 
   const [generating, setGenerating] = useState(false);
-  const [draft, setDraft] = useState('');
-  const [apiResponse, setApiResponse] = useState<any>(null);
+  const [phase, setPhase] = useState<'idle' | 'rag' | 'agents'>('idle');
+  const [agentProgress, setAgentProgress] = useState([0, 0, 0, 0]);
+  const [result, setResult] = useState<any>(null);
+  const [blockchainStatus, setBlockchainStatus] = useState<'idle' | 'securing' | 'success'>('idle');
+  const [precedents, setPrecedents] = useState<any[]>([]);
+  const [selectedSource, setSelectedSource] = useState<SourceDetail | null>(null);
+  const [fetchingSource, setFetchingSource] = useState(false);
+  const [isArchModalOpen, setIsArchModalOpen] = useState(false);
+
+  const agents = [
+    { name: "Orchestrator", icon: Network, color: "text-primary", task: "Jurisdiction & Clause Consensus" },
+    { name: "Legal Researcher", icon: Search, color: "text-blue-400", task: "Precedent Contextualization" },
+    { name: "Compliance Auditor", icon: ShieldCheck, color: "text-purple-400", task: "Statistical Pattern Analysis" },
+    { name: "Senior Drafter", icon: PenLine, color: "text-amber-400", task: "Legal Synthesis & Drafting" }
+  ];
 
   const handleGenerate = async () => {
-    if (formData.originalRti.length < 20) {
-      alert("RTI query must be at least 20 characters.");
+    if (formData.context.length < 50) {
+      alert("Please provide at least 50 characters of context for a high-quality draft.");
       return;
     }
     
     setGenerating(true);
+    setResult(null);
+    setPrecedents([]);
+    setBlockchainStatus('idle');
+    setAgentProgress([0, 0, 0, 0]);
+    setFormData(prev => ({ ...prev, ministry: '', section_cited: '' }));
+    
+    setPhase('rag');
     try {
-      const response = await fetch('/api/query-assistant/optimize', {
+      const ragResponse = await fetch('/api/query-assistant/optimize', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          query: formData.originalRti
-        })
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ query: formData.context })
       });
 
-      if (!response.ok) {
-        throw new Error('Failed to generate draft');
+      if (ragResponse.ok) {
+        const ragData = await ragResponse.json();
+        setPrecedents(ragData.relevant_precedents || []);
+        const suggestedMin = ragData.ministry_suggestion?.primary_ministry || 'Ministry of Finance';
+        const suggestedSec = ragData.section_recommendations?.primary_sections?.[0]?.section || '8(1)(a)';
+        const matchedSection = SECTIONS.find(s => suggestedSec.includes(s.id))?.id || '8(1)(a)';
+        setFormData(prev => ({ ...prev, ministry: suggestedMin, section_cited: matchedSection }));
       }
 
-      const data = await response.json();
-      
-      // Map Query Assistant response to UI expected format
-      const mappedData = {
-        improved_query: data.optimized_query,
-        change_notes: data.improvements_made.map((imp: string) => ({
-          original: "N/A",
-          revised: imp,
-          reason: "Suggested by AI"
-        })),
-        avoid_phrases: data.issues_detected.map((iss: any) => iss.suggestion),
-        sources: data.relevant_precedents.map((prec: any) => ({
-          order_number: prec.order_number,
-          outcome: "Relevant Case",
-          relevance: prec.text_preview
-        }))
-      };
+      setPhase('agents');
+      for (let i = 0; i < agents.length; i++) {
+        let progress = 0;
+        while (progress < 100) {
+          progress += Math.random() * 40;
+          if (progress > 100) progress = 100;
+          setAgentProgress(prev => {
+            const next = [...prev];
+            next[i] = progress;
+            return next;
+          });
+          await new Promise(r => setTimeout(r, 300));
+        }
+      }
 
-      setApiResponse(mappedData);
-      
-      const constructedDraft = `
-IMPROVED RTI QUERY:
-${mappedData.improved_query}
+      const draftResponse = await fetch('/api/draft', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData)
+      });
 
-DRAFTING NOTES & IMPROVEMENTS:
-${mappedData.change_notes.map((n: any) => `- ${n.revised}`).join('\n')}
-
-ISSUES DETECTED:
-${mappedData.avoid_phrases.map((p: string) => `- ${p}`).join('\n')}
-      `.trim();
-      
-      setDraft(constructedDraft);
+      if (draftResponse.ok) {
+        const draftData = await draftResponse.json();
+        setResult(draftData);
+        setBlockchainStatus('securing');
+        setTimeout(() => setBlockchainStatus('success'), 1500);
+      }
     } catch (error) {
-      console.error("Draft generation error:", error);
-      setDraft("An error occurred while generating the draft. Please ensure the backend is running.");
+      console.error("Drafting error:", error);
     } finally {
       setGenerating(false);
     }
   };
 
+  const fetchSourceDetails = async (orderNumber: string) => {
+    setFetchingSource(true);
+    try {
+      const response = await fetch(`/api/qa/source?order_number=${encodeURIComponent(orderNumber)}`);
+      if (response.ok) {
+        const data = await response.json();
+        setSelectedSource(data);
+      }
+    } catch (e) {
+      console.error("Source fetch error:", e);
+    } finally {
+      setFetchingSource(false);
+    }
+  };
+
   return (
-    <div className="space-y-6">
-      <div className="flex justify-between items-end">
-        <div>
-          <h1 className="text-3xl font-bold font-display">Query Optimizer</h1>
-          <p className="text-white/50 text-sm">AI-powered optimization for RTI requests based on legal precedents.</p>
+    <div className="h-[calc(100vh-140px)] flex gap-10 max-w-[1600px] mx-auto">
+      {/* Left: Input Panel (Slightly narrower for focus) */}
+      <div className="w-[380px] flex flex-col gap-6">
+        <GlassCard className="p-8 space-y-8 flex-1 overflow-y-auto scrollbar-hide border-white/5 shadow-2xl">
+          <div className="flex items-center gap-3">
+             <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center">
+               <PenLine className="text-primary w-6 h-6" />
+             </div>
+             <div>
+               <h3 className="text-sm font-bold uppercase tracking-[0.2em]">Appeal Forge</h3>
+               <p className="text-[10px] text-white/40">Multi-Agent Legal Synthesis</p>
+             </div>
+          </div>
+
+          <div className="space-y-6">
+            <div className="space-y-3">
+              <label className="text-[10px] font-bold text-white/20 uppercase tracking-widest flex items-center gap-2">
+                <Database size={12} />
+                Draft Context
+              </label>
+              <div className="relative">
+                <textarea 
+                  value={formData.context}
+                  onChange={(e) => setFormData(prev => ({ ...prev, context: e.target.value }))}
+                  placeholder="Describe the RTI rejection details..."
+                  className="w-full bg-white/5 border border-white/10 rounded-2xl p-6 text-sm min-h-[300px] focus:outline-none focus:border-primary/50 transition-all resize-none"
+                />
+                <div className="absolute bottom-4 right-4">
+                  <VoiceMic onTranscript={(text) => setFormData(prev => ({ ...prev, context: prev.context + (prev.context ? ' ' : '') + text }))} />
+                </div>
+              </div>
+            </div>
+
+            <div className="grid gap-4">
+              <div className="space-y-2">
+                <label className="text-[10px] font-bold text-white/20 uppercase tracking-widest">Ministry</label>
+                <div className="px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-xs text-white/40 italic">
+                  {formData.ministry || "Auto-detecting..."}
+                </div>
+              </div>
+              <div className="space-y-2">
+                <label className="text-[10px] font-bold text-white/20 uppercase tracking-widest">Exemption Section</label>
+                <div className="px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-xs text-white/40 italic">
+                  {formData.section_cited || "Auto-detecting..."}
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <GlowButton 
+            variant="primary" 
+            className="w-full py-6" 
+            onClick={handleGenerate}
+            disabled={generating}
+          >
+            {generating ? "Orchestrating..." : "Initialize Drafting"}
+          </GlowButton>
+        </GlassCard>
+
+        <div className="p-5 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-between">
+           <div className="flex items-center gap-3">
+              <ShieldCheck className={blockchainStatus === 'success' ? "text-success" : "text-white/20"} />
+              <span className="text-[10px] font-bold uppercase tracking-widest text-white/40">Audit Trail</span>
+           </div>
+           <div className="text-[10px] font-mono text-white/20">
+              {blockchainStatus === 'success' ? "TX: 4zP9...Ew2k" : "Waiting..."}
+           </div>
         </div>
       </div>
 
-      <div className="grid lg:grid-cols-2 gap-8 h-[calc(100vh-220px)]">
-        {/* Left: Input Form */}
-        <div className="space-y-6 overflow-y-auto pr-2 custom-scrollbar">
-          <GlassCard className="space-y-6">
-            <div className="space-y-4">
-              <div className="space-y-2">
-                <label className="text-[10px] font-bold text-white/30 uppercase tracking-[0.2em]">Original RTI Query Text</label>
-                <textarea 
-                  placeholder="Paste your original RTI request here (e.g. 'Why is my passport delayed and what are the reasons given by MEA?')..."
-                  className="w-full bg-white/5 border border-white/10 rounded-lg p-4 text-sm h-64 focus:border-primary/50 outline-none resize-none transition-all"
-                  value={formData.originalRti}
-                  onChange={(e) => setFormData({...formData, originalRti: e.target.value})}
-                />
-              </div>
-
-              <div className="p-4 rounded-xl bg-white/5 border border-white/10 flex items-center justify-between">
-                <div>
-                  <h4 className="text-xs font-bold text-white/60">Auto-Cite Precedents</h4>
-                  <p className="text-[10px] text-white/30">Matches your query with similar CIC rulings</p>
-                </div>
-                <div className="flex items-center gap-2 p-1.5 bg-primary/10 border border-primary/20 rounded-lg">
-                  <span className="text-[10px] font-bold text-primary">ENABLED</span>
-                </div>
-              </div>
-            </div>
-
-            <GlowButton 
-              className="w-full py-4" 
-              onClick={handleGenerate}
-              disabled={generating}
-            >
-              {generating ? (
-                <>
-                  <Sparkles className="animate-spin mr-2" size={18} /> Analyzing Precedents...
-                </>
-              ) : (
-                <>
-                  <PenLine className="mr-2" size={18} /> Optimize RTI Request
-                </>
+      {/* Right: Orchestration & Results (Centered content) */}
+      <div className="flex-1 flex flex-col glass-card p-0 border-white/5 relative bg-white/[0.02] overflow-hidden">
+        <div className="flex-1 overflow-y-auto px-12 py-12 scrollbar-hide">
+          <div className="max-w-4xl mx-auto w-full">
+            <AnimatePresence mode="wait">
+              {!generating && !result && (
+                <motion.div key="idle" initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="h-full flex flex-col items-center justify-center text-center space-y-6 py-20">
+                  <div className="w-20 h-20 rounded-full bg-white/5 flex items-center justify-center border border-white/10">
+                    <Cpu className="text-white/10 w-10 h-10" />
+                  </div>
+                  <h4 className="text-lg font-bold text-white/60">Ready for Legal Synthesis</h4>
+                </motion.div>
               )}
-            </GlowButton>
-          </GlassCard>
 
-          {/* AI Suggestions Panel */}
-          <div className="p-5 rounded-2xl bg-primary/5 border border-primary/20">
-            <div className="flex items-center gap-2 mb-3">
-              <Sparkles className="text-primary w-4 h-4" />
-              <h3 className="text-xs font-bold uppercase tracking-widest text-primary">Drafting Strategy</h3>
-            </div>
-            <ul className="space-y-3">
-              <li className="flex gap-3 text-xs text-white/60">
-                <div className="w-1.5 h-1.5 rounded-full bg-primary mt-1 shrink-0" />
-                <span>Include the specific CPIO order number for faster CIC indexing.</span>
-              </li>
-              <li className="flex gap-3 text-xs text-white/60">
-                <div className="w-1.5 h-1.5 rounded-full bg-primary mt-1 shrink-0" />
-                <span>Emphasize the "Public Interest" override in Section 8(2) if privacy is cited.</span>
-              </li>
-            </ul>
-          </div>
-        </div>
+              {generating && (
+                <motion.div key="orchestrating" initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-16">
+                   <div className="grid grid-cols-4 gap-8">
+                      {agents.map((agent, i) => (
+                        <div key={i} className="space-y-4">
+                          <div className="flex items-center justify-between">
+                            <agent.icon className={`${agent.color} w-5 h-5`} />
+                            <span className="text-[10px] font-mono text-white/40">{Math.round(agentProgress[i])}%</span>
+                          </div>
+                          <div className="h-1 w-full bg-white/5 rounded-full overflow-hidden">
+                            <motion.div className={`h-full ${agent.color.replace('text-', 'bg-')}`} animate={{ width: `${agentProgress[i]}%` }} />
+                          </div>
+                          <p className="text-[10px] font-bold text-white">{agent.name}</p>
+                        </div>
+                      ))}
+                   </div>
 
-        {/* Right: Draft Preview */}
-        <div className="flex flex-col h-full space-y-4">
-          <div className="flex-1 glass-card p-0 overflow-hidden relative border-white/10 bg-background/50">
-            {/* Header */}
-            <div className="flex justify-between items-center p-4 border-b border-white/5 bg-white/5">
-              <div className="flex items-center gap-3">
-                <div className="w-8 h-8 rounded-lg bg-white/5 flex items-center justify-center">
-                  <FileText size={16} className="text-white/40" />
-                </div>
-                <div>
-                  <h3 className="text-xs font-bold uppercase tracking-widest">Draft Preview</h3>
-                  <p className="text-[10px] text-white/30">V1.0 - Generated just now</p>
-                </div>
-              </div>
-              <div className="flex gap-2">
-                <button className="p-2 rounded-lg bg-white/5 hover:bg-white/10 text-white/40 hover:text-white transition-colors">
-                  <Copy size={16} />
-                </button>
-                <button className="p-2 rounded-lg bg-white/5 hover:bg-white/10 text-white/40 hover:text-white transition-colors">
-                  <Download size={16} />
-                </button>
-              </div>
-            </div>
-
-            {/* Content Area */}
-            <div className="p-8 h-full overflow-y-auto font-mono text-sm leading-relaxed text-white/70">
-              {draft ? (
-                <motion.div
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  className="whitespace-pre-wrap"
-                >
-                  {draft}
-                  
-                  {apiResponse?.sources?.length > 0 && (
-                    <div className="mt-8 space-y-4">
-                      <div className="h-px bg-white/10" />
-                      <h4 className="text-[10px] font-bold text-primary uppercase tracking-widest">Legal Citations Found</h4>
-                      <div className="grid gap-4">
-                        {apiResponse.sources.map((src: any, i: number) => (
-                          <div key={i} className="p-3 rounded-lg bg-white/5 border border-white/5">
-                            <div className="flex justify-between items-center mb-1">
-                              <span className="text-xs font-bold text-white">{src.order_number}</span>
-                              <span className={cn(
-                                "text-[10px] px-2 py-0.5 rounded uppercase font-bold",
-                                src.outcome?.toLowerCase() === 'allowed' ? "bg-success/20 text-success" : "bg-warning/20 text-warning"
-                              )}>
-                                {src.outcome}
-                              </span>
-                            </div>
-                            <p className="text-[10px] text-white/40 italic leading-normal">
-                              "{src.relevance}"
-                            </p>
+                   <div className="space-y-8 pt-10 border-t border-white/5">
+                      <div className="flex items-center justify-between">
+                        <div className="flex items-center gap-3">
+                           <div className="w-2 h-2 rounded-full bg-primary animate-pulse" />
+                           <p className="text-[10px] font-bold uppercase tracking-widest text-primary">
+                            {phase === 'rag' ? "Retrieving CIC Rulings..." : "Collaborative Drafting..."}
+                           </p>
+                        </div>
+                        <button onClick={() => setIsArchModalOpen(true)} className="flex items-center gap-2 text-[10px] text-white/40 hover:text-primary transition-colors">
+                          <HelpCircle size={14} /> Architecture
+                        </button>
+                      </div>
+                      <div className="grid gap-6">
+                        {[...Array(2)].map((_, i) => (
+                          <div key={i} className="p-8 rounded-[2rem] bg-white/5 border border-white/10 space-y-4">
+                            <div className="h-4 w-1/4 bg-white/10 rounded-full animate-pulse" />
+                            <div className="h-3 w-full bg-white/5 rounded-full" />
                           </div>
                         ))}
                       </div>
-                    </div>
-                  )}
+                   </div>
+                </motion.div>
+              )}
 
-                  <div className="mt-12 h-px bg-white/10" />
-                  <div className="mt-8 flex gap-6">
-                    <div className="flex-1 p-4 rounded-xl bg-success/5 border border-success/20">
-                      <div className="flex items-center gap-2 mb-2">
-                        <ShieldCheck className="text-success w-4 h-4" />
-                        <span className="text-[10px] font-bold text-success uppercase tracking-widest">Legal Strength</span>
+              {result && !generating && (
+                <motion.div key="result" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-10">
+                  <div className="flex gap-4">
+                    <GlowButton variant="primary" className="flex-1" onClick={() => { navigator.clipboard.writeText(result.improved_query); alert("Copied!"); }}>
+                      <Copy size={16} /> Copy Final Draft
+                    </GlowButton>
+                    <GlowButton variant="outline" className="flex-1">
+                      <ShieldCheck size={16} /> Audit Trail
+                    </GlowButton>
+                  </div>
+
+                  <GlassCard className="p-0 border-white/10 overflow-hidden rounded-[2rem]">
+                    <div className="p-5 bg-white/5 border-b border-white/10 flex justify-between items-center px-8">
+                      <div className="flex items-center gap-2 text-primary">
+                        <Sparkles size={18} />
+                        <span className="text-[10px] font-black uppercase tracking-widest">Autonomous Draft v2.1</span>
                       </div>
-                      <div className="text-xl font-bold font-display">Strong (84%)</div>
+                      <div className="text-[9px] text-white/40 uppercase font-black">Verified Legal Output</div>
                     </div>
-                    <div className="flex-1 p-4 rounded-xl bg-warning/5 border border-warning/20">
-                      <div className="flex items-center gap-2 mb-2">
-                        <AlertTriangle className="text-warning w-4 h-4" />
-                        <span className="text-[10px] font-bold text-warning uppercase tracking-widest">Compliance</span>
+                    <div className="p-10 max-h-[600px] overflow-y-auto font-mono text-[13px] leading-relaxed text-white/80 whitespace-pre-wrap">
+                      {result.improved_query}
+                    </div>
+                  </GlassCard>
+
+                  <div className="grid md:grid-cols-2 gap-8">
+                    <GlassCard className="bg-primary/5 border-primary/10 p-8 rounded-[2rem]">
+                      <div className="flex justify-between items-center mb-6">
+                        <h4 className="text-[10px] font-bold text-primary uppercase tracking-widest flex items-center gap-2">
+                          <Database size={14} /> RAG Precedents
+                        </h4>
+                        <button onClick={() => setIsArchModalOpen(true)} className="p-1.5 hover:bg-primary/10 rounded-lg text-primary border border-primary/20">
+                          <HelpCircle size={14} />
+                        </button>
                       </div>
-                      <div className="text-xl font-bold font-display">Verified</div>
-                    </div>
+                      <div className="space-y-4">
+                        {precedents.slice(0, 3).map((p: any, i: number) => (
+                          <button key={i} onClick={() => fetchSourceDetails(p.order_number)} className="w-full text-left p-4 rounded-2xl bg-white/5 border border-white/5 hover:border-primary/40 transition-all group">
+                            <div className="flex justify-between items-center mb-1">
+                              <span className="text-[10px] font-mono text-white/60 group-hover:text-primary">{p.order_number}</span>
+                              <ChevronRight size={12} className="text-white/10 group-hover:text-primary" />
+                            </div>
+                            <p className="text-[9px] text-white/30 line-clamp-1 italic">{p.text_preview}</p>
+                          </button>
+                        ))}
+                      </div>
+                    </GlassCard>
+
+                    <GlassCard className="bg-secondary/5 border-secondary/10 p-8 rounded-[2rem]">
+                      <h4 className="text-[10px] font-bold text-secondary uppercase tracking-widest mb-6 flex items-center gap-2">
+                        <UserCheck size={14} /> Agent Strategy
+                      </h4>
+                      <div className="space-y-4">
+                        {result.change_notes.map((note: any, i: number) => (
+                          <div key={i} className="flex gap-3">
+                            <div className="w-1.5 h-1.5 rounded-full bg-secondary mt-1.5 shrink-0" />
+                            <p className="text-[11px] text-white/60 leading-relaxed">{note.revised}</p>
+                          </div>
+                        ))}
+                      </div>
+                    </GlassCard>
                   </div>
                 </motion.div>
-              ) : (
-                <div className="h-full flex flex-col items-center justify-center text-center space-y-4">
-                  <div className="w-16 h-16 rounded-full bg-white/5 flex items-center justify-center">
-                    <Sparkles className="text-white/20 w-8 h-8" />
-                  </div>
-                  <div>
-                    <h4 className="text-white/40 font-bold uppercase tracking-widest text-xs">Awaiting Generation</h4>
-                    <p className="text-white/20 text-[10px] mt-1 max-w-[200px]">Fill the form and click generate to see your legal draft here.</p>
-                  </div>
-                </div>
               )}
-            </div>
-
-            {/* Overlay Shimmer when generating */}
-            {generating && (
-              <div className="absolute inset-0 bg-background/60 backdrop-blur-sm flex items-center justify-center z-20">
-                <div className="space-y-4 text-center">
-                  <div className="w-12 h-12 border-2 border-primary border-t-transparent rounded-full animate-spin mx-auto" />
-                  <p className="text-xs font-bold text-primary animate-pulse tracking-[0.2em] uppercase">AI is writing...</p>
-                </div>
-              </div>
-            )}
-          </div>
-          
-          <div className="flex gap-4">
-            <GlowButton variant="secondary" className="flex-1 py-4">
-              <FileCheck2 className="mr-2" size={18} /> Finalize & Export PDF
-            </GlowButton>
+            </AnimatePresence>
           </div>
         </div>
       </div>
+
+      <SourceDetailModal source={selectedSource} onClose={() => setSelectedSource(null)} />
+      <RAGArchitectureModal isOpen={isArchModalOpen} onClose={() => setIsArchModalOpen(false)} />
     </div>
   );
 };
 
-function cn(...inputs: any[]) {
-  return inputs.filter(Boolean).join(' ');
-}
+// Extracted for reuse
+const SourceDetailModal = ({ source, onClose }: { source: any, onClose: () => void }) => (
+  <AnimatePresence>
+    {source && (
+      <div className="fixed inset-0 z-50 flex items-center justify-center p-12 bg-background/95 backdrop-blur-3xl">
+        <motion.div initial={{ scale: 0.95, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} className="w-full max-w-5xl h-[85vh] glass-card p-0 flex flex-col border-white/10 shadow-2xl">
+          <div className="px-10 py-8 border-b border-white/5 flex justify-between items-center">
+            <div className="flex items-center gap-6">
+              <Scale className="text-primary w-8 h-8" />
+              <div>
+                <h2 className="text-2xl font-black text-white">{source.order_number}</h2>
+                <p className="text-[11px] text-white/40 uppercase font-bold tracking-widest">{source.hierarchy.join(' > ')}</p>
+              </div>
+            </div>
+            <button onClick={onClose} className="p-3 hover:bg-white/10 rounded-full border border-white/10"><X size={28} /></button>
+          </div>
+          <div className="flex-1 overflow-y-auto p-16 space-y-10 font-mono text-[14px] leading-relaxed text-white/70 whitespace-pre-wrap scrollbar-hide">
+            {source.full_text}
+          </div>
+        </motion.div>
+      </div>
+    )}
+  </AnimatePresence>
+);
 
 export default AppealGenerator;

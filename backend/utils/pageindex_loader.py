@@ -213,3 +213,25 @@ class PageIndexLoader:
                 break
 
         return diverse_sections
+    def get_full_context_by_order(self, order_number: str) -> Optional[Dict]:
+        """Retrieve full hierarchical context and text for a specific order number"""
+        order_hash = self.get_hash_from_order_number(order_number)
+        if not order_hash:
+            return None
+            
+        tree = self.load_tree(order_hash)
+        if not tree:
+            return None
+            
+        md_path = Path("data/cic_orders_md") / f"{order_hash}.md"
+        full_text = ""
+        if md_path.exists():
+            with open(md_path, 'r', encoding='utf-8') as f:
+                full_text = f.read()
+                
+        return {
+            "order_number": order_number,
+            "hierarchy": tree.get("metadata", {}).get("hierarchy", ["CIC", "Central Information Commission"]),
+            "full_text": full_text,
+            "metadata": tree.get("metadata", {})
+        }

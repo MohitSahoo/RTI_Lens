@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { 
   TrendingUp, 
   AlertCircle, 
@@ -68,6 +68,7 @@ function cn(...inputs: any[]) {
 }
 
 const Overview: React.FC = () => {
+  const navigate = useNavigate();
   const [exporting, setExporting] = React.useState(false);
   const [timeRange, setTimeRange] = React.useState('Last 30 Days');
 
@@ -198,7 +199,10 @@ const Overview: React.FC = () => {
               </div>
             ))}
           </div>
-          <button className="w-full mt-8 py-3 rounded-xl bg-white/5 border border-white/10 text-xs font-bold uppercase tracking-widest hover:bg-white/10 transition-all flex items-center justify-center gap-2">
+          <button 
+            onClick={() => navigate('/dashboard/analytics')}
+            className="w-full mt-8 py-3 rounded-xl bg-white/5 border border-white/10 text-xs font-bold uppercase tracking-widest hover:bg-white/10 transition-all flex items-center justify-center gap-2"
+          >
             View All Ministries <ChevronRight size={14} />
           </button>
         </GlassCard>

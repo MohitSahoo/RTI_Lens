@@ -44,8 +44,8 @@ const Analytics: React.FC = () => {
                 <Tooltip 
                   contentStyle={{ backgroundColor: '#0B1020', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px' }}
                 />
-                <Bar dataKey="denials" fill="#FF5C8A" radius={[4, 4, 0, 0]} barSize={40} />
-                <Bar dataKey="appeals" fill="#00D4FF" radius={[4, 4, 0, 0]} barSize={40} />
+                <Bar dataKey="denials" name="Denials" fill="#FF5C8A" radius={[4, 4, 0, 0]} barSize={40} />
+                <Bar dataKey="appeals" name="Approved Appeals" fill="#00D4FF" radius={[4, 4, 0, 0]} barSize={40} />
               </BarChart>
             </ResponsiveContainer>
           </div>

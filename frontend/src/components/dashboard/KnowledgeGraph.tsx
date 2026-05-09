@@ -8,7 +8,9 @@ import {
   useEdgesState,
   addEdge,
   useReactFlow,
-  ReactFlowProvider
+  ReactFlowProvider,
+  type Node,
+  type Edge
 } from '@xyflow/react';
 import '@xyflow/react/dist/style.css';
 import dagre from 'dagre';
@@ -51,34 +53,37 @@ const getLayoutedElements = (nodes: any[], edges: any[], direction = 'TB') => {
 };
 
 const GraphInner: React.FC = () => {
-  const [nodes, setNodes, onNodesChange] = useNodesState([]);
-  const [edges, setEdges, onEdgesChange] = useEdgesState([]);
+  const [nodes, setNodes, onNodesChange] = useNodesState<Node>([]);
+  const [edges, setEdges, onEdgesChange] = useEdgesState<Edge>([]);
   const [loading, setLoading] = useState(true);
   const { fitView } = useReactFlow();
 
   const fetchGraphData = async () => {
     setLoading(true);
     try {
-      const response = await fetch('/api/graph');
+      const response = await fetch('http://localhost:8002/api/graph');
       if (!response.ok) throw new Error(`HTTP Error: ${response.status}`);
       const data = await response.json();
 
       if (!data.nodes || data.nodes.length === 0) {
+        console.warn('No graph data available');
         setLoading(false);
         return;
       }
+
+      console.log('Graph metadata:', data.metadata);
 
       const initialNodes = data.nodes.map((n: any) => ({
         id: String(n.id),
         data: { label: n.name },
         position: { x: 0, y: 0 },
-        style: { 
-          background: n.type === 'ministry' ? 'rgba(0, 212, 255, 0.1)' : 
-                     n.type === 'section' ? 'rgba(124, 58, 237, 0.1)' : 
+        style: {
+          background: n.type === 'ministry' ? 'rgba(0, 212, 255, 0.1)' :
+                     n.type === 'section' ? 'rgba(124, 58, 237, 0.1)' :
                      'rgba(0, 255, 157, 0.1)',
           color: '#fff',
-          border: `2px solid ${n.type === 'ministry' ? '#00D4FF' : 
-                               n.type === 'section' ? '#7C3AED' : 
+          border: `2px solid ${n.type === 'ministry' ? '#00D4FF' :
+                               n.type === 'section' ? '#7C3AED' :
                                '#00FF9D'}`,
           borderRadius: '12px',
           fontSize: '11px',
@@ -86,8 +91,8 @@ const GraphInner: React.FC = () => {
           width: nodeWidth,
           padding: '10px',
           textAlign: 'center',
-          boxShadow: `0 0 20px ${n.type === 'ministry' ? 'rgba(0, 212, 255, 0.2)' : 
-                                n.type === 'section' ? 'rgba(124, 58, 237, 0.2)' : 
+          boxShadow: `0 0 20px ${n.type === 'ministry' ? 'rgba(0, 212, 255, 0.2)' :
+                                n.type === 'section' ? 'rgba(124, 58, 237, 0.2)' :
                                 'rgba(0, 255, 157, 0.2)'}`,
         },
       }));
@@ -96,11 +101,11 @@ const GraphInner: React.FC = () => {
         id: `e-${i}`,
         source: String(e.source),
         target: String(e.target),
-        label: e.type,
+        label: `${e.type} (${e.weight})`,
         animated: true,
-        style: { 
+        style: {
           stroke: e.type === 'cites' ? '#7C3AED' : '#00FF9D',
-          strokeWidth: 2,
+          strokeWidth: Math.min(e.weight / 2 + 1, 5), // Scale width by weight
         },
         labelStyle: { fill: '#fff', fontSize: 9, fontWeight: 'bold' },
       }));
@@ -112,14 +117,15 @@ const GraphInner: React.FC = () => {
 
       setNodes(layoutedNodes);
       setEdges(layoutedEdges);
-      
+
       // Force fitView with animation after layout
       setTimeout(() => {
         fitView({ padding: 0.3, duration: 1000 });
       }, 300);
-      
+
     } catch (err: any) {
       console.error('Error loading graph:', err);
+      alert('Failed to load knowledge graph. Make sure the backend is running on port 8002.');
     } finally {
       setLoading(false);
     }
@@ -139,19 +145,21 @@ const GraphInner: React.FC = () => {
       <div className="flex justify-between items-end">
         <div>
           <h1 className="text-3xl font-bold font-display">Legal Knowledge Graph</h1>
-          <p className="text-white/50 text-sm">Interactive visualization of RTI citations and legal outcome flows.</p>
+          <p className="text-white/50 text-sm">Real-time visualization of RTI citations and legal outcome flows from database.</p>
         </div>
         <div className="flex gap-2">
-          <button 
+          <button
             onClick={() => fetchGraphData()}
-            className="px-4 py-2 bg-white/5 border border-white/10 rounded-lg text-xs font-bold uppercase tracking-widest hover:bg-white/10 transition-colors"
+            disabled={loading}
+            className="px-4 py-2 bg-white/5 border border-white/10 rounded-lg text-xs font-bold uppercase tracking-widest hover:bg-white/10 transition-colors disabled:opacity-50"
           >
-            Reset View & Fit
+            {loading ? 'Loading...' : 'Refresh Graph'}
           </button>
         </div>
       </div>
 
-      <GlassCard className="relative bg-black/20 overflow-hidden" style={{ height: '700px', width: '100%' }}>
+      <div style={{ height: '700px', width: '100%' }}>
+        <GlassCard className="relative bg-black/20 overflow-hidden h-full w-full">
         {loading && (
           <div className="absolute inset-0 bg-background/50 backdrop-blur-sm z-50 flex items-center justify-center">
             <div className="flex flex-col items-center gap-3">
@@ -198,6 +206,7 @@ const GraphInner: React.FC = () => {
         </div>
       </GlassCard>
     </div>
+  </div>
   );
 };
 

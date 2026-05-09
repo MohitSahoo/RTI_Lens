@@ -16,7 +16,8 @@ import {
   Bell,
   Search,
   User,
-  Clock
+  Clock,
+  Shield
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { clsx, type ClassValue } from 'clsx';
@@ -57,7 +58,7 @@ const DashboardLayout: React.FC = () => {
   const location = useLocation();
 
   const notifications = [
-    { id: 1, title: 'New CIC Ruling', desc: 'Case CIC/MHOME/A/2024/0004 allowed.', time: '2m ago', type: 'success' },
+    { id: 1, title: 'New CIC Ruling', desc: 'Case CIC/MHOME/A/2024/0004 approved.', time: '2m ago', type: 'success' },
     { id: 2, title: 'Compliance Alert', desc: 'Ministry of Finance misuse rate up by 34%.', time: '1h ago', type: 'warning' },
     { id: 3, title: 'System Update', desc: 'New ML models deployed for prediction.', time: '5h ago', type: 'info' },
   ];
@@ -67,6 +68,8 @@ const DashboardLayout: React.FC = () => {
     { icon: MessageSquare, label: 'AI Q&A Assistant', path: '/dashboard/qa' },
     { icon: FileEdit, label: 'Appeal Draft Generator', path: '/dashboard/draft' },
     { icon: LineChart, label: 'Outcome Predictor', path: '/dashboard/predictor' },
+    { icon: Shield, label: 'Blockchain Integrity', path: '/dashboard/blockchain' },
+    { icon: Building2, label: 'Government Portal', path: '/dashboard/gov' },
     { icon: BarChart3, label: 'Denial Analytics', path: '/dashboard/analytics' },
     { icon: Network, label: 'Knowledge Graph', path: '/dashboard/graph' },
   ];

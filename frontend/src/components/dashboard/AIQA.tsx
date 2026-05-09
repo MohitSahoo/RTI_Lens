@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { 
   Send, 
   Mic, 
-  Paperclip, 
   Sparkles, 
   History, 
   BookOpen, 
@@ -12,9 +11,25 @@ import {
   MessageSquare,
   ThumbsUp,
   ThumbsDown,
-  RotateCcw
+  RotateCcw,
+  ShieldCheck,
+  Search,
+  X,
+  FileText,
+  Scale,
+  BrainCircuit,
+  Info,
+  CheckCircle2,
+  AlertCircle,
+  Clock,
+  Download,
+  Gavel,
+  HelpCircle,
+  Paperclip
 } from 'lucide-react';
 import { GlassCard } from '../ui/GlassCard';
+import { VoiceMic } from '../ui/VoiceMic';
+import RAGArchitectureModal from './RAGArchitectureModal';
 
 interface Message {
   id: string;
@@ -22,231 +37,230 @@ interface Message {
   content: string;
   citations?: any[];
   confidence?: number;
+  timestamp: number;
 }
+
+interface SourceDetail {
+  order_number: string;
+  full_text: string;
+  hierarchy: string[];
+  metadata: any;
+}
+
+const renderContent = (content: string) => {
+  let html = content.replace(/\*\*(.*?)\*\*/g, '<strong class="text-primary">$1</strong>');
+  html = html.replace(/^\d+\.\s+(.*)$/gm, '<div class="flex gap-2 mb-2"><span class="text-primary font-bold">•</span><span>$1</span></div>');
+  html = html.replace(/\n/g, '<br/>');
+  return <div dangerouslySetInnerHTML={{ __html: html }} />;
+};
 
 const AIQA: React.FC = () => {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: '1',
       role: 'assistant',
-      content: "Hello! I'm your RTI-Lens AI assistant. I've analyzed over 700 CIC rulings and can help you navigate RTI laws, find precedents, or strategize your appeals. What can I help you with today?",
+      content: "Hello! I'm your RTI-Lens AI assistant. Ask me about specific sections, ministries, or case strategies. I'm connected to the verified CIC archive.",
+      timestamp: Date.now()
     }
   ]);
   const [input, setInput] = useState('');
+  const [loading, setLoading] = useState(false);
+  const [selectedSource, setSelectedSource] = useState<SourceDetail | null>(null);
+  const [fetchingSource, setFetchingSource] = useState(false);
+  const [isArchModalOpen, setIsArchModalOpen] = useState(false);
+  const chatEndRef = useRef<HTMLDivElement>(null);
 
-  const suggestedPrompts = [
-    "Can Section 8(1)(j) deny salary information?",
-    "Find CIC rulings related to pension disputes.",
-    "What are successful second appeal arguments?"
-  ];
+  useEffect(() => {
+    chatEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+  }, [messages]);
 
-  const handleSend = async () => {
-    if (!input.trim()) return;
+  const handleSend = async (overrideInput?: string) => {
+    const text = overrideInput || input;
+    if (!text.trim()) return;
     
-    const userMsg: Message = { id: Date.now().toString(), role: 'user', content: input };
+    setLoading(true);
+    const userMsg: Message = { id: Date.now().toString(), role: 'user', content: text, timestamp: Date.now() };
     setMessages(prev => [...prev, userMsg]);
-    const currentInput = input;
     setInput('');
-
-    const loadingId = (Date.now() + 1).toString();
-    setMessages(prev => [...prev, {
-      id: loadingId,
-      role: 'assistant',
-      content: "Analyzing legal precedents..."
-    }]);
 
     try {
       const response = await fetch('/api/qa', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ question: currentInput, top_k: 3 })
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ question: text, top_k: 4 })
       });
-      
-      if (!response.ok) {
-        throw new Error('Network response was not ok');
-      }
-      
       const data = await response.json();
-      
       const aiMsg: Message = {
-        id: loadingId,
+        id: (Date.now() + 1).toString(),
         role: 'assistant',
         content: data.answer,
-        citations: data.sources ? data.sources.map((src: any) => ({
-          title: src.order_number,
-          snippet: src.text ? src.text.substring(0, 100) + "..." : "No context snippet available."
-        })) : [],
-        confidence: data.confidence === 'high' ? 0.95 : data.confidence === 'medium' ? 0.75 : 0.45
+        timestamp: Date.now(),
+        citations: data.sources || [],
+        confidence: data.confidence_score || (data.confidence === 'high' ? 0.95 : 0.75)
       };
-
-      setMessages(prev => prev.map(msg => msg.id === loadingId ? aiMsg : msg));
+      setMessages(prev => [...prev, aiMsg]);
     } catch (error) {
-      console.error("Error fetching QA:", error);
-      setMessages(prev => prev.map(msg => 
-        msg.id === loadingId 
-          ? { ...msg, content: "Sorry, I encountered an error connecting to the RTI backend. Please ensure the API is running." } 
-          : msg
-      ));
+      console.error("QA error:", error);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const fetchSourceDetails = async (orderNumber: string) => {
+    setFetchingSource(true);
+    try {
+      const response = await fetch(`/api/qa/source?order_number=${encodeURIComponent(orderNumber)}`);
+      if (response.ok) {
+        const data = await response.json();
+        setSelectedSource(data);
+      } else {
+        alert("Precedent mapping failed.");
+      }
+    } catch (e) {
+      console.error("Source fetch error:", e);
+    } finally {
+      setFetchingSource(false);
     }
   };
 
   return (
-    <div className="h-[calc(100vh-140px)] flex gap-6">
-      {/* Main Chat Area */}
-      <div className="flex-1 flex flex-col glass-card p-0 overflow-hidden border-white/5">
-        <div className="flex-1 overflow-y-auto p-6 space-y-6">
-          <AnimatePresence>
-            {messages.map((msg) => (
-              <motion.div
-                key={msg.id}
-                initial={{ opacity: 0, y: 10 }}
-                animate={{ opacity: 1, y: 0 }}
-                className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}
+    <div className="h-[calc(100vh-140px)] flex flex-col items-center">
+      {/* Centered Main Chat Card */}
+      <div className="w-full max-w-5xl h-full flex flex-col glass-card p-0 overflow-hidden border-white/5 relative shadow-2xl">
+        
+        {/* Header - Aligned */}
+        <div className="px-10 py-5 border-b border-white/5 bg-white/5 flex justify-between items-center">
+          <div className="flex items-center gap-4">
+            <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center border border-primary/20">
+              <BrainCircuit className="text-primary w-6 h-6" />
+            </div>
+            <div>
+              <h3 className="text-lg font-bold text-white tracking-tight">Legal Intelligence System</h3>
+              <div className="flex items-center gap-2">
+                <div className="w-1.5 h-1.5 rounded-full bg-success animate-pulse" />
+                <p className="text-[10px] text-white/40 uppercase font-black tracking-widest">RAG Engine Online</p>
+              </div>
+            </div>
+          </div>
+          <div className="flex items-center gap-3">
+             <button 
+                onClick={() => setIsArchModalOpen(true)}
+                className="p-2.5 hover:bg-primary/10 rounded-xl text-primary hover:text-white transition-all border border-primary/20 flex items-center gap-2"
+                title="View RAG Architecture"
               >
-                <div className={`max-w-[80%] ${msg.role === 'user' ? 'bg-primary/20 border border-primary/20' : 'bg-white/5 border border-white/10'} p-4 rounded-2xl`}>
-                  <div className="flex items-center gap-2 mb-2">
-                    {msg.role === 'assistant' ? (
-                      <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center">
-                        <Sparkles size={12} className="text-background" />
-                      </div>
-                    ) : (
-                      <div className="w-6 h-6 bg-white/10 rounded-full flex items-center justify-center">
-                        <MessageSquare size={12} className="text-white/60" />
+                <HelpCircle size={16} />
+                <span className="text-[10px] font-bold uppercase">Architecture</span>
+              </button>
+             <button 
+                onClick={() => setMessages([{ id: '1', role: 'assistant', content: "Chat cleared.", timestamp: Date.now() }])}
+                className="p-2.5 hover:bg-white/10 rounded-xl text-white/40 transition-all"
+              >
+                <RotateCcw size={16} />
+              </button>
+          </div>
+        </div>
+
+        {/* Message Stream - Centered Content */}
+        <div className="flex-1 overflow-y-auto px-10 py-12 scrollbar-hide">
+          <div className="max-w-3xl mx-auto space-y-12">
+            <AnimatePresence>
+              {messages.map((msg) => (
+                <motion.div 
+                  key={msg.id}
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}
+                >
+                  <div className={`max-w-[85%] space-y-4 ${msg.role === 'user' ? 'items-end' : 'items-start'}`}>
+                    {msg.role === 'assistant' && msg.confidence && (
+                      <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 w-fit">
+                        <div className={`w-1.5 h-1.5 rounded-full ${msg.confidence > 0.8 ? 'bg-success' : 'bg-amber-500'} animate-pulse`} />
+                        <span className="text-[9px] font-black text-white/50 uppercase tracking-widest">Confidence: {(msg.confidence * 100).toFixed(0)}%</span>
                       </div>
                     )}
-                    <span className="text-[10px] font-bold uppercase tracking-widest text-white/40">
-                      {msg.role === 'assistant' ? 'RTI-Lens Intelligence' : 'You'}
-                    </span>
-                    {msg.confidence && (
-                      <span className="ml-auto text-[10px] font-bold text-success bg-success/10 px-2 py-0.5 rounded">
-                        {Math.round(msg.confidence * 100)}% Confidence
-                      </span>
+                    <div className={`p-6 rounded-[1.5rem] leading-relaxed text-sm shadow-lg ${
+                      msg.role === 'user' 
+                        ? 'bg-primary text-background font-semibold neo-glow rounded-tr-none' 
+                        : 'bg-white/5 border border-white/10 text-white/90 rounded-tl-none backdrop-blur-xl'
+                    }`}>
+                      {msg.role === 'assistant' ? renderContent(msg.content) : msg.content}
+                    </div>
+                    {msg.role === 'assistant' && msg.citations && msg.citations.length > 0 && (
+                      <div className="flex flex-wrap gap-2">
+                        {msg.citations.map((cite, i) => (
+                          <button key={i} onClick={() => fetchSourceDetails(cite.order_number)} className="px-3 py-1.5 rounded-lg bg-primary/10 border border-primary/20 text-primary text-[10px] font-bold hover:bg-primary/20 transition-all flex items-center gap-2">
+                            <Gavel size={12} /> {cite.order_number}
+                          </button>
+                        ))}
+                      </div>
                     )}
                   </div>
-                  <p className="text-sm leading-relaxed text-white/90">{msg.content}</p>
-                  
-                  {msg.citations && (
-                    <div className="mt-4 pt-4 border-t border-white/5 space-y-3">
-                      <p className="text-[10px] font-bold text-white/30 uppercase tracking-widest">Sources & Citations</p>
-                      {msg.citations.map((cite: any, i: number) => (
-                        <div key={i} className="p-2 rounded-lg bg-background/50 border border-white/5 group cursor-pointer hover:border-primary/30 transition-all">
-                          <div className="flex justify-between items-center mb-1">
-                            <span className="text-xs font-bold text-primary">{cite.title}</span>
-                            <ExternalLink size={10} className="text-white/20 group-hover:text-primary" />
-                          </div>
-                          <p className="text-[10px] text-white/40 italic">"{cite.snippet}"</p>
-                        </div>
-                      ))}
-                    </div>
-                  )}
-                  
-                  {msg.role === 'assistant' && (
-                    <div className="mt-4 flex gap-3 text-white/20">
-                      <ThumbsUp size={14} className="hover:text-success cursor-pointer" />
-                      <ThumbsDown size={14} className="hover:text-danger cursor-pointer" />
-                      <RotateCcw size={14} className="hover:text-primary cursor-pointer" />
-                    </div>
-                  )}
-                </div>
-              </motion.div>
-            ))}
-          </AnimatePresence>
-        </div>
-
-        {/* Input Area */}
-        <div className="p-6 border-t border-white/5 bg-background/40">
-          {messages.length === 1 && (
-            <div className="flex gap-2 mb-6 overflow-x-auto pb-2 scrollbar-hide">
-              {suggestedPrompts.map((p, i) => (
-                <button 
-                  key={i} 
-                  onClick={() => setInput(p)}
-                  className="whitespace-nowrap px-4 py-2 rounded-full bg-white/5 border border-white/10 text-xs text-white/50 hover:bg-white/10 hover:text-white transition-all"
-                >
-                  {p}
-                </button>
+                </motion.div>
               ))}
+              {loading && (
+                <div className="flex justify-start">
+                  <div className="bg-white/5 border border-white/10 p-5 rounded-2xl flex items-center gap-3">
+                    <motion.div animate={{ rotate: 360 }} transition={{ repeat: Infinity, duration: 1, ease: "linear" }} className="w-4 h-4 border-2 border-primary border-t-transparent rounded-full" />
+                    <span className="text-xs text-white/40 italic">Scanning legal vector space...</span>
+                  </div>
+                </div>
+              )}
+              <div ref={chatEndRef} />
+            </AnimatePresence>
+          </div>
+        </div>
+
+        {/* Input Area - Centered Content */}
+        <div className="p-10 border-t border-white/5 bg-background/40 backdrop-blur-xl">
+          <div className="max-w-3xl mx-auto">
+            <div className="relative group">
+              <input 
+                type="text" 
+                value={input}
+                onChange={(e) => setInput(e.target.value)}
+                onKeyDown={(e) => e.key === 'Enter' && handleSend()}
+                placeholder="Query the legal engine (e.g., 'Precedents on Section 8(1)(j) in Railways')" 
+                className="w-full bg-white/5 border border-white/10 rounded-2xl py-5 pl-8 pr-32 text-sm focus:outline-none focus:border-primary/50 transition-all"
+              />
+              <div className="absolute right-3 top-1/2 -translate-y-1/2 flex items-center gap-2">
+                <VoiceMic onTranscript={(text) => setInput(prev => prev + (prev ? ' ' : '') + text)} />
+                <button onClick={() => handleSend()} disabled={loading} className="bg-primary text-background p-3 rounded-xl neo-glow hover:scale-105 transition-all">
+                  <Send size={20} />
+                </button>
+              </div>
             </div>
-          )}
-          <div className="relative">
-            <input 
-              type="text" 
-              value={input}
-              onChange={(e) => setInput(e.target.value)}
-              onKeyDown={(e) => e.key === 'Enter' && handleSend()}
-              placeholder="Ask about RTI laws, CIC orders, or appeal strategy..." 
-              className="w-full bg-white/5 border border-white/10 rounded-xl py-4 pl-6 pr-32 text-sm focus:outline-none focus:border-primary/50 transition-all"
-            />
-            <div className="absolute right-2 top-1/2 -translate-y-1/2 flex gap-2">
-              <button className="p-2 text-white/30 hover:text-white transition-colors"><Mic size={18} /></button>
-              <button className="p-2 text-white/30 hover:text-white transition-colors"><Paperclip size={18} /></button>
-              <button 
-                onClick={handleSend}
-                className="bg-primary text-background p-2 rounded-lg neo-glow hover:scale-105 transition-all"
-              >
-                <Send size={18} />
-              </button>
+            <div className="flex justify-center gap-8 mt-6 opacity-30">
+               <div className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-widest"><ShieldCheck size={12} /> Verified Engine</div>
+               <div className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-widest"><Scale size={12} /> Legal Compliance</div>
             </div>
           </div>
-          <p className="text-[10px] text-center text-white/20 mt-4 uppercase tracking-[0.2em]">
-            AI can make mistakes. Verify legal citations with official gazettes.
-          </p>
         </div>
       </div>
 
-      {/* Right Intelligence Panel */}
-      <div className="w-80 space-y-6">
-        <GlassCard>
-          <div className="flex items-center gap-2 mb-4">
-            <History className="text-primary w-4 h-4" />
-            <h3 className="text-sm font-bold uppercase tracking-widest">Recent Context</h3>
-          </div>
-          <div className="space-y-4">
-            {[1, 2].map((i) => (
-              <div key={i} className="p-3 rounded-xl bg-white/5 border border-white/5 group cursor-pointer hover:bg-white/10 transition-all">
-                <p className="text-xs font-medium mb-1 line-clamp-1">Personal information vs Public Disclosure</p>
-                <div className="flex justify-between text-[10px] text-white/30">
-                  <span>Section 8(1)(j)</span>
-                  <span>2m ago</span>
-                </div>
-              </div>
-            ))}
-          </div>
-        </GlassCard>
+      <RAGArchitectureModal isOpen={isArchModalOpen} onClose={() => setIsArchModalOpen(false)} />
 
-        <GlassCard>
-          <div className="flex items-center gap-2 mb-4">
-            <BookOpen className="text-secondary w-4 h-4" />
-            <h3 className="text-sm font-bold uppercase tracking-widest">Related Rulings</h3>
-          </div>
-          <div className="space-y-4">
-            {[1, 2, 3].map((i) => (
-              <div key={i} className="group cursor-pointer">
-                <div className="flex justify-between items-start mb-1">
-                  <span className="text-[10px] font-bold text-primary">CIC/FINANCE/2024/A</span>
-                  <ChevronRight size={12} className="text-white/20 group-hover:text-primary transition-transform group-hover:translate-x-1" />
+      {/* Source Detail Modal */}
+      <AnimatePresence>
+        {selectedSource && (
+          <div className="fixed inset-0 z-50 flex items-center justify-center p-12 bg-background/90 backdrop-blur-2xl">
+            <motion.div initial={{ scale: 0.95, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} className="w-full max-w-4xl h-[80vh] glass-card p-0 flex flex-col border-white/10">
+              <div className="px-8 py-6 border-b border-white/5 flex justify-between items-center bg-white/5">
+                <div className="flex items-center gap-4">
+                  <Scale className="text-primary w-8 h-8" />
+                  <div>
+                    <h2 className="text-xl font-bold text-white">{selectedSource.order_number}</h2>
+                    <p className="text-[10px] text-white/40 uppercase font-black">{selectedSource.hierarchy.join(' > ')}</p>
+                  </div>
                 </div>
-                <p className="text-[11px] text-white/60 line-clamp-2">Disclosure of loan default information under RTI...</p>
+                <button onClick={() => setSelectedSource(null)} className="p-2 hover:bg-white/10 rounded-full"><X size={24} /></button>
               </div>
-            ))}
+              <div className="flex-1 overflow-y-auto p-12 space-y-8 font-mono text-xs leading-relaxed text-white/70 whitespace-pre-wrap">
+                {selectedSource.full_text}
+              </div>
+            </motion.div>
           </div>
-          <button className="w-full mt-6 py-2 rounded-lg bg-white/5 border border-white/10 text-[10px] font-bold uppercase tracking-widest hover:bg-white/10 transition-all">
-            Full Precedent Map
-          </button>
-        </GlassCard>
-
-        <div className="p-5 rounded-2xl bg-gradient-to-br from-primary/10 to-secondary/10 border border-white/10">
-          <div className="flex items-center gap-2 mb-2">
-            <div className="w-2 h-2 rounded-full bg-success animate-pulse" />
-            <span className="text-[10px] font-bold uppercase tracking-widest">Live Legal Feed</span>
-          </div>
-          <p className="text-[11px] text-white/70 italic leading-relaxed">
-            "CIC just released 14 new orders related to the Ministry of Railways (10:42 AM IST)"
-          </p>
-        </div>
-      </div>
+        )}
+      </AnimatePresence>
     </div>
   );
 };

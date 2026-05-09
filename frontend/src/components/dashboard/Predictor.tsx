@@ -227,7 +227,9 @@ const Predictor: React.FC = () => {
                           {result.prediction === 'allowed' ? <CheckCircle2 size={16} className="text-success" /> : <ShieldAlert size={16} className="text-danger" />}
                           <span className="text-xs font-bold uppercase tracking-wider text-white">Likely Outcome</span>
                         </div>
-                        <span className={`text-xs font-black uppercase ${result.prediction === 'allowed' ? 'text-success' : 'text-danger'}`}>{result.prediction}</span>
+                        <span className={`text-xs font-black uppercase ${result.prediction === 'allowed' ? 'text-success' : 'text-danger'}`}>
+                          {result.prediction === 'allowed' ? 'approved' : result.prediction}
+                        </span>
                       </div>
                       <div className={`flex justify-between items-center p-3 rounded-xl bg-white/5 border border-white/10`}>
                         <div className="flex items-center gap-2">

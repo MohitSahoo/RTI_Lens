@@ -14,6 +14,7 @@ class QAResponse(BaseModel):
     answer: str
     sources: List[dict]
     confidence: Optional[str] = None
+    confidence_score: Optional[float] = None
     calls_remaining: Optional[int] = None
     faithful: Optional[bool] = None
     session_id: Optional[str] = None

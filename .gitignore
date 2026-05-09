@@ -1,20 +1,25 @@
+# Environment and Secrets
 .env
+*.env.*
+!.env.example
+
+# Python
 __pycache__/
-*.pyc
-.DS_Store
+*.py[cod]
+*$py.class
 venv/
 env/
-.idea/
-.vscode/
+.venv/
+.env/
+backend.log
 *.log
 
-.agents/
-pageindex_lib/
-
-# Local development directories
-archive/
-scratch/
-lib/
+# Database and Large Data Files
+rtilens.db
+*.jsonl
+*.sqlite3
+*.db
+clean_cases_final_balanced.jsonl
 
 # Generated data files (users build locally)
 data/*.pkl
@@ -31,3 +36,30 @@ data/dashboard_graph.json
 data/knowledge_graph.json
 data/knowledge_graph.pkl
 
+# Frontend
+frontend/node_modules/
+frontend/dist/
+node_modules/
+dist/
+.next/
+out/
+build/
+
+# IDEs and OS
+.idea/
+.vscode/
+.DS_Store
+.AppleDouble
+.LSOverride
+__MACOSX/
+Thumbs.db
+*.swp
+*.swo
+
+# Internal Agent Files
+.agents/
+pageindex_lib/
+archive/
+scratch/
+lib/
+skills-lock.json
