@@ -5,11 +5,12 @@ Uses SQLAlchemy ORM models and GraphQL API
 import logging
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from strawberry.fastapi import GraphQLRouter
+# from strawberry.fastapi import GraphQLRouter  # Temporarily disabled
 from backend.config import API_HOST, API_PORT
 from backend.routers import qa, draft, analytics, predict, dashboard
+from backend.routers import query_assistant
 from backend.routers.graph import router as graph_router
-from backend.gql.queries import schema
+# from backend.gql.queries import schema  # Temporarily disabled
 
 # Configure logging
 logging.basicConfig(
@@ -31,6 +32,8 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:8501",  # Streamlit dev server
         "http://127.0.0.1:8501",  # Streamlit alternative
+        "http://localhost:5173",  # Vite dev server
+        "http://127.0.0.1:5173",  # Vite alternative
         # Add production frontend URL here when deployed
     ],
     allow_credentials=True,
@@ -45,10 +48,11 @@ app.include_router(graph_router)
 app.include_router(dashboard.router)
 app.include_router(qa.router)
 app.include_router(draft.router)
+app.include_router(query_assistant.router)
 
-# Include GraphQL router
-graphql_app = GraphQLRouter(schema)
-app.include_router(graphql_app, prefix="/graphql")
+# Include GraphQL router (temporarily disabled)
+# graphql_app = GraphQLRouter(schema)
+# app.include_router(graphql_app, prefix="/graphql")
 
 @app.get("/")
 async def root():
@@ -56,19 +60,15 @@ async def root():
         "message": "RTI-Lens API",
         "version": "2.0.0",
         "docs": "/docs",
-        "graphql": "/graphql",
         "endpoints": {
             "rest": {
                 "analytics": "/api/analytics/*",
                 "prediction": "/api/predict",
                 "qa": "/api/qa",
                 "draft": "/api/draft",
+                "query_assistant": "/api/query-assistant/*",
                 "graph": "/api/graph",
                 "dashboard": "/api/dashboard/*"
-            },
-            "graphql": {
-                "endpoint": "/graphql",
-                "playground": "/graphql (interactive)"
             }
         }
     }

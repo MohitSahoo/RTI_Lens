@@ -16,6 +16,8 @@ class QAResponse(BaseModel):
     confidence: Optional[str] = None
     calls_remaining: Optional[int] = None
     faithful: Optional[bool] = None
+    session_id: Optional[str] = None
+    thread_id: Optional[str] = None
 
 class DraftRequest(BaseModel):
     ministry: str

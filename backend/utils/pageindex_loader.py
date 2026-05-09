@@ -150,6 +150,7 @@ class PageIndexLoader:
         """
         Get relevant sections from multiple documents
         Uses simple keyword matching to rank sections
+        Ensures diversity by limiting sections per order
         """
         all_sections = []
 
@@ -178,7 +179,7 @@ class PageIndexLoader:
             # Score: overlap
             text_overlap = len(question_keywords & text_keywords)
             title_overlap = len(question_keywords & title_keywords)
-            
+
             # High bonus for matching section numbers in title or text
             section_match_bonus = 0
             section_pattern = re.compile(r'\b\d+\(?[\w\d]*\)?(?:\(?[\w\d]*\)?)*\b')
@@ -191,6 +192,24 @@ class PageIndexLoader:
 
             section["relevance_score"] = text_overlap + (title_overlap * 3) + section_match_bonus
 
-        # Sort by relevance and return top sections
+        # Sort by relevance
         all_sections.sort(key=lambda x: x["relevance_score"], reverse=True)
-        return all_sections[:max_sections]
+
+        # Ensure diversity: limit sections per order
+        # Take top 1-2 sections per order, cycling through orders
+        max_per_order = 2 if len(order_hashes) == 1 else 1
+        order_counts = {}
+        diverse_sections = []
+
+        for section in all_sections:
+            order_hash = section["order_hash"]
+            count = order_counts.get(order_hash, 0)
+
+            if count < max_per_order:
+                diverse_sections.append(section)
+                order_counts[order_hash] = count + 1
+
+            if len(diverse_sections) >= max_sections:
+                break
+
+        return diverse_sections

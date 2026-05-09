@@ -12,6 +12,7 @@ DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://mohitsahoo@localhost:5432
 # API Keys with validation
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+BACKBOARD_API_KEY = os.getenv("BACKBOARD_API_KEY")
 
 # Validate API key formats at startup
 if OPENAI_API_KEY and OPENAI_API_KEY != "your_openai_api_key_here":
@@ -43,3 +44,18 @@ OPENAI_MODEL = "gpt-4o-mini"  # Cheap and fast
 # Groq settings
 GROQ_MODEL = "llama-3.3-70b-versatile"  # Fast and high quality
 
+# MongoDB Vector Store
+MONGODB_URI = os.getenv("MONGODB_URI", "mongodb://localhost:27017/")
+MONGODB_DB = os.getenv("MONGODB_DB", "rtilens_vectors")
+MONGODB_COLLECTION = os.getenv("MONGODB_COLLECTION", "document_embeddings")
+
+# Embedding Model
+EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "all-MiniLM-L6-v2")
+EMBEDDING_DIMENSION = 384  # Dimension for all-MiniLM-L6-v2
+
+# Hybrid Search Weights
+BM25_WEIGHT = float(os.getenv("BM25_WEIGHT", "0.4"))
+SEMANTIC_WEIGHT = float(os.getenv("SEMANTIC_WEIGHT", "0.6"))
+
+# Backboard Workflow Settings
+BACKBOARD_ENABLED = os.getenv("BACKBOARD_ENABLED", "true").lower() == "true"

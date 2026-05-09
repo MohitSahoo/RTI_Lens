@@ -1,32 +1,34 @@
 """
-BM25 Index Singleton Loader with integrity verification
+BM25 Loader with Metadata Filtering Support
+
+Loads BM25 index and provides search with optional metadata filtering.
 """
+import pickle
 import logging
 from pathlib import Path
-from backend.config import BM25_INDEX_PATH
+from typing import List, Dict, Optional
+import re
+
 from backend.utils.pickle_security import load_pickle_with_verification, PickleIntegrityError
 
 logger = logging.getLogger(__name__)
 
+BM25_INDEX_PATH = Path("data/bm25_pageindex.pkl")
+
+
 class BM25Loader:
-    _instance = None
+    """Load and search BM25 index with metadata filtering"""
+
     _bm25 = None
     _index = None
 
-    def __new__(cls):
-        if cls._instance is None:
-            cls._instance = super(BM25Loader, cls).__new__(cls)
-            cls._load_index()
-        return cls._instance
-
     @classmethod
     def _load_index(cls):
-        """Load BM25 index from pickle file with integrity verification"""
-        path = Path(BM25_INDEX_PATH)
+        """Load BM25 index from disk"""
+        path = BM25_INDEX_PATH
         if not path.exists():
-            raise FileNotFoundError(f"BM25 index not found at {BM25_INDEX_PATH}")
+            raise FileNotFoundError(f"BM25 index not found at {path}")
 
-        # Load pickle with integrity verification
         hash_file = Path(str(path) + '.sha256')
         try:
             data = load_pickle_with_verification(
@@ -57,8 +59,89 @@ class BM25Loader:
         return cls._index
 
     @classmethod
-    def search(cls, query: str, top_k: int = 5):
-        """Search BM25 index and return top-k results"""
+    def _matches_filter(cls, paragraph: Dict, metadata_filter: Dict) -> bool:
+        """
+        Check if paragraph matches metadata filter
+        
+        Args:
+            paragraph: Paragraph dict with metadata
+            metadata_filter: Filter dict with ministry, section_cited, order_date
+            
+        Returns:
+            True if paragraph matches all filter criteria
+        """
+        if not metadata_filter:
+            return True
+        
+        # Ministry filter
+        if "ministry" in metadata_filter:
+            ministry_filter = metadata_filter["ministry"]
+            para_ministry = paragraph.get("ministry", "").lower()
+            
+            if isinstance(ministry_filter, str):
+                if ministry_filter.lower() not in para_ministry:
+                    return False
+            elif isinstance(ministry_filter, dict):
+                # Handle regex patterns from EntityExtractor
+                if "$regex" in ministry_filter:
+                    pattern = ministry_filter["$regex"]
+                    options = ministry_filter.get("$options", "")
+                    flags = re.IGNORECASE if "i" in options else 0
+                    if not re.search(pattern, para_ministry, flags):
+                        return False
+        
+        # Section filter (if available in BM25 index)
+        if "section_cited" in metadata_filter and "section_cited" in paragraph:
+            section_filter = metadata_filter["section_cited"]
+            para_section = paragraph.get("section_cited", "")
+            
+            if isinstance(section_filter, dict) and "$regex" in section_filter:
+                pattern = section_filter["$regex"]
+                if not re.search(pattern, para_section):
+                    return False
+        
+        # Order date filter
+        if "order_date" in metadata_filter and "order_date" in paragraph:
+            date_filter = metadata_filter["order_date"]
+            para_date = paragraph.get("order_date")
+            
+            if isinstance(date_filter, dict):
+                if "$gte" in date_filter and para_date and para_date < date_filter["$gte"]:
+                    return False
+                if "$lte" in date_filter and para_date and para_date > date_filter["$lte"]:
+                    return False
+        
+        # Handle $and operator
+        if "$and" in metadata_filter:
+            for sub_filter in metadata_filter["$and"]:
+                if not cls._matches_filter(paragraph, sub_filter):
+                    return False
+        
+        # Handle $or operator
+        if "$or" in metadata_filter:
+            any_match = False
+            for sub_filter in metadata_filter["$or"]:
+                if cls._matches_filter(paragraph, sub_filter):
+                    any_match = True
+                    break
+            if not any_match:
+                return False
+        
+        return True
+
+    @classmethod
+    def search(cls, query: str, top_k: int = 5, metadata_filter: Optional[Dict] = None):
+        """
+        Search BM25 index and return top-k results
+        
+        Args:
+            query: Search query
+            top_k: Number of results to return
+            metadata_filter: Optional metadata filter dict
+            
+        Returns:
+            List of results with scores and paragraphs
+        """
         import re
         from nltk.corpus import stopwords
 
@@ -108,14 +191,28 @@ class BM25Loader:
         query_tokens = tokenize(query)
         scores = bm25.get_scores(query_tokens)
 
-        # Get top-k indices
-        top_indices = sorted(range(len(scores)), key=lambda i: scores[i], reverse=True)[:top_k]
+        # Get top-k indices (fetch more if filtering to ensure we have enough results)
+        fetch_count = top_k * 3 if metadata_filter else top_k
+        top_indices = sorted(range(len(scores)), key=lambda i: scores[i], reverse=True)[:fetch_count]
 
         results = []
         for idx in top_indices:
+            paragraph = index[idx]
+            
+            # Apply metadata filter
+            if metadata_filter and not cls._matches_filter(paragraph, metadata_filter):
+                continue
+            
             results.append({
                 "score": float(scores[idx]),
-                "paragraph": index[idx]
+                "paragraph": paragraph
             })
+            
+            # Stop when we have enough results
+            if len(results) >= top_k:
+                break
+
+        if metadata_filter and results:
+            logger.info(f"BM25 search with filter returned {len(results)} results (fetched {fetch_count} candidates)")
 
         return results

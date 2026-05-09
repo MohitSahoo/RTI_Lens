@@ -12,7 +12,8 @@ Example inputs for testing the RTI-Lens system features.
 
 **Question:** When can Section 8(1)(d) be invoked by ministries?
 
-**Question:** How is Section 8(1)(j) typically interpreted by CIC?
+**Question:** H
+
 
 **Question:** What is the difference between Section 8(1)(a) and 8(1)(g)?
 
@@ -202,7 +203,7 @@ Example inputs for testing the RTI-Lens system features.
 - **Ministry:** Ministry of Corporate Affairs
 - **Section:** 8(1)(d)
 - **Appeal Level:** second_appeal
-- **Context:** Requesting inspection reports of pharmaceutical company that manufactures life-saving drugs. Recent reports of quality issues. Public health at stake. PIO denied under commercial confidence. FAA upheld. But public interest in drug safety outweighs commercial interests.
+- **Context:** 
 
 ### Example 10: Vague Exemption Claim
 - **Ministry:** Ministry of Home Affairs

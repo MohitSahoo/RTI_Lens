@@ -101,14 +101,19 @@ async def predict_outcome(request: PredictRequest, db: Session = Depends(get_db)
             confidence = "low"
 
         # Check if ministry has low training data using ORM
-        ministry_count = db.query(Case).join(
-            Ministry, Case.ministry_id == Ministry.id
-        ).filter(
-            Ministry.name == request.ministry
-        ).count()
+        low_data_warning = False
+        try:
+            ministry_count = db.query(Case).join(
+                Ministry, Case.ministry_id == Ministry.id
+            ).filter(
+                Ministry.name == request.ministry
+            ).count()
 
-        low_data_threshold = model_card.get("low_data_threshold", 10)
-        low_data_warning = ministry_count < low_data_threshold
+            low_data_threshold = model_card.get("low_data_threshold", 10)
+            low_data_warning = ministry_count < low_data_threshold
+        except Exception as e:
+            logger.warning(f"Failed to fetch ministry count from DB: {e}")
+            low_data_warning = True # Default to warning if DB is missing
 
         return PredictResponse(
             prediction=outcome,

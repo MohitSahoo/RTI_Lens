@@ -1,6 +1,5 @@
 # Database
 sqlalchemy==2.0.30
-psycopg2-binary==2.9.9
 alembic==1.13.1
 
 # API
@@ -38,3 +37,13 @@ tqdm==4.66.4
 
 # Frontend
 streamlit==1.32.0
+
+# Workflow & Session Management
+backboard-sdk==1.5.14
+
+# Vector Embeddings
+sentence-transformers==2.2.2
+pymongo==4.6.1
+
+# Visualization
+plotly==5.18.0
