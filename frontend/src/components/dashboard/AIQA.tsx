@@ -25,7 +25,8 @@ import {
   Download,
   Gavel,
   HelpCircle,
-  Paperclip
+  Paperclip,
+  Volume2
 } from 'lucide-react';
 import { GlassCard } from '../ui/GlassCard';
 import { VoiceMic } from '../ui/VoiceMic';
@@ -68,7 +69,9 @@ const AIQA: React.FC = () => {
   const [selectedSource, setSelectedSource] = useState<SourceDetail | null>(null);
   const [fetchingSource, setFetchingSource] = useState(false);
   const [isArchModalOpen, setIsArchModalOpen] = useState(false);
+  const [playingId, setPlayingId] = useState<string | null>(null);
   const chatEndRef = useRef<HTMLDivElement>(null);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
 
   useEffect(() => {
     chatEndRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -103,6 +106,41 @@ const AIQA: React.FC = () => {
       console.error("QA error:", error);
     } finally {
       setLoading(false);
+    }
+  };
+
+  const handleSpeak = async (text: string, msgId: string) => {
+    if (playingId === msgId) {
+      audioRef.current?.pause();
+      setPlayingId(null);
+      return;
+    }
+
+    setPlayingId(msgId);
+    try {
+      const response = await fetch('/api/voice/speak', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ text: text.replace(/<[^>]*>?/gm, '') }) // Strip HTML
+      });
+
+      if (response.ok) {
+        const blob = await response.blob();
+        const url = URL.createObjectURL(blob);
+        if (audioRef.current) {
+          audioRef.current.src = url;
+          audioRef.current.play();
+          audioRef.current.onended = () => setPlayingId(null);
+        } else {
+          const audio = new Audio(url);
+          audioRef.current = audio;
+          audio.play();
+          audio.onended = () => setPlayingId(null);
+        }
+      }
+    } catch (error) {
+      console.error("TTS error:", error);
+      setPlayingId(null);
     }
   };
 
@@ -176,6 +214,12 @@ const AIQA: React.FC = () => {
                       <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 w-fit">
                         <div className={`w-1.5 h-1.5 rounded-full ${msg.confidence > 0.8 ? 'bg-success' : 'bg-amber-500'} animate-pulse`} />
                         <span className="text-[9px] font-black text-white/50 uppercase tracking-widest">Confidence: {(msg.confidence * 100).toFixed(0)}%</span>
+                        <button 
+                          onClick={() => handleSpeak(msg.content, msg.id)}
+                          className={`ml-2 p-1 rounded-full transition-all ${playingId === msg.id ? 'bg-primary text-background' : 'hover:bg-white/10 text-white/40'}`}
+                        >
+                          <Volume2 size={10} className={playingId === msg.id ? 'animate-pulse' : ''} />
+                        </button>
                       </div>
                     )}
                     <div className={`p-6 rounded-[1.5rem] leading-relaxed text-sm shadow-lg ${

@@ -21,3 +21,19 @@ async def transcribe_audio(file: UploadFile = File(...)):
     except Exception as e:
         logger.error(f"Voice endpoint error: {e}")
         raise HTTPException(status_code=500, detail=str(e))
+
+@router.post("/speak")
+async def text_to_speech(payload: dict):
+    """
+    Converts text to speech and returns audio content.
+    """
+    text = payload.get("text")
+    if not text:
+        raise HTTPException(status_code=400, detail="Text is required")
+        
+    audio_content = await voice_service.speak(text)
+    if not audio_content:
+        raise HTTPException(status_code=500, detail="TTS generation failed")
+        
+    from fastapi.responses import Response
+    return Response(content=audio_content, media_type="audio/mpeg")
