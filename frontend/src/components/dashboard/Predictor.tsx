@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { 
   Target, 
@@ -31,6 +31,23 @@ const Predictor: React.FC = () => {
     raw_text: ''
   });
 
+  const [ministries, setMinistries] = useState<string[]>([]);
+
+  useEffect(() => {
+    const fetchMinistries = async () => {
+      try {
+        const response = await fetch('/api/ministries');
+        if (response.ok) {
+          const data = await response.json();
+          setMinistries(data.ministries || []);
+        }
+      } catch (e) {
+        console.error("Failed to fetch ministries", e);
+      }
+    };
+    fetchMinistries();
+  }, []);
+
   const handlePredict = async (e: React.FormEvent) => {
     e.preventDefault();
     if (formData.raw_text.length < 100) {
@@ -40,13 +57,16 @@ const Predictor: React.FC = () => {
 
     setLoading(true);
     try {
+      const payload = {
+        ...formData,
+        order_date: formData.order_date || null,
+        appeal_level: formData.appeal_level === '1st Appeal' ? 'first_appeal' : 'second_appeal'
+      };
+
       const response = await fetch('/api/predict', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          ...formData,
-          appeal_level: formData.appeal_level === '1st Appeal' ? 'first_appeal' : 'second_appeal'
-        })
+        body: JSON.stringify(payload)
       });
 
       if (!response.ok) {
@@ -96,13 +116,25 @@ const Predictor: React.FC = () => {
               <div className="grid grid-cols-2 gap-4">
                 <div className="space-y-2">
                   <label className="text-[10px] font-bold text-white/40 uppercase tracking-widest">Ministry</label>
-                  <input 
+                  <select 
                     value={formData.ministry}
                     onChange={e => setFormData({...formData, ministry: e.target.value})}
-                    placeholder="e.g. Ministry of Home Affairs"
                     className="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-2.5 text-sm text-white focus:border-primary outline-none transition-all"
                     required
-                  />
+                  >
+                    <option value="" disabled className="bg-[#0B1020]">Select Ministry</option>
+                    {ministries.map(m => (
+                      <option key={m} value={m} className="bg-[#0B1020]">{m}</option>
+                    ))}
+                    {ministries.length === 0 && (
+                      <>
+                        <option className="bg-[#0B1020]">Ministry of Finance</option>
+                        <option className="bg-[#0B1020]">Ministry of Home Affairs</option>
+                        <option className="bg-[#0B1020]">Ministry of Railways</option>
+                        <option className="bg-[#0B1020]">Ministry of External Affairs</option>
+                      </>
+                    )}
+                  </select>
                 </div>
                 <div className="space-y-2">
                   <label className="text-[10px] font-bold text-white/40 uppercase tracking-widest">Section Cited</label>

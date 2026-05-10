@@ -88,18 +88,20 @@ def validate_section_cited(section: str) -> Optional[str]:
     Returns None if invalid, sanitized string if valid
     """
     if not section:
-        return None
+        # Default to a generic section if none provided, or allow empty
+        return "Unknown"
 
     # Remove control characters
     section = re.sub(r'[\x00-\x1f\x7f-\x9f]', '', section)
     section = section.strip()
 
     # Check length
-    if len(section) < 1 or len(section) > 50:
+    if len(section) < 1 or len(section) > 100:
         return None
 
-    # Allow section format like "8(1)(a)", "6(3)", etc.
-    if not re.match(r'^[0-9]+(\([0-9a-zA-Z]+\))*$', section):
+    # Allow common formats like "Section 8", "8(1)(a)", "8 1 a", etc.
+    # More permissive regex: allows letters, numbers, spaces, parentheses
+    if not re.match(r'^[a-zA-Z0-9\s\(\).\-]+$', section):
         return None
 
     return section

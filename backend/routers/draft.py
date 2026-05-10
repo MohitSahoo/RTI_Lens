@@ -126,7 +126,7 @@ async def generate_draft(request: Request, body: DraftRequest, db: Session = Dep
         retrieval_method = "bm25_only"
 
     # Log retrieval to Backboard
-    top_sources = [r['paragraph']['order_number'] for r in hybrid_results[:3]]
+    top_sources = [r['paragraph'].get('order_number') for r in hybrid_results[:3] if r.get('paragraph', {}).get('order_number')]
     await SessionManager.log_retrieval(
         db=db,
         session_id=workflow_session.session_id,
@@ -141,7 +141,7 @@ async def generate_draft(request: Request, body: DraftRequest, db: Session = Dep
 
     # Fetch full case details and hierarchical text from hybrid results
     case_details = []
-    order_numbers = [r['paragraph']['order_number'] for r in hybrid_results[:3]]
+    order_numbers = [r['paragraph'].get('order_number') for r in hybrid_results[:3] if r.get('paragraph', {}).get('order_number')]
     
     try:
         for order_number in order_numbers:
@@ -301,7 +301,7 @@ Response:"""
                 response_text = response_text[json_start:json_end].strip()
 
             parsed = json.loads(response_text)
-            improved_query = parsed.get("improved_query", context)
+            improved_query = parsed.get("improved_query") or context
             change_notes = parsed.get("change_notes", [])
             avoid_phrases = parsed.get("avoid_phrases", [])
             sources = parsed.get("sources", [])
@@ -323,17 +323,30 @@ Response:"""
                 f"(has {section_stats.misuse_rate * 100:.1f}% overturn rate)"
             )
 
-        # Validate sources - only keep if they match actual retrieved cases
-        valid_case_numbers = {case['order_number'] for case in case_details}
+        # Validate sources - only keep if they match actual retrieved cases (fuzzy match)
+        valid_case_numbers = {case['order_number'].strip().upper() for case in case_details if case.get('order_number')}
         validated_sources = []
         for src in sources:
-            if src.get('order_number') in valid_case_numbers:
+            src_order = str(src.get('order_number', '')).strip().upper()
+            if src_order in valid_case_numbers:
                 # Add outcome from actual case data
-                matching_case = next((c for c in case_details if c['order_number'] == src['order_number']), None)
+                matching_case = next((c for c in case_details if c['order_number'].strip().upper() == src_order), None)
                 if matching_case:
                     src['outcome'] = matching_case['outcome']
                     src['section'] = matching_case['section']
+                    src['order_number'] = matching_case['order_number'] # Use exact format from DB
                     validated_sources.append(src)
+        
+        # If no sources validated but AI provided some, and we have case details, maybe keep them?
+        # No, better to keep it grounded. But if validated is empty, maybe show the first case_detail as a general source.
+        if not validated_sources and case_details:
+             for case in case_details[:1]:
+                 validated_sources.append({
+                     "order_number": case['order_number'],
+                     "outcome": case['outcome'],
+                     "section": case['section'],
+                     "relevance": "Retrieved as highly relevant precedent for this ministry/section."
+                 })
 
         sources = validated_sources[:3]  # Limit to 3 validated sources
 

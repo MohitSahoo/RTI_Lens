@@ -139,3 +139,12 @@ async def get_dashboard_stats(db: Session = Depends(get_db)):
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error fetching dashboard stats: {str(e)}")
+
+
+@router.get("/ministries")
+async def get_ministries(db: Session = Depends(get_db)):
+    """Get list of all ministries"""
+    from backend.models import Ministry
+
+    ministries = db.query(Ministry.name).filter(Ministry.name != '').order_by(Ministry.name).all()
+    return {"ministries": [m.name for m in ministries]}

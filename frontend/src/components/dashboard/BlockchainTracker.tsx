@@ -42,6 +42,7 @@ const BlockchainTracker: React.FC = () => {
   const [authorityKey, setAuthorityKey] = useState("Loading...");
   const [govPublicKey, setGovPublicKey] = useState("Loading...");
   const [networkStats, setNetworkStats] = useState({ slot: 0, tps: 0 });
+  const [ministries, setMinistries] = useState<string[]>([]);
 
   const walletAddress = publicKey ? publicKey.toBase58() : '';
   const displayAddress = walletAddress ? `${walletAddress.slice(0, 4)}...${walletAddress.slice(-4)}` : '';
@@ -93,18 +94,23 @@ const BlockchainTracker: React.FC = () => {
   }, []);
 
   useEffect(() => {
-    // Fetch keys from backend
+    // Fetch keys and ministries from backend
     const fetchKeys = async () => {
       try {
-        const authRes = await fetch('http://localhost:8002/api/blockchain/authority-key');
+        const authRes = await fetch('/api/blockchain/authority-key');
         const authData = await authRes.json();
         setAuthorityKey(authData.public_key);
 
-        const govRes = await fetch('http://localhost:8002/api/blockchain/gov/public-key');
+        const govRes = await fetch('/api/blockchain/gov/public-key');
         const govData = await govRes.json();
         setGovPublicKey(govData.public_key);
+
+        // Fetch ministries
+        const ministriesRes = await fetch('/api/ministries');
+        const ministriesData = await ministriesRes.json();
+        setMinistries(ministriesData.ministries || []);
       } catch (e) {
-        console.error("Failed to fetch blockchain keys", e);
+        console.error("Failed to fetch blockchain keys or ministries", e);
       }
     };
     fetchKeys();
@@ -113,18 +119,16 @@ const BlockchainTracker: React.FC = () => {
     const fetchHistory = async () => {
       if (connected && publicKey) {
         try {
-          const historyRes = await fetch(`http://localhost:8002/api/blockchain/history/${publicKey.toBase58()}`);
+          const historyRes = await fetch(`/api/blockchain/history/${publicKey.toBase58()}`);
           if (historyRes.ok) {
             const historyData = await historyRes.json();
             setHistory(historyData);
           }
         } catch (e) {
           console.error("Failed to fetch blockchain history", e);
-          // Start with empty history if fetch fails
           setHistory([]);
         }
       } else {
-        // No wallet connected, show empty state
         setHistory([]);
       }
     };
@@ -181,7 +185,7 @@ The immutable proof-of-submission ensures this document cannot be backdated or a
         formData.append('data', formalRTI);
         
         try {
-          const encResponse = await fetch('http://localhost:8002/api/blockchain/gov/encrypt', { method: 'POST', body: formData });
+          const encResponse = await fetch('/api/blockchain/gov/encrypt', { method: 'POST', body: formData });
           if (!encResponse.ok) throw new Error("API Error");
           const encResult = await encResponse.json();
           encryptedContent = encResult.encrypted_data;
@@ -212,7 +216,7 @@ The immutable proof-of-submission ensures this document cannot be backdated or a
       formData.append('department', department);
       formData.append('content', actualContent);
 
-      const submitResponse = await fetch('http://localhost:8002/api/blockchain/submit', {
+      const submitResponse = await fetch('/api/blockchain/submit', {
         method: 'POST',
         body: formData
       });
@@ -311,15 +315,23 @@ The immutable proof-of-submission ensures this document cannot be backdated or a
               <div className="flex gap-4">
                 <div className="flex-1 space-y-2">
                   <label className="text-[10px] font-bold text-white/40 uppercase tracking-widest ml-1">Target Department</label>
-                  <select 
+                  <select
                     value={department}
                     onChange={(e) => setDepartment(e.target.value)}
                     className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm outline-none focus:border-primary/50 transition-all"
                   >
-                    <option>Ministry of Finance</option>
-                    <option>Ministry of External Affairs</option>
-                    <option>Ministry of Home Affairs</option>
-                    <option>Ministry of Railways</option>
+                    {ministries.length > 0 ? (
+                      ministries.filter(m => m.trim()).map((ministry) => (
+                        <option key={ministry} value={ministry}>{ministry}</option>
+                      ))
+                    ) : (
+                      <>
+                        <option>Ministry of Finance</option>
+                        <option>Ministry of External Affairs</option>
+                        <option>Ministry of Home Affairs</option>
+                        <option>Ministry of Railways</option>
+                      </>
+                    )}
                   </select>
                 </div>
                 <div className="flex-1 space-y-2">

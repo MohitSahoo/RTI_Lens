@@ -61,7 +61,7 @@ const GovernmentPortal: React.FC = () => {
       const formData = new FormData();
       formData.append('encrypted_data', rti.encrypted_content);
 
-      const response = await fetch('http://localhost:8002/api/blockchain/gov/decrypt', {
+      const response = await fetch('/api/blockchain/gov/decrypt', {
         method: 'POST',
         body: formData
       });

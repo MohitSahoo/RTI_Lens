@@ -83,12 +83,17 @@ class EmbeddingBuilder:
 
             metadata = {}
             for row in results:
+                # Handle order_date - might be string or date object
+                order_date = row.order_date
+                if order_date and hasattr(order_date, 'isoformat'):
+                    order_date = order_date.isoformat()
+
                 metadata[row.order_number] = {
                     "ministry": row.ministry,
                     "section_cited": row.section_cited,
                     "appeal_outcome": row.appeal_outcome,
                     "appeal_level": row.appeal_level,
-                    "order_date": row.order_date.isoformat() if row.order_date else None
+                    "order_date": order_date
                 }
 
             logger.info(f"Loaded metadata for {len(metadata)} cases")

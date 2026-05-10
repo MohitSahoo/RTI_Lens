@@ -92,6 +92,9 @@ const AppealGenerator: React.FC = () => {
     
     setPhase('rag');
     try {
+      let currentMinistry = formData.ministry;
+      let currentSection = formData.section_cited;
+
       const ragResponse = await fetch('/api/query-assistant/optimize', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -101,10 +104,12 @@ const AppealGenerator: React.FC = () => {
       if (ragResponse.ok) {
         const ragData = await ragResponse.json();
         setPrecedents(ragData.relevant_precedents || []);
-        const suggestedMin = ragData.ministry_suggestion?.primary_ministry || 'Ministry of Finance';
+        
+        currentMinistry = ragData.ministry_suggestion?.primary_ministry || 'Ministry of Finance';
         const suggestedSec = ragData.section_recommendations?.primary_sections?.[0]?.section || '8(1)(a)';
-        const matchedSection = SECTIONS.find(s => suggestedSec.includes(s.id))?.id || '8(1)(a)';
-        setFormData(prev => ({ ...prev, ministry: suggestedMin, section_cited: matchedSection }));
+        currentSection = SECTIONS.find(s => suggestedSec.includes(s.id))?.id || '8(1)(a)';
+        
+        setFormData(prev => ({ ...prev, ministry: currentMinistry, section_cited: currentSection }));
       }
 
       setPhase('agents');
@@ -125,7 +130,11 @@ const AppealGenerator: React.FC = () => {
       const draftResponse = await fetch('/api/draft', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formData)
+        body: JSON.stringify({
+          ...formData,
+          ministry: currentMinistry,
+          section_cited: currentSection
+        })
       });
 
       if (draftResponse.ok) {
@@ -133,6 +142,9 @@ const AppealGenerator: React.FC = () => {
         setResult(draftData);
         setBlockchainStatus('securing');
         setTimeout(() => setBlockchainStatus('success'), 1500);
+      } else {
+        const errorData = await draftResponse.json();
+        alert(`Drafting failed: ${errorData.detail || 'Unknown error'}`);
       }
     } catch (error) {
       console.error("Drafting error:", error);
@@ -271,12 +283,24 @@ const AppealGenerator: React.FC = () => {
                         </button>
                       </div>
                       <div className="grid gap-6">
-                        {[...Array(2)].map((_, i) => (
-                          <div key={i} className="p-8 rounded-[2rem] bg-white/5 border border-white/10 space-y-4">
-                            <div className="h-4 w-1/4 bg-white/10 rounded-full animate-pulse" />
-                            <div className="h-3 w-full bg-white/5 rounded-full" />
-                          </div>
-                        ))}
+                        {precedents.length > 0 ? (
+                          precedents.slice(0, 2).map((p, i) => (
+                            <div key={i} className="p-6 rounded-[1.5rem] bg-white/5 border border-white/10 space-y-2">
+                              <div className="flex justify-between items-center">
+                                <span className="text-[10px] font-mono text-primary">{p.order_number}</span>
+                                <CheckCircle2 size={12} className="text-success" />
+                              </div>
+                              <p className="text-[10px] text-white/40 line-clamp-2 italic">{p.text_preview}</p>
+                            </div>
+                          ))
+                        ) : (
+                          [...Array(2)].map((_, i) => (
+                            <div key={i} className="p-8 rounded-[2rem] bg-white/5 border border-white/10 space-y-4">
+                              <div className="h-4 w-1/4 bg-white/10 rounded-full animate-pulse" />
+                              <div className="h-3 w-full bg-white/5 rounded-full" />
+                            </div>
+                          ))
+                        )}
                       </div>
                    </div>
                 </motion.div>
@@ -317,13 +341,16 @@ const AppealGenerator: React.FC = () => {
                         </button>
                       </div>
                       <div className="space-y-4">
-                        {precedents.slice(0, 3).map((p: any, i: number) => (
+                        {(result?.sources?.length > 0 ? result.sources : precedents).slice(0, 3).map((p: any, i: number) => (
                           <button key={i} onClick={() => fetchSourceDetails(p.order_number)} className="w-full text-left p-4 rounded-2xl bg-white/5 border border-white/5 hover:border-primary/40 transition-all group">
                             <div className="flex justify-between items-center mb-1">
-                              <span className="text-[10px] font-mono text-white/60 group-hover:text-primary">{p.order_number}</span>
+                              <div className="flex flex-col">
+                                <span className="text-[10px] font-mono text-white/60 group-hover:text-primary">{p.order_number}</span>
+                                {p.outcome && <span className="text-[8px] uppercase font-bold text-success/60">{p.outcome}</span>}
+                              </div>
                               <ChevronRight size={12} className="text-white/10 group-hover:text-primary" />
                             </div>
-                            <p className="text-[9px] text-white/30 line-clamp-1 italic">{p.text_preview}</p>
+                            <p className="text-[9px] text-white/30 line-clamp-1 italic">{p.text_preview || `Cited for section ${p.section || '8(1)'} compliance.`}</p>
                           </button>
                         ))}
                       </div>

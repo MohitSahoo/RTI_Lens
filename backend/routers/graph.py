@@ -76,28 +76,32 @@ async def get_knowledge_graph(db: Session = Depends(get_db)):
         # Extract relationships from cases
         for case in cases:
             # Extract ministry/department
-            if case.department:
-                ministries.add(case.department)
+            ministry_name = case.ministry.name if case.ministry else None
+            if ministry_name:
+                ministries.add(ministry_name)
 
-            # Extract sections from case text
-            case_text = f"{case.case_title or ''} {case.summary or ''} {case.full_text or ''}"
-            case_sections = extract_sections(case_text)
-            sections.update(case_sections)
+            # Use the primary section_cited field instead of extracting all sections from text
+            section = case.section_cited
+            if section:
+                sections.add(section)
 
             # Extract outcome
-            if case.outcome:
-                outcomes.add(case.outcome)
+            outcome_value = None
+            if case.appeal_outcome:
+                # Handle both enum and string values
+                outcome_value = case.appeal_outcome.value if hasattr(case.appeal_outcome, 'value') else case.appeal_outcome
+            if outcome_value:
+                outcomes.add(outcome_value)
 
             # Build edges: ministry -> section -> outcome
-            if case.department and case.outcome:
-                for section in case_sections:
-                    # Ministry -> Section
-                    edge_key = (case.department, f"Section {section}", "cites")
-                    edge_counts[edge_key] += 1
+            if ministry_name and section and outcome_value:
+                # Ministry -> Section
+                edge_key = (ministry_name, f"Section {section}", "cites")
+                edge_counts[edge_key] += 1
 
-                    # Section -> Outcome
-                    edge_key = (f"Section {section}", case.outcome, "leads_to")
-                    edge_counts[edge_key] += 1
+                # Section -> Outcome
+                edge_key = (f"Section {section}", outcome_value, "leads_to")
+                edge_counts[edge_key] += 1
 
         # Create nodes
         node_id = 0
