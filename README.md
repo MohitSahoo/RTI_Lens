@@ -4,6 +4,27 @@ RTI-Lens is a state-of-the-art AI platform designed for advanced analysis of Ind
 
 ---
 
+## 🎯 The Problem
+
+Navigating the Right to Information (RTI) landscape in India is fraught with challenges for both citizens and legal professionals:
+
+1.  **Legal Information Overload**: The Central Information Commission (CIC) generates thousands of rulings every year. Manually synthesizing these to find a relevant precedent for an appeal is nearly impossible.
+2.  **Systemic Opaqueness**: Government ministries often cite exemptions (like Section 8(1)(j) for privacy) inconsistently. Without data-driven insights, it's hard to challenge these "standard" denials.
+3.  **Low Success Rates**: Many first-time RTI appeals fail because they lack the proper legal grounding or fail to cite the specific precedents that have historically overturned similar denials.
+4.  **Submission Integrity**: In many cases, there is no immutable proof of what was submitted and when, leading to disputes over document tampering or "lost" applications.
+
+## 💡 The Solution: RTI-Lens
+
+RTI-Lens transforms the RTI process from a guessing game into a data-driven science:
+
+*   **🧠 Agentic Appeal Drafting**: Instead of a simple prompt, RTI-Lens uses a multi-agent team (**Researcher, Drafter, and Auditor**) to synthesize a legally sound appeal that is explicitly grounded in retrieved CIC precedents.
+*   **🔮 Outcome Prediction Engine**: Using an XGBoost model trained on 10,000+ historical rulings, the platform predicts the success probability of your appeal, identifying "High Risk" ministries and sections.
+*   **🔗 Blockchain-Backed Integrity**: Every submission is hashed and anchored to the **Solana Devnet**. This provides a tamper-proof "Proof of Submission" that ensures the integrity of the citizen's request.
+*   **🔍 Hybrid RAG Search**: Combines **MongoDB Vector Search** with **BM25 Keyword Matching** to provide the most relevant legal context, ensuring the AI drafting is always grounded in "Real Law," not hallucinations.
+*   **📊 Visual Intelligence**: Interactive knowledge graphs and analytics dashboards reveal systemic denial patterns across various ministries, helping users identify the most successful path for their requests.
+
+---
+
 ## 🏗️ System Architecture
 
 ```mermaid
