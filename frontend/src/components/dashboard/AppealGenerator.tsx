@@ -61,8 +61,8 @@ const AppealGenerator: React.FC = () => {
   });
 
   const [generating, setGenerating] = useState(false);
-  const [phase, setPhase] = useState<'idle' | 'rag' | 'agents'>('idle');
-  const [agentProgress, setAgentProgress] = useState([0, 0, 0, 0]);
+  const [phase, setPhase] = useState<'idle' | 'rag' | 'generation'>('idle');
+  const [stageProgress, setStageProgress] = useState([0, 0, 0, 0]);
   const [result, setResult] = useState<any>(null);
   const [blockchainStatus, setBlockchainStatus] = useState<'idle' | 'securing' | 'success'>('idle');
   const [precedents, setPrecedents] = useState<any[]>([]);
@@ -70,11 +70,11 @@ const AppealGenerator: React.FC = () => {
   const [fetchingSource, setFetchingSource] = useState(false);
   const [isArchModalOpen, setIsArchModalOpen] = useState(false);
 
-  const agents = [
-    { name: "Orchestrator", icon: Network, color: "text-primary", task: "Jurisdiction & Clause Consensus" },
-    { name: "Legal Researcher", icon: Search, color: "text-blue-400", task: "Precedent Contextualization" },
-    { name: "Compliance Auditor", icon: ShieldCheck, color: "text-purple-400", task: "Statistical Pattern Analysis" },
-    { name: "Senior Drafter", icon: PenLine, color: "text-amber-400", task: "Legal Synthesis & Drafting" }
+  const pipelineStages = [
+    { name: "Context Analysis", icon: Network, color: "text-primary", task: "Query preprocessing & validation" },
+    { name: "RAG Retrieval", icon: Search, color: "text-blue-400", task: "Hybrid search (BM25 + semantic)" },
+    { name: "Precedent Analysis", icon: ShieldCheck, color: "text-purple-400", task: "Section statistics & patterns" },
+    { name: "LLM Generation", icon: PenLine, color: "text-amber-400", task: "Groq-based draft synthesis" }
   ];
 
   const handleGenerate = async () => {
@@ -87,9 +87,9 @@ const AppealGenerator: React.FC = () => {
     setResult(null);
     setPrecedents([]);
     setBlockchainStatus('idle');
-    setAgentProgress([0, 0, 0, 0]);
+    setStageProgress([0, 0, 0, 0]);
     setFormData(prev => ({ ...prev, ministry: '', section_cited: '' }));
-    
+
     setPhase('rag');
     try {
       let currentMinistry = formData.ministry;
@@ -104,21 +104,21 @@ const AppealGenerator: React.FC = () => {
       if (ragResponse.ok) {
         const ragData = await ragResponse.json();
         setPrecedents(ragData.relevant_precedents || []);
-        
+
         currentMinistry = ragData.ministry_suggestion?.primary_ministry || 'Ministry of Finance';
         const suggestedSec = ragData.section_recommendations?.primary_sections?.[0]?.section || '8(1)(a)';
         currentSection = SECTIONS.find(s => suggestedSec.includes(s.id))?.id || '8(1)(a)';
-        
+
         setFormData(prev => ({ ...prev, ministry: currentMinistry, section_cited: currentSection }));
       }
 
-      setPhase('agents');
-      for (let i = 0; i < agents.length; i++) {
+      setPhase('generation');
+      for (let i = 0; i < pipelineStages.length; i++) {
         let progress = 0;
         while (progress < 100) {
           progress += Math.random() * 40;
           if (progress > 100) progress = 100;
-          setAgentProgress(prev => {
+          setStageProgress(prev => {
             const next = [...prev];
             next[i] = progress;
             return next;
@@ -179,7 +179,7 @@ const AppealGenerator: React.FC = () => {
              </div>
              <div>
                <h3 className="text-sm font-bold uppercase tracking-[0.2em]">Appeal Forge</h3>
-               <p className="text-[10px] text-white/40">Multi-Agent Legal Synthesis</p>
+               <p className="text-[10px] text-white/40">AI-Powered Legal Drafting</p>
              </div>
           </div>
 
@@ -218,13 +218,13 @@ const AppealGenerator: React.FC = () => {
             </div>
           </div>
 
-          <GlowButton 
-            variant="primary" 
-            className="w-full py-6" 
+          <GlowButton
+            variant="primary"
+            className="w-full py-6"
             onClick={handleGenerate}
             disabled={generating}
           >
-            {generating ? "Orchestrating..." : "Initialize Drafting"}
+            {generating ? "Processing..." : "Initialize Drafting"}
           </GlowButton>
         </GlassCard>
 
@@ -239,7 +239,7 @@ const AppealGenerator: React.FC = () => {
         </div>
       </div>
 
-      {/* Right: Orchestration & Results (Centered content) */}
+      {/* Right: Pipeline & Results (Centered content) */}
       <div className="flex-1 flex flex-col glass-card p-0 border-white/5 relative bg-white/[0.02] overflow-hidden">
         <div className="flex-1 overflow-y-auto px-12 py-12 scrollbar-hide">
           <div className="max-w-4xl mx-auto w-full">
@@ -254,18 +254,18 @@ const AppealGenerator: React.FC = () => {
               )}
 
               {generating && (
-                <motion.div key="orchestrating" initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-16">
+                <motion.div key="generating" initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-16">
                    <div className="grid grid-cols-4 gap-8">
-                      {agents.map((agent, i) => (
+                      {pipelineStages.map((stage, i) => (
                         <div key={i} className="space-y-4">
                           <div className="flex items-center justify-between">
-                            <agent.icon className={`${agent.color} w-5 h-5`} />
-                            <span className="text-[10px] font-mono text-white/40">{Math.round(agentProgress[i])}%</span>
+                            <stage.icon className={`${stage.color} w-5 h-5`} />
+                            <span className="text-[10px] font-mono text-white/40">{Math.round(stageProgress[i])}%</span>
                           </div>
                           <div className="h-1 w-full bg-white/5 rounded-full overflow-hidden">
-                            <motion.div className={`h-full ${agent.color.replace('text-', 'bg-')}`} animate={{ width: `${agentProgress[i]}%` }} />
+                            <motion.div className={`h-full ${stage.color.replace('text-', 'bg-')}`} animate={{ width: `${stageProgress[i]}%` }} />
                           </div>
-                          <p className="text-[10px] font-bold text-white">{agent.name}</p>
+                          <p className="text-[10px] font-bold text-white">{stage.name}</p>
                         </div>
                       ))}
                    </div>
@@ -275,7 +275,7 @@ const AppealGenerator: React.FC = () => {
                         <div className="flex items-center gap-3">
                            <div className="w-2 h-2 rounded-full bg-primary animate-pulse" />
                            <p className="text-[10px] font-bold uppercase tracking-widest text-primary">
-                            {phase === 'rag' ? "Retrieving CIC Rulings..." : "Collaborative Drafting..."}
+                            {phase === 'rag' ? "Retrieving CIC Rulings..." : "Generating Draft..."}
                            </p>
                         </div>
                         <button onClick={() => setIsArchModalOpen(true)} className="flex items-center gap-2 text-[10px] text-white/40 hover:text-primary transition-colors">
@@ -358,7 +358,7 @@ const AppealGenerator: React.FC = () => {
 
                     <GlassCard className="bg-secondary/5 border-secondary/10 p-8 rounded-[2rem]">
                       <h4 className="text-[10px] font-bold text-secondary uppercase tracking-widest mb-6 flex items-center gap-2">
-                        <UserCheck size={14} /> Agent Strategy
+                        <UserCheck size={14} /> Improvements Made
                       </h4>
                       <div className="space-y-4">
                         {result.change_notes.map((note: any, i: number) => (

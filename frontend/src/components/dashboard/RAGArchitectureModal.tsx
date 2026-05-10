@@ -59,8 +59,8 @@ const RAGArchitectureModal: React.FC<RAGArchitectureModalProps> = ({ isOpen, onC
     {
       id: "API_A",
       title: "Appeal Generator",
-      tech: "Multi-Agent PG",
-      desc: "Orchestrates 4 specialized agents to synthesize legal grounds and integrate verified precedents into final drafts.",
+      tech: "Groq LLM (Llama 3.1)",
+      desc: "Uses structured prompting with Groq to synthesize legal grounds and integrate verified precedents into final drafts.",
       color: "text-amber-400",
       icon: FileText
     }
@@ -152,7 +152,7 @@ const RAGArchitectureModal: React.FC<RAGArchitectureModalProps> = ({ isOpen, onC
                       </div>
                       <div className="flex flex-col items-center gap-2">
                         <div className="h-8 w-[1px] bg-white/10" />
-                        <span className="text-[8px] font-mono text-white/20 uppercase tracking-widest">Multi-Agent</span>
+                        <span className="text-[8px] font-mono text-white/20 uppercase tracking-widest">Groq LLM</span>
                       </div>
                    </div>
                 </div>

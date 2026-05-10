@@ -1,227 +1,438 @@
-# 🔍 RTI-Lens: Enterprise AI Legal Intelligence
+# RTI-Lens: AI-Powered RTI Analytics Platform
 
-RTI-Lens is a state-of-the-art AI platform designed for advanced analysis of India's RTI (Right to Information) Act rulings. It leverages Large Language Models (LLMs), Machine Learning, and Blockchain technology to provide legal professionals and citizens with deep insights into CIC (Central Information Commission) orders.
-
----
-
-## 🎯 The Problem
-
-Navigating the Right to Information (RTI) landscape in India is fraught with challenges for both citizens and legal professionals:
-
-1.  **Legal Information Overload**: The Central Information Commission (CIC) generates thousands of rulings every year. Manually synthesizing these to find a relevant precedent for an appeal is nearly impossible.
-2.  **Systemic Opaqueness**: Government ministries often cite exemptions (like Section 8(1)(j) for privacy) inconsistently. Without data-driven insights, it's hard to challenge these "standard" denials.
-3.  **Low Success Rates**: Many first-time RTI appeals fail because they lack the proper legal grounding or fail to cite the specific precedents that have historically overturned similar denials.
-4.  **Submission Integrity**: In many cases, there is no immutable proof of what was submitted and when, leading to disputes over document tampering or "lost" applications.
-
-## 💡 The Solution: RTI-Lens
-
-RTI-Lens transforms the RTI process from a guessing game into a data-driven science:
-
-*   **🧠 Agentic Appeal Drafting**: Instead of a simple prompt, RTI-Lens uses a multi-agent team (**Researcher, Drafter, and Auditor**) to synthesize a legally sound appeal that is explicitly grounded in retrieved CIC precedents.
-*   **🔮 Outcome Prediction Engine**: Using an XGBoost model trained on 10,000+ historical rulings, the platform predicts the success probability of your appeal, identifying "High Risk" ministries and sections.
-*   **🔗 Blockchain-Backed Integrity**: Every submission is hashed and anchored to the **Solana Devnet**. This provides a tamper-proof "Proof of Submission" that ensures the integrity of the citizen's request.
-*   **🔍 Hybrid RAG Search**: Combines **MongoDB Vector Search** with **BM25 Keyword Matching** to provide the most relevant legal context, ensuring the AI drafting is always grounded in "Real Law," not hallucinations.
-*   **📊 Visual Intelligence**: Interactive knowledge graphs and analytics dashboards reveal systemic denial patterns across various ministries, helping users identify the most successful path for their requests.
+**RTI-Lens** is an AI-powered platform for analyzing Right to Information (RTI) Act rulings in India. Uses **Hybrid RAG**, **Groq LLM inference**, and **Blockchain verification** for insights, predictions, and appeal drafting.
 
 ---
 
-## 🏗️ System Architecture
+## 🚀 Key Features
 
-```mermaid
-graph TD
-    subgraph "Frontend Layer (React 18 + Vite)"
-        UI[Glassmorphism Dashboard]
-        VA[Voice Intelligence UI]
-        RF[React Flow Citation Graph]
-        RC[Recharts Analytics]
-    end
+### 1. **Hybrid RAG Pipeline**
+- **BM25 (Lexical Search)** + **Semantic Vector Search** for case retrieval
+- **MongoDB with sentence-transformers** (all-MiniLM-L6-v2) for semantic similarity
+- **In-memory cosine similarity** computation for vector matching
+- **PageIndex Verification Layer** for hierarchical context validation
+- **Groq Llama 3.1-8b-instant** for fast, cost-effective inference
 
-    subgraph "Orchestration & Observability"
-        BE[FastAPI Core]
-        BB[Backboard.io - Session Tracing]
-        EL[ElevenLabs - Neural Voice]
-        GAI[Google AI Studio - Gemini 1.5 Pro]
-    end
+### 2. **AI-Powered Appeal Drafting**
+- **Groq-based LLM generation** with structured JSON output
+- **Section-specific statistics** to identify misuse patterns
+- **Case precedent grounding** to prevent hallucinations
+- **Change tracking** showing original vs improved query phrases
+- **Avoid-phrase suggestions** based on denial patterns
 
-    subgraph "Intelligence Services"
-        RAG[Hybrid RAG Pipeline]
-        OPT[Query Optimizer Agent]
-        ML[Outcome Predictor - XGBoost]
-        KG[Knowledge Graph Engine]
-    end
+### 3. **Predictive Analytics**
+- **XGBoost-based outcome prediction** (Allowed/Denied/Partially Allowed)
+- **Ministry-level misuse detection** using section citation patterns
+- **Interactive knowledge graph** visualization of case relationships
+- **Section statistics** with overturn rates
 
-    subgraph "Persistence & Proof"
-        PG[(Postgres - Relational Data)]
-        MDB[(MongoDB Atlas - Vector Search)]
-        SOL[(Solana Devnet - Integrity Ledger)]
-        BM25[BM25 Keyword Index]
-    end
+### 4. **Blockchain Integrity Layer**
+- **Solana SPL Memo Program** for immutable RTI submission anchoring
+- **SHA-256 document hashing** for tamper-proof verification
+- **Citizen wallet history** for transparency
+- **Simulation mode** fallback when private key unavailable
+- **Devnet deployment** with explorer integration
 
-    %% Interactions
-    UI -- "REST / WebSocket" --> BE
-    BE -- "Trace Events" --> BB
-    BE -- "Contextual Prompting" --> GAI
-    BE -- "Neural Synthesis" --> EL
-    EL -- "Audio Stream" --> VA
+### 5. **Voice-Enabled Interface**
+- **ElevenLabs Speech-to-Text** for voice-based RTI queries
+- **Groq Whisper** fallback for cost-effective transcription
+- **Text-to-Speech** for accessibility
 
-    BE -- "Route" --> RAG & OPT & ML & KG
-    
-    RAG -- "Semantic Query" --> MDB
-    RAG -- "Keyword Matching" --> BM25
-    
-    OPT -- "Precedent Analysis" --> RAG
-    
-    BE -- "Anchor Hash" --> SOL
-    BE -- "Metadata" --> PG
+### 6. **Workflow Observability**
+- **Backboard.io integration** for session management
+- **Stage tracking** (retrieval → generation)
+- **Thread-based session logging**
+- **Retrieval and generation event logging**
+
+---
+
+## 🏗️ Architecture
+
+### System Overview
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                     React 19 Frontend                        │
+│              (Vite + TailwindCSS + shadcn/ui)               │
+└────────────────────────┬────────────────────────────────────┘
+                         │
+                         ▼
+┌─────────────────────────────────────────────────────────────┐
+│                   FastAPI Backend (Python)                   │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐     │
+│  │   Q&A API    │  │  Draft API   │  │ Predict API  │     │
+│  └──────┬───────┘  └──────┬───────┘  └──────┬───────┘     │
+│         │                  │                  │              │
+│         └──────────────────┴──────────────────┘              │
+│                            │                                 │
+│                            ▼                                 │
+│              ┌─────────────────────────┐                    │
+│              │  Hybrid Search Pipeline │                    │
+│              │  (BM25 + Vector Search) │                    │
+│              └─────────────────────────┘                    │
+└────────────────────────┬────────────────────────────────────┘
+                         │
+         ┌───────────────┼───────────────┐
+         ▼               ▼               ▼
+┌─────────────┐  ┌─────────────┐  ┌─────────────┐
+│ PostgreSQL  │  │  MongoDB    │  │   Groq API  │
+│  (Cases,    │  │ (Embeddings)│  │  (Llama 3.1)│
+│ Paragraphs) │  │             │  │             │
+└─────────────┘  └─────────────┘  └─────────────┘
+```
+
+### Hybrid RAG Flow
+
+```
+User Query
+    │
+    ▼
+┌─────────────────────────────────────┐
+│  1. BM25 Lexical Search             │
+│     (rank-bm25 on preprocessed text)│
+└──────────────┬──────────────────────┘
+               │
+               ▼
+┌────────────────────────────────────┐
+│  2. Semantic Vector Search          │
+│     (sentence-transformers +        │
+│      MongoDB embeddings)            │
+└──────────────┬──────────────────────┘
+               │
+               ▼
+┌─────────────────────────────────────┐
+│  3. Hybrid Score Fusion             │
+│     (BM25: 40%, Semantic: 60%)      │
+│     + Structural Boosting           │
+└──────────────┬──────────────────────┘
+               │
+               ▼
+┌─────────────────────────────────────┐
+│  4. PageIndex Verification          │
+│     (Hierarchical context retrieval)│
+└──────────────┬──────────────────────┘
+               │
+               ▼
+┌─────────────────────────────────────┐
+│  5. Groq LLM Generation             │
+│     (Context-grounded response)     │
+└─────────────────────────────────────┘
+```
+
+### Blockchain Integration
+
+```
+RTI Document
+    │
+    ▼
+SHA-256 Hash
+    │
+    ▼
+┌─────────────────────────────────────┐
+│  Solana SPL Memo Program            │
+│  (Devnet)                           │
+└──────────────┬──────────────────────┘
+               │
+               ▼
+┌─────────────────────────────────────┐
+│  Transaction Signature              │
+│  (Immutable proof of existence)     │
+└─────────────────────────────────────┘
 ```
 
 ---
 
-## 🚀 Key Integrations & Technology Stack
+## 🛠️ Tech Stack
 
-- **LLM Intelligence**: **Google AI Studio (Gemini 1.5 Pro)** is used as the primary reasoning engine for complex legal document analysis and query reformulation.
-- **Vector Search**: **MongoDB Atlas Vector Search** enables high-dimensional semantic retrieval of 70,000+ legal paragraphs.
-- **Blockchain Integrity**: **Solana Devnet** acts as a tamper-proof ledger for RTI filings, anchoring SHA-256 document hashes via the **SPL Memo Program**.
-- **Voice Synthesis**: **ElevenLabs** provides ultra-realistic neural voice synthesis for the real-time legal assistant.
-- **Observability**: **Backboard.io** provides real-time workflow tracing, allowing developers to monitor the decision-making steps of the RAG agents.
+### Backend
+- **FastAPI** - High-performance async API framework
+- **SQLAlchemy** - ORM for PostgreSQL
+- **PostgreSQL** - Relational database for cases, paragraphs, ministries
+- **MongoDB** - Document store for vector embeddings
+- **sentence-transformers** - Embedding generation (all-MiniLM-L6-v2)
+- **rank-bm25** - BM25 lexical search
+- **Groq API** - LLM inference (Llama 3.1-8b-instant)
+- **Backboard SDK** - Session management and workflow tracking
+- **Solana.py** - Blockchain integration
+- **ElevenLabs API** - Voice transcription and TTS
+
+### Frontend
+- **React 19** - UI framework
+- **Vite** - Build tool
+- **TailwindCSS** - Styling
+- **shadcn/ui** - Component library
+- **@solana/wallet-adapter** - Wallet integration
+- **@xyflow/react** - Knowledge graph visualization
+- **recharts** - Analytics charts
+
+### ML/AI
+- **scikit-learn** - XGBoost model training
+- **pandas/numpy** - Data processing
+- **spacy** - NLP entity extraction
+- **nltk** - Text preprocessing
 
 ---
 
-## 🧠 In-Depth System Mechanisms
+## 📦 Installation
 
-### 1. Hybrid RAG Architecture (The Retrieval Engine)
+### Prerequisites
+- Python 3.10+
+- Node.js 18+
+- PostgreSQL 14+
+- MongoDB 6+
 
-RTI-Lens uses a **Two-Stage Hybrid Retrieval** process designed to eliminate legal hallucinations and ensure 100% citation accuracy.
+### Backend Setup
 
-#### The Pipeline Flow
-```mermaid
-sequenceDiagram
-    participant U as User Query
-    participant QO as Query Optimizer (Gemini)
-    participant MDB as MongoDB Vector Search
-    participant BM25 as Keyword Index
-    participant RRF as RRF Reranker
-    participant PI as PageIndex Verifier
-    
-    U->>QO: "CCTV footage denied in Mumbai"
-    QO->>QO: Reformulate to legal terms
-    QO->>MDB: Semantic Search (all-MiniLM-L6-v2)
-    QO->>BM25: Keyword Match ("CCTV", "Section 8")
-    MDB->>RRF: Top K Results
-    BM25->>RRF: Top K Results
-    RRF->>PI: Weighted Merged List
-    PI-->>PI: Reconstruct Case Tree (Context)
-    PI->>U: Verified Contextual Precedents
+```bash
+cd IDP/backend
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Download spaCy model
+python -m spacy download en_core_web_sm
+
+# Configure environment
+cp .env.example .env
+# Edit .env with your API keys:
+# - GROQ_API_KEY (required for Q&A and drafting)
+# - OPENAI_API_KEY (optional, for embeddings)
+# - BACKBOARD_API_KEY (optional, for session tracking)
+# - ELEVENLABS_API_KEY (optional, for voice)
+# - SOLANA_PRIVATE_KEY (optional, for blockchain writes)
+
+# Run database migrations
+alembic upgrade head
+
+# Start server
+python main.py
 ```
 
-*   **Vector Search (MongoDB Atlas)**: Captures the "vibe" and semantic intent of the query.
-*   **BM25 Keyword Matching**: Ensures specific sections (e.g., `8(1)(j)`) are never missed.
-*   **PageIndex Verification**: A proprietary algorithm that ensures retrieved chunks aren't just isolated sentences but are grounded in the full hierarchy of the original ruling.
+### Frontend Setup
 
----
+```bash
+cd IDP/frontend
 
-### 2. Multi-Agent Drafting Mechanism (The Legal Brain)
+# Install dependencies
+npm install
 
-Instead of a single prompt, RTI-Lens employs an **Agentic Workflow** where multiple specialized agents collaborate to synthesize the final appeal.
-
-#### The Collaboration Diagram
-```mermaid
-graph LR
-    O[Orchestrator] --> R[Researcher Agent]
-    R -- "Query RAG" --> RAG((Hybrid RAG))
-    RAG -- "Verified Precedents" --> O
-    O --> D[Drafter Agent]
-    D -- "Generate Draft" --> GROQ[Groq/Llama-3]
-    GROQ -- "Initial Draft" --> O
-    O --> A[Auditor Agent]
-    A -- "Fact Check" --> RAG
-    A -- "Valid / Invalid" --> O
-    O -- "Final Refined Appeal" --> User
+# Start dev server
+npm run dev
 ```
 
-*   **Researcher**: Dissects the user's grievance and identifies the most relevant CIC rulings.
-*   **Drafter**: Translates complex legal findings into a formal, persuasive appeal letter.
-*   **Auditor**: Acts as a "Safety Gate," rejecting any content that isn't explicitly supported by the retrieved precedents.
+### MongoDB Setup
 
----
+```bash
+# Start MongoDB locally
+mongod --dbpath /path/to/data
 
-### 3. Blockchain Proof-of-Submission (The Integrity Layer)
-
-RTI-Lens uses the **Solana Blockchain** to provide immutable proof that an appeal was generated and submitted at a specific point in time.
-
-#### The Anchoring Process
-```mermaid
-flowchart TD
-    D[Final Approved Draft] --> H[SHA-256 Hashing]
-    H --> S[Sign Transaction]
-    S --> SOL[Solana Devnet]
-    SOL --> M[SPL Memo Program]
-    M --> TX[Immutable Tx Hash]
-    TX --> E[Solana Explorer Verification]
-```
-
-*   **Immutability**: Once anchored, the SHA-256 hash cannot be altered, preventing authorities from backdating or claiming "non-receipt."
-*   **Privacy**: We only store the *hash* on-chain, keeping the actual sensitive RTI content private while proving its existence.
-
----
-
-### 4. Core Technology Integrations
-
-#### 🧪 Backboard.io (Observability)
-Used as the **AI Flight Recorder**. Every step of the agentic loop (Researcher -> Drafter -> Auditor) is traced. This allows developers to debug the "chain of thought" and ensures full transparency for every generated document.
-
-#### 💎 Google Gemini 1.5 Pro (The Reasoner)
-Acts as the **Primary Intelligence Engine**. It handles high-level query optimization, complex legal interpretation, and the final synthesis of the RAG context into a coherent legal strategy.
-
-#### ⚡ Groq (Inference Velocity)
-Used for **Fast Agentic Iterations**. Groq powers the rapid back-and-forth between agents, allowing the drafting process to complete in seconds rather than minutes.
-
-#### 🍃 MongoDB Atlas (Vector Backbone)
-Stores 70,000+ legal embeddings. Its native vector search allows us to perform high-dimensional similarity matches without moving data between different services.
-
-#### 🎙️ ElevenLabs (Neural Voice)
-Powers the **Voice Intelligence UI**. It provides low-latency, ultra-realistic neural voice synthesis, allowing users to interact with the legal assistant through a conversational interface.
-
----
-
-## 📁 Project Structure
-
-```text
-.
-├── backend/                # FastAPI High-Performance Core
-│   ├── blockchain/         # Solana Client & SPL Memo Integration
-│   ├── routers/            # Feature-specific API (QA, Predict, Voice)
-│   ├── app/services/       # RAG Orchestration & Query Optimization
-│   ├── utils/              # Vector Search & Backboard Integrations
-│   └── main.py             # App Entry Point
-├── frontend/               # React 18 + Tailwind + Framer Motion
-│   ├── src/components/     # Specialized Dashboard Modules
-│   ├── src/contexts/       # Solana Wallet & Global State
-│   └── src/ui/             # Glassmorphism Design System
-├── data/                   # ML Models & Search Indices
-└── .env                    # Secrets & API Configuration
+# Build embeddings (after loading cases into PostgreSQL)
+cd IDP/backend
+python scripts/build_embeddings.py
 ```
 
 ---
 
-## 🛠️ Setup & Deployment
+## 🔑 API Endpoints
 
-1. **Environment Config**:
-   Populate your `.env` with `GEMINI_API_KEY`, `MONGODB_URI`, `GROQ_API_KEY`, `SOLANA_PRIVATE_KEY`, and `ELEVENLABS_API_KEY`.
+### Q&A
+```http
+POST /api/qa
+Content-Type: application/json
 
-2. **Backend Startup**:
-   ```bash
-   python -m uvicorn backend.main:app --reload --port 8002
-   ```
+{
+  "question": "What are common grounds for Section 8(1)(a) appeals?",
+  "top_k": 5
+}
+```
 
-3. **Frontend Startup**:
-   ```bash
-   cd frontend && npm run dev
-   ```
+### Appeal Drafting
+```http
+POST /api/draft
+Content-Type: application/json
+
+{
+  "ministry": "Ministry of Home Affairs",
+  "section_cited": "8(1)(a)",
+  "context": "My RTI request about police records was denied..."
+}
+```
+
+### Outcome Prediction
+```http
+POST /api/predict
+Content-Type: application/json
+
+{
+  "ministry": "Ministry of Finance",
+  "section_cited": "8(1)(d)",
+  "appeal_level": "CIC"
+}
+```
+
+### Blockchain Submission
+```http
+POST /api/blockchain/submit
+Content-Type: multipart/form-data
+
+wallet: <solana_wallet_address>
+department: Ministry of Home Affairs
+content: <RTI document text>
+```
+
+### Voice Transcription
+```http
+POST /api/voice/transcribe
+Content-Type: multipart/form-data
+
+file: <audio.wav>
+```
 
 ---
 
-## 🛡️ Security & Proof of Integrity
-*   **Ed25519 Signatures**: Every blockchain anchor is signed by the platform's authority key.
-*   **SHA-256 Anchoring**: Only document hashes are stored on Solana.
-*   **Backboard Tracing**: Every AI-generated response is traced to its source for full accountability.
+## 📊 Data Pipeline
+
+### 1. Case Ingestion
+```bash
+# Extract cases from PDF orders
+python scripts/extract_cases.py --input data/orders/ --output data/cases.json
+
+# Load into PostgreSQL
+python scripts/load_cases.py --input data/cases.json
+```
+
+### 2. BM25 Index Building
+```bash
+# Build BM25 index from paragraphs
+python scripts/build_bm25_index.py
+# Output: data/bm25_pageindex.pkl
+```
+
+### 3. Vector Embeddings
+```bash
+# Generate embeddings and store in MongoDB
+python scripts/build_embeddings.py
+# Uses sentence-transformers to embed all paragraphs
+```
+
+### 4. PageIndex Creation
+```bash
+# Build hierarchical page index
+python scripts/build_pageindex.py
+# Output: data/pageindex.pkl
+```
+
+---
+
+## 🧪 Testing
+
+```bash
+# Backend tests
+cd IDP/backend
+pytest tests/
+
+# Frontend tests
+cd IDP/frontend
+npm run test
+```
+
+---
+
+## 🚀 Deployment
+
+### Backend (Docker)
+```bash
+cd IDP/backend
+docker build -t rti-lens-backend .
+docker run -p 8001:8001 --env-file .env rti-lens-backend
+```
+
+### Frontend (Vercel)
+```bash
+cd IDP/frontend
+npm run build
+vercel deploy
+```
+
+---
+
+## 📈 Performance
+
+- **Q&A Response Time**: ~2-3 seconds (including retrieval + LLM)
+- **Draft Generation**: ~3-4 seconds
+- **Prediction**: <100ms (XGBoost inference)
+- **Voice Transcription**: ~1-2 seconds (ElevenLabs/Groq Whisper)
+- **Blockchain Anchoring**: ~1-2 seconds (Solana devnet)
+
+---
+
+## 🔒 Security
+
+- **Input Sanitization**: All user inputs sanitized against injection attacks
+- **Rate Limiting**: 60 requests/minute per IP
+- **Session Limits**: 20 Q&A calls per session
+- **API Key Validation**: Format validation at startup
+- **Blockchain Simulation**: Falls back to simulation mode if private key missing
+
+---
+
+## 📝 Configuration
+
+### Environment Variables
+
+```bash
+# Database
+DATABASE_URL=postgresql://user:pass@localhost:5432/rtilens
+MONGODB_URI=mongodb://localhost:27017/
+
+# AI APIs
+GROQ_API_KEY=gsk_...
+OPENAI_API_KEY=sk-...  # Optional
+ELEVENLABS_API_KEY=sk_...  # Optional
+
+# Workflow Tracking
+BACKBOARD_API_KEY=espr_...  # Optional
+BACKBOARD_ENABLED=true
+
+# Blockchain
+SOLANA_RPC_URL=https://api.devnet.solana.com
+SOLANA_PRIVATE_KEY=[...]  # Optional, JSON array format
+
+# Search Weights
+BM25_WEIGHT=0.4
+SEMANTIC_WEIGHT=0.6
+
+# Models
+EMBEDDING_MODEL=all-MiniLM-L6-v2
+GROQ_MODEL=llama-3.1-8b-instant
+```
+
+---
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit changes (`git commit -m 'Add amazing feature'`)
+4. Push to branch (`git push origin feature/amazing-feature`)
+5. Open Pull Request
+
+---
+
+## 📄 License
+
+MIT License - see LICENSE file for details
+
+---
+
+## 🙏 Acknowledgments
+
+- **Central Information Commission (CIC)** for RTI order data
+- **Groq** for fast LLM inference
+- **Backboard.io** for workflow observability
+- **Solana Foundation** for blockchain infrastructure
+- **ElevenLabs** for voice AI capabilities
