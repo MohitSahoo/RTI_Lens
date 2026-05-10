@@ -48,96 +48,104 @@
 
 ## 🏗️ Architecture
 
+> **📖 [View Detailed Architecture Documentation](./docs/ARCHITECTURE.md)** - Comprehensive diagrams, data flows, and technical specifications
+
 ### System Overview
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                     React 19 Frontend                        │
-│              (Vite + TailwindCSS + shadcn/ui)               │
-└────────────────────────┬────────────────────────────────────┘
-                         │
-                         ▼
-┌─────────────────────────────────────────────────────────────┐
-│                   FastAPI Backend (Python)                   │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐     │
-│  │   Q&A API    │  │  Draft API   │  │ Predict API  │     │
-│  └──────┬───────┘  └──────┬───────┘  └──────┬───────┘     │
-│         │                  │                  │              │
-│         └──────────────────┴──────────────────┘              │
-│                            │                                 │
-│                            ▼                                 │
-│              ┌─────────────────────────┐                    │
-│              │  Hybrid Search Pipeline │                    │
-│              │  (BM25 + Vector Search) │                    │
-│              └─────────────────────────┘                    │
-└────────────────────────┬────────────────────────────────────┘
-                         │
-         ┌───────────────┼───────────────┐
-         ▼               ▼               ▼
-┌─────────────┐  ┌─────────────┐  ┌─────────────┐
-│ PostgreSQL  │  │  MongoDB    │  │   Groq API  │
-│  (Cases,    │  │ (Embeddings)│  │  (Llama 3.1)│
-│ Paragraphs) │  │             │  │             │
-└─────────────┘  └─────────────┘  └─────────────┘
+```mermaid
+graph TB
+    subgraph "Frontend"
+        UI[React 19 + Vite<br/>TailwindCSS]
+    end
+
+    subgraph "Backend APIs"
+        QA[Q&A API]
+        DRAFT[Draft API]
+        PRED[Predict API]
+        GRAPH[Graph API]
+        BC[Blockchain API]
+    end
+
+    subgraph "Core Pipeline"
+        RAG[Hybrid RAG<br/>BM25 + Semantic]
+        LLM[Groq LLM<br/>Llama 3.1-8b]
+        ML[XGBoost Model]
+    end
+
+    subgraph "Data Layer"
+        PG[(PostgreSQL<br/>Cases & Paragraphs)]
+        MDB[(MongoDB<br/>Vector Store)]
+    end
+
+    subgraph "External"
+        GROQ[Groq API]
+        SOL[Solana Devnet]
+    end
+
+    UI --> QA
+    UI --> DRAFT
+    UI --> PRED
+    UI --> GRAPH
+    UI --> BC
+
+    QA --> RAG
+    DRAFT --> RAG
+    PRED --> ML
+    GRAPH --> PG
+    BC --> SOL
+
+    RAG --> PG
+    RAG --> MDB
+    RAG --> LLM
+    LLM --> GROQ
+    ML --> PG
+
+    style RAG fill:#9333ea,stroke:#7c3aed,color:#fff
+    style LLM fill:#00f3ff,stroke:#0099cc,color:#000
+    style MDB fill:#47a248,stroke:#3d8b40,color:#fff
+    style SOL fill:#14f195,stroke:#00d084,color:#000
 ```
 
-### Hybrid RAG Flow
+### Hybrid RAG Pipeline
 
-```
-User Query
-    │
-    ▼
-┌─────────────────────────────────────┐
-│  1. BM25 Lexical Search             │
-│     (rank-bm25 on preprocessed text)│
-└──────────────┬──────────────────────┘
-               │
-               ▼
-┌────────────────────────────────────┐
-│  2. Semantic Vector Search          │
-│     (sentence-transformers +        │
-│      MongoDB embeddings)            │
-└──────────────┬──────────────────────┘
-               │
-               ▼
-┌─────────────────────────────────────┐
-│  3. Hybrid Score Fusion             │
-│     (BM25: 40%, Semantic: 60%)      │
-│     + Structural Boosting           │
-└──────────────┬──────────────────────┘
-               │
-               ▼
-┌─────────────────────────────────────┐
-│  4. PageIndex Verification          │
-│     (Hierarchical context retrieval)│
-└──────────────┬──────────────────────┘
-               │
-               ▼
-┌─────────────────────────────────────┐
-│  5. Groq LLM Generation             │
-│     (Context-grounded response)     │
-└─────────────────────────────────────┘
+```mermaid
+flowchart TD
+    Q[User Query] --> PRE[Preprocessing]
+    PRE --> BM25[BM25 Lexical Search<br/>rank-bm25]
+    PRE --> VEC[Semantic Vector Search<br/>sentence-transformers]
+
+    BM25 --> W1[Weight: 30%]
+    VEC --> W2[Weight: 70%]
+
+    W1 --> FUSE[Hybrid Score Fusion<br/>+ Structural Boost]
+    W2 --> FUSE
+
+    FUSE --> RANK[Relevance Ranking]
+    RANK --> PI[PageIndex Verification<br/>Hierarchical Context]
+    PI --> CTX[Context Assembly]
+
+    CTX --> LLM[Groq LLM Generation<br/>Llama 3.1-8b-instant]
+    Q --> LLM
+
+    LLM --> RESP[Grounded Response<br/>+ Source Citations]
+
+    style BM25 fill:#fbbf24,stroke:#f59e0b,color:#000
+    style VEC fill:#8b5cf6,stroke:#7c3aed,color:#fff
+    style LLM fill:#00f3ff,stroke:#0099cc,color:#000
+    style PI fill:#10b981,stroke:#059669,color:#fff
 ```
 
 ### Blockchain Integration
 
-```
-RTI Document
-    │
-    ▼
-SHA-256 Hash
-    │
-    ▼
-┌─────────────────────────────────────┐
-│  Solana SPL Memo Program            │
-│  (Devnet)                           │
-└──────────────┬──────────────────────┘
-               │
-               ▼
-┌─────────────────────────────────────┐
-│  Transaction Signature              │
-│  (Immutable proof of existence)     │
-└─────────────────────────────────────┘
+```mermaid
+flowchart LR
+    DOC[RTI Document] --> HASH[SHA-256 Hash]
+    HASH --> SPL[Solana SPL Memo<br/>Devnet]
+    SPL --> TX[Transaction Signature]
+    TX --> PROOF[Immutable Proof<br/>of Existence]
+
+    style SPL fill:#14f195,stroke:#00d084,color:#000
+    style PROOF fill:#10b981,stroke:#059669,color:#fff
 ```
 
 ---
