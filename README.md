@@ -68,6 +68,7 @@ graph TB
 
     subgraph "Core Pipeline"
         RAG[Hybrid RAG<br/>BM25 + Semantic]
+        PI[PageIndex<br/>Verification]
         LLM[Groq LLM<br/>Llama 3.1-8b]
         ML[XGBoost Model]
     end
@@ -80,6 +81,7 @@ graph TB
     subgraph "External"
         GROQ[Groq API]
         SOL[Solana Devnet]
+        BB[Backboard.io]
     end
 
     UI --> QA
@@ -96,14 +98,20 @@ graph TB
 
     RAG --> PG
     RAG --> MDB
-    RAG --> LLM
+    RAG --> PI
+    PI --> PG
+    PI --> LLM
     LLM --> GROQ
     ML --> PG
+    QA --> BB
+    DRAFT --> BB
 
     style RAG fill:#9333ea,stroke:#7c3aed,color:#fff
+    style PI fill:#10b981,stroke:#059669,color:#fff
     style LLM fill:#00f3ff,stroke:#0099cc,color:#000
     style MDB fill:#47a248,stroke:#3d8b40,color:#fff
     style SOL fill:#14f195,stroke:#00d084,color:#000
+    style BB fill:#f59e0b,stroke:#d97706,color:#000
 ```
 
 ### Hybrid RAG Pipeline

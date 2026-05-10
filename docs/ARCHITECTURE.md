@@ -20,6 +20,7 @@ graph TB
     subgraph "Core Services"
         QAS[Query Assistant Service]
         RAG[Hybrid RAG Engine]
+        PI[PageIndex Verification]
         DG[Draft Generator]
         ML[XGBoost Predictor]
         GS[Graph Service]
@@ -35,7 +36,7 @@ graph TB
     subgraph "External Services"
         GROQ[Groq API<br/>Llama 3.1-8b-instant]
         SOL[Solana Blockchain<br/>SPL Memo Program]
-        PI[PageIndex Verification]
+        BB[Backboard.io<br/>Observability]
     end
 
     UI --> API
@@ -50,6 +51,7 @@ graph TB
     API --> DG
     API --> ML
     API --> GS
+    API --> BB
 
     QAS --> RAG
     QAS --> GROQ
@@ -59,14 +61,17 @@ graph TB
     RAG --> BM25
     RAG --> VEC
     RAG --> PI
+    PI --> PG
     ML --> PG
     GS --> PG
     BC --> SOL
 
     style GROQ fill:#00f3ff,stroke:#0099cc,color:#000
     style RAG fill:#9333ea,stroke:#7c3aed,color:#fff
+    style PI fill:#10b981,stroke:#059669,color:#fff
     style MDB fill:#47a248,stroke:#3d8b40,color:#fff
     style SOL fill:#14f195,stroke:#00d084,color:#000
+    style BB fill:#f59e0b,stroke:#d97706,color:#000
 ```
 
 ## Detailed Service Architecture
@@ -209,6 +214,10 @@ mindmap
       Solana
         SPL Memo Program
       Web3.js
+    Observability
+      Backboard.io
+        Workflow Tracking
+        Performance Metrics
 ```
 
 ## Deployment Architecture
@@ -232,6 +241,7 @@ graph TB
     subgraph "External APIs"
         GROQ[Groq Cloud API]
         SOL[Solana Mainnet]
+        BB[Backboard.io<br/>Observability]
     end
 
     B -->|HTTPS| FE
@@ -240,6 +250,7 @@ graph TB
     BE -->|Query| PG
     BE -->|LLM Calls| GROQ
     BE -->|Transactions| SOL
+    BE -->|Metrics| BB
 
     style FE fill:#0ea5e9,stroke:#0284c7,color:#fff
     style BE fill:#8b5cf6,stroke:#7c3aed,color:#fff
@@ -247,6 +258,7 @@ graph TB
     style PG fill:#336791,stroke:#2d5a7b,color:#fff
     style GROQ fill:#00f3ff,stroke:#0099cc,color:#000
     style SOL fill:#14f195,stroke:#00d084,color:#000
+    style BB fill:#f59e0b,stroke:#d97706,color:#000
 ```
 
 ## Key Components
