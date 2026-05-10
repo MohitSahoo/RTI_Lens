@@ -87,20 +87,100 @@ graph TD
 
 ---
 
-## 🧠 Advanced RAG & Query Pipeline
+## 🧠 In-Depth System Mechanisms
 
-### 1. Hybrid Retrieval Logic
-RTI-Lens employs a sophisticated two-stage retrieval process:
-*   **Stage 1 (Semantic)**: Queries the MongoDB Atlas Vector Store using `all-MiniLM-L6-v2` embeddings to find conceptually related precedents.
-*   **Stage 2 (Keyword)**: Utilizes a **BM25** index to ensure high-precision matching for specific legal terms (e.g., "Section 8(1)(j)").
-*   **Reranking**: Results are merged and reranked using weighted scores (40% Keyword / 60% Semantic) to prioritize the most authoritative sources.
+### 1. Hybrid RAG Architecture (The Retrieval Engine)
 
-### 2. PageIndex Verification
-Unlike standard RAG, RTI-Lens uses a proprietary **PageIndex** (hierarchical tree structure) to verify the integrity of retrieved chunks. It reconstructs the parent-child relationships of the original CIC ruling to ensure the LLM sees the full legal context, not just isolated sentences.
+RTI-Lens uses a **Two-Stage Hybrid Retrieval** process designed to eliminate legal hallucinations and ensure 100% citation accuracy.
 
-### 3. Query Assistant Endpoints
-*   **`POST /api/query-assistant/optimize`**: An intelligent agent that detects vague queries and reformulates them into legally sound document requests. It suggests the most relevant Ministry and RTI Sections based on 10,000+ historical precedents.
-*   **`POST /api/qa`**: The core RAG endpoint. It generates grounded answers, provides verified citations, and includes a **Confidence Score** calculated by cross-referencing retrieval relevance and LLM faithfulness.
+#### The Pipeline Flow
+```mermaid
+sequenceDiagram
+    participant U as User Query
+    participant QO as Query Optimizer (Gemini)
+    participant MDB as MongoDB Vector Search
+    participant BM25 as Keyword Index
+    participant RRF as RRF Reranker
+    participant PI as PageIndex Verifier
+    
+    U->>QO: "CCTV footage denied in Mumbai"
+    QO->>QO: Reformulate to legal terms
+    QO->>MDB: Semantic Search (all-MiniLM-L6-v2)
+    QO->>BM25: Keyword Match ("CCTV", "Section 8")
+    MDB->>RRF: Top K Results
+    BM25->>RRF: Top K Results
+    RRF->>PI: Weighted Merged List
+    PI-->>PI: Reconstruct Case Tree (Context)
+    PI->>U: Verified Contextual Precedents
+```
+
+*   **Vector Search (MongoDB Atlas)**: Captures the "vibe" and semantic intent of the query.
+*   **BM25 Keyword Matching**: Ensures specific sections (e.g., `8(1)(j)`) are never missed.
+*   **PageIndex Verification**: A proprietary algorithm that ensures retrieved chunks aren't just isolated sentences but are grounded in the full hierarchy of the original ruling.
+
+---
+
+### 2. Multi-Agent Drafting Mechanism (The Legal Brain)
+
+Instead of a single prompt, RTI-Lens employs an **Agentic Workflow** where multiple specialized agents collaborate to synthesize the final appeal.
+
+#### The Collaboration Diagram
+```mermaid
+graph LR
+    O[Orchestrator] --> R[Researcher Agent]
+    R -- "Query RAG" --> RAG((Hybrid RAG))
+    RAG -- "Verified Precedents" --> O
+    O --> D[Drafter Agent]
+    D -- "Generate Draft" --> GROQ[Groq/Llama-3]
+    GROQ -- "Initial Draft" --> O
+    O --> A[Auditor Agent]
+    A -- "Fact Check" --> RAG
+    A -- "Valid / Invalid" --> O
+    O -- "Final Refined Appeal" --> User
+```
+
+*   **Researcher**: Dissects the user's grievance and identifies the most relevant CIC rulings.
+*   **Drafter**: Translates complex legal findings into a formal, persuasive appeal letter.
+*   **Auditor**: Acts as a "Safety Gate," rejecting any content that isn't explicitly supported by the retrieved precedents.
+
+---
+
+### 3. Blockchain Proof-of-Submission (The Integrity Layer)
+
+RTI-Lens uses the **Solana Blockchain** to provide immutable proof that an appeal was generated and submitted at a specific point in time.
+
+#### The Anchoring Process
+```mermaid
+flowchart TD
+    D[Final Approved Draft] --> H[SHA-256 Hashing]
+    H --> S[Sign Transaction]
+    S --> SOL[Solana Devnet]
+    SOL --> M[SPL Memo Program]
+    M --> TX[Immutable Tx Hash]
+    TX --> E[Solana Explorer Verification]
+```
+
+*   **Immutability**: Once anchored, the SHA-256 hash cannot be altered, preventing authorities from backdating or claiming "non-receipt."
+*   **Privacy**: We only store the *hash* on-chain, keeping the actual sensitive RTI content private while proving its existence.
+
+---
+
+### 4. Core Technology Integrations
+
+#### 🧪 Backboard.io (Observability)
+Used as the **AI Flight Recorder**. Every step of the agentic loop (Researcher -> Drafter -> Auditor) is traced. This allows developers to debug the "chain of thought" and ensures full transparency for every generated document.
+
+#### 💎 Google Gemini 1.5 Pro (The Reasoner)
+Acts as the **Primary Intelligence Engine**. It handles high-level query optimization, complex legal interpretation, and the final synthesis of the RAG context into a coherent legal strategy.
+
+#### ⚡ Groq (Inference Velocity)
+Used for **Fast Agentic Iterations**. Groq powers the rapid back-and-forth between agents, allowing the drafting process to complete in seconds rather than minutes.
+
+#### 🍃 MongoDB Atlas (Vector Backbone)
+Stores 70,000+ legal embeddings. Its native vector search allows us to perform high-dimensional similarity matches without moving data between different services.
+
+#### 🎙️ ElevenLabs (Neural Voice)
+Powers the **Voice Intelligence UI**. It provides low-latency, ultra-realistic neural voice synthesis, allowing users to interact with the legal assistant through a conversational interface.
 
 ---
 
@@ -127,28 +207,21 @@ Unlike standard RAG, RTI-Lens uses a proprietary **PageIndex** (hierarchical tre
 ## 🛠️ Setup & Deployment
 
 1. **Environment Config**:
-   Populate your `.env` with:
-   - `GEMINI_API_KEY` (Google AI Studio)
-   - `MONGODB_URI` (Atlas Cluster)
-   - `SOLANA_PRIVATE_KEY` (Array format)
-   - `ELEVENLABS_API_KEY`
-   - `BACKBOARD_API_KEY`
+   Populate your `.env` with `GEMINI_API_KEY`, `MONGODB_URI`, `GROQ_API_KEY`, `SOLANA_PRIVATE_KEY`, and `ELEVENLABS_API_KEY`.
 
 2. **Backend Startup**:
    ```bash
-   cd IDP
    python -m uvicorn backend.main:app --reload --port 8002
    ```
 
 3. **Frontend Startup**:
    ```bash
-   cd IDP/frontend
-   npm run dev
+   cd frontend && npm run dev
    ```
 
 ---
 
 ## 🛡️ Security & Proof of Integrity
 *   **Ed25519 Signatures**: Every blockchain anchor is signed by the platform's authority key.
-*   **SHA-256 Anchoring**: Only document hashes are stored on Solana, preserving citizen privacy while proving submission timing.
+*   **SHA-256 Anchoring**: Only document hashes are stored on Solana.
 *   **Backboard Tracing**: Every AI-generated response is traced to its source for full accountability.
