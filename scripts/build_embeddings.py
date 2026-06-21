@@ -20,6 +20,7 @@ from backend.config import (
     MONGODB_URI,
     MONGODB_DB,
     MONGODB_COLLECTION,
+    MONGODB_VECTOR_INDEX,
     EMBEDDING_MODEL,
     EMBEDDING_DIMENSION
 )
@@ -133,69 +134,53 @@ class EmbeddingBuilder:
 
     def chunk_document_with_pageindex(self, order_hash: str) -> List[Dict]:
         """
-        Chunk document using PageIndex tree structure
-        Each section becomes a chunk with hierarchy metadata
+        Chunk document using sliding window (500 words with 100 overlap)
         """
-        tree = self.load_pageindex_tree(order_hash)
         md_path = MD_DIR / f"{order_hash}.md"
 
         if not md_path.exists():
             logger.warning(f"Markdown file not found: {order_hash}.md")
             return []
 
+        with open(md_path, 'r', encoding='utf-8') as f:
+            full_text = f.read()
+
+        # Try to extract clean title
+        title = "Central Information Commission"
+        lines = [line.strip() for line in full_text.split('\n') if line.strip()]
+        for line in lines[:5]:
+            if "vs" in line.lower() or "v." in line.lower():
+                title = line.strip("# ")
+                break
+
+        # Chunk by words: 500 words with 100 overlap
+        words = full_text.split()
         chunks = []
-
-        if tree and tree.get("structure"):
-            # Use PageIndex structure for intelligent chunking
-            def traverse_nodes(nodes, parent_title="", depth=0):
-                for i, node in enumerate(nodes):
-                    title = node.get("title", "")
-                    line_num = node.get("line_num", 0)
-
-                    # Calculate end line
-                    if i + 1 < len(nodes):
-                        end_line = nodes[i + 1].get("line_num", None)
-                    else:
-                        end_line = None
-
-                    # Build hierarchy
-                    hierarchy = f"{parent_title} > {title}" if parent_title else title
-
-                    # Extract text
-                    text = self.extract_section_text(md_path, line_num, end_line)
-
-                    if text and len(text) > 100:  # Only substantial sections
-                        chunks.append({
-                            "text": text,
-                            "title": title,
-                            "hierarchy": hierarchy,
-                            "depth": depth,
-                            "line_num": line_num
-                        })
-
-                    # Traverse children
-                    if "nodes" in node and node["nodes"]:
-                        traverse_nodes(node["nodes"], hierarchy, depth + 1)
-
-            traverse_nodes(tree["structure"])
+        chunk_size = 500
+        overlap = 100
+        
+        if len(words) <= chunk_size:
+            chunks = [full_text]
         else:
-            # Fallback: chunk by paragraphs if no PageIndex
-            with open(md_path, 'r', encoding='utf-8') as f:
-                content = f.read()
+            i = 0
+            while i < len(words):
+                chunk_words = words[i:i + chunk_size]
+                chunks.append(" ".join(chunk_words))
+                if i + chunk_size >= len(words):
+                    break
+                i += chunk_size - overlap
 
-            paragraphs = content.split('\n\n')
-            for i, para in enumerate(paragraphs):
-                para = para.strip()
-                if len(para) > 100:
-                    chunks.append({
-                        "text": para,
-                        "title": f"Paragraph {i+1}",
-                        "hierarchy": f"Paragraph {i+1}",
-                        "depth": 0,
-                        "line_num": 0
-                    })
+        ret_chunks = []
+        for idx, chunk_text in enumerate(chunks):
+            ret_chunks.append({
+                "text": chunk_text,
+                "title": title,
+                "hierarchy": f"Central Information Commission > {title} > Chunk {idx+1}",
+                "depth": 1,
+                "line_num": idx * 400
+            })
 
-        return chunks
+        return ret_chunks
 
     def embed_chunks(self, chunks: List[Dict]) -> List[np.ndarray]:
         """Generate embeddings for all chunks"""
@@ -257,6 +242,40 @@ class EmbeddingBuilder:
         self.collection.create_index([("order_hash", ASCENDING)])
         self.collection.create_index([("ministry", ASCENDING)])
         self.collection.create_index([("section_cited", ASCENDING)])
+        self.collection.create_index([("order_date", ASCENDING)])
+
+        try:
+            self.db.command({
+                "createSearchIndexes": MONGODB_COLLECTION,
+                "indexes": [
+                    {
+                        "name": MONGODB_VECTOR_INDEX,
+                        "type": "vectorSearch",
+                        "definition": {
+                            "fields": [
+                                {
+                                    "type": "vector",
+                                    "path": "embedding",
+                                    "numDimensions": EMBEDDING_DIMENSION,
+                                    "similarity": "cosine"
+                                },
+                                {"type": "filter", "path": "ministry"},
+                                {"type": "filter", "path": "section_cited"},
+                                {"type": "filter", "path": "order_date"},
+                                {"type": "filter", "path": "appeal_outcome"}
+                            ]
+                        }
+                    }
+                ]
+            })
+            logger.info("Created MongoDB vector search index '%s'", MONGODB_VECTOR_INDEX)
+        except Exception as e:
+            logger.warning(
+                "Could not create MongoDB vector search index '%s': %s. "
+                "If you are on Atlas, create it manually or rerun after enabling Search.",
+                MONGODB_VECTOR_INDEX,
+                e
+            )
 
         logger.info("Indexes created successfully")
 
@@ -269,7 +288,6 @@ class EmbeddingBuilder:
 
     def build_all(self):
         """Build embeddings for all documents"""
-        # Clear existing data
         self.clear_collection()
 
         # Get all markdown files
@@ -283,6 +301,11 @@ class EmbeddingBuilder:
         # Process each document
         for md_file in tqdm(md_files, desc="Embedding documents"):
             order_hash = md_file.stem
+
+            # Skip if already embedded
+            if self.collection.count_documents({"order_hash": order_hash}) > 0:
+                processed += 1
+                continue
 
             try:
                 chunks_count = self.process_document(order_hash)

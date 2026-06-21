@@ -10,7 +10,15 @@ It does NOT replace MongoDB, BM25, vector search, or Groq generation.
 import logging
 from typing import Optional, Dict, Any
 from datetime import datetime, timezone
-from backboard import BackboardClient as BackboardSDK
+
+try:
+    from backboard import BackboardClient as BackboardSDK
+    BACKBOARD_SDK_AVAILABLE = True
+except (ImportError, Exception) as e:
+    BackboardSDK = None
+    BACKBOARD_SDK_AVAILABLE = False
+    logging.getLogger(__name__).warning(f"Backboard SDK unavailable: {e}")
+
 from backend.config import BACKBOARD_API_KEY, BACKBOARD_ENABLED
 
 logger = logging.getLogger(__name__)
@@ -36,7 +44,7 @@ class BackboardClient:
 
     def __init__(self):
         """Initialize Backboard client if enabled and API key is available."""
-        self.enabled = BACKBOARD_ENABLED and BACKBOARD_API_KEY is not None
+        self.enabled = BACKBOARD_SDK_AVAILABLE and BACKBOARD_ENABLED and BACKBOARD_API_KEY is not None
         self.client = None
 
         if self.enabled:

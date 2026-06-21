@@ -18,10 +18,12 @@ logger = logging.getLogger(__name__)
 
 def _extract_score(text: str) -> float:
     """Extract numeric score from LLM response"""
-    # Try to find a number (0-10) in the response
-    numbers = re.findall(r'\b([0-9]|10)\b', text)
-    if numbers:
-        return float(numbers[0]) / 10.0
+    logger.debug(f"LLM score response: {text}")
+    # Search for any digit 0-10
+    match = re.search(r'([0-9]|10)', text)
+    if match:
+        score = float(match.group(1)) / 10.0
+        return score
     return 0.5  # Neutral fallback
 
 
@@ -69,7 +71,7 @@ Query: {query}
 Contexts:
 {chr(10).join(f"{i+1}. {ctx[:200]}..." for i, ctx in enumerate(sample_contexts))}
 
-Provide only a single number from 0-10 representing overall relevance:"""
+Provide ONLY a single integer from 0 to 10:"""
 
         try:
             response = self.client.chat.completions.create(
@@ -123,7 +125,7 @@ Contexts:
 Answer:
 {answer[:500]}
 
-Rate faithfulness (0=completely unfaithful/hallucinated, 10=perfectly grounded):"""
+Rate faithfulness (0=hallucinated, 10=fully grounded). Provide ONLY a single integer from 0 to 10:"""
 
         try:
             response = self.client.chat.completions.create(
@@ -169,7 +171,7 @@ Query: {query}
 
 Answer: {answer[:500]}
 
-Rate relevance (0=completely off-topic, 10=perfectly addresses query):"""
+Rate relevance (0=off-topic, 10=perfect). Provide ONLY a single integer from 0 to 10:"""
 
         try:
             response = self.client.chat.completions.create(

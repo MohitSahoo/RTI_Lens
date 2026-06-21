@@ -6,11 +6,12 @@ import re
 import numpy as np
 from typing import List, Dict, Optional
 from pymongo import MongoClient
-from sentence_transformers import SentenceTransformer
 from backend.config import (
     MONGODB_URI,
     MONGODB_DB,
     MONGODB_COLLECTION,
+    MONGODB_VECTOR_INDEX,
+    MONGODB_VECTOR_CANDIDATES,
     EMBEDDING_MODEL
 )
 
@@ -36,6 +37,7 @@ class VectorSearchLoader:
     def _load_model(cls):
         """Load sentence-transformer model"""
         try:
+            from sentence_transformers import SentenceTransformer
             cls._model = SentenceTransformer(EMBEDDING_MODEL)
             logger.info(f"Loaded embedding model: {EMBEDDING_MODEL}")
         except Exception as e:
@@ -99,7 +101,7 @@ class VectorSearchLoader:
     @classmethod
     def search(cls, query: str, top_k: int = 5, filter_dict: Optional[Dict] = None) -> List[Dict]:
         """
-        Semantic search using vector similarity
+        Semantic search using MongoDB vector search when available.
 
         Args:
             query: Search query string
@@ -126,16 +128,74 @@ class VectorSearchLoader:
             return []
 
         # Generate query embedding
-        query_embedding = cls.embed_query(query)
+        query_embedding = cls.embed_query(query).tolist()
 
-        # Build MongoDB filter
+        try:
+            pipeline = [
+                {
+                    "$vectorSearch": {
+                        "index": MONGODB_VECTOR_INDEX,
+                        "path": "embedding",
+                        "queryVector": query_embedding,
+                        "numCandidates": max(MONGODB_VECTOR_CANDIDATES, top_k * 10),
+                        "limit": top_k
+                    }
+                },
+                {
+                    "$project": {
+                        "_id": 0,
+                        "order_number": 1,
+                        "order_hash": 1,
+                        "ministry": 1,
+                        "order_date": 1,
+                        "section_cited": 1,
+                        "appeal_outcome": 1,
+                        "appeal_level": 1,
+                        "text": 1,
+                        "chunk_index": 1,
+                        "hierarchy": 1,
+                        "title": 1,
+                        "score": {"$meta": "vectorSearchScore"}
+                    }
+                }
+            ]
+
+            if filter_dict:
+                pipeline[0]["$vectorSearch"]["filter"] = filter_dict
+
+            results = []
+            for doc in collection.aggregate(pipeline):
+                results.append({
+                    "score": float(doc.get("score", 0.0)),
+                    "paragraph": {
+                        "order_number": doc["order_number"],
+                        "order_hash": doc["order_hash"],
+                        "ministry": doc.get("ministry", "Unknown"),
+                        "order_date": doc.get("order_date"),
+                        "section_cited": doc.get("section_cited"),
+                        "appeal_outcome": doc.get("appeal_outcome"),
+                        "appeal_level": doc.get("appeal_level"),
+                        "text": doc["text"],
+                        "chunk_index": doc.get("chunk_index", 0),
+                        "hierarchy": doc.get("hierarchy", ""),
+                        "title": doc.get("title", "")
+                    }
+                })
+
+            return results
+        except Exception as e:
+            logger.warning(
+                "MongoDB vector search query failed for index '%s': %s. Falling back to in-memory similarity scan.",
+                MONGODB_VECTOR_INDEX,
+                e
+            )
+
+        # Legacy fallback for deployments without MongoDB vector search support
         mongo_filter = filter_dict if filter_dict else {}
-
-        # Fetch all matching documents (we'll compute similarity in-memory)
-        # For large collections, consider using MongoDB Atlas Vector Search
-        cursor = collection.find(mongo_filter).limit(1000)  # Limit to prevent memory issues
+        cursor = collection.find(mongo_filter)
 
         results = []
+        query_embedding = np.array(query_embedding)
         for doc in cursor:
             doc_embedding = np.array(doc["embedding"])
             similarity = cls.cosine_similarity(query_embedding, doc_embedding)
@@ -148,6 +208,8 @@ class VectorSearchLoader:
                     "ministry": doc.get("ministry", "Unknown"),
                     "order_date": doc.get("order_date"),
                     "section_cited": doc.get("section_cited"),
+                    "appeal_outcome": doc.get("appeal_outcome"),
+                    "appeal_level": doc.get("appeal_level"),
                     "text": doc["text"],
                     "chunk_index": doc.get("chunk_index", 0),
                     "hierarchy": doc.get("hierarchy", ""),
@@ -155,9 +217,7 @@ class VectorSearchLoader:
                 }
             })
 
-        # Sort by similarity score (descending)
         results.sort(key=lambda x: x["score"], reverse=True)
-
         return results[:top_k]
 
     @classmethod

@@ -149,16 +149,54 @@ class PageIndexLoader:
     def get_relevant_sections(self, order_hashes: List[str], question: str, max_sections: int = 5) -> List[Dict]:
         """
         Get relevant sections from multiple documents
-        Uses simple keyword matching to rank sections
-        Ensures diversity by limiting sections per order
+        Chunks the entire markdown texts using 500 words with 100 overlap,
+        and uses simple keyword matching to rank the chunks.
+        Ensures diversity by limiting sections per order.
         """
         all_sections = []
 
         for order_hash in order_hashes:
-            sections = self.get_hierarchical_context(order_hash, max_sections=10)
-            for section in sections:
-                section["order_hash"] = order_hash
-                all_sections.append(section)
+            md_path = Path("data/cic_orders_md") / f"{order_hash}.md"
+            if not md_path.exists():
+                continue
+
+            with open(md_path, 'r', encoding='utf-8') as f:
+                full_text = f.read()
+
+            # Try to extract a clean title from the top of the file
+            title = "Central Information Commission"
+            lines = [line.strip() for line in full_text.split('\n') if line.strip()]
+            for line in lines[:5]:
+                if "vs" in line.lower() or "v." in line.lower():
+                    title = line.strip("# ")
+                    break
+
+            # Chunk by words: 500 words with 100 overlap
+            words = full_text.split()
+            chunks = []
+            chunk_size = 500
+            overlap = 100
+            
+            if len(words) <= chunk_size:
+                chunks = [full_text]
+            else:
+                i = 0
+                while i < len(words):
+                    chunk_words = words[i:i + chunk_size]
+                    chunks.append(" ".join(chunk_words))
+                    if i + chunk_size >= len(words):
+                        break
+                    i += chunk_size - overlap
+
+            for idx, chunk_text in enumerate(chunks):
+                all_sections.append({
+                    "title": title,
+                    "hierarchy": f"Central Information Commission > {title} > Chunk {idx+1}",
+                    "text": chunk_text,
+                    "order_hash": order_hash,
+                    "depth": 1,
+                    "line_num": idx * 400  # rough estimate for compatibility
+                })
 
         # Robust tokenization for keyword matching
         def get_keywords(text: str):

@@ -42,7 +42,8 @@ streamlit==1.32.0
 backboard-sdk==1.5.14
 
 # Vector Embeddings
-sentence-transformers==2.2.2
+sentence-transformers==5.1.2
+huggingface-hub<1.0,>=0.34.0
 pymongo==4.6.1
 
 # Visualization

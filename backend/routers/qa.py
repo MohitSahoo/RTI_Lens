@@ -24,6 +24,17 @@ except (ImportError, OSError) as e:
 from backend.utils.pageindex_loader import PageIndexLoader
 from backend.utils.sanitization import sanitize_question
 from backend.utils.session_manager import SessionManager
+from backend.utils.ragas_evaluator import RAGASEvaluator
+try:
+    from datasets import Dataset
+    from ragas import evaluate
+    from ragas.metrics import faithfulness, answer_relevancy, context_precision, context_recall
+    RAGAS_AVAILABLE = True
+except Exception as e:
+    import logging
+    logging.warning(f"Ragas evaluation imports failed: {e}")
+    RAGAS_AVAILABLE = False
+from langchain_groq import ChatGroq
 import time
 import logging
 
@@ -137,29 +148,54 @@ async def answer_question(request: Request, body: QARequest, db: DBSession = Dep
     if not question:
         raise HTTPException(status_code=400, detail="Invalid question input")
 
-    await SessionManager.update_stage(db=db, session_id=workflow_session.session_id, new_stage="retrieval")
+    search_mode = body.search_mode or "hybrid"
+    retrieval_start = time.time()
+
+    await SessionManager.update_stage(db=db, session_id=workflow_session.session_id, stage="retrieval", action="start_retrieval")
 
     # Step 1: Hybrid retrieval
     top_k = body.top_k if body.top_k else 5
-    bm25_loader = BM25Loader()
-    bm25_results = bm25_loader.search(question, top_k=top_k * 3)
+    bm25_results = []
+    semantic_results = []
+
+    if search_mode in ("bm25", "hybrid"):
+        bm25_loader = BM25Loader()
+        bm25_results = bm25_loader.search(question, top_k=top_k * 3)
 
     hybrid_results = []
-    if VECTOR_SEARCH_AVAILABLE:
-        try:
-            vector_loader = VectorSearchLoader()
-            hybrid_results = vector_loader.hybrid_search(
-                query=question,
-                bm25_results=bm25_results,
-                top_k=top_k * 2,
-                bm25_weight=BM25_WEIGHT,
-                semantic_weight=SEMANTIC_WEIGHT
-            )
-        except Exception as e:
-            logger.error(f"Vector search failed: {e}")
-            hybrid_results = bm25_results[:top_k * 2]
-    else:
+    if search_mode == "bm25":
         hybrid_results = bm25_results[:top_k * 2]
+    elif search_mode == "semantic":
+        if VECTOR_SEARCH_AVAILABLE:
+            try:
+                vector_loader = VectorSearchLoader()
+                semantic_results = vector_loader.search(query=question, top_k=top_k * 2)
+                hybrid_results = semantic_results
+            except Exception as e:
+                logger.error(f"Semantic-only search failed: {e}")
+                hybrid_results = bm25_results[:top_k * 2]
+        else:
+            logger.warning("Semantic-only requested but vector search unavailable, falling back to BM25")
+            hybrid_results = bm25_results[:top_k * 2]
+    else:  # hybrid
+        if VECTOR_SEARCH_AVAILABLE:
+            try:
+                vector_loader = VectorSearchLoader()
+                hybrid_results = vector_loader.hybrid_search(
+                    query=question,
+                    bm25_results=bm25_results,
+                    top_k=top_k * 2,
+                    bm25_weight=BM25_WEIGHT,
+                    semantic_weight=SEMANTIC_WEIGHT
+                )
+                semantic_results = hybrid_results
+            except Exception as e:
+                logger.error(f"Vector search failed: {e}")
+                hybrid_results = bm25_results[:top_k * 2]
+        else:
+            hybrid_results = bm25_results[:top_k * 2]
+
+    retrieval_elapsed = round(time.time() - retrieval_start, 3)
 
     # Deduplicate
     seen_orders = {}
@@ -204,7 +240,7 @@ async def answer_question(request: Request, body: QARequest, db: DBSession = Dep
         })
 
     context = "\n".join(context_parts)
-    await SessionManager.update_stage(db=db, session_id=workflow_session.session_id, new_stage="generation")
+    await SessionManager.update_stage(db=db, session_id=workflow_session.session_id, stage="generation", action="start_generation")
 
     # Step 3: LLM generation
     prompt = f"Answer this RTI question based on the context:\n\nContext:\n{context}\n\nQuestion: {question}\n\nAnswer:"
@@ -218,10 +254,53 @@ async def answer_question(request: Request, body: QARequest, db: DBSession = Dep
         )
         answer = response.choices[0].message.content or ""
 
-        # Dynamic Confidence Scoring
-        faithfulness_prompt = f"Is this answer faithful to the provided context? Answer only 'yes' or 'no'.\nContext: {context[:300]}\nAnswer: {answer[:300]}"
-        f_resp = client.chat.completions.create(model=GROQ_MODEL, messages=[{"role": "user", "content": faithfulness_prompt}], temperature=0.1)
-        is_faithful = "yes" in (f_resp.choices[0].message.content or "").lower()
+        # RAGAS Evaluation using official ragas library
+        context_texts = [s.get('text', '') for s in sources if s.get('text')]
+        eval_results = {}
+
+        if RAGAS_AVAILABLE and context_texts:
+            try:
+                llm = ChatGroq(model=GROQ_MODEL, api_key=GROQ_API_KEY)
+                dataset = Dataset.from_list([{
+                    "question": question,
+                    "answer": answer,
+                    "contexts": context_texts,
+                    "ground_truth": ""
+                }])
+
+                result = evaluate(
+                    dataset=dataset,
+                    metrics=[faithfulness, context_precision, context_recall],
+                    llm=llm
+                )
+
+                # Extract scores from ragas result
+                try:
+                    df = result.to_pandas()
+                    if hasattr(df, 'to_dict'):
+                        result_dict = df.to_dict(orient="records")[0] if len(df) > 0 else {}
+                    else:
+                        result_dict = {}
+                except Exception:
+                    result_dict = {}
+
+                eval_results = {
+                    "faithfulness": float(result_dict.get("faithfulness", 0.0) or 0.0),
+                    "context_precision": float(result_dict.get("context_precision", 0.0) or 0.0),
+                    "context_recall": float(result_dict.get("context_recall", 0.0) or 0.0)
+                }
+            except Exception as e:
+                logger.warning(f"RAGAS eval failed, using fallback: {e}")
+                # Fallback to custom evaluator
+                evaluator = RAGASEvaluator()
+                eval_results = evaluator.evaluate_full_pipeline(
+                    query=question,
+                    answer=answer,
+                    contexts=context_texts,
+                    source_scores=[s.get('score', 0.5) for s in sources]
+                )
+
+        is_faithful = eval_results.get("faithfulness", 0.0) >= 0.7
         
         # Calculation: Base (30) + Faithfulness (30) + Sources (10 per source, max 40)
         score = 30
@@ -234,11 +313,20 @@ async def answer_question(request: Request, body: QARequest, db: DBSession = Dep
             answer=answer,
             sources=sources,
             confidence=confidence_label,
-            confidence_score=score / 100.0, # Add numerical score
+            confidence_score=score / 100.0,
             calls_remaining=MAX_QA_CALLS_PER_SESSION - qa_session_calls[session_id]["count"],
             faithful=is_faithful,
+            deepeval_scores=eval_results,
             session_id=workflow_session.session_id,
-            thread_id=workflow_session.thread_id
+            thread_id=workflow_session.thread_id,
+            retrieval_info={
+                "search_mode": search_mode,
+                "bm25_results": len(bm25_results),
+                "semantic_results": len(semantic_results),
+                "final_sources": len(sources),
+                "retrieval_time_s": retrieval_elapsed,
+                "vector_search_active": VECTOR_SEARCH_AVAILABLE
+            }
         )
     except Exception as e:
         logger.error(f"Generation error: {e}")

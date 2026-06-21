@@ -12,6 +12,9 @@ pandas==2.2.2
 scikit-learn==1.4.2
 rank-bm25==0.2.2
 nltk==3.8.1
+sentence-transformers==5.1.2
+huggingface-hub<1.0,>=0.34.0
+pymongo==4.6.1
 
 # Solana Blockchain Integration
 solana==0.34.3

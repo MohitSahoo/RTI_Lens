@@ -167,6 +167,19 @@ def extract_appeal_level(text: str) -> str | None:
         return 'first_appeal'
     return None
 
+def get_or_create_unknown_ministry(session) -> int:
+    """Get or create 'Unknown Ministry'."""
+    row = session.execute(
+        text("SELECT id FROM ministries WHERE name = 'Unknown Ministry'")
+    ).fetchone()
+    if row:
+        return row[0]
+    result = session.execute(
+        text("INSERT INTO ministries (name) VALUES ('Unknown Ministry') RETURNING id")
+    )
+    session.commit()
+    return result.fetchone()[0]
+
 def resolve_ministry(raw_text_content: str, session) -> int | None:
     """Match text against alias map. Insert new ministry if not found."""
     lower = raw_text_content.lower()
@@ -228,12 +241,7 @@ def ingest():
         outcome      = extract_appeal_outcome(raw_text)
         order_date   = extract_order_date(raw_text)
         appeal_level = extract_appeal_level(raw_text)
-        ministry_id  = resolve_ministry(raw_text, session)
-
-        if ministry_id is None:
-            log.warning(f"Could not resolve ministry for order: {order_number}")
-            failed += 1
-            continue
+        ministry_id  = resolve_ministry(raw_text, session) or get_or_create_unknown_ministry(session)
 
         # Skip duplicate order numbers
         existing = session.execute(

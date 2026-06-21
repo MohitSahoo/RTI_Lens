@@ -1,39 +1,40 @@
-import React, { useState, useEffect } from 'react';
+import React, { useMemo, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { 
-  FileText, 
-  Download, 
-  Copy, 
-  Sparkles, 
-  ChevronRight, 
-  Info,
-  ShieldCheck,
+import {
   AlertTriangle,
-  Settings2,
-  FileCheck2,
-  PenLine,
-  Gavel,
-  History,
-  ShieldAlert,
-  Save,
-  CheckCircle2,
   Building2,
-  Scale,
-  BrainCircuit,
-  UserCheck,
-  Search,
-  Wand2,
-  Network,
-  Database,
-  Cpu,
-  X,
   Clock,
-  HelpCircle
+  Copy,
+  Cpu,
+  Database,
+  Download,
+  FileText,
+  HelpCircle,
+  Loader2,
+  Network,
+  PenLine,
+  ChevronRight,
+  Search,
+  Scale,
+  ShieldCheck,
+  Sparkles,
+  UserCheck,
+  Wand2,
+  X,
 } from 'lucide-react';
 import { GlassCard } from '../ui/GlassCard';
 import { GlowButton } from '../ui/GlowButton';
 import { VoiceMic } from '../ui/VoiceMic';
 import RAGArchitectureModal from './RAGArchitectureModal';
+
+type StepStatus = 'pending' | 'active' | 'complete';
+
+interface PipelineStep {
+  key: string;
+  title: string;
+  detail: string;
+  icon: React.ComponentType<{ className?: string; size?: number }>;
+}
 
 interface SourceDetail {
   order_number: string;
@@ -42,338 +43,569 @@ interface SourceDetail {
   metadata: any;
 }
 
-const SECTIONS = [
-  { id: "8(1)(a)", label: "National Security & Sovereignty" },
-  { id: "8(1)(d)", label: "Commercial Confidence & IP" },
-  { id: "8(1)(e)", label: "Fiduciary Relationship" },
-  { id: "8(1)(h)", label: "Law Enforcement/Investigation" },
-  { id: "8(1)(j)", label: "Personal Privacy" },
-  { id: "8(1)(i)", label: "Cabinet Papers" },
-  { id: "6(3)", label: "Transfer of Application" },
-  { id: "7(1)", label: "Timeline Violation (30 Days)" },
+const PIPELINE_STEPS: PipelineStep[] = [
+  {
+    key: 'intake',
+    title: 'Query intake',
+    detail: 'Capture the user facts and prepare the request for drafting.',
+    icon: FileText,
+  },
+  {
+    key: 'rag',
+    title: 'RAG retrieval',
+    detail: 'Pull similar precedents using BM25 and semantic search.',
+    icon: Search,
+  },
+  {
+    key: 'classify',
+    title: 'Ministry + section',
+    detail: 'Resolve the most likely ministry and exemption section.',
+    icon: Building2,
+  },
+  {
+    key: 'agents',
+    title: '3 Groq agents',
+    detail: 'Generate three drafts with different prompts and keys.',
+    icon: Cpu,
+  },
+  {
+    key: 'predict',
+    title: 'Prediction model',
+    detail: 'Score each draft and keep only the accepted candidates.',
+    icon: ShieldCheck,
+  },
+  {
+    key: 'merge',
+    title: 'Gemini merge',
+    detail: 'Blend the strongest accepted drafts into one final version.',
+    icon: Wand2,
+  },
 ];
 
 const AppealGenerator: React.FC = () => {
-  const [formData, setFormData] = useState({
-    ministry: '', 
-    section_cited: '', 
-    context: '',
-  });
-
-  const [generating, setGenerating] = useState(false);
-  const [phase, setPhase] = useState<'idle' | 'rag' | 'generation'>('idle');
-  const [stageProgress, setStageProgress] = useState([0, 0, 0, 0]);
+  const [formData, setFormData] = useState({ context: '' });
+  const [loading, setLoading] = useState(false);
+  const [liveStepIndex, setLiveStepIndex] = useState(0);
   const [result, setResult] = useState<any>(null);
-  const [blockchainStatus, setBlockchainStatus] = useState<'idle' | 'securing' | 'success'>('idle');
-  const [precedents, setPrecedents] = useState<any[]>([]);
+  const [error, setError] = useState<string | null>(null);
+  const [sessionStatus, setSessionStatus] = useState<any>(null);
   const [selectedSource, setSelectedSource] = useState<SourceDetail | null>(null);
-  const [fetchingSource, setFetchingSource] = useState(false);
   const [isArchModalOpen, setIsArchModalOpen] = useState(false);
 
-  const pipelineStages = [
-    { name: "Context Analysis", icon: Network, color: "text-primary", task: "Query preprocessing & validation" },
-    { name: "RAG Retrieval", icon: Search, color: "text-blue-400", task: "Hybrid search (BM25 + semantic)" },
-    { name: "Precedent Analysis", icon: ShieldCheck, color: "text-purple-400", task: "Section statistics & patterns" },
-    { name: "LLM Generation", icon: PenLine, color: "text-amber-400", task: "Groq-based draft synthesis" }
-  ];
+  const stepStates = useMemo(() => {
+    return PIPELINE_STEPS.map((step, index) => {
+      let status: StepStatus = 'pending';
+      if (loading) {
+        status = index < liveStepIndex ? 'complete' : index === liveStepIndex ? 'active' : 'pending';
+      } else if (result) {
+        status = 'complete';
+      }
+
+      return { ...step, status };
+    });
+  }, [loading, liveStepIndex, result]);
+
+  const currentStep = stepStates[Math.min(liveStepIndex, stepStates.length - 1)];
 
   const handleGenerate = async () => {
-    if (formData.context.length < 50) {
-      alert("Please provide at least 50 characters of context for a high-quality draft.");
+    const context = formData.context.trim();
+    if (context.length < 50) {
+      setError('Please provide at least 50 characters of context so the retrieval step has enough signal.');
       return;
     }
-    
-    setGenerating(true);
+
+    setLoading(true);
+    setError(null);
     setResult(null);
-    setPrecedents([]);
-    setBlockchainStatus('idle');
-    setStageProgress([0, 0, 0, 0]);
-    setFormData(prev => ({ ...prev, ministry: '', section_cited: '' }));
+    setSessionStatus(null);
+    setLiveStepIndex(0);
 
-    setPhase('rag');
+    const payload = {
+      context,
+      ministry: null,
+      section_cited: null,
+    };
+
+    const timer = window.setInterval(() => {
+      setLiveStepIndex((current) => Math.min(current + 1, PIPELINE_STEPS.length - 1));
+    }, 1200);
+
     try {
-      let currentMinistry = formData.ministry;
-      let currentSection = formData.section_cited;
-
-      const ragResponse = await fetch('/api/query-assistant/optimize', {
+      const response = await fetch('/api/draft', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ query: formData.context })
+        body: JSON.stringify(payload),
       });
 
-      if (ragResponse.ok) {
-        const ragData = await ragResponse.json();
-        setPrecedents(ragData.relevant_precedents || []);
-
-        currentMinistry = ragData.ministry_suggestion?.primary_ministry || 'Ministry of Finance';
-        const suggestedSec = ragData.section_recommendations?.primary_sections?.[0]?.section || '8(1)(a)';
-        currentSection = SECTIONS.find(s => suggestedSec.includes(s.id))?.id || '8(1)(a)';
-
-        setFormData(prev => ({ ...prev, ministry: currentMinistry, section_cited: currentSection }));
+      const rawBody = await response.text();
+      let data: any = {};
+      try {
+        data = rawBody ? JSON.parse(rawBody) : {};
+      } catch {
+        data = { detail: rawBody || 'Draft generation failed' };
       }
 
-      setPhase('generation');
-      for (let i = 0; i < pipelineStages.length; i++) {
-        let progress = 0;
-        while (progress < 100) {
-          progress += Math.random() * 40;
-          if (progress > 100) progress = 100;
-          setStageProgress(prev => {
-            const next = [...prev];
-            next[i] = progress;
-            return next;
-          });
-          await new Promise(r => setTimeout(r, 300));
+      if (!response.ok) {
+        throw new Error(
+          Array.isArray(data.detail)
+            ? data.detail.map((item: any) => item.msg).join('\n')
+            : data.detail || 'Draft generation failed'
+        );
+      }
+
+      setResult(data);
+      setLiveStepIndex(PIPELINE_STEPS.length - 1);
+
+      if (data.session_id) {
+        try {
+          const statusResponse = await fetch(`/api/draft/status/${encodeURIComponent(data.session_id)}`);
+          if (statusResponse.ok) {
+            setSessionStatus(await statusResponse.json());
+          }
+        } catch (statusError) {
+          console.error('Unable to fetch draft status', statusError);
         }
       }
-
-      const draftResponse = await fetch('/api/draft', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          ...formData,
-          ministry: currentMinistry,
-          section_cited: currentSection
-        })
-      });
-
-      if (draftResponse.ok) {
-        const draftData = await draftResponse.json();
-        setResult(draftData);
-        setBlockchainStatus('securing');
-        setTimeout(() => setBlockchainStatus('success'), 1500);
-      } else {
-        const errorData = await draftResponse.json();
-        alert(`Drafting failed: ${errorData.detail || 'Unknown error'}`);
-      }
-    } catch (error) {
-      console.error("Drafting error:", error);
+    } catch (generationError: any) {
+      console.error('Draft generation error:', generationError);
+      setError(generationError.message || 'Something went wrong while building the draft.');
     } finally {
-      setGenerating(false);
+      window.clearInterval(timer);
+      setLoading(false);
     }
   };
 
   const fetchSourceDetails = async (orderNumber: string) => {
-    setFetchingSource(true);
     try {
       const response = await fetch(`/api/qa/source?order_number=${encodeURIComponent(orderNumber)}`);
       if (response.ok) {
-        const data = await response.json();
-        setSelectedSource(data);
+        setSelectedSource(await response.json());
       }
-    } catch (e) {
-      console.error("Source fetch error:", e);
-    } finally {
-      setFetchingSource(false);
+    } catch (sourceError) {
+      console.error('Source fetch error:', sourceError);
     }
   };
 
-  return (
-    <div className="h-[calc(100vh-140px)] flex gap-10 max-w-[1600px] mx-auto">
-      {/* Left: Input Panel (Slightly narrower for focus) */}
-      <div className="w-[380px] flex flex-col gap-6">
-        <GlassCard className="p-8 space-y-8 flex-1 overflow-y-auto scrollbar-hide border-white/5 shadow-2xl">
-          <div className="flex items-center gap-3">
-             <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center">
-               <PenLine className="text-primary w-6 h-6" />
-             </div>
-             <div>
-               <h3 className="text-sm font-bold uppercase tracking-[0.2em]">Appeal Forge</h3>
-               <p className="text-[10px] text-white/40">AI-Powered Legal Drafting</p>
-             </div>
-          </div>
+  const copyDraft = async () => {
+    const text = result?.draft || result?.improved_query || '';
+    if (!text) return;
+    await navigator.clipboard.writeText(text);
+  };
 
-          <div className="space-y-6">
-            <div className="space-y-3">
-              <label className="text-[10px] font-bold text-white/20 uppercase tracking-widest flex items-center gap-2">
+  const downloadDraft = () => {
+    const text = result?.draft || result?.improved_query || '';
+    if (!text) return;
+
+    const blob = new Blob([text], { type: 'text/plain;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const anchor = document.createElement('a');
+    anchor.href = url;
+    anchor.download = 'rti-first-appeal-draft.txt';
+    document.body.appendChild(anchor);
+    anchor.click();
+    document.body.removeChild(anchor);
+    URL.revokeObjectURL(url);
+  };
+
+  const finalMinistry = result?.predicted_ministry || 'Waiting for the RAG pass';
+  const finalSection = result?.predicted_section || 'Waiting for the RAG pass';
+  const acceptedAgents = result?.accepted_agent_results || [];
+  const rejectedAgents = result?.rejected_agent_results || [];
+  const trace = result?.pipeline_trace || [];
+  const statusActions = sessionStatus?.actions || [];
+
+  return (
+    <div className="relative min-h-[calc(100vh-140px)] overflow-hidden">
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(0,212,255,0.14),_transparent_28%),radial-gradient(circle_at_top_right,_rgba(245,158,11,0.12),_transparent_24%),linear-gradient(180deg,rgba(11,16,32,0.92),rgba(11,16,32,1))]" />
+      <div className="pointer-events-none absolute inset-0 opacity-30 [background-image:linear-gradient(rgba(255,255,255,0.04)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.04)_1px,transparent_1px)] [background-size:48px_48px]" />
+
+      <div className="relative mx-auto flex min-h-[calc(100vh-140px)] max-w-[1680px] gap-8 px-4 py-4 lg:px-6">
+        <div className="w-full max-w-[430px] shrink-0 space-y-6">
+          <GlassCard className="border-white/10 bg-white/[0.03] p-6">
+            <div className="flex items-start justify-between gap-4">
+              <div>
+                <p className="text-[10px] font-bold uppercase tracking-[0.35em] text-cyan-300/80">Appeal Forge</p>
+                <h1 className="mt-2 text-3xl font-black tracking-tight text-white">Draft generator</h1>
+                <p className="mt-2 text-sm leading-6 text-white/50">
+                  Type the query once, then let retrieval, three Groq agents, the prediction model, and Gemini shape the final draft.
+                </p>
+              </div>
+              <div className="flex h-12 w-12 items-center justify-center rounded-2xl border border-cyan-300/20 bg-cyan-300/10 text-cyan-300">
+                <PenLine size={22} />
+              </div>
+            </div>
+
+            <div className="mt-6 space-y-3">
+              <label className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.3em] text-white/35">
                 <Database size={12} />
-                Draft Context
+                Query
               </label>
               <div className="relative">
-                <textarea 
+                <textarea
                   value={formData.context}
-                  onChange={(e) => setFormData(prev => ({ ...prev, context: e.target.value }))}
-                  placeholder="Describe the RTI rejection details..."
-                  className="w-full bg-white/5 border border-white/10 rounded-2xl p-6 text-sm min-h-[300px] focus:outline-none focus:border-primary/50 transition-all resize-none"
+                  onChange={(event) => setFormData({ context: event.target.value })}
+                  placeholder="Describe the RTI denial, appeal facts, and any context you already have..."
+                  className="min-h-[270px] w-full resize-none rounded-[24px] border border-white/10 bg-black/20 px-5 py-4 text-[14px] leading-6 text-white outline-none transition focus:border-cyan-300/40 focus:bg-black/25"
                 />
                 <div className="absolute bottom-4 right-4">
-                  <VoiceMic onTranscript={(text) => setFormData(prev => ({ ...prev, context: prev.context + (prev.context ? ' ' : '') + text }))} />
+                  <VoiceMic
+                    onTranscript={(text) =>
+                      setFormData((prev) => ({
+                        context: prev.context ? `${prev.context} ${text}` : text,
+                      }))
+                    }
+                  />
                 </div>
+              </div>
+
+              <div className="grid grid-cols-2 gap-3">
+                <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-4">
+                  <div className="text-[9px] font-bold uppercase tracking-[0.3em] text-white/30">Ministry</div>
+                  <div className="mt-2 text-sm text-white/80">{finalMinistry}</div>
+                </div>
+                <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-4">
+                  <div className="text-[9px] font-bold uppercase tracking-[0.3em] text-white/30">Section</div>
+                  <div className="mt-2 text-sm text-white/80">{finalSection}</div>
+                </div>
+              </div>
+
+              <div className="rounded-2xl border border-cyan-300/10 bg-cyan-300/5 p-4 text-[11px] leading-5 text-cyan-100/70">
+                The backend now returns the resolved ministry and section after the RAG pass, so these fields become populated from the actual pipeline rather than manual entry.
               </div>
             </div>
 
-            <div className="grid gap-4">
-              <div className="space-y-2">
-                <label className="text-[10px] font-bold text-white/20 uppercase tracking-widest">Ministry</label>
-                <div className="px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-xs text-white/40 italic">
-                  {formData.ministry || "Auto-detecting..."}
-                </div>
+            {error && (
+              <div className="mt-4 flex items-start gap-3 rounded-2xl border border-red-400/20 bg-red-400/10 p-4 text-sm text-red-100">
+                <AlertTriangle size={16} className="mt-0.5 shrink-0" />
+                <span>{error}</span>
               </div>
-              <div className="space-y-2">
-                <label className="text-[10px] font-bold text-white/20 uppercase tracking-widest">Exemption Section</label>
-                <div className="px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-xs text-white/40 italic">
-                  {formData.section_cited || "Auto-detecting..."}
-                </div>
+            )}
+
+            <GlowButton
+              variant="primary"
+              className="mt-6 w-full py-4 text-[13px] font-semibold"
+              onClick={handleGenerate}
+              disabled={loading}
+            >
+              {loading ? (
+                <>
+                  <Loader2 size={16} className="animate-spin" />
+                  Building draft
+                </>
+              ) : (
+                <>
+                  <Wand2 size={16} />
+                  Generate draft
+                </>
+              )}
+            </GlowButton>
+          </GlassCard>
+
+          <GlassCard className="border-white/10 bg-white/[0.025] p-5">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.3em] text-white/30">
+                <ShieldCheck size={13} />
+                Audit trail
+              </div>
+              <div className="text-[10px] font-mono text-white/35">
+                {result?.session_id ? result.session_id.slice(0, 8) : 'waiting'}
               </div>
             </div>
-          </div>
-
-          <GlowButton
-            variant="primary"
-            className="w-full py-6"
-            onClick={handleGenerate}
-            disabled={generating}
-          >
-            {generating ? "Processing..." : "Initialize Drafting"}
-          </GlowButton>
-        </GlassCard>
-
-        <div className="p-5 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-between">
-           <div className="flex items-center gap-3">
-              <ShieldCheck className={blockchainStatus === 'success' ? "text-success" : "text-white/20"} />
-              <span className="text-[10px] font-bold uppercase tracking-widest text-white/40">Audit Trail</span>
-           </div>
-           <div className="text-[10px] font-mono text-white/20">
-              {blockchainStatus === 'success' ? "TX: 4zP9...Ew2k" : "Waiting..."}
-           </div>
+            <div className="mt-3 text-sm text-white/60">
+              {sessionStatus?.workflow_stage || (loading ? 'Drafting in progress' : 'Ready')}
+            </div>
+          </GlassCard>
         </div>
-      </div>
 
-      {/* Right: Pipeline & Results (Centered content) */}
-      <div className="flex-1 flex flex-col glass-card p-0 border-white/5 relative bg-white/[0.02] overflow-hidden">
-        <div className="flex-1 overflow-y-auto px-12 py-12 scrollbar-hide">
-          <div className="max-w-4xl mx-auto w-full">
-            <AnimatePresence mode="wait">
-              {!generating && !result && (
-                <motion.div key="idle" initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="h-full flex flex-col items-center justify-center text-center space-y-6 py-20">
-                  <div className="w-20 h-20 rounded-full bg-white/5 flex items-center justify-center border border-white/10">
-                    <Cpu className="text-white/10 w-10 h-10" />
-                  </div>
-                  <h4 className="text-lg font-bold text-white/60">Ready for Legal Synthesis</h4>
-                </motion.div>
-              )}
+        <div className="min-w-0 flex-1">
+          <GlassCard className="h-full border-white/10 bg-white/[0.025] p-0">
+            <div className="flex h-full flex-col">
+              <div className="flex flex-wrap items-center justify-between gap-4 border-b border-white/8 px-6 py-5 lg:px-8">
+                <div>
+                  <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-white/30">Workflow monitor</p>
+                  <h2 className="mt-2 text-xl font-black text-white">
+                    {loading ? currentStep.title : result ? 'Final output' : 'Waiting for your query'}
+                  </h2>
+                  <p className="mt-1 text-sm text-white/45">
+                    {loading ? currentStep.detail : 'The panel below shows the exact steps once the run completes.'}
+                  </p>
+                </div>
 
-              {generating && (
-                <motion.div key="generating" initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-16">
-                   <div className="grid grid-cols-4 gap-8">
-                      {pipelineStages.map((stage, i) => (
-                        <div key={i} className="space-y-4">
-                          <div className="flex items-center justify-between">
-                            <stage.icon className={`${stage.color} w-5 h-5`} />
-                            <span className="text-[10px] font-mono text-white/40">{Math.round(stageProgress[i])}%</span>
-                          </div>
-                          <div className="h-1 w-full bg-white/5 rounded-full overflow-hidden">
-                            <motion.div className={`h-full ${stage.color.replace('text-', 'bg-')}`} animate={{ width: `${stageProgress[i]}%` }} />
-                          </div>
-                          <p className="text-[10px] font-bold text-white">{stage.name}</p>
-                        </div>
-                      ))}
-                   </div>
+                <div className="flex items-center gap-3">
+                  <button
+                    onClick={() => setIsArchModalOpen(true)}
+                    className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/[0.04] px-3 py-2 text-[11px] font-semibold uppercase tracking-[0.24em] text-white/55 transition hover:border-cyan-300/30 hover:text-cyan-200"
+                  >
+                    <HelpCircle size={14} />
+                    Architecture
+                  </button>
+                  {result && (
+                    <>
+                      <GlowButton variant="outline" className="px-4 py-2 text-[12px]" onClick={copyDraft}>
+                        <Copy size={14} />
+                        Copy
+                      </GlowButton>
+                      <GlowButton variant="secondary" className="px-4 py-2 text-[12px]" onClick={downloadDraft}>
+                        <Download size={14} />
+                        Download
+                      </GlowButton>
+                    </>
+                  )}
+                </div>
+              </div>
 
-                   <div className="space-y-8 pt-10 border-t border-white/5">
-                      <div className="flex items-center justify-between">
-                        <div className="flex items-center gap-3">
-                           <div className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-                           <p className="text-[10px] font-bold uppercase tracking-widest text-primary">
-                            {phase === 'rag' ? "Retrieving CIC Rulings..." : "Generating Draft..."}
-                           </p>
-                        </div>
-                        <button onClick={() => setIsArchModalOpen(true)} className="flex items-center gap-2 text-[10px] text-white/40 hover:text-primary transition-colors">
-                          <HelpCircle size={14} /> Architecture
-                        </button>
+              <div className="grid gap-6 px-6 py-6 xl:grid-cols-[1.15fr_0.85fr] xl:px-8">
+                <div className="space-y-6">
+                  <GlassCard className="border-white/8 bg-black/15 p-5" hover={false}>
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.25em] text-cyan-300/70">
+                        <Cpu size={13} />
+                        Live pipeline
                       </div>
-                      <div className="grid gap-6">
-                        {precedents.length > 0 ? (
-                          precedents.slice(0, 2).map((p, i) => (
-                            <div key={i} className="p-6 rounded-[1.5rem] bg-white/5 border border-white/10 space-y-2">
-                              <div className="flex justify-between items-center">
-                                <span className="text-[10px] font-mono text-primary">{p.order_number}</span>
-                                <CheckCircle2 size={12} className="text-success" />
-                              </div>
-                              <p className="text-[10px] text-white/40 line-clamp-2 italic">{p.text_preview}</p>
-                            </div>
-                          ))
-                        ) : (
-                          [...Array(2)].map((_, i) => (
-                            <div key={i} className="p-8 rounded-[2rem] bg-white/5 border border-white/10 space-y-4">
-                              <div className="h-4 w-1/4 bg-white/10 rounded-full animate-pulse" />
-                              <div className="h-3 w-full bg-white/5 rounded-full" />
-                            </div>
-                          ))
-                        )}
+                      <div className="text-[10px] font-mono text-white/35">
+                        {loading ? `${liveStepIndex + 1}/${PIPELINE_STEPS.length}` : result ? 'complete' : 'idle'}
                       </div>
-                   </div>
-                </motion.div>
-              )}
-
-              {result && !generating && (
-                <motion.div key="result" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="space-y-10">
-                  <div className="flex gap-4">
-                    <GlowButton variant="primary" className="flex-1" onClick={() => { navigator.clipboard.writeText(result.improved_query); alert("Copied!"); }}>
-                      <Copy size={16} /> Copy Final Draft
-                    </GlowButton>
-                    <GlowButton variant="outline" className="flex-1">
-                      <ShieldCheck size={16} /> Audit Trail
-                    </GlowButton>
-                  </div>
-
-                  <GlassCard className="p-0 border-white/10 overflow-hidden rounded-[2rem]">
-                    <div className="p-5 bg-white/5 border-b border-white/10 flex justify-between items-center px-8">
-                      <div className="flex items-center gap-2 text-primary">
-                        <Sparkles size={18} />
-                        <span className="text-[10px] font-black uppercase tracking-widest">Autonomous Draft v2.1</span>
-                      </div>
-                      <div className="text-[9px] text-white/40 uppercase font-black">Verified Legal Output</div>
                     </div>
-                    <div className="p-10 max-h-[600px] overflow-y-auto font-mono text-[13px] leading-relaxed text-white/80 whitespace-pre-wrap">
-                      {result.improved_query}
+
+                    <div className="mt-4 grid gap-3">
+                      {stepStates.map((step, index) => {
+                        const StepIcon = step.icon;
+                        const active = step.status === 'active';
+                        const complete = step.status === 'complete';
+
+                        return (
+                          <div
+                            key={step.key}
+                            className={`rounded-2xl border px-4 py-4 transition ${
+                              active
+                                ? 'border-cyan-300/35 bg-cyan-300/10'
+                                : complete
+                                  ? 'border-emerald-400/20 bg-emerald-400/8'
+                                  : 'border-white/8 bg-white/[0.03]'
+                            }`}
+                          >
+                            <div className="flex items-start gap-3">
+                              <div
+                                className={`mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-xl ${
+                                  active
+                                    ? 'bg-cyan-300/20 text-cyan-200'
+                                    : complete
+                                      ? 'bg-emerald-400/15 text-emerald-300'
+                                      : 'bg-white/5 text-white/35'
+                                }`}
+                              >
+                                <StepIcon size={16} />
+                              </div>
+
+                              <div className="min-w-0 flex-1">
+                                <div className="flex items-center justify-between gap-4">
+                                  <div className="min-w-0">
+                                    <div className="text-sm font-semibold text-white">{step.title}</div>
+                                    <div className="mt-1 text-[12px] leading-5 text-white/45">{step.detail}</div>
+                                  </div>
+                                  <div className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/30">
+                                    {index + 1}
+                                  </div>
+                                </div>
+
+                                <div className="mt-3 h-1 overflow-hidden rounded-full bg-white/8">
+                                  <div
+                                    className={`h-full rounded-full transition-all duration-700 ${
+                                      active
+                                        ? 'w-3/4 bg-cyan-300'
+                                        : complete
+                                          ? 'w-full bg-emerald-400'
+                                          : 'w-0 bg-white/20'
+                                    }`}
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        );
+                      })}
                     </div>
                   </GlassCard>
 
-                  <div className="grid md:grid-cols-2 gap-8">
-                    <GlassCard className="bg-primary/5 border-primary/10 p-8 rounded-[2rem]">
-                      <div className="flex justify-between items-center mb-6">
-                        <h4 className="text-[10px] font-bold text-primary uppercase tracking-widest flex items-center gap-2">
-                          <Database size={14} /> RAG Precedents
-                        </h4>
-                        <button onClick={() => setIsArchModalOpen(true)} className="p-1.5 hover:bg-primary/10 rounded-lg text-primary border border-primary/20">
-                          <HelpCircle size={14} />
-                        </button>
+                  {loading && (
+                    <GlassCard className="border-white/8 bg-white/[0.02] p-5" hover={false}>
+                      <div className="flex items-center gap-3 text-[10px] font-bold uppercase tracking-[0.25em] text-white/35">
+                        <Clock size={13} />
+                        Running now
                       </div>
-                      <div className="space-y-4">
-                        {(result?.sources?.length > 0 ? result.sources : precedents).slice(0, 3).map((p: any, i: number) => (
-                          <button key={i} onClick={() => fetchSourceDetails(p.order_number)} className="w-full text-left p-4 rounded-2xl bg-white/5 border border-white/5 hover:border-primary/40 transition-all group">
-                            <div className="flex justify-between items-center mb-1">
-                              <div className="flex flex-col">
-                                <span className="text-[10px] font-mono text-white/60 group-hover:text-primary">{p.order_number}</span>
-                                {p.outcome && <span className="text-[8px] uppercase font-bold text-success/60">{p.outcome}</span>}
-                              </div>
-                              <ChevronRight size={12} className="text-white/10 group-hover:text-primary" />
-                            </div>
-                            <p className="text-[9px] text-white/30 line-clamp-1 italic">{p.text_preview || `Cited for section ${p.section || '8(1)'} compliance.`}</p>
-                          </button>
-                        ))}
+                      <div className="mt-3 text-lg font-semibold text-white">{currentStep.title}</div>
+                      <p className="mt-2 text-sm leading-6 text-white/55">{currentStep.detail}</p>
+                    </GlassCard>
+                  )}
+
+                  {result && (
+                    <GlassCard className="border-white/8 bg-white/[0.02] p-0" hover={false}>
+                      <div className="border-b border-white/8 px-5 py-4">
+                        <div className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.25em] text-amber-300/80">
+                          <Sparkles size={13} />
+                          Final draft
+                        </div>
+                      </div>
+                      <div className="max-h-[540px] overflow-y-auto whitespace-pre-wrap px-6 py-6 text-[14px] leading-7 text-white/80">
+                        {result.draft || result.improved_query}
                       </div>
                     </GlassCard>
+                  )}
 
-                    <GlassCard className="bg-secondary/5 border-secondary/10 p-8 rounded-[2rem]">
-                      <h4 className="text-[10px] font-bold text-secondary uppercase tracking-widest mb-6 flex items-center gap-2">
-                        <UserCheck size={14} /> Improvements Made
-                      </h4>
-                      <div className="space-y-4">
-                        {result.change_notes.map((note: any, i: number) => (
-                          <div key={i} className="flex gap-3">
-                            <div className="w-1.5 h-1.5 rounded-full bg-secondary mt-1.5 shrink-0" />
-                            <p className="text-[11px] text-white/60 leading-relaxed">{note.revised}</p>
+                  {trace.length > 0 && (
+                    <GlassCard className="border-white/8 bg-white/[0.02] p-5" hover={false}>
+                      <div className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.25em] text-white/35">
+                        <Network size={13} />
+                        Backend trace
+                      </div>
+                      <div className="mt-4 grid gap-3">
+                        {trace.map((item: any, index: number) => (
+                          <div key={`${item.step}-${index}`} className="rounded-2xl border border-white/8 bg-white/[0.03] p-4">
+                            <div className="flex items-center justify-between gap-4">
+                              <div className="text-sm font-semibold text-white">{item.step}</div>
+                              <div className="text-[10px] font-mono uppercase tracking-[0.25em] text-cyan-200/70">
+                                {item.status}
+                              </div>
+                            </div>
+                            <div className="mt-2 text-sm text-white/55">{item.detail}</div>
                           </div>
                         ))}
                       </div>
                     </GlassCard>
-                  </div>
-                </motion.div>
-              )}
-            </AnimatePresence>
-          </div>
+                  )}
+                </div>
+
+                <div className="space-y-6">
+                  <GlassCard className="border-white/8 bg-white/[0.02] p-5" hover={false}>
+                    <div className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.25em] text-white/35">
+                      <Building2 size={13} />
+                      Auto-populated fields
+                    </div>
+                    <div className="mt-4 space-y-3">
+                      <div className="rounded-2xl border border-white/8 bg-white/[0.03] p-4">
+                        <div className="text-[9px] font-bold uppercase tracking-[0.25em] text-white/30">Ministry</div>
+                        <div className="mt-2 text-sm text-white">{result?.predicted_ministry || 'Pending RAG inference'}</div>
+                      </div>
+                      <div className="rounded-2xl border border-white/8 bg-white/[0.03] p-4">
+                        <div className="text-[9px] font-bold uppercase tracking-[0.25em] text-white/30">Section</div>
+                        <div className="mt-2 text-sm text-white">{result?.predicted_section || 'Pending RAG inference'}</div>
+                      </div>
+                      <div className="rounded-2xl border border-cyan-300/15 bg-cyan-300/6 p-4 text-[11px] leading-5 text-cyan-100/70">
+                        These values come from the retrieval-guided classification step, then get passed into the prediction model for each candidate draft.
+                      </div>
+                    </div>
+                  </GlassCard>
+
+                  <GlassCard className="border-white/8 bg-white/[0.02] p-5" hover={false}>
+                    <div className="flex items-center justify-between gap-4">
+                      <div className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.25em] text-emerald-300/80">
+                        <UserCheck size={13} />
+                        Accepted drafts
+                      </div>
+                      <div className="text-[10px] font-mono text-white/35">{acceptedAgents.length} kept</div>
+                    </div>
+                    <div className="mt-4 space-y-3">
+                      {acceptedAgents.length > 0 ? (
+                        acceptedAgents.map((agent: any, index: number) => (
+                          <div key={`${agent.agent}-${index}`} className="rounded-2xl border border-emerald-400/15 bg-emerald-400/7 p-4">
+                            <div className="flex items-center justify-between gap-3">
+                              <div className="text-sm font-semibold text-white">{agent.agent}</div>
+                              <div className="text-[10px] font-mono text-emerald-300">
+                                {Math.round((agent.prediction_preview?.probability || 0) * 100)}%
+                              </div>
+                            </div>
+                            <div className="mt-2 text-sm text-white/50 line-clamp-3">
+                              {agent.draft_preview || agent.response_summary}
+                            </div>
+                          </div>
+                        ))
+                      ) : (
+                        <div className="rounded-2xl border border-white/8 bg-white/[0.03] p-4 text-sm text-white/45">
+                          Accepted drafts will appear here after the prediction model filters the Groq outputs.
+                        </div>
+                      )}
+                    </div>
+                  </GlassCard>
+
+                  <GlassCard className="border-white/8 bg-white/[0.02] p-5" hover={false}>
+                    <div className="flex items-center justify-between gap-4">
+                      <div className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.25em] text-rose-300/80">
+                        <Scale size={13} />
+                        Rejected drafts
+                      </div>
+                      <div className="text-[10px] font-mono text-white/35">{rejectedAgents.length} filtered</div>
+                    </div>
+                    <div className="mt-4 space-y-3">
+                      {rejectedAgents.length > 0 ? (
+                        rejectedAgents.map((agent: any, index: number) => (
+                          <div key={`${agent.agent}-${index}`} className="rounded-2xl border border-rose-400/15 bg-rose-400/7 p-4">
+                            <div className="flex items-center justify-between gap-3">
+                              <div className="text-sm font-semibold text-white">{agent.agent}</div>
+                              <div className="text-[10px] font-mono text-rose-300">
+                                {Math.round((agent.prediction_preview?.probability || 0) * 100)}%
+                              </div>
+                            </div>
+                            <div className="mt-2 text-sm text-white/50 line-clamp-3">
+                              {agent.draft_preview || agent.response_summary}
+                            </div>
+                          </div>
+                        ))
+                      ) : (
+                        <div className="rounded-2xl border border-white/8 bg-white/[0.03] p-4 text-sm text-white/45">
+                          Drafts filtered by the prediction model will show up here.
+                        </div>
+                      )}
+                    </div>
+                  </GlassCard>
+
+                  {result?.retrieval && (
+                    <GlassCard className="border-white/8 bg-white/[0.02] p-5" hover={false}>
+                      <div className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.25em] text-white/35">
+                        <Search size={13} />
+                        Retrieval summary
+                      </div>
+                      <div className="mt-4 space-y-2 text-sm text-white/60">
+                        <div>Method: {result.retrieval.method}</div>
+                        <div>Precedents: {result.retrieval.precedents_count}</div>
+                        <div>Orchestration: {result.orchestration_method}</div>
+                      </div>
+                      {result?.retrieved_precedents?.[0]?.order_number && (
+                        <button
+                          onClick={() => fetchSourceDetails(result.retrieved_precedents[0].order_number)}
+                          className="mt-4 inline-flex items-center gap-2 rounded-xl border border-white/10 bg-white/[0.03] px-3 py-2 text-[11px] font-semibold uppercase tracking-[0.22em] text-white/60 transition hover:border-cyan-300/30 hover:text-cyan-200"
+                        >
+                          View precedent
+                          <ChevronRight size={13} />
+                        </button>
+                      )}
+                    </GlassCard>
+                  )}
+
+                  {sessionStatus?.actions?.length > 0 && (
+                    <GlassCard className="border-white/8 bg-white/[0.02] p-5" hover={false}>
+                      <div className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.25em] text-white/35">
+                        <Clock size={13} />
+                        Session actions
+                      </div>
+                      <div className="mt-4 space-y-3">
+                        {statusActions.map((action: any, index: number) => (
+                          <div key={`${action.action_name}-${index}`} className="rounded-2xl border border-white/8 bg-white/[0.03] p-4">
+                            <div className="flex items-center justify-between gap-3">
+                              <div className="text-sm font-semibold text-white">{action.action_name}</div>
+                              <div className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/30">
+                                {action.action_type}
+                              </div>
+                            </div>
+                            <div className="mt-2 text-sm text-white/55">{action.error_message || 'Recorded successfully'}</div>
+                          </div>
+                        ))}
+                      </div>
+                    </GlassCard>
+                  )}
+                </div>
+              </div>
+            </div>
+          </GlassCard>
         </div>
       </div>
 
@@ -383,24 +615,36 @@ const AppealGenerator: React.FC = () => {
   );
 };
 
-// Extracted for reuse
-const SourceDetailModal = ({ source, onClose }: { source: any, onClose: () => void }) => (
+const SourceDetailModal = ({ source, onClose }: { source: any; onClose: () => void }) => (
   <AnimatePresence>
     {source && (
-      <div className="fixed inset-0 z-50 flex items-center justify-center p-12 bg-background/95 backdrop-blur-3xl">
-        <motion.div initial={{ scale: 0.95, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} className="w-full max-w-5xl h-[85vh] glass-card p-0 flex flex-col border-white/10 shadow-2xl">
-          <div className="px-10 py-8 border-b border-white/5 flex justify-between items-center">
-            <div className="flex items-center gap-6">
-              <Scale className="text-primary w-8 h-8" />
-              <div>
-                <h2 className="text-2xl font-black text-white">{source.order_number}</h2>
-                <p className="text-[11px] text-white/40 uppercase font-bold tracking-widest">{source.hierarchy.join(' > ')}</p>
-              </div>
+      <div className="fixed inset-0 z-50 flex items-center justify-center bg-background/90 p-4 backdrop-blur-2xl">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.97, y: 16 }}
+          animate={{ opacity: 1, scale: 1, y: 0 }}
+          exit={{ opacity: 0, scale: 0.97, y: 16 }}
+          className="flex h-[84vh] w-full max-w-5xl flex-col overflow-hidden rounded-[28px] border border-white/10 bg-[#0B1020] shadow-2xl"
+        >
+          <div className="flex items-center justify-between border-b border-white/8 px-6 py-5 lg:px-8">
+            <div>
+              <div className="text-[10px] font-bold uppercase tracking-[0.3em] text-cyan-300/70">Precedent source</div>
+              <h3 className="mt-2 text-2xl font-black text-white">{source.order_number}</h3>
+              <p className="mt-1 text-[11px] uppercase tracking-[0.22em] text-white/35">
+                {(source.hierarchy || []).join(' > ')}
+              </p>
             </div>
-            <button onClick={onClose} className="p-3 hover:bg-white/10 rounded-full border border-white/10"><X size={28} /></button>
+            <button
+              onClick={onClose}
+              className="rounded-full border border-white/10 bg-white/[0.04] p-3 text-white/60 transition hover:border-white/20 hover:text-white"
+            >
+              <X size={18} />
+            </button>
           </div>
-          <div className="flex-1 overflow-y-auto p-16 space-y-10 font-mono text-[14px] leading-relaxed text-white/70 whitespace-pre-wrap scrollbar-hide">
-            {source.full_text}
+
+          <div className="flex-1 overflow-y-auto px-6 py-6 lg:px-8">
+            <div className="whitespace-pre-wrap rounded-[24px] border border-white/8 bg-white/[0.03] p-6 font-mono text-[13px] leading-7 text-white/75">
+              {source.full_text}
+            </div>
           </div>
         </motion.div>
       </div>

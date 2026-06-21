@@ -90,11 +90,90 @@ class QueryOptimizer:
         ministry_suggestion = self._suggest_ministry(precedents, extracted_ministries, user_query)
         section_recommendations = self._recommend_sections(precedents, extracted_sections, user_query)
 
+        # Determine legal topic, query intent, and template
+        query_lower = user_query.lower()
+        legal_topic = "General Public Information"
+        query_intent = "Standard Information Request"
+        template_used = "General Document Request Template"
+
+        # Topic detection
+        if any(word in query_lower for word in ["road", "highway", "repair", "maintenance", "construction", "bridge", "pothole", "street"]):
+            legal_topic = "Infrastructure & Public Works"
+            template_used = "Road Maintenance Request Template"
+        elif any(word in query_lower for word in ["tax", "income tax", "gst", "assessment", "pan", "finance", "audit"]):
+            legal_topic = "Finance & Taxation"
+            template_used = "Taxation & Personal Assessment Template"
+        elif any(word in query_lower for word in ["defence", "military", "army", "navy", "air force", "national security"]):
+            legal_topic = "National Security & Defence"
+            template_used = "National Security Request Template"
+        elif any(word in query_lower for word in ["school", "college", "university", "education", "exam", "result", "marksheet"]):
+            legal_topic = "Education & Academics"
+            template_used = "Education Request Template"
+        elif any(word in query_lower for word in ["health", "hospital", "medical", "medicine", "doctor", "clinic"]):
+            legal_topic = "Healthcare & Public Health"
+            template_used = "Healthcare Request Template"
+        elif any(word in query_lower for word in ["railway", "train", "station", "ticket", "pnr"]):
+            legal_topic = "Rail Transport"
+            template_used = "Railways Request Template"
+
+        # Exemption detection
+        exemption_names = {
+            "8(1)(a)": "Sovereignty & Security of India Exemption",
+            "8(1)(b)": "Contempt of Court Exemption",
+            "8(1)(c)": "Breach of Privilege Exemption",
+            "8(1)(d)": "Commercial Confidence / Trade Secrets Exemption",
+            "8(1)(e)": "Fiduciary Relationship Exemption",
+            "8(1)(f)": "Information received from Foreign Govt Exemption",
+            "8(1)(g)": "Safety of person Exemption",
+            "8(1)(h)": "Investigation Exemption",
+            "8(1)(i)": "Cabinet Papers Exemption",
+            "8(1)(j)": "Personal Information Exemption"
+        }
+
+        exemptions_detected = []
+        for sec, name in exemption_names.items():
+            pattern = rf"\b8\(1\)\({sec[-2]}\)"
+            if sec in query_lower or re.search(pattern, query_lower):
+                exemptions_detected.append({
+                    "section": f"Section {sec}",
+                    "exemption_name": name
+                })
+
+        if any(word in query_lower for word in ["denied", "rejected", "refused", "appeal", "appealed", "misapplying"]):
+            query_intent = "First Appeal against Denial"
+            template_used = "RTI First Appeal Template"
+
+        # Generate guidance (what_to_avoid and what_to_include)
+        what_to_avoid = [
+            "Broad or open-ended questions that allow the PIO to deny on grounds of disproportionate diversion of resources (Section 7(9))"
+        ]
+        if user_query.strip().startswith(("why", "how", "what", "when", "where")):
+            what_to_avoid.insert(0, "Phrasing requests as questions (use document-oriented language instead)")
+        emotional_words = ["unfair", "corrupt", "biased", "harassment", "discrimination"]
+        if any(word in query_lower for word in emotional_words):
+            what_to_avoid.insert(0, "Using emotional, accusatory, or subjective language")
+        if len(user_query.split()) < 10:
+            what_to_avoid.insert(0, "Vague requests without specific date ranges or details")
+
+        what_to_include = [
+            "Specific date ranges (e.g., FY 2023-2024)",
+            "Clear document types (e.g., certified copies of circulars, correspondence, work orders)",
+            "Citing specific sections of the RTI Act under which information is sought (e.g., Section 6(1))"
+        ]
+
+        guidance = {
+            "what_to_avoid": what_to_avoid,
+            "what_to_include": what_to_include
+        }
+
         # Build metadata for LLM
         metadata = {
             "extracted_sections": extracted_sections,
             "extracted_ministries": extracted_ministries,
-            "date_range": date_range
+            "date_range": date_range,
+            "legal_topic": legal_topic,
+            "query_intent": query_intent,
+            "exemptions_detected": exemptions_detected
         }
 
         # Optimize query phrasing (with LLM using precedent context, ministry, sections, metadata)
@@ -122,6 +201,8 @@ class QueryOptimizer:
             "issues_detected": issues,
             "improvements_made": improvements,
             "relevant_precedents": precedents,
+            "template_used": template_used,
+            "guidance": guidance,
             "metadata": {
                 "query_length": len(user_query),
                 "has_dates": any(word in user_query.lower() for word in ["2023", "2024", "2025"]),
@@ -129,7 +210,10 @@ class QueryOptimizer:
                 "extracted_sections": extracted_sections,
                 "extracted_ministries": extracted_ministries,
                 "date_range": date_range,
-                "document_types": self._extract_document_types(user_query)
+                "document_types": self._extract_document_types(user_query),
+                "legal_topic": legal_topic,
+                "query_intent": query_intent,
+                "exemptions_detected": exemptions_detected
             },
             "ministry_suggestion": ministry_suggestion,
             "section_recommendations": section_recommendations,
@@ -246,16 +330,6 @@ class QueryOptimizer:
         Suggest ministry based on query context, precedents, and extracted entities
         Priority: extracted > query context > precedents
         """
-        if extracted_ministries:
-            # User already specified ministry
-            return {
-                "primary_ministry": extracted_ministries[0],
-                "confidence": 0.9,
-                "reasoning": "Ministry explicitly mentioned in query",
-                "alternative_ministries": extracted_ministries[1:] if len(extracted_ministries) > 1 else []
-            }
-
-        # Check query context for ministry keywords
         query_lower = query.lower()
         ministry_keywords = {
             "Ministry of Railways": ["railway", "train", "station", "irctc", "rail"],
@@ -269,53 +343,68 @@ class QueryOptimizer:
             "Ministry of External Affairs": ["passport", "visa", "foreign", "embassy"],
         }
 
+        # Analyze signal breakdown details
+        in_metadata = len(extracted_ministries) > 0
+        keyword_score = 0.0
+        keyword_matched_ministry = None
+
         for ministry, keywords in ministry_keywords.items():
             if any(keyword in query_lower for keyword in keywords):
-                return {
-                    "primary_ministry": ministry,
-                    "confidence": 0.8,
-                    "reasoning": f"Detected '{ministry}' context from query keywords",
-                    "alternative_ministries": []
-                }
+                keyword_score = 0.8
+                keyword_matched_ministry = ministry
+                break
 
-        if not precedents:
-            return {
-                "primary_ministry": "Unable to determine",
-                "confidence": 0.0,
-                "reasoning": "No relevant precedents found. Please specify the ministry or provide more context.",
-                "alternative_ministries": []
-            }
-
-        # Count ministries in precedents
-        ministry_counts = Counter()
+        precedent_counts = Counter()
         for prec in precedents:
-            ministry = prec.get("ministry", "Unknown")
-            if ministry and ministry != "Unknown":
-                ministry_counts[ministry] += 1
+            m = prec.get("ministry", "Unknown")
+            if m and m != "Unknown":
+                precedent_counts[m] += 1
 
-        if not ministry_counts:
-            return {
-                "primary_ministry": "Unable to determine",
-                "confidence": 0.0,
-                "reasoning": "Precedents found but ministry information unavailable",
-                "alternative_ministries": []
-            }
+        primary_ministry = "Unable to determine"
+        confidence = 0.0
+        reasoning = ""
 
-        # Get top ministry
-        most_common = ministry_counts.most_common(3)
-        primary_ministry, primary_count = most_common[0]
+        if extracted_ministries:
+            primary_ministry = extracted_ministries[0]
+            confidence = 0.9
+            reasoning = "Ministry explicitly mentioned in query"
+        elif keyword_matched_ministry:
+            primary_ministry = keyword_matched_ministry
+            confidence = 0.8
+            reasoning = f"Detected '{keyword_matched_ministry}' context from query keywords"
+        elif precedents and precedent_counts:
+            most_common = precedent_counts.most_common(1)
+            primary_ministry, count = most_common[0]
+            confidence = count / len(precedents)
+            reasoning = f"Based on {count}/{len(precedents)} similar cases"
+        else:
+            reasoning = "No relevant precedents or keywords found. Please specify the ministry."
 
-        # Calculate confidence based on frequency
-        total_precedents = len(precedents)
-        confidence = primary_count / total_precedents if total_precedents > 0 else 0.0
+        # Compute breakdown
+        precedent_count = precedent_counts.get(primary_ministry, 0)
+        signal_breakdown = {
+            "keyword_score": keyword_score,
+            "in_metadata": in_metadata,
+            "precedent_count": precedent_count
+        }
 
-        alternatives = [m[0] for m in most_common[1:]]
+        # Compute alternatives (list of dictionaries with keys: ministry, confidence)
+        alternatives = []
+        all_candidate_ministries = list(ministry_keywords.keys())
+        if primary_ministry in all_candidate_ministries:
+            all_candidate_ministries.remove(primary_ministry)
+        for alt_m in all_candidate_ministries[:3]:
+            alternatives.append({
+                "ministry": alt_m,
+                "confidence": 0.2
+            })
 
         return {
             "primary_ministry": primary_ministry,
             "confidence": confidence,
-            "reasoning": f"Based on {primary_count}/{total_precedents} similar cases",
-            "alternative_ministries": alternatives
+            "reasoning": reasoning,
+            "signal_breakdown": signal_breakdown,
+            "alternatives": alternatives
         }
 
     def _recommend_sections(
@@ -345,85 +434,66 @@ class QueryOptimizer:
             "denied", "rejected", "refused", "said", "they said", "exemption", "exempt"
         ])
 
+        primary_sections = []
+        optional_sections = []
+        exemption_notes = []
+
         if extracted_sections:
             # User already mentioned sections
-            primary = [
+            primary_sections = [
                 {"section": sec, "reason": "Mentioned in your query"}
                 for sec in extracted_sections
             ]
-
-            exemption_notes = []
-            if denial_mentioned and detected_exemptions:
-                exemption_notes.append({
-                    "detected_exemption": detected_exemptions[0],
-                    "counter_argument": self._get_exemption_counter_argument(detected_exemptions[0], query)
-                })
-
-            return {
-                "primary_sections": primary,
-                "optional_sections": [],
-                "exemption_notes": exemption_notes
-            }
-
-        if not precedents:
+        elif not precedents:
             # Default recommendation
-            primary = [{"section": "Section 6(1)", "reason": "Standard RTI request provision"}]
-
-            exemption_notes = []
-            if denial_mentioned and detected_exemptions:
-                exemption_notes.append({
-                    "detected_exemption": detected_exemptions[0],
-                    "counter_argument": self._get_exemption_counter_argument(detected_exemptions[0], query)
-                })
-
-            return {
-                "primary_sections": primary,
-                "optional_sections": [],
-                "exemption_notes": exemption_notes
-            }
-
-        # Count sections in precedents
-        section_counts = Counter()
-        for prec in precedents:
-            section = prec.get("section_cited", "")
-            if section and section.strip():
-                section_counts[section] += 1
-
-        primary_sections = []
-        optional_sections = []
-
-        if section_counts:
-            # Top 2 sections as primary
-            for section, count in section_counts.most_common(2):
-                primary_sections.append({
-                    "section": section,
-                    "reason": f"Cited in {count}/{len(precedents)} similar cases"
-                })
-
-            # Next 2 as optional
-            for section, count in section_counts.most_common(4)[2:]:
-                optional_sections.append({
-                    "section": section,
-                    "reason": f"Sometimes relevant ({count} cases)"
-                })
+            primary_sections = [{"section": "Section 6(1)", "reason": "Standard RTI request provision"}]
         else:
-            # Fallback
-            primary_sections.append({
-                "section": "Section 6(1)",
-                "reason": "Standard RTI request provision"
-            })
+            # Count sections in precedents
+            section_counts = Counter()
+            for prec in precedents:
+                section = prec.get("section_cited", "")
+                if section and section.strip():
+                    section_counts[section] += 1
 
-        exemption_notes = []
+            if section_counts:
+                # Top 2 sections as primary
+                for section, count in section_counts.most_common(2):
+                    primary_sections.append({
+                        "section": section,
+                        "reason": f"Cited in {count}/{len(precedents)} similar cases"
+                    })
+
+                # Next 2 as optional
+                for section, count in section_counts.most_common(4)[2:]:
+                    optional_sections.append({
+                        "section": section,
+                        "reason": f"Sometimes relevant ({count} cases)"
+                    })
+            else:
+                # Fallback
+                primary_sections.append({
+                    "section": "Section 6(1)",
+                    "reason": "Standard RTI request provision"
+                })
+
+        # Add clean exemption note strings
         if denial_mentioned and detected_exemptions:
-            exemption_notes.append({
-                "detected_exemption": detected_exemptions[0],
-                "counter_argument": self._get_exemption_counter_argument(detected_exemptions[0], query)
-            })
+            for ex in detected_exemptions:
+                counter = self._get_exemption_counter_argument(ex, query)
+                exemption_notes.append(f"Exemption {ex}: {counter}")
+
+        # Choose appropriate contextual guidance
+        contextual_guidance = "Ensure your query cites Section 6(1) of the RTI Act and specifies the exact period of records requested. Keep the request focused and objective to minimize the risk of rejection."
+        if detected_exemptions:
+            contextual_guidance = f"Since a Section {detected_exemptions[0]} exemption has been cited, emphasize that the requested information relates to public interest or official duties of the public servant, or cite Section 8(2) which overrides exemptions if public interest outweighs harm."
+        elif "road" in query_lower or "highway" in query_lower:
+            contextual_guidance = "For public works and infrastructure requests, cite Section 4(1)(b) proactive disclosure requirements and ask for certified copies of the measurement book and work completion certificate."
 
         return {
             "primary_sections": primary_sections,
             "optional_sections": optional_sections,
-            "exemption_notes": exemption_notes
+            "exemption_notes": exemption_notes,
+            "contextual_guidance": contextual_guidance
         }
 
     def _get_exemption_counter_argument(self, exemption_section: str, query: str = "") -> str:

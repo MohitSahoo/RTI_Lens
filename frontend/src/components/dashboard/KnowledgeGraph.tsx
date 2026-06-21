@@ -61,7 +61,7 @@ const GraphInner: React.FC = () => {
   const fetchGraphData = async () => {
     setLoading(true);
     try {
-      const response = await fetch('http://localhost:8002/api/graph');
+      const response = await fetch('http://localhost:8001/api/graph');
       if (!response.ok) throw new Error(`HTTP Error: ${response.status}`);
       const data = await response.json();
 
@@ -125,10 +125,11 @@ const GraphInner: React.FC = () => {
 
     } catch (err: any) {
       console.error('Error loading graph:', err);
-      alert('Failed to load knowledge graph. Make sure the backend is running on port 8002.');
+      alert('Failed to load knowledge graph. Make sure the backend is running on port 8001.');
     } finally {
       setLoading(false);
     }
+    
   };
 
   useEffect(() => {

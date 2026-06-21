@@ -1,9 +1,9 @@
 {
   "model_type": "RandomForest",
-  "accuracy": 0.8125,
-  "f1": 0.8052,
-  "training_size": 316,
-  "test_size": 80,
+  "accuracy": 0.8205,
+  "f1": 0.8372,
+  "training_size": 311,
+  "test_size": 78,
   "feature_names": [
     "ministry",
     "section_cited",
@@ -12,8 +12,8 @@
     "raw_text"
   ],
   "class_distribution": {
-    "1": 202,
-    "0": 194
+    "1": 200,
+    "0": 189
   },
   "low_data_threshold": 10,
   "disclaimer": "This prediction is based on historical data and is not legal advice."

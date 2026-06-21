@@ -9,6 +9,7 @@ from backend.enums import AppealLevel
 class QARequest(BaseModel):
     question: str = Field(..., min_length=10, max_length=500)
     top_k: Optional[int] = Field(5, ge=1, le=20)
+    search_mode: Optional[str] = Field("hybrid", pattern="^(bm25|semantic|hybrid)$")
 
 class QAResponse(BaseModel):
     answer: str
@@ -17,19 +18,36 @@ class QAResponse(BaseModel):
     confidence_score: Optional[float] = None
     calls_remaining: Optional[int] = None
     faithful: Optional[bool] = None
+    deepeval_scores: Optional[dict] = None
     session_id: Optional[str] = None
     thread_id: Optional[str] = None
+    retrieval_info: Optional[dict] = None  # search mode, counts, timing
+
 
 class DraftRequest(BaseModel):
-    ministry: str
-    section_cited: str
+    ministry: Optional[str] = None  # Optional - will be predicted by agents
+    section_cited: Optional[str] = None  # Optional - will be predicted by agents
     context: str = Field(..., min_length=50)
 
+
 class DraftResponse(BaseModel):
+    draft: Optional[str] = None
     improved_query: str
     change_notes: List[dict]
     avoid_phrases: List[str]
     sources: List[dict]
+    predicted_ministry: Optional[str] = None
+    predicted_section: Optional[str] = None
+    query_analysis: Optional[dict] = None
+    retrieved_precedents: Optional[List[dict]] = None
+    outcome_prediction: Optional[dict] = None
+    orchestration_method: Optional[str] = None
+    agent_results: Optional[List[dict]] = None
+    accepted_agent_results: Optional[List[dict]] = None
+    rejected_agent_results: Optional[List[dict]] = None
+    pipeline_trace: Optional[List[dict]] = None
+    session_id: Optional[str] = None
+    retrieval: Optional[dict] = None
 
 class PredictRequest(BaseModel):
     ministry: str

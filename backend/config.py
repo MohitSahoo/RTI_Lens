@@ -44,11 +44,21 @@ OPENAI_MODEL = "gpt-4o-mini"  # Cheap and fast
 
 # Groq settings
 GROQ_MODEL = "llama-3.1-8b-instant"  # Faster and higher rate limits
+GROQ_API_KEY_1 = os.getenv("GROQ_API_KEY_1", GROQ_API_KEY)
+GROQ_API_KEY_2 = os.getenv("GROQ_API_KEY_2", GROQ_API_KEY)
+GROQ_API_KEY_3 = os.getenv("GROQ_API_KEY_3", GROQ_API_KEY)
+GROQ_API_KEYS = [key for key in (GROQ_API_KEY_1, GROQ_API_KEY_2, GROQ_API_KEY_3) if key]
+
+# Gemini settings
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-1.5-flash")
 
 # MongoDB Vector Store
 MONGODB_URI = os.getenv("MONGODB_URI", "mongodb://localhost:27017/")
 MONGODB_DB = os.getenv("MONGODB_DB", "rtilens_vectors")
 MONGODB_COLLECTION = os.getenv("MONGODB_COLLECTION", "document_embeddings")
+MONGODB_VECTOR_INDEX = os.getenv("MONGODB_VECTOR_INDEX", "vector_index")
+MONGODB_VECTOR_CANDIDATES = int(os.getenv("MONGODB_VECTOR_CANDIDATES", "100"))
 
 # Embedding Model
 EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "all-MiniLM-L6-v2")
@@ -59,7 +69,7 @@ BM25_WEIGHT = float(os.getenv("BM25_WEIGHT", "0.4"))
 SEMANTIC_WEIGHT = float(os.getenv("SEMANTIC_WEIGHT", "0.6"))
 
 # Backboard Workflow Settings
-BACKBOARD_ENABLED = os.getenv("BACKBOARD_ENABLED", "true").lower() == "true"
+BACKBOARD_ENABLED = False
 
 # Solana Settings
 SOLANA_RPC_URL = os.getenv("SOLANA_RPC_URL", "https://api.devnet.solana.com")
