@@ -148,60 +148,19 @@ class PageIndexLoader:
 
     def get_relevant_sections(self, order_hashes: List[str], question: str, max_sections: int = 5) -> List[Dict]:
         """
-        Get relevant sections from multiple documents
-        Chunks the entire markdown texts using 500 words with 100 overlap,
-        and uses simple keyword matching to rank the chunks.
+        Get relevant sections from multiple documents.
+        First leverages the hierarchical PageIndex tree json structures to score, 
+        prioritize, and extract relevant sections from each document.
+        Then splits those prioritized sections into 500-word chunks (100 overlap)
+        and ranks them using keyword and citation boosts.
         Ensures diversity by limiting sections per order.
         """
         all_sections = []
 
-        for order_hash in order_hashes:
-            md_path = Path("data/cic_orders_md") / f"{order_hash}.md"
-            if not md_path.exists():
-                continue
-
-            with open(md_path, 'r', encoding='utf-8') as f:
-                full_text = f.read()
-
-            # Try to extract a clean title from the top of the file
-            title = "Central Information Commission"
-            lines = [line.strip() for line in full_text.split('\n') if line.strip()]
-            for line in lines[:5]:
-                if "vs" in line.lower() or "v." in line.lower():
-                    title = line.strip("# ")
-                    break
-
-            # Chunk by words: 500 words with 100 overlap
-            words = full_text.split()
-            chunks = []
-            chunk_size = 500
-            overlap = 100
-            
-            if len(words) <= chunk_size:
-                chunks = [full_text]
-            else:
-                i = 0
-                while i < len(words):
-                    chunk_words = words[i:i + chunk_size]
-                    chunks.append(" ".join(chunk_words))
-                    if i + chunk_size >= len(words):
-                        break
-                    i += chunk_size - overlap
-
-            for idx, chunk_text in enumerate(chunks):
-                all_sections.append({
-                    "title": title,
-                    "hierarchy": f"Central Information Commission > {title} > Chunk {idx+1}",
-                    "text": chunk_text,
-                    "order_hash": order_hash,
-                    "depth": 1,
-                    "line_num": idx * 400  # rough estimate for compatibility
-                })
-
-        # Robust tokenization for keyword matching
+        # Tokenization helper for keyword matching
         def get_keywords(text: str):
             text = text.lower()
-            # Preserve section patterns
+            # Preserve section patterns (like Section 8(1)(j))
             section_pattern = re.compile(r'\b\d+\(?[\w\d]*\)?(?:\(?[\w\d]*\)?)*\b')
             sections = set(section_pattern.findall(text))
             # Other words
@@ -209,19 +168,144 @@ class PageIndexLoader:
             return sections | words
 
         question_keywords = get_keywords(question)
+        section_pattern = re.compile(r'\b\d+\(?[\w\d]*\)?(?:\(?[\w\d]*\)?)*\b')
+        q_sections = section_pattern.findall(question.lower())
 
+        for order_hash in order_hashes:
+            md_path = Path("data/cic_orders_md") / f"{order_hash}.md"
+            if not md_path.exists():
+                continue
+
+            # Load PageIndex Tree JSON if available
+            tree = self.load_tree(order_hash)
+            
+            # Extract title
+            title = "Central Information Commission"
+            if tree and tree.get("metadata"):
+                title = tree["metadata"].get("title", title)
+            else:
+                # Fallback to file reading for title
+                try:
+                    with open(md_path, 'r', encoding='utf-8') as f:
+                        lines = [line.strip() for line in f.readlines() if line.strip()]
+                    for line in lines[:5]:
+                        if "vs" in line.lower() or "v." in line.lower():
+                            title = line.strip("# ")
+                            break
+                except Exception:
+                    pass
+
+            doc_sections_to_process = []
+
+            if tree and tree.get("structure"):
+                # Hierarchical Node Scoring & Prioritization
+                scored_nodes = []
+
+                def traverse_and_score(nodes, parent_title="", depth=0):
+                    for idx, node in enumerate(nodes):
+                        node_title = node.get("title", "")
+                        line_num = node.get("line_num", 0)
+                        
+                        # Next sibling line number determines boundary
+                        if idx + 1 < len(nodes):
+                            end_line = nodes[idx + 1].get("line_num", None)
+                        else:
+                            end_line = None
+
+                        hierarchy = f"{parent_title} > {node_title}" if parent_title else node_title
+                        
+                        # Score this node
+                        node_keywords = get_keywords(node_title)
+                        title_overlap = len(question_keywords & node_keywords)
+                        
+                        # Section match bonus in headings
+                        sec_bonus = 0
+                        for q_sec in q_sections:
+                            if q_sec in node_keywords:
+                                sec_bonus += 15  # High priority bonus for headings matching requested sections
+
+                        node_score = title_overlap + sec_bonus
+                        
+                        scored_nodes.append({
+                            "node": node,
+                            "hierarchy": hierarchy,
+                            "depth": depth,
+                            "line_num": line_num,
+                            "end_line": end_line,
+                            "score": node_score
+                        })
+
+                        if "nodes" in node and node["nodes"]:
+                            traverse_and_score(node["nodes"], hierarchy, depth + 1)
+
+                traverse_and_score(tree["structure"])
+                
+                # Sort nodes by score, pick top ones
+                scored_nodes.sort(key=lambda x: x["score"], reverse=True)
+                
+                # Filter out overlapping/redundant sections (e.g. parent vs child if scores are identical)
+                # Keep top 3 scoring branches
+                top_branches = scored_nodes[:3]
+                
+                for branch in top_branches:
+                    text = self.extract_section_text(md_path, branch["line_num"], branch["end_line"])
+                    if text and len(text.strip()) > 50:
+                        doc_sections_to_process.append({
+                            "hierarchy": f"Central Information Commission > {title} > {branch['hierarchy']}",
+                            "text": text,
+                            "title": title
+                        })
+            
+            # Fallback if no tree structure could be parsed/loaded
+            if not doc_sections_to_process:
+                try:
+                    with open(md_path, 'r', encoding='utf-8') as f:
+                        full_text = f.read()
+                    doc_sections_to_process.append({
+                        "hierarchy": f"Central Information Commission > {title}",
+                        "text": full_text,
+                        "title": title
+                    })
+                except Exception:
+                    continue
+
+            # Process the prioritized document sections into 500-word chunks with 100 overlap
+            for doc_sec in doc_sections_to_process:
+                words = doc_sec["text"].split()
+                chunk_size = 500
+                overlap = 100
+                chunks = []
+
+                if len(words) <= chunk_size:
+                    chunks = [doc_sec["text"]]
+                else:
+                    i = 0
+                    while i < len(words):
+                        chunk_words = words[i:i + chunk_size]
+                        chunks.append(" ".join(chunk_words))
+                        if i + chunk_size >= len(words):
+                            break
+                        i += chunk_size - overlap
+
+                for idx, chunk_text in enumerate(chunks):
+                    all_sections.append({
+                        "title": doc_sec["title"],
+                        "hierarchy": f"{doc_sec['hierarchy']} > Chunk {idx+1}",
+                        "text": chunk_text,
+                        "order_hash": order_hash,
+                        "depth": 1,
+                        "line_num": idx * 400
+                    })
+
+        # Score the final chunks using the existing keyword matching & citation boosting
         for section in all_sections:
             text_keywords = get_keywords(section["text"])
             title_keywords = get_keywords(section["title"])
 
-            # Score: overlap
             text_overlap = len(question_keywords & text_keywords)
             title_overlap = len(question_keywords & title_keywords)
 
-            # High bonus for matching section numbers in title or text
             section_match_bonus = 0
-            section_pattern = re.compile(r'\b\d+\(?[\w\d]*\)?(?:\(?[\w\d]*\)?)*\b')
-            q_sections = section_pattern.findall(question.lower())
             for q_sec in q_sections:
                 if q_sec in title_keywords:
                     section_match_bonus += 10
@@ -230,11 +314,10 @@ class PageIndexLoader:
 
             section["relevance_score"] = text_overlap + (title_overlap * 3) + section_match_bonus
 
-        # Sort by relevance
+        # Sort all chunks by relevance
         all_sections.sort(key=lambda x: x["relevance_score"], reverse=True)
 
         # Ensure diversity: limit sections per order
-        # Take top 1-2 sections per order, cycling through orders
         max_per_order = 2 if len(order_hashes) == 1 else 1
         order_counts = {}
         diverse_sections = []

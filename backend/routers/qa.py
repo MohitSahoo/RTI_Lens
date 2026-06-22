@@ -254,51 +254,74 @@ async def answer_question(request: Request, body: QARequest, db: DBSession = Dep
         )
         answer = response.choices[0].message.content or ""
 
-        # RAGAS Evaluation using official ragas library
+        # RAGAS Evaluation using official ragas library or fallback
         context_texts = [s.get('text', '') for s in sources if s.get('text')]
         eval_results = {}
 
-        if RAGAS_AVAILABLE and context_texts:
-            try:
-                llm = ChatGroq(model=GROQ_MODEL, api_key=GROQ_API_KEY)
-                dataset = Dataset.from_list([{
-                    "question": question,
-                    "answer": answer,
-                    "contexts": context_texts,
-                    "ground_truth": ""
-                }])
-
-                result = evaluate(
-                    dataset=dataset,
-                    metrics=[faithfulness, context_precision, context_recall],
-                    llm=llm
-                )
-
-                # Extract scores from ragas result
+        if context_texts:
+            if RAGAS_AVAILABLE:
                 try:
-                    df = result.to_pandas()
-                    if hasattr(df, 'to_dict'):
-                        result_dict = df.to_dict(orient="records")[0] if len(df) > 0 else {}
-                    else:
-                        result_dict = {}
-                except Exception:
-                    result_dict = {}
+                    llm = ChatGroq(model=GROQ_MODEL, api_key=GROQ_API_KEY)
+                    dataset = Dataset.from_list([{
+                        "question": question,
+                        "answer": answer,
+                        "contexts": context_texts,
+                        "ground_truth": ""
+                    }])
 
-                eval_results = {
-                    "faithfulness": float(result_dict.get("faithfulness", 0.0) or 0.0),
-                    "context_precision": float(result_dict.get("context_precision", 0.0) or 0.0),
-                    "context_recall": float(result_dict.get("context_recall", 0.0) or 0.0)
-                }
-            except Exception as e:
-                logger.warning(f"RAGAS eval failed, using fallback: {e}")
-                # Fallback to custom evaluator
-                evaluator = RAGASEvaluator()
-                eval_results = evaluator.evaluate_full_pipeline(
-                    query=question,
-                    answer=answer,
-                    contexts=context_texts,
-                    source_scores=[s.get('score', 0.5) for s in sources]
-                )
+                    result = evaluate(
+                        dataset=dataset,
+                        metrics=[faithfulness, context_precision, context_recall],
+                        llm=llm
+                    )
+
+                    # Extract scores from ragas result
+                    try:
+                        df = result.to_pandas()
+                        if hasattr(df, 'to_dict'):
+                            result_dict = df.to_dict(orient="records")[0] if len(df) > 0 else {}
+                        else:
+                            result_dict = {}
+                    except Exception:
+                        result_dict = {}
+
+                    eval_results = {
+                        "faithfulness": float(result_dict.get("faithfulness", 0.0) or 0.0),
+                        "context_precision": float(result_dict.get("context_precision", 0.0) or 0.0),
+                        "context_recall": float(result_dict.get("context_recall", 0.0) or 0.0)
+                    }
+                except Exception as e:
+                    logger.warning(f"RAGAS eval failed, using fallback: {e}")
+                    # Fallback to custom evaluator
+                    evaluator = RAGASEvaluator()
+                    fallback_res = evaluator.evaluate_full_pipeline(
+                        query=question,
+                        answer=answer,
+                        contexts=context_texts,
+                        source_scores=[s.get('score', 0.5) for s in sources]
+                    )
+                    eval_results = {
+                        "faithfulness": fallback_res.get("faithfulness", 0.5),
+                        "context_precision": fallback_res.get("context_relevance", 0.5),
+                        "context_recall": fallback_res.get("answer_relevance", 0.5)
+                    }
+            else:
+                # Custom evaluator fallback when RAGAS is not installed
+                try:
+                    evaluator = RAGASEvaluator()
+                    fallback_res = evaluator.evaluate_full_pipeline(
+                        query=question,
+                        answer=answer,
+                        contexts=context_texts,
+                        source_scores=[s.get('score', 0.5) for s in sources]
+                    )
+                    eval_results = {
+                        "faithfulness": fallback_res.get("faithfulness", 0.5),
+                        "context_precision": fallback_res.get("context_relevance", 0.5),
+                        "context_recall": fallback_res.get("answer_relevance", 0.5)
+                    }
+                except Exception as e:
+                    logger.error(f"Fallback evaluator failed: {e}")
 
         is_faithful = eval_results.get("faithfulness", 0.0) >= 0.7
         

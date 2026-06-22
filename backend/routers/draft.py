@@ -66,6 +66,7 @@ def _extract_agent_draft(parsed_data: Optional[Dict], fallback: str = "") -> str
     """Read draft text from current or legacy agent output."""
     if not parsed_data:
         return fallback
+    parsed_data = _ensure_dict(parsed_data)
     draft = parsed_data.get("draft") or parsed_data.get("improved_query")
     if isinstance(draft, dict):
         return _format_structured_draft(draft)
@@ -83,19 +84,42 @@ def _format_structured_draft(draft_obj: Any) -> str:
 
     lines: List[str] = []
 
+    def append_bullets(items: List[Any], indent: str = "") -> None:
+        for item in items:
+            if isinstance(item, dict):
+                title = item.get("title") or item.get("heading") or item.get("label")
+                text = item.get("text") or item.get("content") or item.get("reason") or item.get("value")
+                if title and text:
+                    lines.append(f"{indent}- {title}: {_safe_text(text)}")
+                elif title:
+                    lines.append(f"{indent}- {title}")
+                elif text is not None:
+                    lines.append(f"{indent}- {_safe_text(text)}")
+                else:
+                    lines.append(f"{indent}- {_safe_text(item)}")
+                continue
+            lines.append(f"{indent}- {_safe_text(item)}")
+
     def append_section(label: str, value: Any) -> None:
         if value in (None, "", [], {}):
             return
         if isinstance(value, dict):
             lines.append(f"{label}:")
             for key, item in value.items():
-                lines.append(f"{key}: {_safe_text(item)}")
+                if isinstance(item, (dict, list)):
+                    lines.append(f"{key}:")
+                    if isinstance(item, dict):
+                        for sub_key, sub_value in item.items():
+                            lines.append(f"- {sub_key}: {_safe_text(sub_value)}")
+                    else:
+                        append_bullets(item, indent="")
+                else:
+                    lines.append(f"- {key}: {_safe_text(item)}")
             lines.append("")
             return
         if isinstance(value, list):
             lines.append(f"{label}:")
-            for item in value:
-                lines.append(f"- {_safe_text(item)}")
+            append_bullets(value)
             lines.append("")
             return
         lines.append(f"{label}:")
@@ -110,6 +134,78 @@ def _format_structured_draft(draft_obj: Any) -> str:
         return json.dumps(draft_obj, ensure_ascii=False, indent=2)
 
     return "\n".join(line for line in lines if line is not None).strip()
+
+
+def _normalize_first_appeal_draft(draft_text: str, context: str = "") -> str:
+    """Polish a draft into a filing-ready first appeal format."""
+    if not draft_text:
+        return draft_text
+
+    text = draft_text.strip()
+
+    # First appeals should go to the FAA, not the CIC.
+    if "The Central Information Commission" in text or "Central Information Commission" in text:
+        text = text.replace("The Central Information Commission, New Delhi", "The First Appellate Authority")
+        text = text.replace("Central Information Commission, New Delhi", "The First Appellate Authority")
+        text = text.replace("The Central Information Commission", "The First Appellate Authority")
+        text = text.replace("Central Information Commission", "The First Appellate Authority")
+
+    # Prefer a standard first appeal subject.
+    if "Subject:" in text and "First Appeal under the Right to Information Act, 2005" not in text:
+        text = text.replace(
+            "Subject:",
+            "Subject:\nFirst Appeal under the Right to Information Act, 2005"
+        )
+
+    # Avoid raw JSON objects leaking into the output.
+    text = text.replace('{"', "").replace('"}', "")
+    text = text.replace("},", "\n")
+
+    # If the output has obvious placeholders, keep them clearly marked.
+    if "Unknown" in text and "Application No:" in text and "Application No: Unknown" not in text:
+        text = text.replace("Application No:", "Application No: [insert application number]")
+
+    # Gentle cleanup for common section labels.
+    text = text.replace("Prayer/Reliefs:", "Prayer / Reliefs:")
+    text = text.replace("Place/Date:", "Place / Date:")
+
+    return text.strip()
+
+
+def _infer_first_appeal_meta(context: str, body: Optional[DraftRequest] = None) -> Dict[str, str]:
+    """Infer filing metadata for a stronger first-appeal draft."""
+    text = context.lower()
+    ministry = (body.ministry if body and body.ministry else "").strip()
+    section = (body.section_cited if body and body.section_cited else "").strip()
+
+    appeal_level = "first appeal"
+    if "second appeal" in text:
+        appeal_level = "second appeal"
+
+    if not ministry:
+        if "finance" in text or "gst" in text or "tax" in text:
+            ministry = "Ministry of Finance"
+        elif "railway" in text:
+            ministry = "Ministry of Railways"
+        elif "home" in text or "police" in text:
+            ministry = "Ministry of Home Affairs"
+        else:
+            ministry = "Concerned Public Authority"
+
+    if not section:
+        if "delay" in text or "time limit" in text or "no reply" in text:
+            section = "Section 7(1)"
+        elif "exempt" in text or "denied" in text or "rejection" in text:
+            section = "Section 8"
+        else:
+            section = "RTI Act, 2005"
+
+    return {
+        "appeal_level": appeal_level,
+        "ministry": ministry,
+        "section": section,
+        "addressee": "The First Appellate Authority"
+    }
 
 
 def _build_trace_step(step: str, status: str, detail: str, extra: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
@@ -138,6 +234,19 @@ def _text_preview(value: Any, limit: int) -> str:
     return _safe_text(value)[:limit]
 
 
+def _ensure_dict(value: Any, default: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
+    """Normalize model outputs so downstream code can safely call .get()."""
+    if isinstance(value, dict):
+        return value
+    if isinstance(value, list):
+        if len(value) == 1 and isinstance(value[0], dict):
+            return value[0]
+        return {"items": value}
+    if value is None:
+        return default.copy() if default else {}
+    return {"value": value}
+
+
 def _agent_prompt_label(index: int) -> str:
     return ["groq1_focused", "groq2_strategic", "groq3_comprehensive"][index]
 
@@ -152,7 +261,8 @@ def _agent_acceptance_score(agent: AgentResult) -> float:
     if agent.prediction and "probability" in agent.prediction:
         return float(agent.prediction.get("probability") or 0.0)
     if agent.parsed_data:
-        confidence = agent.parsed_data.get("confidence") or agent.parsed_data.get("overall_confidence") or agent.parsed_data.get("strategy_confidence")
+        parsed_data = _ensure_dict(agent.parsed_data)
+        confidence = parsed_data.get("confidence") or parsed_data.get("overall_confidence") or parsed_data.get("strategy_confidence")
         if isinstance(confidence, (int, float)):
             return float(confidence)
     return 0.0
@@ -364,6 +474,8 @@ Instructions:
 4. Recommend specific case citations that support the appeal
 5. Predict appeal outcome (allowed/denied) with reasoning
 6. Format the draft with To, Subject, Facts, Grounds, Prayer/Reliefs, Enclosures, Place/Date, and Signature
+7. Keep Grounds and Prayer/Reliefs as plain bullet points, not JSON objects or nested dictionaries
+8. Keep every section human-readable and ready to file
 
 Return JSON: {{"draft": "...", "legal_issues_found": [], "improvements": [], "predicted_outcome": "allowed|denied", "confidence": 0.0-1.0, "sources_cited": []}}""",
         "groq2_strategic": """You are a strategic RTI first appeal drafter focusing on administrative accountability.
@@ -386,6 +498,8 @@ Instructions:
 4. Write the appeal in a formal, ready-to-edit format
 5. Predict outcome with strategic analysis
 6. Format the draft with To, Subject, Facts, Grounds, Prayer/Reliefs, Enclosures, Place/Date, and Signature
+7. Keep Grounds and Prayer/Reliefs as plain bullet points, not JSON objects or nested dictionaries
+8. Keep every section human-readable and ready to file
 
 Return JSON: {{"draft": "...", "risk_factors": [], "strategic_tactics": [], "predicted_outcome": "allowed|denied", "strategy_confidence": 0.0-1.0, "recommended_documents": []}}""",
         "groq3_comprehensive": """You are a comprehensive RTI first appeal drafter covering all angles.
@@ -407,6 +521,8 @@ Instructions:
 3. Identify missing elements that could cause denial
 4. Produce a structured appeal with placeholders for missing dates, names, and references
 5. Format the draft with To, Subject, Facts, Grounds, Prayer/Reliefs, Enclosures, Place/Date, and Signature
+6. Keep Grounds and Prayer/Reliefs as plain bullet points, not JSON objects or nested dictionaries
+7. Keep every section human-readable and ready to file
 
 Return JSON: {{"draft": "...", "completeness_score": 0-10, "missing_elements": [], "consistency_check": "pass|warning|fail", "predicted_outcome": "allowed|denied", "overall_confidence": 0.0-1.0, "final_notes": []}}"""
     }
@@ -446,6 +562,7 @@ Return JSON: {{"draft": "...", "completeness_score": 0-10, "missing_elements": [
                 response_text = response_text[json_start:json_end].strip()
 
             parsed = json.loads(response_text) if response_text else {}
+            parsed = _ensure_dict(parsed)
         except (json.JSONDecodeError, ValueError):
             parsed = {"error": "Could not parse JSON", "raw_response": _text_preview(response_text, 200)}
 
@@ -622,7 +739,7 @@ Return JSON:
                 json_end = response_text.find("```", json_start)
                 response_text = response_text[json_start:json_end].strip()
 
-            return json.loads(response_text)
+            return _ensure_dict(json.loads(response_text))
         except (json.JSONDecodeError, ValueError):
             # Fallback parsing
             return {
@@ -692,6 +809,10 @@ async def generate_draft(request: Request, body: DraftRequest, db: Session = Dep
             raise HTTPException(status_code=400, detail="Invalid context input")
         trace("input", "complete", "Context sanitized", {"length": len(context)})
 
+        filing_meta = _infer_first_appeal_meta(context=context, body=body)
+        resolved_ministry = filing_meta["ministry"]
+        resolved_section = filing_meta["section"]
+
         # Step 1: RAG retrieval
         trace("rag", "running", "Retrieving similar precedents with BM25 + vector search")
         logger.info("Step 1: Retrieving precedents...")
@@ -699,7 +820,7 @@ async def generate_draft(request: Request, body: DraftRequest, db: Session = Dep
             db=db,
             session_id=session_id,
             context=context,
-            ministry=body.ministry
+            ministry=body.ministry or resolved_ministry
         )
 
         if not case_details:
@@ -717,11 +838,11 @@ async def generate_draft(request: Request, body: DraftRequest, db: Session = Dep
         pipeline_guidance = _derive_pipeline_guidance(
             context=context,
             precedents=case_details,
-            requested_ministry=body.ministry,
-            requested_section=body.section_cited
+            requested_ministry=body.ministry or resolved_ministry,
+            requested_section=body.section_cited or resolved_section
         )
-        resolved_ministry = pipeline_guidance["resolved_ministry"]
-        resolved_section = pipeline_guidance["resolved_section"]
+        resolved_ministry = pipeline_guidance["resolved_ministry"] if pipeline_guidance["resolved_ministry"] != "Unknown" else resolved_ministry
+        resolved_section = pipeline_guidance["resolved_section"] if pipeline_guidance["resolved_section"] != "Unknown" else resolved_section
         trace(
             "classification",
             "complete",
@@ -772,7 +893,7 @@ async def generate_draft(request: Request, body: DraftRequest, db: Session = Dep
             "Groq drafting agents completed",
             {
                 "completed": len(groq_results),
-                "succeeded": sum(1 for r in groq_results if r.parsed_data and not r.parsed_data.get("error"))
+                "succeeded": sum(1 for r in groq_results if r.parsed_data and not _ensure_dict(r.parsed_data).get("error"))
             }
         )
 
@@ -780,6 +901,7 @@ async def generate_draft(request: Request, body: DraftRequest, db: Session = Dep
         logger.info("Step 3: Running prediction model on each agent output...")
         trace("prediction", "running", "Scoring each Groq draft with the prediction model")
         for result in groq_results:
+            result.parsed_data = _ensure_dict(result.parsed_data)
             agent_draft = _extract_agent_draft(result.parsed_data)
             if agent_draft:
                 try:
@@ -828,6 +950,7 @@ async def generate_draft(request: Request, body: DraftRequest, db: Session = Dep
             retrieved_precedents=case_details,
             accepted_results=accepted_results
         )
+        orchestration_result = _ensure_dict(orchestration_result)
         trace(
             "orchestration",
             "complete",
@@ -838,12 +961,12 @@ async def generate_draft(request: Request, body: DraftRequest, db: Session = Dep
         final_draft = orchestration_result.get('selected_draft') or orchestration_result.get('selected_improved_query')
         if isinstance(final_draft, dict):
             final_draft = _format_structured_draft(final_draft)
-        final_draft = _safe_text(final_draft).strip()
+        final_draft = _normalize_first_appeal_draft(_safe_text(final_draft).strip(), context=context)
 
         if not final_draft or final_draft == context.strip() or "Subject:" not in final_draft or "Grounds:" not in final_draft:
             fallback_agent = max(accepted_results or groq_results, key=_agent_acceptance_score)
             final_draft = _extract_agent_draft(fallback_agent.parsed_data, context)
-            final_draft = _safe_text(final_draft).strip()
+            final_draft = _normalize_first_appeal_draft(_safe_text(final_draft).strip(), context=context)
 
         predicted_ministry = orchestration_result.get('predicted_ministry') or resolved_ministry
         predicted_section = orchestration_result.get('predicted_section') or resolved_section
@@ -898,10 +1021,11 @@ async def generate_draft(request: Request, body: DraftRequest, db: Session = Dep
         if not change_notes and groq_results:
             # This part might need review: currently uses raw groq results for change_notes fallback
             # Consider if change_notes should be derived from Gemini's orchestration_reasoning or specific agent insights
-            best_agent = max(groq_results, key=lambda r: r.parsed_data.get('confidence', 0) if r.parsed_data else 0)
+            best_agent = max(groq_results, key=lambda r: _ensure_dict(r.parsed_data).get('confidence', 0) if r.parsed_data else 0)
             if best_agent.parsed_data:
-                if 'legal_issues_found' in best_agent.parsed_data:
-                    change_notes = [{"original": "query issue", "revised": "improved", "reason": r} for r in best_agent.parsed_data['legal_issues_found'][:3]]
+                parsed_data = _ensure_dict(best_agent.parsed_data)
+                if 'legal_issues_found' in parsed_data:
+                    change_notes = [{"original": "query issue", "revised": "improved", "reason": r} for r in parsed_data['legal_issues_found'][:3]]
 
         # Avoid phrases from orchestration or fallback
         avoid_phrases = orchestration_result.get('avoid_phrases', [])
@@ -919,11 +1043,13 @@ async def generate_draft(request: Request, body: DraftRequest, db: Session = Dep
             "session_id": session_id,
             "draft": final_draft,
             "improved_query": final_draft,
+            "addressee": filing_meta["addressee"],
             "change_notes": change_notes[:5],
             "avoid_phrases": avoid_phrases[:5],
             "sources": sources[:3],
             "predicted_ministry": predicted_ministry,
             "predicted_section": predicted_section,
+            "appeal_level": filing_meta["appeal_level"],
             "query_analysis": pipeline_guidance,
             "retrieved_precedents": case_details[:5],
             "outcome_prediction": final_prediction, # Include the final prediction model result
@@ -932,7 +1058,7 @@ async def generate_draft(request: Request, body: DraftRequest, db: Session = Dep
                 {
                     "agent": r.agent_name,
                     "response_summary": _text_preview(r.response_text, 200),
-                    "parsed_data_preview": {k: v for k, v in r.parsed_data.items() if k in ['draft', 'improved_query', 'predicted_outcome', 'confidence']} if r.parsed_data else {},
+                    "parsed_data_preview": {k: v for k, v in _ensure_dict(r.parsed_data).items() if k in ['draft', 'improved_query', 'predicted_outcome', 'confidence']} if r.parsed_data else {},
                     "draft_preview": _text_preview(_extract_agent_draft(r.parsed_data), 400),
                     "prediction_preview": r.prediction
                 }
@@ -942,7 +1068,7 @@ async def generate_draft(request: Request, body: DraftRequest, db: Session = Dep
                 {
                     "agent": r.agent_name,
                     "response_summary": _text_preview(r.response_text, 200),
-                    "parsed_data_preview": {k: v for k, v in r.parsed_data.items() if k in ['draft', 'improved_query', 'predicted_outcome', 'confidence']} if r.parsed_data else {},
+                    "parsed_data_preview": {k: v for k, v in _ensure_dict(r.parsed_data).items() if k in ['draft', 'improved_query', 'predicted_outcome', 'confidence']} if r.parsed_data else {},
                     "draft_preview": _text_preview(_extract_agent_draft(r.parsed_data), 400),
                     "prediction_preview": r.prediction
                 }
@@ -952,7 +1078,7 @@ async def generate_draft(request: Request, body: DraftRequest, db: Session = Dep
                 {
                     "agent": r.agent_name,
                     "response_summary": _text_preview(r.response_text, 200), # truncated for brevity
-                    "parsed_data_preview": {k: v for k, v in r.parsed_data.items() if k in ['draft', 'improved_query', 'predicted_outcome', 'confidence']} if r.parsed_data else {},
+                    "parsed_data_preview": {k: v for k, v in _ensure_dict(r.parsed_data).items() if k in ['draft', 'improved_query', 'predicted_outcome', 'confidence']} if r.parsed_data else {},
                     "draft_preview": _text_preview(_extract_agent_draft(r.parsed_data), 400),
                     "prediction_preview": r.prediction
                 }

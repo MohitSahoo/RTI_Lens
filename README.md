@@ -35,6 +35,15 @@
 > **RTI-Lens** is a full-stack AI platform that makes the Right to Information Act accessible to every Indian citizen —  
 > with case-grounded answers, AI-drafted appeals, outcome predictions, and blockchain-verified submissions.
 
+### What the platform does
+
+- `Q&A`: Retrieve grounded answers from CIC precedent data.
+- `Draft assistant`: Generate filing-ready RTI first appeals with retrieval, three Groq agents, prediction scoring, and Gemini orchestration.
+- `Predictor`: Estimate whether a request is likely to be allowed or denied.
+- `Knowledge graph`: Explore ministry, section, and outcome relationships.
+- `Blockchain`: Anchor submissions for auditability.
+- `Voice`: Transcribe spoken RTI queries into text.
+
 </div>
 
 ---
@@ -45,8 +54,8 @@
 
 ```
 ╔══════════════════════════════════════════════════════════════╗
-║  🥇  WINNER — MLH Track Prize sponsored by Backboard.io    ║
-║      NMIT HACKS 2026 Hackathon                              ║
+║  🥇  WINNER — MLH Track Prize sponsored by Backboard.io      ║
+║      NMIT HACKS 2026 Hackathon                               ║
 ║                                                              ║
 ║  Recognized for best production-grade integration of         ║
 ║  AI workflow observability in a civic-tech application.      ║
@@ -87,8 +96,8 @@ graph TB
     subgraph RAG["🔍 Hybrid RAG Pipeline"]
         BM25["📑 BM25 Lexical\nbm25_pageindex.pkl"]
         VEC["🧠 Semantic Vector\nall-MiniLM-L6-v2\n384-dim"]
-        FUSE["⚖️ Score Fusion\nBM25 40% · Semantic 60%"]
-        PI["🗂️ PageIndex Layer\nKeyword Boost + Diversity"]
+        FUSE["⚖️ Weighted Score Fusion\nBM25 40% · Semantic 60%"]
+        PI["🗂️ PageIndex Layer\nTree Traversal & Node Boosting"]
         CTX["📄 Context Assembly"]
     end
 
@@ -151,6 +160,25 @@ graph TB
     style XGB fill:#f59e0b,stroke:#d97706,color:#000
 ```
 
+## 🧭 Project Map
+
+| Area | Path | Purpose |
+|------|------|---------|
+| Frontend app | [`frontend/src/App.tsx`](/Users/mohitsahoo/RTI_Lens/frontend/src/App.tsx) | Defines the app routes and dashboard sections |
+| Draft UI | [`frontend/src/components/dashboard/AppealGenerator.tsx`](/Users/mohitsahoo/RTI_Lens/frontend/src/components/dashboard/AppealGenerator.tsx) | First-appeal generator interface |
+| Draft API | [`backend/routers/draft.py`](/Users/mohitsahoo/RTI_Lens/backend/routers/draft.py) | Multi-agent draft generation pipeline |
+| API bootstrap | [`backend/main.py`](/Users/mohitsahoo/RTI_Lens/backend/main.py) | FastAPI app and router registration |
+| Runtime config | [`backend/config.py`](/Users/mohitsahoo/RTI_Lens/backend/config.py) | Model keys, ports, weights, and defaults |
+| Input hygiene | [`backend/utils/sanitization.py`](/Users/mohitsahoo/RTI_Lens/backend/utils/sanitization.py) | Input cleaning and validation helpers |
+
+### Draft assistant behavior
+
+- The draft assistant is designed for RTI first appeals.
+- It now defaults to the `First Appellate Authority` for first-appeal drafts.
+- It cleans structured model output into filing-ready prose instead of raw JSON fragments.
+- It preserves placeholders when user details are missing, but keeps the output readable and editable.
+- The UI exposes the resolved addressee, ministry, and section so the user can verify the filing target quickly.
+
 ---
 
 ## 🔄 Hybrid RAG Pipeline — Deep Dive
@@ -162,12 +190,17 @@ flowchart LR
     PRE --> B["📑 BM25 Search\nrank-bm25\ntop_k×3 candidates"]
     PRE --> V["🧠 Semantic Search\nMongoDB Atlas\nCosine Similarity"]
 
-    B --> F["⚖️ Score Fusion\n40% BM25 + 60% Semantic\n+ Structural Boost"]
+    B --> F["⚖️ Weighted Score Fusion\n40% BM25 + 60% Semantic"]
     V --> F
 
     F --> DEDUP["🔄 Deduplicate\nby order_number"]
-    DEDUP --> PI["🗂️ PageIndex Layer\n• 500-word chunks + 100 overlap\n• Keyword & section citation boost\n• Max 2 chunks per document"]
-    PI --> CTX["📚 Context Assembly\n[Source N] Order: ...\nSection: ...\nText: ..."]
+    DEDUP --> PIT["🌳 PageIndex Tree Loader\nLoad order_hash.json trees"]
+    
+    PIT --> PIS["⚡ Hierarchical Node Scoring\n• Title & content overlap\n• Section Citation Boost (+15)\n• Extract top 3 scoring branches"]
+    
+    PIS --> CHK["🧩 Chunking & Reranking\n• 500-word chunks + 100 overlap\n• Keyword matching\n• Max 2 chunks per doc (diversity)"]
+
+    CHK --> CTX["📚 Context Assembly\n[Source N] Order: ...\nSection: ...\nText: ..."]
 
     CTX --> LLM["⚡ Groq Llama 3.1-8b\nGrounded Answer\n+ Source Citations"]
     Q --> LLM
@@ -175,7 +208,9 @@ flowchart LR
     LLM --> EVAL["📐 RAGAS Evaluation\nFaithfulness\nContext Precision\nContext Recall"]
     EVAL --> RESP["✅ Final Response\n+ Confidence Score\n+ Thread ID (Backboard)"]
 
-    style PI fill:#059669,stroke:#047857,color:#fff
+    style PIT fill:#0284c7,stroke:#0369a1,color:#fff
+    style PIS fill:#0f766e,stroke:#115e59,color:#fff
+    style CHK fill:#059669,stroke:#047857,color:#fff
     style LLM fill:#F55036,stroke:#c22d17,color:#fff
     style EVAL fill:#7c3aed,stroke:#5b21b6,color:#fff
     style F fill:#f59e0b,stroke:#d97706,color:#000
@@ -301,6 +336,20 @@ cd frontend && npm run dev
 # → http://localhost:5173
 ```
 
+### 5. Frontend routes
+
+| Route | Screen |
+|-------|--------|
+| `/` | Landing page |
+| `/dashboard` | Overview |
+| `/dashboard/qa` | RAG Q&A |
+| `/dashboard/draft` | RTI first-appeal draft assistant |
+| `/dashboard/predictor` | Outcome predictor |
+| `/dashboard/analytics` | Analytics dashboard |
+| `/dashboard/graph` | Knowledge graph |
+| `/dashboard/blockchain` | Blockchain tracker |
+| `/dashboard/gov` | Government portal simulation |
+
 ---
 
 ## 🔌 API Reference
@@ -326,6 +375,17 @@ cd frontend && npm run dev
 | `GET` | `/api/qa/source` | Full PageIndex context for order number |
 
 </details>
+
+### Draft response fields
+
+The draft endpoint now returns a filing-oriented payload with:
+
+- `draft` and `improved_query`: the final first-appeal text
+- `addressee`: the resolved filing target, usually `The First Appellate Authority`
+- `appeal_level`: the inferred appeal level
+- `predicted_ministry` and `predicted_section`: auto-populated routing fields
+- `pipeline_trace`: step-by-step audit metadata
+- `accepted_agent_results` and `rejected_agent_results`: transparency into the multi-agent selection process
 
 ---
 

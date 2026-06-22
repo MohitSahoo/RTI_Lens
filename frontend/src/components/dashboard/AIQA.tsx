@@ -37,6 +37,11 @@ interface Message {
   content: string;
   citations?: any[];
   confidence?: number;
+  deepeval_scores?: {
+    faithfulness: number;
+    context_precision: number;
+    context_recall?: number;
+  };
   timestamp: number;
   retrieval_info?: RetrievalInfo;
 }
@@ -183,7 +188,8 @@ const AIQA: React.FC = () => {
         content: data.answer,
         timestamp: Date.now(),
         citations: data.sources || [],
-        confidence: data.confidence_score || (data.confidence === 'high' ? 0.95 : 0.75),
+        confidence: data.confidence_score !== undefined ? data.confidence_score : (data.confidence === 'high' ? 0.95 : 0.75),
+        deepeval_scores: data.deepeval_scores,
         retrieval_info: data.retrieval_info
       };
       setMessages(prev => [...prev, aiMsg]);
@@ -321,16 +327,33 @@ const AIQA: React.FC = () => {
                   className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}
                 >
                   <div className={`max-w-[85%] space-y-3 ${msg.role === 'user' ? 'items-end' : 'items-start'}`}>
-                    {msg.role === 'assistant' && msg.confidence && (
-                      <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 w-fit">
-                        <div className={`w-1.5 h-1.5 rounded-full ${msg.confidence > 0.8 ? 'bg-success' : 'bg-amber-500'} animate-pulse`} />
-                        <span className="text-[9px] font-black text-white/50 uppercase tracking-widest">Confidence: {(msg.confidence * 100).toFixed(0)}%</span>
-                        <button 
-                          onClick={() => handleSpeak(msg.content, msg.id)}
-                          className={`ml-2 p-1 rounded-full transition-all ${playingId === msg.id ? 'bg-primary text-background' : 'hover:bg-white/10 text-white/40'}`}
-                        >
-                          <Volume2 size={10} className={playingId === msg.id ? 'animate-pulse' : ''} />
-                        </button>
+                    {msg.role === 'assistant' && (msg.confidence !== undefined || msg.deepeval_scores) && (
+                      <div className="flex flex-col gap-1.5 w-fit">
+                        <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 w-fit">
+                          <div className={`w-1.5 h-1.5 rounded-full ${msg.confidence && msg.confidence > 0.8 ? 'bg-success' : 'bg-amber-500'} animate-pulse`} />
+                          <span className="text-[9px] font-black text-white/50 uppercase tracking-widest">
+                            Confidence: {msg.confidence ? (msg.confidence * 100).toFixed(0) : '0'}%
+                          </span>
+                          <button 
+                            onClick={() => handleSpeak(msg.content, msg.id)}
+                            className={`ml-2 p-1 rounded-full transition-all ${playingId === msg.id ? 'bg-primary text-background' : 'hover:bg-white/10 text-white/40'}`}
+                          >
+                            <Volume2 size={10} className={playingId === msg.id ? 'animate-pulse' : ''} />
+                          </button>
+                        </div>
+                        {msg.deepeval_scores && (
+                          <div className="flex items-center gap-2 px-3 py-1 rounded-lg bg-white/[0.02] border border-white/5 text-[9px] font-mono text-white/40">
+                            <span>Faithfulness: {((msg.deepeval_scores.faithfulness || 0) * 100).toFixed(0)}%</span>
+                            <span>•</span>
+                            <span>Precision: {((msg.deepeval_scores.context_precision || 0) * 100).toFixed(0)}%</span>
+                            {msg.deepeval_scores.context_recall !== undefined && (
+                              <>
+                                <span>•</span>
+                                <span>Recall: {((msg.deepeval_scores.context_recall || 0) * 100).toFixed(0)}%</span>
+                              </>
+                            )}
+                          </div>
+                        )}
                       </div>
                     )}
 

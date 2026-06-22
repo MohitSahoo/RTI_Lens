@@ -209,6 +209,8 @@ const AppealGenerator: React.FC = () => {
 
   const finalMinistry = result?.predicted_ministry || 'Waiting for the RAG pass';
   const finalSection = result?.predicted_section || 'Waiting for the RAG pass';
+  const finalAddressee = result?.addressee || 'The First Appellate Authority';
+  const finalAppealLevel = result?.appeal_level || 'first appeal';
   const acceptedAgents = result?.accepted_agent_results || [];
   const rejectedAgents = result?.rejected_agent_results || [];
   const trace = result?.pipeline_trace || [];
@@ -446,6 +448,9 @@ const AppealGenerator: React.FC = () => {
                           Final draft
                         </div>
                       </div>
+                      <div className="border-b border-white/8 px-6 py-4 text-[11px] uppercase tracking-[0.24em] text-white/35">
+                        {finalAppealLevel} • {finalAddressee}
+                      </div>
                       <div className="max-h-[540px] overflow-y-auto whitespace-pre-wrap px-6 py-6 text-[14px] leading-7 text-white/80">
                         {result.draft || result.improved_query}
                       </div>
@@ -482,6 +487,10 @@ const AppealGenerator: React.FC = () => {
                       Auto-populated fields
                     </div>
                     <div className="mt-4 space-y-3">
+                      <div className="rounded-2xl border border-white/8 bg-white/[0.03] p-4">
+                        <div className="text-[9px] font-bold uppercase tracking-[0.25em] text-white/30">Addressee</div>
+                        <div className="mt-2 text-sm text-white">{finalAddressee}</div>
+                      </div>
                       <div className="rounded-2xl border border-white/8 bg-white/[0.03] p-4">
                         <div className="text-[9px] font-bold uppercase tracking-[0.25em] text-white/30">Ministry</div>
                         <div className="mt-2 text-sm text-white">{result?.predicted_ministry || 'Pending RAG inference'}</div>
