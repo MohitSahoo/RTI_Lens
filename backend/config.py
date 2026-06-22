@@ -69,7 +69,7 @@ BM25_WEIGHT = float(os.getenv("BM25_WEIGHT", "0.4"))
 SEMANTIC_WEIGHT = float(os.getenv("SEMANTIC_WEIGHT", "0.6"))
 
 # Backboard Workflow Settings
-BACKBOARD_ENABLED = False
+BACKBOARD_ENABLED = True
 
 # Solana Settings
 SOLANA_RPC_URL = os.getenv("SOLANA_RPC_URL", "https://api.devnet.solana.com")
