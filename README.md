@@ -107,6 +107,7 @@ graph TB
         A3["Groq Agent 3\nCompleteness Check"]
         XGB["📉 XGBoost Scorer\nAllowed/Denied Prob"]
         GEM["✨ Gemini Flash\nOrchestrator"]
+        POST["🧼 Draft Normalizer\nFirst-appeal formatter\nAddressee fixer"]
     end
 
     subgraph DATA["🗄️ Data Layer"]
@@ -133,6 +134,7 @@ graph TB
 
     DRAFT --> A1 & A2 & A3
     A1 & A2 & A3 --> XGB --> GEM
+    GEM --> POST
 
     QA --> RAGAS
     QA & DRAFT --> BB
@@ -145,6 +147,7 @@ graph TB
 
     GROQ --> A1 & A2 & A3
     GEM --> GEMINI
+    POST --> UI_DRAFT
     BC --> SOL
     VOICE --> EL
 
@@ -158,6 +161,7 @@ graph TB
     style RAGAS fill:#7c3aed,stroke:#5b21b6,color:#fff
     style PI fill:#059669,stroke:#047857,color:#fff
     style XGB fill:#f59e0b,stroke:#d97706,color:#000
+    style POST fill:#14b8a6,stroke:#0f766e,color:#fff
 ```
 
 ## 🧭 Project Map
@@ -185,35 +189,41 @@ graph TB
 
 ```mermaid
 flowchart LR
-    Q["🗣️ User Query"] --> PRE["🧹 Sanitize & Preprocess"]
+    Q["🗣️ User Question"] --> PRE["🧹 Sanitize question + select search mode"]
 
-    PRE --> B["📑 BM25 Search\nrank-bm25\ntop_k×3 candidates"]
-    PRE --> V["🧠 Semantic Search\nMongoDB Atlas\nCosine Similarity"]
+    PRE --> BM25["📑 BM25Loader.search()\nquery tokens · top_k×3"]
+    PRE --> SEM["🧠 VectorSearchLoader.search()\nMongoDB vector search · top_k×2"]
 
-    B --> F["⚖️ Weighted Score Fusion\n40% BM25 + 60% Semantic"]
-    V --> F
+    BM25 --> MODE{"Search mode"}
+    SEM --> MODE
 
-    F --> DEDUP["🔄 Deduplicate\nby order_number"]
-    DEDUP --> PIT["🌳 PageIndex Tree Loader\nLoad order_hash.json trees"]
-    
-    PIT --> PIS["⚡ Hierarchical Node Scoring\n• Title & content overlap\n• Section Citation Boost (+15)\n• Extract top 3 scoring branches"]
-    
-    PIS --> CHK["🧩 Chunking & Reranking\n• 500-word chunks + 100 overlap\n• Keyword matching\n• Max 2 chunks per doc (diversity)"]
+    MODE -->|bm25| BM25ONLY["BM25 results only"]
+    MODE -->|semantic| SEMONLY["Semantic results only"]
+    MODE -->|hybrid| HYB["⚖️ HybridSearch\nnormalize scores\nmerge by order_number"]
 
-    CHK --> CTX["📚 Context Assembly\n[Source N] Order: ...\nSection: ...\nText: ..."]
+    BM25ONLY --> HYB
+    SEMONLY --> HYB
 
-    CTX --> LLM["⚡ Groq Llama 3.1-8b\nGrounded Answer\n+ Source Citations"]
-    Q --> LLM
+    HYB --> DEDUP["🔄 Deduplicate\nby order_number\nkeep top_k"]
+    DEDUP --> PI["🌳 PageIndexLoader\nmap order_number → order_hash"]
+    PI --> SEC["🧭 get_relevant_sections_by_order_numbers()\nscore tree nodes\npick top branches"]
+    SEC --> CTX["📚 Build context\n[Source N] Order + hierarchy + text"]
+    CTX --> GROQ["⚡ Groq answer generation\nbased on retrieved context"]
+    GROQ --> EVAL["📐 RAGAS or custom evaluator\nfaithfulness · precision · recall"]
+    EVAL --> RESP["✅ QAResponse\nanswer · sources · confidence"]
 
-    LLM --> EVAL["📐 RAGAS Evaluation\nFaithfulness\nContext Precision\nContext Recall"]
-    EVAL --> RESP["✅ Final Response\n+ Confidence Score\n+ Thread ID (Backboard)"]
+    HYB -.->|fallback when vector search fails| BM25ONLY
+    SEM -.->|fallback when unavailable| BM25ONLY
 
-    style PIT fill:#0284c7,stroke:#0369a1,color:#fff
-    style PIS fill:#0f766e,stroke:#115e59,color:#fff
-    style CHK fill:#059669,stroke:#047857,color:#fff
-    style LLM fill:#F55036,stroke:#c22d17,color:#fff
+    style PI fill:#0284c7,stroke:#0369a1,color:#fff
+    style SEC fill:#0f766e,stroke:#115e59,color:#fff
+    style CTX fill:#059669,stroke:#047857,color:#fff
+    style GROQ fill:#F55036,stroke:#c22d17,color:#fff
     style EVAL fill:#7c3aed,stroke:#5b21b6,color:#fff
-    style F fill:#f59e0b,stroke:#d97706,color:#000
+    style HYB fill:#f59e0b,stroke:#d97706,color:#000
+    style BM25ONLY fill:#e0f2fe,stroke:#38bdf8,color:#000
+    style SEMONLY fill:#ede9fe,stroke:#8b5cf6,color:#000
+    style MODE fill:#fef3c7,stroke:#f59e0b,color:#000
 ```
 
 ---
@@ -231,10 +241,12 @@ sequenceDiagram
     participant G3 as Groq Agent 3<br/>(Comprehensive)
     participant XGB as XGBoost Model
     participant GEM as Gemini Flash<br/>(Orchestrator)
+    participant POST as Draft Normalizer<br/>(First-appeal formatting)
 
     User->>API: POST /api/draft {context, ministry, section}
     API->>BB: create_workflow_session("rti_draft")
     BB-->>API: thread_id
+    API->>API: infer_first_appeal_meta(context)
     API->>RAG: retrieve_precedents(query, top_k=10)
     RAG-->>API: 5 precedent cases
     API->>BB: log_retrieval(thread_id, method, count)
@@ -251,10 +263,14 @@ sequenceDiagram
 
     XGB-->>GEM: scored_results (allowed/denied prob)
     API->>GEM: orchestrate(accepted_drafts, precedents)
-    GEM-->>API: final_draft + change_notes + avoid_phrases
+    GEM-->>API: selected_draft + sources + change_notes
+    API->>POST: normalize_first_appeal_draft()
+    POST-->>API: filing-ready draft
+    API->>API: set addressee = First Appellate Authority
+    API->>API: attach appeal_level, ministry, section, pipeline_trace
 
     API->>BB: update_stage("completed")
-    API-->>User: DraftResponse {draft, sources, pipeline_trace}
+    API-->>User: DraftResponse {draft, addressee, appeal_level, sources, pipeline_trace}
 ```
 
 ---
