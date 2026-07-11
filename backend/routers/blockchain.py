@@ -15,6 +15,7 @@ class BlockchainRecord(BaseModel):
     dept: str
     status: str
     tx: str
+    content: Optional[str] = None
 
 class VerificationResponse(BaseModel):
     verified: bool
@@ -46,7 +47,7 @@ async def submit_to_blockchain(
         else:
             raise HTTPException(status_code=400, detail="No content or file provided")
 
-        result = await solana_client.record_rti_submission(doc_hash, wallet, department)
+        result = await solana_client.record_rti_submission(doc_hash, wallet, department, content=content)
         return result
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))

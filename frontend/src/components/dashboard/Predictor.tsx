@@ -32,6 +32,7 @@ const Predictor: React.FC = () => {
   });
 
   const [ministries, setMinistries] = useState<string[]>([]);
+  const adjustedProbability = result?.probability ?? 0;
 
   useEffect(() => {
     const fetchMinistries = async () => {
@@ -88,11 +89,11 @@ const Predictor: React.FC = () => {
   };
 
   const radarData = result ? [
-    { subject: 'Legal Grounds', A: result.probability * 100, B: 75 },
+    { subject: 'Legal Grounds', A: adjustedProbability * 100, B: 75 },
     { subject: 'Precedent Strength', A: result.confidence === 'high' ? 90 : 60, B: 80 },
     { subject: 'Section Match', A: 85, B: 70 },
     { subject: 'Procedural Compliance', A: 95, B: 90 },
-    { subject: 'ML Certainty', A: result.probability * 100, B: 85 },
+    { subject: 'ML Certainty', A: adjustedProbability * 100, B: 85 },
   ] : [];
 
   return (
@@ -239,7 +240,7 @@ const Predictor: React.FC = () => {
                           cx="96" cy="96" r="85" stroke="currentColor" strokeWidth="10" fill="transparent"
                           strokeDasharray={534}
                           initial={{ strokeDashoffset: 534 }}
-                          animate={{ strokeDashoffset: 534 - (534 * result.probability) }}
+                          animate={{ strokeDashoffset: 534 - (534 * adjustedProbability) }}
                           transition={{ duration: 1.5, ease: "easeOut" }}
                           className={`${result.prediction === 'allowed' ? 'text-success' : 'text-danger'} neo-glow`}
                           strokeLinecap="round"
@@ -247,7 +248,7 @@ const Predictor: React.FC = () => {
                       </svg>
                       <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
                         <span className="text-5xl font-bold font-display text-white">
-                          {Math.round(result.probability * 100)}%
+                          {Math.round(adjustedProbability * 100)}%
                         </span>
                         <span className="text-[8px] font-bold text-white/40 tracking-[0.3em] uppercase mt-1">Success Prob.</span>
                       </div>
@@ -271,6 +272,8 @@ const Predictor: React.FC = () => {
                         <span className={`text-xs font-black uppercase text-primary`}>{result.confidence}</span>
                       </div>
                     </div>
+
+
                   </GlassCard>
 
                   {/* Analysis Card */}

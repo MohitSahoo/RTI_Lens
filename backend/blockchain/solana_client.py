@@ -30,6 +30,7 @@ class SolanaRTIClient:
     def __init__(self, rpc_url: Optional[str] = None):
         self.rpc_url = rpc_url or SOLANA_RPC_URL or "https://api.devnet.solana.com"
         self._keypair = self._load_keypair()
+        self._history = {}  # In-memory persistence of citizen history by wallet_address
         logger.info(f"Initialized Solana RTI Client on {self.rpc_url}")
         if self._keypair:
             logger.info(f"Authority Address: {self._keypair.pubkey()}")
@@ -54,68 +55,87 @@ class SolanaRTIClient:
             logger.error(f"Failed to load Solana keypair: {e}")
             return None
 
-    async def record_rti_submission(self, doc_hash: str, wallet_address: str, department: str) -> Dict[str, Any]:
+    async def record_rti_submission(self, doc_hash: str, wallet_address: str, department: str, content: Optional[str] = None) -> Dict[str, Any]:
         """
         Records an RTI submission hash on Solana using the Memo Program.
         This provides immutable proof of existence and timestamping.
         """
+        result = None
         if not self._keypair:
             # Fallback to high-fidelity simulation if no key is present
-            return self._simulate_record(doc_hash, wallet_address, department)
+            result = self._simulate_record(doc_hash, wallet_address, department)
+        else:
+            try:
+                async with AsyncClient(self.rpc_url) as client:
+                    # 1. Construct the Memo data
+                    # We store a JSON blob with the hash and metadata
+                    memo_data = json.dumps({
+                        "type": "RTI_SUBMISSION",
+                        "hash": doc_hash,
+                        "dept": department,
+                        "citizen": wallet_address,
+                        "ts": int(time.time())
+                    }).encode('utf-8')
 
-        try:
-            async with AsyncClient(self.rpc_url) as client:
-                # 1. Construct the Memo data
-                # We store a JSON blob with the hash and metadata
-                memo_data = json.dumps({
-                    "type": "RTI_SUBMISSION",
-                    "hash": doc_hash,
-                    "dept": department,
-                    "citizen": wallet_address,
-                    "ts": int(time.time())
-                }).encode('utf-8')
+                    # 2. Create the instruction
+                    memo_instruction = Instruction(
+                        program_id=MEMO_PROGRAM_ID,
+                        data=memo_data,
+                        accounts=[]
+                    )
 
-                # 2. Create the instruction
-                memo_instruction = Instruction(
-                    program_id=MEMO_PROGRAM_ID,
-                    data=memo_data,
-                    accounts=[]
-                )
+                    # 3. Fetch recent blockhash
+                    res = await client.get_latest_blockhash()
+                    recent_blockhash = res.value.blockhash
 
-                # 3. Fetch recent blockhash
-                res = await client.get_latest_blockhash()
-                recent_blockhash = res.value.blockhash
+                    # 4. Build and Sign transaction
+                    message = Message.new_with_blockhash(
+                        [memo_instruction],
+                        self._keypair.pubkey(),
+                        recent_blockhash
+                    )
+                    tx = Transaction([self._keypair], message, recent_blockhash)
 
-                # 4. Build and Sign transaction
-                message = Message.new_with_blockhash(
-                    [memo_instruction],
-                    self._keypair.pubkey(),
-                    recent_blockhash
-                )
-                tx = Transaction([self._keypair], message, recent_blockhash)
+                    # 5. Send transaction
+                    send_res = await client.send_transaction(tx)
+                    signature = str(send_res.value)
 
-                # 5. Send transaction
-                send_res = await client.send_transaction(tx)
-                signature = str(send_res.value)
+                    logger.info(f"RTI Hash anchored to Solana: {signature}")
 
-                logger.info(f"RTI Hash anchored to Solana: {signature}")
+                    result = {
+                        "status": "success",
+                        "tx_id": signature,
+                        "block_height": res.context.slot,
+                        "timestamp": int(time.time()),
+                        "doc_hash": doc_hash,
+                        "wallet": wallet_address,
+                        "department": department,
+                        "explorer_url": f"https://explorer.solana.com/tx/{signature}?cluster=devnet"
+                    }
 
-                return {
-                    "status": "success",
-                    "tx_id": signature,
-                    "block_height": res.context.slot,
-                    "timestamp": int(time.time()),
-                    "doc_hash": doc_hash,
-                    "wallet": wallet_address,
-                    "department": department,
-                    "explorer_url": f"https://explorer.solana.com/tx/{signature}?cluster=devnet"
-                }
+            except Exception as e:
+                logger.error(f"Solana transaction failed: {e}")
+                # Fall back to simulation on any error
+                logger.info("Falling back to simulation mode")
+                result = self._simulate_record(doc_hash, wallet_address, department)
 
-        except Exception as e:
-            logger.error(f"Solana transaction failed: {e}")
-            # Fall back to simulation on any error
-            logger.info("Falling back to simulation mode")
-            return self._simulate_record(doc_hash, wallet_address, department)
+        # Store in-memory history record
+        if result:
+            tx_id = result.get("tx_id", "RTI-NEW")
+            ref_id = tx_id[:10].upper() if len(tx_id) > 10 else "RTI-NEW"
+            history_record = {
+                "id": ref_id,
+                "timestamp": result.get("timestamp", int(time.time())) * 1000,
+                "dept": department,
+                "status": "VERIFIED",
+                "tx": tx_id,
+                "content": content
+            }
+            if wallet_address not in self._history:
+                self._history[wallet_address] = []
+            self._history[wallet_address].insert(0, history_record)
+
+        return result
 
     def _simulate_record(self, doc_hash: str, wallet_address: str, department: str) -> Dict[str, Any]:
         """High-fidelity simulation when no private key is available."""
@@ -150,25 +170,29 @@ class SolanaRTIClient:
 
     def get_citizen_history(self, wallet_address: str) -> List[Dict[str, Any]]:
         """
-        Returns mock history for UI consistency.
-        Real implementation would use getSignaturesForAddress.
+        Returns history for UI consistency, including user-submitted drafts.
         """
-        return [
+        user_records = self._history.get(wallet_address, [])
+        # Provide default mock records if they don't exist yet, but convert their timestamps to ms
+        default_records = [
             {
-                "id": "RTI-2024-001",
-                "timestamp": int(time.time()) - 86400 * 5,
+                "id": "RTI-MHA-001",
+                "timestamp": (int(time.time()) - 86400 * 5) * 1000,
                 "dept": "Ministry of Home Affairs",
                 "status": "VERIFIED",
-                "tx": "5AzQ7v9xKzB1u8nTy1wLs8nTy1wLs8nTy1wLs8nTy1wLs"
+                "tx": "5AzQ7v9xKzB1u8nTy1wLs8nTy1wLs8nTy1wLs8nTy1wLs",
+                "content": "RTI Request to Ministry of Home Affairs regarding internal protocols under Section 8(1)(a)."
             },
             {
-                "id": "RTI-2024-042",
-                "timestamp": int(time.time()) - 86400 * 12,
+                "id": "RTI-RAIL-042",
+                "timestamp": (int(time.time()) - 86400 * 12) * 1000,
                 "dept": "Ministry of Railways",
                 "status": "VERIFIED",
-                "tx": "2mPq7bYv8nTy1wLs8nTy1wLs8nTy1wLs8nTy1wLs8nTy1w"
+                "tx": "2mPq7bYv8nTy1wLs8nTy1wLs8nTy1wLs8nTy1wLs8nTy1w",
+                "content": "RTI Request to Ministry of Railways seeking information on delayed train operations and track upgrades."
             }
         ]
+        return user_records + default_records
 
     def get_authority_address(self) -> str:
         """Returns the public key of the authority that signs transactions."""

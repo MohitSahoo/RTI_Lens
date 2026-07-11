@@ -16,7 +16,9 @@ import {
   Clock,
   AlertCircle,
   Database,
-  Globe
+  Globe,
+  FileText,
+  X
 } from 'lucide-react';
 import { GlassCard } from '../ui/GlassCard';
 
@@ -26,13 +28,13 @@ interface BlockchainRecord {
   dept: string;
   status: string;
   tx: string;
+  content?: string;
 }
 
 const BlockchainTracker: React.FC = () => {
   const { publicKey, connected } = useWallet();
 
   const [rtiContent, setRtiContent] = useState<string>('');
-  const [isEncrypted, setIsEncrypted] = useState(false);
   const [department, setDepartment] = useState('Ministry of Finance');
   const [filingLevel, setFilingLevel] = useState('Initial Application');
   const [isHashing, setIsHashing] = useState(false);
@@ -43,6 +45,7 @@ const BlockchainTracker: React.FC = () => {
   const [govPublicKey, setGovPublicKey] = useState("Loading...");
   const [networkStats, setNetworkStats] = useState({ slot: 0, tps: 0 });
   const [ministries, setMinistries] = useState<string[]>([]);
+  const [selectedRecord, setSelectedRecord] = useState<BlockchainRecord | null>(null);
 
   const walletAddress = publicKey ? publicKey.toBase58() : '';
   const displayAddress = walletAddress ? `${walletAddress.slice(0, 4)}...${walletAddress.slice(-4)}` : '';
@@ -115,6 +118,10 @@ const BlockchainTracker: React.FC = () => {
     };
     fetchKeys();
 
+    if (connected && publicKey) {
+      window.localStorage.setItem('solana_wallet', publicKey.toBase58());
+    }
+
     // Fetch real history from backend if wallet is connected
     const fetchHistory = async () => {
       if (connected && publicKey) {
@@ -141,12 +148,13 @@ const BlockchainTracker: React.FC = () => {
       alert("Please connect your Phantom wallet first.");
       return;
     }
+
+    window.localStorage.setItem('solana_wallet', publicKey.toBase58());
     
     setStatus('hashing');
     setIsHashing(true);
     
     try {
-      let encryptedContent = null;
       let actualContent = rtiContent.trim();
 
       // If no text provided, use default
@@ -154,63 +162,7 @@ const BlockchainTracker: React.FC = () => {
         actualContent = `RTI Request to ${department} - ${filingLevel}\n\n[No specific details provided]`;
       }
 
-      if (isEncrypted) {
-        // Real Backend Encryption with actual content
-        const formalRTI = `
-FORMAL RTI APPLICATION (ENCRYPTED VIA SOLANA PKI)
-================================================
-REF ID: RTI-${Math.floor(Math.random() * 1000000)}
-TIMESTAMP: ${new Date().toISOString()}
-CITIZEN SIG: ${publicKey?.toBase58() || 'ANONYMOUS'}
-
-[APPLICATION DETAILS]
---------------------
-TARGET DEPARTMENT: ${department}
-FILING CATEGORY: ${filingLevel}
-SUBMISSION TYPE: Text-based RTI Request
-
-[ACTUAL RTI CONTENT]
---------------------
-${actualContent}
-
-[BLOCKCHAIN VERIFICATION]
--------------------------
-This submission has been cryptographically hashed and anchored to the Solana blockchain.
-The immutable proof-of-submission ensures this document cannot be backdated or altered.
-
-*** END OF SECURE TRANSMISSION ***
-        `.trim();
-
-        const formData = new FormData();
-        formData.append('data', formalRTI);
-        
-        try {
-          const encResponse = await fetch('/api/blockchain/gov/encrypt', { method: 'POST', body: formData });
-          if (!encResponse.ok) throw new Error("API Error");
-          const encResult = await encResponse.json();
-          encryptedContent = encResult.encrypted_data;
-        } catch (e) {
-          console.warn("Backend Encryption Service Offline - Using High-Fidelity Simulation Fallback", e);
-          encryptedContent = btoa(formalRTI); // Use Base64 as a mock cipher for the demo
-        }
-
-        // Transfer to Government Simulation Inbox immediately after encryption
-        const govInbox = JSON.parse(localStorage.getItem('gov_inbox') || '[]');
-        const simId = `RTI-2026-${Math.floor(Math.random() * 1000)}`;
-        govInbox.unshift({
-          id: simId,
-          sender: displayAddress,
-          timestamp: Date.now(),
-          encrypted_content: encryptedContent,
-          dept: department,
-          status: 'Received',
-          blockchain_tx: '', // Will be updated after blockchain submission
-          doc_hash: ''
-        });
-        localStorage.setItem('gov_inbox', JSON.stringify(govInbox));
-      }
-
-      // Real Blockchain Submission
+      // Solana memo anchoring only
       const formData = new FormData();
       formData.append('wallet', publicKey?.toBase58() || '');
       formData.append('department', department);
@@ -242,21 +194,12 @@ The immutable proof-of-submission ensures this document cannot be backdated or a
           timestamp: submitResult.timestamp ? submitResult.timestamp * 1000 : Date.now(),
           dept: submitResult.department || department,
           status: 'VERIFIED',
-          tx: submitResult.tx_id || ''
+          tx: submitResult.tx_id || '',
+          content: actualContent
         };
 
         console.log('New record created:', newRecord);
         setHistory([newRecord, ...history]);
-
-        // Update government inbox with blockchain transaction ID if encryption was used
-        if (isEncrypted) {
-          const govInbox = JSON.parse(localStorage.getItem('gov_inbox') || '[]');
-          if (govInbox.length > 0) {
-            govInbox[0].blockchain_tx = submitResult.tx_id;
-            govInbox[0].doc_hash = submitResult.doc_hash;
-            localStorage.setItem('gov_inbox', JSON.stringify(govInbox));
-          }
-        }
 
         setTimeout(() => setStatus('idle'), 5000);
       }, 2000);
@@ -308,7 +251,7 @@ The immutable proof-of-submission ensures this document cannot be backdated or a
                   className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm outline-none focus:border-primary/50 transition-all min-h-[200px] resize-y"
                 />
                 <p className="text-[10px] text-white/40 italic">
-                  Your request will be encrypted and anchored to the blockchain. Only the hash is stored on-chain for immutability.
+                  Your request will be hashed and anchored to Solana. Only the digest and memo metadata are stored on-chain for immutability.
                 </p>
               </div>
 
@@ -350,23 +293,15 @@ The immutable proof-of-submission ensures this document cannot be backdated or a
 
               <div className="p-4 rounded-xl bg-primary/5 border border-primary/20 flex justify-between items-center">
                 <div className="flex items-center gap-3">
-                  <div className={`w-8 h-8 rounded-lg flex items-center justify-center transition-colors ${isEncrypted ? 'bg-primary text-background' : 'bg-white/5 text-white/30'}`}>
+                  <div className="w-8 h-8 rounded-lg flex items-center justify-center bg-primary text-background">
                     <Lock size={16} />
                   </div>
                   <div>
-                    <h5 className="text-xs font-bold">End-to-End Encryption</h5>
-                    <p className="text-[10px] text-white/40">Encrypt with Government's Public Key</p>
+                    <h5 className="text-xs font-bold">Solana Memo Anchoring</h5>
+                    <p className="text-[10px] text-white/40">Wallet, department, and hash recorded on-chain</p>
                   </div>
                 </div>
-                <button 
-                  onClick={() => setIsEncrypted(!isEncrypted)}
-                  className={`w-12 h-6 rounded-full transition-all relative ${isEncrypted ? 'bg-primary' : 'bg-white/10'}`}
-                >
-                  <motion.div 
-                    animate={{ x: isEncrypted ? 24 : 4 }}
-                    className="absolute top-1 w-4 h-4 rounded-full bg-white shadow-lg"
-                  />
-                </button>
+                <div className="text-[10px] font-bold uppercase tracking-widest text-success">ON</div>
               </div>
 
               <button 
@@ -547,6 +482,15 @@ The immutable proof-of-submission ensures this document cannot be backdated or a
                   </td>
                   <td className="py-4 px-4 text-right">
                     <div className="flex justify-end gap-2">
+                      {record.content && (
+                        <button 
+                          onClick={() => setSelectedRecord(record)}
+                          className="p-2 rounded-lg bg-white/5 text-white/40 hover:text-primary hover:bg-primary/10 transition-all animate-pulse" 
+                          title="Read Draft Details"
+                        >
+                          <FileText size={14} className="text-cyan-300" />
+                        </button>
+                      )}
                       <button className="p-2 rounded-lg bg-white/5 text-white/40 hover:text-primary hover:bg-primary/10 transition-all" title="View Certificate">
                         <Shield size={14} />
                       </button>
@@ -562,6 +506,57 @@ The immutable proof-of-submission ensures this document cannot be backdated or a
           )}
         </div>
       </GlassCard>
+
+      {/* Record Details Modal to read the draft */}
+      <AnimatePresence>
+        {selectedRecord && (
+          <div className="fixed inset-0 z-50 flex items-center justify-center bg-background/90 p-4 backdrop-blur-2xl">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.97, y: 16 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              exit={{ opacity: 0, scale: 0.97, y: 16 }}
+              className="flex h-[80vh] w-full max-w-4xl flex-col overflow-hidden rounded-[28px] border border-white/10 bg-[#0B1020] shadow-2xl"
+            >
+              <div className="flex items-center justify-between border-b border-white/8 px-6 py-5 lg:px-8">
+                <div>
+                  <div className="text-[10px] font-bold uppercase tracking-[0.3em] text-cyan-300/70">Anchored Draft Record</div>
+                  <h3 className="mt-2 text-2xl font-black text-white">{selectedRecord.id}</h3>
+                  <p className="mt-1 text-[11px] uppercase tracking-[0.22em] text-white/35">
+                    {selectedRecord.dept} • {new Date(selectedRecord.timestamp).toLocaleString()}
+                  </p>
+                </div>
+                <button
+                  onClick={() => setSelectedRecord(null)}
+                  className="rounded-full border border-white/10 bg-white/[0.04] p-3 text-white/60 transition hover:border-white/20 hover:text-white"
+                >
+                  <X size={18} />
+                </button>
+              </div>
+
+              <div className="flex-1 overflow-y-auto px-6 py-6 lg:px-8">
+                <div className="whitespace-pre-wrap rounded-[24px] border border-white/8 bg-white/[0.03] p-6 font-mono text-[13px] leading-7 text-white/75">
+                  {selectedRecord.content}
+                </div>
+              </div>
+
+              <div className="border-t border-white/8 px-6 py-4 flex justify-between items-center text-xs text-white/40">
+                <div className="flex items-center gap-2">
+                  <Shield size={14} className="text-success" />
+                  <span>On-Chain Integrity Intact</span>
+                </div>
+                <a
+                  href={`https://explorer.solana.com/tx/${selectedRecord.tx}?cluster=devnet`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary hover:underline flex items-center gap-1 font-mono"
+                >
+                  TX: {selectedRecord.tx.slice(0, 12)}... <ExternalLink size={12} />
+                </a>
+              </div>
+            </motion.div>
+          </div>
+        )}
+      </AnimatePresence>
     </div>
   );
 };

@@ -25,7 +25,7 @@ if OPENAI_API_KEY and OPENAI_API_KEY != "your_openai_api_key_here":
 
 # Server settings
 API_HOST = os.getenv("API_HOST", "0.0.0.0")
-API_PORT = int(os.getenv("API_PORT", "8001"))
+API_PORT = int(os.getenv("API_PORT", "8002"))
 
 # Rate limiting
 RATE_LIMIT = "60/minute"
@@ -51,7 +51,7 @@ GROQ_API_KEYS = [key for key in (GROQ_API_KEY_1, GROQ_API_KEY_2, GROQ_API_KEY_3)
 
 # Gemini settings
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-1.5-flash")
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
 
 # MongoDB Vector Store
 MONGODB_URI = os.getenv("MONGODB_URI", "mongodb://localhost:27017/")

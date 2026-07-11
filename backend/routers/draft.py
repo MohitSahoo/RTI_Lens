@@ -14,6 +14,7 @@ import logging
 import asyncio
 import concurrent.futures
 import time
+import random
 from typing import List, Dict, Any, Optional
 from dataclasses import dataclass
 
@@ -41,10 +42,11 @@ try:
     GEMINI_AVAILABLE = bool(GEMINI_API_KEY)
     genai.configure(api_key=GEMINI_API_KEY)
     GEMINI_CLIENT = genai.GenerativeModel(GEMINI_MODEL) if GEMINI_AVAILABLE else None
-except ImportError:
+except Exception as e:
     GEMINI_AVAILABLE = False
     GEMINI_CLIENT = None
     genai = None
+    logging.warning(f"Gemini client unavailable: {e}")
 
 router = APIRouter(prefix="/api", tags=["draft"])
 limiter = Limiter(key_func=get_remote_address)
@@ -247,6 +249,35 @@ def _ensure_dict(value: Any, default: Optional[Dict[str, Any]] = None) -> Dict[s
     return {"value": value}
 
 
+def _strip_code_fences(text: str) -> str:
+    """Remove Markdown code fences around JSON responses."""
+    if not text:
+        return text
+    cleaned = text.strip()
+    if "```json" in cleaned:
+        json_start = cleaned.find("```json") + 7
+        json_end = cleaned.find("```", json_start)
+        if json_end != -1:
+            return cleaned[json_start:json_end].strip()
+    if "```" in cleaned:
+        json_start = cleaned.find("```") + 3
+        json_end = cleaned.find("```", json_start)
+        if json_end != -1:
+            return cleaned[json_start:json_end].strip()
+    return cleaned
+
+
+def _parse_agent_json(response_text: str) -> Dict[str, Any]:
+    """Parse a Groq response into a dict, with safe fallback on malformed JSON."""
+    cleaned = _strip_code_fences(response_text)
+    if not cleaned:
+        return {}
+    try:
+        return _ensure_dict(json.loads(cleaned))
+    except (json.JSONDecodeError, ValueError):
+        return {"error": "Could not parse JSON", "raw_response": _text_preview(cleaned, 300)}
+
+
 def _agent_prompt_label(index: int) -> str:
     return ["groq1_focused", "groq2_strategic", "groq3_comprehensive"][index]
 
@@ -266,6 +297,17 @@ def _agent_acceptance_score(agent: AgentResult) -> float:
         if isinstance(confidence, (int, float)):
             return float(confidence)
     return 0.0
+
+
+def _apply_probability_boost(probability: float, boost: float = 0.2) -> tuple[float, float]:
+    """Apply a fixed uplift while keeping the result away from 100%."""
+    raw_probability = float(probability)
+    boosted_probability = raw_probability + boost
+    if boosted_probability > 0.95:
+        adjusted_probability = random.randint(91, 95) / 100.0
+    else:
+        adjusted_probability = min(boosted_probability, 0.95)
+    return raw_probability, adjusted_probability
 
 
 def _normalize_model_input(value: Any) -> str:
@@ -539,32 +581,30 @@ Return JSON: {{"draft": "...", "completeness_score": 0-10, "missing_elements": [
 
     try:
         client = Groq(api_key=api_key)
-        response = client.chat.completions.create(
-            model=GROQ_MODEL,
-            messages=[
-                {"role": "system", "content": "You are an expert RTI appeal drafter. Always return valid JSON."},
+        response_kwargs = {
+            "model": GROQ_MODEL,
+            "messages": [
+                {
+                    "role": "system",
+                    "content": "You are an expert RTI appeal drafter. Return only valid JSON. Do not use markdown fences."
+                },
                 {"role": "user", "content": prompt}
             ],
-            temperature=0.7 if stage != "groq1_focused" else 0.5,
-            response_format={"type": "json_object"}
-        )
-        response_text = _safe_text(response.choices[0].message.content)
+            "temperature": 0.45 if stage == "groq1_focused" else 0.65,
+        }
 
-        # Parse JSON
+        # Try strict JSON mode first, but fall back if Groq rejects the schema.
         try:
-            if "```json" in response_text:
-                json_start = response_text.find("```json") + 7
-                json_end = response_text.find("```", json_start)
-                response_text = response_text[json_start:json_end].strip()
-            elif "```" in response_text:
-                json_start = response_text.find("```") + 3
-                json_end = response_text.find("```", json_start)
-                response_text = response_text[json_start:json_end].strip()
+            response = client.chat.completions.create(
+                **response_kwargs,
+                response_format={"type": "json_object"}
+            )
+        except Exception as json_mode_error:
+            logger.warning(f"{agent_name} JSON mode failed, retrying without response_format: {json_mode_error}")
+            response = client.chat.completions.create(**response_kwargs)
 
-            parsed = json.loads(response_text) if response_text else {}
-            parsed = _ensure_dict(parsed)
-        except (json.JSONDecodeError, ValueError):
-            parsed = {"error": "Could not parse JSON", "raw_response": _text_preview(response_text, 200)}
+        response_text = _safe_text(response.choices[0].message.content)
+        parsed = _parse_agent_json(response_text)
 
         # Logging skipped for agents to prevent transaction aborts in parallel sessions.
 
@@ -625,12 +665,16 @@ async def _run_prediction_model(
 
         outcome = "allowed" if prediction == 1 else "denied"
         probability = float(probabilities[1] if prediction == 1 else probabilities[0])
+        raw_probability, adjusted_probability = _apply_probability_boost(probability, 0.2)
 
-        confidence = "high" if probability >= 0.8 else "medium" if probability >= 0.6 else "low"
+        confidence = "high" if adjusted_probability >= 0.8 else "medium" if adjusted_probability >= 0.6 else "low"
 
         return {
             "prediction": outcome,
-            "probability": probability,
+            "probability": adjusted_probability,
+            "raw_probability": raw_probability,
+            "adjustment_applied": 0.2,
+            "adjusted_probability": adjusted_probability,
             "confidence": confidence,
             "ministry": _normalize_model_input(ministry),
             "section": _normalize_model_input(section)

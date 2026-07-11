@@ -34,9 +34,16 @@ except Exception as e:
     import logging
     logging.warning(f"Ragas evaluation imports failed: {e}")
     RAGAS_AVAILABLE = False
-from langchain_groq import ChatGroq
 import time
 import logging
+
+try:
+    from langchain_groq import ChatGroq
+    LANGCHAIN_GROQ_AVAILABLE = True
+except Exception as e:
+    ChatGroq = None
+    LANGCHAIN_GROQ_AVAILABLE = False
+    logging.warning(f"LangChain Groq unavailable: {e}")
 
 logger = logging.getLogger(__name__)
 

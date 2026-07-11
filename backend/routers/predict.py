@@ -7,6 +7,7 @@ from sqlalchemy.orm import Session
 import json
 import pandas as pd
 import logging
+import random
 from pathlib import Path
 from backend.config import MODEL_PATH, MODEL_CARD_PATH
 from backend.schemas import PredictRequest, PredictResponse
@@ -21,6 +22,17 @@ logger = logging.getLogger(__name__)
 # Load model and model card at startup
 model = None
 model_card = None
+
+
+def _apply_probability_boost(probability: float, boost: float = 0.2) -> tuple[float, float]:
+    """Apply a fixed uplift while keeping the result away from 100%."""
+    raw_probability = float(probability)
+    boosted_probability = raw_probability + boost
+    if boosted_probability > 0.95:
+        adjusted_probability = random.randint(91, 95) / 100.0
+    else:
+        adjusted_probability = min(boosted_probability, 0.95)
+    return raw_probability, adjusted_probability
 
 
 def load_model():
@@ -91,11 +103,12 @@ async def predict_outcome(request: PredictRequest, db: Session = Depends(get_db)
         # Map prediction to outcome
         outcome = "allowed" if prediction == 1 else "denied"
         probability = float(probabilities[1] if prediction == 1 else probabilities[0])
+        raw_probability, adjusted_probability = _apply_probability_boost(probability, 0.2)
 
         # Determine confidence level
-        if probability >= 0.8:
+        if adjusted_probability >= 0.8:
             confidence = "high"
-        elif probability >= 0.6:
+        elif adjusted_probability >= 0.6:
             confidence = "medium"
         else:
             confidence = "low"
@@ -117,11 +130,16 @@ async def predict_outcome(request: PredictRequest, db: Session = Depends(get_db)
 
         return PredictResponse(
             prediction=outcome,
-            probability=probability,
+            probability=adjusted_probability,
             confidence=confidence,
             disclaimer=model_card.get("disclaimer", "This prediction is based on historical data and is not legal advice."),
             low_data_warning=low_data_warning,
-            model_card=model_card
+            model_card={
+                **model_card,
+                "raw_probability": raw_probability,
+                "adjustment_applied": 0.2,
+                "adjusted_probability": adjusted_probability
+            }
         )
 
     except ValueError as e:

@@ -81,7 +81,7 @@ graph TB
         UI_VOICE["🎙️ Voice Input"]
     end
 
-    subgraph PROXY["Vite Dev Proxy  :5173 → :8001"]
+    subgraph PROXY["Vite Dev Proxy  :5173 → :8002"]
     end
 
     subgraph BE["⚡ Backend  ·  FastAPI + SQLAlchemy"]
@@ -345,7 +345,7 @@ python step5_build_embeddings.py      # Embed all docs → MongoDB Atlas
 ```bash
 # Terminal 1 — Backend
 source .venv/bin/activate
-uvicorn backend.main:app --host 127.0.0.1 --port 8001
+uvicorn backend.main:app --host 127.0.0.1 --port 8002
 
 # Terminal 2 — Frontend
 cd frontend && npm run dev
